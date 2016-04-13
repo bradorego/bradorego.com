@@ -4,7 +4,7 @@
    "description": "After almost a year of inactivity, it's finally time to get this site back in line and my blog up and running on a regular basis. One of the best things I can do as a young and aspiring designer is to constantly analyze my world, and to put my thoughts out there.",
    "draft": false,
    "image": "/img/posts/new-site/header.png",
-   "publishdate": "2012-11-2T14:47:36-05:00",
+   "publishdate": "2012-11-23T14:47:36-05:00",
    "tags": [
       "new site",
       "meta",
