@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Barry Schwartz on bradorego.com</title>
+    <link>http://hugo.spf13.com/tags/barry-schwartz/</link>
+    <description>Recent content in Barry Schwartz on bradorego.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Feb 2013 16:22:57 -0500</lastBuildDate>
+    <atom:link href="http://hugo.spf13.com/tags/barry-schwartz/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Note-taking</title>
+      <link>http://hugo.spf13.com/2013-02-note-taking</link>
+      <pubDate>Wed, 27 Feb 2013 16:22:57 -0500</pubDate>
+      
+      <guid>http://hugo.spf13.com/2013-02-note-taking</guid>
+      <description>&lt;p&gt;I have a habit when it comes to books. When I read a book, I almost always underline/take notes in the margin. I started doing so sometime in high school, when Literature teachers started telling us it was okay to write in books. The practice carried me through my studies, and I&amp;rsquo;ve enjoyed it so much it&amp;rsquo;s spilled over into my personal/leisure reading (mind you, all of my leisure reading is non-fiction). You can actually tell which books in my personal collection were books I really enjoyed/valued based on how heavily marked up they are.&lt;/p&gt;
+
+&lt;p&gt;Since graduating from college, I&amp;rsquo;ve started a new version of the practice. Now, after finishing a book (sometimes immediately, but usually after a little time), I go back through the book and look over all of the underlining and notes I took. Generally speaking, when I underline something, it&amp;rsquo;s because it had a certian salience or value to me at the time. So, as I recount these notes, I take a mini post-it note and write whatever value I was trying to glean from it, and then I stick it to the margin of that page. The results look something like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://hugo.spf13.com/img/posts/notetaking/paradox5.jpg&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Not only does this practice reinforce what I&amp;rsquo;ve learned from that book, but it also changes the way I&amp;rsquo;ve experienced reading that book. In Barry Schwartz&amp;rsquo;s book &amp;ldquo;&lt;a href=&#34;http://www.amazon.com/Paradox-Choice-Why-More-Less/dp/0060005696&#34; target=&#34;_blank&#34;&gt;The Paradox of Choice&lt;/a&gt;&amp;rdquo;, he cites &lt;a href=&#34;http://profron.net/happiness/files/readings/Kahneman_ObjectiveHappiness.pdf&#34; target=&#34;_blank&#34;&gt;a study by Daniel Kahneman&lt;/a&gt;&amp;nbsp;which recounts the way we experience and remember the utility of something (that is, how much we enjoyed it).&lt;/p&gt;
+
+&lt;p&gt;What Kahneman et al. found is that our remembered utility is governed by two main factors:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Our experience of the peak (or most intense) portion (good/bad)&lt;/li&gt;
+&lt;li&gt;Our experience of the ending (good/bad)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;As you can imagine, this has an interesting implication for all parts of life, but particularly, for the design of user interfaces and user experiences.&lt;/p&gt;
+
+&lt;p&gt;Anecdotally, I&amp;rsquo;ve heard people (users) explain their experience with a particular piece of technology. While I don&amp;rsquo;t recall hearing much about the ending (maybe I just don&amp;rsquo;t pay attention), it seems that many users are &amp;ldquo;sold&amp;rdquo; on one particular instance where either a) the system did something cool/fun/awesome (e.g. MailChimp&amp;rsquo;s Freddie the monkey&amp;rsquo;s awesome quotes) or b) the product was particularly handy/useful in a given situation.&lt;/p&gt;
+
+&lt;p&gt;The minor details of the interface, animations, colors, typography, etc. that designers and marketing teams undoubtedly spent hours laboring over have almost no value to users. I&amp;rsquo;m sure they add to the positive experience, and &amp;ldquo;grease the slicks&amp;rdquo; between the user and their end goal, but when we really get down and think about what it is we&amp;rsquo;re designing for, the minor details that can hold projects up (should) melt away. Your perfectly-aligned-and-proportioned interface elements won&amp;rsquo;t matter at all if the user can&amp;rsquo;t do what they want/need to do with your product.&lt;/p&gt;
+
+&lt;p&gt;Schwartz also discusses an incredible array of information and concepts that I believe everyone should be aware of, such as opportunity costs, satisficing vs. maximizing, and the role of utility (esp. diminishing utility) in our daily lives. I&amp;rsquo;d highly recommend giving it a read, as I&amp;rsquo;ve personally seen benefit in my life by putting some of his suggestions into play.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

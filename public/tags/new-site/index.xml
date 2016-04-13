@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>New Site on bradorego.com</title>
+    <link>http://hugo.spf13.com/tags/new-site/</link>
+    <description>Recent content in New Site on bradorego.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Nov 2012 17:32:13 -0500</lastBuildDate>
+    <atom:link href="http://hugo.spf13.com/tags/new-site/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>New Site!</title>
+      <link>http://hugo.spf13.com/2012-11-new-site</link>
+      <pubDate>Fri, 23 Nov 2012 17:32:13 -0500</pubDate>
+      
+      <guid>http://hugo.spf13.com/2012-11-new-site</guid>
+      <description>&lt;p&gt;It only took me about 10 months, but I&amp;rsquo;ve finally gotten around to rebuilding this site to have a purpose. I originally built a personal website when I was leaving Epic with the intention of having a place to show my past work as well as a place to play around with new technologies on the web. That was, at least, the intention. If any of you were keeping tabs on it, that never actually happened. I built the site haphazardly over the course of a few days and never updated it.&lt;/p&gt;
+
+&lt;p&gt;This time around, though, it&amp;rsquo;ll be different. Two main reasons:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;I built the site on top of Drupal this time around instead of doing everything by hand. This means I&amp;rsquo;m not trying to be a whizkid web developer anymore (read: more professional) and it also means updating things is a lot easier/less painful.&lt;/li&gt;
+&lt;li&gt;I have a reason and method of keeping it up to date. If I&amp;rsquo;m blogging about usability/user experience, it&amp;rsquo;s an excuse to keep on top of things, and to keep it fresh. Plus, if I want to be a consultant, I&amp;rsquo;ve gotta show my stuff somehow, right?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I do have to give a fair bit of credit to my &lt;a href=&#34;https://zebradog.com&#34; target=&#34;_blank&#34;&gt;ZD&lt;/a&gt; family for both inspiring me and giving me some experience building sites from scratch on top of Drupal. I wouldn&amp;rsquo;t be where I am today (both in terms of skills and motivation) if not for them, and I&amp;rsquo;m looking forward to each new day with ZD.&lt;/p&gt;
+
+&lt;p&gt;I have a few ideas of blog post themes/threads (Design in the Wild, War Stories, etc.), but this blog will also likely be a mixture of professional, personal, and possibly-insane. It&amp;rsquo;ll be fun to work on it, see it grow, populate my portfolio, etc.&lt;/p&gt;
+
+&lt;p&gt;Onward and upward.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

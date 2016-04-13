@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ditw on bradorego.com</title>
+    <link>http://hugo.spf13.com/tags/ditw/</link>
+    <description>Recent content in Ditw on bradorego.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 22 Dec 2012 14:21:58 -0500</lastBuildDate>
+    <atom:link href="http://hugo.spf13.com/tags/ditw/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>DITW: Stovetop</title>
+      <link>http://hugo.spf13.com/2012-12-ditw-stovetop</link>
+      <pubDate>Sat, 22 Dec 2012 14:21:58 -0500</pubDate>
+      
+      <guid>http://hugo.spf13.com/2012-12-ditw-stovetop</guid>
+      <description>&lt;p&gt;Sometimes we come across things that, until we see an alternative, we don&amp;rsquo;t realize there&amp;rsquo;s something better than the current option. I had this direct experience when I moved into my current apartment in August, and tried to cook for the first time.&lt;/p&gt;
+
+&lt;p&gt;Oftentimes we get stuck thinking about UX or UI in context of software design. Donald Norman&amp;rsquo;s book &lt;a href=&#34;http://www.amazon.com/Design-Everyday-Things-Donald-Norman/dp/0465067107&#34; target=&#34;_blank&#34;&gt;The Design of Everyday Things&lt;/a&gt; takes a look at how the design of objects in the physical world can affect our experience using those objects, and it forever changed the way I look at the world. The Design in the Wild (DITW) series is my personal look at my encounters with various objects in the physical world and what their design tells us.&lt;/p&gt;
+
+&lt;p&gt;Everyone, at one point or another, has at least seen a stovetop. Hopefully, most of us have used a stovetop at some point in our lives. Think back to the very first time you did this. How long did it take you to figure out which knob related to which burner? How many times, when you were first starting to cook, would you accidentally turn on the wrong burner at first? What we&amp;rsquo;re discussing here is a failure of mapping. Mapping is a concept in usability that relates the controls to the outputs.&lt;/p&gt;
+
+&lt;p&gt;In most cases, stovetops provide a linear set of controls (the knobs, in a row) in order to map onto a 2-D set of outputs (the burners, on a grid). Sometimes you&amp;rsquo;re lucky enough to have a light to tell you if there&amp;rsquo;s a hot surface, as well, like so:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://hugo.spf13.com/img/posts/ditw-stovetop/normal-stove2.jpg&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;My current apartment&amp;rsquo;s kitchen has something I don&amp;rsquo;t recall seeing before, and it makes the cooking experience so much easier:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://hugo.spf13.com/img/posts/ditw-stovetop/my-stove1.jpg&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;There are several small features about this range that make so much more sense than the traditional setup. For one, the knobs are laid out the same way the burners are, so I don&amp;rsquo;t even have to think about or ask which knob controls which burner. It&amp;rsquo;s self-evident. There are also four individual lights - one for each burner. The self-evidence is wonderful. The only real complaint I have about this range is that these four lights could be slightly more useful if they a) stayed on after I turned the burner off for as long as that burner was hot, and/or b) had a dimmer to tell me how hot the burner was. If I put it on 1 or on 7, I get the same amount of light. Beggars can&amp;rsquo;t be choosers, though.&lt;/p&gt;
+
+&lt;p&gt;As it turns out, this exact example of mapping was discussed by Donald Norman himself in the Design of Everyday Things. In fact, that&amp;rsquo;s where the header image comes from. So this idea is far from new. The bigger question, though, is why it hasn&amp;rsquo;t been put into practice. I can&amp;rsquo;t imagine there&amp;rsquo;s a lot of inertia preventing this change. If anything, being stuck in our own ways is holding us back from a more intuitive cooking experience.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
