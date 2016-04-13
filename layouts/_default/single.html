@@ -1,0 +1,18 @@
+{{ partial "header.html" . }}
+
+    {{ partial "page-header.html" . }}
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            {{ partial "bootstrap-div.html" . }}
+              {{ .Content }}
+              <p class="post-meta">
+                {{ partial "posted-on-in.html" .}}
+              </p>
+            </div>
+        </div>
+    </div>
+
+
+{{ partial "footer.html" . }}

@@ -1,0 +1,121 @@
+/*!
+ * Start Bootstrap - Simple Sidebar HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Toggle Styles */
+
+@animation-speed: 0.3s;
+@menu-size: 250px;
+@sidebar-text: @brand-primary;
+@sidebar-bg: @gray-dark;
+
+/// ionicon size overrides ///
+.ion-32 {
+  font-size: 32px;
+}
+.ion-24 {
+  font-size: 24px;
+}
+
+
+#page-content-wrapper,
+#sidebar-wrapper,
+.floating-button {
+  -webkit-transition: all @animation-speed ease;
+  -moz-transition: all @animation-speed ease;
+  -o-transition: all @animation-speed ease;
+  transition: all @animation-speed ease;
+}
+
+#wrapper {
+  &.toggled {
+    #page-content-wrapper,
+    #sidebar-wrapper,
+    .floating-button {
+      -webkit-transform: translateX(-@menu-size);
+      -ms-transform: translateX(-@menu-size);
+          transform: translateX(-@menu-size);
+    }
+  }
+}
+
+#page-content-wrapper {
+  .container {
+    @media (min-width: 1200px) {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+
+#sidebar-wrapper {
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: @menu-size;
+  right: -@menu-size;
+  overflow-y: auto;
+  background: @sidebar-bg;
+  @media (min-width: 1200px) {
+    right: -25px;
+  }
+  img {
+    position: absolute;
+    bottom: 30px;
+    margin: auto;
+    left: 75px;
+    width: 100px;
+  }
+}
+
+#page-content-wrapper {
+  width: 100%;
+}
+
+#wrapper.toggled {
+  .menu-toggle {
+    background: @sidebar-bg;
+    color: @sidebar-text;
+    &::before {
+      content: "\f129";
+    }
+  }
+}
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+  padding: 0;
+  padding-top: 20px;
+  li {
+    text-indent: 20px;
+    line-height: 40px;
+    a {
+      display: block;
+      color: @sidebar-text;
+      &:hover {
+        text-decoration: none;
+        // color: #fff;
+        background: rgba(255,255,255,0.2);
+      }
+      &:active,
+      &:focus {
+        text-decoration: none;
+      }
+    }
+  }
+  > .sidebar-brand {
+    height: 65px;
+    line-height: 60px;
+    a {
+      color: @sidebar-text;
+      &:hover {
+        // color: #fff;
+        background: none;
+      }
+    }
+  }
+}

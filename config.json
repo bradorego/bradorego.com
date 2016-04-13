@@ -1,0 +1,44 @@
+{
+  "baseurl": "http://hugo.spf13.com/",
+  "languageCode": "en-us",
+  "title": "bradorego.com",
+  "description": "Musings about UX, product design, user research, dance, ultimate, curling, and beer pancakes.",
+  "theme": "startbootstrap-clean-blog",
+  "buildDrafts": true,
+  "buildFuture": false,
+  "metaDataFormat": "json",
+  "paginate": 1000,
+  "paginatePath": "page",
+  "permalinks": {
+    "post": "/:year-:month-:title"
+  },
+  "params": {
+    "Author": "Brad Orego",
+    "Title": "bradorego.com",
+    "Subtitle": "Musings about UX, product design, user research, dance, ultimate, curling, and beer pancakes.",
+    "DateForm": "January 2, 2006",
+    "Description": "Musings about UX, product design, user research, dance, ultimate, curling, and beer pancakes.",
+    "email": "me@bradorego.com",
+    "Ganalytics": "XX-00000000-0",
+    "social": [{
+      "title": "twitter",
+      "url": "https://twitter.com/bradorego"
+    },
+    {
+      "title": "github",
+      "url": "https://github.com/bradorego"
+    },
+    {
+      "title": "instagram",
+      "url": "https://instagram.com/bradorego"
+    },
+    {
+      "title": "linkedin",
+      "url": "https://linkedin.com/in/bradorego"
+    }]
+  },
+  "taxonomies": {
+    "category": "categories",
+    "tag": "tags"
+  }
+}

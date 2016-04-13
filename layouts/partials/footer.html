@@ -1,0 +1,39 @@
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    {{ partial "bootstrap-div.html" . }}
+                    <hr class="medium dark">
+                      <ul class="list-inline text-center">
+                        <li>
+                          <a href="mailto:{{ .Site.Params.email }}" target="_blank">
+                            <i class="ion-android-mail ion-32"></i>
+                          </a>
+                        </li>
+                        {{ range .Site.Params.social }}
+                        <li>
+                          <a href="{{ .url }}" target="_blank">
+                            <i class="ion-social-{{ .title }} ion-32"></i>
+                          </a>
+                        </li>
+                        {{ end }}
+                      </ul>
+                    </div>
+                </div>
+                <div class="text-center">
+                  <a href="http://rochestermade.com" title="Rochester Made">
+                    <img alt="Rochester Made" id="rochesterMade" src="http://rochestermade.com/media/images/rochester-made-dark-on-light.png" title="Rochester Made">
+                  </a>
+                </div>
+            </div> {{/* container */}}
+        </footer>
+      </div> {{/* end #page-content-wrapper */}}
+    </div> {{/* end #wrapper */}}
+
+    <script src="{{ .Site.BaseURL }}/js/all.js"></script>
+
+    {{ if isset .Site.Params "Ganalytics" }}{{ partial "ga.html" . }}{{ end }}
+
+</body>
+
+</html>

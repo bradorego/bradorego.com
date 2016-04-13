@@ -1,0 +1,13 @@
+{{ if .Params.categories }}
+    {{ $name := index .Params.categories 0 }}
+    <hr/>
+    All <b>{{title $name}}</b> posts:</p>
+
+    {{ $name := $name | urlize }}
+    {{ $categories := index .Site.Taxonomies.categories $name }}
+    <ul class="categories">
+    {{ range $categories.Pages }}
+      <li><a href="{{.Permalink}}">{{.LinkTitle}}</a></li>
+    {{end}}
+    </ul>
+{{end}} 

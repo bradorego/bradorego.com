@@ -1,0 +1,16 @@
+{
+   "categories": ["UX"],
+   "date": "2012-12-22T14:21:58-05:00",
+   "description": "Any given website isn't very usable if there's nothing to do on the site. Aside from being MIA for a month or so, I've been working on adding content to my portfolio so there's more to do on this site.",
+   "draft": false,
+   "image": "/img/posts/content/header.jpg",
+   "publishdate": "2012-12-22T14:21:58-05:00",
+   "tags": ["content", "meta", "content strategy"],
+   "title": "Content"
+}
+
+I'm going to say this straight out of the gates: this blog post is kind of a cop-out. There have been a ton of changes in my life lately, so I've been a little MIA when it comes to this blog. One of the things I've been trying to do, though, finally (~3 months after launching the new site) is to populate my portfolio a bit more so people have stuff to look at. People like looking at stuff.
+
+There are a handful of new entries for web and media projects I've worked on with <a href="http://zebradog.com" target="_blank">Zebradog</a>, one or two freelance/side-project pieces, and a whole slew of dance items. Art is still forthcoming, as is any updates on <a href="http://gettrinker.com" target="_blank">Trinker</a> (we've had a big month, and February will continue to be so).
+
+Content is, however, one of the pieces of UX that I neglect the most. I'm always an advocate for designing with the content in mind, but I usually write it off as "some text" or "an image and some text", or some generalization of what the content actually is. The volume of content is incredibly important, and can really make or break a design if appropriate consideration isn't taken. There's a lot of material out there about content strategy, so that would probably be a good place to look if you wanted to brush up on it.

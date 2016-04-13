@@ -1,0 +1,8 @@
+{{if not .Params.noposted }} Posted {{end}} {{ if .IsPage}} {{if not .Date.IsZero}} on {{ dateFormat .Site.Params.DateForm .Date }} {{ end }} {{ end }}
+{{ if .Params.categories }}
+  in {{ partial "categories.html" .}}
+{{ end }}
+{{ if .Params.tags }}
+  <br />
+  Tags: {{ partial "tags.html" .}}
+{{ end }}

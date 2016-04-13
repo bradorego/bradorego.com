@@ -1,0 +1,18 @@
+<!-- Page Header -->
+<!-- Set your background image for this header on the line below. -->
+<header class="intro-header">
+  <div class="bg-image" style="background-image: url('{{ .Site.BaseURL }}/{{if isset .Params "image"}}{{.Params.image}}{{else}}img/home-bg.jpg{{end}}')"></div>
+  <div class="container">
+    <div class="row">
+       {{ partial "bootstrap-div.html" .}}
+         <div class="post-heading text-center">
+           <h1>{{ .Title }}</h1>
+           {{if .Description}}
+             <hr class="small" />
+             <h3 class="subheading">{{ .Description }}</h3>
+            {{ end }}
+         </div>
+       </div>
+    </div>
+  </div>
+</header>
