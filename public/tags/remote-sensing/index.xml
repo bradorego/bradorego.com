@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Remote Sensing on bradorego.com</title>
-    <link>http://hugo.spf13.com/tags/remote-sensing/</link>
+    <link>https://bradorego.aerobatic.io/tags/remote-sensing/</link>
     <description>Recent content in Remote Sensing on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 11 Mar 2013 17:21:36 -0500</lastBuildDate>
-    <atom:link href="http://hugo.spf13.com/tags/remote-sensing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bradorego.aerobatic.io/tags/remote-sensing/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Foursquare Heatmap &amp; Remote Sensing</title>
-      <link>http://hugo.spf13.com/2013-03-foursquare-heatmap--remote-sensing</link>
+      <link>https://bradorego.aerobatic.io/2013-03-foursquare-heatmap--remote-sensing</link>
       <pubDate>Mon, 11 Mar 2013 17:21:36 -0500</pubDate>
       
-      <guid>http://hugo.spf13.com/2013-03-foursquare-heatmap--remote-sensing</guid>
+      <guid>https://bradorego.aerobatic.io/2013-03-foursquare-heatmap--remote-sensing</guid>
       <description>
 
 &lt;p&gt;A little over a month ago (technically during the &lt;a href=&#34;https://www.hackerleague.org/hackathons/foursquare-hackathon-2013&#34; target=&#34;_blank&#34;&gt;Foursquare Hackathon&lt;/a&gt;, but I was working from home due to &lt;a href=&#34;http://midwestultimate.com/red-eye&#34; target=&#34;_blank&#34;&gt;Red Eye&lt;/a&gt;) I spent a few hours one weekend hacking together an idea I&amp;rsquo;d come up with when working on Foursquare integration for &lt;a href=&#34;http://gettrinker.com&#34; target=&#34;_blank&#34;&gt;Trinker&lt;/a&gt;. What I discovered while playing with the &lt;a href=&#34;https://developer.foursquare.com/overview/venues&#34; target=&#34;_blank&#34;&gt;Venues API&lt;/a&gt; is that with one query, you can get all of the information about a bunch of different venues (I think it tops out at 30). Part of that information is, of course, the location (latitude, longitude, address), and another interesting data point: the &lt;code&gt;hereNow&lt;/code&gt; value.&lt;/p&gt;
