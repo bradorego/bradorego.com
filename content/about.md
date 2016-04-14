@@ -3,7 +3,7 @@
   "description": "He's a pretty rad dude",
   "permalink": "/about",
   "noPosted": true,
-  "image": "img/post-bg.jpg"
+  "image": "img/about.jpg"
 }
 
 Brad Orego is an Experience Designer, Web Developer, Entrepreneur, and Dancer currently located in Madison, WI. This is his web playground. Web technologies on the whole are at a point where they're so powerful and accessible that the onus is solely on the developer/designer to create elegant, engaging solutions.

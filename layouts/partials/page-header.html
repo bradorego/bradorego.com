@@ -1,7 +1,5 @@
-<!-- Page Header -->
-<!-- Set your background image for this header on the line below. -->
 <header class="intro-header">
-  <div class="bg-image" style="background-image: url('{{ .Site.BaseURL }}/{{if isset .Params "image"}}{{.Params.image}}{{else}}img/home-bg.jpg{{end}}')"></div>
+  <div class="bg-image" style="background-image: url('{{ .Site.BaseURL }}/{{if isset .Params "image"}}{{.Params.image}}{{else}}img/default-bg0.jpg{{end}}')"></div>
   <div class="container">
     <div class="row">
        {{ partial "bootstrap-div.html" .}}
