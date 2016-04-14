@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Psychology on bradorego.com</title>
-    <link>https://bradorego.aerobatic.io/tags/psychology/</link>
+    <link>https://bradorego.com/tags/psychology/</link>
     <description>Recent content in Psychology on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 16 Mar 2013 16:38:15 -0500</lastBuildDate>
-    <atom:link href="https://bradorego.aerobatic.io/tags/psychology/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bradorego.com/tags/psychology/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>The Importance of Flow</title>
-      <link>https://bradorego.aerobatic.io/2013-03-the-importance-of-flow</link>
+      <link>https://bradorego.com/2013-03-the-importance-of-flow</link>
       <pubDate>Sat, 16 Mar 2013 16:38:15 -0500</pubDate>
       
-      <guid>https://bradorego.aerobatic.io/2013-03-the-importance-of-flow</guid>
+      <guid>https://bradorego.com/2013-03-the-importance-of-flow</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve become more and more interested in &lt;a href=&#34;http://en.wikipedia.org/wiki/Flow_(psychology)&#34; target=&#34;_blank&#34;&gt;Flow &lt;/a&gt;recently. As a psych major, flow is something I&amp;rsquo;ve been aware of for a long time, but I always thought of it as something that just happens, and never gave it much thought. It wasn&amp;rsquo;t until an unrelated talk by former psych professor &lt;a href=&#34;http://www.psych.rochester.edu/people/deci_edward/index.html&#34; target=&#34;_blank&#34;&gt;Ed Deci&lt;/a&gt; I was listening to a few months ago that got me thinking about flow in the context of UX.&lt;/p&gt;
 
 &lt;p&gt;The thing that Prof. Deci said that got me thinking was actually about humanistic psychotherapy. Deci studies motivation, and is co-creator of the esteemed &lt;a href=&#34;http://www.selfdeterminationtheory.org/&#34; target=&#34;_blank&#34;&gt;Self-Determination Theory&lt;/a&gt;. What SDT/Deci says is that intrinsic motivation is inherent in people, and it is the product of a situation that features of set of characteristics (autonomy, competence, relatedness). It is also possible (and unfortunately, very common) to thwart these needs, which leads to poor mental health, lack of motivation, etc.&lt;/p&gt;
 
 &lt;p&gt;Concidentally, research has shown a fairly high overlap between the conditions for flow and the basis of SDT. Flow requires a level of challenge that is adequately matched to the abilities of the participant (competence), the activity must have clear goals an progress (relatedness - sort of), and the task must present clear, immediate, and constant feedback, so that the participant can adjust performance. &lt;a href=&#34;http://en.wikipedia.org/wiki/Mihaly_Csikszentmihalyi&#34; target=&#34;_blank&#34;&gt;Mihaly Csikszentmihalyi&lt;/a&gt; (&amp;ldquo;cheek-sent-mee-hah-yee&amp;rdquo;), a world leader in flow, published this graph to express the relationship between challenge and skill:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bradorego.aerobatic.io/img/posts/importance-of-flow/challenge-vs-skill.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/posts/importance-of-flow/challenge-vs-skill.png&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;There are also things that can absolutely ruin flow, which is actually the motivation behind this post. I have a new worst enemy when it comes to reading stories on some popular news sites/blogs, and it&amp;rsquo;s this thing:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bradorego.aerobatic.io/img/posts/importance-of-flow/comment-box.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/posts/importance-of-flow/comment-box.png&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I hate this thing so much. Any time I&amp;rsquo;m reading a news story on TechCrunch, I&amp;rsquo;m usually immersed in the experience and enjoying the read until this little thing pops up in the lower right of my browser window. Its sudden appearance grabs my attention, and I instinctively look at it. After that, I murmur something under my breath and then go ba-&amp;hellip;wait, where was I? What was I just reading?&lt;/p&gt;
 
@@ -37,15 +37,15 @@
     
     <item>
       <title>Note-taking</title>
-      <link>https://bradorego.aerobatic.io/2013-02-note-taking</link>
+      <link>https://bradorego.com/2013-02-note-taking</link>
       <pubDate>Wed, 27 Feb 2013 16:22:57 -0500</pubDate>
       
-      <guid>https://bradorego.aerobatic.io/2013-02-note-taking</guid>
+      <guid>https://bradorego.com/2013-02-note-taking</guid>
       <description>&lt;p&gt;I have a habit when it comes to books. When I read a book, I almost always underline/take notes in the margin. I started doing so sometime in high school, when Literature teachers started telling us it was okay to write in books. The practice carried me through my studies, and I&amp;rsquo;ve enjoyed it so much it&amp;rsquo;s spilled over into my personal/leisure reading (mind you, all of my leisure reading is non-fiction). You can actually tell which books in my personal collection were books I really enjoyed/valued based on how heavily marked up they are.&lt;/p&gt;
 
 &lt;p&gt;Since graduating from college, I&amp;rsquo;ve started a new version of the practice. Now, after finishing a book (sometimes immediately, but usually after a little time), I go back through the book and look over all of the underlining and notes I took. Generally speaking, when I underline something, it&amp;rsquo;s because it had a certian salience or value to me at the time. So, as I recount these notes, I take a mini post-it note and write whatever value I was trying to glean from it, and then I stick it to the margin of that page. The results look something like this:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bradorego.aerobatic.io/img/posts/notetaking/paradox5.jpg&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/posts/notetaking/paradox5.jpg&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Not only does this practice reinforce what I&amp;rsquo;ve learned from that book, but it also changes the way I&amp;rsquo;ve experienced reading that book. In Barry Schwartz&amp;rsquo;s book &amp;ldquo;&lt;a href=&#34;http://www.amazon.com/Paradox-Choice-Why-More-Less/dp/0060005696&#34; target=&#34;_blank&#34;&gt;The Paradox of Choice&lt;/a&gt;&amp;rdquo;, he cites &lt;a href=&#34;http://profron.net/happiness/files/readings/Kahneman_ObjectiveHappiness.pdf&#34; target=&#34;_blank&#34;&gt;a study by Daniel Kahneman&lt;/a&gt;&amp;nbsp;which recounts the way we experience and remember the utility of something (that is, how much we enjoyed it).&lt;/p&gt;
 

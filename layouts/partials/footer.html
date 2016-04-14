@@ -6,13 +6,13 @@
                     <hr class="medium dark">
                       <ul class="list-inline text-center">
                         <li>
-                          <a href="mailto:{{ .Site.Params.email }}" target="_blank">
+                          <a href="mailto:{{ .Site.Params.email }}">
                             <i class="ion-android-mail ion-32"></i>
                           </a>
                         </li>
                         {{ range .Site.Params.social }}
                         <li>
-                          <a href="{{ .url }}" target="_blank">
+                          <a href="{{ .url }}">
                             <i class="ion-social-{{ .title }} ion-32"></i>
                           </a>
                         </li>

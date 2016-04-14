@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Personal on bradorego.com</title>
-    <link>https://bradorego.aerobatic.io/tags/personal/</link>
+    <link>https://bradorego.com/tags/personal/</link>
     <description>Recent content in Personal on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 23 Nov 2012 17:32:13 -0500</lastBuildDate>
-    <atom:link href="https://bradorego.aerobatic.io/tags/personal/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bradorego.com/tags/personal/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>New Site!</title>
-      <link>https://bradorego.aerobatic.io/2012-11-new-site</link>
+      <link>https://bradorego.com/2012-11-new-site</link>
       <pubDate>Fri, 23 Nov 2012 17:32:13 -0500</pubDate>
       
-      <guid>https://bradorego.aerobatic.io/2012-11-new-site</guid>
+      <guid>https://bradorego.com/2012-11-new-site</guid>
       <description>&lt;p&gt;It only took me about 10 months, but I&amp;rsquo;ve finally gotten around to rebuilding this site to have a purpose. I originally built a personal website when I was leaving Epic with the intention of having a place to show my past work as well as a place to play around with new technologies on the web. That was, at least, the intention. If any of you were keeping tabs on it, that never actually happened. I built the site haphazardly over the course of a few days and never updated it.&lt;/p&gt;
 
 &lt;p&gt;This time around, though, it&amp;rsquo;ll be different. Two main reasons:&lt;/p&gt;

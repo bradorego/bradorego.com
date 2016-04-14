@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Development on bradorego.com</title>
-    <link>https://bradorego.aerobatic.io/categories/development/</link>
+    <link>https://bradorego.com/categories/development/</link>
     <description>Recent content in Development on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 14 Apr 2016 12:26:53 -0500</lastBuildDate>
-    <atom:link href="https://bradorego.aerobatic.io/categories/development/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bradorego.com/categories/development/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Back to Static</title>
-      <link>https://bradorego.aerobatic.io/2016-04-back-to-static</link>
+      <link>https://bradorego.com/2016-04-back-to-static</link>
       <pubDate>Thu, 14 Apr 2016 12:26:53 -0500</pubDate>
       
-      <guid>https://bradorego.aerobatic.io/2016-04-back-to-static</guid>
+      <guid>https://bradorego.com/2016-04-back-to-static</guid>
       <description>
 
 &lt;p&gt;As you might be able to tell, my last blog post is from 2014. It was about time to get back on the blog horse but also give the site a little facelift. I&amp;rsquo;d &lt;a href=&#34;http://beerbatterbreakfast.com/2014/07/fancy-new-blog.html&#34;&gt;migrated blog platforms&lt;/a&gt; in the past, but never really took the time to think about how my own personal site was hosted. So let&amp;rsquo;s take a quick trip down memory lane.&lt;/p&gt;
@@ -27,7 +27,7 @@
 
 &lt;h3 id=&#34;drupal-7-0:033d80fd00ff147813ac3335ab5ced00&#34;&gt;Drupal 7.0&lt;/h3&gt;
 
-&lt;p&gt;So I set out to &lt;a href=&#34;https://bradorego.aerobatic.io/2012-11-new-site/&#34;&gt;update and re-design&lt;/a&gt; the website again, this time using something a little more powerful and modern, and to make it easier for me to create new content while still having full control and flexibility over how it&amp;rsquo;s displayed and what functionality the website had.&lt;/p&gt;
+&lt;p&gt;So I set out to &lt;a href=&#34;https://bradorego.com/2012-11-new-site/&#34;&gt;update and re-design&lt;/a&gt; the website again, this time using something a little more powerful and modern, and to make it easier for me to create new content while still having full control and flexibility over how it&amp;rsquo;s displayed and what functionality the website had.&lt;/p&gt;
 
 &lt;p&gt;After all, at ZD we&amp;rsquo;d built a lot of things on Drupal, ranging from fairly simple &lt;a href=&#34;http://www.kellerrealestategroup.com/&#34;&gt;real estate websites&lt;/a&gt; to fairly complicated &lt;a href=&#34;http://www.mstc.edu/&#34;&gt;institutional websites&lt;/a&gt; to the backbone of &lt;a href=&#34;https://www.youtube.com/watch?v=VuicjhSpbV8&#34;&gt;interactive multimedia installations&lt;/a&gt;. I could use it to build a measly blog and portfolio website, right?&lt;/p&gt;
 
@@ -51,10 +51,10 @@
     
     <item>
       <title>Progressive Enhancement with Phonegap</title>
-      <link>https://bradorego.aerobatic.io/2014-02-progressive-enhancement-with-phonegap</link>
+      <link>https://bradorego.com/2014-02-progressive-enhancement-with-phonegap</link>
       <pubDate>Thu, 20 Feb 2014 16:46:54 -0500</pubDate>
       
-      <guid>https://bradorego.aerobatic.io/2014-02-progressive-enhancement-with-phonegap</guid>
+      <guid>https://bradorego.com/2014-02-progressive-enhancement-with-phonegap</guid>
       <description>
 
 &lt;p&gt;&lt;em&gt;Note: This blog post is the long-form answer to &lt;a href=&#34;http://stackoverflow.com/questions/20574938/progressive-enhancement-with-phonegap&#34; target=&#34;_blank&#34;&gt;this StackOverflow post&lt;/a&gt; I made about it (which is, at the time of writing, the #1 Google result for &amp;ldquo;progressive enhancement phonegap&amp;rdquo;). Also worth noting this guide only addresses Android right now. Doing so for iOS should follow the same methodology though.&lt;/em&gt;&lt;/p&gt;
@@ -103,7 +103,7 @@
 
 &lt;h3 id=&#34;step-3-listen-for-your-custom-user-agent-on-the-server-side-and-set-a-flag:fd0f8b714b3f39ed49e4051d8a218d26&#34;&gt;Step 3) Listen for your custom User Agent on the server side and set a flag&lt;/h3&gt;
 
-&lt;p&gt;Now that we have a way to know if a user is accessing our server via a normal browser or via our Phonegap app, we can decide whether or not to enable Phonegap-specific features. You need to do this because if you don&amp;rsquo;t, you get some &lt;a href=&#34;https://bradorego.aerobatic.io/img/posts/prog-enh-phonegap/uglypg.png&#34; target=&#34;_blank&#34;&gt;ugly error messages&lt;/a&gt; as the web app tries to access Phonegap APIs that aren&amp;rsquo;t there. This detection is really easy, though. In the sample app, it looks like this:&lt;/p&gt;
+&lt;p&gt;Now that we have a way to know if a user is accessing our server via a normal browser or via our Phonegap app, we can decide whether or not to enable Phonegap-specific features. You need to do this because if you don&amp;rsquo;t, you get some &lt;a href=&#34;https://bradorego.com/img/posts/prog-enh-phonegap/uglypg.png&#34; target=&#34;_blank&#34;&gt;ugly error messages&lt;/a&gt; as the web app tries to access Phonegap APIs that aren&amp;rsquo;t there. This detection is really easy, though. In the sample app, it looks like this:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;class ContactsController &amp;lt; ApplicationController
   def index
@@ -156,10 +156,10 @@ end
     
     <item>
       <title>Foursquare Heatmap &amp; Remote Sensing</title>
-      <link>https://bradorego.aerobatic.io/2013-03-foursquare-heatmap--remote-sensing</link>
+      <link>https://bradorego.com/2013-03-foursquare-heatmap--remote-sensing</link>
       <pubDate>Mon, 11 Mar 2013 17:21:36 -0500</pubDate>
       
-      <guid>https://bradorego.aerobatic.io/2013-03-foursquare-heatmap--remote-sensing</guid>
+      <guid>https://bradorego.com/2013-03-foursquare-heatmap--remote-sensing</guid>
       <description>
 
 &lt;p&gt;A little over a month ago (technically during the &lt;a href=&#34;https://www.hackerleague.org/hackathons/foursquare-hackathon-2013&#34; target=&#34;_blank&#34;&gt;Foursquare Hackathon&lt;/a&gt;, but I was working from home due to &lt;a href=&#34;http://midwestultimate.com/red-eye&#34; target=&#34;_blank&#34;&gt;Red Eye&lt;/a&gt;) I spent a few hours one weekend hacking together an idea I&amp;rsquo;d come up with when working on Foursquare integration for &lt;a href=&#34;http://gettrinker.com&#34; target=&#34;_blank&#34;&gt;Trinker&lt;/a&gt;. What I discovered while playing with the &lt;a href=&#34;https://developer.foursquare.com/overview/venues&#34; target=&#34;_blank&#34;&gt;Venues API&lt;/a&gt; is that with one query, you can get all of the information about a bunch of different venues (I think it tops out at 30). Part of that information is, of course, the location (latitude, longitude, address), and another interesting data point: the &lt;code&gt;hereNow&lt;/code&gt; value.&lt;/p&gt;
@@ -186,10 +186,10 @@ end
     
     <item>
       <title>New Site!</title>
-      <link>https://bradorego.aerobatic.io/2012-11-new-site</link>
+      <link>https://bradorego.com/2012-11-new-site</link>
       <pubDate>Fri, 23 Nov 2012 17:32:13 -0500</pubDate>
       
-      <guid>https://bradorego.aerobatic.io/2012-11-new-site</guid>
+      <guid>https://bradorego.com/2012-11-new-site</guid>
       <description>&lt;p&gt;It only took me about 10 months, but I&amp;rsquo;ve finally gotten around to rebuilding this site to have a purpose. I originally built a personal website when I was leaving Epic with the intention of having a place to show my past work as well as a place to play around with new technologies on the web. That was, at least, the intention. If any of you were keeping tabs on it, that never actually happened. I built the site haphazardly over the course of a few days and never updated it.&lt;/p&gt;
 
 &lt;p&gt;This time around, though, it&amp;rsquo;ll be different. Two main reasons:&lt;/p&gt;

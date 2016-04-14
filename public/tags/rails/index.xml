@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rails on bradorego.com</title>
-    <link>https://bradorego.aerobatic.io/tags/rails/</link>
+    <link>https://bradorego.com/tags/rails/</link>
     <description>Recent content in Rails on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 20 Feb 2014 16:46:54 -0500</lastBuildDate>
-    <atom:link href="https://bradorego.aerobatic.io/tags/rails/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bradorego.com/tags/rails/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Progressive Enhancement with Phonegap</title>
-      <link>https://bradorego.aerobatic.io/2014-02-progressive-enhancement-with-phonegap</link>
+      <link>https://bradorego.com/2014-02-progressive-enhancement-with-phonegap</link>
       <pubDate>Thu, 20 Feb 2014 16:46:54 -0500</pubDate>
       
-      <guid>https://bradorego.aerobatic.io/2014-02-progressive-enhancement-with-phonegap</guid>
+      <guid>https://bradorego.com/2014-02-progressive-enhancement-with-phonegap</guid>
       <description>
 
 &lt;p&gt;&lt;em&gt;Note: This blog post is the long-form answer to &lt;a href=&#34;http://stackoverflow.com/questions/20574938/progressive-enhancement-with-phonegap&#34; target=&#34;_blank&#34;&gt;this StackOverflow post&lt;/a&gt; I made about it (which is, at the time of writing, the #1 Google result for &amp;ldquo;progressive enhancement phonegap&amp;rdquo;). Also worth noting this guide only addresses Android right now. Doing so for iOS should follow the same methodology though.&lt;/em&gt;&lt;/p&gt;
@@ -63,7 +63,7 @@
 
 &lt;h3 id=&#34;step-3-listen-for-your-custom-user-agent-on-the-server-side-and-set-a-flag:fd0f8b714b3f39ed49e4051d8a218d26&#34;&gt;Step 3) Listen for your custom User Agent on the server side and set a flag&lt;/h3&gt;
 
-&lt;p&gt;Now that we have a way to know if a user is accessing our server via a normal browser or via our Phonegap app, we can decide whether or not to enable Phonegap-specific features. You need to do this because if you don&amp;rsquo;t, you get some &lt;a href=&#34;https://bradorego.aerobatic.io/img/posts/prog-enh-phonegap/uglypg.png&#34; target=&#34;_blank&#34;&gt;ugly error messages&lt;/a&gt; as the web app tries to access Phonegap APIs that aren&amp;rsquo;t there. This detection is really easy, though. In the sample app, it looks like this:&lt;/p&gt;
+&lt;p&gt;Now that we have a way to know if a user is accessing our server via a normal browser or via our Phonegap app, we can decide whether or not to enable Phonegap-specific features. You need to do this because if you don&amp;rsquo;t, you get some &lt;a href=&#34;https://bradorego.com/img/posts/prog-enh-phonegap/uglypg.png&#34; target=&#34;_blank&#34;&gt;ugly error messages&lt;/a&gt; as the web app tries to access Phonegap APIs that aren&amp;rsquo;t there. This detection is really easy, though. In the sample app, it looks like this:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;class ContactsController &amp;lt; ApplicationController
   def index

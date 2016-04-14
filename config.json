@@ -1,5 +1,5 @@
 {
-  "baseurl": "https://bradorego.aerobatic.io/",
+  "baseurl": "https://bradorego.com/",
   "languageCode": "en-us",
   "title": "bradorego.com",
   "description": "Musings about UX, product design, user research, dance, ultimate, curling, and beer pancakes.",
@@ -12,6 +12,7 @@
   "permalinks": {
     "post": "/:year-:month-:title"
   },
+  "author": "Brad Orego",
   "params": {
     "Author": "Brad Orego",
     "Title": "bradorego.com",
@@ -19,7 +20,8 @@
     "DateForm": "January 2, 2006",
     "Description": "Musings about UX, product design, user research, dance, ultimate, curling, and beer pancakes.",
     "email": "me@bradorego.com",
-    "Ganalytics": "XX-00000000-0",
+    "Ganalytics": "UA-36860431-1",
+    "RSS": "/index.xml",
     "social": [{
       "title": "twitter",
       "url": "https://twitter.com/bradorego"
