@@ -359,6 +359,22 @@ hr.dark {
     font-size: 55px;
   }
 }
+.post-preview .img-preview {
+  width: 100px;
+  height: 100px;
+  display: block;
+  background: no-repeat center center;
+  background-size: cover;
+  float: left;
+  margin: 0px 20px;
+}
+@media (max-width: 640px) {
+  .post-preview .img-preview {
+    width: 100%;
+    height: 150px;
+    margin: 10px auto;
+  }
+}
 .post-preview > a {
   color: #404040;
 }

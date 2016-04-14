@@ -289,6 +289,20 @@ hr.dark {
 // Post Preview Pages
 
 .post-preview {
+	.img-preview {
+		width: 100px;
+		height: 100px;
+		display: block;
+		background: no-repeat center center;
+		background-size: cover;
+		float: left;
+		margin: 0px 20px;
+		@media (max-width: 640px) {
+			width: 100%;
+			height: 150px;
+			margin: 10px auto;
+		}
+	}
 	> a {
 		color: @gray-dark;
 		&:hover,

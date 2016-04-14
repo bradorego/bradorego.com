@@ -21,13 +21,13 @@
 
 With all the talk about unplugging, disconnecting, screen time, and going "off the grid", there's clearly been a shift in the way we interact with technology and the implications it has for society (as well as possibly our mental health). The <a href="http://nationaldayofunplugging.com/">National Day of Unplugging</a> is dedicated to people spending ~24 hours (sundown to sundown) without engaging with technology under the premise of doing things like being more present, destressing, etc. While I could go on about how something meant to help us has become this burden of sorts, I'm more interested in the implications (from an experiential standpoint) of being forever-on.
 
-### Always Connected
+# Always Connected
 
 I first noticed this subtle shift when talking to someone a few weeks ago on <a href="https://www.hipchat.com/">HipChat</a>. I was in the middle of a conversation on my laptop and knew I had to step away from the computer for a few minutes, but I didn't feel any need to notify my conversation partner about this. Two main reasons - 1) if it were actually all that important/crucial, I could always answer it on my phone, and 2) the message wasn't going anywhere so if I got back to him immediately or within the next 5-10 minutes, it didn't really make a difference.
 
 I've noticed an almost identical interaction pattern with Facebook Messenger. I no longer worry whether or not the person is there, nor do I feel the need to alert others of my status. In fact, most of my conversations via FB happen over the course of hours, days, even weeks at a time. The transparency of status is completely irrelevant to our interaction because we both know the messages will be there if and when the other party gets around to responding.
 
-### It gets better (or worse..?)
+# It gets better (or worse..?)
 
 Of course, there are drawbacks to this. Everybody knows the dread associatied with the assumption that, because you have a smartphone/phone/computer/laptop/tablet/smartwatch/whatever, that you can be reached any day, any time, and that creates this obsessive need to have notifications turned on for everything. The problem gets worse as we move into more-ubiquitous forms of computing, such as wearable technology.
 
@@ -35,7 +35,7 @@ This past weekend at <a href="http://madisonpl.us/ux">Madison+UX</a>, Philip Lik
 
 I'm inadventently running the same experiment - I put my phone on silent for the conference (due to the exorbitant amount of Twitter notifications I was getting) and I simply forgot to put it back on vibrate for the first day or two. What I realized is that I spent less time on minor distractions (increasing my overall <a href="/2013-03-the-importance-of-flow/">flow</a>), and I only checked the phone when I wanted to. It was back to on-demand instead of being always on, and it's really refreshing.
 
-### Designing Notifications
+# Designing Notifications
 
 So what does this mean to us as Experience Designers? A few things:
 

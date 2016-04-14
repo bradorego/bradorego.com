@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Redesign on bradorego.com</title>
+    <link>https://bradorego.com/tags/redesign/</link>
+    <description>Recent content in Redesign on bradorego.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 Feb 2013 14:42:59 -0500</lastBuildDate>
+    <atom:link href="https://bradorego.com/tags/redesign/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Design Studio Etc</title>
+      <link>https://bradorego.com/2013-02-design-studio-etc</link>
+      <pubDate>Tue, 12 Feb 2013 14:42:59 -0500</pubDate>
+      
+      <guid>https://bradorego.com/2013-02-design-studio-etc</guid>
+      <description>
+
+&lt;h1 id=&#34;about:7d17b5de2bae6f85a1bc96bad5421a8e&#34;&gt;About&lt;/h1&gt;
+
+&lt;p&gt;Design Studio Etc. (&amp;ldquo;etc&amp;rdquo;) is an architectural design firm headquarted in Madison, WI with over 30 years of design and consulting experience. etc&amp;rsquo;s work is featured all over Madison, greater Wisconsin, and even other areas of the country such as Illinois, Arizona, and California.&lt;/p&gt;
+
+&lt;p&gt;etc&amp;rsquo;s former website was a flat set of three pages which left the user with virtually no idea of what the company actually was/did. The &amp;ldquo;about&amp;rdquo; page was the only way to glean any real information, and the design was dominated by an image that had very little value-add. Within a course of a couple weeks, the entire brand identity, look and feel, and design of the website was turned around (with the help and incredible energy of the client).&lt;/p&gt;
+
+&lt;p&gt;The new website features responsive design, a fluid layout, image slideshows (with lightbox for greater detail), and three structured subsections of the website (about, &amp;ldquo;what we do&amp;rdquo; (aka projects), and &amp;ldquo;on the boards&amp;rdquo; (aka blog)). The new look aligns with etc&amp;rsquo;s new identity, and provides a modern website to carry the company forward while making edits and updates easy via Drupal&amp;rsquo;s admin interface.&lt;/p&gt;
+
+&lt;h1 id=&#34;selected-images:7d17b5de2bae6f85a1bc96bad5421a8e&#34;&gt;Selected Images:&lt;/h1&gt;
+
+&lt;p&gt;Wireframe:
+&lt;img src=&#34;https://bradorego.com/img/case-study/design-studio-etc/wireframe.png&#34; /&gt;
+Desktop:
+&lt;img src=&#34;https://bradorego.com/img/case-study/design-studio-etc/desktop.png&#34; /&gt;
+Mobile:
+&lt;img src=&#34;https://bradorego.com/img/case-study/design-studio-etc/mobile.png&#34; /&gt;
+Contact (before/after):
+&lt;img src=&#34;https://bradorego.com/img/case-study/design-studio-etc/beforeafter.png&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

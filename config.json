@@ -4,7 +4,7 @@
   "title": "bradorego.com",
   "description": "Musings about UX, product design, user research, dance, ultimate, curling, and beer pancakes.",
   "theme": "startbootstrap-clean-blog",
-  "buildDrafts": true,
+  "buildDrafts": false,
   "buildFuture": false,
   "metaDataFormat": "json",
   "paginate": 1000,
