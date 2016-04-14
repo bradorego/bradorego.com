@@ -463,12 +463,10 @@ footer .copyright {
 }
 ::-moz-selection {
   color: white;
-  text-shadow: none;
   background: #ffbe40;
 }
 ::selection {
   color: white;
-  text-shadow: none;
   background: #ffbe40;
 }
 img::selection {
