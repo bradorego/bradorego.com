@@ -1,10 +1,10 @@
 {
    "categories": ["UX"],
-   "date": "2016-04-13T17:37:34-05:00",
+   "date": "2014-07-15T17:37:34-05:00",
    "description": "When's the last time you told someone \"brb\" or \"afk\"? The ubiquity of connectivity has a fundamental impact on the way we interact with technology and with each other. The state of being \"online\" or not is slowly fading away.",
    "draft": false,
    "image": "/img/posts/transparency-of-online/header.png",
-   "publishdate": "2016-04-12T14:47:36-05:00",
+   "publishdate": "2014-07-15T14:47:36-05:00",
    "tags": ["offline", "transparency", "notifications", "flow", "ubiquitous computing"],
    "title": "Transparency of \"Online\""
 }

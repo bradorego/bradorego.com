@@ -1,0 +1,6 @@
+body{overflow:hidden}.slideout,.page{position:absolute;display:block;height:100%;top:0}.page{background:blue;left:0;width:100%;text-align:center;-webkit-transition-duration:.25s}
+.slideout{background:red;width:75%;z-index:5;-webkit-transition-duration:.25s}.left{left:-100%}.right{right:-100%}.left.active{-webkit-transform:translate3d(133%,0,0);transform:translate3d(100%,0,0)}
+.right.active{-webkit-transform:translate3d(-133%,0,0);transform:translate3d(-100%,0,0)}.page.left{-webkit-transform:translate3d(140%,0,0);transform:translate3d(0,0,0)}
+.page.right{-webkit-transform:translate3d(-40%,0,0);transform:translate3d(0,0,0)}#actionButtons label,#statusToggles label,#status label,#itsOn label,#friendsInviteFriends label{float:left;width:70px;margin:4px;background-color:#efefef;border-radius:4px;border:1px solid #d0d0d0}
+#actionButtons label span,#statusToggles label span,#status label span,#itsOn label span,#friendsInviteFriends label span{text-align:center;font-size:16px;padding:5px 0;display:block;border-radius:4px}
+#actionButtons label input,#statusToggles label input,#status label input,#itsOn label input,#friendsInviteFriends label input{display:none}#actionButtons input:checked+span,#statusToggles input:checked+span,#status input:checked+span,#itsOn input:checked+span,#friendsInviteFriends input:checked+span{background-color:#404040;color:#f7f7f7}

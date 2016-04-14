@@ -1,0 +1,197 @@
+<html>
+	<head>
+		<title>Nextt</title>
+		<link rel="stylesheet" href="css/main.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	</head>
+
+	<body id="planView">		
+		<div class="slideout left hidden">
+
+		</div>
+		
+		<div class="page">
+			<header>
+				<button id="left">Menu</button>
+				<i>Plan</i>
+				<button id="right">More</button>
+			</header>
+			<section id="info">
+				<div id="backgroundImage">
+					<span>{{title}}</span>
+					<img src="{{background_image}}" />
+				</div>
+				{{date}} | {{time}} | {{location}}
+				<div id="actionButtons">
+					<label>
+						<input type="radio" id="actionIn" name="actionButtons" checked><span>In</span>
+					</label>
+					<label>
+						<input type="radio" id="actionOut" name="actionButtons"><span>Out</span>
+					</label>
+					<label>
+						<input type="radio" id="actionMaybe" name="actionButtons"><span>Maybe</span>
+					</label>
+				</div>
+			</section>
+			<section id="events">
+				{{#with event}}
+					<article class="comment">
+						<img class="profile_pic" src="{{profile_pic}}" />
+						<div class="body">
+							<strong class="username">{{username}}</strong> {{text}}
+						</div>
+					</article>
+					<article class="photo">
+						<img class="profile_pic" src="{{profile_pic}}" />
+						<div class="body">
+							<strong class="username">{{username}}</strong> {{text}}
+							<img class="pic" src="{{image_url}}" />
+						</div>
+					</article>
+					<article class="like">
+						<strong class="username">{{username}}</strong> likes this plan.
+						<i class="like-icon">Like</i>
+					</article>
+					<article class="its_on">
+						Woohoo! <strong>It's on!</strong>
+						<i class="its-on-icon">It's On</i>
+					</article>
+					<article class="people_invited">
+						<img class="profile_pic" src="{{profile_pic}}" />
+						<div class="body">
+							<strong class="username">{{username}}</strong> invited {{number_of_invited}} more people.
+							{{#if invited}}
+							<ul class="invited_list">
+							{{#each invited_friends}}
+								<li>
+									<img src="{{profile_pic}}" /> <br />
+									{{username}}
+								</li>
+							{{/each}}
+							</ul>
+						{{/if}}
+						</div>
+					</article>
+					<article class="location_change">
+						<img class="profile_pic" src="{{profile_pic}}" />
+						<div class="body">
+							<strong class="username">{{username}}</strong> changed the location to {{location}}.
+							<img class="gmaps_pic" src="{{gmaps_pic_url}}" />
+						</div>
+					</article>
+					<article class="info_change">
+						{{change_text}} <strong>{{change_details}}</strong>
+					</article>
+					<article class="check_in">
+						<strong>{{username}}</strong> checked in at {{check_in_time}}.
+						<i class="check_in_icon">Check-In</i>
+					</article>
+				{{/with}}
+			</section>
+			<footer>
+				<button id="like">Like</button>
+				<button id="nudge">Nudge</button>
+				<button id="itsOn">It's On</button>
+				<button id="checkIn">Check In</button>
+				<button id="picture">Picture</button>
+				<button id="completed">Completed</button>
+				<textarea id="comment" placeholder="Add a comment..."></textarea>
+			</footer>
+		</div>
+		
+		<div class="slideout right hidden">
+			<header>
+				<button id="invited" class="active">Invited</button>
+				<button id="details">Details</button>
+			</header>
+			<div id="invitedWrap">
+				<section id="statusToggles">
+					<label for="toggleIn">
+						<input type="checkbox" id="toggleIn" checked="checked" /><span>In</span>
+					</label>
+					<label for="toggleOut">
+						<input type="checkbox" id="toggleOut" checked="checked" /><span>Out</span>
+					</label>
+					<label for="toggleMaybe">
+						<input type="checkbox" id="toggleMaybe" checked="checked" /><span>Maybe</span>
+					</label>
+				</section>
+				<section id="list">
+					{{#if invited_users}}
+						<ul>
+							{{#each invited_users}}
+								<li class="invited_user {{status}}">
+									<i class="status_icon">{{status}}</i>
+									<img class="profile_pic" src="{{profile_pic}}" /> 
+									<span>{{username}}</span>
+								</li>
+							{{/each}}
+						</ul>
+					{{else }}
+						<div> No friends invited :( </div>
+					{{/if}}
+				</section>
+				<footer>
+					<button id="inviteMore">Invite more friends</button>
+				</footer>
+			</div>
+			<div id="detailsWrap" class="hidden">
+				<section id="titleMap">
+					<span>{{title}}</span>
+					<img src="{{gmaps_pic_url}}" />
+				</section>
+				<section id="date">
+					<i>Date/Time</i> {{date}} | {{time}}
+				</section>
+				<section id="location">
+					<i>Location</i> {{{full_location}}}
+				</section>
+				<section id="responses">
+					<i>Responses</i> {{in_number}} in, {{out_number}} out, {{maybe_number}} maybe
+				</section>
+				<section id="friend_limit">
+					<i>Friend Limit</i> {{friend_limit_range}} friend limit
+				</section>
+				<section id="category">
+					<i>Category</i> {{category}}
+				</section>
+				<section id="status">
+					My status: <br />
+					<label>
+						<input type="radio" id="statusIn" name="status" checked/><span>In</span>
+					</label>
+					<label>
+						<input type="radio" id="statusOut" name="status" /><span>Out</span>
+					</label>
+					<label>
+						<input type="radio" id="statusMaybe" name="status" /><span>Maybe</span>
+					</label>
+				</section>
+				<section id="itsOn">
+					<span>It's On?</span>
+					<div>
+						<label>
+							<input type="radio" id="itsOnYes" name="itsOn" /><span>Yes</span>
+						</label>
+						<label>
+							<input type="radio" id="itsOnNo" name="itsOn" checked/><span>No</span>
+						</label>
+					</div>
+				</section>
+				<section id="friendsInviteFriends">
+					<span>Shareable?</span>
+					<div>
+						<label>
+							<input type="radio" id="friendsInviteFriendsYes" name="friendsInviteFriends" checked/><span>Yes</span>
+						</label>
+						<label>
+							<input type="radio" id="friendsInvitefriendsNo" name="friendsInviteFriends" /><span>No</span>
+						</label>
+					</div>
+				</section>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/main.js"></script>
+</html>

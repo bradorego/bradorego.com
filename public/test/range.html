@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Page Title</title>
+    <style type="text/css">
+        input {
+            display: block;
+            margin: 20px;
+            width: 95%;
+        }
+        input[type=range] {
+            -webkit-appearance: none;
+            height: 4px;
+            border-radius: 4px;
+            background-image: -webkit-gradient(
+                linear,
+                left top,
+                right top,
+                color-stop(0.1428, red),
+                color-stop(0.1428, #C5C5C5)
+            );
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+</head>
+
+<body>
+    <div>
+        0-6000
+        <input type="range" value=25 id="b" min=0 max=180 />
+    </div>
+    <div>
+        0-30
+        <input type="range" id="a" value=3 min=0 max=21 />
+    </div>
+</body>
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function (e) {
+        var func = function (e) {
+            var val = this.value / this.getAttribute('max'),
+                color = 'green';
+            if (val <= 0.25) {
+                color = 'red';
+            } else if (val <= 0.5) {
+                color = 'yellow';
+            }
+            this.style.backgroundImage = '-webkit-gradient(linear, left top, right top, '
+                + 'color-stop(' + val + ', ' + color + '), '
+                + 'color-stop(' + val + ', #C5C5C5)'
+                + ')';
+        };
+        document.getElementById('a').addEventListener('change', func);
+        document.getElementById('b').addEventListener('change', func);
+    });
+</script>
+</html>

@@ -1,0 +1,315 @@
+<html>
+	<head>
+		<title>Foursquare Heat Map - bradorego.com</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="ext/tablesorter/themes/blue/style.css" />
+		<style type="text/css">
+			html, body{
+				margin: 0; padding: 0;
+			}
+		#map {
+			width: 100%;
+			height: 800px;
+		}
+		#time {
+			position: absolute;
+			z-index: 5;
+			bottom: 0;
+			left: 0;
+			background: black;
+			color: white;
+			font-size: 32px;
+			padding: 5px 10px;
+		}
+		</style>
+	</head>
+	<body>
+	<div id="map"></div>
+	<div id="time"></div>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+	<script type="text/javascript" src="ext/tablesorter/jquery.tablesorter.min.js"></script>
+<script type="text/javascript">
+var venueList = [],
+	infoWindow = new google.maps.InfoWindow(),
+	radius = 4828, //3mi in m
+	currentPosition = {},
+	$loading = $('#loading'),
+	zoom = 14,
+	$table,
+	category,
+	offset = -6,
+	map;
+$(function () {
+	"use strict";
+	var params = decodeURIComponent(window.location.search.replace(/\+/g, "%20")),
+		pArray,
+		addr,
+		value,
+		key;
+	if (params.indexOf("cID=") !== -1 || params.indexOf("category=") !== -1) { //change default zoom level
+		pArray = params.split("&");
+		$.each(pArray, function () {
+			value = this.split("=");
+			key = value[0];
+			value = value[1];
+			if (key === "category" || key === "cID") {
+				category = value;
+			}
+		});
+	}	
+	if (params.indexOf("o=") !== -1 || params.indexOf("offset=") !== -1) { //change default zoom level
+		pArray = params.split("&");
+		$.each(pArray, function () {
+			value = this.split("=");
+			key = value[0];
+			value = value[1];
+			if (key === "offset" || key === "o") {
+				offset = parseInt(value, 10);
+			}
+		});
+	}
+	window.setInterval(function () {
+		$('#time').html(getTimeDisp(calcTime(offset)));
+	}, 1000);
+	params = params.substr(1); //remove ?
+	if (params.indexOf("z=") !== -1 || params.indexOf("zoom=") !== -1) { //change default zoom level
+		pArray = params.split("&");
+		$.each(pArray, function () {
+			value = this.split("=");
+			key = value[0];
+			value = value[1];
+			if (key === "zoom" || key === "z") {
+				zoom = parseInt(value, 10);
+			}
+		});
+	}
+	if (params.indexOf("loc=") !== -1 || params.indexOf("q=") !== -1) { //oh boy a location!
+		pArray = params.split("&");
+		$.each(pArray, function () {
+			value = this.split("=");
+			key = value[0];
+			value = value[1];
+			if (key === "loc" || key === "q") {
+				addr = value;
+			} else if (key === "r" || key === "radius") {
+				radius = value;
+			}
+		});
+		manualLocation(addr);
+	}
+	window.setInterval(function () {
+		window.location.reload();
+	}, 300000); //refresh map every 5 mins
+});
+
+function locationPageSuccess(position) {
+	"use strict";
+	var lat = position.coords.latitude,
+		lng = position.coords.longitude;
+	currentPosition.lat = lat;
+	currentPosition.lng = lng;
+	foursquareQuery(lat, lng, radius);
+}
+
+function manualLocation(addr) {
+	if (typeof(addr) !== "string" || !addr) {
+		addr = "New York, NY";
+	}
+	if (!addr.replace(/\s/g, '').length) { //empty string. do nothing
+		return;
+	}
+	var geo = new google.maps.Geocoder();
+	geo.geocode({address: addr}, function (result) {
+		var lat = result[0].geometry.location.lat(),
+			lng = result[0].geometry.location.lng();
+		currentPosition.lat = lat;
+		currentPosition.lng = lng;
+		foursquareQuery(lat, lng, radius);
+	});
+}
+
+function foursquareQuery(lat, lng) {
+	"use strict";
+	var $results = $('#results');
+	$loading.fadeIn(250);
+	$.ajax({
+		url: "https://api.foursquare.com/v2/venues/search",
+		dataType: "json",
+		type: "GET",
+		data: {
+			client_id: "1CYOYAH5ALKTQZTX1R0AJJJGCNOIR5G03XH0LLJL4PSRKMT3",
+			client_secret: "EXCSTQD1C4HKXJXFW0E0OIDY5FBEB2JKK1PCGES1ZIMLMGNY",
+			intent: "browse",
+			radius: radius,
+			ll: lat + "," + lng,
+			categoryId: category,
+			v: "20130105"
+		},
+		beforeSend: function(xhr){
+			//xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
+		},
+		success: function (data) {
+			initGMap(data.response.venues, lat, lng);
+		},
+		error: function (xhr) {
+
+		}
+	});
+}
+
+function initGMap(venues, lat, lng) {
+	"use strict";
+	var center = new google.maps.LatLng(lat, lng),
+		myOptions = {
+			zoom: zoom, /* zoom level of the map */
+			center: center,
+			draggable: true,
+			mapTypeId: google.maps.MapTypeId.ROADMAP,
+			mapTypeControl: true,
+			panControl: true,
+			streetViewControl: false,
+			zoomControl: true,
+			scaleControl: false,
+			keyboardShortcuts: false,
+			scrollwheel: true,
+			mapTypeControlOptions: {
+				mapTypeIDs: [google.maps.MapTypeId.ROADMAP, '_map_style']
+			}
+		};
+	venueList = venues;
+	map = new google.maps.Map(document.getElementById('map'), myOptions); /* show the map in the element with the given div */
+	$('#map').append("<div id='loading'>Loading...</div>");
+	//$.each(venues, function (index, venue) {
+	for (var i = 0; i < venues.length; i++) {
+		var latlng = new google.maps.LatLng(venues[i].location.lat, venues[i].location.lng),
+			populationOptions = {
+				strokeColor: "#ff00ff",
+				strokeOpacity: 0.8,
+				strokeWeight: 2,
+				fillColor: "#ff00ff",
+				fillOpacity: 0.35,
+				map: map,
+				center: latlng,
+				radius: venues[i].hereNow.count * 10,
+				clickable: true
+			},
+			venueCircle;
+			if (venues[i].hereNow.count > 25) {
+				populationOptions.strokeColor = "#ff0000";
+				populationOptions.fillColor = "#ff0000";
+				populationOptions.fillOpacity = 0.8;
+			} else if (venues[i].hereNow.count > 10) {
+				populationOptions.strokeColor = "#ff00aa";
+				populationOptions.fillColor = "#ff00aa";
+				populationOptions.fillOpacity = 0.65;
+			} else if (venues[i].hereNow.count > 5) {
+				populationOptions.strokeColor = "#aa00ff";
+				populationOptions.fillColor = "#aa00ff";
+				populationOptions.fillOpacity = 0.5;
+			}
+			venueCircle = new google.maps.Circle(populationOptions)
+			//console.log(venues[i].name, "HN:"+venues[i].hereNow.count, "R:"+venueCircle.radius);
+		google.maps.event.addListener(venueCircle, 'click', showInfo);
+	}//});
+	map.setCenter(center);
+	$loading = $('#loading');
+	$loading.fadeOut(500);
+}
+
+function showInfo(event) {
+	var i = 0,
+		circleLat,
+		circleLng,
+		venueLat,
+		venueLng;
+	for (i = 0; i < venueList.length; i++) {
+		circleLat = this.center.lat().toFixed(3);
+		circleLng = this.center.lng().toFixed(3);
+		venueLat = venueList[i].location.lat.toFixed(3);
+		venueLng = venueList[i].location.lng.toFixed(3);
+		if ((circleLat === venueLat) && (circleLng === venueLng)) { //match! Show window!
+			//console.log("match!");
+			var contentString = venueInfoOutput(venueList[i]);
+			infoWindow.setContent(contentString);
+			infoWindow.setPosition(event.latLng);
+			infoWindow.open(map);
+			return;
+		}
+	}
+}
+function getTimeDisp(now) {
+	"use strict";
+	Date.prototype.subtractHours = function (h) {
+		this.setTime(this.getTime() - (h * 60 * 60 * 1000));
+		return this;
+	}
+	Date.prototype.getDayOfWeek = function () {
+		switch (this.getDay()) {
+			case 0:
+				return "Sunday";
+			break;
+			case 1:
+				return "Monday";
+			break;
+			case 2:
+				return "Tuesday";
+			break;
+			case 3:
+				return "Wednesday";
+			break;
+			case 4:
+				return "Thursday";
+			break;
+			case 5:
+				return "Friday";
+			break;
+			default:
+				return "Saturday";
+			break;
+		}
+	}
+	if (!now) {
+		now = new Date();
+		now.subtractHours(4);
+	}
+	var hour = now.getHours(),
+		min = now.getMinutes(),
+		ap = "am",
+		month = now.getMonth() + 1,
+		day = now.getDate(),
+		year = now.getFullYear();
+	if (hour > 11) {
+		ap = "pm";
+	}
+	if (hour > 12) {
+		hour = hour - 12;
+	}
+	if (hour === 0) {
+		hour = 12;
+	}
+	if (min < 10)	{
+		min = "0" + min;
+	}
+
+	return now.getDayOfWeek() + " \n<br>" + month + "/" + day + "/" + year + " \n<br>" + hour + ":" + min + ap;
+}
+function calcTime(offset) {
+    var d,
+	utc,
+	nd;
+    // create Date object for current location
+    d = new Date();
+    // convert to msec
+    // add local time zone offset 
+    // get UTC time in msec
+    utc = d.getTime() + (d.getTimezoneOffset() * 60000);
+    // create new Date object for different city
+    // using supplied offset
+    nd = new Date(utc + (3600000*offset));
+    // return time as a string
+    return nd;
+}
+	</script>
+	</body>
+</html>

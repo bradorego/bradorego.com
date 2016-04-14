@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trinker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <style type="text/css">
+
+    </style>
+</head>
+
+<body>
+    <ul id="left-menu">
+        <li>
+            <a href="recent-drinks" id="recent">
+                Recent
+            </a>
+        </li>
+        <li>
+            <a href="log/beer" id="beer">
+                Beer
+            </a>
+        </li>
+        <li>
+            <a href="log/wine" id="wine">
+                Wine
+            </a>
+        </li>
+        <li>
+            <a href="log/spirit" id="spirit">
+                Spirit
+            </a>
+        </li>
+        <li>
+            <a href="log/cocktail" id="cocktail">
+                Cocktail
+            </a>
+        </li>
+        <li>
+            <label for="search">
+                <input type="search" id="search" placeholder="E.g. whiskey, Guinness, bitters, etc." />
+                <input type="submit" id="search-btn" value="Search"
+            </label>
+        </li>
+    </ul><!--left-menu-->
+    <ul id="right-menu">
+        <li>
+            <a href="status" id="status">
+                ???d | ???u
+            </a>
+        </li>
+        <li>
+            <a href="feed" id="feed">
+                Feed
+            </a>
+        </li>
+        <li>
+            <a href="buddies" id="buddies">
+                Buddies
+            </a>
+        </li>
+        <li>
+            <a href="profile" id="profile">
+                Profile
+            </a>
+        </li>
+        <li>
+            <a href="settings" id="settings">
+                Settings
+            </a>
+            <hr>
+        </li>
+        <li>
+            <a href="post" id="post">
+                Post
+            </a>
+        </li>
+        <li>
+            <a href="checkIn" id="checkIn">
+                Check-In
+            </a>
+        </li>
+        <li>
+            <a href="rallyCall" id="rallyCall">
+                Rally Call
+            </a>
+        </li>
+    </ul><!--right-menu-->
+    <script type="text/x-handlebars-template" id="trinker-home-template">
+        <div id="home">
+        <header>
+            <h1>Home</h1>
+            <a href="right-menu">Menu</a>
+        </header>
+        <div id="map">
+
+        </div>
+        <div id="ticker">
+            <ul>
+
+            </ul>
+        </div>
+        <div id="home-buttons">
+            <a href="left-menu" id="home-drink">
+                Drink
+            </a>
+            <a href ="right-menu" id="home-party">
+                Party
+            </a>
+        </div>
+    </div>
+    </script>
+    <script type="text/x-handlebars-template" id="trinker-ticker-template">
+        {{#each events}}
+            <li id="{{uID}}" data-lat="{{lat}}" data-lng = "{{lng}}">
+                <img src="{{picURL}}" />
+                <span class="username">{{username}}</span> {{action}}
+                {{#if location}}
+                    @ <span class="location">{{location}}</span>
+                {{/if}}
+                <span class="timestamp">{{timestamp}}</span>
+            </li>
+        {{/each}}
+    </script>
+    <script type="x-handlebars-template" id="trinker-eventList-template">
+
+    </script>
+    <script type="text/x-handlebars-template" id="trinker-drinkList-template">
+        {{#each drink}}
+            <li class="drink" id="id">
+                {{#if picURL}}
+                    <img src="{{picURL}}" />
+                {{/if}}
+                <a href="/log/drink/{{id}}">{{name}}</a>
+            </li>
+        {{/each}}
+    </script>
+    <script type="text/x-handlebars-template" id="trinker-buddyList-template">
+        {{#each buddy}}
+            <li class="buddy" id="id">
+                <img src="{{picURL}}" />
+                <span class="username">{{username}}</span>
+                <span class="lastSeen">{{lastSeen}}</span>
+                <a class="buddyButton" id="profile" href="profile/{{id}}">Profile</a>
+                <a class="buddyButton" id="rally" href="rally/{{id}}">Rally</a>
+            </li>
+        {{/each}}
+    </script>
+    <script type="text/x-handlebars-template" id="trinker-venueList-template">
+        {{#each venue}}
+            <li class="venue" id="{{id}}" data-lat="{{lat}}" data-lng="{{lng}}">
+                <a href="/log/venue/{{id}}">
+                    {{#if picURL}}
+                        <img src="{{picURL}}" />
+                    {{/if}}
+                    <span class="name">{{name}}</span><span class="distance">{{distance}}</span>
+                    <span class="address">{{address}}</span>
+                </a>
+            </li>
+        {{/each}}
+    </script>
+    <script type="text/x-handlebars-template" id="trinker-event-template">
+        <div id="event">
+            <div id="left">
+                <img src="{{picURL}}" /> <span class="username">{{username}}</span>
+                <span class="action">{{action}}</span>
+                {{#if location}}
+                    @ <span class="location">{{location}}</span>
+                {{/if}}
+            </div>
+            <div id="map">
+                <img src="http://maps.googleapis.com/maps/api/staticmap?center={{lat}},{{lng}}&size=200x200&zoom=13&sensor=false&markers=color:purple%7C{{lat}},{{lng}}"
+            </div>
+            <a href="/" id="cancel">Wait...</a>
+            <a href="/" id="accept">Go!</a>
+        </div>
+    </script>
+    <script type="text/x-handlebars-template" id="trinker-profile-template">
+
+    </script>
+    <script type="text/x-handlebars-template" id="trinker-status-template">
+
+    </script>
+    <script src="http://yui.yahooapis.com/3.8.1/build/yui/yui-min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
