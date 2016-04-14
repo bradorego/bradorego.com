@@ -17,15 +17,25 @@
       <guid>https://bradorego.com/2016-04-back-to-static</guid>
       <description>
 
+&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
+  &lt;h4&gt;TL;DNR&lt;/h4&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Static generators (e.g. &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;) are pretty cool.&lt;/li&gt;
+    &lt;li&gt;Ease of use/production directly relates to content creation.&lt;/li&gt;
+    &lt;li&gt;It&amp;rsquo;s okay to borrow aesthetics/technologies/designs from others.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;hr/&gt;&lt;/p&gt;
+
 &lt;p&gt;As you might be able to tell, my last blog post is from 2014. It was about time to get back on the blog horse but also give the site a little facelift. I&amp;rsquo;d &lt;a href=&#34;http://beerbatterbreakfast.com/2014/07/fancy-new-blog.html&#34;&gt;migrated blog platforms&lt;/a&gt; in the past, but never really took the time to think about how my own personal site was hosted. So let&amp;rsquo;s take a quick trip down memory lane.&lt;/p&gt;
 
-&lt;h3 id=&#34;static-site:033d80fd00ff147813ac3335ab5ced00&#34;&gt;Static Site&lt;/h3&gt;
+&lt;h3 id=&#34;static-site-2011:033d80fd00ff147813ac3335ab5ced00&#34;&gt;Static Site (2011)&lt;/h3&gt;
 
 &lt;p&gt;When I first got into web development (professionally), I thought it&amp;rsquo;d be cool to build my own website from scratch to prove my mettle. That was 2011; certainly not far enough ago by any means for most of the technologies in use today to not exist. But, I was young and naive, and had some big ideas (e.g. a live CSS switcher, replicating the exact same look/behavior with and without Javascript, etc).&lt;/p&gt;
 
 &lt;p&gt;I learned very quickly from that experience that keeping a static site up to date was really difficult. Any time you made a change one place, you had to make sure you made it everywhere. You had to make sure to manage collisions. You had to handle your own deploys and routing. It was a hassle, and I virtualy never updated the site, so after spending some time working with &lt;a href=&#34;https://zebradog.com&#34;&gt;ZebraDog&lt;/a&gt; and seeing the power of Drupal, I decided it was time for a change.&lt;/p&gt;
 
-&lt;h3 id=&#34;drupal-7-0:033d80fd00ff147813ac3335ab5ced00&#34;&gt;Drupal 7.0&lt;/h3&gt;
+&lt;h3 id=&#34;drupal-7-0-2012:033d80fd00ff147813ac3335ab5ced00&#34;&gt;Drupal 7.0 (2012)&lt;/h3&gt;
 
 &lt;p&gt;So I set out to &lt;a href=&#34;https://bradorego.com/2012-11-new-site/&#34;&gt;update and re-design&lt;/a&gt; the website again, this time using something a little more powerful and modern, and to make it easier for me to create new content while still having full control and flexibility over how it&amp;rsquo;s displayed and what functionality the website had.&lt;/p&gt;
 
@@ -33,7 +43,7 @@
 
 &lt;p&gt;The problem wasn&amp;rsquo;t whether I could; in fact the problem was probably &lt;strong&gt;that&lt;/strong&gt; I could. I built an incredible media delivery site that was isolated from the world and almost too powerful for its own good. Developing and maintaining the site was nontrivial, and adding new content, while certainly easier than a static site, was beyond me.&lt;/p&gt;
 
-&lt;h3 id=&#34;back-to-static:033d80fd00ff147813ac3335ab5ced00&#34;&gt;Back to Static&lt;/h3&gt;
+&lt;h3 id=&#34;back-to-static-2016:033d80fd00ff147813ac3335ab5ced00&#34;&gt;Back to Static (2016)&lt;/h3&gt;
 
 &lt;p&gt;Blog technology philosophy has shifted lately. WordPress is still the clear winner in the space, but there&amp;rsquo;s an alternative to generating the site every time it&amp;rsquo;s requested. These take the form of static generators, and make a lot more sense to me personally. Jekyll, Ghost, Hugo, Hexo; the list goes on. What&amp;rsquo;s under the hood doesn&amp;rsquo;t really matter (which, as an aside, makes switching way easier) &amp;emdash; all that matters is the static HTML/CSS/JS they output.&lt;/p&gt;
 
