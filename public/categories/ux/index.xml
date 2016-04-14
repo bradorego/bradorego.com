@@ -17,23 +17,33 @@
       <guid>https://bradorego.com/2014-07-transparency-of-online</guid>
       <description>
 
-&lt;p&gt;With all the talk about unplugging, disconnecting, screen time, and going &amp;ldquo;off the grid&amp;rdquo;, there&amp;rsquo;s clearly been a shift in the way we interact with technology and the implications it has for society (as well as possibly our mental health). The &lt;a href=&#34;http://nationaldayofunplugging.com/&#34; target=&#34;_blank&#34;&gt;National Day of Unplugging&lt;/a&gt; is dedicated to people spending ~24 hours (sundown to sundown) without engaging with technology under the premise of doing things like being more present, destressing, etc. While I could go on about how something meant to help us has become this burden of sorts, I&amp;rsquo;m more interested in the implications (from an experiential standpoint) of being forever-on.&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
+  &lt;h4&gt;TL;DNR&lt;/h4&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Notification design is important, especially in the light of ubiquitous computing.&lt;/li&gt;
+    &lt;li&gt;Designing to allow interrupted attention is crucial.&lt;/li&gt;
+    &lt;li&gt;Context matters: Users are no longer in a room at a desk on a computer.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;hr/&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;always-connected:45345f3ef116c8f41b0729242af7c108&#34;&gt;Always Connected&lt;/h3&gt;
+&lt;p&gt;With all the talk about unplugging, disconnecting, screen time, and going &amp;ldquo;off the grid&amp;rdquo;, there&amp;rsquo;s clearly been a shift in the way we interact with technology and the implications it has for society (as well as possibly our mental health). The &lt;a href=&#34;http://nationaldayofunplugging.com/&#34;&gt;National Day of Unplugging&lt;/a&gt; is dedicated to people spending ~24 hours (sundown to sundown) without engaging with technology under the premise of doing things like being more present, destressing, etc. While I could go on about how something meant to help us has become this burden of sorts, I&amp;rsquo;m more interested in the implications (from an experiential standpoint) of being forever-on.&lt;/p&gt;
 
-&lt;p&gt;I first noticed this subtle shift when talking to someone a few weeks ago on &lt;a href=&#34;https://www.hipchat.com/&#34; target=&#34;_blank&#34;&gt;HipChat&lt;/a&gt;. I was in the middle of a conversation on my laptop and knew I had to step away from the computer for a few minutes, but I didn&amp;rsquo;t feel any need to notify my conversation partner about this. Two main reasons - 1) if it were actually all that important/crucial, I could always answer it on my phone, and 2) the message wasn&amp;rsquo;t going anywhere so if I got back to him immediately or within the next 5-10 minutes, it didn&amp;rsquo;t really make a difference.&lt;/p&gt;
+&lt;h3 id=&#34;always-connected:0630faa271b6c4fe5b485a19f90d0aad&#34;&gt;Always Connected&lt;/h3&gt;
+
+&lt;p&gt;I first noticed this subtle shift when talking to someone a few weeks ago on &lt;a href=&#34;https://www.hipchat.com/&#34;&gt;HipChat&lt;/a&gt;. I was in the middle of a conversation on my laptop and knew I had to step away from the computer for a few minutes, but I didn&amp;rsquo;t feel any need to notify my conversation partner about this. Two main reasons - 1) if it were actually all that important/crucial, I could always answer it on my phone, and 2) the message wasn&amp;rsquo;t going anywhere so if I got back to him immediately or within the next 5-10 minutes, it didn&amp;rsquo;t really make a difference.&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;ve noticed an almost identical interaction pattern with Facebook Messenger. I no longer worry whether or not the person is there, nor do I feel the need to alert others of my status. In fact, most of my conversations via FB happen over the course of hours, days, even weeks at a time. The transparency of status is completely irrelevant to our interaction because we both know the messages will be there if and when the other party gets around to responding.&lt;/p&gt;
 
-&lt;h3 id=&#34;it-gets-better-or-worse:45345f3ef116c8f41b0729242af7c108&#34;&gt;It gets better (or worse..?)&lt;/h3&gt;
+&lt;h3 id=&#34;it-gets-better-or-worse:0630faa271b6c4fe5b485a19f90d0aad&#34;&gt;It gets better (or worse..?)&lt;/h3&gt;
 
 &lt;p&gt;Of course, there are drawbacks to this. Everybody knows the dread associatied with the assumption that, because you have a smartphone/phone/computer/laptop/tablet/smartwatch/whatever, that you can be reached any day, any time, and that creates this obsessive need to have notifications turned on for everything. The problem gets worse as we move into more-ubiquitous forms of computing, such as wearable technology.&lt;/p&gt;
 
-&lt;p&gt;This past weekend at &lt;a href=&#34;http://madisonpl.us/ux&#34; target=&#34;_blank&#34;&gt;Madison+UX&lt;/a&gt;, Philip Likens gave a talk about &lt;a href=&#34;http://www.slideshare.net/philiplikens/philip-likens-madisonux&#34; target=&#34;_blank&#34;&gt;wearable computing&lt;/a&gt;, mentioning that he&amp;rsquo;s abandoned most of his wearables due to &lt;a href=&#34;https://www.google.com/search?q=notifiaction+overload&amp;amp;oq=notifiaction+overload&amp;amp;aqs=chrome..69i57.2313j0j1&amp;amp;sourceid=chrome&amp;amp;es_sm=91&amp;amp;ie=UTF-8#q=notification+overload&amp;amp;spell=1&#34; target=&#34;_blank&#34;&gt;notification overload&lt;/a&gt;. In (roughly) his own words, having his phone, his watch, and his Google Glass all vibrate simultaneously any time anything happened became a little overwhelming. So now, instead of having some sense of what&amp;rsquo;s going on, he doesn&amp;rsquo;t even carry his phone on his person - totally shut off.&lt;/p&gt;
+&lt;p&gt;This past weekend at &lt;a href=&#34;http://madisonpl.us/ux&#34;&gt;Madison+UX&lt;/a&gt;, Philip Likens gave a talk about &lt;a href=&#34;http://www.slideshare.net/philiplikens/philip-likens-madisonux&#34;&gt;wearable computing&lt;/a&gt;, mentioning that he&amp;rsquo;s abandoned most of his wearables due to &lt;a href=&#34;https://www.google.com/search?q=notifiaction+overload&amp;amp;oq=notifiaction+overload&amp;amp;aqs=chrome..69i57.2313j0j1&amp;amp;sourceid=chrome&amp;amp;es_sm=91&amp;amp;ie=UTF-8#q=notification+overload&amp;amp;spell=1&#34;&gt;notification overload&lt;/a&gt;. In (roughly) his own words, having his phone, his watch, and his Google Glass all vibrate simultaneously any time anything happened became a little overwhelming. So now, instead of having some sense of what&amp;rsquo;s going on, he doesn&amp;rsquo;t even carry his phone on his person - totally shut off.&lt;/p&gt;
 
-&lt;p&gt;I&amp;rsquo;m inadventently running the same experiment - I put my phone on silent for the conference (due to the exorbitant amount of Twitter notifications I was getting) and I simply forgot to put it back on vibrate for the first day or two. What I realized is that I spent less time on minor distractions (increasing my overall &lt;a href=&#34;https://bradorego.com/2013-03-the-importance-of-flow/&#34; target=&#34;_blank&#34;&gt;flow&lt;/a&gt;), and I only checked the phone when I wanted to. It was back to on-demand instead of being always on, and it&amp;rsquo;s really refreshing.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m inadventently running the same experiment - I put my phone on silent for the conference (due to the exorbitant amount of Twitter notifications I was getting) and I simply forgot to put it back on vibrate for the first day or two. What I realized is that I spent less time on minor distractions (increasing my overall &lt;a href=&#34;https://bradorego.com/2013-03-the-importance-of-flow/&#34;&gt;flow&lt;/a&gt;), and I only checked the phone when I wanted to. It was back to on-demand instead of being always on, and it&amp;rsquo;s really refreshing.&lt;/p&gt;
 
-&lt;h3 id=&#34;designing-notifications:45345f3ef116c8f41b0729242af7c108&#34;&gt;Designing Notifications&lt;/h3&gt;
+&lt;h3 id=&#34;designing-notifications:0630faa271b6c4fe5b485a19f90d0aad&#34;&gt;Designing Notifications&lt;/h3&gt;
 
 &lt;p&gt;So what does this mean to us as Experience Designers? A few things:&lt;/p&gt;
 
@@ -56,25 +66,35 @@
       <guid>https://bradorego.com/2013-04-an-open-letter-to-okcupid</guid>
       <description>
 
+&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
+  &lt;h4&gt;TL;DNR&lt;/h4&gt;
+  &lt;ul&gt;
+    &lt;li&gt;OkCupid is great, but it&amp;rsquo;s broken.&lt;/li&gt;
+    &lt;li&gt;Fixing it should be pretty easy &amp;emdash; just give a fast, simple way to stop bad members from being bad, and let the community sort it out.&lt;/li&gt;
+    &lt;li&gt;Empower your users and they&amp;rsquo;ll empower you.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;hr/&gt;&lt;/p&gt;
+
 &lt;p&gt;Dear OkCupid,&lt;/p&gt;
 
-&lt;p&gt;I love you. Well, maybe not so much love anymore. I really like you. I really like how you&amp;rsquo;ve made your services free for everyone, and how you&amp;rsquo;re helping people connect and meet others that they never would. I absolutely love how you use your data to create &lt;a href=&#34;http://blog.okcupid.com&#34; target=&#34;_blank&#34;&gt;interesting and relevant blog posts&lt;/a&gt;. I&amp;rsquo;m also a firm believer in the company and your mission, especially after hearing CEO and co-founder Sam Yagan &lt;a href=&#34;http://www.capitalentrepreneurs.com/tonight-wisconsin-startup-night-techstars/&#34; target=&#34;_blank&#34;&gt;give a talk a few weeks back&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I love you. Well, maybe not so much love anymore. I really like you. I really like how you&amp;rsquo;ve made your services free for everyone, and how you&amp;rsquo;re helping people connect and meet others that they never would. I absolutely love how you use your data to create &lt;a href=&#34;http://blog.okcupid.com&#34;&gt;interesting and relevant blog posts&lt;/a&gt;. I&amp;rsquo;m also a firm believer in the company and your mission, especially after hearing CEO and co-founder Sam Yagan &lt;a href=&#34;http://www.capitalentrepreneurs.com/tonight-wisconsin-startup-night-techstars/&#34;&gt;give a talk a few weeks back&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;This is why I feel like I have to do this. See, there&amp;rsquo;s something wrong. It&amp;rsquo;s not a major problem (although, given the userbase and intertia you have, it might be, but given your &lt;a href=&#34;http://www.crazyblinddate.com/&#34; target=&#34;_blank&#34;&gt;willingness&lt;/a&gt; to try &lt;a href=&#34;http://www.okcupid.com/mybestface&#34; target=&#34;_blank&#34;&gt;experiments&lt;/a&gt; and side-projects, this might be something you can spin up/spin off), but it has some pretty significant consequences. As we&amp;rsquo;ve been made well aware by the internet, there are &lt;a href=&#34;http://theinternetisterrible.com/&#34; target=&#34;_blank&#34;&gt;lots of terrible people&lt;/a&gt; out there. Humanity can be pretty messed up. OkCupid is, unfortunately, &lt;a href=&#34;http://www.mandatory.com/2012/11/13/ok-cupid-an-exploration-into-just-how-low-some-guys-will-go&#34; target=&#34;_blank&#34;&gt;no safe haven&lt;/a&gt; to the &lt;a href=&#34;http://www.tumblr.com/tagged/nice%20guys%20of%20okcupid&#34; target=&#34;_blank&#34;&gt;denizens of the internet&lt;/a&gt;. OkCupid&amp;rsquo;s design, however, makes it possible for these baddies to exploit the system, which is where our problem lies.&lt;/p&gt;
+&lt;p&gt;This is why I feel like I have to do this. See, there&amp;rsquo;s something wrong. It&amp;rsquo;s not a major problem (although, given the userbase and intertia you have, it might be, but given your &lt;a href=&#34;http://www.crazyblinddate.com/&#34;&gt;willingness&lt;/a&gt; to try &lt;a href=&#34;http://www.okcupid.com/mybestface&#34;&gt;experiments&lt;/a&gt; and side-projects, this might be something you can spin up/spin off), but it has some pretty significant consequences. As we&amp;rsquo;ve been made well aware by the internet, there are &lt;a href=&#34;http://theinternetisterrible.com/&#34;&gt;lots of terrible people&lt;/a&gt; out there. Humanity can be pretty messed up. OkCupid is, unfortunately, &lt;a href=&#34;http://www.mandatory.com/2012/11/13/ok-cupid-an-exploration-into-just-how-low-some-guys-will-go&#34;&gt;no safe haven&lt;/a&gt; to the &lt;a href=&#34;http://www.tumblr.com/tagged/nice%20guys%20of%20okcupid&#34;&gt;denizens of the internet&lt;/a&gt;. OkCupid&amp;rsquo;s design, however, makes it possible for these baddies to exploit the system, which is where our problem lies.&lt;/p&gt;
 
-&lt;h3 id=&#34;signal-vs-noise:c32ab34c40f9045a2da7d2e8c0023b69&#34;&gt;Signal vs. Noise&lt;/h3&gt;
+&lt;h3 id=&#34;signal-vs-noise:4c0c4bbe7a08bf9aa64c3401696272b2&#34;&gt;Signal vs. Noise&lt;/h3&gt;
 
 &lt;p&gt;For the uninitiated, the way OkCupid works is that users sign up, answer some profile questions about themselves, list some information, post some pictures, state what they&amp;rsquo;re interested in, and maybe even answer some of OkCupid&amp;rsquo;s &amp;ldquo;Match Questions&amp;rdquo;, which is where its famed matchmaking service comes from. Users then have the ability to send messages to any other user, under the premise of making an introduction, conversation, or whatever they please.&lt;/p&gt;
 
 &lt;p&gt;Any user. An infinite number of messages and an infinite number of messages. For all users on OkCupid. And yes, you can talk about anything. Sound suspicious? Maybe not at first. The same is true of most social networks - anyone can send anyone a Facebook message, or Tweet at any other user, etc. The problem comes at a combination of context and this availability. OkCupid is a dating site. Apparently, some (too many) guys think this gives them license to harass girls, to solicit unwanted relations, and to do this to hundreds of girls.&lt;/p&gt;
 
-&lt;p&gt;Sounds pretty grim for ladies, right? They sign up looking for some fun dates, maybe even Mr. Right, and they&amp;rsquo;re bombarded by one-liners, solicitations for sex, and some that are just plain weird. This is bad, because getting lots of creepy/unwanted messages means girls just get overwhelmed and/or disgruntled, and leave. This is something you&amp;rsquo;ve even mentioned and analyzed yourself in &lt;a href=&#34;http://blog.okcupid.com/index.php/the-mathematics-of-beauty/&#34; target=&#34;_blank&#34;&gt;an old blog post&lt;/a&gt;. So this drives women away, this is bad, right? It gets worse.&lt;/p&gt;
+&lt;p&gt;Sounds pretty grim for ladies, right? They sign up looking for some fun dates, maybe even Mr. Right, and they&amp;rsquo;re bombarded by one-liners, solicitations for sex, and some that are just plain weird. This is bad, because getting lots of creepy/unwanted messages means girls just get overwhelmed and/or disgruntled, and leave. This is something you&amp;rsquo;ve even mentioned and analyzed yourself in &lt;a href=&#34;http://blog.okcupid.com/index.php/the-mathematics-of-beauty/&#34;&gt;an old blog post&lt;/a&gt;. So this drives women away, this is bad, right? It gets worse.&lt;/p&gt;
 
-&lt;p&gt;On top of forcing women away, this endless inundation desensitizes them to receiving messages in the first place, which means, for any halfway decent guy out there, actually getting through to a girl is that much harder. The number of messages guys have to send to get any responses is absurd, with&amp;nbsp;&lt;a href=&#34;http://blog.okcupid.com/index.php/online-dating-advice-exactly-what-to-say-in-a-first-message/&#34; target=&#34;_blank&#34;&gt;response rates hovering around 30%&lt;/a&gt;. 30%! Mostly because (bad) guys send way too many messages.&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;On top of forcing women away, this endless inundation desensitizes them to receiving messages in the first place, which means, for any halfway decent guy out there, actually getting through to a girl is that much harder. The number of messages guys have to send to get any responses is absurd, with&amp;nbsp;&lt;a href=&#34;http://blog.okcupid.com/index.php/online-dating-advice-exactly-what-to-say-in-a-first-message/&#34;&gt;response rates hovering around 30%&lt;/a&gt;. 30%! Mostly because (bad) guys send way too many messages.&lt;/p&gt;
 
-&lt;h3 id=&#34;okay-now-what:c32ab34c40f9045a2da7d2e8c0023b69&#34;&gt;Okay. Now what?&lt;/h3&gt;
+&lt;h3 id=&#34;okay-now-what:4c0c4bbe7a08bf9aa64c3401696272b2&#34;&gt;Okay. Now what?&lt;/h3&gt;
 
-&lt;p&gt;So this is bad. Some guys are ruining it for all of us, guys and gals included. What do we do, then? Sit and whine about it? Try &lt;a href=&#34;http://www.eharmony.com/&#34; target=&#34;_blank&#34;&gt;one&lt;/a&gt; &lt;a href=&#34;http://www.ourtime.com/&#34; target=&#34;_blank&#34;&gt;of&lt;/a&gt; &lt;a href=&#34;http://www.chemistry.com/&#34; target=&#34;_blank&#34;&gt;the&lt;/a&gt; &lt;a href=&#34;https://www.zoosk.com/&#34; target=&#34;_blank&#34;&gt;many&lt;/a&gt; &lt;a href=&#34;http://www.match.com/index.aspx&#34; target=&#34;_blank&#34;&gt;other&lt;/a&gt; (&lt;/span&gt;&lt;a href=&#34;http://www.pof.com/&#34; target=&#34;_blank&#34;&gt;mostly&lt;/a&gt; &lt;a href=&#34;http://www.christianmingle.com/&#34; target=&#34;_blank&#34;&gt;terrible&lt;/a&gt;) &lt;a href=&#34;http://www.benaughty.com/&#34; target=&#34;_blank&#34;&gt;dating&lt;/a&gt; sites? Go back to our old ways of bars, clubs, parties, and other social events? Give up and start our own online dating site/service? Try one of those &lt;a href=&#34;http://www.onlulu.com/&#34; target=&#34;_blank&#34;&gt;newfangled&lt;/a&gt; &lt;a href=&#34;http://swoonapp.com/&#34; target=&#34;_blank&#34;&gt;dating&lt;/a&gt; &lt;a href=&#34;http://blendr.com/&#34;  target=&#34;_blank&#34;&gt;apps&lt;/a&gt; &lt;a href=&#34;http://www.gotinder.com/index.html&#34; target=&#34;_blank&#34;&gt;that&lt;/a&gt; &lt;a href=&#34;http://grindr.com/&#34; target=&#34;_blank&#34;&gt;are&lt;/a&gt; &lt;a href=&#34;https://coffeemeetsbagel.com/&#34; target=&#34;_blank&#34;&gt;now&lt;/a&gt; (or at least, for now) all the rage? I don&amp;rsquo;t want to do that, and you don&amp;rsquo;t want me to do that. So let&amp;rsquo;s figure out how to work it out.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;So this is bad. Some guys are ruining it for all of us, guys and gals included. What do we do, then? Sit and whine about it? Try &lt;a href=&#34;http://www.eharmony.com/&#34;&gt;one&lt;/a&gt; &lt;a href=&#34;http://www.ourtime.com/&#34;&gt;of&lt;/a&gt; &lt;a href=&#34;http://www.chemistry.com/&#34;&gt;the&lt;/a&gt; &lt;a href=&#34;https://www.zoosk.com/&#34;&gt;many&lt;/a&gt; &lt;a href=&#34;http://www.match.com/index.aspx&#34;&gt;other&lt;/a&gt; (&lt;/span&gt;&lt;a href=&#34;http://www.pof.com/&#34;&gt;mostly&lt;/a&gt; &lt;a href=&#34;http://www.christianmingle.com/&#34;&gt;terrible&lt;/a&gt;) &lt;a href=&#34;http://www.benaughty.com/&#34;&gt;dating&lt;/a&gt; sites? Go back to our old ways of bars, clubs, parties, and other social events? Give up and start our own online dating site/service? Try one of those &lt;a href=&#34;http://www.onlulu.com/&#34;&gt;newfangled&lt;/a&gt; &lt;a href=&#34;http://swoonapp.com/&#34;&gt;dating&lt;/a&gt; &lt;a href=&#34;http://blendr.com/&#34; &gt;apps&lt;/a&gt; &lt;a href=&#34;http://www.gotinder.com/index.html&#34;&gt;that&lt;/a&gt; &lt;a href=&#34;http://grindr.com/&#34;&gt;are&lt;/a&gt; &lt;a href=&#34;https://coffeemeetsbagel.com/&#34;&gt;now&lt;/a&gt; (or at least, for now) all the rage? I don&amp;rsquo;t want to do that, and you don&amp;rsquo;t want me to do that. So let&amp;rsquo;s figure out how to work it out.&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;There are two things that I think would do a lot to fix this problem. Of course, there are ways around it, but how many guys are really that persitent (don&amp;rsquo;t answer that - I&amp;rsquo;m afraid of the answer). They aren&amp;rsquo;t even that hard to do/implement, and they should naturally weed out the bad ones pretty quickly. Ready? They aren&amp;rsquo;t exactly groundbreaking, but I&amp;rsquo;ll give justification for each.&lt;/p&gt;
 
@@ -92,10 +112,6 @@
 &lt;p&gt;The third is personally my favorite, but also the hardest to implement and to make fair/balanced. Each person gets a set amount of messages per day, based on their rating. Messages that get a nice vote, or even a reply, raise that person&amp;rsquo;s rating and/or replenish their message count. The count also rebuilds itself over time. Quora does something similar to this with its Credits system. Good answers on Quora give Credits, which can be spent on promotions and whatnot. The credits also replenish themselves over time, so users aren&amp;rsquo;t left out to dry. OkCupid could really benefit from something like this.&lt;/p&gt;
 
 &lt;p&gt;I still have faith in you, OkCupid. You do great things, and you&amp;rsquo;re way better than any other site I&amp;rsquo;ve used, both in terms of user experience and user base. Just please, please fix these things, and I&amp;rsquo;ll love you even more. I&amp;rsquo;m more than happy to talk about this in further detail and clarify some points if you&amp;rsquo;d like, as this post was already getting too long to go into full detail.&lt;/p&gt;
-
-&lt;h3 id=&#34;tl-dnr:c32ab34c40f9045a2da7d2e8c0023b69&#34;&gt;TL; DNR&lt;/h3&gt;
-
-&lt;p&gt;OkCupid is great, but it&amp;rsquo;s broken. Fixing it should be pretty easy - just give a fast, simple way to stop bad members from being bad, and let the community sort it out. Empower your users and they&amp;rsquo;ll empower you.&lt;/p&gt;
 </description>
     </item>
     
@@ -105,11 +121,21 @@
       <pubDate>Sat, 16 Mar 2013 16:38:15 -0500</pubDate>
       
       <guid>https://bradorego.com/2013-03-the-importance-of-flow</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve become more and more interested in &lt;a href=&#34;http://en.wikipedia.org/wiki/Flow_(psychology)&#34; target=&#34;_blank&#34;&gt;Flow &lt;/a&gt;recently. As a psych major, flow is something I&amp;rsquo;ve been aware of for a long time, but I always thought of it as something that just happens, and never gave it much thought. It wasn&amp;rsquo;t until an unrelated talk by former psych professor &lt;a href=&#34;http://www.psych.rochester.edu/people/deci_edward/index.html&#34; target=&#34;_blank&#34;&gt;Ed Deci&lt;/a&gt; I was listening to a few months ago that got me thinking about flow in the context of UX.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
+  &lt;h4&gt;TL;DNR&lt;/h4&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Pop-ups are distracting.&lt;/li&gt;
+    &lt;li&gt;Design your life to have less sudden distractions and you&amp;rsquo;ll be more productive and happier.&lt;/li&gt;
+    &lt;li&gt;Desiging user experiences that encourage flow are good.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;hr/&gt;&lt;/p&gt;
 
-&lt;p&gt;The thing that Prof. Deci said that got me thinking was actually about humanistic psychotherapy. Deci studies motivation, and is co-creator of the esteemed &lt;a href=&#34;http://www.selfdeterminationtheory.org/&#34; target=&#34;_blank&#34;&gt;Self-Determination Theory&lt;/a&gt;. What SDT/Deci says is that intrinsic motivation is inherent in people, and it is the product of a situation that features of set of characteristics (autonomy, competence, relatedness). It is also possible (and unfortunately, very common) to thwart these needs, which leads to poor mental health, lack of motivation, etc.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve become more and more interested in &lt;a href=&#34;http://en.wikipedia.org/wiki/Flow_(psychology)&#34;&gt;Flow &lt;/a&gt;recently. As a psych major, flow is something I&amp;rsquo;ve been aware of for a long time, but I always thought of it as something that just happens, and never gave it much thought. It wasn&amp;rsquo;t until an unrelated talk by former psych professor &lt;a href=&#34;http://www.psych.rochester.edu/people/deci_edward/index.html&#34;&gt;Ed Deci&lt;/a&gt; I was listening to a few months ago that got me thinking about flow in the context of UX.&lt;/p&gt;
 
-&lt;p&gt;Concidentally, research has shown a fairly high overlap between the conditions for flow and the basis of SDT. Flow requires a level of challenge that is adequately matched to the abilities of the participant (competence), the activity must have clear goals an progress (relatedness - sort of), and the task must present clear, immediate, and constant feedback, so that the participant can adjust performance. &lt;a href=&#34;http://en.wikipedia.org/wiki/Mihaly_Csikszentmihalyi&#34; target=&#34;_blank&#34;&gt;Mihaly Csikszentmihalyi&lt;/a&gt; (&amp;ldquo;cheek-sent-mee-hah-yee&amp;rdquo;), a world leader in flow, published this graph to express the relationship between challenge and skill:&lt;/p&gt;
+&lt;p&gt;The thing that Prof. Deci said that got me thinking was actually about humanistic psychotherapy. Deci studies motivation, and is co-creator of the esteemed &lt;a href=&#34;http://www.selfdeterminationtheory.org/&#34;&gt;Self-Determination Theory&lt;/a&gt;. What SDT/Deci says is that intrinsic motivation is inherent in people, and it is the product of a situation that features of set of characteristics (autonomy, competence, relatedness). It is also possible (and unfortunately, very common) to thwart these needs, which leads to poor mental health, lack of motivation, etc.&lt;/p&gt;
+
+&lt;p&gt;Concidentally, research has shown a fairly high overlap between the conditions for flow and the basis of SDT. Flow requires a level of challenge that is adequately matched to the abilities of the participant (competence), the activity must have clear goals an progress (relatedness - sort of), and the task must present clear, immediate, and constant feedback, so that the participant can adjust performance. &lt;a href=&#34;http://en.wikipedia.org/wiki/Mihaly_Csikszentmihalyi&#34;&gt;Mihaly Csikszentmihalyi&lt;/a&gt; (&amp;ldquo;cheek-sent-mee-hah-yee&amp;rdquo;), a world leader in flow, published this graph to express the relationship between challenge and skill:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/posts/importance-of-flow/challenge-vs-skill.png&#34; /&gt;&lt;/p&gt;
 
@@ -120,8 +146,6 @@
 &lt;p&gt;I hate this thing so much. Any time I&amp;rsquo;m reading a news story on TechCrunch, I&amp;rsquo;m usually immersed in the experience and enjoying the read until this little thing pops up in the lower right of my browser window. Its sudden appearance grabs my attention, and I instinctively look at it. After that, I murmur something under my breath and then go ba-&amp;hellip;wait, where was I? What was I just reading?&lt;/p&gt;
 
 &lt;p&gt;It&amp;rsquo;s not a major disturbance, as I quickly regain my concentration and get back to reading, but with new/popular articles, this happens several times during my read. This little blip in concentration - a break in my flow - slows me down and sullies my experience. This happens to us all the time, what with cell phones buzzing and Facebook notifications popping up and emails rolling in constantly.&lt;/p&gt;
-
-&lt;p&gt;Moral(s) of the story: I hate that thing. Design your life to have less sudden distractions and you&amp;rsquo;ll be more productive and happier. Desiging user experiences that encourage flow are good.&lt;/p&gt;
 </description>
     </item>
     
@@ -131,13 +155,23 @@
       <pubDate>Wed, 27 Feb 2013 16:22:57 -0500</pubDate>
       
       <guid>https://bradorego.com/2013-02-note-taking</guid>
-      <description>&lt;p&gt;I have a habit when it comes to books. When I read a book, I almost always underline/take notes in the margin. I started doing so sometime in high school, when Literature teachers started telling us it was okay to write in books. The practice carried me through my studies, and I&amp;rsquo;ve enjoyed it so much it&amp;rsquo;s spilled over into my personal/leisure reading (mind you, all of my leisure reading is non-fiction). You can actually tell which books in my personal collection were books I really enjoyed/valued based on how heavily marked up they are.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
+  &lt;h4&gt;TL;DNR&lt;/h4&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Memory is fallible, and humans tend to remember the most intense part and the ending of any experience.&lt;/li&gt;
+    &lt;li&gt;Finding systems that work for you is essential to productivity.&lt;/li&gt;
+    &lt;li&gt;Limit the number of choices a user has to (or has the opportunity to) make. Choose smart defaults and hide most options.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;hr/&gt;&lt;/p&gt;
+
+&lt;p&gt;I have a habit when it comes to books. When I read a book, I almost always underline/take notes in the margin. I started doing so sometime in high school, when Literature teachers started telling us it was okay to write in books. The practice carried me through my studies, and I&amp;rsquo;ve enjoyed it so much it&amp;rsquo;s spilled over into my personal/leisure reading (mind you, all of my leisure reading is non-fiction). You can actually tell which books in my personal collection were books I really enjoyed/valued based on how heavily marked up they are.&lt;/p&gt;
 
 &lt;p&gt;Since graduating from college, I&amp;rsquo;ve started a new version of the practice. Now, after finishing a book (sometimes immediately, but usually after a little time), I go back through the book and look over all of the underlining and notes I took. Generally speaking, when I underline something, it&amp;rsquo;s because it had a certian salience or value to me at the time. So, as I recount these notes, I take a mini post-it note and write whatever value I was trying to glean from it, and then I stick it to the margin of that page. The results look something like this:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/posts/notetaking/paradox5.jpg&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Not only does this practice reinforce what I&amp;rsquo;ve learned from that book, but it also changes the way I&amp;rsquo;ve experienced reading that book. In Barry Schwartz&amp;rsquo;s book &amp;ldquo;&lt;a href=&#34;http://www.amazon.com/Paradox-Choice-Why-More-Less/dp/0060005696&#34; target=&#34;_blank&#34;&gt;The Paradox of Choice&lt;/a&gt;&amp;rdquo;, he cites &lt;a href=&#34;http://profron.net/happiness/files/readings/Kahneman_ObjectiveHappiness.pdf&#34; target=&#34;_blank&#34;&gt;a study by Daniel Kahneman&lt;/a&gt;&amp;nbsp;which recounts the way we experience and remember the utility of something (that is, how much we enjoyed it).&lt;/p&gt;
+&lt;p&gt;Not only does this practice reinforce what I&amp;rsquo;ve learned from that book, but it also changes the way I&amp;rsquo;ve experienced reading that book. In Barry Schwartz&amp;rsquo;s book &amp;ldquo;&lt;a href=&#34;http://www.amazon.com/Paradox-Choice-Why-More-Less/dp/0060005696&#34;&gt;The Paradox of Choice&lt;/a&gt;&amp;rdquo;, he cites &lt;a href=&#34;http://profron.net/happiness/files/readings/Kahneman_ObjectiveHappiness.pdf&#34;&gt;a study by Daniel Kahneman&lt;/a&gt;&amp;nbsp;which recounts the way we experience and remember the utility of something (that is, how much we enjoyed it).&lt;/p&gt;
 
 &lt;p&gt;What Kahneman et al. found is that our remembered utility is governed by two main factors:&lt;/p&gt;
 
@@ -158,13 +192,23 @@
     
     <item>
       <title>Content</title>
-      <link>https://bradorego.com/2012-12-content</link>
-      <pubDate>Sat, 22 Dec 2012 14:21:58 -0500</pubDate>
+      <link>https://bradorego.com/2013-02-content</link>
+      <pubDate>Sat, 09 Feb 2013 14:21:58 -0500</pubDate>
       
-      <guid>https://bradorego.com/2012-12-content</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m going to say this straight out of the gates: this blog post is kind of a cop-out. There have been a ton of changes in my life lately, so I&amp;rsquo;ve been a little MIA when it comes to this blog. One of the things I&amp;rsquo;ve been trying to do, though, finally (~3 months after launching the new site) is to populate my portfolio a bit more so people have stuff to look at. People like looking at stuff.&lt;/p&gt;
+      <guid>https://bradorego.com/2013-02-content</guid>
+      <description>&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
+  &lt;h4&gt;TL;DNR&lt;/h4&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Content is just as important to UX as aesthetics.&lt;/li&gt;
+    &lt;li&gt;Without content, your site (and all of its functionality and pretty design) is worthless.&lt;/li&gt;
+    &lt;li&gt;Trying to stay up to date with blog posts is hard.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;hr/&gt;&lt;/p&gt;
 
-&lt;p&gt;There are a handful of new entries for web and media projects I&amp;rsquo;ve worked on with &lt;a href=&#34;http://zebradog.com&#34; target=&#34;_blank&#34;&gt;Zebradog&lt;/a&gt;, one or two freelance/side-project pieces, and a whole slew of dance items. Art is still forthcoming, as is any updates on &lt;a href=&#34;http://gettrinker.com&#34; target=&#34;_blank&#34;&gt;Trinker&lt;/a&gt; (we&amp;rsquo;ve had a big month, and February will continue to be so).&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m going to say this straight out of the gates: this blog post is kind of a cop-out. There have been a ton of changes in my life lately, so I&amp;rsquo;ve been a little MIA when it comes to this blog. One of the things I&amp;rsquo;ve been trying to do, though, finally (~3 months after launching the new site) is to populate my portfolio a bit more so people have stuff to look at. People like looking at stuff.&lt;/p&gt;
+
+&lt;p&gt;There are a handful of new entries for web and media projects I&amp;rsquo;ve worked on with &lt;a href=&#34;http://zebradog.com&#34;&gt;Zebradog&lt;/a&gt;, one or two freelance/side-project pieces, and a whole slew of dance items. Art is still forthcoming, as is any updates on &lt;a href=&#34;http://gettrinker.com&#34;&gt;Trinker&lt;/a&gt; (we&amp;rsquo;ve had a big month, and February will continue to be so).&lt;/p&gt;
 
 &lt;p&gt;Content is, however, one of the pieces of UX that I neglect the most. I&amp;rsquo;m always an advocate for designing with the content in mind, but I usually write it off as &amp;ldquo;some text&amp;rdquo; or &amp;ldquo;an image and some text&amp;rdquo;, or some generalization of what the content actually is. The volume of content is incredibly important, and can really make or break a design if appropriate consideration isn&amp;rsquo;t taken. There&amp;rsquo;s a lot of material out there about content strategy, so that would probably be a good place to look if you wanted to brush up on it.&lt;/p&gt;
 </description>
@@ -176,9 +220,19 @@
       <pubDate>Sat, 22 Dec 2012 14:21:58 -0500</pubDate>
       
       <guid>https://bradorego.com/2012-12-ditw-stovetop</guid>
-      <description>&lt;p&gt;Sometimes we come across things that, until we see an alternative, we don&amp;rsquo;t realize there&amp;rsquo;s something better than the current option. I had this direct experience when I moved into my current apartment in August, and tried to cook for the first time.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
+  &lt;h4&gt;TL;DNR&lt;/h4&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Sometimes things we interact with in the physical world are poorly designed.&lt;/li&gt;
+    &lt;li&gt;Direct mapping makes a lot more sense, and should be used whenever/wherever possible.&lt;/li&gt;
+    &lt;li&gt;Just because people are used to a certain design/solution does not mean it&amp;rsquo;s the optimal. Don&amp;rsquo;t be afraid to start from scratch.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;hr/&gt;&lt;/p&gt;
 
-&lt;p&gt;Oftentimes we get stuck thinking about UX or UI in context of software design. Donald Norman&amp;rsquo;s book &lt;a href=&#34;http://www.amazon.com/Design-Everyday-Things-Donald-Norman/dp/0465067107&#34; target=&#34;_blank&#34;&gt;The Design of Everyday Things&lt;/a&gt; takes a look at how the design of objects in the physical world can affect our experience using those objects, and it forever changed the way I look at the world. The Design in the Wild (DITW) series is my personal look at my encounters with various objects in the physical world and what their design tells us.&lt;/p&gt;
+&lt;p&gt;Sometimes we come across things that, until we see an alternative, we don&amp;rsquo;t realize there&amp;rsquo;s something better than the current option. I had this direct experience when I moved into my current apartment in August, and tried to cook for the first time.&lt;/p&gt;
+
+&lt;p&gt;Oftentimes we get stuck thinking about UX or UI in context of software design. Donald Norman&amp;rsquo;s book &lt;a href=&#34;http://www.amazon.com/Design-Everyday-Things-Donald-Norman/dp/0465067107&#34;&gt;The Design of Everyday Things&lt;/a&gt; takes a look at how the design of objects in the physical world can affect our experience using those objects, and it forever changed the way I look at the world. The Design in the Wild (DITW) series is my personal look at my encounters with various objects in the physical world and what their design tells us.&lt;/p&gt;
 
 &lt;p&gt;Everyone, at one point or another, has at least seen a stovetop. Hopefully, most of us have used a stovetop at some point in our lives. Think back to the very first time you did this. How long did it take you to figure out which knob related to which burner? How many times, when you were first starting to cook, would you accidentally turn on the wrong burner at first? What we&amp;rsquo;re discussing here is a failure of mapping. Mapping is a concept in usability that relates the controls to the outputs.&lt;/p&gt;
 

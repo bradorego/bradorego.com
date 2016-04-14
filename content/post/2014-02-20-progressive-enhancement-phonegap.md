@@ -8,17 +8,28 @@
    "tags": ["phonegap", "progressive enhancement", "hybrid app", "rails", "java"],
    "title": "Progressive Enhancement with Phonegap"
 }
-<em>Note: This blog post is the long-form answer to <a href="http://stackoverflow.com/questions/20574938/progressive-enhancement-with-phonegap" target="_blank">this StackOverflow post</a> I made about it (which is, at the time of writing, the #1 Google result for "progressive enhancement phonegap"). Also worth noting this guide only addresses Android right now. Doing so for iOS should follow the same methodology though.</em>
 
-Github repo for this project can be found <a href="https://github.com/borego/progressive_enhancement_phonegap" target="_blank">here</a>. You can download the app (for Android) <a href="http://bradorego.com/sites/default/files/progenhpg/prog-enh-pg.apk" target="_blank">here</a>.
+<div class="tldnr">
+  <h4>TL;DNR</h4>
+  <ul>
+    <li>Enabling native-level functionality on a hosted web app is really cool.</li>
+    <li>Code reuse is also pretty cool.</li>
+    <li>Beware of the gotchas. There are always gotchas.</li>
+  </ul>
+</div>
+<hr/>
 
-If you're thinking about building a web app versus a native app, I'm here to tell you that the answer is almost definitely go for a web app. Web performance (especially on mobile devices) has come a long way in the past year or so, and using tools like <a href="http://phonegap.com" target="_blank">Phonegap</a>, you can get the best of both worlds (something in the app store, code reuse, platform agnosticism, leveraging web technologies). Based on some recent work/research I've done, it's actually much more powerful than they're selling it for.
+<em>Note: This blog post is the long-form answer to <a href="http://stackoverflow.com/questions/20574938/progressive-enhancement-with-phonegap">this StackOverflow post</a> I made about it (which is, at the time of writing, the #1 Google result for "progressive enhancement phonegap"). Also worth noting this guide only addresses Android right now. Doing so for iOS should follow the same methodology though.</em>
+
+Github repo for this project can be found <a href="https://github.com/borego/progressive_enhancement_phonegap">here</a>. You can download the app (for Android) <a href="http://old.bradorego.com/sites/default/files/progenhpg/prog-enh-pg.apk">here</a>.
+
+If you're thinking about building a web app versus a native app, I'm here to tell you that the answer is almost definitely go for a web app. Web performance (especially on mobile devices) has come a long way in the past year or so, and using tools like <a href="http://phonegap.com">Phonegap</a>, you can get the best of both worlds (something in the app store, code reuse, platform agnosticism, leveraging web technologies). Based on some recent work/research I've done, it's actually much more powerful than they're selling it for.
 
 This post will go into detail of how to make it work, but at a very high level, all you have to do is alter the User Agent coming out of your Phonegapped app, then sniff for that special UA string on the server side of wherever your web code is living, and if it's there, enable Phonegap-specific code. If not, let it function as a normal web app - no harm, no foul. It's an incredibly powerful tool that lets you use ~98% of the same code for your Android/iPhone app and your web app.
 
 ### Step 0) Set up your Phonegap project, server, etc.
 
-This guide won't go into detail about how exactly to set up a phonegap application, or how to get started with Rails. I'll leave that as an exercise to the reader, but also you can clone my <a href="https://github.com/borego/progressive_enhancement_phonegap" target="_blank">github repo</a> which has all of that (and many other things) done for you. You'll also need to, for the purpose of this demo, add the Contacts plugin to your Phonegap app.
+This guide won't go into detail about how exactly to set up a phonegap application, or how to get started with Rails. I'll leave that as an exercise to the reader, but also you can clone my <a href="https://github.com/borego/progressive_enhancement_phonegap">github repo</a> which has all of that (and many other things) done for you. You'll also need to, for the purpose of this demo, add the Contacts plugin to your Phonegap app.
 
 ### Step 1) Point your Phonegap app at your web app
 
@@ -56,7 +67,7 @@ The bold text is what you're adding. All this does is append a custom string (in
 
 ### Step 3) Listen for your custom User Agent on the server side and set a flag
 
-Now that we have a way to know if a user is accessing our server via a normal browser or via our Phonegap app, we can decide whether or not to enable Phonegap-specific features. You need to do this because if you don't, you get some <a href="/img/posts/prog-enh-phonegap/uglypg.png" target="_blank">ugly error messages</a> as the web app tries to access Phonegap APIs that aren't there. This detection is really easy, though. In the sample app, it looks like this:
+Now that we have a way to know if a user is accessing our server via a normal browser or via our Phonegap app, we can decide whether or not to enable Phonegap-specific features. You need to do this because if you don't, you get some <a href="/img/posts/prog-enh-phonegap/uglypg.png">ugly error messages</a> as the web app tries to access Phonegap APIs that aren't there. This detection is really easy, though. In the sample app, it looks like this:
 
 ```ruby
 class ContactsController < ApplicationController

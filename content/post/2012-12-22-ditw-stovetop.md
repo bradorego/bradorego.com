@@ -16,9 +16,19 @@
   "title": "DITW: Stovetop"
 }
 
+<div class="tldnr">
+  <h4>TL;DNR</h4>
+  <ul>
+    <li>Sometimes things we interact with in the physical world are poorly designed.</li>
+    <li>Direct mapping makes a lot more sense, and should be used whenever/wherever possible.</li>
+    <li>Just because people are used to a certain design/solution does not mean it's the optimal. Don't be afraid to start from scratch.</li>
+  </ul>
+</div>
+<hr/>
+
 Sometimes we come across things that, until we see an alternative, we don't realize there's something better than the current option. I had this direct experience when I moved into my current apartment in August, and tried to cook for the first time.
 
-Oftentimes we get stuck thinking about UX or UI in context of software design. Donald Norman's book <a href="http://www.amazon.com/Design-Everyday-Things-Donald-Norman/dp/0465067107" target="_blank">The Design of Everyday Things</a> takes a look at how the design of objects in the physical world can affect our experience using those objects, and it forever changed the way I look at the world. The Design in the Wild (DITW) series is my personal look at my encounters with various objects in the physical world and what their design tells us.
+Oftentimes we get stuck thinking about UX or UI in context of software design. Donald Norman's book <a href="http://www.amazon.com/Design-Everyday-Things-Donald-Norman/dp/0465067107">The Design of Everyday Things</a> takes a look at how the design of objects in the physical world can affect our experience using those objects, and it forever changed the way I look at the world. The Design in the Wild (DITW) series is my personal look at my encounters with various objects in the physical world and what their design tells us.
 
 Everyone, at one point or another, has at least seen a stovetop. Hopefully, most of us have used a stovetop at some point in our lives. Think back to the very first time you did this. How long did it take you to figure out which knob related to which burner? How many times, when you were first starting to cook, would you accidentally turn on the wrong burner at first? What we're discussing here is a failure of mapping. Mapping is a concept in usability that relates the controls to the outputs.
 

@@ -29,13 +29,13 @@
 
 &lt;p&gt;As you might be able to tell, my last blog post is from 2014. It was about time to get back on the blog horse but also give the site a little facelift. I&amp;rsquo;d &lt;a href=&#34;http://beerbatterbreakfast.com/2014/07/fancy-new-blog.html&#34;&gt;migrated blog platforms&lt;/a&gt; in the past, but never really took the time to think about how my own personal site was hosted. So let&amp;rsquo;s take a quick trip down memory lane.&lt;/p&gt;
 
-&lt;h3 id=&#34;static-site-2011:033d80fd00ff147813ac3335ab5ced00&#34;&gt;Static Site (2011)&lt;/h3&gt;
+&lt;h3 id=&#34;static-site-2011:713252246435f0d8330ff0c53c578039&#34;&gt;Static Site (2011)&lt;/h3&gt;
 
 &lt;p&gt;When I first got into web development (professionally), I thought it&amp;rsquo;d be cool to build my own website from scratch to prove my mettle. That was 2011; certainly not far enough ago by any means for most of the technologies in use today to not exist. But, I was young and naive, and had some big ideas (e.g. a live CSS switcher, replicating the exact same look/behavior with and without Javascript, etc).&lt;/p&gt;
 
 &lt;p&gt;I learned very quickly from that experience that keeping a static site up to date was really difficult. Any time you made a change one place, you had to make sure you made it everywhere. You had to make sure to manage collisions. You had to handle your own deploys and routing. It was a hassle, and I virtualy never updated the site, so after spending some time working with &lt;a href=&#34;https://zebradog.com&#34;&gt;ZebraDog&lt;/a&gt; and seeing the power of Drupal, I decided it was time for a change.&lt;/p&gt;
 
-&lt;h3 id=&#34;drupal-7-0-2012:033d80fd00ff147813ac3335ab5ced00&#34;&gt;Drupal 7.0 (2012)&lt;/h3&gt;
+&lt;h3 id=&#34;drupal-7-0-2012:713252246435f0d8330ff0c53c578039&#34;&gt;Drupal 7.0 (2012)&lt;/h3&gt;
 
 &lt;p&gt;So I set out to &lt;a href=&#34;https://bradorego.com/2012-11-new-site/&#34;&gt;update and re-design&lt;/a&gt; the website again, this time using something a little more powerful and modern, and to make it easier for me to create new content while still having full control and flexibility over how it&amp;rsquo;s displayed and what functionality the website had.&lt;/p&gt;
 
@@ -43,7 +43,7 @@
 
 &lt;p&gt;The problem wasn&amp;rsquo;t whether I could; in fact the problem was probably &lt;strong&gt;that&lt;/strong&gt; I could. I built an incredible media delivery site that was isolated from the world and almost too powerful for its own good. Developing and maintaining the site was nontrivial, and adding new content, while certainly easier than a static site, was beyond me.&lt;/p&gt;
 
-&lt;h3 id=&#34;back-to-static-2016:033d80fd00ff147813ac3335ab5ced00&#34;&gt;Back to Static (2016)&lt;/h3&gt;
+&lt;h3 id=&#34;back-to-static-2016:713252246435f0d8330ff0c53c578039&#34;&gt;Back to Static (2016)&lt;/h3&gt;
 
 &lt;p&gt;Blog technology philosophy has shifted lately. WordPress is still the clear winner in the space, but there&amp;rsquo;s an alternative to generating the site every time it&amp;rsquo;s requested. These take the form of static generators, and make a lot more sense to me personally. Jekyll, Ghost, Hugo, Hexo; the list goes on. What&amp;rsquo;s under the hood doesn&amp;rsquo;t really matter (which, as an aside, makes switching way easier) &amp;emdash; all that matters is the static HTML/CSS/JS they output.&lt;/p&gt;
 
@@ -67,23 +67,33 @@
       <guid>https://bradorego.com/2014-07-transparency-of-online</guid>
       <description>
 
-&lt;p&gt;With all the talk about unplugging, disconnecting, screen time, and going &amp;ldquo;off the grid&amp;rdquo;, there&amp;rsquo;s clearly been a shift in the way we interact with technology and the implications it has for society (as well as possibly our mental health). The &lt;a href=&#34;http://nationaldayofunplugging.com/&#34; target=&#34;_blank&#34;&gt;National Day of Unplugging&lt;/a&gt; is dedicated to people spending ~24 hours (sundown to sundown) without engaging with technology under the premise of doing things like being more present, destressing, etc. While I could go on about how something meant to help us has become this burden of sorts, I&amp;rsquo;m more interested in the implications (from an experiential standpoint) of being forever-on.&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
+  &lt;h4&gt;TL;DNR&lt;/h4&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Notification design is important, especially in the light of ubiquitous computing.&lt;/li&gt;
+    &lt;li&gt;Designing to allow interrupted attention is crucial.&lt;/li&gt;
+    &lt;li&gt;Context matters: Users are no longer in a room at a desk on a computer.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;hr/&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;always-connected:45345f3ef116c8f41b0729242af7c108&#34;&gt;Always Connected&lt;/h3&gt;
+&lt;p&gt;With all the talk about unplugging, disconnecting, screen time, and going &amp;ldquo;off the grid&amp;rdquo;, there&amp;rsquo;s clearly been a shift in the way we interact with technology and the implications it has for society (as well as possibly our mental health). The &lt;a href=&#34;http://nationaldayofunplugging.com/&#34;&gt;National Day of Unplugging&lt;/a&gt; is dedicated to people spending ~24 hours (sundown to sundown) without engaging with technology under the premise of doing things like being more present, destressing, etc. While I could go on about how something meant to help us has become this burden of sorts, I&amp;rsquo;m more interested in the implications (from an experiential standpoint) of being forever-on.&lt;/p&gt;
 
-&lt;p&gt;I first noticed this subtle shift when talking to someone a few weeks ago on &lt;a href=&#34;https://www.hipchat.com/&#34; target=&#34;_blank&#34;&gt;HipChat&lt;/a&gt;. I was in the middle of a conversation on my laptop and knew I had to step away from the computer for a few minutes, but I didn&amp;rsquo;t feel any need to notify my conversation partner about this. Two main reasons - 1) if it were actually all that important/crucial, I could always answer it on my phone, and 2) the message wasn&amp;rsquo;t going anywhere so if I got back to him immediately or within the next 5-10 minutes, it didn&amp;rsquo;t really make a difference.&lt;/p&gt;
+&lt;h3 id=&#34;always-connected:0630faa271b6c4fe5b485a19f90d0aad&#34;&gt;Always Connected&lt;/h3&gt;
+
+&lt;p&gt;I first noticed this subtle shift when talking to someone a few weeks ago on &lt;a href=&#34;https://www.hipchat.com/&#34;&gt;HipChat&lt;/a&gt;. I was in the middle of a conversation on my laptop and knew I had to step away from the computer for a few minutes, but I didn&amp;rsquo;t feel any need to notify my conversation partner about this. Two main reasons - 1) if it were actually all that important/crucial, I could always answer it on my phone, and 2) the message wasn&amp;rsquo;t going anywhere so if I got back to him immediately or within the next 5-10 minutes, it didn&amp;rsquo;t really make a difference.&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;ve noticed an almost identical interaction pattern with Facebook Messenger. I no longer worry whether or not the person is there, nor do I feel the need to alert others of my status. In fact, most of my conversations via FB happen over the course of hours, days, even weeks at a time. The transparency of status is completely irrelevant to our interaction because we both know the messages will be there if and when the other party gets around to responding.&lt;/p&gt;
 
-&lt;h3 id=&#34;it-gets-better-or-worse:45345f3ef116c8f41b0729242af7c108&#34;&gt;It gets better (or worse..?)&lt;/h3&gt;
+&lt;h3 id=&#34;it-gets-better-or-worse:0630faa271b6c4fe5b485a19f90d0aad&#34;&gt;It gets better (or worse..?)&lt;/h3&gt;
 
 &lt;p&gt;Of course, there are drawbacks to this. Everybody knows the dread associatied with the assumption that, because you have a smartphone/phone/computer/laptop/tablet/smartwatch/whatever, that you can be reached any day, any time, and that creates this obsessive need to have notifications turned on for everything. The problem gets worse as we move into more-ubiquitous forms of computing, such as wearable technology.&lt;/p&gt;
 
-&lt;p&gt;This past weekend at &lt;a href=&#34;http://madisonpl.us/ux&#34; target=&#34;_blank&#34;&gt;Madison+UX&lt;/a&gt;, Philip Likens gave a talk about &lt;a href=&#34;http://www.slideshare.net/philiplikens/philip-likens-madisonux&#34; target=&#34;_blank&#34;&gt;wearable computing&lt;/a&gt;, mentioning that he&amp;rsquo;s abandoned most of his wearables due to &lt;a href=&#34;https://www.google.com/search?q=notifiaction+overload&amp;amp;oq=notifiaction+overload&amp;amp;aqs=chrome..69i57.2313j0j1&amp;amp;sourceid=chrome&amp;amp;es_sm=91&amp;amp;ie=UTF-8#q=notification+overload&amp;amp;spell=1&#34; target=&#34;_blank&#34;&gt;notification overload&lt;/a&gt;. In (roughly) his own words, having his phone, his watch, and his Google Glass all vibrate simultaneously any time anything happened became a little overwhelming. So now, instead of having some sense of what&amp;rsquo;s going on, he doesn&amp;rsquo;t even carry his phone on his person - totally shut off.&lt;/p&gt;
+&lt;p&gt;This past weekend at &lt;a href=&#34;http://madisonpl.us/ux&#34;&gt;Madison+UX&lt;/a&gt;, Philip Likens gave a talk about &lt;a href=&#34;http://www.slideshare.net/philiplikens/philip-likens-madisonux&#34;&gt;wearable computing&lt;/a&gt;, mentioning that he&amp;rsquo;s abandoned most of his wearables due to &lt;a href=&#34;https://www.google.com/search?q=notifiaction+overload&amp;amp;oq=notifiaction+overload&amp;amp;aqs=chrome..69i57.2313j0j1&amp;amp;sourceid=chrome&amp;amp;es_sm=91&amp;amp;ie=UTF-8#q=notification+overload&amp;amp;spell=1&#34;&gt;notification overload&lt;/a&gt;. In (roughly) his own words, having his phone, his watch, and his Google Glass all vibrate simultaneously any time anything happened became a little overwhelming. So now, instead of having some sense of what&amp;rsquo;s going on, he doesn&amp;rsquo;t even carry his phone on his person - totally shut off.&lt;/p&gt;
 
-&lt;p&gt;I&amp;rsquo;m inadventently running the same experiment - I put my phone on silent for the conference (due to the exorbitant amount of Twitter notifications I was getting) and I simply forgot to put it back on vibrate for the first day or two. What I realized is that I spent less time on minor distractions (increasing my overall &lt;a href=&#34;https://bradorego.com/2013-03-the-importance-of-flow/&#34; target=&#34;_blank&#34;&gt;flow&lt;/a&gt;), and I only checked the phone when I wanted to. It was back to on-demand instead of being always on, and it&amp;rsquo;s really refreshing.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m inadventently running the same experiment - I put my phone on silent for the conference (due to the exorbitant amount of Twitter notifications I was getting) and I simply forgot to put it back on vibrate for the first day or two. What I realized is that I spent less time on minor distractions (increasing my overall &lt;a href=&#34;https://bradorego.com/2013-03-the-importance-of-flow/&#34;&gt;flow&lt;/a&gt;), and I only checked the phone when I wanted to. It was back to on-demand instead of being always on, and it&amp;rsquo;s really refreshing.&lt;/p&gt;
 
-&lt;h3 id=&#34;designing-notifications:45345f3ef116c8f41b0729242af7c108&#34;&gt;Designing Notifications&lt;/h3&gt;
+&lt;h3 id=&#34;designing-notifications:0630faa271b6c4fe5b485a19f90d0aad&#34;&gt;Designing Notifications&lt;/h3&gt;
 
 &lt;p&gt;So what does this mean to us as Experience Designers? A few things:&lt;/p&gt;
 
@@ -106,19 +116,29 @@
       <guid>https://bradorego.com/2014-02-progressive-enhancement-with-phonegap</guid>
       <description>
 
-&lt;p&gt;&lt;em&gt;Note: This blog post is the long-form answer to &lt;a href=&#34;http://stackoverflow.com/questions/20574938/progressive-enhancement-with-phonegap&#34; target=&#34;_blank&#34;&gt;this StackOverflow post&lt;/a&gt; I made about it (which is, at the time of writing, the #1 Google result for &amp;ldquo;progressive enhancement phonegap&amp;rdquo;). Also worth noting this guide only addresses Android right now. Doing so for iOS should follow the same methodology though.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
+  &lt;h4&gt;TL;DNR&lt;/h4&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Enabling native-level functionality on a hosted web app is really cool.&lt;/li&gt;
+    &lt;li&gt;Code reuse is also pretty cool.&lt;/li&gt;
+    &lt;li&gt;Beware of the gotchas. There are always gotchas.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;hr/&gt;&lt;/p&gt;
 
-&lt;p&gt;Github repo for this project can be found &lt;a href=&#34;https://github.com/borego/progressive_enhancement_phonegap&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. You can download the app (for Android) &lt;a href=&#34;http://bradorego.com/sites/default/files/progenhpg/prog-enh-pg.apk&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Note: This blog post is the long-form answer to &lt;a href=&#34;http://stackoverflow.com/questions/20574938/progressive-enhancement-with-phonegap&#34;&gt;this StackOverflow post&lt;/a&gt; I made about it (which is, at the time of writing, the #1 Google result for &amp;ldquo;progressive enhancement phonegap&amp;rdquo;). Also worth noting this guide only addresses Android right now. Doing so for iOS should follow the same methodology though.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;If you&amp;rsquo;re thinking about building a web app versus a native app, I&amp;rsquo;m here to tell you that the answer is almost definitely go for a web app. Web performance (especially on mobile devices) has come a long way in the past year or so, and using tools like &lt;a href=&#34;http://phonegap.com&#34; target=&#34;_blank&#34;&gt;Phonegap&lt;/a&gt;, you can get the best of both worlds (something in the app store, code reuse, platform agnosticism, leveraging web technologies). Based on some recent work/research I&amp;rsquo;ve done, it&amp;rsquo;s actually much more powerful than they&amp;rsquo;re selling it for.&lt;/p&gt;
+&lt;p&gt;Github repo for this project can be found &lt;a href=&#34;https://github.com/borego/progressive_enhancement_phonegap&#34;&gt;here&lt;/a&gt;. You can download the app (for Android) &lt;a href=&#34;http://old.bradorego.com/sites/default/files/progenhpg/prog-enh-pg.apk&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;re thinking about building a web app versus a native app, I&amp;rsquo;m here to tell you that the answer is almost definitely go for a web app. Web performance (especially on mobile devices) has come a long way in the past year or so, and using tools like &lt;a href=&#34;http://phonegap.com&#34;&gt;Phonegap&lt;/a&gt;, you can get the best of both worlds (something in the app store, code reuse, platform agnosticism, leveraging web technologies). Based on some recent work/research I&amp;rsquo;ve done, it&amp;rsquo;s actually much more powerful than they&amp;rsquo;re selling it for.&lt;/p&gt;
 
 &lt;p&gt;This post will go into detail of how to make it work, but at a very high level, all you have to do is alter the User Agent coming out of your Phonegapped app, then sniff for that special UA string on the server side of wherever your web code is living, and if it&amp;rsquo;s there, enable Phonegap-specific code. If not, let it function as a normal web app - no harm, no foul. It&amp;rsquo;s an incredibly powerful tool that lets you use ~98% of the same code for your Android/iPhone app and your web app.&lt;/p&gt;
 
-&lt;h3 id=&#34;step-0-set-up-your-phonegap-project-server-etc:fd0f8b714b3f39ed49e4051d8a218d26&#34;&gt;Step 0) Set up your Phonegap project, server, etc.&lt;/h3&gt;
+&lt;h3 id=&#34;step-0-set-up-your-phonegap-project-server-etc:b24c23782d00ece4bee8e2115b865429&#34;&gt;Step 0) Set up your Phonegap project, server, etc.&lt;/h3&gt;
 
-&lt;p&gt;This guide won&amp;rsquo;t go into detail about how exactly to set up a phonegap application, or how to get started with Rails. I&amp;rsquo;ll leave that as an exercise to the reader, but also you can clone my &lt;a href=&#34;https://github.com/borego/progressive_enhancement_phonegap&#34; target=&#34;_blank&#34;&gt;github repo&lt;/a&gt; which has all of that (and many other things) done for you. You&amp;rsquo;ll also need to, for the purpose of this demo, add the Contacts plugin to your Phonegap app.&lt;/p&gt;
+&lt;p&gt;This guide won&amp;rsquo;t go into detail about how exactly to set up a phonegap application, or how to get started with Rails. I&amp;rsquo;ll leave that as an exercise to the reader, but also you can clone my &lt;a href=&#34;https://github.com/borego/progressive_enhancement_phonegap&#34;&gt;github repo&lt;/a&gt; which has all of that (and many other things) done for you. You&amp;rsquo;ll also need to, for the purpose of this demo, add the Contacts plugin to your Phonegap app.&lt;/p&gt;
 
-&lt;h3 id=&#34;step-1-point-your-phonegap-app-at-your-web-app:fd0f8b714b3f39ed49e4051d8a218d26&#34;&gt;Step 1) Point your Phonegap app at your web app&lt;/h3&gt;
+&lt;h3 id=&#34;step-1-point-your-phonegap-app-at-your-web-app:b24c23782d00ece4bee8e2115b865429&#34;&gt;Step 1) Point your Phonegap app at your web app&lt;/h3&gt;
 
 &lt;p&gt;This step seems a bit trivial, but it&amp;rsquo;s not part of the default Phonegap configuration. In your &lt;code&gt;www/config.xml&lt;/code&gt; file, add the following line:&lt;/p&gt;
 
@@ -127,7 +147,7 @@
 
 &lt;p&gt;In the example repo, the path is replaced with &lt;code&gt;http://prog-enh-pg.herokuapp.com/&lt;/code&gt;, as that&amp;rsquo;s where the heroku app lives for the demo. I usually put it after the &lt;code&gt;&amp;lt;author&amp;gt;&lt;/code&gt; tag as well, but I don&amp;rsquo;t think that&amp;rsquo;s required.&lt;/p&gt;
 
-&lt;h3 id=&#34;step-2-modify-the-user-agent-coming-out-of-your-pg-app:fd0f8b714b3f39ed49e4051d8a218d26&#34;&gt;Step 2) Modify the User Agent coming out of your PG app&lt;/h3&gt;
+&lt;h3 id=&#34;step-2-modify-the-user-agent-coming-out-of-your-pg-app:b24c23782d00ece4bee8e2115b865429&#34;&gt;Step 2) Modify the User Agent coming out of your PG app&lt;/h3&gt;
 
 &lt;p&gt;This is basically the only part that&amp;rsquo;s platform-specific. Obviously the way you do this on Android is going to differ from the way you do it on iOS. This guide only details the Android one, but it would be just as easy to do in iOS (or Windows Phone).&lt;/p&gt;
 
@@ -150,9 +170,9 @@
 
 &lt;p&gt;The bold text is what you&amp;rsquo;re adding. All this does is append a custom string (in this case, &lt;code&gt;&amp;quot;phonegap_prog_enh&amp;quot;&lt;/code&gt;) to the User Agent so that you can determine on the server side whether or not a use is on your app or not. Yes, of course, someone could probably proxy this and sniff it out, or reverse engineer it, but it doesn&amp;rsquo;t matter - all it would do is break the app in their browser. Trollers gonna troll.&lt;/p&gt;
 
-&lt;h3 id=&#34;step-3-listen-for-your-custom-user-agent-on-the-server-side-and-set-a-flag:fd0f8b714b3f39ed49e4051d8a218d26&#34;&gt;Step 3) Listen for your custom User Agent on the server side and set a flag&lt;/h3&gt;
+&lt;h3 id=&#34;step-3-listen-for-your-custom-user-agent-on-the-server-side-and-set-a-flag:b24c23782d00ece4bee8e2115b865429&#34;&gt;Step 3) Listen for your custom User Agent on the server side and set a flag&lt;/h3&gt;
 
-&lt;p&gt;Now that we have a way to know if a user is accessing our server via a normal browser or via our Phonegap app, we can decide whether or not to enable Phonegap-specific features. You need to do this because if you don&amp;rsquo;t, you get some &lt;a href=&#34;https://bradorego.com/img/posts/prog-enh-phonegap/uglypg.png&#34; target=&#34;_blank&#34;&gt;ugly error messages&lt;/a&gt; as the web app tries to access Phonegap APIs that aren&amp;rsquo;t there. This detection is really easy, though. In the sample app, it looks like this:&lt;/p&gt;
+&lt;p&gt;Now that we have a way to know if a user is accessing our server via a normal browser or via our Phonegap app, we can decide whether or not to enable Phonegap-specific features. You need to do this because if you don&amp;rsquo;t, you get some &lt;a href=&#34;https://bradorego.com/img/posts/prog-enh-phonegap/uglypg.png&#34;&gt;ugly error messages&lt;/a&gt; as the web app tries to access Phonegap APIs that aren&amp;rsquo;t there. This detection is really easy, though. In the sample app, it looks like this:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;class ContactsController &amp;lt; ApplicationController
   def index
@@ -171,7 +191,7 @@ end
 
 &lt;p&gt;You&amp;rsquo;re only going to want the Phonegap Javascript to fire in these instances, which leads us to the next part.&lt;/p&gt;
 
-&lt;h3 id=&#34;step-4-enable-phonegap-specific-functionality:fd0f8b714b3f39ed49e4051d8a218d26&#34;&gt;Step 4) Enable Phonegap-specific functionality&lt;/h3&gt;
+&lt;h3 id=&#34;step-4-enable-phonegap-specific-functionality:b24c23782d00ece4bee8e2115b865429&#34;&gt;Step 4) Enable Phonegap-specific functionality&lt;/h3&gt;
 
 &lt;p&gt;As mentioned above, you&amp;rsquo;re not going to want the Phonegap code to run willy-nilly all over your application. Specifically, the &lt;code&gt;cordova.js&lt;/code&gt; file (which normally lives in your Phonegap&amp;rsquo;s &lt;code&gt;platforms/android/assets/www&lt;/code&gt; folder) is what kicks off all of the Phonegap functionality, so once you load that, you&amp;rsquo;re going down that path. Luckily, this is easily avoided:&lt;/p&gt;
 
@@ -185,11 +205,11 @@ end
 
 &lt;p&gt;Obviously you don&amp;rsquo;t need to inline your PG Javascript, but you do need to protect against &lt;code&gt;cordova.js&lt;/code&gt; loading out of place.&lt;/p&gt;
 
-&lt;h3 id=&#34;step-5-profit:fd0f8b714b3f39ed49e4051d8a218d26&#34;&gt;Step 5) Profit&lt;/h3&gt;
+&lt;h3 id=&#34;step-5-profit:b24c23782d00ece4bee8e2115b865429&#34;&gt;Step 5) Profit&lt;/h3&gt;
 
 &lt;p&gt;That&amp;rsquo;s pretty much it. Obviously there&amp;rsquo;s a lot more to it when it comes to the actual Phonegap APIs, but there&amp;rsquo;s a lot of support and writing about all of that. The point of this guide is just to lay out this methodology, and to further prove my belief that the vast majority of app development can be done with &amp;ldquo;hybrid&amp;rdquo; apps.&lt;/p&gt;
 
-&lt;h3 id=&#34;gotchas:fd0f8b714b3f39ed49e4051d8a218d26&#34;&gt;Gotchas&lt;/h3&gt;
+&lt;h3 id=&#34;gotchas:b24c23782d00ece4bee8e2115b865429&#34;&gt;Gotchas&lt;/h3&gt;
 
 &lt;p&gt;We all know it wouldn&amp;rsquo;t be a real tech article without some gotchas, so here are some things that tripped me up the first few times.&lt;/p&gt;
 
@@ -211,25 +231,35 @@ end
       <guid>https://bradorego.com/2013-04-an-open-letter-to-okcupid</guid>
       <description>
 
+&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
+  &lt;h4&gt;TL;DNR&lt;/h4&gt;
+  &lt;ul&gt;
+    &lt;li&gt;OkCupid is great, but it&amp;rsquo;s broken.&lt;/li&gt;
+    &lt;li&gt;Fixing it should be pretty easy &amp;emdash; just give a fast, simple way to stop bad members from being bad, and let the community sort it out.&lt;/li&gt;
+    &lt;li&gt;Empower your users and they&amp;rsquo;ll empower you.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;hr/&gt;&lt;/p&gt;
+
 &lt;p&gt;Dear OkCupid,&lt;/p&gt;
 
-&lt;p&gt;I love you. Well, maybe not so much love anymore. I really like you. I really like how you&amp;rsquo;ve made your services free for everyone, and how you&amp;rsquo;re helping people connect and meet others that they never would. I absolutely love how you use your data to create &lt;a href=&#34;http://blog.okcupid.com&#34; target=&#34;_blank&#34;&gt;interesting and relevant blog posts&lt;/a&gt;. I&amp;rsquo;m also a firm believer in the company and your mission, especially after hearing CEO and co-founder Sam Yagan &lt;a href=&#34;http://www.capitalentrepreneurs.com/tonight-wisconsin-startup-night-techstars/&#34; target=&#34;_blank&#34;&gt;give a talk a few weeks back&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I love you. Well, maybe not so much love anymore. I really like you. I really like how you&amp;rsquo;ve made your services free for everyone, and how you&amp;rsquo;re helping people connect and meet others that they never would. I absolutely love how you use your data to create &lt;a href=&#34;http://blog.okcupid.com&#34;&gt;interesting and relevant blog posts&lt;/a&gt;. I&amp;rsquo;m also a firm believer in the company and your mission, especially after hearing CEO and co-founder Sam Yagan &lt;a href=&#34;http://www.capitalentrepreneurs.com/tonight-wisconsin-startup-night-techstars/&#34;&gt;give a talk a few weeks back&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;This is why I feel like I have to do this. See, there&amp;rsquo;s something wrong. It&amp;rsquo;s not a major problem (although, given the userbase and intertia you have, it might be, but given your &lt;a href=&#34;http://www.crazyblinddate.com/&#34; target=&#34;_blank&#34;&gt;willingness&lt;/a&gt; to try &lt;a href=&#34;http://www.okcupid.com/mybestface&#34; target=&#34;_blank&#34;&gt;experiments&lt;/a&gt; and side-projects, this might be something you can spin up/spin off), but it has some pretty significant consequences. As we&amp;rsquo;ve been made well aware by the internet, there are &lt;a href=&#34;http://theinternetisterrible.com/&#34; target=&#34;_blank&#34;&gt;lots of terrible people&lt;/a&gt; out there. Humanity can be pretty messed up. OkCupid is, unfortunately, &lt;a href=&#34;http://www.mandatory.com/2012/11/13/ok-cupid-an-exploration-into-just-how-low-some-guys-will-go&#34; target=&#34;_blank&#34;&gt;no safe haven&lt;/a&gt; to the &lt;a href=&#34;http://www.tumblr.com/tagged/nice%20guys%20of%20okcupid&#34; target=&#34;_blank&#34;&gt;denizens of the internet&lt;/a&gt;. OkCupid&amp;rsquo;s design, however, makes it possible for these baddies to exploit the system, which is where our problem lies.&lt;/p&gt;
+&lt;p&gt;This is why I feel like I have to do this. See, there&amp;rsquo;s something wrong. It&amp;rsquo;s not a major problem (although, given the userbase and intertia you have, it might be, but given your &lt;a href=&#34;http://www.crazyblinddate.com/&#34;&gt;willingness&lt;/a&gt; to try &lt;a href=&#34;http://www.okcupid.com/mybestface&#34;&gt;experiments&lt;/a&gt; and side-projects, this might be something you can spin up/spin off), but it has some pretty significant consequences. As we&amp;rsquo;ve been made well aware by the internet, there are &lt;a href=&#34;http://theinternetisterrible.com/&#34;&gt;lots of terrible people&lt;/a&gt; out there. Humanity can be pretty messed up. OkCupid is, unfortunately, &lt;a href=&#34;http://www.mandatory.com/2012/11/13/ok-cupid-an-exploration-into-just-how-low-some-guys-will-go&#34;&gt;no safe haven&lt;/a&gt; to the &lt;a href=&#34;http://www.tumblr.com/tagged/nice%20guys%20of%20okcupid&#34;&gt;denizens of the internet&lt;/a&gt;. OkCupid&amp;rsquo;s design, however, makes it possible for these baddies to exploit the system, which is where our problem lies.&lt;/p&gt;
 
-&lt;h3 id=&#34;signal-vs-noise:c32ab34c40f9045a2da7d2e8c0023b69&#34;&gt;Signal vs. Noise&lt;/h3&gt;
+&lt;h3 id=&#34;signal-vs-noise:4c0c4bbe7a08bf9aa64c3401696272b2&#34;&gt;Signal vs. Noise&lt;/h3&gt;
 
 &lt;p&gt;For the uninitiated, the way OkCupid works is that users sign up, answer some profile questions about themselves, list some information, post some pictures, state what they&amp;rsquo;re interested in, and maybe even answer some of OkCupid&amp;rsquo;s &amp;ldquo;Match Questions&amp;rdquo;, which is where its famed matchmaking service comes from. Users then have the ability to send messages to any other user, under the premise of making an introduction, conversation, or whatever they please.&lt;/p&gt;
 
 &lt;p&gt;Any user. An infinite number of messages and an infinite number of messages. For all users on OkCupid. And yes, you can talk about anything. Sound suspicious? Maybe not at first. The same is true of most social networks - anyone can send anyone a Facebook message, or Tweet at any other user, etc. The problem comes at a combination of context and this availability. OkCupid is a dating site. Apparently, some (too many) guys think this gives them license to harass girls, to solicit unwanted relations, and to do this to hundreds of girls.&lt;/p&gt;
 
-&lt;p&gt;Sounds pretty grim for ladies, right? They sign up looking for some fun dates, maybe even Mr. Right, and they&amp;rsquo;re bombarded by one-liners, solicitations for sex, and some that are just plain weird. This is bad, because getting lots of creepy/unwanted messages means girls just get overwhelmed and/or disgruntled, and leave. This is something you&amp;rsquo;ve even mentioned and analyzed yourself in &lt;a href=&#34;http://blog.okcupid.com/index.php/the-mathematics-of-beauty/&#34; target=&#34;_blank&#34;&gt;an old blog post&lt;/a&gt;. So this drives women away, this is bad, right? It gets worse.&lt;/p&gt;
+&lt;p&gt;Sounds pretty grim for ladies, right? They sign up looking for some fun dates, maybe even Mr. Right, and they&amp;rsquo;re bombarded by one-liners, solicitations for sex, and some that are just plain weird. This is bad, because getting lots of creepy/unwanted messages means girls just get overwhelmed and/or disgruntled, and leave. This is something you&amp;rsquo;ve even mentioned and analyzed yourself in &lt;a href=&#34;http://blog.okcupid.com/index.php/the-mathematics-of-beauty/&#34;&gt;an old blog post&lt;/a&gt;. So this drives women away, this is bad, right? It gets worse.&lt;/p&gt;
 
-&lt;p&gt;On top of forcing women away, this endless inundation desensitizes them to receiving messages in the first place, which means, for any halfway decent guy out there, actually getting through to a girl is that much harder. The number of messages guys have to send to get any responses is absurd, with&amp;nbsp;&lt;a href=&#34;http://blog.okcupid.com/index.php/online-dating-advice-exactly-what-to-say-in-a-first-message/&#34; target=&#34;_blank&#34;&gt;response rates hovering around 30%&lt;/a&gt;. 30%! Mostly because (bad) guys send way too many messages.&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;On top of forcing women away, this endless inundation desensitizes them to receiving messages in the first place, which means, for any halfway decent guy out there, actually getting through to a girl is that much harder. The number of messages guys have to send to get any responses is absurd, with&amp;nbsp;&lt;a href=&#34;http://blog.okcupid.com/index.php/online-dating-advice-exactly-what-to-say-in-a-first-message/&#34;&gt;response rates hovering around 30%&lt;/a&gt;. 30%! Mostly because (bad) guys send way too many messages.&lt;/p&gt;
 
-&lt;h3 id=&#34;okay-now-what:c32ab34c40f9045a2da7d2e8c0023b69&#34;&gt;Okay. Now what?&lt;/h3&gt;
+&lt;h3 id=&#34;okay-now-what:4c0c4bbe7a08bf9aa64c3401696272b2&#34;&gt;Okay. Now what?&lt;/h3&gt;
 
-&lt;p&gt;So this is bad. Some guys are ruining it for all of us, guys and gals included. What do we do, then? Sit and whine about it? Try &lt;a href=&#34;http://www.eharmony.com/&#34; target=&#34;_blank&#34;&gt;one&lt;/a&gt; &lt;a href=&#34;http://www.ourtime.com/&#34; target=&#34;_blank&#34;&gt;of&lt;/a&gt; &lt;a href=&#34;http://www.chemistry.com/&#34; target=&#34;_blank&#34;&gt;the&lt;/a&gt; &lt;a href=&#34;https://www.zoosk.com/&#34; target=&#34;_blank&#34;&gt;many&lt;/a&gt; &lt;a href=&#34;http://www.match.com/index.aspx&#34; target=&#34;_blank&#34;&gt;other&lt;/a&gt; (&lt;/span&gt;&lt;a href=&#34;http://www.pof.com/&#34; target=&#34;_blank&#34;&gt;mostly&lt;/a&gt; &lt;a href=&#34;http://www.christianmingle.com/&#34; target=&#34;_blank&#34;&gt;terrible&lt;/a&gt;) &lt;a href=&#34;http://www.benaughty.com/&#34; target=&#34;_blank&#34;&gt;dating&lt;/a&gt; sites? Go back to our old ways of bars, clubs, parties, and other social events? Give up and start our own online dating site/service? Try one of those &lt;a href=&#34;http://www.onlulu.com/&#34; target=&#34;_blank&#34;&gt;newfangled&lt;/a&gt; &lt;a href=&#34;http://swoonapp.com/&#34; target=&#34;_blank&#34;&gt;dating&lt;/a&gt; &lt;a href=&#34;http://blendr.com/&#34;  target=&#34;_blank&#34;&gt;apps&lt;/a&gt; &lt;a href=&#34;http://www.gotinder.com/index.html&#34; target=&#34;_blank&#34;&gt;that&lt;/a&gt; &lt;a href=&#34;http://grindr.com/&#34; target=&#34;_blank&#34;&gt;are&lt;/a&gt; &lt;a href=&#34;https://coffeemeetsbagel.com/&#34; target=&#34;_blank&#34;&gt;now&lt;/a&gt; (or at least, for now) all the rage? I don&amp;rsquo;t want to do that, and you don&amp;rsquo;t want me to do that. So let&amp;rsquo;s figure out how to work it out.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;So this is bad. Some guys are ruining it for all of us, guys and gals included. What do we do, then? Sit and whine about it? Try &lt;a href=&#34;http://www.eharmony.com/&#34;&gt;one&lt;/a&gt; &lt;a href=&#34;http://www.ourtime.com/&#34;&gt;of&lt;/a&gt; &lt;a href=&#34;http://www.chemistry.com/&#34;&gt;the&lt;/a&gt; &lt;a href=&#34;https://www.zoosk.com/&#34;&gt;many&lt;/a&gt; &lt;a href=&#34;http://www.match.com/index.aspx&#34;&gt;other&lt;/a&gt; (&lt;/span&gt;&lt;a href=&#34;http://www.pof.com/&#34;&gt;mostly&lt;/a&gt; &lt;a href=&#34;http://www.christianmingle.com/&#34;&gt;terrible&lt;/a&gt;) &lt;a href=&#34;http://www.benaughty.com/&#34;&gt;dating&lt;/a&gt; sites? Go back to our old ways of bars, clubs, parties, and other social events? Give up and start our own online dating site/service? Try one of those &lt;a href=&#34;http://www.onlulu.com/&#34;&gt;newfangled&lt;/a&gt; &lt;a href=&#34;http://swoonapp.com/&#34;&gt;dating&lt;/a&gt; &lt;a href=&#34;http://blendr.com/&#34; &gt;apps&lt;/a&gt; &lt;a href=&#34;http://www.gotinder.com/index.html&#34;&gt;that&lt;/a&gt; &lt;a href=&#34;http://grindr.com/&#34;&gt;are&lt;/a&gt; &lt;a href=&#34;https://coffeemeetsbagel.com/&#34;&gt;now&lt;/a&gt; (or at least, for now) all the rage? I don&amp;rsquo;t want to do that, and you don&amp;rsquo;t want me to do that. So let&amp;rsquo;s figure out how to work it out.&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;There are two things that I think would do a lot to fix this problem. Of course, there are ways around it, but how many guys are really that persitent (don&amp;rsquo;t answer that - I&amp;rsquo;m afraid of the answer). They aren&amp;rsquo;t even that hard to do/implement, and they should naturally weed out the bad ones pretty quickly. Ready? They aren&amp;rsquo;t exactly groundbreaking, but I&amp;rsquo;ll give justification for each.&lt;/p&gt;
 
@@ -247,10 +277,6 @@ end
 &lt;p&gt;The third is personally my favorite, but also the hardest to implement and to make fair/balanced. Each person gets a set amount of messages per day, based on their rating. Messages that get a nice vote, or even a reply, raise that person&amp;rsquo;s rating and/or replenish their message count. The count also rebuilds itself over time. Quora does something similar to this with its Credits system. Good answers on Quora give Credits, which can be spent on promotions and whatnot. The credits also replenish themselves over time, so users aren&amp;rsquo;t left out to dry. OkCupid could really benefit from something like this.&lt;/p&gt;
 
 &lt;p&gt;I still have faith in you, OkCupid. You do great things, and you&amp;rsquo;re way better than any other site I&amp;rsquo;ve used, both in terms of user experience and user base. Just please, please fix these things, and I&amp;rsquo;ll love you even more. I&amp;rsquo;m more than happy to talk about this in further detail and clarify some points if you&amp;rsquo;d like, as this post was already getting too long to go into full detail.&lt;/p&gt;
-
-&lt;h3 id=&#34;tl-dnr:c32ab34c40f9045a2da7d2e8c0023b69&#34;&gt;TL; DNR&lt;/h3&gt;
-
-&lt;p&gt;OkCupid is great, but it&amp;rsquo;s broken. Fixing it should be pretty easy - just give a fast, simple way to stop bad members from being bad, and let the community sort it out. Empower your users and they&amp;rsquo;ll empower you.&lt;/p&gt;
 </description>
     </item>
     
@@ -260,11 +286,21 @@ end
       <pubDate>Sat, 16 Mar 2013 16:38:15 -0500</pubDate>
       
       <guid>https://bradorego.com/2013-03-the-importance-of-flow</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve become more and more interested in &lt;a href=&#34;http://en.wikipedia.org/wiki/Flow_(psychology)&#34; target=&#34;_blank&#34;&gt;Flow &lt;/a&gt;recently. As a psych major, flow is something I&amp;rsquo;ve been aware of for a long time, but I always thought of it as something that just happens, and never gave it much thought. It wasn&amp;rsquo;t until an unrelated talk by former psych professor &lt;a href=&#34;http://www.psych.rochester.edu/people/deci_edward/index.html&#34; target=&#34;_blank&#34;&gt;Ed Deci&lt;/a&gt; I was listening to a few months ago that got me thinking about flow in the context of UX.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
+  &lt;h4&gt;TL;DNR&lt;/h4&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Pop-ups are distracting.&lt;/li&gt;
+    &lt;li&gt;Design your life to have less sudden distractions and you&amp;rsquo;ll be more productive and happier.&lt;/li&gt;
+    &lt;li&gt;Desiging user experiences that encourage flow are good.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;hr/&gt;&lt;/p&gt;
 
-&lt;p&gt;The thing that Prof. Deci said that got me thinking was actually about humanistic psychotherapy. Deci studies motivation, and is co-creator of the esteemed &lt;a href=&#34;http://www.selfdeterminationtheory.org/&#34; target=&#34;_blank&#34;&gt;Self-Determination Theory&lt;/a&gt;. What SDT/Deci says is that intrinsic motivation is inherent in people, and it is the product of a situation that features of set of characteristics (autonomy, competence, relatedness). It is also possible (and unfortunately, very common) to thwart these needs, which leads to poor mental health, lack of motivation, etc.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve become more and more interested in &lt;a href=&#34;http://en.wikipedia.org/wiki/Flow_(psychology)&#34;&gt;Flow &lt;/a&gt;recently. As a psych major, flow is something I&amp;rsquo;ve been aware of for a long time, but I always thought of it as something that just happens, and never gave it much thought. It wasn&amp;rsquo;t until an unrelated talk by former psych professor &lt;a href=&#34;http://www.psych.rochester.edu/people/deci_edward/index.html&#34;&gt;Ed Deci&lt;/a&gt; I was listening to a few months ago that got me thinking about flow in the context of UX.&lt;/p&gt;
 
-&lt;p&gt;Concidentally, research has shown a fairly high overlap between the conditions for flow and the basis of SDT. Flow requires a level of challenge that is adequately matched to the abilities of the participant (competence), the activity must have clear goals an progress (relatedness - sort of), and the task must present clear, immediate, and constant feedback, so that the participant can adjust performance. &lt;a href=&#34;http://en.wikipedia.org/wiki/Mihaly_Csikszentmihalyi&#34; target=&#34;_blank&#34;&gt;Mihaly Csikszentmihalyi&lt;/a&gt; (&amp;ldquo;cheek-sent-mee-hah-yee&amp;rdquo;), a world leader in flow, published this graph to express the relationship between challenge and skill:&lt;/p&gt;
+&lt;p&gt;The thing that Prof. Deci said that got me thinking was actually about humanistic psychotherapy. Deci studies motivation, and is co-creator of the esteemed &lt;a href=&#34;http://www.selfdeterminationtheory.org/&#34;&gt;Self-Determination Theory&lt;/a&gt;. What SDT/Deci says is that intrinsic motivation is inherent in people, and it is the product of a situation that features of set of characteristics (autonomy, competence, relatedness). It is also possible (and unfortunately, very common) to thwart these needs, which leads to poor mental health, lack of motivation, etc.&lt;/p&gt;
+
+&lt;p&gt;Concidentally, research has shown a fairly high overlap between the conditions for flow and the basis of SDT. Flow requires a level of challenge that is adequately matched to the abilities of the participant (competence), the activity must have clear goals an progress (relatedness - sort of), and the task must present clear, immediate, and constant feedback, so that the participant can adjust performance. &lt;a href=&#34;http://en.wikipedia.org/wiki/Mihaly_Csikszentmihalyi&#34;&gt;Mihaly Csikszentmihalyi&lt;/a&gt; (&amp;ldquo;cheek-sent-mee-hah-yee&amp;rdquo;), a world leader in flow, published this graph to express the relationship between challenge and skill:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/posts/importance-of-flow/challenge-vs-skill.png&#34; /&gt;&lt;/p&gt;
 
@@ -275,8 +311,6 @@ end
 &lt;p&gt;I hate this thing so much. Any time I&amp;rsquo;m reading a news story on TechCrunch, I&amp;rsquo;m usually immersed in the experience and enjoying the read until this little thing pops up in the lower right of my browser window. Its sudden appearance grabs my attention, and I instinctively look at it. After that, I murmur something under my breath and then go ba-&amp;hellip;wait, where was I? What was I just reading?&lt;/p&gt;
 
 &lt;p&gt;It&amp;rsquo;s not a major disturbance, as I quickly regain my concentration and get back to reading, but with new/popular articles, this happens several times during my read. This little blip in concentration - a break in my flow - slows me down and sullies my experience. This happens to us all the time, what with cell phones buzzing and Facebook notifications popping up and emails rolling in constantly.&lt;/p&gt;
-
-&lt;p&gt;Moral(s) of the story: I hate that thing. Design your life to have less sudden distractions and you&amp;rsquo;ll be more productive and happier. Desiging user experiences that encourage flow are good.&lt;/p&gt;
 </description>
     </item>
     
@@ -288,19 +322,29 @@ end
       <guid>https://bradorego.com/2013-03-foursquare-heatmap--remote-sensing</guid>
       <description>
 
-&lt;p&gt;A little over a month ago (technically during the &lt;a href=&#34;https://www.hackerleague.org/hackathons/foursquare-hackathon-2013&#34; target=&#34;_blank&#34;&gt;Foursquare Hackathon&lt;/a&gt;, but I was working from home due to &lt;a href=&#34;http://midwestultimate.com/red-eye&#34; target=&#34;_blank&#34;&gt;Red Eye&lt;/a&gt;) I spent a few hours one weekend hacking together an idea I&amp;rsquo;d come up with when working on Foursquare integration for &lt;a href=&#34;http://gettrinker.com&#34; target=&#34;_blank&#34;&gt;Trinker&lt;/a&gt;. What I discovered while playing with the &lt;a href=&#34;https://developer.foursquare.com/overview/venues&#34; target=&#34;_blank&#34;&gt;Venues API&lt;/a&gt; is that with one query, you can get all of the information about a bunch of different venues (I think it tops out at 30). Part of that information is, of course, the location (latitude, longitude, address), and another interesting data point: the &lt;code&gt;hereNow&lt;/code&gt; value.&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
+  &lt;h4&gt;TL;DNR&lt;/h4&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Foursquare&amp;rsquo;s API and Google Maps are pretty easy to work with.&lt;/li&gt;
+    &lt;li&gt;Creating a new product can be as easy as combining two existing technologies.&lt;/li&gt;
+    &lt;li&gt;New products create opportunities for new experiences.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;hr/&gt;&lt;/p&gt;
 
-&lt;p&gt;What that means is that with a single query to the Foursquare API, I essentially have a list of locations and how many people are checked in at that location right now. Interesting, I thought. So then I thought, why don&amp;rsquo;t I take this information and create an overlay in Google Maps? A heat map, if you will? Well, the idea sat around for a month or two, and when I caught wind of the Foursquare Hackathon thanks to &lt;a href=&#34;http://snowshoestamp.com&#34; target=&#34;_blank&#34;&gt;Snowshoe&lt;/a&gt;, I decided it was time to dust that one off.&lt;/p&gt;
+&lt;p&gt;A little over a month ago (technically during the &lt;a href=&#34;https://www.hackerleague.org/hackathons/foursquare-hackathon-2013&#34;&gt;Foursquare Hackathon&lt;/a&gt;, but I was working from home due to &lt;a href=&#34;http://midwestultimate.com/red-eye&#34;&gt;Red Eye&lt;/a&gt;) I spent a few hours one weekend hacking together an idea I&amp;rsquo;d come up with when working on Foursquare integration for &lt;a href=&#34;http://gettrinker.com&#34;&gt;Trinker&lt;/a&gt;. What I discovered while playing with the &lt;a href=&#34;https://developer.foursquare.com/overview/venues&#34;&gt;Venues API&lt;/a&gt; is that with one query, you can get all of the information about a bunch of different venues (I think it tops out at 30). Part of that information is, of course, the location (latitude, longitude, address), and another interesting data point: the &lt;code&gt;hereNow&lt;/code&gt; value.&lt;/p&gt;
 
-&lt;h3 id=&#34;the-technical-details:55f53fcd8412c858142f39d9a9409bee&#34;&gt;The technical details&lt;/h3&gt;
+&lt;p&gt;What that means is that with a single query to the Foursquare API, I essentially have a list of locations and how many people are checked in at that location right now. Interesting, I thought. So then I thought, why don&amp;rsquo;t I take this information and create an overlay in Google Maps? A heat map, if you will? Well, the idea sat around for a month or two, and when I caught wind of the Foursquare Hackathon thanks to &lt;a href=&#34;http://snowshoestamp.com&#34;&gt;Snowshoe&lt;/a&gt;, I decided it was time to dust that one off.&lt;/p&gt;
 
-&lt;p&gt;The app is written entirely in Javascript (there&amp;rsquo;s no server-side code behind this - no database), and uses Foursquare&amp;rsquo;s API and Google&amp;rsquo;s Maps API. I first try to capture the user&amp;rsquo;s geolocation data (&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Using_geolocation&#34; target=&#34;_blank&#34;&gt;navigator.geolocation&lt;/a&gt;) so I can display a map that&amp;rsquo;s immediately relevant to them. If that fails (or they deny), I default to NYC (as it almost always has data to show). Users can also enter an address or location which I then run through Google&amp;rsquo;s &lt;a href=&#34;https://developers.google.com/maps/documentation/geocoding/&#34; target=&#34;_blank&#34;&gt;Geocoder API&lt;/a&gt; and pull out the lat/lng which go on to the 4sq/gMaps functions. Once I have a lat/lng, I make an AJAX call to Foursquare with credentials (&lt;code&gt;client_id&lt;/code&gt;, &lt;code&gt;client_secret&lt;/code&gt;, &lt;code&gt;version #&lt;/code&gt;) and the data to make the query (&lt;code&gt;radius&lt;/code&gt;, &lt;code&gt;lat&lt;/code&gt;/&lt;code&gt;lng&lt;/code&gt;, &lt;code&gt;category&lt;/code&gt;, etc). The return from that gives me the &lt;a href=&#34;https://developer.foursquare.com/docs/explore#req=venues/search%3Fll%3D40.7,-74&#34; target=&#34;_blank&#34;&gt;venues list&lt;/a&gt; (&lt;code&gt;data.response.venues&lt;/code&gt;), which I save off into a local variable for later (&lt;code&gt;venueList&lt;/code&gt;). Once I have all the data, I initialize a &lt;a href=&#34;https://developers.google.com/maps/documentation/javascript/reference#Map&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;google.maps.Map&lt;/code&gt; object&lt;/a&gt; (with some &lt;a href=&#34;https://developers.google.com/maps/documentation/javascript/reference#MapOptions&#34; target=&#34;_blank&#34;&gt;options&lt;/a&gt;), and then iterate through each of the venues, drawing a &lt;a href=&#34;https://developers.google.com/maps/documentation/javascript/reference#Circle&#34; target=&#34;_blank&#34;&gt;circle&lt;/a&gt; with radius and color based on the &lt;code&gt;hereNow&lt;/code&gt; value of that venue. Once the circle is drawn to the map (which is kind of weird - you actually create a new circle with a reference to the map object), I add a &lt;a href=&#34;https://developers.google.com/maps/documentation/javascript/events&#34; target=&#34;_blank&#34;&gt;click listener&lt;/a&gt; to display the venue information, and then I add them to the table below which I then run through &lt;a href=&#34;http://tablesorter.com/docs/&#34; target=&#34;_blank&#34;&gt;tablesorter&lt;/a&gt;. When you click on one of the table rows, I grab the lat/lng from that row and search through the list of venues (&lt;code&gt;venueList&lt;/code&gt;) to find the one that matches and open up an &lt;a href=&#34;https://developers.google.com/maps/documentation/javascript/reference#InfoWindow&#34; target=&#34;_blank&#34;&gt;info window&lt;/a&gt; to display its content. Voila.&lt;/p&gt;
+&lt;h3 id=&#34;the-technical-details:8c66a7351b15f2ef68d2e9b9363a058c&#34;&gt;The technical details&lt;/h3&gt;
+
+&lt;p&gt;The app is written entirely in Javascript (there&amp;rsquo;s no server-side code behind this - no database), and uses Foursquare&amp;rsquo;s API and Google&amp;rsquo;s Maps API. I first try to capture the user&amp;rsquo;s geolocation data (&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Using_geolocation&#34;&gt;navigator.geolocation&lt;/a&gt;) so I can display a map that&amp;rsquo;s immediately relevant to them. If that fails (or they deny), I default to NYC (as it almost always has data to show). Users can also enter an address or location which I then run through Google&amp;rsquo;s &lt;a href=&#34;https://developers.google.com/maps/documentation/geocoding/&#34;&gt;Geocoder API&lt;/a&gt; and pull out the lat/lng which go on to the 4sq/gMaps functions. Once I have a lat/lng, I make an AJAX call to Foursquare with credentials (&lt;code&gt;client_id&lt;/code&gt;, &lt;code&gt;client_secret&lt;/code&gt;, &lt;code&gt;version #&lt;/code&gt;) and the data to make the query (&lt;code&gt;radius&lt;/code&gt;, &lt;code&gt;lat&lt;/code&gt;/&lt;code&gt;lng&lt;/code&gt;, &lt;code&gt;category&lt;/code&gt;, etc). The return from that gives me the &lt;a href=&#34;https://developer.foursquare.com/docs/explore#req=venues/search%3Fll%3D40.7,-74&#34;&gt;venues list&lt;/a&gt; (&lt;code&gt;data.response.venues&lt;/code&gt;), which I save off into a local variable for later (&lt;code&gt;venueList&lt;/code&gt;). Once I have all the data, I initialize a &lt;a href=&#34;https://developers.google.com/maps/documentation/javascript/reference#Map&#34;&gt;&lt;code&gt;google.maps.Map&lt;/code&gt; object&lt;/a&gt; (with some &lt;a href=&#34;https://developers.google.com/maps/documentation/javascript/reference#MapOptions&#34;&gt;options&lt;/a&gt;), and then iterate through each of the venues, drawing a &lt;a href=&#34;https://developers.google.com/maps/documentation/javascript/reference#Circle&#34;&gt;circle&lt;/a&gt; with radius and color based on the &lt;code&gt;hereNow&lt;/code&gt; value of that venue. Once the circle is drawn to the map (which is kind of weird - you actually create a new circle with a reference to the map object), I add a &lt;a href=&#34;https://developers.google.com/maps/documentation/javascript/events&#34;&gt;click listener&lt;/a&gt; to display the venue information, and then I add them to the table below which I then run through &lt;a href=&#34;http://tablesorter.com/docs/&#34;&gt;tablesorter&lt;/a&gt;. When you click on one of the table rows, I grab the lat/lng from that row and search through the list of venues (&lt;code&gt;venueList&lt;/code&gt;) to find the one that matches and open up an &lt;a href=&#34;https://developers.google.com/maps/documentation/javascript/reference#InfoWindow&#34;&gt;info window&lt;/a&gt; to display its content. Voila.&lt;/p&gt;
 
 &lt;p&gt;Whew, okay. That was a mouthful. For the non-tech folk, basically all I&amp;rsquo;m doing is getting the latitude and longitude of your current location (or what you type in), querying Foursquare, pulling out the info, and putting circles onto Google Maps based on how many people are at the locations, which you can then click on to get more info. You can also sort the table below, and click on any row to see that location on the map.&lt;/p&gt;
 
-&lt;h3 id=&#34;but-why-brad:55f53fcd8412c858142f39d9a9409bee&#34;&gt;But why, Brad?&lt;/h3&gt;
+&lt;h3 id=&#34;but-why-brad:8c66a7351b15f2ef68d2e9b9363a058c&#34;&gt;But why, Brad?&lt;/h3&gt;
 
-&lt;p&gt;Because it&amp;rsquo;s cool. That&amp;rsquo;s actually the first motivation. I had the idea and I wanted to see if I could pull it off. It turns out I could, and it only took me a few hours to get the base prototype working. I thought it&amp;rsquo;d be interesting to literally see where people are. That is, in essence, what this is. I&amp;rsquo;ve created an interactive information visualization of where people are, according to Foursquare. And it&amp;rsquo;s really cool. I&amp;rsquo;ve also made a few &lt;a href=&#34;http://www.youtube.com/playlist?list=PLq3M6ODce1N6IZoXoisCw5WHjEQs7SAWl&amp;amp;feature=view_all&#34; target=&#34;_blank&#34;&gt;time lapse videos&lt;/a&gt; to show how cool it can be.&lt;/p&gt;
+&lt;p&gt;Because it&amp;rsquo;s cool. That&amp;rsquo;s actually the first motivation. I had the idea and I wanted to see if I could pull it off. It turns out I could, and it only took me a few hours to get the base prototype working. I thought it&amp;rsquo;d be interesting to literally see where people are. That is, in essence, what this is. I&amp;rsquo;ve created an interactive information visualization of where people are, according to Foursquare. And it&amp;rsquo;s really cool. I&amp;rsquo;ve also made a few &lt;a href=&#34;http://www.youtube.com/playlist?list=PLq3M6ODce1N6IZoXoisCw5WHjEQs7SAWl&amp;amp;feature=view_all&#34;&gt;time lapse videos&lt;/a&gt; to show how cool it can be.&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;ve also noticed something else, though, since making this. Every now and then, I get curious to see what the map looks like. I&amp;rsquo;m curious to see what people are doing in places I&amp;rsquo;m not. I now have a tool that lets me see this, and the fact that there are real people out there making these things happen is a pretty interesting experience. When I have friends on vacation, or travelling to different cities, I jokingly tell them I&amp;rsquo;ll be watching them.&lt;/p&gt;
 
@@ -316,13 +360,23 @@ end
       <pubDate>Wed, 27 Feb 2013 16:22:57 -0500</pubDate>
       
       <guid>https://bradorego.com/2013-02-note-taking</guid>
-      <description>&lt;p&gt;I have a habit when it comes to books. When I read a book, I almost always underline/take notes in the margin. I started doing so sometime in high school, when Literature teachers started telling us it was okay to write in books. The practice carried me through my studies, and I&amp;rsquo;ve enjoyed it so much it&amp;rsquo;s spilled over into my personal/leisure reading (mind you, all of my leisure reading is non-fiction). You can actually tell which books in my personal collection were books I really enjoyed/valued based on how heavily marked up they are.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
+  &lt;h4&gt;TL;DNR&lt;/h4&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Memory is fallible, and humans tend to remember the most intense part and the ending of any experience.&lt;/li&gt;
+    &lt;li&gt;Finding systems that work for you is essential to productivity.&lt;/li&gt;
+    &lt;li&gt;Limit the number of choices a user has to (or has the opportunity to) make. Choose smart defaults and hide most options.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;hr/&gt;&lt;/p&gt;
+
+&lt;p&gt;I have a habit when it comes to books. When I read a book, I almost always underline/take notes in the margin. I started doing so sometime in high school, when Literature teachers started telling us it was okay to write in books. The practice carried me through my studies, and I&amp;rsquo;ve enjoyed it so much it&amp;rsquo;s spilled over into my personal/leisure reading (mind you, all of my leisure reading is non-fiction). You can actually tell which books in my personal collection were books I really enjoyed/valued based on how heavily marked up they are.&lt;/p&gt;
 
 &lt;p&gt;Since graduating from college, I&amp;rsquo;ve started a new version of the practice. Now, after finishing a book (sometimes immediately, but usually after a little time), I go back through the book and look over all of the underlining and notes I took. Generally speaking, when I underline something, it&amp;rsquo;s because it had a certian salience or value to me at the time. So, as I recount these notes, I take a mini post-it note and write whatever value I was trying to glean from it, and then I stick it to the margin of that page. The results look something like this:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/posts/notetaking/paradox5.jpg&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Not only does this practice reinforce what I&amp;rsquo;ve learned from that book, but it also changes the way I&amp;rsquo;ve experienced reading that book. In Barry Schwartz&amp;rsquo;s book &amp;ldquo;&lt;a href=&#34;http://www.amazon.com/Paradox-Choice-Why-More-Less/dp/0060005696&#34; target=&#34;_blank&#34;&gt;The Paradox of Choice&lt;/a&gt;&amp;rdquo;, he cites &lt;a href=&#34;http://profron.net/happiness/files/readings/Kahneman_ObjectiveHappiness.pdf&#34; target=&#34;_blank&#34;&gt;a study by Daniel Kahneman&lt;/a&gt;&amp;nbsp;which recounts the way we experience and remember the utility of something (that is, how much we enjoyed it).&lt;/p&gt;
+&lt;p&gt;Not only does this practice reinforce what I&amp;rsquo;ve learned from that book, but it also changes the way I&amp;rsquo;ve experienced reading that book. In Barry Schwartz&amp;rsquo;s book &amp;ldquo;&lt;a href=&#34;http://www.amazon.com/Paradox-Choice-Why-More-Less/dp/0060005696&#34;&gt;The Paradox of Choice&lt;/a&gt;&amp;rdquo;, he cites &lt;a href=&#34;http://profron.net/happiness/files/readings/Kahneman_ObjectiveHappiness.pdf&#34;&gt;a study by Daniel Kahneman&lt;/a&gt;&amp;nbsp;which recounts the way we experience and remember the utility of something (that is, how much we enjoyed it).&lt;/p&gt;
 
 &lt;p&gt;What Kahneman et al. found is that our remembered utility is governed by two main factors:&lt;/p&gt;
 
@@ -343,13 +397,23 @@ end
     
     <item>
       <title>Content</title>
-      <link>https://bradorego.com/2012-12-content</link>
-      <pubDate>Sat, 22 Dec 2012 14:21:58 -0500</pubDate>
+      <link>https://bradorego.com/2013-02-content</link>
+      <pubDate>Sat, 09 Feb 2013 14:21:58 -0500</pubDate>
       
-      <guid>https://bradorego.com/2012-12-content</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m going to say this straight out of the gates: this blog post is kind of a cop-out. There have been a ton of changes in my life lately, so I&amp;rsquo;ve been a little MIA when it comes to this blog. One of the things I&amp;rsquo;ve been trying to do, though, finally (~3 months after launching the new site) is to populate my portfolio a bit more so people have stuff to look at. People like looking at stuff.&lt;/p&gt;
+      <guid>https://bradorego.com/2013-02-content</guid>
+      <description>&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
+  &lt;h4&gt;TL;DNR&lt;/h4&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Content is just as important to UX as aesthetics.&lt;/li&gt;
+    &lt;li&gt;Without content, your site (and all of its functionality and pretty design) is worthless.&lt;/li&gt;
+    &lt;li&gt;Trying to stay up to date with blog posts is hard.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;hr/&gt;&lt;/p&gt;
 
-&lt;p&gt;There are a handful of new entries for web and media projects I&amp;rsquo;ve worked on with &lt;a href=&#34;http://zebradog.com&#34; target=&#34;_blank&#34;&gt;Zebradog&lt;/a&gt;, one or two freelance/side-project pieces, and a whole slew of dance items. Art is still forthcoming, as is any updates on &lt;a href=&#34;http://gettrinker.com&#34; target=&#34;_blank&#34;&gt;Trinker&lt;/a&gt; (we&amp;rsquo;ve had a big month, and February will continue to be so).&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m going to say this straight out of the gates: this blog post is kind of a cop-out. There have been a ton of changes in my life lately, so I&amp;rsquo;ve been a little MIA when it comes to this blog. One of the things I&amp;rsquo;ve been trying to do, though, finally (~3 months after launching the new site) is to populate my portfolio a bit more so people have stuff to look at. People like looking at stuff.&lt;/p&gt;
+
+&lt;p&gt;There are a handful of new entries for web and media projects I&amp;rsquo;ve worked on with &lt;a href=&#34;http://zebradog.com&#34;&gt;Zebradog&lt;/a&gt;, one or two freelance/side-project pieces, and a whole slew of dance items. Art is still forthcoming, as is any updates on &lt;a href=&#34;http://gettrinker.com&#34;&gt;Trinker&lt;/a&gt; (we&amp;rsquo;ve had a big month, and February will continue to be so).&lt;/p&gt;
 
 &lt;p&gt;Content is, however, one of the pieces of UX that I neglect the most. I&amp;rsquo;m always an advocate for designing with the content in mind, but I usually write it off as &amp;ldquo;some text&amp;rdquo; or &amp;ldquo;an image and some text&amp;rdquo;, or some generalization of what the content actually is. The volume of content is incredibly important, and can really make or break a design if appropriate consideration isn&amp;rsquo;t taken. There&amp;rsquo;s a lot of material out there about content strategy, so that would probably be a good place to look if you wanted to brush up on it.&lt;/p&gt;
 </description>
@@ -361,9 +425,19 @@ end
       <pubDate>Sat, 22 Dec 2012 14:21:58 -0500</pubDate>
       
       <guid>https://bradorego.com/2012-12-ditw-stovetop</guid>
-      <description>&lt;p&gt;Sometimes we come across things that, until we see an alternative, we don&amp;rsquo;t realize there&amp;rsquo;s something better than the current option. I had this direct experience when I moved into my current apartment in August, and tried to cook for the first time.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
+  &lt;h4&gt;TL;DNR&lt;/h4&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Sometimes things we interact with in the physical world are poorly designed.&lt;/li&gt;
+    &lt;li&gt;Direct mapping makes a lot more sense, and should be used whenever/wherever possible.&lt;/li&gt;
+    &lt;li&gt;Just because people are used to a certain design/solution does not mean it&amp;rsquo;s the optimal. Don&amp;rsquo;t be afraid to start from scratch.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;hr/&gt;&lt;/p&gt;
 
-&lt;p&gt;Oftentimes we get stuck thinking about UX or UI in context of software design. Donald Norman&amp;rsquo;s book &lt;a href=&#34;http://www.amazon.com/Design-Everyday-Things-Donald-Norman/dp/0465067107&#34; target=&#34;_blank&#34;&gt;The Design of Everyday Things&lt;/a&gt; takes a look at how the design of objects in the physical world can affect our experience using those objects, and it forever changed the way I look at the world. The Design in the Wild (DITW) series is my personal look at my encounters with various objects in the physical world and what their design tells us.&lt;/p&gt;
+&lt;p&gt;Sometimes we come across things that, until we see an alternative, we don&amp;rsquo;t realize there&amp;rsquo;s something better than the current option. I had this direct experience when I moved into my current apartment in August, and tried to cook for the first time.&lt;/p&gt;
+
+&lt;p&gt;Oftentimes we get stuck thinking about UX or UI in context of software design. Donald Norman&amp;rsquo;s book &lt;a href=&#34;http://www.amazon.com/Design-Everyday-Things-Donald-Norman/dp/0465067107&#34;&gt;The Design of Everyday Things&lt;/a&gt; takes a look at how the design of objects in the physical world can affect our experience using those objects, and it forever changed the way I look at the world. The Design in the Wild (DITW) series is my personal look at my encounters with various objects in the physical world and what their design tells us.&lt;/p&gt;
 
 &lt;p&gt;Everyone, at one point or another, has at least seen a stovetop. Hopefully, most of us have used a stovetop at some point in our lives. Think back to the very first time you did this. How long did it take you to figure out which knob related to which burner? How many times, when you were first starting to cook, would you accidentally turn on the wrong burner at first? What we&amp;rsquo;re discussing here is a failure of mapping. Mapping is a concept in usability that relates the controls to the outputs.&lt;/p&gt;
 
@@ -387,7 +461,17 @@ end
       <pubDate>Fri, 23 Nov 2012 17:32:13 -0500</pubDate>
       
       <guid>https://bradorego.com/2012-11-new-site</guid>
-      <description>&lt;p&gt;It only took me about 10 months, but I&amp;rsquo;ve finally gotten around to rebuilding this site to have a purpose. I originally built a personal website when I was leaving Epic with the intention of having a place to show my past work as well as a place to play around with new technologies on the web. That was, at least, the intention. If any of you were keeping tabs on it, that never actually happened. I built the site haphazardly over the course of a few days and never updated it.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
+  &lt;h4&gt;TL;DNR&lt;/h4&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Drupal is cool, powerful, mature.&lt;/li&gt;
+    &lt;li&gt;Making it easier to create content is important to how likely it is to happen.&lt;/li&gt;
+    &lt;li&gt;Keeping up with technology and the design community is important.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;hr/&gt;&lt;/p&gt;
+
+&lt;p&gt;It only took me about 10 months, but I&amp;rsquo;ve finally gotten around to rebuilding this site to have a purpose. I originally built a personal website when I was leaving Epic with the intention of having a place to show my past work as well as a place to play around with new technologies on the web. That was, at least, the intention. If any of you were keeping tabs on it, that never actually happened. I built the site haphazardly over the course of a few days and never updated it.&lt;/p&gt;
 
 &lt;p&gt;This time around, though, it&amp;rsquo;ll be different. Two main reasons:&lt;/p&gt;
 
@@ -396,7 +480,7 @@ end
 &lt;li&gt;I have a reason and method of keeping it up to date. If I&amp;rsquo;m blogging about usability/user experience, it&amp;rsquo;s an excuse to keep on top of things, and to keep it fresh. Plus, if I want to be a consultant, I&amp;rsquo;ve gotta show my stuff somehow, right?&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;I do have to give a fair bit of credit to my &lt;a href=&#34;https://zebradog.com&#34; target=&#34;_blank&#34;&gt;ZD&lt;/a&gt; family for both inspiring me and giving me some experience building sites from scratch on top of Drupal. I wouldn&amp;rsquo;t be where I am today (both in terms of skills and motivation) if not for them, and I&amp;rsquo;m looking forward to each new day with ZD.&lt;/p&gt;
+&lt;p&gt;I do have to give a fair bit of credit to my &lt;a href=&#34;https://zebradog.com&#34;&gt;ZD&lt;/a&gt; family for both inspiring me and giving me some experience building sites from scratch on top of Drupal. I wouldn&amp;rsquo;t be where I am today (both in terms of skills and motivation) if not for them, and I&amp;rsquo;m looking forward to each new day with ZD.&lt;/p&gt;
 
 &lt;p&gt;I have a few ideas of blog post themes/threads (Design in the Wild, War Stories, etc.), but this blog will also likely be a mixture of professional, personal, and possibly-insane. It&amp;rsquo;ll be fun to work on it, see it grow, populate my portfolio, etc.&lt;/p&gt;
 

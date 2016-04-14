@@ -78,19 +78,29 @@
 
                   
 
-<p><em>Note: This blog post is the long-form answer to <a href="http://stackoverflow.com/questions/20574938/progressive-enhancement-with-phonegap" target="_blank">this StackOverflow post</a> I made about it (which is, at the time of writing, the #1 Google result for &ldquo;progressive enhancement phonegap&rdquo;). Also worth noting this guide only addresses Android right now. Doing so for iOS should follow the same methodology though.</em></p>
+<p><div class="tldnr">
+  <h4>TL;DNR</h4>
+  <ul>
+    <li>Enabling native-level functionality on a hosted web app is really cool.</li>
+    <li>Code reuse is also pretty cool.</li>
+    <li>Beware of the gotchas. There are always gotchas.</li>
+  </ul>
+</div>
+<hr/></p>
 
-<p>Github repo for this project can be found <a href="https://github.com/borego/progressive_enhancement_phonegap" target="_blank">here</a>. You can download the app (for Android) <a href="http://bradorego.com/sites/default/files/progenhpg/prog-enh-pg.apk" target="_blank">here</a>.</p>
+<p><em>Note: This blog post is the long-form answer to <a href="http://stackoverflow.com/questions/20574938/progressive-enhancement-with-phonegap">this StackOverflow post</a> I made about it (which is, at the time of writing, the #1 Google result for &ldquo;progressive enhancement phonegap&rdquo;). Also worth noting this guide only addresses Android right now. Doing so for iOS should follow the same methodology though.</em></p>
 
-<p>If you&rsquo;re thinking about building a web app versus a native app, I&rsquo;m here to tell you that the answer is almost definitely go for a web app. Web performance (especially on mobile devices) has come a long way in the past year or so, and using tools like <a href="http://phonegap.com" target="_blank">Phonegap</a>, you can get the best of both worlds (something in the app store, code reuse, platform agnosticism, leveraging web technologies). Based on some recent work/research I&rsquo;ve done, it&rsquo;s actually much more powerful than they&rsquo;re selling it for.</p>
+<p>Github repo for this project can be found <a href="https://github.com/borego/progressive_enhancement_phonegap">here</a>. You can download the app (for Android) <a href="http://old.bradorego.com/sites/default/files/progenhpg/prog-enh-pg.apk">here</a>.</p>
+
+<p>If you&rsquo;re thinking about building a web app versus a native app, I&rsquo;m here to tell you that the answer is almost definitely go for a web app. Web performance (especially on mobile devices) has come a long way in the past year or so, and using tools like <a href="http://phonegap.com">Phonegap</a>, you can get the best of both worlds (something in the app store, code reuse, platform agnosticism, leveraging web technologies). Based on some recent work/research I&rsquo;ve done, it&rsquo;s actually much more powerful than they&rsquo;re selling it for.</p>
 
 <p>This post will go into detail of how to make it work, but at a very high level, all you have to do is alter the User Agent coming out of your Phonegapped app, then sniff for that special UA string on the server side of wherever your web code is living, and if it&rsquo;s there, enable Phonegap-specific code. If not, let it function as a normal web app - no harm, no foul. It&rsquo;s an incredibly powerful tool that lets you use ~98% of the same code for your Android/iPhone app and your web app.</p>
 
-<h3 id="step-0-set-up-your-phonegap-project-server-etc:fd0f8b714b3f39ed49e4051d8a218d26">Step 0) Set up your Phonegap project, server, etc.</h3>
+<h3 id="step-0-set-up-your-phonegap-project-server-etc:b24c23782d00ece4bee8e2115b865429">Step 0) Set up your Phonegap project, server, etc.</h3>
 
-<p>This guide won&rsquo;t go into detail about how exactly to set up a phonegap application, or how to get started with Rails. I&rsquo;ll leave that as an exercise to the reader, but also you can clone my <a href="https://github.com/borego/progressive_enhancement_phonegap" target="_blank">github repo</a> which has all of that (and many other things) done for you. You&rsquo;ll also need to, for the purpose of this demo, add the Contacts plugin to your Phonegap app.</p>
+<p>This guide won&rsquo;t go into detail about how exactly to set up a phonegap application, or how to get started with Rails. I&rsquo;ll leave that as an exercise to the reader, but also you can clone my <a href="https://github.com/borego/progressive_enhancement_phonegap">github repo</a> which has all of that (and many other things) done for you. You&rsquo;ll also need to, for the purpose of this demo, add the Contacts plugin to your Phonegap app.</p>
 
-<h3 id="step-1-point-your-phonegap-app-at-your-web-app:fd0f8b714b3f39ed49e4051d8a218d26">Step 1) Point your Phonegap app at your web app</h3>
+<h3 id="step-1-point-your-phonegap-app-at-your-web-app:b24c23782d00ece4bee8e2115b865429">Step 1) Point your Phonegap app at your web app</h3>
 
 <p>This step seems a bit trivial, but it&rsquo;s not part of the default Phonegap configuration. In your <code>www/config.xml</code> file, add the following line:</p>
 
@@ -99,7 +109,7 @@
 
 <p>In the example repo, the path is replaced with <code>http://prog-enh-pg.herokuapp.com/</code>, as that&rsquo;s where the heroku app lives for the demo. I usually put it after the <code>&lt;author&gt;</code> tag as well, but I don&rsquo;t think that&rsquo;s required.</p>
 
-<h3 id="step-2-modify-the-user-agent-coming-out-of-your-pg-app:fd0f8b714b3f39ed49e4051d8a218d26">Step 2) Modify the User Agent coming out of your PG app</h3>
+<h3 id="step-2-modify-the-user-agent-coming-out-of-your-pg-app:b24c23782d00ece4bee8e2115b865429">Step 2) Modify the User Agent coming out of your PG app</h3>
 
 <p>This is basically the only part that&rsquo;s platform-specific. Obviously the way you do this on Android is going to differ from the way you do it on iOS. This guide only details the Android one, but it would be just as easy to do in iOS (or Windows Phone).</p>
 
@@ -122,9 +132,9 @@
 
 <p>The bold text is what you&rsquo;re adding. All this does is append a custom string (in this case, <code>&quot;phonegap_prog_enh&quot;</code>) to the User Agent so that you can determine on the server side whether or not a use is on your app or not. Yes, of course, someone could probably proxy this and sniff it out, or reverse engineer it, but it doesn&rsquo;t matter - all it would do is break the app in their browser. Trollers gonna troll.</p>
 
-<h3 id="step-3-listen-for-your-custom-user-agent-on-the-server-side-and-set-a-flag:fd0f8b714b3f39ed49e4051d8a218d26">Step 3) Listen for your custom User Agent on the server side and set a flag</h3>
+<h3 id="step-3-listen-for-your-custom-user-agent-on-the-server-side-and-set-a-flag:b24c23782d00ece4bee8e2115b865429">Step 3) Listen for your custom User Agent on the server side and set a flag</h3>
 
-<p>Now that we have a way to know if a user is accessing our server via a normal browser or via our Phonegap app, we can decide whether or not to enable Phonegap-specific features. You need to do this because if you don&rsquo;t, you get some <a href="/img/posts/prog-enh-phonegap/uglypg.png" target="_blank">ugly error messages</a> as the web app tries to access Phonegap APIs that aren&rsquo;t there. This detection is really easy, though. In the sample app, it looks like this:</p>
+<p>Now that we have a way to know if a user is accessing our server via a normal browser or via our Phonegap app, we can decide whether or not to enable Phonegap-specific features. You need to do this because if you don&rsquo;t, you get some <a href="/img/posts/prog-enh-phonegap/uglypg.png">ugly error messages</a> as the web app tries to access Phonegap APIs that aren&rsquo;t there. This detection is really easy, though. In the sample app, it looks like this:</p>
 
 <pre><code class="language-ruby">class ContactsController &lt; ApplicationController
   def index
@@ -143,7 +153,7 @@ end
 
 <p>You&rsquo;re only going to want the Phonegap Javascript to fire in these instances, which leads us to the next part.</p>
 
-<h3 id="step-4-enable-phonegap-specific-functionality:fd0f8b714b3f39ed49e4051d8a218d26">Step 4) Enable Phonegap-specific functionality</h3>
+<h3 id="step-4-enable-phonegap-specific-functionality:b24c23782d00ece4bee8e2115b865429">Step 4) Enable Phonegap-specific functionality</h3>
 
 <p>As mentioned above, you&rsquo;re not going to want the Phonegap code to run willy-nilly all over your application. Specifically, the <code>cordova.js</code> file (which normally lives in your Phonegap&rsquo;s <code>platforms/android/assets/www</code> folder) is what kicks off all of the Phonegap functionality, so once you load that, you&rsquo;re going down that path. Luckily, this is easily avoided:</p>
 
@@ -157,11 +167,11 @@ end
 
 <p>Obviously you don&rsquo;t need to inline your PG Javascript, but you do need to protect against <code>cordova.js</code> loading out of place.</p>
 
-<h3 id="step-5-profit:fd0f8b714b3f39ed49e4051d8a218d26">Step 5) Profit</h3>
+<h3 id="step-5-profit:b24c23782d00ece4bee8e2115b865429">Step 5) Profit</h3>
 
 <p>That&rsquo;s pretty much it. Obviously there&rsquo;s a lot more to it when it comes to the actual Phonegap APIs, but there&rsquo;s a lot of support and writing about all of that. The point of this guide is just to lay out this methodology, and to further prove my belief that the vast majority of app development can be done with &ldquo;hybrid&rdquo; apps.</p>
 
-<h3 id="gotchas:fd0f8b714b3f39ed49e4051d8a218d26">Gotchas</h3>
+<h3 id="gotchas:b24c23782d00ece4bee8e2115b865429">Gotchas</h3>
 
 <p>We all know it wouldn&rsquo;t be a real tech article without some gotchas, so here are some things that tripped me up the first few times.</p>
 
