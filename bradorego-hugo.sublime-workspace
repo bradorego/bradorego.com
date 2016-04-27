@@ -68,18 +68,50 @@
 	"buffers":
 	[
 		{
-			"file": "content/post/new-site.md",
+			"file": "config.json",
 			"settings":
 			{
-				"buffer_size": 2217,
+				"buffer_size": 1315,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": ".gitignore",
+			"file": "content/post/case-study/nextt.md",
+			"settings":
+			{
+				"buffer_size": 1750,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "layouts/post/summary.html",
 			"settings":
 			{
 				"buffer_size": 292,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "layouts/post/archive.html",
+			"settings":
+			{
+				"buffer_size": 23,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "static/less/clean-blog.less",
+			"settings":
+			{
+				"buffer_size": 7126,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 2348,
 				"line_ending": "Unix"
 			}
 		}
@@ -128,10 +160,57 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/mi-bradorego/Development/bradorego"
+		"/Users/mi-bradorego/Development/bradorego",
+		"/Users/mi-bradorego/Development/bradorego/archetypes",
+		"/Users/mi-bradorego/Development/bradorego/content",
+		"/Users/mi-bradorego/Development/bradorego/content/post",
+		"/Users/mi-bradorego/Development/bradorego/content/post/case-study",
+		"/Users/mi-bradorego/Development/bradorego/layouts",
+		"/Users/mi-bradorego/Development/bradorego/layouts/_default",
+		"/Users/mi-bradorego/Development/bradorego/layouts/partials",
+		"/Users/mi-bradorego/Development/bradorego/layouts/post",
+		"/Users/mi-bradorego/Development/bradorego/static",
+		"/Users/mi-bradorego/Development/bradorego/static/less"
 	],
 	"file_history":
 	[
+		"/Users/mi-bradorego/Development/bradorego/layouts/partials/header.html",
+		"/Users/mi-bradorego/Development/bradorego/layouts/partials/sidebar.html",
+		"/Users/mi-bradorego/Development/bradorego/content/post/case-study/clean-clear-waters.md",
+		"/Users/mi-bradorego/Development/bradorego/content/post/2013-03-11-foursquare-heatmap.md",
+		"/Users/mi-bradorego/Development/bradorego/content/post/2013-04-25-open-letter-okcupid.md",
+		"/Users/mi-bradorego/Development/bradorego/content/post/2014-02-20-progressive-enhancement-phonegap.md",
+		"/Users/mi-bradorego/Development/bradorego/content/post/2014-07-15-transparency-of-offline.md",
+		"/Users/mi-bradorego/Development/bradorego/content/post/2016-04-12-back-to-static.md",
+		"/Users/mi-bradorego/Development/bradorego/content/post/case-study/mobileigniter.md",
+		"/Users/mi-bradorego/Development/bradorego/content/post/case-study/patently-clear.md",
+		"/Users/mi-bradorego/Development/bradorego/content/post/case-study/zebradog.md",
+		"/Users/mi-bradorego/Development/bradorego/content/post/case-study/trinker.md",
+		"/Users/mi-bradorego/Development/bradorego/content/post/case-study/inspiredance.md",
+		"/Users/mi-bradorego/Development/bradorego/content/post/case-study/design-studio-etc.md",
+		"/Users/mi-bradorego/Development/bradorego/content/post/case-study/biodance.md",
+		"/Users/mi-bradorego/Development/bradorego/content/post/2013-02-27-note-taking.md",
+		"/Users/mi-bradorego/Development/bradorego/content/post/2012-12-22-ditw-stovetop.md",
+		"/Users/mi-bradorego/Development/bradorego/content/post/2012-12-22-content.md",
+		"/Users/mi-bradorego/Development/bradorego/content/post/2012-11-23-new-site.md",
+		"/Users/mi-bradorego/Development/bradorego/layouts/404.html",
+		"/Users/mi-bradorego/Development/bradorego/layouts/post/summary.html",
+		"/Users/mi-bradorego/Development/bradorego/content/post/2013-03-16-importance-of-flow.md",
+		"/Users/mi-bradorego/Development/bradorego/content/about.md",
+		"/Users/mi-bradorego/Development/bradorego/content/post/2016-04-12-to-static.md",
+		"/Users/mi-bradorego/Development/bradorego/archetypes/post.md",
+		"/Users/mi-bradorego/Development/bradorego/layouts/partials/page-header.html",
+		"/Users/mi-bradorego/Development/bradorego/layouts/partials/related-posts.html",
+		"/Users/mi-bradorego/Development/bradorego/layouts/partials/tags.html",
+		"/Users/mi-bradorego/Development/bradorego/layouts/partials/footer.html",
+		"/Users/mi-bradorego/Development/bradorego/layouts/partials/categories.html",
+		"/Users/mi-bradorego/Development/bradorego/public/2016-04-back-to-static/index.html",
+		"/Users/mi-bradorego/Development/bradorego/content/post/back-to-static.md",
+		"/Users/mi-bradorego/Development/bradorego/content/post/new-site.md",
+		"/Users/mi-bradorego/Development/bradorego/.gitignore",
+		"/Users/mi-bradorego/Development/bradorego/content/resume.md",
+		"/Users/mi-bradorego/Development/bradorego/layouts/partials/pagination.html",
+		"/Users/mi-bradorego/Development/bradorego/content/post/transparency-of-offline.md",
 		"/Users/mi-bradorego/Development/HugoBasicExample/content/post/open-letter-okcupid.md",
 		"/Users/mi-bradorego/Development/HugoBasicExample/content/post/progressive-enhancement-phonegap.md",
 		"/Users/mi-bradorego/Development/HugoBasicExample/content/post/new-site.md",
@@ -222,48 +301,11 @@
 		"/Users/mi-bradorego/Development/beerbatterbreakfast/_posts/2012-08-19-summer-shandycakes.html",
 		"/Users/mi-bradorego/Development/beerbatterbreakfast/_posts/2012-07-27-bluebeery-pancakes.html",
 		"/Users/mi-bradorego/Development/beerbatterbreakfast/_posts/2012-07-11-yet-another-food-blog.html",
-		"/Users/mi-bradorego/Development/beerbatterbreakfast/_posts/2014-11-9-whole-hog-2014.md",
-		"/Users/mi-bradorego/Development/beerbatterbreakfast/_posts/2016-03-27-doom-tree.md",
-		"/Users/mi-bradorego/Development/beerbatterbreakfast/_posts/2016-01-10-whole-hog-2015.md",
-		"/Users/mi-bradorego/Development/beerbatterbreakfast/_posts/2016-04-09-southern-tier-one-buffalo.md",
-		"/Users/mi-bradorego/Development/beerbatterbreakfast/_includes/twitter.html",
-		"/Users/mi-bradorego/Development/beerbatterbreakfast/public/css/jekyll-search.js",
-		"/Users/mi-bradorego/Development/beerbatterbreakfast/public/css/style.css",
-		"/Users/mi-bradorego/Development/beerbatterbreakfast/bower_components/simple-jekyll-search/dest/jekyll-search.js",
-		"/Users/mi-bradorego/Development/beerbatterbreakfast/_includes/sidebar.html",
-		"/Users/mi-bradorego/Development/beerbatterbreakfast/_layouts/default.html",
-		"/Users/mi-bradorego/Development/beerbatterbreakfast/.gitignore",
-		"/Users/mi-bradorego/Development/beerbatterbreakfast/feed.xml",
-		"/Users/mi-bradorego/Development/beerbatterbreakfast/atom.xml",
-		"/Users/mi-bradorego/Development/beerbatterbreakfast/_posts/2015-10-25-my-turn-matt.md",
-		"/Users/mi-bradorego/Development/mobileigniter/thermastor-wombat/www/js/app.js",
-		"/Users/mi-bradorego/Development/mobileigniter/thermastor-wombat/www/views/Home/Dashboard.Home.js",
-		"/Users/mi-bradorego/Development/mobileigniter/thermastor-wombat/www/js/Services/Alerts.sites.js",
-		"/Users/mi-bradorego/Development/mobileigniter/doorbell-app/gulpfile.js",
-		"/Users/mi-bradorego/Development/mobileigniter/doorbell-app/www/views/Devices/DeviceDetails.devices.js",
-		"/Users/mi-bradorego/Development/mobileigniter/doorbell-app/www/views/Devices/DeviceDetails.html",
-		"/Users/mi-bradorego/Development/mobileigniter/doorbell-app/www/views/Home/Dashboard.home.js",
-		"/Users/mi-bradorego/Development/mobileigniter/doorbell-app/www/js/services/Devices.devices.js",
-		"/Users/mi-bradorego/Development/mobileigniter/doorbell-app/www/templates/menu.html",
-		"/Users/mi-bradorego/Development/mobileigniter/doorbell-app/www/views/Login/ForgotPassword.user.js",
-		"/Users/mi-bradorego/Development/mobileigniter/doorbell-app/www/views/Login/Login.user.js",
-		"/Users/mi-bradorego/Development/mobileigniter/doorbell-app/www/index.html",
-		"/Users/mi-bradorego/Development/mobileigniter/doorbell-app/www/views/Login/Login.html",
-		"/Users/mi-bradorego/Development/mobileigniter/doorbell-app/www/views/Signup/Signup.html",
-		"/Users/mi-bradorego/Development/mobileigniter/doorbell-app/www/views/Signup/Signup.user.js",
-		"/Users/mi-bradorego/Development/mobileigniter/doorbell-app/www/js/services/ionicPush.js",
-		"/Users/mi-bradorego/Development/mobileigniter/doorbell-app/www/templates/login.html",
-		"/Users/mi-bradorego/Development/mobileigniter/doorbell-app/scss/ionic.app.scss",
-		"/Users/mi-bradorego/Development/mobileigniter/doorbell-app/package.json",
-		"/Users/mi-bradorego/Development/mobileigniter/doorbell-app/ionic.project",
-		"/Users/mi-bradorego/Development/mobileigniter/doorbell/client/sample.json",
-		"/Users/mi-bradorego/Development/mobileigniter/doorbell/client/index.html",
-		"/Users/mi-bradorego/Development/mobileigniter/doorbell/client/app.js",
-		"/Users/mi-bradorego/Development/mobileigniter/thermastor-wombat/www/views/Sites/List.html"
+		"/Users/mi-bradorego/Development/beerbatterbreakfast/_posts/2014-11-9-whole-hog-2014.md"
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -282,6 +324,9 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			" target=\"_blank\"",
+			"###",
+			" target=\"_blank\"",
 			"&gt;",
 			"&lt;",
 			"header",
@@ -381,6 +426,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"",
+			"#",
+			"",
 			">",
 			"<",
 			"categories",
@@ -414,24 +462,54 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "content/post/new-site.md",
+					"file": "config.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2217,
+						"buffer_size": 1315,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								455,
-								455
+								271,
+								271
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "content/post/case-study/nextt.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1750,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1583,
+								1583
 							]
 						],
 						"settings":
@@ -444,12 +522,12 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": ".gitignore",
+					"buffer": 2,
+					"file": "layouts/post/summary.html",
 					"semi_transient": false,
 					"settings":
 					{
@@ -460,16 +538,103 @@
 						"selection":
 						[
 							[
-								273,
-								273
+								110,
+								110
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "layouts/post/archive.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 23,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "static/less/clean-blog.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7126,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4830,
+								4830
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4925.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "gulpfile.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2348,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								2348
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 633.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -530,6 +695,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"config",
+				"config.json"
+			],
 			[
 				"gitig",
 				".gitignore"
@@ -629,10 +798,6 @@
 			[
 				"ionic.app",
 				"scss/ionic.app.scss"
-			],
-			[
-				"config",
-				"config.xml"
 			],
 			[
 				"index.ht",
@@ -833,7 +998,7 @@
 		[
 			[
 				"",
-				"~/sublime-projects/new-layout.sublime-project"
+				"~/Development/big5dating/big5dating.sublime-project"
 			],
 			[
 				"ther",
