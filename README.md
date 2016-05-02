@@ -1,25 +1,16 @@
-hugoBasicExample
-==========
+# Install
 
-This is an example site for [Hugo](http://gohugo.io/).
+1) git clone
+2) npm install
+3) install hugo
 
-It is intended to be a demo site for the various [Hugo themes][].
+# Run
 
-# Using
+1) gulp
+2) hugo serve
 
-1. First, [install Hugo](http://gohugo.io/overview/installing/);
-2. Then, clone this repository;
-3. Clone the [Hugo themes][];
-4. Run Hugo and select the theme of your choosing.
+# Deploy
 
-In other words:
-
-<pre><code>git clone https://github.com/spf13/HugoBasicExample.git
-cd HugoBasicExample
-git clone --recursive https://github.com/spf13/hugoThemes.git themes
-hugo server -t <em>themename</em>
-</code></pre>
-
-Enjoy!
-
-[Hugo themes]: https://github.com/spf13/hugoThemes
+1) hugo
+2) git push origin master
+3) Aerobatic does the rest
