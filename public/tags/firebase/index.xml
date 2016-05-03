@@ -42,19 +42,38 @@
 
 &lt;p&gt;After doing a little bit of googling, I came across this &lt;a href=&#34;https://medium.com/@rotxed/how-to-debug-http-s-traffic-on-android-7fbe5d2a34#.mhbido9ys&#34;&gt;incredibly helpful article&lt;/a&gt; explaining step-by-step exactly what I wanted to do. Next thing I know, I had a proxy running on my laptop, my phone&amp;rsquo;s internet traffic streaming through that proxy, and I had access to every HTTP request the phone (and thus, the app) made. It was almost too easy.&lt;/p&gt;
 
+&lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/case-study/better-mcbw/mitmproxy.png&#34;&gt;&lt;/p&gt;
+
 &lt;h3 id=&#34;the-horror:608891990651e25035713577174171c1&#34;&gt;The Horror&lt;/h3&gt;
 
 &lt;p&gt;So, now that I had all of the HTTP requests (all, uh, 4 of them that the app seemed to be making), all I had to do was make those same requests with the same body, parse the response, and I was off to the races, right? This is all true, but in my inspection of the traffic, I came across a few horrifying realizations:&lt;/p&gt;
 
-&lt;p&gt;1) Every request made was a &lt;code&gt;POST&lt;/code&gt;. Getting the list of events? &lt;code&gt;POST&lt;/code&gt;. Creating an account? &lt;code&gt;POST&lt;/code&gt;. Logging in, and creating a session? &lt;code&gt;POST&lt;/code&gt;. Getting a list of special offers? &lt;code&gt;POST&lt;/code&gt;.
-2) Every response had a status of &lt;code&gt;200 - OK&lt;/code&gt;. If there was an error, you have to parse the body of the message. And those bodies are in no way consistent.
-3) The list of events (~580 json objects) came out to a staggering 700KB of data. Not the end of the world in today&amp;rsquo;s day and age, but a tough pill to swallow. There&amp;rsquo;s gotta be something we can do about that, right? (Spoiler alert: there is).&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Every request made was a &lt;code&gt;POST&lt;/code&gt;. Getting the list of events? &lt;code&gt;POST&lt;/code&gt;. Creating an account? &lt;code&gt;POST&lt;/code&gt;. Logging in, and creating a session? &lt;code&gt;POST&lt;/code&gt;. Getting a list of special offers? &lt;code&gt;POST&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Every response had a status of &lt;code&gt;200 - OK&lt;/code&gt;. If there was an error, you have to parse the body of the message. And those bodies are in no way consistent.&lt;/li&gt;
+&lt;li&gt;The list of events (~580 json objects) came out to a staggering 700KB of data. Not the end of the world in today&amp;rsquo;s day and age, but a tough pill to swallow. There&amp;rsquo;s gotta be something we can do about that, right? (Spoiler alert: there is).&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;Interacting with this API was painful. I was literally parsing a tilde(~) delimited string to determine the result of actions, and then picking parts of that out to save (e.g. the access token). This kind of feels like somebody&amp;rsquo;s first attempt at making an API.&lt;/p&gt;
 
 &lt;h3 id=&#34;off-to-the-races:608891990651e25035713577174171c1&#34;&gt;Off to the Races&lt;/h3&gt;
 
 &lt;p&gt;All of that aside, I thought I was in the clear. Build an Ionic app, replicate the responses, do some other stuff with the data. Simple enough, right? Aaaaand then I got &lt;code&gt;CORS&lt;/code&gt;&amp;rsquo;d, which I should&amp;rsquo;ve seen coming. After trying to find a way to get Angular to work around pre-flighting requests, I decided to bite the bullet and build a node proxy. ~100 lines of &lt;code&gt;Node.js&lt;/code&gt;/&lt;code&gt;Express&lt;/code&gt; code later, I was in business. Now we can send our requests to our own server which would make the same requests to the Craft Beer Week API and pass the results back.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;app.post(&#39;*&#39;, function (req, res, next) {
+  console.log(&amp;quot;requesting &amp;quot; + API_URL + req.originalUrl);
+  request.post(API_URL + req.originalUrl, {form: req.body},
+    function (error, response, body) {
+      if (body.indexOf(&#39;Your session&#39;) !== -1) {
+        res.status(401);
+        return res.send(body);
+      }
+      console.log(response.statusCode + &amp;quot; - &amp;quot; + response.statusMessage);
+      res.status(response.statusCode);
+      res.send(body);
+    });
+});
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h3 id=&#34;feature-parity:608891990651e25035713577174171c1&#34;&gt;Feature Parity&lt;/h3&gt;
 
@@ -102,7 +121,9 @@
 
 &lt;h3 id=&#34;enabling-sharing:608891990651e25035713577174171c1&#34;&gt;Enabling sharing&lt;/h3&gt;
 
-&lt;p&gt;This isn&amp;rsquo;t going to be a lecture about how powerful social sharing plugins are in viral/organic growth. I&amp;rsquo;m less concerned about that and more concerned about the end-user experience. Consdering I already had my own Firebase database, enabling this was actually trivial. Create a route outside the context of the app (otherwise users would get redirected to login) that took in the user&amp;rsquo;s ID (from the URL) and pulled out the list of their saved events. Simple, straightforward, elegant. Add in a few social share buttons for convenience and the app markets itself.&lt;/p&gt;
+&lt;p&gt;This isn&amp;rsquo;t going to be a lecture about how powerful social sharing plugins are in viral/organic growth. I&amp;rsquo;m less concerned about that and more concerned about the end-user experience. Consdering I already had my own Firebase database, enabling this was actually trivial. Create a route outside the context of the app (otherwise users would get redirected to login) that took in the user&amp;rsquo;s ID (from the URL) and pulled out the list of their saved events. Simple, straightforward, elegant. Add in a few social share buttons for convenience and the app practically markets itself.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/case-study/better-mcbw/sharing.png&#34;&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;dividers:608891990651e25035713577174171c1&#34;&gt;Dividers&lt;/h3&gt;
 
@@ -123,6 +144,8 @@
 &lt;p&gt;Couple this with &lt;code&gt;$ionInfiniteScroll&lt;/code&gt; and we have lazy-loading events 20 at a time plus dividers. Much better than spitting out a list of 500 events and having users fend for themselves.&lt;/p&gt;
 
 &lt;h3 id=&#34;searching-sorting-maps:608891990651e25035713577174171c1&#34;&gt;Searching, Sorting, Maps&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/case-study/better-mcbw/map.png&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;That&amp;rsquo;s great and all, but what if I&amp;rsquo;m looking for a specific event? What if I&amp;rsquo;m in a particular part of town and I want to know what my other options are nearby? Sorting and Filtering were actually somewhat of a happy accident between what Angular offers and how I&amp;rsquo;d structured the rest of the app. When the user logs in, I fetch the list of events once and cache it. From there, pretty much everything they see is some permutation of that.&lt;/p&gt;
 
@@ -146,11 +169,13 @@
 
 &lt;p&gt;The code could also use a serious refactor, especially on the client side. This is what happens when innovation/speed of development matters more than code quality/longevity/cost of support. Whoops.&lt;/p&gt;
 
+&lt;p&gt;There also could be increased security, as right now I&amp;rsquo;m pretty sure if you have someone&amp;rsquo;s user ID you can modify their list of saved events, but again, 20 hours of free work plus it&amp;rsquo;s an app that&amp;rsquo;s only useful for one week (and for a beer event, no less).&lt;/p&gt;
+
 &lt;h1 id=&#34;lessons-learned:608891990651e25035713577174171c1&#34;&gt;Lessons Learned&lt;/h1&gt;
 
 &lt;h3 id=&#34;firebase-synchronized-arrays:608891990651e25035713577174171c1&#34;&gt;Firebase Synchronized Arrays&lt;/h3&gt;
 
-&lt;p&gt;One thing I learned in trying to build this Saved Event feature is &lt;a href=&#34;https://www.firebase.com/docs/web/libraries/angular/guide/synchronized-arrays.html&#34;&gt;Firebase arrays&lt;/a&gt;a don&amp;rsquo;t work the way you think they do. I had a list of events  (JSON objects) that I would push to an array (via &lt;code&gt;$firebaseArray.$add&lt;/code&gt;), and when someone unchecked the magic box, I tried to use &lt;code&gt;$firebaseArray.$remove&lt;/code&gt;, except that only works if you&amp;rsquo;re talking about the same reference you used to push to the array. So, if you have a list of items, you push &lt;em&gt;a copy&lt;/em&gt; of one to the array, then try to remove it, it didn&amp;rsquo;t work.&lt;/p&gt;
+&lt;p&gt;One thing I learned in trying to build this Saved Event feature is &lt;a href=&#34;https://www.firebase.com/docs/web/libraries/angular/guide/synchronized-arrays.html&#34;&gt;Firebase arrays&lt;/a&gt; don&amp;rsquo;t work the way you think they do. I had a list of events  (JSON objects) that I would push to an array (via &lt;code&gt;$firebaseArray.$add&lt;/code&gt;), and when someone unchecked the magic box, I tried to use &lt;code&gt;$firebaseArray.$remove&lt;/code&gt;, except that only works if you&amp;rsquo;re talking about the same reference you used to push to the array. So, if you have a list of items, you push &lt;em&gt;a copy&lt;/em&gt; of one to the array, then try to remove it, it didn&amp;rsquo;t work.&lt;/p&gt;
 
 &lt;h3 id=&#34;keyed-arrays-make-sense-sometimes:608891990651e25035713577174171c1&#34;&gt;Keyed Arrays Make Sense Sometimes&lt;/h3&gt;
 
@@ -160,6 +185,16 @@
   /// or
   delete profile.saved[event.id];
 &lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;videos:608891990651e25035713577174171c1&#34;&gt;Videos&lt;/h1&gt;
+
+&lt;h3 id=&#34;official-mcbw:608891990651e25035713577174171c1&#34;&gt;Official MCBW:&lt;/h3&gt;
+
+&lt;iframe width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/s4OAGhlFpcQ&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&#34;better-mcbw:608891990651e25035713577174171c1&#34;&gt;Better MCBW:&lt;/h3&gt;
+
+&lt;iframe width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/yAJx1i41d04&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 </description>
     </item>
     

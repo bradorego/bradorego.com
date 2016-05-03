@@ -44,19 +44,37 @@ So, realizing that my complaints weren't getting anyone anywhere (not to mention
 
 After doing a little bit of googling, I came across this <a href="https://medium.com/@rotxed/how-to-debug-http-s-traffic-on-android-7fbe5d2a34#.mhbido9ys">incredibly helpful article</a> explaining step-by-step exactly what I wanted to do. Next thing I know, I had a proxy running on my laptop, my phone's internet traffic streaming through that proxy, and I had access to every HTTP request the phone (and thus, the app) made. It was almost too easy.
 
+<img src="/img/case-study/better-mcbw/mitmproxy.png">
+
 ### The Horror
 
 So, now that I had all of the HTTP requests (all, uh, 4 of them that the app seemed to be making), all I had to do was make those same requests with the same body, parse the response, and I was off to the races, right? This is all true, but in my inspection of the traffic, I came across a few horrifying realizations:
 
-1) Every request made was a `POST`. Getting the list of events? `POST`. Creating an account? `POST`. Logging in, and creating a session? `POST`. Getting a list of special offers? `POST`.
-2) Every response had a status of `200 - OK`. If there was an error, you have to parse the body of the message. And those bodies are in no way consistent.
-3) The list of events (~580 json objects) came out to a staggering 700KB of data. Not the end of the world in today's day and age, but a tough pill to swallow. There's gotta be something we can do about that, right? (Spoiler alert: there is).
+1. Every request made was a `POST`. Getting the list of events? `POST`. Creating an account? `POST`. Logging in, and creating a session? `POST`. Getting a list of special offers? `POST`.
+2. Every response had a status of `200 - OK`. If there was an error, you have to parse the body of the message. And those bodies are in no way consistent.
+3. The list of events (~580 json objects) came out to a staggering 700KB of data. Not the end of the world in today's day and age, but a tough pill to swallow. There's gotta be something we can do about that, right? (Spoiler alert: there is).
 
 Interacting with this API was painful. I was literally parsing a tilde(~) delimited string to determine the result of actions, and then picking parts of that out to save (e.g. the access token). This kind of feels like somebody's first attempt at making an API.
 
 ### Off to the Races
 
 All of that aside, I thought I was in the clear. Build an Ionic app, replicate the responses, do some other stuff with the data. Simple enough, right? Aaaaand then I got `CORS`'d, which I should've seen coming. After trying to find a way to get Angular to work around pre-flighting requests, I decided to bite the bullet and build a node proxy. ~100 lines of `Node.js`/`Express` code later, I was in business. Now we can send our requests to our own server which would make the same requests to the Craft Beer Week API and pass the results back.
+
+```javascript
+app.post('*', function (req, res, next) {
+  console.log("requesting " + API_URL + req.originalUrl);
+  request.post(API_URL + req.originalUrl, {form: req.body},
+    function (error, response, body) {
+      if (body.indexOf('Your session') !== -1) {
+        res.status(401);
+        return res.send(body);
+      }
+      console.log(response.statusCode + " - " + response.statusMessage);
+      res.status(response.statusCode);
+      res.send(body);
+    });
+});
+```
 
 ### Feature Parity
 
@@ -103,7 +121,9 @@ Which brought us down to 80KB. Still not great, but much better than 700KB. Okay
 
 ### Enabling sharing
 
-This isn't going to be a lecture about how powerful social sharing plugins are in viral/organic growth. I'm less concerned about that and more concerned about the end-user experience. Consdering I already had my own Firebase database, enabling this was actually trivial. Create a route outside the context of the app (otherwise users would get redirected to login) that took in the user's ID (from the URL) and pulled out the list of their saved events. Simple, straightforward, elegant. Add in a few social share buttons for convenience and the app markets itself.
+This isn't going to be a lecture about how powerful social sharing plugins are in viral/organic growth. I'm less concerned about that and more concerned about the end-user experience. Consdering I already had my own Firebase database, enabling this was actually trivial. Create a route outside the context of the app (otherwise users would get redirected to login) that took in the user's ID (from the URL) and pulled out the list of their saved events. Simple, straightforward, elegant. Add in a few social share buttons for convenience and the app practically markets itself.
+
+<img src="/img/case-study/better-mcbw/sharing.png">
 
 ### Dividers
 
@@ -125,6 +145,8 @@ Regardless of the content, a 500-item list is overwhemling. Adding date dividers
 Couple this with `$ionInfiniteScroll` and we have lazy-loading events 20 at a time plus dividers. Much better than spitting out a list of 500 events and having users fend for themselves.
 
 ### Searching, Sorting, Maps
+
+<img src="/img/case-study/better-mcbw/map.png">
 
 That's great and all, but what if I'm looking for a specific event? What if I'm in a particular part of town and I want to know what my other options are nearby? Sorting and Filtering were actually somewhat of a happy accident between what Angular offers and how I'd structured the rest of the app. When the user logs in, I fetch the list of events once and cache it. From there, pretty much everything they see is some permutation of that.
 
@@ -148,11 +170,13 @@ More than once already this week, people have brought up the idea of some sort o
 
 The code could also use a serious refactor, especially on the client side. This is what happens when innovation/speed of development matters more than code quality/longevity/cost of support. Whoops.
 
+There also could be increased security, as right now I'm pretty sure if you have someone's user ID you can modify their list of saved events, but again, 20 hours of free work plus it's an app that's only useful for one week (and for a beer event, no less).
+
 # Lessons Learned
 
 ### Firebase Synchronized Arrays
 
-One thing I learned in trying to build this Saved Event feature is <a href="https://www.firebase.com/docs/web/libraries/angular/guide/synchronized-arrays.html">Firebase arrays</a>a don't work the way you think they do. I had a list of events  (JSON objects) that I would push to an array (via `$firebaseArray.$add`), and when someone unchecked the magic box, I tried to use `$firebaseArray.$remove`, except that only works if you're talking about the same reference you used to push to the array. So, if you have a list of items, you push _a copy_ of one to the array, then try to remove it, it didn't work.
+One thing I learned in trying to build this Saved Event feature is <a href="https://www.firebase.com/docs/web/libraries/angular/guide/synchronized-arrays.html">Firebase arrays</a> don't work the way you think they do. I had a list of events  (JSON objects) that I would push to an array (via `$firebaseArray.$add`), and when someone unchecked the magic box, I tried to use `$firebaseArray.$remove`, except that only works if you're talking about the same reference you used to push to the array. So, if you have a list of items, you push _a copy_ of one to the array, then try to remove it, it didn't work.
 
 ### Keyed Arrays Make Sense Sometimes
 
@@ -164,3 +188,10 @@ As a corollary to the above realization, keyed arrays actually make a lot of sen
   delete profile.saved[event.id];
 ```
 
+# Videos
+
+### Official MCBW:
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/s4OAGhlFpcQ" frameborder="0" allowfullscreen></iframe>
+
+### Better MCBW:
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/yAJx1i41d04" frameborder="0" allowfullscreen></iframe>
