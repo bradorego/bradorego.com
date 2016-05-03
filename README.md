@@ -9,6 +9,11 @@
 1) gulp
 2) hugo serve
 
+# New Post
+
+1) hugo new post/[post name].md
+
+
 # Deploy
 
 1) hugo
