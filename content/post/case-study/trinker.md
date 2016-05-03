@@ -2,7 +2,7 @@
    "categories": [
       "Case Study"
    ],
-   "date": "20163-04-14T15:10:19-05:00",
+   "date": "2013-04-14T15:10:19-05:00",
    "description": "Social Drinking App built from the ground up",
    "draft": false,
    "image": "/img/case-study/trinker/landing.png",

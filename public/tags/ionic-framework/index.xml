@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ionic Framework on bradorego.com</title>
+    <link>https://bradorego.com/tags/ionic-framework/</link>
+    <description>Recent content in Ionic Framework on bradorego.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 May 2016 12:30:41 -0500</lastBuildDate>
+    <atom:link href="https://bradorego.com/tags/ionic-framework/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Personal Ionic Prototypes</title>
+      <link>https://bradorego.com/2016-05-personal-ionic-prototypes</link>
+      <pubDate>Tue, 03 May 2016 12:30:41 -0500</pubDate>
+      
+      <guid>https://bradorego.com/2016-05-personal-ionic-prototypes</guid>
+      <description>
+
+&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
+  &lt;h4&gt;TL;DNR&lt;/h4&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;http://ionicframework.com&#34;&gt;Ionic&lt;/a&gt; and &lt;a href=&#34;http://firebase.com&#34;&gt;Firebase&lt;/a&gt; are incredibly powerful prototyping tools for developers.&lt;/li&gt;
+    &lt;li&gt;The best way to know how something is going to play out is by building something you can interact with and seeing how the interaction works live.&lt;/li&gt;
+    &lt;li&gt;Sometimes building something for yourself yields a product that&amp;rsquo;s actually useful for someone else, too.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;hr/&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;background:11c87cc1844e7dee51d304acbe274760&#34;&gt;Background&lt;/h1&gt;
+
+&lt;p&gt;The Ionic Framework was &lt;a href=&#34;http://blog.ionic.io/announcing-ionic/&#34;&gt;first released&lt;/a&gt; in October 2013 and has since taken the hybrid app development world by storm, recently announcing their &lt;a href=&#34;http://blog.ionic.io/announcing-ionics-8-5m-series-a/&#34;&gt;Series A&lt;/a&gt;. I built my first full-fledged Ionic app in earnest almost a year after the platform was announced. Since then, I&amp;rsquo;ve worked with companies to build dozens of Ionic apps for everything from pure prototypes to production-level applications.&lt;/p&gt;
+
+&lt;p&gt;In particular, here&amp;rsquo;s a short list of Ionic apps I&amp;rsquo;ve built for my own purposes.&lt;/p&gt;
+
+&lt;h1 id=&#34;newsflash-news-app:11c87cc1844e7dee51d304acbe274760&#34;&gt;NewsFlash News App&lt;/h1&gt;
+
+&lt;p&gt;NewsFlash was built using what was, at the time, a brand new feature in Ionic: swipable cards. I&amp;rsquo;d done some work to take a demo the core team put together and enabled bi-directional swiping, and then added a little more code to allow a developer to know which direction a user swiped (the core team only offered a callback for when it was swiped) (also worth noting that both of these features are now part of the core offering).&lt;/p&gt;
+
+&lt;p&gt;The idea behind NewsFlash was that I never got around to reading any content on my RSS feeds. Even in the days of &lt;a href=&#34;https://www.google.com/reader/about/&#34;&gt;Google Reader&lt;/a&gt;, my list of feeds always left me with hundreds of articles to read and no good way to sort through what was interesting. Given the recent fame of the Tinder-style swipe interaction, I had the idea to create &amp;ldquo;Tinder for RSS&amp;rdquo;. Add your feeds, swipe right to save the stories you care about, left to discard them. The app keeps track of what you&amp;rsquo;ve previously saved so you have one place to manage your reading list. See a quick demo below:&lt;/p&gt;
+
+&lt;iframe width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/74PqgIf3uUk&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h1 id=&#34;trackme-personal-tracker:11c87cc1844e7dee51d304acbe274760&#34;&gt;TrackMe Personal Tracker&lt;/h1&gt;
+
+&lt;p&gt;TrackMe came out of a frustration with other tracking apps as well as inspiration from Nick Felton, who&amp;rsquo;s been tracking his life in various ways and producing infographics &lt;a href=&#39;http://feltron.com/FAR05.html&#39;&gt;as far back as 2005&lt;/a&gt;. The thought is: if we have an easy way to track anything, and we store this data, we can use something like &lt;a href=&#34;https://d3js.org/&#34;&gt;D3.js&lt;/a&gt; to generate interactive infographics.&lt;/p&gt;
+
+&lt;p&gt;TrackMe is another example of a minimalist application - one whose design is simple and purpose is singulary. Users create items to track, and then add individual entries to update the total value of whatever they&amp;rsquo;re tracking. Positive, negative, integer, whole number; mileage, reps, money spent, time spent - the application doesn&amp;rsquo;t care what you&amp;rsquo;re tracking. It&amp;rsquo;s up to you to track. Eventually, we&amp;rsquo;ll be offering a set of tools to build whatever infographics you want as well.&lt;/p&gt;
+
+&lt;iframe width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/7NZMM5rN_pA&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h1 id=&#34;better-mcbw:11c87cc1844e7dee51d304acbe274760&#34;&gt;Better MCBW&lt;/h1&gt;
+
+&lt;p&gt;Better MCBW has its own entire post explaining the motivation and process. You can read more about it &lt;a href=&#34;https://bradorego.com/2016-05-better-mcbw/&#34;&gt;here&lt;/a&gt;. Better MCBW has seen a decent amount of traction among Madison Craft Beer Week participants despite the entire motivation being my own.&lt;/p&gt;
+
+&lt;iframe width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/yAJx1i41d04&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

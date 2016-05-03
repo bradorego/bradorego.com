@@ -6,8 +6,56 @@
     <description>Recent content in Case Study on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 May 2016 18:29:53 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 03 May 2016 12:30:41 -0500</lastBuildDate>
     <atom:link href="https://bradorego.com/categories/case-study/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Personal Ionic Prototypes</title>
+      <link>https://bradorego.com/2016-05-personal-ionic-prototypes</link>
+      <pubDate>Tue, 03 May 2016 12:30:41 -0500</pubDate>
+      
+      <guid>https://bradorego.com/2016-05-personal-ionic-prototypes</guid>
+      <description>
+
+&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
+  &lt;h4&gt;TL;DNR&lt;/h4&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;http://ionicframework.com&#34;&gt;Ionic&lt;/a&gt; and &lt;a href=&#34;http://firebase.com&#34;&gt;Firebase&lt;/a&gt; are incredibly powerful prototyping tools for developers.&lt;/li&gt;
+    &lt;li&gt;The best way to know how something is going to play out is by building something you can interact with and seeing how the interaction works live.&lt;/li&gt;
+    &lt;li&gt;Sometimes building something for yourself yields a product that&amp;rsquo;s actually useful for someone else, too.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;hr/&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;background:11c87cc1844e7dee51d304acbe274760&#34;&gt;Background&lt;/h1&gt;
+
+&lt;p&gt;The Ionic Framework was &lt;a href=&#34;http://blog.ionic.io/announcing-ionic/&#34;&gt;first released&lt;/a&gt; in October 2013 and has since taken the hybrid app development world by storm, recently announcing their &lt;a href=&#34;http://blog.ionic.io/announcing-ionics-8-5m-series-a/&#34;&gt;Series A&lt;/a&gt;. I built my first full-fledged Ionic app in earnest almost a year after the platform was announced. Since then, I&amp;rsquo;ve worked with companies to build dozens of Ionic apps for everything from pure prototypes to production-level applications.&lt;/p&gt;
+
+&lt;p&gt;In particular, here&amp;rsquo;s a short list of Ionic apps I&amp;rsquo;ve built for my own purposes.&lt;/p&gt;
+
+&lt;h1 id=&#34;newsflash-news-app:11c87cc1844e7dee51d304acbe274760&#34;&gt;NewsFlash News App&lt;/h1&gt;
+
+&lt;p&gt;NewsFlash was built using what was, at the time, a brand new feature in Ionic: swipable cards. I&amp;rsquo;d done some work to take a demo the core team put together and enabled bi-directional swiping, and then added a little more code to allow a developer to know which direction a user swiped (the core team only offered a callback for when it was swiped) (also worth noting that both of these features are now part of the core offering).&lt;/p&gt;
+
+&lt;p&gt;The idea behind NewsFlash was that I never got around to reading any content on my RSS feeds. Even in the days of &lt;a href=&#34;https://www.google.com/reader/about/&#34;&gt;Google Reader&lt;/a&gt;, my list of feeds always left me with hundreds of articles to read and no good way to sort through what was interesting. Given the recent fame of the Tinder-style swipe interaction, I had the idea to create &amp;ldquo;Tinder for RSS&amp;rdquo;. Add your feeds, swipe right to save the stories you care about, left to discard them. The app keeps track of what you&amp;rsquo;ve previously saved so you have one place to manage your reading list. See a quick demo below:&lt;/p&gt;
+
+&lt;iframe width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/74PqgIf3uUk&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h1 id=&#34;trackme-personal-tracker:11c87cc1844e7dee51d304acbe274760&#34;&gt;TrackMe Personal Tracker&lt;/h1&gt;
+
+&lt;p&gt;TrackMe came out of a frustration with other tracking apps as well as inspiration from Nick Felton, who&amp;rsquo;s been tracking his life in various ways and producing infographics &lt;a href=&#39;http://feltron.com/FAR05.html&#39;&gt;as far back as 2005&lt;/a&gt;. The thought is: if we have an easy way to track anything, and we store this data, we can use something like &lt;a href=&#34;https://d3js.org/&#34;&gt;D3.js&lt;/a&gt; to generate interactive infographics.&lt;/p&gt;
+
+&lt;p&gt;TrackMe is another example of a minimalist application - one whose design is simple and purpose is singulary. Users create items to track, and then add individual entries to update the total value of whatever they&amp;rsquo;re tracking. Positive, negative, integer, whole number; mileage, reps, money spent, time spent - the application doesn&amp;rsquo;t care what you&amp;rsquo;re tracking. It&amp;rsquo;s up to you to track. Eventually, we&amp;rsquo;ll be offering a set of tools to build whatever infographics you want as well.&lt;/p&gt;
+
+&lt;iframe width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/7NZMM5rN_pA&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h1 id=&#34;better-mcbw:11c87cc1844e7dee51d304acbe274760&#34;&gt;Better MCBW&lt;/h1&gt;
+
+&lt;p&gt;Better MCBW has its own entire post explaining the motivation and process. You can read more about it &lt;a href=&#34;https://bradorego.com/2016-05-better-mcbw/&#34;&gt;here&lt;/a&gt;. Better MCBW has seen a decent amount of traction among Madison Craft Beer Week participants despite the entire motivation being my own.&lt;/p&gt;
+
+&lt;iframe width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/yAJx1i41d04&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
     
     <item>
       <title>Better MCBW</title>
@@ -250,6 +298,34 @@ Lakeforecast.org Beach View
     </item>
     
     <item>
+      <title>Trinker</title>
+      <link>https://bradorego.com/2013-04-trinker</link>
+      <pubDate>Sun, 14 Apr 2013 15:10:19 -0500</pubDate>
+      
+      <guid>https://bradorego.com/2013-04-trinker</guid>
+      <description>
+
+&lt;h1 id=&#34;about:5c8d1c0ac174c2b9af11e2912b72ae28&#34;&gt;About&lt;/h1&gt;
+
+&lt;p&gt;Trinker is a service that simplifies your social life by providing an easy, secure way to share your nightlife activities, keep track of your drinking buddies, see what parts of town are hoppin&amp;rsquo;, and even save you some cash. Trinker represents my first foray into entrepreneurship, and has been a constant source of inspiration, energy, and learning for me.&lt;/p&gt;
+
+&lt;p&gt;Trinker was first brought to life through conversations with Rob Brooks, a good friend of mine, and when we decided to participate in &lt;a href=&#34;http://madison.startupweekend.org/2012/04/28/game-on/&#34;&gt;Startup Weekend: Madison 2012&lt;/a&gt;. Armed with the skeleton of a back-end I&amp;rsquo;d built on PHP and MongoDB, and my knowledge of jQuery Mobile, I set my team out to do as much validation as possible while I threw together as much of a functional prototype as I could based on what Rob and I had sketched out. I actually invented the Trinker logo when hailing a team after giving the 60-second pitch on Friday night, and designed our first business cards that night.&lt;/p&gt;
+
+&lt;p&gt;After running into some severe performance limitations with jQuery Mobile, and being inspired by Assanka&amp;rsquo;s (now FT Labs) &lt;a href=&#34;https://www.youtube.com/watch?v=iZA4t5MmRBY&#34;&gt;Financial Times&lt;/a&gt; mobile app, I decided to re-design the app and re-write the front-end using vanilla Javascript and CSS. This was my first foray into mobile web development as well, and due to my relative inexperience with Javascript at the time, I ran into a lot of issues, and ultimately decided this approach wasn&amp;rsquo;t sustainable and went about re-writing it a third time using &lt;a href=&#34;http://yuilibrary.com/&#34;&gt;YUI&lt;/a&gt; and a new back-end built on top of Ruby on Rails.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, that was about the time my two team members had to move away from Madison for work, and I ran out of steam on the project, so Trinker has laid dormant for approximately a year. However, a new business model has breathed some life and inspiration into me, so don&amp;rsquo;t be surprised if you see this app running around Madison bars soon.&lt;/p&gt;
+
+&lt;h1 id=&#34;selected-images:5c8d1c0ac174c2b9af11e2912b72ae28&#34;&gt;Selected Images&lt;/h1&gt;
+
+&lt;p&gt;Landing Page:
+&lt;img src=&#34;https://bradorego.com/img/case-study/trinker/landing.png&#34; /&gt;
+&lt;img src=&#34;https://bradorego.com/img/case-study/trinker/t1.png&#34; /&gt;
+&lt;img src=&#34;https://bradorego.com/img/case-study/trinker/t2.png&#34; /&gt;
+&lt;img src=&#34;https://bradorego.com/img/case-study/trinker/t3.png&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Design Studio Etc</title>
       <link>https://bradorego.com/2013-02-design-studio-etc</link>
       <pubDate>Tue, 12 Feb 2013 14:42:59 -0500</pubDate>
@@ -328,34 +404,6 @@ Contact (before/after):
 &lt;img src=&#34;https://bradorego.com/img/case-study/biodance/4.jpg&#34; /&gt;
 &lt;img src=&#34;https://bradorego.com/img/case-study/biodance/5.jpg&#34; /&gt;
 &lt;img src=&#34;https://bradorego.com/img/case-study/biodance/6.jpg&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Trinker</title>
-      <link>https://bradorego.com/1-01-trinker</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://bradorego.com/1-01-trinker</guid>
-      <description>
-
-&lt;h1 id=&#34;about:5c8d1c0ac174c2b9af11e2912b72ae28&#34;&gt;About&lt;/h1&gt;
-
-&lt;p&gt;Trinker is a service that simplifies your social life by providing an easy, secure way to share your nightlife activities, keep track of your drinking buddies, see what parts of town are hoppin&amp;rsquo;, and even save you some cash. Trinker represents my first foray into entrepreneurship, and has been a constant source of inspiration, energy, and learning for me.&lt;/p&gt;
-
-&lt;p&gt;Trinker was first brought to life through conversations with Rob Brooks, a good friend of mine, and when we decided to participate in &lt;a href=&#34;http://madison.startupweekend.org/2012/04/28/game-on/&#34;&gt;Startup Weekend: Madison 2012&lt;/a&gt;. Armed with the skeleton of a back-end I&amp;rsquo;d built on PHP and MongoDB, and my knowledge of jQuery Mobile, I set my team out to do as much validation as possible while I threw together as much of a functional prototype as I could based on what Rob and I had sketched out. I actually invented the Trinker logo when hailing a team after giving the 60-second pitch on Friday night, and designed our first business cards that night.&lt;/p&gt;
-
-&lt;p&gt;After running into some severe performance limitations with jQuery Mobile, and being inspired by Assanka&amp;rsquo;s (now FT Labs) &lt;a href=&#34;https://www.youtube.com/watch?v=iZA4t5MmRBY&#34;&gt;Financial Times&lt;/a&gt; mobile app, I decided to re-design the app and re-write the front-end using vanilla Javascript and CSS. This was my first foray into mobile web development as well, and due to my relative inexperience with Javascript at the time, I ran into a lot of issues, and ultimately decided this approach wasn&amp;rsquo;t sustainable and went about re-writing it a third time using &lt;a href=&#34;http://yuilibrary.com/&#34;&gt;YUI&lt;/a&gt; and a new back-end built on top of Ruby on Rails.&lt;/p&gt;
-
-&lt;p&gt;Unfortunately, that was about the time my two team members had to move away from Madison for work, and I ran out of steam on the project, so Trinker has laid dormant for approximately a year. However, a new business model has breathed some life and inspiration into me, so don&amp;rsquo;t be surprised if you see this app running around Madison bars soon.&lt;/p&gt;
-
-&lt;h1 id=&#34;selected-images:5c8d1c0ac174c2b9af11e2912b72ae28&#34;&gt;Selected Images&lt;/h1&gt;
-
-&lt;p&gt;Landing Page:
-&lt;img src=&#34;https://bradorego.com/img/case-study/trinker/landing.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/trinker/t1.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/trinker/t2.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/trinker/t3.png&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
