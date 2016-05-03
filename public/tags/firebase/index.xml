@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Case Study on bradorego.com</title>
-    <link>https://bradorego.com/categories/case-study/</link>
-    <description>Recent content in Case Study on bradorego.com</description>
+    <title>Firebase on bradorego.com</title>
+    <link>https://bradorego.com/tags/firebase/</link>
+    <description>Recent content in Firebase on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 02 May 2016 18:29:53 -0500</lastBuildDate>
-    <atom:link href="https://bradorego.com/categories/case-study/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bradorego.com/tags/firebase/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Better MCBW</title>
@@ -160,167 +160,6 @@
   /// or
   delete profile.saved[event.id];
 &lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Clean Clear Waters</title>
-      <link>https://bradorego.com/2014-04-clean-clear-waters</link>
-      <pubDate>Mon, 14 Apr 2014 15:10:54 -0500</pubDate>
-      
-      <guid>https://bradorego.com/2014-04-clean-clear-waters</guid>
-      <description>
-
-&lt;h1 id=&#34;about:0b1dfc567fa55bcbc48ecf5d01bfe807&#34;&gt;About&lt;/h1&gt;
-
-&lt;p&gt;One of the many projects I&amp;rsquo;ve been involed with via &lt;a href=&#34;http://100state.com&#34;&gt;100state&lt;/a&gt; was one in collaboration with the &lt;a href=&#34;https://cleanlakesalliance.com/&#34;&gt;Clean Lakes Alliance&lt;/a&gt;, a non-profit &amp;ldquo;dedicated to the improvement and protection of the lakes, streams, and wetlands of the Yahara Watershed&amp;rdquo;. One of their initiatives involves soliciting volunteers to collect data about water quality nearby their homes and places of work in order to monitor and gain insight on the water.&lt;/p&gt;
-
-&lt;p&gt;Previously, data collection has happened in a variety of means, such as email or a Google Spreadsheet. The first step of the project was to digitize the entire process by creating a web app that volunteers can use to log into and track their data. The second phase would be to roll out a public-facing web and mobile application that Madison beachgoers can use to check which beaches were open or closed, what the relative water quality at each location is, and to be able to submit their own visual observations of the water quality based on a few scales CLA put forth.&lt;/p&gt;
-
-&lt;p&gt;My responsibilities for this project were to take care of product design (UX, visual) as well as implement a prototype for the front-end. Josh and Jordan from &lt;a href=&#34;https://miosoft.com&#34;&gt;MIOsoft&lt;/a&gt; graciously offered to handle all of the back-end data handling and implementation. For the front-end, we chose to work with the &lt;a href=&#34;http://ionicframework.com&#34;&gt;Ionic Framework&lt;/a&gt;, deciding to go completely mobile-first.&lt;/p&gt;
-
-&lt;p&gt;After I ended my engagement on the project, MIOsoft completely took over responsibility for the project. The live version can be seen at &lt;a href=&#34;http://lakeforecast.org/&#34;&gt;Lakeforecast.org&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h1 id=&#34;selected-images:0b1dfc567fa55bcbc48ecf5d01bfe807&#34;&gt;Selected Images&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/case-study/clean-clear-waters/wires.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/clean-clear-waters/mockup.png&#34; /&gt;
-Lakeforecast.org Map View
-&lt;img src=&#34;https://bradorego.com/img/case-study/clean-clear-waters/map.png&#34; /&gt;
-Lakeforecast.org Beach View
-&lt;img src=&#34;https://bradorego.com/img/case-study/clean-clear-waters/beach.png&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Nextt</title>
-      <link>https://bradorego.com/2014-03-nextt</link>
-      <pubDate>Sat, 01 Mar 2014 15:11:21 -0500</pubDate>
-      
-      <guid>https://bradorego.com/2014-03-nextt</guid>
-      <description>
-
-&lt;h1 id=&#34;about:ebeef24fe61de8fef2a98739c1cee8ca&#34;&gt;About&lt;/h1&gt;
-
-&lt;p&gt;Nextt is a social event planning tool designed to help get all of your friends on the same page and to get together offline in the real world. While working with Nextt, I was responsible for development of the mobile web app (which eventually became Nextt&amp;rsquo;s Android app), as well as overseeing parts of the overall User Experience and wrangling all of the data, metrics, and analytics to help guide product development. The most interesting and valuable piece of this experience was building everything from the ground up by hand - no frameworks, no tools. I learned a ton about mobile performance, and what it takes to develop a compelling experience on mobile.&lt;/p&gt;
-
-&lt;p&gt;While most of the design, branding, and interaction was out of my hands, there were several small victories we achieved, such as increasing the unauth (invite) conversion rate from ~10% to ~40%, and streamlining the onboarding process to get users up to speed and interacting with the system in a meaningful way. I championed tight iteration loops and data-driven decisions about design and feature prioritization, and also managed all of Nextt&amp;rsquo;s usability studies and email questionnaires.&lt;/p&gt;
-
-&lt;h1 id=&#34;selected-images:ebeef24fe61de8fef2a98739c1cee8ca&#34;&gt;Selected Images&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/case-study/nextt/unauth.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/nextt/onboarding.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/nextt/screens.png&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Design Studio Etc</title>
-      <link>https://bradorego.com/2013-02-design-studio-etc</link>
-      <pubDate>Tue, 12 Feb 2013 14:42:59 -0500</pubDate>
-      
-      <guid>https://bradorego.com/2013-02-design-studio-etc</guid>
-      <description>
-
-&lt;h1 id=&#34;about:7d17b5de2bae6f85a1bc96bad5421a8e&#34;&gt;About&lt;/h1&gt;
-
-&lt;p&gt;Design Studio Etc. (&amp;ldquo;etc&amp;rdquo;) is an architectural design firm headquarted in Madison, WI with over 30 years of design and consulting experience. etc&amp;rsquo;s work is featured all over Madison, greater Wisconsin, and even other areas of the country such as Illinois, Arizona, and California.&lt;/p&gt;
-
-&lt;p&gt;etc&amp;rsquo;s former website was a flat set of three pages which left the user with virtually no idea of what the company actually was/did. The &amp;ldquo;about&amp;rdquo; page was the only way to glean any real information, and the design was dominated by an image that had very little value-add. Within a course of a couple weeks, the entire brand identity, look and feel, and design of the website was turned around (with the help and incredible energy of the client).&lt;/p&gt;
-
-&lt;p&gt;The new website features responsive design, a fluid layout, image slideshows (with lightbox for greater detail), and three structured subsections of the website (about, &amp;ldquo;what we do&amp;rdquo; (aka projects), and &amp;ldquo;on the boards&amp;rdquo; (aka blog)). The new look aligns with etc&amp;rsquo;s new identity, and provides a modern website to carry the company forward while making edits and updates easy via Drupal&amp;rsquo;s admin interface.&lt;/p&gt;
-
-&lt;h1 id=&#34;selected-images:7d17b5de2bae6f85a1bc96bad5421a8e&#34;&gt;Selected Images:&lt;/h1&gt;
-
-&lt;p&gt;Wireframe:
-&lt;img src=&#34;https://bradorego.com/img/case-study/design-studio-etc/wireframe.png&#34; /&gt;
-Desktop:
-&lt;img src=&#34;https://bradorego.com/img/case-study/design-studio-etc/desktop.png&#34; /&gt;
-Mobile:
-&lt;img src=&#34;https://bradorego.com/img/case-study/design-studio-etc/mobile.png&#34; /&gt;
-Contact (before/after):
-&lt;img src=&#34;https://bradorego.com/img/case-study/design-studio-etc/beforeafter.png&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>inspireDANCE Dance Festival</title>
-      <link>https://bradorego.com/2011-02-inspiredance-dance-festival</link>
-      <pubDate>Tue, 08 Feb 2011 15:10:01 -0500</pubDate>
-      
-      <guid>https://bradorego.com/2011-02-inspiredance-dance-festival</guid>
-      <description>
-
-&lt;h1 id=&#34;about:9cc2c373eb610eea06efd486da1e5d1a&#34;&gt;About&lt;/h1&gt;
-
-&lt;p&gt;The &lt;em&gt;inspire&lt;/em&gt;DANCE Festival is the result of Arielle Friedlander&amp;rsquo;s 2010 KEY Project at the University of Rochester. As an ogoing festival, &lt;em&gt;inspire&lt;/em&gt;DANCE&amp;rsquo;s goals are to strengthen the dance community in Rochester by connecting students to professional dancers in and around the Rochester area. The Festival features professional dancers and instructors from Rochester as well as a feature artist with national (and sometimes world) renown. Past artists include &lt;a href=&#34;http://www.billevansdance.org/&#34;&gt;Bill Evans&lt;/a&gt;, &lt;a href=&#34;http://www.chosendance.com/&#34;&gt;Clyde Evans, Jr.&lt;/a&gt;, &lt;a href=&#34;http://www.heidilatskydance.net/heidilatskydance/&#34;&gt;Heidi Latsky&lt;/a&gt;, and Illstyle &amp;amp; Peace Productions as well as all of the artists on faculty at the University of Rochester.&lt;/p&gt;
-
-&lt;p&gt;As one of the founding members, my role in &lt;em&gt;inspire&lt;/em&gt;DANCE&amp;rsquo;s formation was both the Fundraising &amp;amp; Publicity Director and the Assistant to the Director. I was responsible for reaching out to different groups around campus as well as in the Rochetser community to secure funding for the event as well as to publicize the festival, including development of print and web media. As Assitant to the Director, I carried out many administrative tasks and assisted in decision making on issues large and small, including marketing, financing, and other administrative decisions.&lt;/p&gt;
-
-&lt;p&gt;The original &lt;em&gt;inspire&lt;/em&gt;DANCE website was built at a moment&amp;rsquo;s notice as a temporary location for information about the event before and during the festival. Site design was based on the flyers for the event.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.youtube.com/watch?v=F7ob9JrOpFc&#34;&gt;Video summary available&lt;/a&gt; courtesy of the University of Rochester. Information on this year&amp;rsquo;s &lt;em&gt;inspire&lt;/em&gt;DANCE Festival via the U of R &lt;a href=&#34;http://rochester.edu/college/dance&#34;&gt;Program of Dance and Movement&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h1 id=&#34;selected-images:9cc2c373eb610eea06efd486da1e5d1a&#34;&gt;Selected Images&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/case-study/inspiredance/flyers.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/inspiredance/website.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/inspiredance/workshops.png&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Biodance</title>
-      <link>https://bradorego.com/2010-12-biodance</link>
-      <pubDate>Tue, 14 Dec 2010 14:55:36 -0500</pubDate>
-      
-      <guid>https://bradorego.com/2010-12-biodance</guid>
-      <description>
-
-&lt;h1 id=&#34;about:6d8d0cb2d9a39909700bf36f44e9452e&#34;&gt;About&lt;/h1&gt;
-
-&lt;p&gt;When I was entering my &lt;a href=&#34;http://www.rochester.edu/college/CCAS/students/opportunities/takefive/&#34;&gt;Take 5&lt;/a&gt; year at the &lt;a href=&#34;http://rochester.edu&#34;&gt;University of Rochester&lt;/a&gt;, I found myself in a scheduling bind that forbid me from being able to take any of the remaining dance classes I hadn&amp;rsquo;t taken. Between this and my desire to push my dance career beyond academia, I decided to propose an independent study with Missy Pfohl Smith, the newly appointed Director of the &lt;a href=&#34;http://rochester.edu/college/dance&#34;&gt;Program of Dance &amp;amp; Movement&lt;/a&gt;. The path this independent study lead me down was somewhere between unexpected and incredible.&lt;/p&gt;
-
-&lt;p&gt;Given the experience to intern with &lt;a href=&#34;http://biodance.com&#34;&gt;Biodance&lt;/a&gt; as well as stage manage their Fall 2010 production at Geva Theater, I learned much more about dance &amp;ldquo;in the real world&amp;rdquo; than I had expected. On top of the hands-on experience of professional rehearsals and stage management for a live show, I was also blessed with the opportunities to learn about the logistics of running a dance company, such as grant writing, proofreading, marketing, and preparing/disseminating press releases.&lt;/p&gt;
-
-&lt;p&gt;The full text of my capstone essay can be found &lt;a href=&#34;http://old.bradorego.com/sites/default/files/docs/dan381.pdf&#34;&gt;here&lt;/a&gt;. Photos include highlights from the show I stage managed.&lt;/p&gt;
-
-&lt;h1 id=&#34;selected-images:6d8d0cb2d9a39909700bf36f44e9452e&#34;&gt;Selected Images&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/case-study/biodance/1.jpg&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/biodance/2.jpg&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/biodance/3.jpg&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/biodance/4.jpg&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/biodance/5.jpg&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/biodance/6.jpg&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Trinker</title>
-      <link>https://bradorego.com/1-01-trinker</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://bradorego.com/1-01-trinker</guid>
-      <description>
-
-&lt;h1 id=&#34;about:5c8d1c0ac174c2b9af11e2912b72ae28&#34;&gt;About&lt;/h1&gt;
-
-&lt;p&gt;Trinker is a service that simplifies your social life by providing an easy, secure way to share your nightlife activities, keep track of your drinking buddies, see what parts of town are hoppin&amp;rsquo;, and even save you some cash. Trinker represents my first foray into entrepreneurship, and has been a constant source of inspiration, energy, and learning for me.&lt;/p&gt;
-
-&lt;p&gt;Trinker was first brought to life through conversations with Rob Brooks, a good friend of mine, and when we decided to participate in &lt;a href=&#34;http://madison.startupweekend.org/2012/04/28/game-on/&#34;&gt;Startup Weekend: Madison 2012&lt;/a&gt;. Armed with the skeleton of a back-end I&amp;rsquo;d built on PHP and MongoDB, and my knowledge of jQuery Mobile, I set my team out to do as much validation as possible while I threw together as much of a functional prototype as I could based on what Rob and I had sketched out. I actually invented the Trinker logo when hailing a team after giving the 60-second pitch on Friday night, and designed our first business cards that night.&lt;/p&gt;
-
-&lt;p&gt;After running into some severe performance limitations with jQuery Mobile, and being inspired by Assanka&amp;rsquo;s (now FT Labs) &lt;a href=&#34;https://www.youtube.com/watch?v=iZA4t5MmRBY&#34;&gt;Financial Times&lt;/a&gt; mobile app, I decided to re-design the app and re-write the front-end using vanilla Javascript and CSS. This was my first foray into mobile web development as well, and due to my relative inexperience with Javascript at the time, I ran into a lot of issues, and ultimately decided this approach wasn&amp;rsquo;t sustainable and went about re-writing it a third time using &lt;a href=&#34;http://yuilibrary.com/&#34;&gt;YUI&lt;/a&gt; and a new back-end built on top of Ruby on Rails.&lt;/p&gt;
-
-&lt;p&gt;Unfortunately, that was about the time my two team members had to move away from Madison for work, and I ran out of steam on the project, so Trinker has laid dormant for approximately a year. However, a new business model has breathed some life and inspiration into me, so don&amp;rsquo;t be surprised if you see this app running around Madison bars soon.&lt;/p&gt;
-
-&lt;h1 id=&#34;selected-images:5c8d1c0ac174c2b9af11e2912b72ae28&#34;&gt;Selected Images&lt;/h1&gt;
-
-&lt;p&gt;Landing Page:
-&lt;img src=&#34;https://bradorego.com/img/case-study/trinker/landing.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/trinker/t1.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/trinker/t2.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/trinker/t3.png&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
