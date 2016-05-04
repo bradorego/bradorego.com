@@ -1,7 +1,6 @@
 {
    "categories": [
-      "Case Study",
-      "Development"
+      "Case Study"
    ],
    "date": "2016-05-02T18:29:53-05:00",
    "description": "How I reverse engineered a beer app and reached feature parity in ~8 hours with Ionic.",
