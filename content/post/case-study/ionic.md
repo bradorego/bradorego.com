@@ -17,17 +17,7 @@
    "title": "Personal Ionic Prototypes"
 }
 
-<div class="tldnr">
-  <h4>TL;DNR</h4>
-  <ul>
-    <li><a href="http://ionicframework.com">Ionic</a> and <a href="http://firebase.com">Firebase</a> are incredibly powerful prototyping tools for developers.</li>
-    <li>The best way to know how something is going to play out is by building something you can interact with and seeing how the interaction works live.</li>
-    <li>Sometimes building something for yourself yields a product that's actually useful for someone else, too.</li>
-  </ul>
-</div>
-<hr/>
-
-# Background
+# About
 
 The Ionic Framework was <a href="http://blog.ionic.io/announcing-ionic/">first released</a> in October 2013 and has since taken the hybrid app development world by storm, recently announcing their <a href="http://blog.ionic.io/announcing-ionics-8-5m-series-a/">Series A</a>. I built my first full-fledged Ionic app in earnest almost a year after the platform was announced. Since then, I've worked with companies to build dozens of Ionic apps for everything from pure prototypes to production-level applications.
 

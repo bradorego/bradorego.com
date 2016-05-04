@@ -17,17 +17,7 @@
       <guid>https://bradorego.com/2016-05-personal-ionic-prototypes</guid>
       <description>
 
-&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
-  &lt;h4&gt;TL;DNR&lt;/h4&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;a href=&#34;http://ionicframework.com&#34;&gt;Ionic&lt;/a&gt; and &lt;a href=&#34;http://firebase.com&#34;&gt;Firebase&lt;/a&gt; are incredibly powerful prototyping tools for developers.&lt;/li&gt;
-    &lt;li&gt;The best way to know how something is going to play out is by building something you can interact with and seeing how the interaction works live.&lt;/li&gt;
-    &lt;li&gt;Sometimes building something for yourself yields a product that&amp;rsquo;s actually useful for someone else, too.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-&lt;hr/&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;background:11c87cc1844e7dee51d304acbe274760&#34;&gt;Background&lt;/h1&gt;
+&lt;h1 id=&#34;about:11c87cc1844e7dee51d304acbe274760&#34;&gt;About&lt;/h1&gt;
 
 &lt;p&gt;The Ionic Framework was &lt;a href=&#34;http://blog.ionic.io/announcing-ionic/&#34;&gt;first released&lt;/a&gt; in October 2013 and has since taken the hybrid app development world by storm, recently announcing their &lt;a href=&#34;http://blog.ionic.io/announcing-ionics-8-5m-series-a/&#34;&gt;Series A&lt;/a&gt;. I built my first full-fledged Ionic app in earnest almost a year after the platform was announced. Since then, I&amp;rsquo;ve worked with companies to build dozens of Ionic apps for everything from pure prototypes to production-level applications.&lt;/p&gt;
 
