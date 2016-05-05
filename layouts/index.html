@@ -6,7 +6,7 @@
     <div class="container">
       <div class="row">
         {{ partial "bootstrap-div.html" .}}
-          {{ range first 4 (where .Data.Pages "Type" "post") }}
+          {{ range first 5 .Data.Pages }}
               {{ .Render "summary"}}
           {{ end }}
           <!-- Pager -->

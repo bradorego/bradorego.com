@@ -1,0 +1,11 @@
+<div class="post-preview">
+  <div class="img-preview" style="background-image:url({{ .Params.image }})"></div>
+
+  <a href="{{ .Permalink }}" target="_self">
+    <h2 class="post-title">{{ .Title }}</h2>
+  </a>
+  <p class="post-meta">
+    {{ partial "posted-on-in.html" . }}
+  </p>
+</div>
+<hr>
