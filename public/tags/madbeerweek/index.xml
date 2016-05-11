@@ -12,6 +12,7 @@
     <item>
       <title>Better MCBW</title>
       <link>https://bradorego.com/case-study/better-mcbw</link>
+      <image>https://bradorego.com/img/case-study/better-mcbw/header.png</image>
       <pubDate>Mon, 02 May 2016 18:29:53 -0500</pubDate>
       
       <guid>https://bradorego.com/case-study/better-mcbw</guid>
@@ -196,6 +197,7 @@
 
 &lt;iframe width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/yAJx1i41d04&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 </description>
+      <tags>ionic,madbeerweek,reverse engineer,ux,feature parity,firebase,</tags>
     </item>
     
   </channel>

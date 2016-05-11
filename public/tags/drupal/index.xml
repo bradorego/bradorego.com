@@ -12,6 +12,7 @@
     <item>
       <title>Back to Static</title>
       <link>https://bradorego.com/2016-04-back-to-static</link>
+      <image>https://bradorego.com/img/default-bg3.jpg</image>
       <pubDate>Thu, 14 Apr 2016 12:26:53 -0500</pubDate>
       
       <guid>https://bradorego.com/2016-04-back-to-static</guid>
@@ -57,11 +58,13 @@
 
 &lt;p&gt;So (and I&amp;rsquo;ve said this before), theoretically keeping the site updated will be a lot easier. I somewhat feel like a cop-out for using a fairly standard template/look-and-feel, but at the end of the day, my job as a designer isn&amp;rsquo;t to make things look pretty or to be unique. My job is to provide the best experience possible for my users. In the context of a blog, that means engaging, useful content; not pretty pictures.&lt;/p&gt;
 </description>
+      <tags>meta,design,hugo,blog,drupal,content,</tags>
     </item>
     
     <item>
       <title>Design Studio Etc</title>
       <link>https://bradorego.com/case-study/design-studio-etc</link>
+      <image>https://bradorego.com/img/case-study/design-studio-etc/beforeafter.png</image>
       <pubDate>Tue, 12 Feb 2013 14:42:59 -0500</pubDate>
       
       <guid>https://bradorego.com/case-study/design-studio-etc</guid>
@@ -86,6 +89,7 @@ Mobile:
 Contact (before/after):
 &lt;img src=&#34;https://bradorego.com/img/case-study/design-studio-etc/beforeafter.png&#34; /&gt;&lt;/p&gt;
 </description>
+      <tags>drupal,jquery,css3,redesign,website,</tags>
     </item>
     
   </channel>

@@ -12,6 +12,7 @@
     <item>
       <title>Back to Static</title>
       <link>https://bradorego.com/2016-04-back-to-static</link>
+      <image>https://bradorego.com/img/default-bg3.jpg</image>
       <pubDate>Thu, 14 Apr 2016 12:26:53 -0500</pubDate>
       
       <guid>https://bradorego.com/2016-04-back-to-static</guid>
@@ -57,11 +58,13 @@
 
 &lt;p&gt;So (and I&amp;rsquo;ve said this before), theoretically keeping the site updated will be a lot easier. I somewhat feel like a cop-out for using a fairly standard template/look-and-feel, but at the end of the day, my job as a designer isn&amp;rsquo;t to make things look pretty or to be unique. My job is to provide the best experience possible for my users. In the context of a blog, that means engaging, useful content; not pretty pictures.&lt;/p&gt;
 </description>
+      <tags>meta,design,hugo,blog,drupal,content,</tags>
     </item>
     
     <item>
       <title>Content</title>
       <link>https://bradorego.com/2013-02-content</link>
+      <image>https://bradorego.com/img/posts/content/header.jpg</image>
       <pubDate>Sat, 09 Feb 2013 14:21:58 -0500</pubDate>
       
       <guid>https://bradorego.com/2013-02-content</guid>
@@ -81,6 +84,7 @@
 
 &lt;p&gt;Content is, however, one of the pieces of UX that I neglect the most. I&amp;rsquo;m always an advocate for designing with the content in mind, but I usually write it off as &amp;ldquo;some text&amp;rdquo; or &amp;ldquo;an image and some text&amp;rdquo;, or some generalization of what the content actually is. The volume of content is incredibly important, and can really make or break a design if appropriate consideration isn&amp;rsquo;t taken. There&amp;rsquo;s a lot of material out there about content strategy, so that would probably be a good place to look if you wanted to brush up on it.&lt;/p&gt;
 </description>
+      <tags>content,meta,content strategy,</tags>
     </item>
     
   </channel>

@@ -12,6 +12,7 @@
     <item>
       <title>Progressive Enhancement with Phonegap</title>
       <link>https://bradorego.com/2014-02-progressive-enhancement-with-phonegap</link>
+      <image>https://bradorego.com/img/posts/prog-enh-phonegap/header.png</image>
       <pubDate>Thu, 20 Feb 2014 16:46:54 -0500</pubDate>
       
       <guid>https://bradorego.com/2014-02-progressive-enhancement-with-phonegap</guid>
@@ -122,6 +123,7 @@ end
 
 &lt;p&gt;Feel free to shoot an email, tweet, or reach out to me any other way with questions, feedback, etc. Thanks!&lt;/p&gt;
 </description>
+      <tags>phonegap,progressive enhancement,hybrid app,rails,java,</tags>
     </item>
     
   </channel>

@@ -12,6 +12,7 @@
     <item>
       <title>Back to Static</title>
       <link>https://bradorego.com/2016-04-back-to-static</link>
+      <image>https://bradorego.com/img/default-bg3.jpg</image>
       <pubDate>Thu, 14 Apr 2016 12:26:53 -0500</pubDate>
       
       <guid>https://bradorego.com/2016-04-back-to-static</guid>
@@ -57,11 +58,13 @@
 
 &lt;p&gt;So (and I&amp;rsquo;ve said this before), theoretically keeping the site updated will be a lot easier. I somewhat feel like a cop-out for using a fairly standard template/look-and-feel, but at the end of the day, my job as a designer isn&amp;rsquo;t to make things look pretty or to be unique. My job is to provide the best experience possible for my users. In the context of a blog, that means engaging, useful content; not pretty pictures.&lt;/p&gt;
 </description>
+      <tags>meta,design,hugo,blog,drupal,content,</tags>
     </item>
     
     <item>
       <title>Transparency of &#34;Online&#34;</title>
       <link>https://bradorego.com/2014-07-transparency-of-online</link>
+      <image>https://bradorego.com/img/posts/transparency-of-online/header.png</image>
       <pubDate>Tue, 15 Jul 2014 17:37:34 -0500</pubDate>
       
       <guid>https://bradorego.com/2014-07-transparency-of-online</guid>
@@ -106,11 +109,13 @@
 
 &lt;p&gt;And of course many more.&lt;/p&gt;
 </description>
+      <tags>offline,transparency,notifications,flow,ubiquitous computing,</tags>
     </item>
     
     <item>
       <title>Progressive Enhancement with Phonegap</title>
       <link>https://bradorego.com/2014-02-progressive-enhancement-with-phonegap</link>
+      <image>https://bradorego.com/img/posts/prog-enh-phonegap/header.png</image>
       <pubDate>Thu, 20 Feb 2014 16:46:54 -0500</pubDate>
       
       <guid>https://bradorego.com/2014-02-progressive-enhancement-with-phonegap</guid>
@@ -221,11 +226,13 @@ end
 
 &lt;p&gt;Feel free to shoot an email, tweet, or reach out to me any other way with questions, feedback, etc. Thanks!&lt;/p&gt;
 </description>
+      <tags>phonegap,progressive enhancement,hybrid app,rails,java,</tags>
     </item>
     
     <item>
       <title>An Open Letter to OkCupid</title>
       <link>https://bradorego.com/2013-04-an-open-letter-to-okcupid</link>
+      <image>https://bradorego.com/img/posts/open-letter-okcupid/header.png</image>
       <pubDate>Thu, 25 Apr 2013 17:11:40 -0500</pubDate>
       
       <guid>https://bradorego.com/2013-04-an-open-letter-to-okcupid</guid>
@@ -278,11 +285,13 @@ end
 
 &lt;p&gt;I still have faith in you, OkCupid. You do great things, and you&amp;rsquo;re way better than any other site I&amp;rsquo;ve used, both in terms of user experience and user base. Just please, please fix these things, and I&amp;rsquo;ll love you even more. I&amp;rsquo;m more than happy to talk about this in further detail and clarify some points if you&amp;rsquo;d like, as this post was already getting too long to go into full detail.&lt;/p&gt;
 </description>
+      <tags>okcupid,messaging,online dating,</tags>
     </item>
     
     <item>
       <title>The Importance of Flow</title>
       <link>https://bradorego.com/2013-03-the-importance-of-flow</link>
+      <image>https://bradorego.com/img/posts/importance-of-flow/header.jpg</image>
       <pubDate>Sat, 16 Mar 2013 16:38:15 -0500</pubDate>
       
       <guid>https://bradorego.com/2013-03-the-importance-of-flow</guid>
@@ -312,11 +321,13 @@ end
 
 &lt;p&gt;It&amp;rsquo;s not a major disturbance, as I quickly regain my concentration and get back to reading, but with new/popular articles, this happens several times during my read. This little blip in concentration - a break in my flow - slows me down and sullies my experience. This happens to us all the time, what with cell phones buzzing and Facebook notifications popping up and emails rolling in constantly.&lt;/p&gt;
 </description>
+      <tags>flow,psychology,</tags>
     </item>
     
     <item>
       <title>Foursquare Heatmap &amp; Remote Sensing</title>
       <link>https://bradorego.com/2013-03-foursquare-heatmap--remote-sensing</link>
+      <image>https://bradorego.com/img/posts/foursquare-heatmap/header.png</image>
       <pubDate>Mon, 11 Mar 2013 17:21:36 -0500</pubDate>
       
       <guid>https://bradorego.com/2013-03-foursquare-heatmap--remote-sensing</guid>
@@ -352,11 +363,13 @@ end
 
 &lt;p&gt;At the very least, it&amp;rsquo;s fun to play with!&lt;/p&gt;
 </description>
+      <tags>foursquare,heatmap,remote sensing,javascript,</tags>
     </item>
     
     <item>
       <title>Note-taking</title>
       <link>https://bradorego.com/2013-02-note-taking</link>
+      <image>https://bradorego.com/img/posts/notetaking/header.jpg</image>
       <pubDate>Wed, 27 Feb 2013 16:22:57 -0500</pubDate>
       
       <guid>https://bradorego.com/2013-02-note-taking</guid>
@@ -393,11 +406,13 @@ end
 
 &lt;p&gt;Schwartz also discusses an incredible array of information and concepts that I believe everyone should be aware of, such as opportunity costs, satisficing vs. maximizing, and the role of utility (esp. diminishing utility) in our daily lives. I&amp;rsquo;d highly recommend giving it a read, as I&amp;rsquo;ve personally seen benefit in my life by putting some of his suggestions into play.&lt;/p&gt;
 </description>
+      <tags>paradox of choice,barry schwartz,psychology,opportunity cost,</tags>
     </item>
     
     <item>
       <title>Content</title>
       <link>https://bradorego.com/2013-02-content</link>
+      <image>https://bradorego.com/img/posts/content/header.jpg</image>
       <pubDate>Sat, 09 Feb 2013 14:21:58 -0500</pubDate>
       
       <guid>https://bradorego.com/2013-02-content</guid>
@@ -417,11 +432,13 @@ end
 
 &lt;p&gt;Content is, however, one of the pieces of UX that I neglect the most. I&amp;rsquo;m always an advocate for designing with the content in mind, but I usually write it off as &amp;ldquo;some text&amp;rdquo; or &amp;ldquo;an image and some text&amp;rdquo;, or some generalization of what the content actually is. The volume of content is incredibly important, and can really make or break a design if appropriate consideration isn&amp;rsquo;t taken. There&amp;rsquo;s a lot of material out there about content strategy, so that would probably be a good place to look if you wanted to brush up on it.&lt;/p&gt;
 </description>
+      <tags>content,meta,content strategy,</tags>
     </item>
     
     <item>
       <title>DITW: Stovetop</title>
       <link>https://bradorego.com/2012-12-ditw-stovetop</link>
+      <image>https://bradorego.com/img/posts/ditw-stovetop/header.png</image>
       <pubDate>Sat, 22 Dec 2012 14:21:58 -0500</pubDate>
       
       <guid>https://bradorego.com/2012-12-ditw-stovetop</guid>
@@ -453,11 +470,13 @@ end
 
 &lt;p&gt;As it turns out, this exact example of mapping was discussed by Donald Norman himself in the Design of Everyday Things. In fact, that&amp;rsquo;s where the header image comes from. So this idea is far from new. The bigger question, though, is why it hasn&amp;rsquo;t been put into practice. I can&amp;rsquo;t imagine there&amp;rsquo;s a lot of inertia preventing this change. If anything, being stuck in our own ways is holding us back from a more intuitive cooking experience.&lt;/p&gt;
 </description>
+      <tags>ditw,usability,direct mapping,physical world,design of everyday things,donald norman,</tags>
     </item>
     
     <item>
       <title>New Site!</title>
       <link>https://bradorego.com/2012-11-new-site</link>
+      <image>https://bradorego.com/img/posts/new-site/header.png</image>
       <pubDate>Fri, 23 Nov 2012 17:32:13 -0500</pubDate>
       
       <guid>https://bradorego.com/2012-11-new-site</guid>
@@ -486,6 +505,7 @@ end
 
 &lt;p&gt;Onward and upward.&lt;/p&gt;
 </description>
+      <tags>new site,meta,personal,</tags>
     </item>
     
   </channel>
