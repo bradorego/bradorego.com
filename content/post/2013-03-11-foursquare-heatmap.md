@@ -43,3 +43,9 @@ I've also noticed something else, though, since making this. Every now and then,
 There's also a practical use to this technology, which is part of the motivation behind building it - I can see where people are/aren't in my immediate vicinity. If I'm planning to go out to the bars, or out to a restaurant, and I see there are a lot of people in a certain area, maybe I'll want to avoid there (or to go there).
 
 At the very least, it's fun to play with!
+
+# Timelapse
+
+You can see a few timelapse videos of various cities/locations below:
+
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/videoseries?list=PLq3M6ODce1N6IZoXoisCw5WHjEQs7SAWl" frameborder="0" allowfullscreen></iframe>

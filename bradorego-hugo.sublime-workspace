@@ -71,20 +71,46 @@
 			"file": "config.json",
 			"settings":
 			{
-				"buffer_size": 1315,
+				"buffer_size": 1355,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "content/post/case-study/nextt.md",
+			"file": "themes/startbootstrap-clean-blog/layouts/rss.xml",
 			"settings":
 			{
-				"buffer_size": 1750,
+				"buffer_size": 1474,
+				"line_ending": "Unix",
+				"name": "rss.xml"
+			}
+		},
+		{
+			"file": "themes/startbootstrap-clean-blog/layouts/partials/tags.html",
+			"settings":
+			{
+				"buffer_size": 89,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "layouts/post/summary.html",
+			"file": "archetypes/case-study.md",
+			"settings":
+			{
+				"buffer_size": 200,
+				"line_ending": "Unix",
+				"name": "case-study.md"
+			}
+		},
+		{
+			"file": "layouts/index.html",
+			"settings":
+			{
+				"buffer_size": 557,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "layouts/case-study/summary.html",
 			"settings":
 			{
 				"buffer_size": 292,
@@ -92,26 +118,10 @@
 			}
 		},
 		{
-			"file": "layouts/post/archive.html",
+			"file": "layouts/case-study/archive.html",
 			"settings":
 			{
 				"buffer_size": 23,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "static/less/clean-blog.less",
-			"settings":
-			{
-				"buffer_size": 7126,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "gulpfile.js",
-			"settings":
-			{
-				"buffer_size": 2348,
 				"line_ending": "Unix"
 			}
 		}
@@ -163,17 +173,30 @@
 		"/Users/mi-bradorego/Development/bradorego",
 		"/Users/mi-bradorego/Development/bradorego/archetypes",
 		"/Users/mi-bradorego/Development/bradorego/content",
-		"/Users/mi-bradorego/Development/bradorego/content/post",
-		"/Users/mi-bradorego/Development/bradorego/content/post/case-study",
 		"/Users/mi-bradorego/Development/bradorego/layouts",
-		"/Users/mi-bradorego/Development/bradorego/layouts/_default",
 		"/Users/mi-bradorego/Development/bradorego/layouts/partials",
 		"/Users/mi-bradorego/Development/bradorego/layouts/post",
-		"/Users/mi-bradorego/Development/bradorego/static",
-		"/Users/mi-bradorego/Development/bradorego/static/less"
+		"/Users/mi-bradorego/Development/bradorego/themes",
+		"/Users/mi-bradorego/Development/bradorego/themes/startbootstrap-clean-blog",
+		"/Users/mi-bradorego/Development/bradorego/themes/startbootstrap-clean-blog/layouts",
+		"/Users/mi-bradorego/Development/bradorego/themes/startbootstrap-clean-blog/layouts/partials"
 	],
 	"file_history":
 	[
+		"/Users/mi-bradorego/Development/bradorego/README.md",
+		"/Users/mi-bradorego/Development/bradorego/static/less/clean-blog.less",
+		"/Users/mi-bradorego/Development/bradorego/layouts/post/summary.html",
+		"/Users/mi-bradorego/Development/bradorego/layouts/_default/list.html",
+		"/Users/mi-bradorego/Development/bradorego/public/index.xml",
+		"/Users/mi-bradorego/Development/bradorego/content/case-study/better-mcbw.md",
+		"/Users/mi-bradorego/Development/bradorego/content/case-study/ionic.md",
+		"/Users/mi-bradorego/Development/bradorego/layouts/case-study/list.html",
+		"/Users/mi-bradorego/Development/bradorego/layouts/post/archive.html",
+		"/Users/mi-bradorego/Development/bradorego/content/post/case-study/mobileigniter.md",
+		"/Users/mi-bradorego/Development/bradorego/content/post/case-study/ionic.md",
+		"/Users/mi-bradorego/Development/bradorego/content/post/case-study/better-mcbw.md",
+		"/Users/mi-bradorego/Development/bradorego/content/post/case-study/trinker.md",
+		"/Users/mi-bradorego/Development/bradorego/content/post/case-study/nextt.md",
 		"/Users/mi-bradorego/Development/bradorego/layouts/partials/header.html",
 		"/Users/mi-bradorego/Development/bradorego/layouts/partials/sidebar.html",
 		"/Users/mi-bradorego/Development/bradorego/content/post/case-study/clean-clear-waters.md",
@@ -182,10 +205,8 @@
 		"/Users/mi-bradorego/Development/bradorego/content/post/2014-02-20-progressive-enhancement-phonegap.md",
 		"/Users/mi-bradorego/Development/bradorego/content/post/2014-07-15-transparency-of-offline.md",
 		"/Users/mi-bradorego/Development/bradorego/content/post/2016-04-12-back-to-static.md",
-		"/Users/mi-bradorego/Development/bradorego/content/post/case-study/mobileigniter.md",
 		"/Users/mi-bradorego/Development/bradorego/content/post/case-study/patently-clear.md",
 		"/Users/mi-bradorego/Development/bradorego/content/post/case-study/zebradog.md",
-		"/Users/mi-bradorego/Development/bradorego/content/post/case-study/trinker.md",
 		"/Users/mi-bradorego/Development/bradorego/content/post/case-study/inspiredance.md",
 		"/Users/mi-bradorego/Development/bradorego/content/post/case-study/design-studio-etc.md",
 		"/Users/mi-bradorego/Development/bradorego/content/post/case-study/biodance.md",
@@ -194,7 +215,6 @@
 		"/Users/mi-bradorego/Development/bradorego/content/post/2012-12-22-content.md",
 		"/Users/mi-bradorego/Development/bradorego/content/post/2012-11-23-new-site.md",
 		"/Users/mi-bradorego/Development/bradorego/layouts/404.html",
-		"/Users/mi-bradorego/Development/bradorego/layouts/post/summary.html",
 		"/Users/mi-bradorego/Development/bradorego/content/post/2013-03-16-importance-of-flow.md",
 		"/Users/mi-bradorego/Development/bradorego/content/about.md",
 		"/Users/mi-bradorego/Development/bradorego/content/post/2016-04-12-to-static.md",
@@ -290,18 +310,7 @@
 		"/Users/mi-bradorego/Development/beerbatterbreakfast/search_data.json",
 		"/Users/mi-bradorego/Development/beerbatterbreakfast/public/css/lanyon.scss",
 		"/Users/mi-bradorego/Development/beerbatterbreakfast/_posts/2013-04-04-safrits-winter-warmer.html",
-		"/Users/mi-bradorego/Development/beerbatterbreakfast/_posts/2013-02-12-802.html",
-		"/Users/mi-bradorego/Development/beerbatterbreakfast/_posts/2013-01-30-komodo-dragonfly.html",
-		"/Users/mi-bradorego/Development/beerbatterbreakfast/_posts/2013-01-24-new-kid-on-block.html",
-		"/Users/mi-bradorego/Development/beerbatterbreakfast/_posts/2013-01-22-remains-of-day.html",
-		"/Users/mi-bradorego/Development/beerbatterbreakfast/_posts/2013-01-18-frambozen.html",
-		"/Users/mi-bradorego/Development/beerbatterbreakfast/_posts/2013-01-02-from-buffalo-with-love.html",
-		"/Users/mi-bradorego/Development/beerbatterbreakfast/_posts/2012-09-01-booyah.html",
-		"/Users/mi-bradorego/Development/beerbatterbreakfast/_posts/2012-08-25-spotted-cowpies.html",
-		"/Users/mi-bradorego/Development/beerbatterbreakfast/_posts/2012-08-19-summer-shandycakes.html",
-		"/Users/mi-bradorego/Development/beerbatterbreakfast/_posts/2012-07-27-bluebeery-pancakes.html",
-		"/Users/mi-bradorego/Development/beerbatterbreakfast/_posts/2012-07-11-yet-another-food-blog.html",
-		"/Users/mi-bradorego/Development/beerbatterbreakfast/_posts/2014-11-9-whole-hog-2014.md"
+		"/Users/mi-bradorego/Development/beerbatterbreakfast/_posts/2013-02-12-802.html"
 	],
 	"find":
 	{
@@ -462,7 +471,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -471,15 +480,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1315,
+						"buffer_size": 1355,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								271,
-								271
+								477,
+								478
 							]
 						],
 						"settings":
@@ -492,54 +501,55 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "content/post/case-study/nextt.md",
+					"file": "themes/startbootstrap-clean-blog/layouts/rss.xml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1750,
+						"buffer_size": 1474,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1583,
-								1583
+								456,
+								456
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
-							"tab_size": 3,
+							"auto_name": "rss.xml",
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "layouts/post/summary.html",
-					"semi_transient": false,
+					"file": "themes/startbootstrap-clean-blog/layouts/partials/tags.html",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 292,
+						"buffer_size": 89,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								110,
-								110
+								8,
+								26
 							]
 						],
 						"settings":
@@ -550,12 +560,99 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "layouts/post/archive.html",
+					"file": "archetypes/case-study.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 200,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17,
+								17
+							]
+						],
+						"settings":
+						{
+							"auto_name": "case-study.md",
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "layouts/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 557,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								243,
+								243
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "layouts/case-study/summary.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 292,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								111,
+								111
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "layouts/case-study/archive.html",
 					"semi_transient": false,
 					"settings":
 					{
@@ -578,66 +675,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "static/less/clean-blog.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7126,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4830,
-								4830
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 4925.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "gulpfile.js",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 2348,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								2348
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 633.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -993,12 +1031,16 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "ref",
 		"selected_items":
 		[
 			[
+				"ref",
+				"~/Development/refit-trainer/refit.sublime-project"
+			],
+			[
 				"",
-				"~/Development/big5dating/big5dating.sublime-project"
+				"~/Development/betterbeerweek/betterbeerweek.sublime-project"
 			],
 			[
 				"ther",
