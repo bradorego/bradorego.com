@@ -27,3 +27,4 @@ _testmain.go
 /themes
 .DS_Store
 
+*.sublime*
