@@ -5,7 +5,7 @@
    "date": "2016-05-02T18:29:53-05:00",
    "description": "How I reverse engineered a beer app and reached feature parity in ~8 hours with Ionic.",
    "draft": false,
-   "image": "/img/case-study/better-mcbw/header.png",
+   "image": "/img/case-study/better-mcbw/header.jpg",
    "publishdate": "2016-05-02T18:29:53-05:00",
    "tags": [
       "ionic",
