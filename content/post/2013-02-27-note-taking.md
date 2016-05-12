@@ -1,7 +1,5 @@
 {
-   "categories": [
-      "UX"
-   ],
+   "categories": ["User Experience"],
    "date": "2013-02-27T16:22:57-05:00",
    "description": "A little lesson from Barry Schwartz's \"The Paradox of Choice\" shows itself in the interesting habit I have when it comes to reading books. Naturally, this triggers some thoughts and ideas about exactly what UX is/means.",
    "draft": false,

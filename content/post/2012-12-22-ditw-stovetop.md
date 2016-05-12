@@ -1,5 +1,5 @@
 {
-  "categories": ["UX"],
+  "categories": ["User Experience"],
   "date": "2012-12-22T14:21:58-05:00",
   "description": "By examining the design of physical objects, we can learn a lot about UI design and UX in the virtual world. In this edition of DITW, we take a look at the traditional stovetop and talk about direct vs. indirect mapping.",
   "draft": false,
