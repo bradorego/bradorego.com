@@ -6,7 +6,7 @@
     <div class="container">
       <div class="row">
         {{partial "bootstrap-div.html" . }}
-          {{ range .Paginator.Pages }}
+          {{ range .Site.Pages }}
               {{ .Render "archive" }}
           {{ end }}
           {{ template "_internal/pagination.html" . }}

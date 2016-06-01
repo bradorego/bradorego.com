@@ -1,3 +1,4 @@
+               {{ if .IsPage}} {{if not .Date.IsZero}}
                <div class="post-preview">
                   <p class="post-meta"><a href="{{ .Permalink }}">{{ .Title }}</a> on {{ dateFormat .Site.Params.DateForm .Date }}
                     <br />
@@ -5,3 +6,4 @@
                     {{ partial "tags.html" .}}
                   </p>
                </div>
+{{end}}{{end}}
