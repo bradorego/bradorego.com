@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Execution on bradorego.com</title>
+    <link>https://bradorego.com/tags/execution/</link>
+    <description>Recent content in Execution on bradorego.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 May 2016 10:04:17 -0500</lastBuildDate>
+    <atom:link href="https://bradorego.com/tags/execution/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Product vs Project Management</title>
+      <link>https://bradorego.com/2016-05-product-vs-project-management</link>
+      <image>https://bradorego.com/img/default-bg2.jpg</image>
+      <pubDate>Wed, 11 May 2016 10:04:17 -0500</pubDate>
+      
+      <guid>https://bradorego.com/2016-05-product-vs-project-management</guid>
+      <description>
+
+&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
+  &lt;h4&gt;TL;DNR&lt;/h4&gt;
+  &lt;ul&gt;
+    &lt;li&gt;There&amp;rsquo;s still a fair amount of confusion between product managmenet and project managament. Lots of people do the latter well, but the former is often forgotten/forgone.&lt;/li&gt;
+    &lt;li&gt;Project Management is focused on execution - securing and organizing resources, planning out tasks, and keeping things on track. Velocity. How. When.&lt;/li&gt;
+    &lt;li&gt;Product Management is more about vision - understanding what your users are trying to achieve, having a sense of the big picture, and making sure what&amp;rsquo;s being created fits expectations and needs. Trajectory. What. Why.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;hr/&gt;&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m &lt;a href=&#34;https://www.brainmates.com.au/brainrants/project-manager-vs-product-manager&#34;&gt;hardly&lt;/a&gt; the &lt;a href=&#34;https://koombea.com/blog/the-difference-between-product-and-project-management/&#34;&gt;first&lt;/a&gt; &lt;a href=&#34;http://radar.oreilly.com/2014/02/building-the-right-thing-vs-building-the-thing-right.html&#34;&gt;person&lt;/a&gt; to write about this (though &lt;a href=&#34;http://www.fastcodesign.com/3055429/how-to-avoid-making-products-no-one-wants&#34;&gt;this article&lt;/a&gt; is particularly relevant/pointed), but it&amp;rsquo;s been coming up a lot for me lately as I think about what I want to do next, work-wise.&lt;/p&gt;
+
+&lt;p&gt;One of the things that I&amp;rsquo;ve seen come up time and time again is the need for a Product Manager. It seems that most companies have a great sense of how to execute, and they&amp;rsquo;re great at the work that they do, but figuring out what they should be doing can be a struggle. This shows up for consulting firms in the form of rework and for product firms in the form of failed product launches. I will always cringe when I think about how much time and money is wasted creating &lt;a href=&#34;https://www.buzzfeed.com/kirstenking/products-literally-no-one-asked-for?utm_term=.glwJ8aEdE#.cf5ekOv5v&#34;&gt;things people don&amp;rsquo;t want&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;So let&amp;rsquo;s talk about some of these differences.&lt;/p&gt;
+
+&lt;h1 id=&#34;project-management:2bc9b53639a6b650caacc5bab7e9a353&#34;&gt;Project Management&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;Project&lt;/em&gt; - a (often temporary) endeavour undertaken in order to complete a task, achieve a goal, or create a product or service. Casually, a project is just a thing a person or group does to accomplish something.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Project Manager&lt;/em&gt; - the individual responsible for coordinating resources, tasks, and schedule in order to ensure the project is successful. This often includes things like getting stakeholder buy in, securing a budget and/or time, assembling the right team of individuals, picking a methodology (whether agile, waterfall, or anything else), creating a backlog, planning tasks, etc.&lt;/p&gt;
+
+&lt;p&gt;Successful Project Managers are good at getting the right people involved and following up with them to make sure they have everything they need to fulfill their role.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Common Questions&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Who do you need for this project?&lt;/li&gt;
+&lt;li&gt;When will the project be delivered?&lt;/li&gt;
+&lt;li&gt;What is the current project velocity?&lt;/li&gt;
+&lt;li&gt;What can we get in scope given the budget and/or timeline restrictions?&lt;/li&gt;
+&lt;li&gt;In what order will features be implemented?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;product-management:2bc9b53639a6b650caacc5bab7e9a353&#34;&gt;Product Management&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;Product&lt;/em&gt; - a good, service, or tool built in order to solve a problem for a user (or, ideally, users). Casually, a product is something people use.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Product Manager&lt;/em&gt; - the individual responsible for figuring out what the thing is supposed to do and how it&amp;rsquo;s supposed to do that. This may include determining feasibility from a business/financial standpoint, conducting any market and/or user research required to gain insights into who the end user is and what their needs are, defining a set of features to satisfy user needs, creating low-fidelity prototypes in order to communicate feature sets and behaviors, etc.&lt;/p&gt;
+
+&lt;p&gt;Successful Product Managers are good at knowing what role their product serves and for whom, and ideally can align business goals with the needs of the end user.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Common Questions&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Who is the target user? The &lt;a href=&#34;https://www.google.com/search?q=ux+personas&#34;&gt;more specific, the better&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Who is the customer? (this is sometimes different than the user)&lt;/li&gt;
+&lt;li&gt;What are their needs? Wants? Fears?&lt;/li&gt;
+&lt;li&gt;How does this product solve user needs?&lt;/li&gt;
+&lt;li&gt;What is the benefit to the end user, especially compared to their current solution?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;separate-but-equal:2bc9b53639a6b650caacc5bab7e9a353&#34;&gt;Separate, but equal?&lt;/h1&gt;
+
+&lt;p&gt;Now that we&amp;rsquo;ve defined some of the differences between the two PMs, we can better understand the role each fills, what their concerns are, and why they&amp;rsquo;re important to success.&lt;/p&gt;
+
+&lt;p&gt;Product Managers are going to be talking to a lot of different stakeholders early on in the lifecycle and making sure it makes sense to move forward with a project. Product Managers are going to be doing a lot of the discovery phase of a project, and then stay involved throughout the implementation to make sure what&amp;rsquo;s being built matches the idea (as well as, ideally, running users through interim usability studies to catch any issues that were hard to predict before having an artifat to interact with).&lt;/p&gt;
+
+&lt;p&gt;Project Managers are going to be more involved in the day-to-day of a buildout, having little interaction with the product before that step of the process (sure, it&amp;rsquo;s possible to have a PJM involved through the process in order to have background knowledge but also keep track of resources through the entire lifecycle, but in my experience that&amp;rsquo;s the abnormal case). Project Managers will be focusing on managing expectations of the stakeholders, interfacing with the Product Manager, and securing whatever resources are needed. The Project Manager is also going to be working with the implementation team, making sure they&amp;rsquo;re on task and working well interpersonally.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&#34;
+http://allaboutproductmanagement.blogspot.com/2007/03/project-manager-or-product-manager.html&#34;&gt;classic analogy&lt;/a&gt; is the project manager as a midwife, whereas the product manager is the mother. Project will come in to deliver the baby, but all of the preparation before and all of the care afterwards is up to Product. I like to think of it more like an architect versus a foreman.&lt;/p&gt;
+
+&lt;p&gt;All of the planning, research, and vision is the architect&amp;rsquo;s responsibility, and once the building is dont, they&amp;rsquo;re the ones who everyone will look to when the building is successful or not (obviously there&amp;rsquo;s some back and forth with engineering as well in terms of feasibility&amp;hellip;another parallel in software). The foreman is responsible for making sure his team can execute and do what&amp;rsquo;s been planned out, but they&amp;rsquo;re often the unsung heroes of a successful project.&lt;/p&gt;
+
+&lt;h1 id=&#34;a-brief-plug:2bc9b53639a6b650caacc5bab7e9a353&#34;&gt;A brief plug&lt;/h1&gt;
+
+&lt;p&gt;Did you find yourself reading this post and thinking &amp;ldquo;we&amp;rsquo;ve got the project part down, but shoot, having a product person would be great&amp;rdquo;? Part of the reason this has come up a lot for me is I&amp;rsquo;m looking into a product-manager-as-a-service model. You should &lt;a href=&#34;mailto:bradley.orego@gmail.com&#34;&gt;contact me&lt;/a&gt; if you&amp;rsquo;d like to hear more.&lt;/p&gt;
+</description>
+      <tags>user-centered,product management,management,vision,execution,</tags>
+    </item>
+    
+  </channel>
+</rss>
