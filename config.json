@@ -10,7 +10,7 @@
   "paginate": 1000,
   "paginatePath": "page",
   "permalinks": {
-    "post": "/:year-:month-:title",
+    "post": "/:title",
     "case-study": "/case-study/:title"
   },
   "author": "Brad Orego",

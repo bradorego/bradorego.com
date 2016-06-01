@@ -1,4 +1,7 @@
 {
+   "aliases": [
+    "/2013-04-an-open-letter-to-okcupid"
+   ],
    "categories": ["User Experience"],
    "date": "2013-04-25T17:11:40-05:00",
    "description": "I've been a fairly consistent OkCupid user for a few months now, and after all the hullabaloo that was \"Nice Guys of OkCupid\" has settled down, there are some fundamental flaws in the OkCupid ecosystem that are enabling a terrible experience for many users. Here I address the problem, the consequences, and offer some suggestions.",

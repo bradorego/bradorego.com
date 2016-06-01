@@ -1,4 +1,7 @@
 {
+   "aliases": [
+    "/2014-07-transparency-of-online"
+   ],
    "categories": ["User Experience"],
    "date": "2014-07-15T17:37:34-05:00",
    "description": "When's the last time you told someone \"brb\" or \"afk\"? The ubiquity of connectivity has a fundamental impact on the way we interact with technology and with each other. The state of being \"online\" or not is slowly fading away.",

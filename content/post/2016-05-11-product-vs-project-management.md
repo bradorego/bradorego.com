@@ -1,9 +1,6 @@
 {
    "aliases": [
-      "/product-vs-project-management"
-   ],
-   "permalinks": [
-    "/product-vs-project-management"
+    "/2016-05-product-vs-project-management"
    ],
    "categories": [
       "User Experience"
