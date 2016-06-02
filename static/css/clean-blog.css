@@ -4,6 +4,14 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 /* Toggle Styles */
+.intro-header .credit {
+  color: white;
+  position: absolute;
+  right: 10px;
+  bottom: 0px;
+  font-size: 12px;
+  opacity: 0.5;
+}
 .ion-32 {
   font-size: 32px;
 }
