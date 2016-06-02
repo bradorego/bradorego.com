@@ -11,7 +11,7 @@
    "image": "/img/default-bg2.jpg",
    "publishdate": "2016-05-11T14:47:36-05:00",
    "tags": [
-      "user-centered",
+      "user-centered design",
       "product management",
       "management",
       "vision",

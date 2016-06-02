@@ -16,4 +16,4 @@ If you're <a href="http://www.sean-johnson.com/why-you-should-burn-your-resume/"
 
 <hr/>
 
-<small>Most photography on bradorego.com courtesy of <a href="http://www.shawnharper.net/">Shawn Harper</a>.</small>
+<small>Dance photography on bradorego.com courtesy of <a href="http://www.shawnharper.net/">Shawn Harper</a>, <a href="http://matznerphotography.com/">Matzner Photography</a>, and <a href="http://kanopydance.org">Kanopy Dance</a>.</small>

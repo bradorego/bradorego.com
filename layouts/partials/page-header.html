@@ -9,7 +9,7 @@
            {{if .Description}}
              <hr class="small" />
              <h3 class="subheading">{{ .Description }}</h3>
-             {{ if .IsPage}} {{if not .Date.IsZero}}<h6>{{ .ReadingTime }} minute read</h6>{{end}}{{end}}
+             {{ if eq .Type "post"}}<h6>{{ .ReadingTime }} minute read</h6>{{end}}
             {{ end }}
          </div>
        </div>

@@ -6,7 +6,7 @@
    "date": "2016-04-14T12:26:53-05:00",
    "description": "When an update/redesign turns into a full-scale migration that takes us a lot closer to our roots than expected.",
    "draft": false,
-   "image": "/img/default-bg3.jpg",
+   "image": "/img/posts/back-to-static/header.jpg",
    "publishdate": "2016-04-12T14:47:36-05:00",
    "tags": ["meta", "design", "hugo", "blog", "drupal", "content"],
    "title": "Back to Static"
