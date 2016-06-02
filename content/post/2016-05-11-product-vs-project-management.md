@@ -23,7 +23,7 @@
 <div class="tldnr">
   <h4>TL;DNR</h4>
   <ul>
-    <li>There's still a fair amount of confusion between product managmenet and project managament. Lots of people do the latter well, but the former is often forgotten/forgone.</li>
+    <li>There's still a fair amount of confusion between product management and project management. Lots of people do the latter well, but the former is often forgotten/forgone.</li>
     <li>Project Management is focused on execution - securing and organizing resources, planning out tasks, and keeping things on track. Velocity. How. When.</li>
     <li>Product Management is more about vision - understanding what your users are trying to achieve, having a sense of the big picture, and making sure what's being created fits expectations and needs. Trajectory. What. Why.</li>
   </ul>
@@ -38,7 +38,7 @@ So let's talk about some of these differences.
 
 # Project Management
 
-*Project* - a (often temporary) endeavour undertaken in order to complete a task, achieve a goal, or create a product or service. Casually, a project is just a thing a person or group does to accomplish something.
+*Project* - a (often temporary) endeavor undertaken in order to complete a task, achieve a goal, or create a product or service. Casually, a project is just a thing a person or group does to accomplish something.
 
 *Project Manager* - the individual responsible for coordinating resources, tasks, and schedule in order to ensure the project is successful. This often includes things like getting stakeholder buy in, securing a budget and/or time, assembling the right team of individuals, picking a methodology (whether agile, waterfall, or anything else), creating a backlog, planning tasks, etc.
 
