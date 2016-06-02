@@ -94,6 +94,9 @@
 .sidebar-nav > .sidebar-brand a:hover {
   background: none;
 }
+blockquote footer {
+  padding: 0;
+}
 hr {
   border-top: 2px solid #ccc;
 }

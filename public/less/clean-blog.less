@@ -2,7 +2,14 @@
 @import "mixins.less";
 @import "simple-sidebar.less";
 
+
 // Global Components
+
+blockquote {
+	footer {
+		padding: 0;
+	}
+}
 
 hr {
 	border-top: 2px solid #ccc;
@@ -118,112 +125,28 @@ hr.dark {
 	border-color: @gray-dark;
 }
 
-// Navigation
-
-.navbar-custom {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	z-index: 3;
-	.sans-serif;
-	.navbar-brand {
-		font-weight: 800;
-	}
-	.nav {
-		li {
-			a {
-				text-transform: uppercase;
-				font-size: 12px;
-				font-weight: 800;
-				letter-spacing: 1px;
-			}
-		}
-	}
-	@media only screen and (min-width: 768px) {
-		background: transparent;
-		border-bottom: 1px solid transparent;
-		.navbar-brand {
-			color: white;
-			padding: 20px;
-			&:hover,
-			&:focus {
-				color: @white-faded;
-			}
-		}
-		.nav {
-			li {
-				a {
-					color: white;
-					padding: 20px;
-					&:hover,
-					&:focus {
-						color: @white-faded;
-					}
-				}
-			}
-		}
-	}
-	@media only screen and (min-width: 1170px) {
-		-webkit-transition: background-color 0.3s;
-		-moz-transition: background-color 0.3s;
-		transition: background-color 0.3s;
-		/* Force Hardware Acceleration in WebKit */
-		-webkit-transform: translate3d(0, 0, 0);
-		-moz-transform: translate3d(0, 0, 0);
-		-ms-transform: translate3d(0, 0, 0);
-		-o-transform: translate3d(0, 0, 0);
-		transform: translate3d(0, 0, 0);
-		-webkit-backface-visibility: hidden;
-		backface-visibility: hidden;
-		&.is-fixed {
-			/* when the user scrolls down, we hide the header right above the viewport */
-			position: fixed;
-			top: -61px;
-			background-color: fade(white, 90%);
-			border-bottom: 1px solid darken(white, 5%);
-			-webkit-transition: -webkit-transform 0.3s;
-			-moz-transition: -moz-transform 0.3s;
-			transition: transform 0.3s;
-			.navbar-brand {
-				color: @gray-dark;
-				&:hover,
-				&:focus {
-					color: @brand-primary;
-				}
-			}
-			.nav {
-				li {
-					a {
-						color: @gray-dark;
-						&:hover,
-						&:focus {
-							color: @brand-primary;
-						}
-					}
-				}
-			}
-		}
-		&.is-visible {
-			/* if the user changes the scrolling direction, we show the header */
-			-webkit-transform: translate3d(0, 100%, 0);
-			-moz-transform: translate3d(0, 100%, 0);
-			-ms-transform: translate3d(0, 100%, 0);
-			-o-transform: translate3d(0, 100%, 0);
-			transform: translate3d(0, 100%, 0);
-		}
-	}
-}
-
 // Header
 
 .intro-header {
 	position: relative;
+	.credit {
+    color: white;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    margin-right: 20px;
+    font-size: 12px;
+    opacity: 0.5;
+    .header-text-shadow;
+    @media (min-width: 1200px) {
+    	right: @menu-size;
+    }
+  }
 	.bg-image {
 		position: absolute;
 		width: 100%;
 		height: 100%;
-		background: no-repeat center center; 
+		background: no-repeat center center;
 		background-attachment: scroll;
 		.background-cover;
 		.blur(5px);
@@ -234,7 +157,7 @@ hr.dark {
 	.page-heading {
 		padding: 60px 0 80px;
 		color: white;
-		text-shadow: 0px 0px 3px black, 0px 0px 8px black;
+		.header-text-shadow;
 		h1 {
 			margin: 0;
 		}
@@ -352,23 +275,6 @@ hr.dark {
 
 // Sections
 
-.section-heading {
-	font-size: 36px;
-	margin-top: 60px;
-	font-weight: 700;
-}
-
-.caption {
-	text-align: center;
-	font-size: 14px;
-	padding: 10px;
-	font-style: italic;
-	margin: 0;
-	display: block;
-	border-bottom-right-radius: 5px;
-	border-bottom-left-radius: 5px;
-}
-
 footer {
 	padding: 50px 0 65px;
 	.list-inline {
@@ -381,38 +287,10 @@ footer {
 		margin-bottom: 0;
 	}
 }
-// Button Styles
-
-.btn {
-	.sans-serif;
-	text-transform: uppercase;
-	font-size: 14px;
-	font-weight: 800;
-	letter-spacing: 1px;
-	border-radius: 0;
-	padding: 15px 25px;
-}
-
-.btn-lg {
-	font-size: 16px;
-	padding: 25px 35px;
-}
-
-.btn-default {
-	&:hover,
-	&:focus {
-		background-color: @brand-primary;
-		border: 1px solid @brand-primary;
-		color: white;
-	}
-}
 
 // Pager Styling
-
 .pager {
-
 	margin: 20px 0 0;
-
 	li {
 		> a,
 		> span {
@@ -431,17 +309,6 @@ footer {
 			color: white;
 			background-color: @brand-primary;
 			border: 1px solid @brand-primary;
-		}
-	}
-
-	.disabled {
-		> a,
-		> a:hover,
-		> a:focus,
-		> span {
-			color: @gray;
-			background-color: @gray-dark;
-			cursor: not-allowed;
 		}
 	}
 }
