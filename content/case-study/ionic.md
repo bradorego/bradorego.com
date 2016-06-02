@@ -6,6 +6,7 @@
    "description": "A collection of one-off apps built on Ionic and Firebase",
    "draft": false,
    "image": "/img/case-study/ionic/header.png",
+   "photoCredit": "http://ionicframework.com/",
    "publishdate": "2016-05-03T12:47:36-05:00",
    "tags": [
       "ionic",

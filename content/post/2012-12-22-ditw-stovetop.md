@@ -7,6 +7,7 @@
   "description": "By examining the design of physical objects, we can learn a lot about UI design and UX in the virtual world. In this edition of DITW, we take a look at the traditional stovetop and talk about direct vs. indirect mapping.",
   "draft": false,
   "image": "/img/posts/ditw-stovetop/header.png",
+  "photoCredit": "http://coursethreads.berkeley.edu/media/image/ambiguous-vs-intuitive-stove-design-design-everyday-things-don-norman",
   "publishdate": "2012-12-22T14:47:36-05:00",
   "tags": [
     "DITW",

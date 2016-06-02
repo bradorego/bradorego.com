@@ -7,6 +7,7 @@
    "description": "Using a few tricks, it's possible to utilize almost the exact same body of code for your mobile web app as it is your iOS/Android app. Phonegap has matured a lot recently, and it's finally ready to be put to use in interesting and powerful ways.",
    "draft": false,
    "image": "/img/posts/prog-enh-phonegap/header.png",
+   "photoCredit": "http://phonegap.com/about/logos/",
    "publishdate": "2014-02-20T14:47:36-05:00",
    "tags": ["phonegap", "progressive enhancement", "hybrid app", "rails", "java"],
    "title": "Progressive Enhancement with Phonegap"
