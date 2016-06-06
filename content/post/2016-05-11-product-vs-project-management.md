@@ -81,6 +81,8 @@ http://allaboutproductmanagement.blogspot.com/2007/03/project-manager-or-product
 
 All of the planning, research, and vision is the architect's responsibility, and once the building is dont, they're the ones who everyone will look to when the building is successful or not (obviously there's some back and forth with engineering as well in terms of feasibility...another parallel in software). The foreman is responsible for making sure his team can execute and do what's been planned out, but they're often the unsung heroes of a successful project.
 
-# A brief plug
+<hr/>
+
+### A brief plug
 
 Did you find yourself reading this post and thinking "we've got the project part down, but shoot, having a product person would be great"? Part of the reason this has come up a lot for me is I'm looking into a product-manager-as-a-service model. You should <a href="mailto:bradley.orego@gmail.com">contact me</a> if you'd like to hear more.
