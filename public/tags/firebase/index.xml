@@ -24,7 +24,7 @@
 
 &lt;p&gt;In particular, here&amp;rsquo;s a short list of Ionic apps I&amp;rsquo;ve built for my own purposes.&lt;/p&gt;
 
-&lt;h1 id=&#34;newsflash-news-app:11c87cc1844e7dee51d304acbe274760&#34;&gt;NewsFlash News App&lt;/h1&gt;
+&lt;h1 id=&#34;newsflash-news-app-a-name-newsflash-href-newsflash-i-class-ion-link-i-a:11c87cc1844e7dee51d304acbe274760&#34;&gt;NewsFlash News App &lt;a name=&#34;newsflash&#34; href=&#34;#newsflash&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;NewsFlash was built using what was, at the time, a brand new feature in Ionic: swipable cards. I&amp;rsquo;d done some work to take a demo the core team put together and enabled bi-directional swiping, and then added a little more code to allow a developer to know which direction a user swiped (the core team only offered a callback for when it was swiped) (also worth noting that both of these features are now part of the core offering).&lt;/p&gt;
 
@@ -32,7 +32,7 @@
 
 &lt;iframe width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/74PqgIf3uUk&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;h1 id=&#34;trackme-personal-tracker:11c87cc1844e7dee51d304acbe274760&#34;&gt;TrackMe Personal Tracker&lt;/h1&gt;
+&lt;h1 id=&#34;trackme-personal-tracker-a-name-trackme-href-trackme-i-class-ion-link-i-a:11c87cc1844e7dee51d304acbe274760&#34;&gt;TrackMe Personal Tracker &lt;a name=&#34;trackme&#34; href=&#34;#trackme&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;TrackMe came out of a frustration with other tracking apps as well as inspiration from Nick Felton, who&amp;rsquo;s been tracking his life in various ways and producing infographics &lt;a href=&#39;http://feltron.com/FAR05.html&#39;&gt;as far back as 2005&lt;/a&gt;. The thought is: if we have an easy way to track anything, and we store this data, we can use something like &lt;a href=&#34;https://d3js.org/&#34;&gt;D3.js&lt;/a&gt; to generate interactive infographics.&lt;/p&gt;
 
@@ -40,7 +40,7 @@
 
 &lt;iframe width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/7NZMM5rN_pA&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;h1 id=&#34;better-mcbw:11c87cc1844e7dee51d304acbe274760&#34;&gt;Better MCBW&lt;/h1&gt;
+&lt;h1 id=&#34;better-mcbw-a-name-mcbw-href-mcbw-i-class-ion-link-i-a:11c87cc1844e7dee51d304acbe274760&#34;&gt;Better MCBW &lt;a name=&#34;mcbw&#34; href=&#34;#mcbw&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;Better MCBW has its own entire post explaining the motivation and process. You can read more about it &lt;a href=&#34;https://bradorego.com/2016-05-better-mcbw/&#34;&gt;here&lt;/a&gt;. Better MCBW has seen a decent amount of traction among Madison Craft Beer Week participants despite the entire motivation being my own.&lt;/p&gt;
 
@@ -69,13 +69,13 @@
 &lt;/div&gt;
 &lt;hr/&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;backstory:608891990651e25035713577174171c1&#34;&gt;Backstory&lt;/h1&gt;
+&lt;h1 id=&#34;backstory-a-name-backstory-href-backstory-i-class-ion-link-i-a:608891990651e25035713577174171c1&#34;&gt;Backstory &lt;a name=&#34;backstory&#34; href=&#34;#backstory&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://madbeerweek.com&#34;&gt;Madison Craft Beer Week&lt;/a&gt; has been one of my favorite events since moving to Madison. Started as a grassroots project by a few local beer lovers, the event has ballooned to one of the best in the nation, featuring over 550 events this year. In years past, I&amp;rsquo;ve been involved in helping out on the tech side of things, and we had big plans for this upcoming year. But in September 2015, The Isthmus &lt;a href=&#34;http://isthmus.com/food-drink/beer/isthmus-acquires-madison-craft-beer-week/&#34;&gt;acquired Craft Beer Week&lt;/a&gt;, and took over all operations.&lt;/p&gt;
 
 &lt;p&gt;After hearing that the 2016 was &lt;a href=&#34;https://www.facebook.com/MadBeerWeek/posts/1225581240785685&#34;&gt;built natively&lt;/a&gt;, and as an Android user I would have to wait to get my hands on it, questions arose as to why such a technically/mechanically simple app wasn&amp;rsquo;t built using &lt;a href=&#34;http://ionicframework.com&#34;&gt;Ionic&lt;/a&gt;, a mobile app development framework built by a company based in Madison. After I got my hands on the Android app itself, I was less than enthusiastic about its performance and feature set.&lt;/p&gt;
 
-&lt;h1 id=&#34;reverse-engineering-it:608891990651e25035713577174171c1&#34;&gt;Reverse Engineering It&lt;/h1&gt;
+&lt;h1 id=&#34;reverse-engineering-it-a-name-reverse-href-reverse-i-class-ion-link-i-a:608891990651e25035713577174171c1&#34;&gt;Reverse Engineering It &lt;a name=&#34;reverse&#34; href=&#34;#reverse&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;So, realizing that my complaints weren&amp;rsquo;t getting anyone anywhere (not to mention I lacked the necessary context to know why they made the decisions they made), I had an idea: I have the APK, so I can decompile it, dig through it, and figure out exactly what API calls they&amp;rsquo;re making, and then emulate them with my own codebase. Simple enough, right? Well, for someone that knows virtually nothing about native Android development, this task proved simple yet pointless. I only gained one insight from it, which was the URL of their API. Then another idea hit me: why not just set up a proxy and read the HTTP requests?&lt;/p&gt;
 
@@ -126,7 +126,7 @@
 
 &lt;p&gt;Having a feature-parity Ionic app on your local machine is great and all, but it doesn&amp;rsquo;t do much good. Enter &lt;a href=&#34;http://blog.ionic.io/heroku-ionic/&#34;&gt;Ionic Heroku&lt;/a&gt;, which is a nifty little boilerplate that takes care of all of the setup and deploy configuration Heroku needs. You can hit one button, punch in a name, and you have a Heroku app. Copy your www/ file into the boilerplate&amp;rsquo;s (and update any npm/bower/ionic config you need to) and you&amp;rsquo;re golden. This was possibly the easiest step in the process.&lt;/p&gt;
 
-&lt;h1 id=&#34;making-it-better:608891990651e25035713577174171c1&#34;&gt;Making It Better&lt;/h1&gt;
+&lt;h1 id=&#34;making-it-better-a-name-improve-href-improve-i-class-ion-link-i-a:608891990651e25035713577174171c1&#34;&gt;Making It Better &lt;a name=&#34;improve&#34; href=&#34;#improve&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;At this point, I&amp;rsquo;d spent about 8 hours including all development time and research into how their API worked. I could&amp;rsquo;ve called it a day - I&amp;rsquo;d built an app that reached feature parity and could be deployed to Android and iOS. My work here was done. But, even by reaching parity, I hadn&amp;rsquo;t made anything better. At the end of the day, I was building this app for myself, so stopping here wouldn&amp;rsquo;t&amp;rsquo;ve helped. So, I set out with a short list of ways to improve the experience:&lt;/p&gt;
 
@@ -204,7 +204,7 @@
 
 &lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/case-study/better-mcbw/lauren.png&#34; /&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;the-fuuuuuuuuuture:608891990651e25035713577174171c1&#34;&gt;The Fuuuuuuuuuture&lt;/h1&gt;
+&lt;h1 id=&#34;the-fuuuuuuuuuture-a-name-future-href-future-i-class-ion-link-i-a:608891990651e25035713577174171c1&#34;&gt;The Fuuuuuuuuuture &lt;a name=&#34;future&#34; href=&#34;#future&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;More than once already this week, people have brought up the idea of some sort of optimization algorithm. Each event has a start time, and end time, and a location. This sounds like some sort of modified Travelling Salesman Problem, and while that would be a lot of fun to try to implement, I think that&amp;rsquo;s a &amp;ldquo;next-year&amp;rdquo; type of feature. After all, I&amp;rsquo;ve already sunk a whopping ~20 hours into this project. I can only imagine what The Isthmus paid their developers and how much time they spent on this.&lt;/p&gt;
 
@@ -212,7 +212,7 @@
 
 &lt;p&gt;There also could be increased security, as right now I&amp;rsquo;m pretty sure if you have someone&amp;rsquo;s user ID you can modify their list of saved events, but again, 20 hours of free work plus it&amp;rsquo;s an app that&amp;rsquo;s only useful for one week (and for a beer event, no less).&lt;/p&gt;
 
-&lt;h1 id=&#34;lessons-learned:608891990651e25035713577174171c1&#34;&gt;Lessons Learned&lt;/h1&gt;
+&lt;h1 id=&#34;lessons-learned-a-name-lessons-href-lessons-i-class-ion-link-i-a:608891990651e25035713577174171c1&#34;&gt;Lessons Learned &lt;a name=&#34;lessons&#34; href=&#34;#lessons&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;h3 id=&#34;firebase-synchronized-arrays:608891990651e25035713577174171c1&#34;&gt;Firebase Synchronized Arrays&lt;/h3&gt;
 
@@ -227,7 +227,7 @@
   delete profile.saved[event.id];
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;videos:608891990651e25035713577174171c1&#34;&gt;Videos&lt;/h1&gt;
+&lt;h1 id=&#34;videos-a-name-videos-href-videos-i-class-ion-link-i-a:608891990651e25035713577174171c1&#34;&gt;Videos &lt;a name=&#34;videos&#34; href=&#34;#videos&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;h3 id=&#34;official-mcbw:608891990651e25035713577174171c1&#34;&gt;Official MCBW:&lt;/h3&gt;
 

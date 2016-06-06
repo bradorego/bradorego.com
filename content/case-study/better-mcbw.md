@@ -29,13 +29,13 @@
 </div>
 <hr/>
 
-# Backstory
+# Backstory <a name="backstory" href="#backstory"><i class="ion-link"></i></a>
 
 <a href="http://madbeerweek.com">Madison Craft Beer Week</a> has been one of my favorite events since moving to Madison. Started as a grassroots project by a few local beer lovers, the event has ballooned to one of the best in the nation, featuring over 550 events this year. In years past, I've been involved in helping out on the tech side of things, and we had big plans for this upcoming year. But in September 2015, The Isthmus <a href="http://isthmus.com/food-drink/beer/isthmus-acquires-madison-craft-beer-week/">acquired Craft Beer Week</a>, and took over all operations.
 
 After hearing that the 2016 was <a href="https://www.facebook.com/MadBeerWeek/posts/1225581240785685">built natively</a>, and as an Android user I would have to wait to get my hands on it, questions arose as to why such a technically/mechanically simple app wasn't built using <a href="http://ionicframework.com">Ionic</a>, a mobile app development framework built by a company based in Madison. After I got my hands on the Android app itself, I was less than enthusiastic about its performance and feature set.
 
-# Reverse Engineering It
+# Reverse Engineering It <a name="reverse" href="#reverse"><i class="ion-link"></i></a>
 
 So, realizing that my complaints weren't getting anyone anywhere (not to mention I lacked the necessary context to know why they made the decisions they made), I had an idea: I have the APK, so I can decompile it, dig through it, and figure out exactly what API calls they're making, and then emulate them with my own codebase. Simple enough, right? Well, for someone that knows virtually nothing about native Android development, this task proved simple yet pointless. I only gained one insight from it, which was the URL of their API. Then another idea hit me: why not just set up a proxy and read the HTTP requests?
 
@@ -85,7 +85,7 @@ The rest, as they say, is history (or, at least, trivial).
 
 Having a feature-parity Ionic app on your local machine is great and all, but it doesn't do much good. Enter <a href="http://blog.ionic.io/heroku-ionic/">Ionic Heroku</a>, which is a nifty little boilerplate that takes care of all of the setup and deploy configuration Heroku needs. You can hit one button, punch in a name, and you have a Heroku app. Copy your www/ file into the boilerplate's (and update any npm/bower/ionic config you need to) and you're golden. This was possibly the easiest step in the process.
 
-# Making It Better
+# Making It Better <a name="improve" href="#improve"><i class="ion-link"></i></a>
 
 At this point, I'd spent about 8 hours including all development time and research into how their API worked. I could've called it a day - I'd built an app that reached feature parity and could be deployed to Android and iOS. My work here was done. But, even by reaching parity, I hadn't made anything better. At the end of the day, I was building this app for myself, so stopping here wouldn't've helped. So, I set out with a short list of ways to improve the experience:
 
@@ -163,7 +163,7 @@ After wrestling with MailGun for awhile, <a href="https://sendgrid.com/">SendGri
 
 <img src="/img/case-study/better-mcbw/lauren.png" />
 
-# The Fuuuuuuuuuture
+# The Fuuuuuuuuuture <a name="future" href="#future"><i class="ion-link"></i></a>
 
 More than once already this week, people have brought up the idea of some sort of optimization algorithm. Each event has a start time, and end time, and a location. This sounds like some sort of modified Travelling Salesman Problem, and while that would be a lot of fun to try to implement, I think that's a "next-year" type of feature. After all, I've already sunk a whopping ~20 hours into this project. I can only imagine what The Isthmus paid their developers and how much time they spent on this.
 
@@ -171,7 +171,7 @@ The code could also use a serious refactor, especially on the client side. This 
 
 There also could be increased security, as right now I'm pretty sure if you have someone's user ID you can modify their list of saved events, but again, 20 hours of free work plus it's an app that's only useful for one week (and for a beer event, no less).
 
-# Lessons Learned
+# Lessons Learned <a name="lessons" href="#lessons"><i class="ion-link"></i></a>
 
 ### Firebase Synchronized Arrays
 
@@ -187,7 +187,7 @@ As a corollary to the above realization, keyed arrays actually make a lot of sen
   delete profile.saved[event.id];
 ```
 
-# Videos
+# Videos <a name="videos" href="#videos"><i class="ion-link"></i></a>
 
 ### Official MCBW:
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/s4OAGhlFpcQ" frameborder="0" allowfullscreen></iframe>

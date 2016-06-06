@@ -24,13 +24,13 @@
 
 As you might be able to tell, my last blog post is from 2014. It was about time to get back on the blog horse but also give the site a little facelift. I'd <a href="http://beerbatterbreakfast.com/2014/07/fancy-new-blog.html">migrated blog platforms</a> in the past, but never really took the time to think about how my own personal site was hosted. So let's take a quick trip down memory lane.
 
-# Static Site (2011)
+# Static Site (2011) <a name="2011" href="#2011"><i class="ion-link"></i></a>
 
 When I first got into web development (professionally), I thought it'd be cool to build my own website from scratch to prove my mettle. That was 2011; certainly not far enough ago by any means for most of the technologies in use today to not exist. But, I was young and naive, and had some big ideas (e.g. a live CSS switcher, replicating the exact same look/behavior with and without Javascript, etc).
 
 I learned very quickly from that experience that keeping a static site up to date was really difficult. Any time you made a change one place, you had to make sure you made it everywhere. You had to make sure to manage collisions. You had to handle your own deploys and routing. It was a hassle, and I virtualy never updated the site, so after spending some time working with <a href="https://zebradog.com">ZebraDog</a> and seeing the power of Drupal, I decided it was time for a change.
 
-# Drupal 7.0 (2012)
+# Drupal 7.0 (2012) <a name="2012" href="#2012"><i class="ion-link"></i></a>
 
 So I set out to <a href="/2012-11-new-site/">update and re-design</a> the website again, this time using something a little more powerful and modern, and to make it easier for me to create new content while still having full control and flexibility over how it's displayed and what functionality the website had.
 
@@ -38,7 +38,7 @@ After all, at ZD we'd built a lot of things on Drupal, ranging from fairly simpl
 
 The problem wasn't whether I could; in fact the problem was probably __that__ I could. I built an incredible media delivery site that was isolated from the world and almost too powerful for its own good. Developing and maintaining the site was nontrivial, and adding new content, while certainly easier than a static site, was beyond me.
 
-# Back to Static (2016)
+# Back to Static (2016) <a name="2016" href="#2016"><i class="ion-link"></i></a>
 
 Blog technology philosophy has shifted lately. WordPress is still the clear winner in the space, but there's an alternative to generating the site every time it's requested. These take the form of static generators, and make a lot more sense to me personally. Jekyll, Ghost, Hugo, Hexo; the list goes on. What's under the hood doesn't really matter (which, as an aside, makes switching way easier) &emdash; all that matters is the static HTML/CSS/JS they output.
 

@@ -83,13 +83,13 @@
 </div>
 <hr/></p>
 
-<h1 id="backstory:608891990651e25035713577174171c1">Backstory</h1>
+<h1 id="backstory-a-name-backstory-href-backstory-i-class-ion-link-i-a:608891990651e25035713577174171c1">Backstory <a name="backstory" href="#backstory"><i class="ion-link"></i></a></h1>
 
 <p><a href="http://madbeerweek.com">Madison Craft Beer Week</a> has been one of my favorite events since moving to Madison. Started as a grassroots project by a few local beer lovers, the event has ballooned to one of the best in the nation, featuring over 550 events this year. In years past, I&rsquo;ve been involved in helping out on the tech side of things, and we had big plans for this upcoming year. But in September 2015, The Isthmus <a href="http://isthmus.com/food-drink/beer/isthmus-acquires-madison-craft-beer-week/">acquired Craft Beer Week</a>, and took over all operations.</p>
 
 <p>After hearing that the 2016 was <a href="https://www.facebook.com/MadBeerWeek/posts/1225581240785685">built natively</a>, and as an Android user I would have to wait to get my hands on it, questions arose as to why such a technically/mechanically simple app wasn&rsquo;t built using <a href="http://ionicframework.com">Ionic</a>, a mobile app development framework built by a company based in Madison. After I got my hands on the Android app itself, I was less than enthusiastic about its performance and feature set.</p>
 
-<h1 id="reverse-engineering-it:608891990651e25035713577174171c1">Reverse Engineering It</h1>
+<h1 id="reverse-engineering-it-a-name-reverse-href-reverse-i-class-ion-link-i-a:608891990651e25035713577174171c1">Reverse Engineering It <a name="reverse" href="#reverse"><i class="ion-link"></i></a></h1>
 
 <p>So, realizing that my complaints weren&rsquo;t getting anyone anywhere (not to mention I lacked the necessary context to know why they made the decisions they made), I had an idea: I have the APK, so I can decompile it, dig through it, and figure out exactly what API calls they&rsquo;re making, and then emulate them with my own codebase. Simple enough, right? Well, for someone that knows virtually nothing about native Android development, this task proved simple yet pointless. I only gained one insight from it, which was the URL of their API. Then another idea hit me: why not just set up a proxy and read the HTTP requests?</p>
 
@@ -140,7 +140,7 @@
 
 <p>Having a feature-parity Ionic app on your local machine is great and all, but it doesn&rsquo;t do much good. Enter <a href="http://blog.ionic.io/heroku-ionic/">Ionic Heroku</a>, which is a nifty little boilerplate that takes care of all of the setup and deploy configuration Heroku needs. You can hit one button, punch in a name, and you have a Heroku app. Copy your www/ file into the boilerplate&rsquo;s (and update any npm/bower/ionic config you need to) and you&rsquo;re golden. This was possibly the easiest step in the process.</p>
 
-<h1 id="making-it-better:608891990651e25035713577174171c1">Making It Better</h1>
+<h1 id="making-it-better-a-name-improve-href-improve-i-class-ion-link-i-a:608891990651e25035713577174171c1">Making It Better <a name="improve" href="#improve"><i class="ion-link"></i></a></h1>
 
 <p>At this point, I&rsquo;d spent about 8 hours including all development time and research into how their API worked. I could&rsquo;ve called it a day - I&rsquo;d built an app that reached feature parity and could be deployed to Android and iOS. My work here was done. But, even by reaching parity, I hadn&rsquo;t made anything better. At the end of the day, I was building this app for myself, so stopping here wouldn&rsquo;t&rsquo;ve helped. So, I set out with a short list of ways to improve the experience:</p>
 
@@ -218,7 +218,7 @@
 
 <p><img src="/img/case-study/better-mcbw/lauren.png" /></p>
 
-<h1 id="the-fuuuuuuuuuture:608891990651e25035713577174171c1">The Fuuuuuuuuuture</h1>
+<h1 id="the-fuuuuuuuuuture-a-name-future-href-future-i-class-ion-link-i-a:608891990651e25035713577174171c1">The Fuuuuuuuuuture <a name="future" href="#future"><i class="ion-link"></i></a></h1>
 
 <p>More than once already this week, people have brought up the idea of some sort of optimization algorithm. Each event has a start time, and end time, and a location. This sounds like some sort of modified Travelling Salesman Problem, and while that would be a lot of fun to try to implement, I think that&rsquo;s a &ldquo;next-year&rdquo; type of feature. After all, I&rsquo;ve already sunk a whopping ~20 hours into this project. I can only imagine what The Isthmus paid their developers and how much time they spent on this.</p>
 
@@ -226,7 +226,7 @@
 
 <p>There also could be increased security, as right now I&rsquo;m pretty sure if you have someone&rsquo;s user ID you can modify their list of saved events, but again, 20 hours of free work plus it&rsquo;s an app that&rsquo;s only useful for one week (and for a beer event, no less).</p>
 
-<h1 id="lessons-learned:608891990651e25035713577174171c1">Lessons Learned</h1>
+<h1 id="lessons-learned-a-name-lessons-href-lessons-i-class-ion-link-i-a:608891990651e25035713577174171c1">Lessons Learned <a name="lessons" href="#lessons"><i class="ion-link"></i></a></h1>
 
 <h3 id="firebase-synchronized-arrays:608891990651e25035713577174171c1">Firebase Synchronized Arrays</h3>
 
@@ -241,7 +241,7 @@
   delete profile.saved[event.id];
 </code></pre>
 
-<h1 id="videos:608891990651e25035713577174171c1">Videos</h1>
+<h1 id="videos-a-name-videos-href-videos-i-class-ion-link-i-a:608891990651e25035713577174171c1">Videos <a name="videos" href="#videos"><i class="ion-link"></i></a></h1>
 
 <h3 id="official-mcbw:608891990651e25035713577174171c1">Official MCBW:</h3>
 

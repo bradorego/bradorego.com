@@ -36,7 +36,7 @@ One of the things that I've seen come up time and time again is the need for a P
 
 So let's talk about some of these differences.
 
-# Project Management
+# Project Management <a name="proJect" href="#proJect"><i class="ion-link"></i></a>
 
 *Project* - a (often temporary) endeavor undertaken in order to complete a task, achieve a goal, or create a product or service. Casually, a project is just a thing a person or group does to accomplish something.
 
@@ -52,7 +52,7 @@ Successful Project Managers are good at getting the right people involved and fo
 * What can we get in scope given the budget and/or timeline restrictions?
 * In what order will features be implemented?
 
-# Product Management
+# Product Management <a name="proDuct" href="#proDuct"><i class="ion-link"></i></a>
 
 *Product* - a good, service, or tool built in order to solve a problem for a user (or, ideally, users). Casually, a product is something people use.
 
@@ -68,7 +68,7 @@ Successful Product Managers are good at knowing what role their product serves a
 * How does this product solve user needs?
 * What is the benefit to the end user, especially compared to their current solution?
 
-# Separate, but equal?
+# Separate, but equal? <a name="separate" href="#separate"><i class="ion-link"></i></a>
 
 Now that we've defined some of the differences between the two PMs, we can better understand the role each fills, what their concerns are, and why they're important to success.
 

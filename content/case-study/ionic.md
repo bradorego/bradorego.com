@@ -24,7 +24,7 @@ The Ionic Framework was <a href="http://blog.ionic.io/announcing-ionic/">first r
 
 In particular, here's a short list of Ionic apps I've built for my own purposes.
 
-# NewsFlash News App
+# NewsFlash News App <a name="newsflash" href="#newsflash"><i class="ion-link"></i></a>
 
 NewsFlash was built using what was, at the time, a brand new feature in Ionic: swipable cards. I'd done some work to take a demo the core team put together and enabled bi-directional swiping, and then added a little more code to allow a developer to know which direction a user swiped (the core team only offered a callback for when it was swiped) (also worth noting that both of these features are now part of the core offering).
 
@@ -32,7 +32,7 @@ The idea behind NewsFlash was that I never got around to reading any content on 
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/74PqgIf3uUk" frameborder="0" allowfullscreen></iframe>
 
-# TrackMe Personal Tracker
+# TrackMe Personal Tracker <a name="trackme" href="#trackme"><i class="ion-link"></i></a>
 
 TrackMe came out of a frustration with other tracking apps as well as inspiration from Nick Felton, who's been tracking his life in various ways and producing infographics <a href='http://feltron.com/FAR05.html'>as far back as 2005</a>. The thought is: if we have an easy way to track anything, and we store this data, we can use something like <a href="https://d3js.org/">D3.js</a> to generate interactive infographics.
 
@@ -40,7 +40,7 @@ TrackMe is another example of a minimalist application - one whose design is sim
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/7NZMM5rN_pA" frameborder="0" allowfullscreen></iframe>
 
-# Better MCBW
+# Better MCBW <a name="mcbw" href="#mcbw"><i class="ion-link"></i></a>
 
 Better MCBW has its own entire post explaining the motivation and process. You can read more about it <a href="/2016-05-better-mcbw/">here</a>. Better MCBW has seen a decent amount of traction among Madison Craft Beer Week participants despite the entire motivation being my own.
 
