@@ -6,8 +6,92 @@
     <description>Recent content on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 May 2016 10:04:17 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 20 May 2016 19:31:28 -0500</lastBuildDate>
     <atom:link href="https://bradorego.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The Dangers of Tight Iteration</title>
+      <link>https://bradorego.com/the-dangers-of-tight-iteration</link>
+      <image>https://bradorego.com/img/posts/dangers-of-tight-iteration/header.png</image>
+      <pubDate>Fri, 20 May 2016 19:31:28 -0500</pubDate>
+      
+      <guid>https://bradorego.com/the-dangers-of-tight-iteration</guid>
+      <description>
+
+&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
+  &lt;h4&gt;TL;DNR&lt;/h4&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Getting a lot of feedback quickly isn&amp;rsquo;t necessarily always the best strategy - having a guiding light is helpful as well.&lt;/li&gt;
+    &lt;li&gt;Users react to the level of fidelity of what you show them. You might be missing something if your fidelity doesn&amp;rsquo;t match the issue in the design.&lt;/li&gt;
+    &lt;li&gt;Good Product Design (or at least, a good discovery phase/project plan) can alleviate these issues.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;hr/&gt;&lt;/p&gt;
+
+&lt;p&gt;Before starting a new engagement with a client, I always ask a series of questions about their company, their processes, and the project I&amp;rsquo;ll be working on. One of those questions asks how they&amp;rsquo;re currently handling user research and product design and I&amp;rsquo;m often told they &amp;ldquo;have a tight feedback loop&amp;rdquo; and that&amp;rsquo;s all they have to say.&lt;/p&gt;
+
+&lt;p&gt;There&amp;rsquo;s a lot wrong with this answer, but let&amp;rsquo;s unpack it a little.&lt;/p&gt;
+
+&lt;h1 id=&#34;rapid-prototyping-a-name-rapidprototyping-href-rapidprototyping-i-class-ion-link-i-a:bed2c57243224eaf92c5dc8e3d145ddb&#34;&gt;Rapid Prototyping &lt;a name=&#34;rapidPrototyping&#34; href=&#34;#rapidPrototyping&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;First and foremost, effective use of Rapid Prototyping can be immensely beneficial to a product. If there&amp;rsquo;s one thing I could convince every company in the world to do, it would be to use some type of rapid prototyping in their product design. If I got a fraction of all of the &lt;a href=&#34;http://time.com/13549/the-10-worst-product-fails-of-all-time/&#34;&gt;money spent&lt;/a&gt; building products that ultimately failed, I&amp;rsquo;d never have to work again.&lt;/p&gt;
+
+&lt;p&gt;Ultimately, Rapid Prototyping is more a process or practice than a technique or specific tools. Rapid Prototyping involves getting as much feedback as often as possible throughout the design process, and this is accomplished by varying the level of fidelity of what you&amp;rsquo;re testing (more on this later). By exposing the current version of your product in all of its incomplete glory, you save sinking time into things that don&amp;rsquo;t work, and ultimately build a better product for your target user.&lt;/p&gt;
+
+&lt;p&gt;You can read more about the variety of options when it comes to Rapid Prototyping elsewhere, but here&amp;rsquo;s a brief overview of some of the options:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Paper Prototypes - hand-drawn sketches of what an interface might look like&lt;/li&gt;
+&lt;li&gt;Wizard of Oz - the practice of playing the role of the computer by abstracting future functionality away&lt;/li&gt;
+&lt;li&gt;Testing Your Competitor - before building your solution, see what problems users have with existing solutions&lt;/li&gt;
+&lt;li&gt;Interactive Prototypes - semi-functional software systems users can interact with&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;let-s-talk-about-fidelity-a-name-fidelity-href-fidelity-i-class-ion-link-i-a:bed2c57243224eaf92c5dc8e3d145ddb&#34;&gt;Let&amp;rsquo;s talk about fidelity &lt;a name=&#34;fidelity&#34; href=&#34;#fidelity&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;The exact definition of fidelity isn&amp;rsquo;t exactly clear, but it roughly refers to the level of detail your current iteration includes. It&amp;rsquo;s often used in the context of prototyping, but it can refer to existing products as well. Your typical startup MVP is a high-fidelity prototype but a low-fidelity product. Fidelity exists on a &lt;a href=&#34;https://www.smashingmagazine.com/2010/06/design-better-faster-with-rapid-prototyping/#the-prototyping-spectrum&#34;&gt;continuum&lt;/a&gt;, with the lower end including concepts, sketches, and rough wireframes, and the higher end being branded/visually design and interactive prototypes. I&amp;rsquo;ve seen far too many products that jump right into the deep end of fidelity, missing out on all of the potential learning from testing lower fidelity prototypes.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&#34;https://bradorego.com/img/posts/dangers-of-tight-iteration/graph.jpg&#34; /&gt;
+&lt;figcaption&gt;&lt;a href=&#34;http://www.uxmatters.com/mt/archives/2010/05/sketches-and-wireframes-and-prototypes-oh-my-creating-your-own-magical-wizard-experience.php&#34;&gt;Credit&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;It might be somewhat contradictory to recommend using a lower level of detail, but you have to &lt;a href=&#34;https://blinkux.com/blog/choosing-the-right-level-of-fidelity-for-your-wireframes/&#34;&gt;match your level of fidelity&lt;/a&gt; to the type of feedback you&amp;rsquo;re looking for. Your users will respond to the fidelity they&amp;rsquo;re given, and their feedback will be colored by this. If you give them paper, they&amp;rsquo;ll talk about things like workflow, high-level design, and desired features. If you give them highly designed (read: Sketch/Photoshop) images, they&amp;rsquo;ll talk about things like color scheme, fonts, and whitespace. If you give them an interactive prototype, they&amp;rsquo;ll talk about things like transitions, interactivity, and performance.&lt;/p&gt;
+
+&lt;p&gt;This graph (and more great coverage of the pluses and minuses of different levels of fidelity) from &lt;a href=&#34;http://www.uxmatters.com/mt/archives/2010/05/sketches-and-wireframes-and-prototypes-oh-my-creating-your-own-magical-wizard-experience.php&#34;&gt;UX Matters&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&#34;why-it-matters-a-name-why-href-why-i-class-ion-link-i-a:bed2c57243224eaf92c5dc8e3d145ddb&#34;&gt;Why it matters &lt;a name=&#34;why&#34; href=&#34;#why&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;It can be intoxicating to set a baseline and watch your numbers improve on whatever metrics you&amp;rsquo;ve set, as you iterate. Arguably, data-informed design is a good thing, especially compared to the alternative. The &lt;a href=&#34;http://adaptivepath.org/ideas/data-informed-not-data-driven-the-subtext/&#34;&gt;problem&lt;/a&gt; is when data starts driving your decisions, and you lose sight of the big picture - improving the experience for the end user. Increased conversions, decreased errors, or more efficient interactions may not necessarily be the most enjoyable experience (e.g. a &lt;a href=&#34;http://www.people.hbs.edu/rbuell/papers/buell_norton_2011.pdf&#34;&gt;wait time&lt;/a&gt; might actually be a &lt;em&gt;good&lt;/em&gt; thing).&lt;/p&gt;
+
+&lt;p&gt;The problem with this approach is it might be honing in on what&amp;rsquo;s known as a local maxima. Naive &lt;a href=&#34;https://en.wikipedia.org/wiki/Hill_climbing&#34;&gt;hill-climbing&lt;/a&gt; algorithms can fall victim to this problem as well. Essentially, you continue to see improvements and make changes until you reach a point where those improvements either diminish entirely or degrade. At this point, traditional wisdom would be to stop working and either a) work on something else, or b) declare yourself victorious and toast your achievement, all the while missing what could be a better solution.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&#34;https://bradorego.com/img/posts/dangers-of-tight-iteration/local-maxima.jpg&#34; /&gt;
+  &lt;figcaption&gt;&lt;a href=&#34;http://www.90percentofeverything.com/2011/01/06/local-maxima-and-the-perils-of-data-driven-design/&#34;&gt;Credit&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;On a philosophical note, I like to think of every design problem (if not every problem in life) as something like the above graphic, except the plane is infinite &amp;ndash; there&amp;rsquo;re always other options, some of which might be better than our current situation if we&amp;rsquo;re just willing to take the leap of faith and try a new approach.&lt;/p&gt;
+
+&lt;h1 id=&#34;fighting-the-local-maxima-a-name-local-href-local-i-class-ion-link-i-a:bed2c57243224eaf92c5dc8e3d145ddb&#34;&gt;Fighting the Local Maxima &lt;a name=&#34;local&#34; href=&#34;#local&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;So now we&amp;rsquo;re aware of the problem and what causes it. That doesn&amp;rsquo;t necessarily tell us what to do about it, though. Here&amp;rsquo;s a great strategy outlined in an article from 2010:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  One strategy we might employ is to optimize until we reach a point of diminishing returns: design until changes just aren’t having a big effect. Then, stop optimizing and return to other kinds of analysis to figure out the next steps. Conduct interviews. Do user testing. Give surveys, ask questions. Find out the biggest existing pain points instead of focusing on tiny design elements at this stage. Focus at the activity-level. What are people trying to accomplish? What are their higher-level goals? What aren’t people doing that we want them to? What big hurdles keep them from taking the next action? This level of insight will allow you to make those bigger changes.
+  &lt;footer&gt;Joshua Porter, &lt;a href=&#34;http://52weeksofux.com/post/694598769/the-local-maximum&#34;&gt;52 Weeks of UX&lt;/a&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I couldn&amp;rsquo;t&amp;rsquo;ve said it better myself.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;h3 id=&#34;a-brief-plug:bed2c57243224eaf92c5dc8e3d145ddb&#34;&gt;A brief plug&lt;/h3&gt;
+
+&lt;p&gt;Did you find yourself reading this post and thinking &amp;ldquo;our products have definitely suffered from the wrong type of feedback&amp;rdquo;? Part of the reason this has come up a lot for me is I&amp;rsquo;m looking into a product-manager-as-a-service model. You should &lt;a href=&#34;mailto:bradley.orego@gmail.com&#34;&gt;contact me&lt;/a&gt; if you&amp;rsquo;d like to hear more.&lt;/p&gt;
+</description>
+      <tags>prototype,user-centered design,fidelity,rapid iteration,product management,</tags>
+    </item>
     
     <item>
       <title>Product vs Project Management</title>
@@ -83,7 +167,9 @@ http://allaboutproductmanagement.blogspot.com/2007/03/project-manager-or-product
 
 &lt;p&gt;All of the planning, research, and vision is the architect&amp;rsquo;s responsibility, and once the building is dont, they&amp;rsquo;re the ones who everyone will look to when the building is successful or not (obviously there&amp;rsquo;s some back and forth with engineering as well in terms of feasibility&amp;hellip;another parallel in software). The foreman is responsible for making sure his team can execute and do what&amp;rsquo;s been planned out, but they&amp;rsquo;re often the unsung heroes of a successful project.&lt;/p&gt;
 
-&lt;h1 id=&#34;a-brief-plug:2bc9b53639a6b650caacc5bab7e9a353&#34;&gt;A brief plug&lt;/h1&gt;
+&lt;hr/&gt;
+
+&lt;h3 id=&#34;a-brief-plug:2bc9b53639a6b650caacc5bab7e9a353&#34;&gt;A brief plug&lt;/h3&gt;
 
 &lt;p&gt;Did you find yourself reading this post and thinking &amp;ldquo;we&amp;rsquo;ve got the project part down, but shoot, having a product person would be great&amp;rdquo;? Part of the reason this has come up a lot for me is I&amp;rsquo;m looking into a product-manager-as-a-service model. You should &lt;a href=&#34;mailto:bradley.orego@gmail.com&#34;&gt;contact me&lt;/a&gt; if you&amp;rsquo;d like to hear more.&lt;/p&gt;
 </description>
@@ -834,49 +920,6 @@ end
 &lt;img src=&#34;https://bradorego.com/img/case-study/zebradog/mstc-phone.png&#34; /&gt;&lt;/p&gt;
 </description>
       <tags>interactive multimedia,website,design,kinect,kiosk,</tags>
-    </item>
-    
-    <item>
-      <title>Note-taking</title>
-      <link>https://bradorego.com/note-taking</link>
-      <image>https://bradorego.com/img/posts/notetaking/header.jpg</image>
-      <pubDate>Wed, 27 Feb 2013 16:22:57 -0500</pubDate>
-      
-      <guid>https://bradorego.com/note-taking</guid>
-      <description>&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
-  &lt;h4&gt;TL;DNR&lt;/h4&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Memory is fallible, and humans tend to remember the most intense part and the ending of any experience.&lt;/li&gt;
-    &lt;li&gt;Finding systems that work for you is essential to productivity.&lt;/li&gt;
-    &lt;li&gt;Limit the number of choices a user has to (or has the opportunity to) make. Choose smart defaults and hide most options.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-&lt;hr/&gt;&lt;/p&gt;
-
-&lt;p&gt;I have a habit when it comes to books. When I read a book, I almost always underline/take notes in the margin. I started doing so sometime in high school, when Literature teachers started telling us it was okay to write in books. The practice carried me through my studies, and I&amp;rsquo;ve enjoyed it so much it&amp;rsquo;s spilled over into my personal/leisure reading (mind you, all of my leisure reading is non-fiction). You can actually tell which books in my personal collection were books I really enjoyed/valued based on how heavily marked up they are.&lt;/p&gt;
-
-&lt;p&gt;Since graduating from college, I&amp;rsquo;ve started a new version of the practice. Now, after finishing a book (sometimes immediately, but usually after a little time), I go back through the book and look over all of the underlining and notes I took. Generally speaking, when I underline something, it&amp;rsquo;s because it had a certian salience or value to me at the time. So, as I recount these notes, I take a mini post-it note and write whatever value I was trying to glean from it, and then I stick it to the margin of that page. The results look something like this:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/posts/notetaking/paradox5.jpg&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Not only does this practice reinforce what I&amp;rsquo;ve learned from that book, but it also changes the way I&amp;rsquo;ve experienced reading that book. In Barry Schwartz&amp;rsquo;s book &amp;ldquo;&lt;a href=&#34;http://www.amazon.com/Paradox-Choice-Why-More-Less/dp/0060005696&#34;&gt;The Paradox of Choice&lt;/a&gt;&amp;rdquo;, he cites &lt;a href=&#34;http://profron.net/happiness/files/readings/Kahneman_ObjectiveHappiness.pdf&#34;&gt;a study by Daniel Kahneman&lt;/a&gt;&amp;nbsp;which recounts the way we experience and remember the utility of something (that is, how much we enjoyed it).&lt;/p&gt;
-
-&lt;p&gt;What Kahneman et al. found is that our remembered utility is governed by two main factors:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Our experience of the peak (or most intense) portion (good/bad)&lt;/li&gt;
-&lt;li&gt;Our experience of the ending (good/bad)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;As you can imagine, this has an interesting implication for all parts of life, but particularly, for the design of user interfaces and user experiences.&lt;/p&gt;
-
-&lt;p&gt;Anecdotally, I&amp;rsquo;ve heard people (users) explain their experience with a particular piece of technology. While I don&amp;rsquo;t recall hearing much about the ending (maybe I just don&amp;rsquo;t pay attention), it seems that many users are &amp;ldquo;sold&amp;rdquo; on one particular instance where either a) the system did something cool/fun/awesome (e.g. MailChimp&amp;rsquo;s Freddie the monkey&amp;rsquo;s awesome quotes) or b) the product was particularly handy/useful in a given situation.&lt;/p&gt;
-
-&lt;p&gt;The minor details of the interface, animations, colors, typography, etc. that designers and marketing teams undoubtedly spent hours laboring over have almost no value to users. I&amp;rsquo;m sure they add to the positive experience, and &amp;ldquo;grease the slicks&amp;rdquo; between the user and their end goal, but when we really get down and think about what it is we&amp;rsquo;re designing for, the minor details that can hold projects up (should) melt away. Your perfectly-aligned-and-proportioned interface elements won&amp;rsquo;t matter at all if the user can&amp;rsquo;t do what they want/need to do with your product.&lt;/p&gt;
-
-&lt;p&gt;Schwartz also discusses an incredible array of information and concepts that I believe everyone should be aware of, such as opportunity costs, satisficing vs. maximizing, and the role of utility (esp. diminishing utility) in our daily lives. I&amp;rsquo;d highly recommend giving it a read, as I&amp;rsquo;ve personally seen benefit in my life by putting some of his suggestions into play.&lt;/p&gt;
-</description>
-      <tags>paradox of choice,barry schwartz,psychology,opportunity cost,</tags>
     </item>
     
   </channel>

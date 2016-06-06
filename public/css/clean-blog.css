@@ -94,6 +94,14 @@
 .sidebar-nav > .sidebar-brand a:hover {
   background: none;
 }
+figure {
+  position: relative;
+}
+figure figcaption {
+  position: absolute;
+  font-size: 12px;
+  right: 0px;
+}
 blockquote footer {
   padding: 0;
 }
