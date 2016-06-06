@@ -49,7 +49,7 @@ You can read more about the variety of options when it comes to Rapid Prototypin
 * Interactive Prototypes - semi-functional software systems users can interact with
 
 
-# Let's talk about fidelity <a name="fidelity" href="#fidelity"><i class="ion-link"></i></a>
+# Let's Talk About Fidelity <a name="fidelity" href="#fidelity"><i class="ion-link"></i></a>
 
 The exact definition of fidelity isn't exactly clear, but it roughly refers to the level of detail your current iteration includes. It's often used in the context of prototyping, but it can refer to existing products as well. Your typical startup MVP is a high-fidelity prototype but a low-fidelity product. Fidelity exists on a <a href="https://www.smashingmagazine.com/2010/06/design-better-faster-with-rapid-prototyping/#the-prototyping-spectrum">continuum</a>, with the lower end including concepts, sketches, and rough wireframes, and the higher end being branded/visually design and interactive prototypes. I've seen far too many products that jump right into the deep end of fidelity, missing out on all of the potential learning from testing lower fidelity prototypes.
 
@@ -63,7 +63,7 @@ It might be somewhat contradictory to recommend using a lower level of detail, b
 This graph (and more great coverage of the pluses and minuses of different levels of fidelity) from <a href="http://www.uxmatters.com/mt/archives/2010/05/sketches-and-wireframes-and-prototypes-oh-my-creating-your-own-magical-wizard-experience.php">UX Matters</a>.
 
 
-# Why it matters <a name="why" href="#why"><i class="ion-link"></i></a>
+# Why It Matters <a name="why" href="#why"><i class="ion-link"></i></a>
 
 It can be intoxicating to set a baseline and watch your numbers improve on whatever metrics you've set, as you iterate. Arguably, data-informed design is a good thing, especially compared to the alternative. The <a href="http://adaptivepath.org/ideas/data-informed-not-data-driven-the-subtext/">problem</a> is when data starts driving your decisions, and you lose sight of the big picture - improving the experience for the end user. Increased conversions, decreased errors, or more efficient interactions may not necessarily be the most enjoyable experience (e.g. a <a href="http://www.people.hbs.edu/rbuell/papers/buell_norton_2011.pdf">wait time</a> might actually be a _good_ thing).
 
