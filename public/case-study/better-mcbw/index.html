@@ -176,13 +176,13 @@
 
 <h3 id="enabling-sharing:608891990651e25035713577174171c1">Enabling sharing</h3>
 
-<p>This isn&rsquo;t going to be a lecture about how powerful social sharing plugins are in viral/organic growth. I&rsquo;m less concerned about that and more concerned about the end-user experience. Consdering I already had my own Firebase database, enabling this was actually trivial. Create a route outside the context of the app (otherwise users would get redirected to login) that took in the user&rsquo;s ID (from the URL) and pulled out the list of their saved events. Simple, straightforward, elegant. Add in a few social share buttons for convenience and the app practically markets itself.</p>
+<p>This isn&rsquo;t going to be a lecture about how powerful social sharing plugins are in viral/organic growth. I&rsquo;m less concerned about that and more concerned about the end-user experience. Considering I already had my own Firebase database, enabling this was actually trivial. Create a route outside the context of the app (otherwise users would get redirected to login) that took in the user&rsquo;s ID (from the URL) and pulled out the list of their saved events. Simple, straightforward, elegant. Add in a few social share buttons for convenience and the app practically markets itself.</p>
 
 <p><img src="/img/case-study/better-mcbw/sharing.png"></p>
 
 <h3 id="dividers:608891990651e25035713577174171c1">Dividers</h3>
 
-<p>Regardless of the content, a 500-item list is overwhemling. Adding date dividers at least makes it a little easier to scan through. The implementation of this is actually pretty straightforward. Here&rsquo;s that snippet (for dates) in all its glory:</p>
+<p>Regardless of the content, a 500-item list is overwhelming. Adding date dividers at least makes it a little easier to scan through. The implementation of this is actually pretty straightforward. Here&rsquo;s that snippet (for dates) in all its glory:</p>
 
 <pre><code class="language-javascript">  for (i = 0; i &lt; events.length; i++) {
     if (events[i].type !== &quot;divider&quot;) { /// don't process dividers if we come across them

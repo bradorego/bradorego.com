@@ -120,13 +120,13 @@ Which brought us down to 80KB. Still not great, but much better than 700KB. Okay
 
 ### Enabling sharing
 
-This isn't going to be a lecture about how powerful social sharing plugins are in viral/organic growth. I'm less concerned about that and more concerned about the end-user experience. Consdering I already had my own Firebase database, enabling this was actually trivial. Create a route outside the context of the app (otherwise users would get redirected to login) that took in the user's ID (from the URL) and pulled out the list of their saved events. Simple, straightforward, elegant. Add in a few social share buttons for convenience and the app practically markets itself.
+This isn't going to be a lecture about how powerful social sharing plugins are in viral/organic growth. I'm less concerned about that and more concerned about the end-user experience. Considering I already had my own Firebase database, enabling this was actually trivial. Create a route outside the context of the app (otherwise users would get redirected to login) that took in the user's ID (from the URL) and pulled out the list of their saved events. Simple, straightforward, elegant. Add in a few social share buttons for convenience and the app practically markets itself.
 
 <img src="/img/case-study/better-mcbw/sharing.png">
 
 ### Dividers
 
-Regardless of the content, a 500-item list is overwhemling. Adding date dividers at least makes it a little easier to scan through. The implementation of this is actually pretty straightforward. Here's that snippet (for dates) in all its glory:
+Regardless of the content, a 500-item list is overwhelming. Adding date dividers at least makes it a little easier to scan through. The implementation of this is actually pretty straightforward. Here's that snippet (for dates) in all its glory:
 
 ```javascript
   for (i = 0; i < events.length; i++) {

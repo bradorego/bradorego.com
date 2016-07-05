@@ -12,7 +12,7 @@ Brad is a graduate of the <a href="http://rochester.edu/">University of Rocheste
 
 <hr/>
 
-If you're <a href="http://www.sean-johnson.com/why-you-should-burn-your-resume/">unforunate enough</a> to be looking for a r&eacute;sum&eacute;, you can find that <a href="/resume" target="_self">here</a>.
+If you're <a href="http://www.sean-johnson.com/why-you-should-burn-your-resume/">unfortunate enough</a> to be looking for a r&eacute;sum&eacute;, you can find that <a href="/resume" target="_self">here</a>.
 
 <hr/>
 

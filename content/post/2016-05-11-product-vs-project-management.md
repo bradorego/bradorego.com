@@ -72,14 +72,14 @@ Successful Product Managers are good at knowing what role their product serves a
 
 Now that we've defined some of the differences between the two PMs, we can better understand the role each fills, what their concerns are, and why they're important to success.
 
-Product Managers are going to be talking to a lot of different stakeholders early on in the lifecycle and making sure it makes sense to move forward with a project. Product Managers are going to be doing a lot of the discovery phase of a project, and then stay involved throughout the implementation to make sure what's being built matches the idea (as well as, ideally, running users through interim usability studies to catch any issues that were hard to predict before having an artifat to interact with).
+Product Managers are going to be talking to a lot of different stakeholders early on in the lifecycle and making sure it makes sense to move forward with a project. Product Managers are going to be doing a lot of the discovery phase of a project, and then stay involved throughout the implementation to make sure what's being built matches the idea (as well as, ideally, running users through interim usability studies to catch any issues that were hard to predict before having an artifact to interact with).
 
 Project Managers are going to be more involved in the day-to-day of a buildout, having little interaction with the product before that step of the process (sure, it's possible to have a PJM involved through the process in order to have background knowledge but also keep track of resources through the entire lifecycle, but in my experience that's the abnormal case). Project Managers will be focusing on managing expectations of the stakeholders, interfacing with the Product Manager, and securing whatever resources are needed. The Project Manager is also going to be working with the implementation team, making sure they're on task and working well interpersonally.
 
 The <a href="
 http://allaboutproductmanagement.blogspot.com/2007/03/project-manager-or-product-manager.html">classic analogy</a> is the project manager as a midwife, whereas the product manager is the mother. Project will come in to deliver the baby, but all of the preparation before and all of the care afterwards is up to Product. I like to think of it more like an architect versus a foreman.
 
-All of the planning, research, and vision is the architect's responsibility, and once the building is dont, they're the ones who everyone will look to when the building is successful or not (obviously there's some back and forth with engineering as well in terms of feasibility...another parallel in software). The foreman is responsible for making sure his team can execute and do what's been planned out, but they're often the unsung heroes of a successful project.
+All of the planning, research, and vision is the architect's responsibility, and once the building is done, they're the ones who everyone will look to when the building is successful or not (obviously there's some back and forth with engineering as well in terms of feasibility...another parallel in software). The foreman is responsible for making sure his team can execute and do what's been planned out, but they're often the unsung heroes of a successful project.
 
 <hr/>
 

@@ -47,7 +47,7 @@
 &lt;li&gt;Interactive Prototypes - semi-functional software systems users can interact with&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;let-s-talk-about-fidelity-a-name-fidelity-href-fidelity-i-class-ion-link-i-a:bed2c57243224eaf92c5dc8e3d145ddb&#34;&gt;Let&amp;rsquo;s talk about fidelity &lt;a name=&#34;fidelity&#34; href=&#34;#fidelity&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;let-s-talk-about-fidelity-a-name-fidelity-href-fidelity-i-class-ion-link-i-a:bed2c57243224eaf92c5dc8e3d145ddb&#34;&gt;Let&amp;rsquo;s Talk About Fidelity &lt;a name=&#34;fidelity&#34; href=&#34;#fidelity&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;The exact definition of fidelity isn&amp;rsquo;t exactly clear, but it roughly refers to the level of detail your current iteration includes. It&amp;rsquo;s often used in the context of prototyping, but it can refer to existing products as well. Your typical startup MVP is a high-fidelity prototype but a low-fidelity product. Fidelity exists on a &lt;a href=&#34;https://www.smashingmagazine.com/2010/06/design-better-faster-with-rapid-prototyping/#the-prototyping-spectrum&#34;&gt;continuum&lt;/a&gt;, with the lower end including concepts, sketches, and rough wireframes, and the higher end being branded/visually design and interactive prototypes. I&amp;rsquo;ve seen far too many products that jump right into the deep end of fidelity, missing out on all of the potential learning from testing lower fidelity prototypes.&lt;/p&gt;
 
@@ -60,7 +60,7 @@
 
 &lt;p&gt;This graph (and more great coverage of the pluses and minuses of different levels of fidelity) from &lt;a href=&#34;http://www.uxmatters.com/mt/archives/2010/05/sketches-and-wireframes-and-prototypes-oh-my-creating-your-own-magical-wizard-experience.php&#34;&gt;UX Matters&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h1 id=&#34;why-it-matters-a-name-why-href-why-i-class-ion-link-i-a:bed2c57243224eaf92c5dc8e3d145ddb&#34;&gt;Why it matters &lt;a name=&#34;why&#34; href=&#34;#why&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;why-it-matters-a-name-why-href-why-i-class-ion-link-i-a:bed2c57243224eaf92c5dc8e3d145ddb&#34;&gt;Why It Matters &lt;a name=&#34;why&#34; href=&#34;#why&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;It can be intoxicating to set a baseline and watch your numbers improve on whatever metrics you&amp;rsquo;ve set, as you iterate. Arguably, data-informed design is a good thing, especially compared to the alternative. The &lt;a href=&#34;http://adaptivepath.org/ideas/data-informed-not-data-driven-the-subtext/&#34;&gt;problem&lt;/a&gt; is when data starts driving your decisions, and you lose sight of the big picture - improving the experience for the end user. Increased conversions, decreased errors, or more efficient interactions may not necessarily be the most enjoyable experience (e.g. a &lt;a href=&#34;http://www.people.hbs.edu/rbuell/papers/buell_norton_2011.pdf&#34;&gt;wait time&lt;/a&gt; might actually be a &lt;em&gt;good&lt;/em&gt; thing).&lt;/p&gt;
 
@@ -158,14 +158,14 @@
 
 &lt;p&gt;Now that we&amp;rsquo;ve defined some of the differences between the two PMs, we can better understand the role each fills, what their concerns are, and why they&amp;rsquo;re important to success.&lt;/p&gt;
 
-&lt;p&gt;Product Managers are going to be talking to a lot of different stakeholders early on in the lifecycle and making sure it makes sense to move forward with a project. Product Managers are going to be doing a lot of the discovery phase of a project, and then stay involved throughout the implementation to make sure what&amp;rsquo;s being built matches the idea (as well as, ideally, running users through interim usability studies to catch any issues that were hard to predict before having an artifat to interact with).&lt;/p&gt;
+&lt;p&gt;Product Managers are going to be talking to a lot of different stakeholders early on in the lifecycle and making sure it makes sense to move forward with a project. Product Managers are going to be doing a lot of the discovery phase of a project, and then stay involved throughout the implementation to make sure what&amp;rsquo;s being built matches the idea (as well as, ideally, running users through interim usability studies to catch any issues that were hard to predict before having an artifact to interact with).&lt;/p&gt;
 
 &lt;p&gt;Project Managers are going to be more involved in the day-to-day of a buildout, having little interaction with the product before that step of the process (sure, it&amp;rsquo;s possible to have a PJM involved through the process in order to have background knowledge but also keep track of resources through the entire lifecycle, but in my experience that&amp;rsquo;s the abnormal case). Project Managers will be focusing on managing expectations of the stakeholders, interfacing with the Product Manager, and securing whatever resources are needed. The Project Manager is also going to be working with the implementation team, making sure they&amp;rsquo;re on task and working well interpersonally.&lt;/p&gt;
 
 &lt;p&gt;The &lt;a href=&#34;
 http://allaboutproductmanagement.blogspot.com/2007/03/project-manager-or-product-manager.html&#34;&gt;classic analogy&lt;/a&gt; is the project manager as a midwife, whereas the product manager is the mother. Project will come in to deliver the baby, but all of the preparation before and all of the care afterwards is up to Product. I like to think of it more like an architect versus a foreman.&lt;/p&gt;
 
-&lt;p&gt;All of the planning, research, and vision is the architect&amp;rsquo;s responsibility, and once the building is dont, they&amp;rsquo;re the ones who everyone will look to when the building is successful or not (obviously there&amp;rsquo;s some back and forth with engineering as well in terms of feasibility&amp;hellip;another parallel in software). The foreman is responsible for making sure his team can execute and do what&amp;rsquo;s been planned out, but they&amp;rsquo;re often the unsung heroes of a successful project.&lt;/p&gt;
+&lt;p&gt;All of the planning, research, and vision is the architect&amp;rsquo;s responsibility, and once the building is done, they&amp;rsquo;re the ones who everyone will look to when the building is successful or not (obviously there&amp;rsquo;s some back and forth with engineering as well in terms of feasibility&amp;hellip;another parallel in software). The foreman is responsible for making sure his team can execute and do what&amp;rsquo;s been planned out, but they&amp;rsquo;re often the unsung heroes of a successful project.&lt;/p&gt;
 
 &lt;hr/&gt;
 

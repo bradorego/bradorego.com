@@ -28,7 +28,7 @@ As you might be able to tell, my last blog post is from 2014. It was about time 
 
 When I first got into web development (professionally), I thought it'd be cool to build my own website from scratch to prove my mettle. That was 2011; certainly not far enough ago by any means for most of the technologies in use today to not exist. But, I was young and naive, and had some big ideas (e.g. a live CSS switcher, replicating the exact same look/behavior with and without Javascript, etc).
 
-I learned very quickly from that experience that keeping a static site up to date was really difficult. Any time you made a change one place, you had to make sure you made it everywhere. You had to make sure to manage collisions. You had to handle your own deploys and routing. It was a hassle, and I virtualy never updated the site, so after spending some time working with <a href="https://zebradog.com">ZebraDog</a> and seeing the power of Drupal, I decided it was time for a change.
+I learned very quickly from that experience that keeping a static site up to date was really difficult. Any time you made a change one place, you had to make sure you made it everywhere. You had to make sure to manage collisions. You had to handle your own deploys and routing. It was a hassle, and I virtually never updated the site, so after spending some time working with <a href="https://zebradog.com">ZebraDog</a> and seeing the power of Drupal, I decided it was time for a change.
 
 # Drupal 7.0 (2012) <a name="2012" href="#2012"><i class="ion-link"></i></a>
 
@@ -40,12 +40,12 @@ The problem wasn't whether I could; in fact the problem was probably __that__ I 
 
 # Back to Static (2016) <a name="2016" href="#2016"><i class="ion-link"></i></a>
 
-Blog technology philosophy has shifted lately. WordPress is still the clear winner in the space, but there's an alternative to generating the site every time it's requested. These take the form of static generators, and make a lot more sense to me personally. Jekyll, Ghost, Hugo, Hexo; the list goes on. What's under the hood doesn't really matter (which, as an aside, makes switching way easier) &emdash; all that matters is the static HTML/CSS/JS they output.
+Blog technology philosophy has shifted lately. WordPress is still the clear winner in the space, but there's an alternative to generating the site every time it's requested. These take the form of static generators, and make a lot more sense to me personally. Jekyll, Ghost, Hugo, Hexo; the list goes on. What's under the hood doesn't really matter (which, as an aside, makes switching way easier) &mdash; all that matters is the static HTML/CSS/JS they output.
 
 It seems a little weird to be going back to a static option, but there are some major differences:
 
 1. I have so much less to worry about in terms of upkeep and deploy thanks to things like partials and services like <a href="https://www.aerobatic.com/">Aerobatic</a>.
 2. Content creation is way easier because I literally create a file and start typing. Markdown gets translated into HTML and all of the formatting and styling is handled by the templates I define.
-3. I stand on the shoulders of giants &emdash; there have been tons of people putting in tons of work to make things like this easier. There's no reason to reinvent the wheel.
+3. I stand on the shoulders of giants &mdash; there have been tons of people putting in tons of work to make things like this easier. There's no reason to reinvent the wheel.
 
 So (and I've said this before), theoretically keeping the site updated will be a lot easier. I somewhat feel like a cop-out for using a fairly standard template/look-and-feel, but at the end of the day, my job as a designer isn't to make things look pretty or to be unique. My job is to provide the best experience possible for my users. In the context of a blog, that means engaging, useful content; not pretty pictures.
