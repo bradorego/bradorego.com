@@ -21,7 +21,7 @@
   <h4>TL;DNR</h4>
   <ul>
     <li>OkCupid is great, but it's broken.</li>
-    <li>Fixing it should be pretty easy &emdash; just give a fast, simple way to stop bad members from being bad, and let the community sort it out.</li>
+    <li>Fixing it should be pretty easy &mdash; just give a fast, simple way to stop bad members from being bad, and let the community sort it out.</li>
     <li>Empower your users and they'll empower you.</li>
   </ul>
 </div>
