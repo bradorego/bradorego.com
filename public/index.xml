@@ -2,20 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>bradorego.com</title>
-    <link>https://bradorego.com/</link>
+    <link>http://bradorego.com/index.xml</link>
     <description>Recent content on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 20 May 2016 19:31:28 -0500</lastBuildDate>
-    <atom:link href="https://bradorego.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://bradorego.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>The Dangers of Tight Iteration</title>
-      <link>https://bradorego.com/the-dangers-of-tight-iteration</link>
-      <image>https://bradorego.com/img/posts/dangers-of-tight-iteration/header.png</image>
+      <link>http://bradorego.com/the-dangers-of-tight-iteration</link>
       <pubDate>Fri, 20 May 2016 19:31:28 -0500</pubDate>
       
-      <guid>https://bradorego.com/the-dangers-of-tight-iteration</guid>
+      <guid>http://bradorego.com/the-dangers-of-tight-iteration</guid>
       <description>
 
 &lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
@@ -32,7 +31,7 @@
 
 &lt;p&gt;There&amp;rsquo;s a lot wrong with this answer, but let&amp;rsquo;s unpack it a little.&lt;/p&gt;
 
-&lt;h1 id=&#34;rapid-prototyping-a-name-rapidprototyping-href-rapidprototyping-i-class-ion-link-i-a:bed2c57243224eaf92c5dc8e3d145ddb&#34;&gt;Rapid Prototyping &lt;a name=&#34;rapidPrototyping&#34; href=&#34;#rapidPrototyping&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;rapid-prototyping-a-name-rapidprototyping-href-rapidprototyping-i-class-ion-link-i-a&#34;&gt;Rapid Prototyping &lt;a name=&#34;rapidPrototyping&#34; href=&#34;#rapidPrototyping&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;First and foremost, effective use of Rapid Prototyping can be immensely beneficial to a product. If there&amp;rsquo;s one thing I could convince every company in the world to do, it would be to use some type of rapid prototyping in their product design. If I got a fraction of all of the &lt;a href=&#34;http://time.com/13549/the-10-worst-product-fails-of-all-time/&#34;&gt;money spent&lt;/a&gt; building products that ultimately failed, I&amp;rsquo;d never have to work again.&lt;/p&gt;
 
@@ -47,12 +46,12 @@
 &lt;li&gt;Interactive Prototypes - semi-functional software systems users can interact with&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;let-s-talk-about-fidelity-a-name-fidelity-href-fidelity-i-class-ion-link-i-a:bed2c57243224eaf92c5dc8e3d145ddb&#34;&gt;Let&amp;rsquo;s Talk About Fidelity &lt;a name=&#34;fidelity&#34; href=&#34;#fidelity&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;let-s-talk-about-fidelity-a-name-fidelity-href-fidelity-i-class-ion-link-i-a&#34;&gt;Let&amp;rsquo;s Talk About Fidelity &lt;a name=&#34;fidelity&#34; href=&#34;#fidelity&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;The exact definition of fidelity isn&amp;rsquo;t exactly clear, but it roughly refers to the level of detail your current iteration includes. It&amp;rsquo;s often used in the context of prototyping, but it can refer to existing products as well. Your typical startup MVP is a high-fidelity prototype but a low-fidelity product. Fidelity exists on a &lt;a href=&#34;https://www.smashingmagazine.com/2010/06/design-better-faster-with-rapid-prototyping/#the-prototyping-spectrum&#34;&gt;continuum&lt;/a&gt;, with the lower end including concepts, sketches, and rough wireframes, and the higher end being branded/visually design and interactive prototypes. I&amp;rsquo;ve seen far too many products that jump right into the deep end of fidelity, missing out on all of the potential learning from testing lower fidelity prototypes.&lt;/p&gt;
 
 &lt;figure&gt;
-&lt;img src=&#34;https://bradorego.com/img/posts/dangers-of-tight-iteration/graph.jpg&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/posts/dangers-of-tight-iteration/graph.jpg&#34; /&gt;
 &lt;figcaption&gt;&lt;a href=&#34;http://www.uxmatters.com/mt/archives/2010/05/sketches-and-wireframes-and-prototypes-oh-my-creating-your-own-magical-wizard-experience.php&#34;&gt;Credit&lt;/a&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -60,20 +59,20 @@
 
 &lt;p&gt;This graph (and more great coverage of the pluses and minuses of different levels of fidelity) from &lt;a href=&#34;http://www.uxmatters.com/mt/archives/2010/05/sketches-and-wireframes-and-prototypes-oh-my-creating-your-own-magical-wizard-experience.php&#34;&gt;UX Matters&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h1 id=&#34;why-it-matters-a-name-why-href-why-i-class-ion-link-i-a:bed2c57243224eaf92c5dc8e3d145ddb&#34;&gt;Why It Matters &lt;a name=&#34;why&#34; href=&#34;#why&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;why-it-matters-a-name-why-href-why-i-class-ion-link-i-a&#34;&gt;Why It Matters &lt;a name=&#34;why&#34; href=&#34;#why&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;It can be intoxicating to set a baseline and watch your numbers improve on whatever metrics you&amp;rsquo;ve set, as you iterate. Arguably, data-informed design is a good thing, especially compared to the alternative. The &lt;a href=&#34;http://adaptivepath.org/ideas/data-informed-not-data-driven-the-subtext/&#34;&gt;problem&lt;/a&gt; is when data starts driving your decisions, and you lose sight of the big picture - improving the experience for the end user. Increased conversions, decreased errors, or more efficient interactions may not necessarily be the most enjoyable experience (e.g. a &lt;a href=&#34;http://www.people.hbs.edu/rbuell/papers/buell_norton_2011.pdf&#34;&gt;wait time&lt;/a&gt; might actually be a &lt;em&gt;good&lt;/em&gt; thing).&lt;/p&gt;
 
 &lt;p&gt;The problem with this approach is it might be honing in on what&amp;rsquo;s known as a local maxima. Naive &lt;a href=&#34;https://en.wikipedia.org/wiki/Hill_climbing&#34;&gt;hill-climbing&lt;/a&gt; algorithms can fall victim to this problem as well. Essentially, you continue to see improvements and make changes until you reach a point where those improvements either diminish entirely or degrade. At this point, traditional wisdom would be to stop working and either a) work on something else, or b) declare yourself victorious and toast your achievement, all the while missing what could be a better solution.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&#34;https://bradorego.com/img/posts/dangers-of-tight-iteration/local-maxima.jpg&#34; /&gt;
+  &lt;img src=&#34;http://bradorego.com/img/posts/dangers-of-tight-iteration/local-maxima.jpg&#34; /&gt;
   &lt;figcaption&gt;&lt;a href=&#34;http://www.90percentofeverything.com/2011/01/06/local-maxima-and-the-perils-of-data-driven-design/&#34;&gt;Credit&lt;/a&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;On a philosophical note, I like to think of every design problem (if not every problem in life) as something like the above graphic, except the plane is infinite &amp;ndash; there&amp;rsquo;re always other options, some of which might be better than our current situation if we&amp;rsquo;re just willing to take the leap of faith and try a new approach.&lt;/p&gt;
 
-&lt;h1 id=&#34;fighting-the-local-maxima-a-name-local-href-local-i-class-ion-link-i-a:bed2c57243224eaf92c5dc8e3d145ddb&#34;&gt;Fighting the Local Maxima &lt;a name=&#34;local&#34; href=&#34;#local&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;fighting-the-local-maxima-a-name-local-href-local-i-class-ion-link-i-a&#34;&gt;Fighting the Local Maxima &lt;a name=&#34;local&#34; href=&#34;#local&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;So now we&amp;rsquo;re aware of the problem and what causes it. That doesn&amp;rsquo;t necessarily tell us what to do about it, though. Here&amp;rsquo;s a great strategy outlined in an article from 2010:&lt;/p&gt;
 
@@ -86,20 +85,18 @@
 
 &lt;hr/&gt;
 
-&lt;h3 id=&#34;a-brief-plug:bed2c57243224eaf92c5dc8e3d145ddb&#34;&gt;A brief plug&lt;/h3&gt;
+&lt;h3 id=&#34;a-brief-plug&#34;&gt;A brief plug&lt;/h3&gt;
 
 &lt;p&gt;Did you find yourself reading this post and thinking &amp;ldquo;our products have definitely suffered from the wrong type of feedback&amp;rdquo;? Part of the reason this has come up a lot for me is I&amp;rsquo;m looking into a product-manager-as-a-service model. You should &lt;a href=&#34;mailto:bradley.orego@gmail.com&#34;&gt;contact me&lt;/a&gt; if you&amp;rsquo;d like to hear more.&lt;/p&gt;
 </description>
-      <tags>prototype,user-centered design,fidelity,rapid iteration,product management,</tags>
     </item>
     
     <item>
       <title>Product vs Project Management</title>
-      <link>https://bradorego.com/product-vs-project-management</link>
-      <image>https://bradorego.com/img/default-bg2.jpg</image>
+      <link>http://bradorego.com/product-vs-project-management</link>
       <pubDate>Wed, 11 May 2016 10:04:17 -0500</pubDate>
       
-      <guid>https://bradorego.com/product-vs-project-management</guid>
+      <guid>http://bradorego.com/product-vs-project-management</guid>
       <description>
 
 &lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
@@ -118,7 +115,7 @@
 
 &lt;p&gt;So let&amp;rsquo;s talk about some of these differences.&lt;/p&gt;
 
-&lt;h1 id=&#34;project-management-a-name-project-href-project-i-class-ion-link-i-a:2bc9b53639a6b650caacc5bab7e9a353&#34;&gt;Project Management &lt;a name=&#34;proJect&#34; href=&#34;#proJect&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;project-management-a-name-project-href-project-i-class-ion-link-i-a&#34;&gt;Project Management &lt;a name=&#34;proJect&#34; href=&#34;#proJect&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;&lt;em&gt;Project&lt;/em&gt; - a (often temporary) endeavor undertaken in order to complete a task, achieve a goal, or create a product or service. Casually, a project is just a thing a person or group does to accomplish something.&lt;/p&gt;
 
@@ -136,7 +133,7 @@
 &lt;li&gt;In what order will features be implemented?&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;product-management-a-name-product-href-product-i-class-ion-link-i-a:2bc9b53639a6b650caacc5bab7e9a353&#34;&gt;Product Management &lt;a name=&#34;proDuct&#34; href=&#34;#proDuct&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;product-management-a-name-product-href-product-i-class-ion-link-i-a&#34;&gt;Product Management &lt;a name=&#34;proDuct&#34; href=&#34;#proDuct&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;&lt;em&gt;Product&lt;/em&gt; - a good, service, or tool built in order to solve a problem for a user (or, ideally, users). Casually, a product is something people use.&lt;/p&gt;
 
@@ -154,7 +151,7 @@
 &lt;li&gt;What is the benefit to the end user, especially compared to their current solution?&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;separate-but-equal-a-name-separate-href-separate-i-class-ion-link-i-a:2bc9b53639a6b650caacc5bab7e9a353&#34;&gt;Separate, but equal? &lt;a name=&#34;separate&#34; href=&#34;#separate&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;separate-but-equal-a-name-separate-href-separate-i-class-ion-link-i-a&#34;&gt;Separate, but equal? &lt;a name=&#34;separate&#34; href=&#34;#separate&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;Now that we&amp;rsquo;ve defined some of the differences between the two PMs, we can better understand the role each fills, what their concerns are, and why they&amp;rsquo;re important to success.&lt;/p&gt;
 
@@ -169,29 +166,27 @@ http://allaboutproductmanagement.blogspot.com/2007/03/project-manager-or-product
 
 &lt;hr/&gt;
 
-&lt;h3 id=&#34;a-brief-plug:2bc9b53639a6b650caacc5bab7e9a353&#34;&gt;A brief plug&lt;/h3&gt;
+&lt;h3 id=&#34;a-brief-plug&#34;&gt;A brief plug&lt;/h3&gt;
 
 &lt;p&gt;Did you find yourself reading this post and thinking &amp;ldquo;we&amp;rsquo;ve got the project part down, but shoot, having a product person would be great&amp;rdquo;? Part of the reason this has come up a lot for me is I&amp;rsquo;m looking into a product-manager-as-a-service model. You should &lt;a href=&#34;mailto:bradley.orego@gmail.com&#34;&gt;contact me&lt;/a&gt; if you&amp;rsquo;d like to hear more.&lt;/p&gt;
 </description>
-      <tags>user-centered design,product management,management,vision,execution,</tags>
     </item>
     
     <item>
       <title>Personal Ionic Prototypes</title>
-      <link>https://bradorego.com/case-study/personal-ionic-prototypes</link>
-      <image>https://bradorego.com/img/case-study/ionic/header.png</image>
+      <link>http://bradorego.com/case-study/personal-ionic-prototypes</link>
       <pubDate>Tue, 03 May 2016 12:30:41 -0500</pubDate>
       
-      <guid>https://bradorego.com/case-study/personal-ionic-prototypes</guid>
+      <guid>http://bradorego.com/case-study/personal-ionic-prototypes</guid>
       <description>
 
-&lt;h1 id=&#34;about:11c87cc1844e7dee51d304acbe274760&#34;&gt;About&lt;/h1&gt;
+&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
 
 &lt;p&gt;The Ionic Framework was &lt;a href=&#34;http://blog.ionic.io/announcing-ionic/&#34;&gt;first released&lt;/a&gt; in October 2013 and has since taken the hybrid app development world by storm, recently announcing their &lt;a href=&#34;http://blog.ionic.io/announcing-ionics-8-5m-series-a/&#34;&gt;Series A&lt;/a&gt;. I built my first full-fledged Ionic app in earnest almost a year after the platform was announced. Since then, I&amp;rsquo;ve worked with companies to build dozens of Ionic apps for everything from pure prototypes to production-level applications.&lt;/p&gt;
 
 &lt;p&gt;In particular, here&amp;rsquo;s a short list of Ionic apps I&amp;rsquo;ve built for my own purposes.&lt;/p&gt;
 
-&lt;h1 id=&#34;newsflash-news-app-a-name-newsflash-href-newsflash-i-class-ion-link-i-a:11c87cc1844e7dee51d304acbe274760&#34;&gt;NewsFlash News App &lt;a name=&#34;newsflash&#34; href=&#34;#newsflash&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;newsflash-news-app-a-name-newsflash-href-newsflash-i-class-ion-link-i-a&#34;&gt;NewsFlash News App &lt;a name=&#34;newsflash&#34; href=&#34;#newsflash&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;NewsFlash was built using what was, at the time, a brand new feature in Ionic: swipeable cards. I&amp;rsquo;d done some work to take a demo the core team put together and enabled bi-directional swiping, and then added a little more code to allow a developer to know which direction a user swiped (the core team only offered a callback for when it was swiped) (also worth noting that both of these features are now part of the core offering).&lt;/p&gt;
 
@@ -199,7 +194,7 @@ http://allaboutproductmanagement.blogspot.com/2007/03/project-manager-or-product
 
 &lt;iframe width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/74PqgIf3uUk&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;h1 id=&#34;trackme-personal-tracker-a-name-trackme-href-trackme-i-class-ion-link-i-a:11c87cc1844e7dee51d304acbe274760&#34;&gt;TrackMe Personal Tracker &lt;a name=&#34;trackme&#34; href=&#34;#trackme&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;trackme-personal-tracker-a-name-trackme-href-trackme-i-class-ion-link-i-a&#34;&gt;TrackMe Personal Tracker &lt;a name=&#34;trackme&#34; href=&#34;#trackme&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;TrackMe came out of a frustration with other tracking apps as well as inspiration from Nick Felton, who&amp;rsquo;s been tracking his life in various ways and producing infographics &lt;a href=&#39;http://feltron.com/FAR05.html&#39;&gt;as far back as 2005&lt;/a&gt;. The thought is: if we have an easy way to track anything, and we store this data, we can use something like &lt;a href=&#34;https://d3js.org/&#34;&gt;D3.js&lt;/a&gt; to generate interactive infographics.&lt;/p&gt;
 
@@ -207,22 +202,20 @@ http://allaboutproductmanagement.blogspot.com/2007/03/project-manager-or-product
 
 &lt;iframe width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/7NZMM5rN_pA&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;h1 id=&#34;better-mcbw-a-name-mcbw-href-mcbw-i-class-ion-link-i-a:11c87cc1844e7dee51d304acbe274760&#34;&gt;Better MCBW &lt;a name=&#34;mcbw&#34; href=&#34;#mcbw&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;better-mcbw-a-name-mcbw-href-mcbw-i-class-ion-link-i-a&#34;&gt;Better MCBW &lt;a name=&#34;mcbw&#34; href=&#34;#mcbw&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
-&lt;p&gt;Better MCBW has its own entire post explaining the motivation and process. You can read more about it &lt;a href=&#34;https://bradorego.com/2016-05-better-mcbw/&#34;&gt;here&lt;/a&gt;. Better MCBW has seen a decent amount of traction among Madison Craft Beer Week participants despite the entire motivation being my own.&lt;/p&gt;
+&lt;p&gt;Better MCBW has its own entire post explaining the motivation and process. You can read more about it &lt;a href=&#34;http://bradorego.com/2016-05-better-mcbw/&#34;&gt;here&lt;/a&gt;. Better MCBW has seen a decent amount of traction among Madison Craft Beer Week participants despite the entire motivation being my own.&lt;/p&gt;
 
 &lt;iframe width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/yAJx1i41d04&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 </description>
-      <tags>ionic,ionic framework,firebase,product development,prototype,</tags>
     </item>
     
     <item>
       <title>Better MCBW</title>
-      <link>https://bradorego.com/case-study/better-mcbw</link>
-      <image>https://bradorego.com/img/case-study/better-mcbw/header.jpg</image>
+      <link>http://bradorego.com/case-study/better-mcbw</link>
       <pubDate>Mon, 02 May 2016 18:29:53 -0500</pubDate>
       
-      <guid>https://bradorego.com/case-study/better-mcbw</guid>
+      <guid>http://bradorego.com/case-study/better-mcbw</guid>
       <description>
 
 &lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
@@ -236,23 +229,23 @@ http://allaboutproductmanagement.blogspot.com/2007/03/project-manager-or-product
 &lt;/div&gt;
 &lt;hr/&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;backstory-a-name-backstory-href-backstory-i-class-ion-link-i-a:608891990651e25035713577174171c1&#34;&gt;Backstory &lt;a name=&#34;backstory&#34; href=&#34;#backstory&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;backstory-a-name-backstory-href-backstory-i-class-ion-link-i-a&#34;&gt;Backstory &lt;a name=&#34;backstory&#34; href=&#34;#backstory&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://madbeerweek.com&#34;&gt;Madison Craft Beer Week&lt;/a&gt; has been one of my favorite events since moving to Madison. Started as a grassroots project by a few local beer lovers, the event has ballooned to one of the best in the nation, featuring over 550 events this year. In years past, I&amp;rsquo;ve been involved in helping out on the tech side of things, and we had big plans for this upcoming year. But in September 2015, The Isthmus &lt;a href=&#34;http://isthmus.com/food-drink/beer/isthmus-acquires-madison-craft-beer-week/&#34;&gt;acquired Craft Beer Week&lt;/a&gt;, and took over all operations.&lt;/p&gt;
 
 &lt;p&gt;After hearing that the 2016 was &lt;a href=&#34;https://www.facebook.com/MadBeerWeek/posts/1225581240785685&#34;&gt;built natively&lt;/a&gt;, and as an Android user I would have to wait to get my hands on it, questions arose as to why such a technically/mechanically simple app wasn&amp;rsquo;t built using &lt;a href=&#34;http://ionicframework.com&#34;&gt;Ionic&lt;/a&gt;, a mobile app development framework built by a company based in Madison. After I got my hands on the Android app itself, I was less than enthusiastic about its performance and feature set.&lt;/p&gt;
 
-&lt;h1 id=&#34;reverse-engineering-it-a-name-reverse-href-reverse-i-class-ion-link-i-a:608891990651e25035713577174171c1&#34;&gt;Reverse Engineering It &lt;a name=&#34;reverse&#34; href=&#34;#reverse&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;reverse-engineering-it-a-name-reverse-href-reverse-i-class-ion-link-i-a&#34;&gt;Reverse Engineering It &lt;a name=&#34;reverse&#34; href=&#34;#reverse&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;So, realizing that my complaints weren&amp;rsquo;t getting anyone anywhere (not to mention I lacked the necessary context to know why they made the decisions they made), I had an idea: I have the APK, so I can decompile it, dig through it, and figure out exactly what API calls they&amp;rsquo;re making, and then emulate them with my own codebase. Simple enough, right? Well, for someone that knows virtually nothing about native Android development, this task proved simple yet pointless. I only gained one insight from it, which was the URL of their API. Then another idea hit me: why not just set up a proxy and read the HTTP requests?&lt;/p&gt;
 
-&lt;h3 id=&#34;enter-mitmproxy:608891990651e25035713577174171c1&#34;&gt;Enter &lt;code&gt;mitmproxy&lt;/code&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;enter-mitmproxy&#34;&gt;Enter &lt;code&gt;mitmproxy&lt;/code&gt;&lt;/h3&gt;
 
 &lt;p&gt;After doing a little bit of googling, I came across this &lt;a href=&#34;https://medium.com/@rotxed/how-to-debug-http-s-traffic-on-android-7fbe5d2a34#.mhbido9ys&#34;&gt;incredibly helpful article&lt;/a&gt; explaining step-by-step exactly what I wanted to do. Next thing I know, I had a proxy running on my laptop, my phone&amp;rsquo;s internet traffic streaming through that proxy, and I had access to every HTTP request the phone (and thus, the app) made. It was almost too easy.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/case-study/better-mcbw/mitmproxy.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/case-study/better-mcbw/mitmproxy.png&#34;&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;the-horror:608891990651e25035713577174171c1&#34;&gt;The Horror&lt;/h3&gt;
+&lt;h3 id=&#34;the-horror&#34;&gt;The Horror&lt;/h3&gt;
 
 &lt;p&gt;So, now that I had all of the HTTP requests (all, uh, 4 of them that the app seemed to be making), all I had to do was make those same requests with the same body, parse the response, and I was off to the races, right? This is all true, but in my inspection of the traffic, I came across a few horrifying realizations:&lt;/p&gt;
 
@@ -264,7 +257,7 @@ http://allaboutproductmanagement.blogspot.com/2007/03/project-manager-or-product
 
 &lt;p&gt;Interacting with this API was painful. I was literally parsing a tilde(~) delimited string to determine the result of actions, and then picking parts of that out to save (e.g. the access token). This kind of feels like somebody&amp;rsquo;s first attempt at making an API.&lt;/p&gt;
 
-&lt;h3 id=&#34;off-to-the-races:608891990651e25035713577174171c1&#34;&gt;Off to the Races&lt;/h3&gt;
+&lt;h3 id=&#34;off-to-the-races&#34;&gt;Off to the Races&lt;/h3&gt;
 
 &lt;p&gt;All of that aside, I thought I was in the clear. Build an Ionic app, replicate the responses, do some other stuff with the data. Simple enough, right? Aaaaand then I got &lt;code&gt;CORS&lt;/code&gt;&amp;rsquo;d, which I should&amp;rsquo;ve seen coming. After trying to find a way to get Angular to work around pre-flighting requests, I decided to bite the bullet and build a node proxy. ~100 lines of &lt;code&gt;Node.js&lt;/code&gt;/&lt;code&gt;Express&lt;/code&gt; code later, I was in business. Now we can send our requests to our own server which would make the same requests to the Craft Beer Week API and pass the results back.&lt;/p&gt;
 
@@ -283,17 +276,17 @@ http://allaboutproductmanagement.blogspot.com/2007/03/project-manager-or-product
 });
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;feature-parity:608891990651e25035713577174171c1&#34;&gt;Feature Parity&lt;/h3&gt;
+&lt;h3 id=&#34;feature-parity&#34;&gt;Feature Parity&lt;/h3&gt;
 
 &lt;p&gt;With all of that behind us, all we needed was to do was create the Ionic app to do what the native app did. Considering the native app is just a list of events, that was pretty straightforward. As part of this process, I&amp;rsquo;d spun up a little &lt;a href=&#34;http://firebase.com&#34;&gt;Firebase database&lt;/a&gt; to save my own version of user accounts (which I was still creating via the MCBW API). Further inspection of the app&amp;rsquo;s &amp;ldquo;save&amp;rdquo; feature revealed a lack of persistence of those events (it was only saving it on the device), so in trying to replicate features I was actually already improving the experience.&lt;/p&gt;
 
 &lt;p&gt;The rest, as they say, is history (or, at least, trivial).&lt;/p&gt;
 
-&lt;h3 id=&#34;deploying-to-heroku:608891990651e25035713577174171c1&#34;&gt;Deploying to Heroku&lt;/h3&gt;
+&lt;h3 id=&#34;deploying-to-heroku&#34;&gt;Deploying to Heroku&lt;/h3&gt;
 
 &lt;p&gt;Having a feature-parity Ionic app on your local machine is great and all, but it doesn&amp;rsquo;t do much good. Enter &lt;a href=&#34;http://blog.ionic.io/heroku-ionic/&#34;&gt;Ionic Heroku&lt;/a&gt;, which is a nifty little boilerplate that takes care of all of the setup and deploy configuration Heroku needs. You can hit one button, punch in a name, and you have a Heroku app. Copy your www/ file into the boilerplate&amp;rsquo;s (and update any npm/bower/ionic config you need to) and you&amp;rsquo;re golden. This was possibly the easiest step in the process.&lt;/p&gt;
 
-&lt;h1 id=&#34;making-it-better-a-name-improve-href-improve-i-class-ion-link-i-a:608891990651e25035713577174171c1&#34;&gt;Making It Better &lt;a name=&#34;improve&#34; href=&#34;#improve&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;making-it-better-a-name-improve-href-improve-i-class-ion-link-i-a&#34;&gt;Making It Better &lt;a name=&#34;improve&#34; href=&#34;#improve&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;At this point, I&amp;rsquo;d spent about 8 hours including all development time and research into how their API worked. I could&amp;rsquo;ve called it a day - I&amp;rsquo;d built an app that reached feature parity and could be deployed to Android and iOS. My work here was done. But, even by reaching parity, I hadn&amp;rsquo;t made anything better. At the end of the day, I was building this app for myself, so stopping here wouldn&amp;rsquo;t&amp;rsquo;ve helped. So, I set out with a short list of ways to improve the experience:&lt;/p&gt;
 
@@ -306,7 +299,7 @@ http://allaboutproductmanagement.blogspot.com/2007/03/project-manager-or-product
 &lt;li&gt;What if I got an email every morning with my saved events for the day?&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;gzip-is-your-friend:608891990651e25035713577174171c1&#34;&gt;&lt;code&gt;gzip&lt;/code&gt; is your friend&lt;/h3&gt;
+&lt;h3 id=&#34;gzip-is-your-friend&#34;&gt;&lt;code&gt;gzip&lt;/code&gt; is your friend&lt;/h3&gt;
 
 &lt;p&gt;Where do we start? What&amp;rsquo;re the low-hanging fruit? Let&amp;rsquo;s see what we can do about this JSON dump. As it turns out, the MCBW API wasn&amp;rsquo;t using any compression. Enabling &lt;code&gt;gzip&lt;/code&gt; on my Node server brought that 700 down to ~100, which is a huge improvement. Inspecting the data further, it seemed that all the data was there twice - as both an index and a keyed index. That lead to a horrific piece of code that looked something like this:&lt;/p&gt;
 
@@ -327,13 +320,13 @@ http://allaboutproductmanagement.blogspot.com/2007/03/project-manager-or-product
 
 &lt;p&gt;Which brought us down to 80KB. Still not great, but much better than 700KB. Okay, great, what&amp;rsquo;s next? Sharing seems like it&amp;rsquo;s pretty straightforward.&lt;/p&gt;
 
-&lt;h3 id=&#34;enabling-sharing:608891990651e25035713577174171c1&#34;&gt;Enabling sharing&lt;/h3&gt;
+&lt;h3 id=&#34;enabling-sharing&#34;&gt;Enabling sharing&lt;/h3&gt;
 
 &lt;p&gt;This isn&amp;rsquo;t going to be a lecture about how powerful social sharing plugins are in viral/organic growth. I&amp;rsquo;m less concerned about that and more concerned about the end-user experience. Considering I already had my own Firebase database, enabling this was actually trivial. Create a route outside the context of the app (otherwise users would get redirected to login) that took in the user&amp;rsquo;s ID (from the URL) and pulled out the list of their saved events. Simple, straightforward, elegant. Add in a few social share buttons for convenience and the app practically markets itself.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/case-study/better-mcbw/sharing.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/case-study/better-mcbw/sharing.png&#34;&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;dividers:608891990651e25035713577174171c1&#34;&gt;Dividers&lt;/h3&gt;
+&lt;h3 id=&#34;dividers&#34;&gt;Dividers&lt;/h3&gt;
 
 &lt;p&gt;Regardless of the content, a 500-item list is overwhelming. Adding date dividers at least makes it a little easier to scan through. The implementation of this is actually pretty straightforward. Here&amp;rsquo;s that snippet (for dates) in all its glory:&lt;/p&gt;
 
@@ -351,9 +344,9 @@ http://allaboutproductmanagement.blogspot.com/2007/03/project-manager-or-product
 
 &lt;p&gt;Couple this with &lt;code&gt;$ionInfiniteScroll&lt;/code&gt; and we have lazy-loading events 20 at a time plus dividers. Much better than spitting out a list of 500 events and having users fend for themselves.&lt;/p&gt;
 
-&lt;h3 id=&#34;searching-sorting-maps:608891990651e25035713577174171c1&#34;&gt;Searching, Sorting, Maps&lt;/h3&gt;
+&lt;h3 id=&#34;searching-sorting-maps&#34;&gt;Searching, Sorting, Maps&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/case-study/better-mcbw/map.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/case-study/better-mcbw/map.png&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;That&amp;rsquo;s great and all, but what if I&amp;rsquo;m looking for a specific event? What if I&amp;rsquo;m in a particular part of town and I want to know what my other options are nearby? Sorting and Filtering were actually somewhat of a happy accident between what Angular offers and how I&amp;rsquo;d structured the rest of the app. When the user logs in, I fetch the list of events once and cache it. From there, pretty much everything they see is some permutation of that.&lt;/p&gt;
 
@@ -363,15 +356,15 @@ http://allaboutproductmanagement.blogspot.com/2007/03/project-manager-or-product
 
 &lt;p&gt;Mapping proved a little more difficult. After wrestling with all of the available Angular Google Maps solutions, I settled on &lt;a href=&#34;https://ngmap.github.io/&#34;&gt;ngMap&lt;/a&gt;. It made the most sense to me from a structural standpoint, and made a lot of the subsequent code incredibly easy to write (think: virtually no controller code to place markers and pop up and info window on click). A little date finagling to make sure we&amp;rsquo;re showing the right pins, and a tiny insight into managing 500 events on a map (which is actually something I learned from last year&amp;rsquo;s MCBW website) and we&amp;rsquo;ve finally reached a point where I think I can say I&amp;rsquo;m done. Well, almost&amp;hellip;.&lt;/p&gt;
 
-&lt;h3 id=&#34;checkin-da-emails:608891990651e25035713577174171c1&#34;&gt;Checkin&amp;rsquo; da Emails&lt;/h3&gt;
+&lt;h3 id=&#34;checkin-da-emails&#34;&gt;Checkin&amp;rsquo; da Emails&lt;/h3&gt;
 
 &lt;p&gt;This is a terrible example of staying lean (as opposed to most of the other development on this project, which was driven by me trying to use my own app out in the wild), but I had the idea of sending an email every morning with the list of events you&amp;rsquo;d saved for that day. Partly because, theoretically, that eliminates the need to ever check your to-do list again. Log on once, save the events you want, and then it&amp;rsquo;ll email you your schedule for the day. Sounds ideal.&lt;/p&gt;
 
 &lt;p&gt;After wrestling with MailGun for awhile, &lt;a href=&#34;https://sendgrid.com/&#34;&gt;SendGrid&lt;/a&gt; won out in terms of simplicity. I had test emails out within minutes, and all I had to do then was write a little server code to compile the list, do some basic HTML formatting, and that&amp;rsquo;s one more feature to add to the list. I thought I was just doing this for myself, but I was instantly validated by this exchange:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/case-study/better-mcbw/lauren.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/case-study/better-mcbw/lauren.png&#34; /&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;the-fuuuuuuuuuture-a-name-future-href-future-i-class-ion-link-i-a:608891990651e25035713577174171c1&#34;&gt;The Fuuuuuuuuuture &lt;a name=&#34;future&#34; href=&#34;#future&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;the-fuuuuuuuuuture-a-name-future-href-future-i-class-ion-link-i-a&#34;&gt;The Fuuuuuuuuuture &lt;a name=&#34;future&#34; href=&#34;#future&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;More than once already this week, people have brought up the idea of some sort of optimization algorithm. Each event has a start time, and end time, and a location. This sounds like some sort of modified Travelling Salesman Problem, and while that would be a lot of fun to try to implement, I think that&amp;rsquo;s a &amp;ldquo;next-year&amp;rdquo; type of feature. After all, I&amp;rsquo;ve already sunk a whopping ~20 hours into this project. I can only imagine what The Isthmus paid their developers and how much time they spent on this.&lt;/p&gt;
 
@@ -379,13 +372,13 @@ http://allaboutproductmanagement.blogspot.com/2007/03/project-manager-or-product
 
 &lt;p&gt;There also could be increased security, as right now I&amp;rsquo;m pretty sure if you have someone&amp;rsquo;s user ID you can modify their list of saved events, but again, 20 hours of free work plus it&amp;rsquo;s an app that&amp;rsquo;s only useful for one week (and for a beer event, no less).&lt;/p&gt;
 
-&lt;h1 id=&#34;lessons-learned-a-name-lessons-href-lessons-i-class-ion-link-i-a:608891990651e25035713577174171c1&#34;&gt;Lessons Learned &lt;a name=&#34;lessons&#34; href=&#34;#lessons&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;lessons-learned-a-name-lessons-href-lessons-i-class-ion-link-i-a&#34;&gt;Lessons Learned &lt;a name=&#34;lessons&#34; href=&#34;#lessons&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
-&lt;h3 id=&#34;firebase-synchronized-arrays:608891990651e25035713577174171c1&#34;&gt;Firebase Synchronized Arrays&lt;/h3&gt;
+&lt;h3 id=&#34;firebase-synchronized-arrays&#34;&gt;Firebase Synchronized Arrays&lt;/h3&gt;
 
 &lt;p&gt;One thing I learned in trying to build this Saved Event feature is &lt;a href=&#34;https://www.firebase.com/docs/web/libraries/angular/guide/synchronized-arrays.html&#34;&gt;Firebase arrays&lt;/a&gt; don&amp;rsquo;t work the way you think they do. I had a list of events  (JSON objects) that I would push to an array (via &lt;code&gt;$firebaseArray.$add&lt;/code&gt;), and when someone unchecked the magic box, I tried to use &lt;code&gt;$firebaseArray.$remove&lt;/code&gt;, except that only works if you&amp;rsquo;re talking about the same reference you used to push to the array. So, if you have a list of items, you push &lt;em&gt;a copy&lt;/em&gt; of one to the array, then try to remove it, it didn&amp;rsquo;t work.&lt;/p&gt;
 
-&lt;h3 id=&#34;keyed-arrays-make-sense-sometimes:608891990651e25035713577174171c1&#34;&gt;Keyed Arrays Make Sense Sometimes&lt;/h3&gt;
+&lt;h3 id=&#34;keyed-arrays-make-sense-sometimes&#34;&gt;Keyed Arrays Make Sense Sometimes&lt;/h3&gt;
 
 &lt;p&gt;As a corollary to the above realization, keyed arrays actually make a lot of sense sometimes. The solution to this problem (while not the most elegant/efficient solution) is to create a keyed array of saved events. Every time a user saves/unsaves an event, we update the user&amp;rsquo;s &lt;code&gt;saved&lt;/code&gt; array by updating the object at that key, e.g.&lt;/p&gt;
 
@@ -394,26 +387,24 @@ http://allaboutproductmanagement.blogspot.com/2007/03/project-manager-or-product
   delete profile.saved[event.id];
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;videos-a-name-videos-href-videos-i-class-ion-link-i-a:608891990651e25035713577174171c1&#34;&gt;Videos &lt;a name=&#34;videos&#34; href=&#34;#videos&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;videos-a-name-videos-href-videos-i-class-ion-link-i-a&#34;&gt;Videos &lt;a name=&#34;videos&#34; href=&#34;#videos&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
-&lt;h3 id=&#34;official-mcbw:608891990651e25035713577174171c1&#34;&gt;Official MCBW:&lt;/h3&gt;
+&lt;h3 id=&#34;official-mcbw&#34;&gt;Official MCBW:&lt;/h3&gt;
 
 &lt;iframe width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/s4OAGhlFpcQ&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;h3 id=&#34;better-mcbw:608891990651e25035713577174171c1&#34;&gt;Better MCBW:&lt;/h3&gt;
+&lt;h3 id=&#34;better-mcbw&#34;&gt;Better MCBW:&lt;/h3&gt;
 
 &lt;iframe width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/yAJx1i41d04&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 </description>
-      <tags>ionic,madbeerweek,reverse engineer,ux,feature parity,firebase,</tags>
     </item>
     
     <item>
       <title>Back to Static</title>
-      <link>https://bradorego.com/back-to-static</link>
-      <image>https://bradorego.com/img/posts/back-to-static/header.jpg</image>
+      <link>http://bradorego.com/back-to-static</link>
       <pubDate>Thu, 14 Apr 2016 12:26:53 -0500</pubDate>
       
-      <guid>https://bradorego.com/back-to-static</guid>
+      <guid>http://bradorego.com/back-to-static</guid>
       <description>
 
 &lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
@@ -428,21 +419,21 @@ http://allaboutproductmanagement.blogspot.com/2007/03/project-manager-or-product
 
 &lt;p&gt;As you might be able to tell, my last blog post is from 2014. It was about time to get back on the blog horse but also give the site a little facelift. I&amp;rsquo;d &lt;a href=&#34;http://beerbatterbreakfast.com/2014/07/fancy-new-blog.html&#34;&gt;migrated blog platforms&lt;/a&gt; in the past, but never really took the time to think about how my own personal site was hosted. So let&amp;rsquo;s take a quick trip down memory lane.&lt;/p&gt;
 
-&lt;h1 id=&#34;static-site-2011-a-name-2011-href-2011-i-class-ion-link-i-a:713252246435f0d8330ff0c53c578039&#34;&gt;Static Site (2011) &lt;a name=&#34;2011&#34; href=&#34;#2011&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;static-site-2011-a-name-2011-href-2011-i-class-ion-link-i-a&#34;&gt;Static Site (2011) &lt;a name=&#34;2011&#34; href=&#34;#2011&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;When I first got into web development (professionally), I thought it&amp;rsquo;d be cool to build my own website from scratch to prove my mettle. That was 2011; certainly not far enough ago by any means for most of the technologies in use today to not exist. But, I was young and naive, and had some big ideas (e.g. a live CSS switcher, replicating the exact same look/behavior with and without Javascript, etc).&lt;/p&gt;
 
 &lt;p&gt;I learned very quickly from that experience that keeping a static site up to date was really difficult. Any time you made a change one place, you had to make sure you made it everywhere. You had to make sure to manage collisions. You had to handle your own deploys and routing. It was a hassle, and I virtually never updated the site, so after spending some time working with &lt;a href=&#34;https://zebradog.com&#34;&gt;ZebraDog&lt;/a&gt; and seeing the power of Drupal, I decided it was time for a change.&lt;/p&gt;
 
-&lt;h1 id=&#34;drupal-7-0-2012-a-name-2012-href-2012-i-class-ion-link-i-a:713252246435f0d8330ff0c53c578039&#34;&gt;Drupal 7.0 (2012) &lt;a name=&#34;2012&#34; href=&#34;#2012&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;drupal-7-0-2012-a-name-2012-href-2012-i-class-ion-link-i-a&#34;&gt;Drupal 7.0 (2012) &lt;a name=&#34;2012&#34; href=&#34;#2012&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
-&lt;p&gt;So I set out to &lt;a href=&#34;https://bradorego.com/2012-11-new-site/&#34;&gt;update and re-design&lt;/a&gt; the website again, this time using something a little more powerful and modern, and to make it easier for me to create new content while still having full control and flexibility over how it&amp;rsquo;s displayed and what functionality the website had.&lt;/p&gt;
+&lt;p&gt;So I set out to &lt;a href=&#34;http://bradorego.com/2012-11-new-site/&#34;&gt;update and re-design&lt;/a&gt; the website again, this time using something a little more powerful and modern, and to make it easier for me to create new content while still having full control and flexibility over how it&amp;rsquo;s displayed and what functionality the website had.&lt;/p&gt;
 
 &lt;p&gt;After all, at ZD we&amp;rsquo;d built a lot of things on Drupal, ranging from fairly simple &lt;a href=&#34;http://www.kellerrealestategroup.com/&#34;&gt;real estate websites&lt;/a&gt; to fairly complicated &lt;a href=&#34;http://www.mstc.edu/&#34;&gt;institutional websites&lt;/a&gt; to the backbone of &lt;a href=&#34;https://www.youtube.com/watch?v=VuicjhSpbV8&#34;&gt;interactive multimedia installations&lt;/a&gt;. I could use it to build a measly blog and portfolio website, right?&lt;/p&gt;
 
 &lt;p&gt;The problem wasn&amp;rsquo;t whether I could; in fact the problem was probably &lt;strong&gt;that&lt;/strong&gt; I could. I built an incredible media delivery site that was isolated from the world and almost too powerful for its own good. Developing and maintaining the site was nontrivial, and adding new content, while certainly easier than a static site, was beyond me.&lt;/p&gt;
 
-&lt;h1 id=&#34;back-to-static-2016-a-name-2016-href-2016-i-class-ion-link-i-a:713252246435f0d8330ff0c53c578039&#34;&gt;Back to Static (2016) &lt;a name=&#34;2016&#34; href=&#34;#2016&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;back-to-static-2016-a-name-2016-href-2016-i-class-ion-link-i-a&#34;&gt;Back to Static (2016) &lt;a name=&#34;2016&#34; href=&#34;#2016&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;Blog technology philosophy has shifted lately. WordPress is still the clear winner in the space, but there&amp;rsquo;s an alternative to generating the site every time it&amp;rsquo;s requested. These take the form of static generators, and make a lot more sense to me personally. Jekyll, Ghost, Hugo, Hexo; the list goes on. What&amp;rsquo;s under the hood doesn&amp;rsquo;t really matter (which, as an aside, makes switching way easier) &amp;mdash; all that matters is the static HTML/CSS/JS they output.&lt;/p&gt;
 
@@ -456,19 +447,17 @@ http://allaboutproductmanagement.blogspot.com/2007/03/project-manager-or-product
 
 &lt;p&gt;So (and I&amp;rsquo;ve said this before), theoretically keeping the site updated will be a lot easier. I somewhat feel like a cop-out for using a fairly standard template/look-and-feel, but at the end of the day, my job as a designer isn&amp;rsquo;t to make things look pretty or to be unique. My job is to provide the best experience possible for my users. In the context of a blog, that means engaging, useful content; not pretty pictures.&lt;/p&gt;
 </description>
-      <tags>meta,design,hugo,blog,drupal,content,</tags>
     </item>
     
     <item>
       <title>MobileIgniter</title>
-      <link>https://bradorego.com/case-study/mobileigniter</link>
-      <image>https://bradorego.com/img/case-study/mobile-igniter/header.jpg</image>
+      <link>http://bradorego.com/case-study/mobileigniter</link>
       <pubDate>Fri, 01 Apr 2016 15:11:33 -0500</pubDate>
       
-      <guid>https://bradorego.com/case-study/mobileigniter</guid>
+      <guid>http://bradorego.com/case-study/mobileigniter</guid>
       <description>
 
-&lt;h1 id=&#34;about:19aee21804f9101f4647ec2b7a0a8d5a&#34;&gt;About&lt;/h1&gt;
+&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://mobileigniter.com&#34;&gt;MobileIgniter&lt;/a&gt; is an Internet-of-Things consultancy and product development firm that has worked with numerous clients, ranging from Fortune 500 companies to early-stage startups, and touched many industries including consumer appliances, insurance, and air quality. MI&amp;rsquo;s engagements included helping companies figure out if IoT was right for their business/product from a strategic standpoint, helping ideate and prototype different interactions and feature sets having a &amp;ldquo;smart&amp;rdquo; device would afford, and as far as taking products to market. MobileIgniter has a unique combination of electrical engieering, software development, and business analysis that enables the company to contribute at every stop of the product development lifecycle.&lt;/p&gt;
 
@@ -476,30 +465,28 @@ http://allaboutproductmanagement.blogspot.com/2007/03/project-manager-or-product
 
 &lt;p&gt;Unfortunately most of the work MobileIgniter has done is under NDA, so while I can&amp;rsquo;t speak publicly about specific projects, some highlights include designing and running usability studies for a Fortune 1000 company, helping a Fortune 500 company learn Angular and Agile methodologies, publishing the &lt;a href=&#34;http://www.slideshare.net/mi-tim/usability-research-checklist-58988252/mi-tim/usability-research-checklist-58988252&#34;&gt;Usability Research Checklist&lt;/a&gt;, and developing &lt;a href=&#34;https://github.com/MobileIgniter/ng-photon&#34;&gt;ngPhoton&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h1 id=&#34;selected-images:19aee21804f9101f4647ec2b7a0a8d5a&#34;&gt;Selected Images&lt;/h1&gt;
+&lt;h1 id=&#34;selected-images&#34;&gt;Selected Images&lt;/h1&gt;
 
 &lt;p&gt;MobileIgniter&amp;rsquo;s IoT Landing Page
-&lt;img src=&#34;https://bradorego.com/img/case-study/mobile-igniter/iot-desktop.png&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/mobile-igniter/iot-desktop.png&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;LaundryMate Laundry Sensor Landing Page (Homeowner)
-&lt;img src=&#34;https://bradorego.com/img/case-study/mobile-igniter/laundrymate-personal-desktop.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/mobile-igniter/laundrymate-personal-desktop.png&#34; /&gt;
 LaundryMate Buy Page
-&lt;img src=&#34;https://bradorego.com/img/case-study/mobile-igniter/laundrymate-buy-mobile.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/mobile-igniter/laundrymate-buy-mobile.png&#34; /&gt;
 LaundryMate Laundry Sensor Landing Page (Laundromat User)
-&lt;img src=&#34;https://bradorego.com/img/case-study/mobile-igniter/laundrymate-laundromat-desktop.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/mobile-igniter/laundrymate-laundromat-desktop.png&#34; /&gt;
 UXLab @ MobileIgniter Landing Page
-&lt;img src=&#34;https://bradorego.com/img/case-study/mobile-igniter/uxlab-small-desktop.png&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/mobile-igniter/uxlab-small-desktop.png&#34; /&gt;&lt;/p&gt;
 </description>
-      <tags>startup,entrepreneurship,ux,usability research,mobile app,ionic,iot,</tags>
     </item>
     
     <item>
       <title>Transparency of &#34;Online&#34;</title>
-      <link>https://bradorego.com/transparency-of-online</link>
-      <image>https://bradorego.com/img/posts/transparency-of-online/header.png</image>
+      <link>http://bradorego.com/transparency-of-online</link>
       <pubDate>Tue, 15 Jul 2014 17:37:34 -0500</pubDate>
       
-      <guid>https://bradorego.com/transparency-of-online</guid>
+      <guid>http://bradorego.com/transparency-of-online</guid>
       <description>
 
 &lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
@@ -514,21 +501,21 @@ UXLab @ MobileIgniter Landing Page
 
 &lt;p&gt;With all the talk about unplugging, disconnecting, screen time, and going &amp;ldquo;off the grid&amp;rdquo;, there&amp;rsquo;s clearly been a shift in the way we interact with technology and the implications it has for society (as well as possibly our mental health). The &lt;a href=&#34;http://nationaldayofunplugging.com/&#34;&gt;National Day of Unplugging&lt;/a&gt; is dedicated to people spending ~24 hours (sundown to sundown) without engaging with technology under the premise of doing things like being more present, destressing, etc. While I could go on about how something meant to help us has become this burden of sorts, I&amp;rsquo;m more interested in the implications (from an experiential standpoint) of being forever-on.&lt;/p&gt;
 
-&lt;h1 id=&#34;always-connected-a-name-always-href-always-i-class-ion-link-i-a:0630faa271b6c4fe5b485a19f90d0aad&#34;&gt;Always Connected &lt;a name=&#34;always&#34; href=&#34;#always&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;always-connected-a-name-always-href-always-i-class-ion-link-i-a&#34;&gt;Always Connected &lt;a name=&#34;always&#34; href=&#34;#always&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;I first noticed this subtle shift when talking to someone a few weeks ago on &lt;a href=&#34;https://www.hipchat.com/&#34;&gt;HipChat&lt;/a&gt;. I was in the middle of a conversation on my laptop and knew I had to step away from the computer for a few minutes, but I didn&amp;rsquo;t feel any need to notify my conversation partner about this. Two main reasons - 1) if it were actually all that important/crucial, I could always answer it on my phone, and 2) the message wasn&amp;rsquo;t going anywhere so if I got back to him immediately or within the next 5-10 minutes, it didn&amp;rsquo;t really make a difference.&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;ve noticed an almost identical interaction pattern with Facebook Messenger. I no longer worry whether or not the person is there, nor do I feel the need to alert others of my status. In fact, most of my conversations via FB happen over the course of hours, days, even weeks at a time. The transparency of status is completely irrelevant to our interaction because we both know the messages will be there if and when the other party gets around to responding.&lt;/p&gt;
 
-&lt;h1 id=&#34;it-gets-better-or-worse-a-name-better-href-better-i-class-ion-link-i-a:0630faa271b6c4fe5b485a19f90d0aad&#34;&gt;It gets better (or worse..?) &lt;a name=&#34;better&#34; href=&#34;#better&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;it-gets-better-or-worse-a-name-better-href-better-i-class-ion-link-i-a&#34;&gt;It gets better (or worse..?) &lt;a name=&#34;better&#34; href=&#34;#better&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;Of course, there are drawbacks to this. Everybody knows the dread associatied with the assumption that, because you have a smartphone/phone/computer/laptop/tablet/smartwatch/whatever, that you can be reached any day, any time, and that creates this obsessive need to have notifications turned on for everything. The problem gets worse as we move into more-ubiquitous forms of computing, such as wearable technology.&lt;/p&gt;
 
 &lt;p&gt;This past weekend at &lt;a href=&#34;http://madisonpl.us/ux&#34;&gt;Madison+UX&lt;/a&gt;, Philip Likens gave a talk about &lt;a href=&#34;http://www.slideshare.net/philiplikens/philip-likens-madisonux&#34;&gt;wearable computing&lt;/a&gt;, mentioning that he&amp;rsquo;s abandoned most of his wearables due to &lt;a href=&#34;https://www.google.com/search?q=notifiaction+overload&amp;amp;oq=notifiaction+overload&amp;amp;aqs=chrome..69i57.2313j0j1&amp;amp;sourceid=chrome&amp;amp;es_sm=91&amp;amp;ie=UTF-8#q=notification+overload&amp;amp;spell=1&#34;&gt;notification overload&lt;/a&gt;. In (roughly) his own words, having his phone, his watch, and his Google Glass all vibrate simultaneously any time anything happened became a little overwhelming. So now, instead of having some sense of what&amp;rsquo;s going on, he doesn&amp;rsquo;t even carry his phone on his person - totally shut off.&lt;/p&gt;
 
-&lt;p&gt;I&amp;rsquo;m inadventently running the same experiment - I put my phone on silent for the conference (due to the exorbitant amount of Twitter notifications I was getting) and I simply forgot to put it back on vibrate for the first day or two. What I realized is that I spent less time on minor distractions (increasing my overall &lt;a href=&#34;https://bradorego.com/2013-03-the-importance-of-flow/&#34;&gt;flow&lt;/a&gt;), and I only checked the phone when I wanted to. It was back to on-demand instead of being always on, and it&amp;rsquo;s really refreshing.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m inadventently running the same experiment - I put my phone on silent for the conference (due to the exorbitant amount of Twitter notifications I was getting) and I simply forgot to put it back on vibrate for the first day or two. What I realized is that I spent less time on minor distractions (increasing my overall &lt;a href=&#34;http://bradorego.com/2013-03-the-importance-of-flow/&#34;&gt;flow&lt;/a&gt;), and I only checked the phone when I wanted to. It was back to on-demand instead of being always on, and it&amp;rsquo;s really refreshing.&lt;/p&gt;
 
-&lt;h1 id=&#34;designing-notifications-a-name-notifications-href-notifications-i-class-ion-link-i-a:0630faa271b6c4fe5b485a19f90d0aad&#34;&gt;Designing Notifications &lt;a name=&#34;notifications&#34; href=&#34;#notifications&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;designing-notifications-a-name-notifications-href-notifications-i-class-ion-link-i-a&#34;&gt;Designing Notifications &lt;a name=&#34;notifications&#34; href=&#34;#notifications&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;So what does this mean to us as Experience Designers? A few things:&lt;/p&gt;
 
@@ -541,19 +528,17 @@ UXLab @ MobileIgniter Landing Page
 
 &lt;p&gt;And of course many more.&lt;/p&gt;
 </description>
-      <tags>offline,transparency,notifications,flow,ubiquitous computing,</tags>
     </item>
     
     <item>
       <title>Clean Clear Waters</title>
-      <link>https://bradorego.com/case-study/clean-clear-waters</link>
-      <image>https://bradorego.com/img/case-study/clean-clear-waters/wires.png</image>
+      <link>http://bradorego.com/case-study/clean-clear-waters</link>
       <pubDate>Mon, 14 Apr 2014 15:10:54 -0500</pubDate>
       
-      <guid>https://bradorego.com/case-study/clean-clear-waters</guid>
+      <guid>http://bradorego.com/case-study/clean-clear-waters</guid>
       <description>
 
-&lt;h1 id=&#34;about:0b1dfc567fa55bcbc48ecf5d01bfe807&#34;&gt;About&lt;/h1&gt;
+&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
 
 &lt;p&gt;One of the many projects I&amp;rsquo;ve been involed with via &lt;a href=&#34;http://100state.com&#34;&gt;100state&lt;/a&gt; was one in collaboration with the &lt;a href=&#34;https://cleanlakesalliance.com/&#34;&gt;Clean Lakes Alliance&lt;/a&gt;, a non-profit &amp;ldquo;dedicated to the improvement and protection of the lakes, streams, and wetlands of the Yahara Watershed&amp;rdquo;. One of their initiatives involves soliciting volunteers to collect data about water quality nearby their homes and places of work in order to monitor and gain insight on the water.&lt;/p&gt;
 
@@ -563,49 +548,45 @@ UXLab @ MobileIgniter Landing Page
 
 &lt;p&gt;After I ended my engagement on the project, MIOsoft completely took over responsibility for the project. The live version can be seen at &lt;a href=&#34;http://lakeforecast.org/&#34;&gt;Lakeforecast.org&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h1 id=&#34;selected-images:0b1dfc567fa55bcbc48ecf5d01bfe807&#34;&gt;Selected Images&lt;/h1&gt;
+&lt;h1 id=&#34;selected-images&#34;&gt;Selected Images&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/case-study/clean-clear-waters/wires.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/clean-clear-waters/mockup.png&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/case-study/clean-clear-waters/wires.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/clean-clear-waters/mockup.png&#34; /&gt;
 Lakeforecast.org Map View
-&lt;img src=&#34;https://bradorego.com/img/case-study/clean-clear-waters/map.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/clean-clear-waters/map.png&#34; /&gt;
 Lakeforecast.org Beach View
-&lt;img src=&#34;https://bradorego.com/img/case-study/clean-clear-waters/beach.png&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/clean-clear-waters/beach.png&#34; /&gt;&lt;/p&gt;
 </description>
-      <tags>clean lakes alliance,100state,ionic,product design,</tags>
     </item>
     
     <item>
       <title>Nextt</title>
-      <link>https://bradorego.com/case-study/nextt</link>
-      <image>https://bradorego.com/img/case-study/nextt/screens.png</image>
+      <link>http://bradorego.com/case-study/nextt</link>
       <pubDate>Sat, 01 Mar 2014 15:11:21 -0500</pubDate>
       
-      <guid>https://bradorego.com/case-study/nextt</guid>
+      <guid>http://bradorego.com/case-study/nextt</guid>
       <description>
 
-&lt;h1 id=&#34;about:ebeef24fe61de8fef2a98739c1cee8ca&#34;&gt;About&lt;/h1&gt;
+&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
 
 &lt;p&gt;Nextt is a social event planning tool designed to help get all of your friends on the same page and to get together offline in the real world. While working with Nextt, I was responsible for development of the mobile web app (which eventually became Nextt&amp;rsquo;s Android app), as well as overseeing parts of the overall User Experience and wrangling all of the data, metrics, and analytics to help guide product development. The most interesting and valuable piece of this experience was building everything from the ground up by hand - no frameworks, no tools. I learned a ton about mobile performance, and what it takes to develop a compelling experience on mobile.&lt;/p&gt;
 
 &lt;p&gt;Along with advising visual design, branding, and interaction design, there were several small victories we achieved, such as increasing the unauth (invite) conversion rate from ~10% to ~40%, and streamlining the onboarding process to get users up to speed and interacting with the system in a meaningful way. I championed tight iteration loops and data-driven decisions about design and feature prioritization, and also managed all of Nextt&amp;rsquo;s usability studies, email questionnaires, and analytics suite. We prepared daily reports to the CEO and weekly to the Board to monitor our progress.&lt;/p&gt;
 
-&lt;h1 id=&#34;selected-images:ebeef24fe61de8fef2a98739c1cee8ca&#34;&gt;Selected Images&lt;/h1&gt;
+&lt;h1 id=&#34;selected-images&#34;&gt;Selected Images&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/case-study/nextt/unauth.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/nextt/onboarding.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/nextt/screens.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/case-study/nextt/unauth.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/nextt/onboarding.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/nextt/screens.png&#34; /&gt;&lt;/p&gt;
 </description>
-      <tags>startup,entrepreneurship,ux,usability research,analytics,mobile app,mixpanel,</tags>
     </item>
     
     <item>
       <title>Progressive Enhancement with Phonegap</title>
-      <link>https://bradorego.com/progressive-enhancement-with-phonegap</link>
-      <image>https://bradorego.com/img/posts/prog-enh-phonegap/header.png</image>
+      <link>http://bradorego.com/progressive-enhancement-with-phonegap</link>
       <pubDate>Thu, 20 Feb 2014 16:46:54 -0500</pubDate>
       
-      <guid>https://bradorego.com/progressive-enhancement-with-phonegap</guid>
+      <guid>http://bradorego.com/progressive-enhancement-with-phonegap</guid>
       <description>
 
 &lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
@@ -626,11 +607,11 @@ Lakeforecast.org Beach View
 
 &lt;p&gt;This post will go into detail of how to make it work, but at a very high level, all you have to do is alter the User Agent coming out of your Phonegapped app, then sniff for that special UA string on the server side of wherever your web code is living, and if it&amp;rsquo;s there, enable Phonegap-specific code. If not, let it function as a normal web app - no harm, no foul. It&amp;rsquo;s an incredibly powerful tool that lets you use ~98% of the same code for your Android/iPhone app and your web app.&lt;/p&gt;
 
-&lt;h1 id=&#34;step-0-set-up-your-phonegap-project-server-etc-a-name-setup-href-setup-i-class-ion-link-i-a:b24c23782d00ece4bee8e2115b865429&#34;&gt;Step 0) Set up your Phonegap project, server, etc. &lt;a name=&#34;setup&#34; href=&#34;#setup&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;step-0-set-up-your-phonegap-project-server-etc-a-name-setup-href-setup-i-class-ion-link-i-a&#34;&gt;Step 0) Set up your Phonegap project, server, etc. &lt;a name=&#34;setup&#34; href=&#34;#setup&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;This guide won&amp;rsquo;t go into detail about how exactly to set up a phonegap application, or how to get started with Rails. I&amp;rsquo;ll leave that as an exercise to the reader, but also you can clone my &lt;a href=&#34;https://github.com/borego/progressive_enhancement_phonegap&#34;&gt;github repo&lt;/a&gt; which has all of that (and many other things) done for you. You&amp;rsquo;ll also need to, for the purpose of this demo, add the Contacts plugin to your Phonegap app.&lt;/p&gt;
 
-&lt;h1 id=&#34;step-1-point-your-phonegap-app-at-your-web-app-a-name-content-href-content-i-class-ion-link-i-a:b24c23782d00ece4bee8e2115b865429&#34;&gt;Step 1) Point your Phonegap app at your web app &lt;a name=&#34;content&#34; href=&#34;#content&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;step-1-point-your-phonegap-app-at-your-web-app-a-name-content-href-content-i-class-ion-link-i-a&#34;&gt;Step 1) Point your Phonegap app at your web app &lt;a name=&#34;content&#34; href=&#34;#content&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;This step seems a bit trivial, but it&amp;rsquo;s not part of the default Phonegap configuration. In your &lt;code&gt;www/config.xml&lt;/code&gt; file, add the following line:&lt;/p&gt;
 
@@ -639,7 +620,7 @@ Lakeforecast.org Beach View
 
 &lt;p&gt;In the example repo, the path is replaced with &lt;code&gt;http://prog-enh-pg.herokuapp.com/&lt;/code&gt;, as that&amp;rsquo;s where the heroku app lives for the demo. I usually put it after the &lt;code&gt;&amp;lt;author&amp;gt;&lt;/code&gt; tag as well, but I don&amp;rsquo;t think that&amp;rsquo;s required.&lt;/p&gt;
 
-&lt;h1 id=&#34;step-2-modify-the-user-agent-coming-out-of-your-pg-app-a-name-useragent-href-useragent-i-class-ion-link-i-a:b24c23782d00ece4bee8e2115b865429&#34;&gt;Step 2) Modify the User Agent coming out of your PG app &lt;a name=&#34;userAgent&#34; href=&#34;#userAgent&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;step-2-modify-the-user-agent-coming-out-of-your-pg-app-a-name-useragent-href-useragent-i-class-ion-link-i-a&#34;&gt;Step 2) Modify the User Agent coming out of your PG app &lt;a name=&#34;userAgent&#34; href=&#34;#userAgent&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;This is basically the only part that&amp;rsquo;s platform-specific. Obviously the way you do this on Android is going to differ from the way you do it on iOS. This guide only details the Android one, but it would be just as easy to do in iOS (or Windows Phone).&lt;/p&gt;
 
@@ -662,9 +643,9 @@ Lakeforecast.org Beach View
 
 &lt;p&gt;The bold text is what you&amp;rsquo;re adding. All this does is append a custom string (in this case, &lt;code&gt;&amp;quot;phonegap_prog_enh&amp;quot;&lt;/code&gt;) to the User Agent so that you can determine on the server side whether or not a use is on your app or not. Yes, of course, someone could probably proxy this and sniff it out, or reverse engineer it, but it doesn&amp;rsquo;t matter - all it would do is break the app in their browser. Trollers gonna troll.&lt;/p&gt;
 
-&lt;h1 id=&#34;step-3-listen-for-your-custom-user-agent-on-the-server-side-and-set-a-flag-a-name-flag-href-flag-i-class-ion-link-i-a:b24c23782d00ece4bee8e2115b865429&#34;&gt;Step 3) Listen for your custom User Agent on the server side and set a flag &lt;a name=&#34;flag&#34; href=&#34;#flag&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;step-3-listen-for-your-custom-user-agent-on-the-server-side-and-set-a-flag-a-name-flag-href-flag-i-class-ion-link-i-a&#34;&gt;Step 3) Listen for your custom User Agent on the server side and set a flag &lt;a name=&#34;flag&#34; href=&#34;#flag&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
-&lt;p&gt;Now that we have a way to know if a user is accessing our server via a normal browser or via our Phonegap app, we can decide whether or not to enable Phonegap-specific features. You need to do this because if you don&amp;rsquo;t, you get some &lt;a href=&#34;https://bradorego.com/img/posts/prog-enh-phonegap/uglypg.png&#34;&gt;ugly error messages&lt;/a&gt; as the web app tries to access Phonegap APIs that aren&amp;rsquo;t there. This detection is really easy, though. In the sample app, it looks like this:&lt;/p&gt;
+&lt;p&gt;Now that we have a way to know if a user is accessing our server via a normal browser or via our Phonegap app, we can decide whether or not to enable Phonegap-specific features. You need to do this because if you don&amp;rsquo;t, you get some &lt;a href=&#34;http://bradorego.com/img/posts/prog-enh-phonegap/uglypg.png&#34;&gt;ugly error messages&lt;/a&gt; as the web app tries to access Phonegap APIs that aren&amp;rsquo;t there. This detection is really easy, though. In the sample app, it looks like this:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;class ContactsController &amp;lt; ApplicationController
   def index
@@ -683,7 +664,7 @@ end
 
 &lt;p&gt;You&amp;rsquo;re only going to want the Phonegap Javascript to fire in these instances, which leads us to the next part.&lt;/p&gt;
 
-&lt;h1 id=&#34;step-4-enable-phonegap-specific-functionality-a-name-enhance-href-enhance-i-class-ion-link-i-a:b24c23782d00ece4bee8e2115b865429&#34;&gt;Step 4) Enable Phonegap-specific functionality &lt;a name=&#34;enhance&#34; href=&#34;#enhance&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;step-4-enable-phonegap-specific-functionality-a-name-enhance-href-enhance-i-class-ion-link-i-a&#34;&gt;Step 4) Enable Phonegap-specific functionality &lt;a name=&#34;enhance&#34; href=&#34;#enhance&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;As mentioned above, you&amp;rsquo;re not going to want the Phonegap code to run willy-nilly all over your application. Specifically, the &lt;code&gt;cordova.js&lt;/code&gt; file (which normally lives in your Phonegap&amp;rsquo;s &lt;code&gt;platforms/android/assets/www&lt;/code&gt; folder) is what kicks off all of the Phonegap functionality, so once you load that, you&amp;rsquo;re going down that path. Luckily, this is easily avoided:&lt;/p&gt;
 
@@ -697,11 +678,11 @@ end
 
 &lt;p&gt;Obviously you don&amp;rsquo;t need to inline your PG Javascript, but you do need to protect against &lt;code&gt;cordova.js&lt;/code&gt; loading out of place.&lt;/p&gt;
 
-&lt;h1 id=&#34;step-5-profit-a-name-profit-href-profit-i-class-ion-link-i-a:b24c23782d00ece4bee8e2115b865429&#34;&gt;Step 5) Profit &lt;a name=&#34;profit&#34; href=&#34;#profit&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;step-5-profit-a-name-profit-href-profit-i-class-ion-link-i-a&#34;&gt;Step 5) Profit &lt;a name=&#34;profit&#34; href=&#34;#profit&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;That&amp;rsquo;s pretty much it. Obviously there&amp;rsquo;s a lot more to it when it comes to the actual Phonegap APIs, but there&amp;rsquo;s a lot of support and writing about all of that. The point of this guide is just to lay out this methodology, and to further prove my belief that the vast majority of app development can be done with &amp;ldquo;hybrid&amp;rdquo; apps.&lt;/p&gt;
 
-&lt;h1 id=&#34;gotchas-a-name-gotchas-href-gotchas-i-class-ion-link-i-a:b24c23782d00ece4bee8e2115b865429&#34;&gt;Gotchas &lt;a name=&#34;gotchas&#34; href=&#34;#gotchas&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;gotchas-a-name-gotchas-href-gotchas-i-class-ion-link-i-a&#34;&gt;Gotchas &lt;a name=&#34;gotchas&#34; href=&#34;#gotchas&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;We all know it wouldn&amp;rsquo;t be a real tech article without some gotchas, so here are some things that tripped me up the first few times.&lt;/p&gt;
 
@@ -713,16 +694,14 @@ end
 
 &lt;p&gt;Feel free to shoot an email, tweet, or reach out to me any other way with questions, feedback, etc. Thanks!&lt;/p&gt;
 </description>
-      <tags>phonegap,progressive enhancement,hybrid app,rails,java,</tags>
     </item>
     
     <item>
       <title>An Open Letter to OkCupid</title>
-      <link>https://bradorego.com/an-open-letter-to-okcupid</link>
-      <image>https://bradorego.com/img/posts/open-letter-okcupid/header.png</image>
+      <link>http://bradorego.com/an-open-letter-to-okcupid</link>
       <pubDate>Thu, 25 Apr 2013 17:11:40 -0500</pubDate>
       
-      <guid>https://bradorego.com/an-open-letter-to-okcupid</guid>
+      <guid>http://bradorego.com/an-open-letter-to-okcupid</guid>
       <description>
 
 &lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
@@ -741,7 +720,7 @@ end
 
 &lt;p&gt;This is why I feel like I have to do this. See, there&amp;rsquo;s something wrong. It&amp;rsquo;s not a major problem (although, given the userbase and intertia you have, it might be, but given your &lt;a href=&#34;http://www.crazyblinddate.com/&#34;&gt;willingness&lt;/a&gt; to try &lt;a href=&#34;http://www.okcupid.com/mybestface&#34;&gt;experiments&lt;/a&gt; and side-projects, this might be something you can spin up/spin off), but it has some pretty significant consequences. As we&amp;rsquo;ve been made well aware by the internet, there are &lt;a href=&#34;http://theinternetisterrible.com/&#34;&gt;lots of terrible people&lt;/a&gt; out there. Humanity can be pretty messed up. OkCupid is, unfortunately, &lt;a href=&#34;http://www.mandatory.com/2012/11/13/ok-cupid-an-exploration-into-just-how-low-some-guys-will-go&#34;&gt;no safe haven&lt;/a&gt; to the &lt;a href=&#34;http://www.tumblr.com/tagged/nice%20guys%20of%20okcupid&#34;&gt;denizens of the internet&lt;/a&gt;. OkCupid&amp;rsquo;s design, however, makes it possible for these baddies to exploit the system, which is where our problem lies.&lt;/p&gt;
 
-&lt;h1 id=&#34;signal-vs-noise-a-name-signal-href-signal-i-class-ion-link-i-a:4c0c4bbe7a08bf9aa64c3401696272b2&#34;&gt;Signal vs. Noise &lt;a name=&#34;signal&#34; href=&#34;#signal&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;signal-vs-noise-a-name-signal-href-signal-i-class-ion-link-i-a&#34;&gt;Signal vs. Noise &lt;a name=&#34;signal&#34; href=&#34;#signal&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;For the uninitiated, the way OkCupid works is that users sign up, answer some profile questions about themselves, list some information, post some pictures, state what they&amp;rsquo;re interested in, and maybe even answer some of OkCupid&amp;rsquo;s &amp;ldquo;Match Questions&amp;rdquo;, which is where its famed matchmaking service comes from. Users then have the ability to send messages to any other user, under the premise of making an introduction, conversation, or whatever they please.&lt;/p&gt;
 
@@ -751,7 +730,7 @@ end
 
 &lt;p&gt;On top of forcing women away, this endless inundation desensitizes them to receiving messages in the first place, which means, for any halfway decent guy out there, actually getting through to a girl is that much harder. The number of messages guys have to send to get any responses is absurd, with&amp;nbsp;&lt;a href=&#34;http://blog.okcupid.com/index.php/online-dating-advice-exactly-what-to-say-in-a-first-message/&#34;&gt;response rates hovering around 30%&lt;/a&gt;. 30%! Mostly because (bad) guys send way too many messages.&lt;/p&gt;
 
-&lt;h1 id=&#34;okay-now-what-a-name-solution-href-solution-i-class-ion-link-i-a:4c0c4bbe7a08bf9aa64c3401696272b2&#34;&gt;Okay. Now what? &lt;a name=&#34;solution&#34; href=&#34;#solution&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;okay-now-what-a-name-solution-href-solution-i-class-ion-link-i-a&#34;&gt;Okay. Now what? &lt;a name=&#34;solution&#34; href=&#34;#solution&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;So this is bad. Some guys are ruining it for all of us, guys and gals included. What do we do, then? Sit and whine about it? Try &lt;a href=&#34;http://www.eharmony.com/&#34;&gt;one&lt;/a&gt; &lt;a href=&#34;http://www.ourtime.com/&#34;&gt;of&lt;/a&gt; &lt;a href=&#34;http://www.chemistry.com/&#34;&gt;the&lt;/a&gt; &lt;a href=&#34;https://www.zoosk.com/&#34;&gt;many&lt;/a&gt; &lt;a href=&#34;http://www.match.com/index.aspx&#34;&gt;other&lt;/a&gt; (&lt;/span&gt;&lt;a href=&#34;http://www.pof.com/&#34;&gt;mostly&lt;/a&gt; &lt;a href=&#34;http://www.christianmingle.com/&#34;&gt;terrible&lt;/a&gt;) &lt;a href=&#34;http://www.benaughty.com/&#34;&gt;dating&lt;/a&gt; sites? Go back to our old ways of bars, clubs, parties, and other social events? Give up and start our own online dating site/service? Try one of those &lt;a href=&#34;http://www.onlulu.com/&#34;&gt;newfangled&lt;/a&gt; &lt;a href=&#34;http://swoonapp.com/&#34;&gt;dating&lt;/a&gt; &lt;a href=&#34;http://blendr.com/&#34; &gt;apps&lt;/a&gt; &lt;a href=&#34;http://www.gotinder.com/index.html&#34;&gt;that&lt;/a&gt; &lt;a href=&#34;http://grindr.com/&#34;&gt;are&lt;/a&gt; &lt;a href=&#34;https://coffeemeetsbagel.com/&#34;&gt;now&lt;/a&gt; (or at least, for now) all the rage? I don&amp;rsquo;t want to do that, and you don&amp;rsquo;t want me to do that. So let&amp;rsquo;s figure out how to work it out.&lt;/span&gt;&lt;/p&gt;
 
@@ -772,19 +751,17 @@ end
 
 &lt;p&gt;I still have faith in you, OkCupid. You do great things, and you&amp;rsquo;re way better than any other site I&amp;rsquo;ve used, both in terms of user experience and user base. Just please, please fix these things, and I&amp;rsquo;ll love you even more. I&amp;rsquo;m more than happy to talk about this in further detail and clarify some points if you&amp;rsquo;d like, as this post was already getting too long to go into full detail.&lt;/p&gt;
 </description>
-      <tags>okcupid,messaging,online dating,</tags>
     </item>
     
     <item>
       <title>Trinker</title>
-      <link>https://bradorego.com/case-study/trinker</link>
-      <image>https://bradorego.com/img/case-study/trinker/landing.png</image>
+      <link>http://bradorego.com/case-study/trinker</link>
       <pubDate>Sun, 14 Apr 2013 15:10:19 -0500</pubDate>
       
-      <guid>https://bradorego.com/case-study/trinker</guid>
+      <guid>http://bradorego.com/case-study/trinker</guid>
       <description>
 
-&lt;h1 id=&#34;about:5c8d1c0ac174c2b9af11e2912b72ae28&#34;&gt;About&lt;/h1&gt;
+&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
 
 &lt;p&gt;Trinker is a service that simplifies your social life by providing an easy, secure way to share your nightlife activities, keep track of your drinking buddies, see what parts of town are hoppin&amp;rsquo;, and even save you some cash. Trinker represents my first foray into entrepreneurship, and has been a constant source of inspiration, energy, and learning for me.&lt;/p&gt;
 
@@ -794,24 +771,22 @@ end
 
 &lt;p&gt;Unfortunately, that was about the time my two team members had to move away from Madison for work, and I ran out of steam on the project, so Trinker has laid dormant for approximately a year. However, a new business model has breathed some life and inspiration into me, so don&amp;rsquo;t be surprised if you see this app running around Madison bars soon.&lt;/p&gt;
 
-&lt;h1 id=&#34;selected-images:5c8d1c0ac174c2b9af11e2912b72ae28&#34;&gt;Selected Images&lt;/h1&gt;
+&lt;h1 id=&#34;selected-images&#34;&gt;Selected Images&lt;/h1&gt;
 
 &lt;p&gt;Landing Page:
-&lt;img src=&#34;https://bradorego.com/img/case-study/trinker/landing.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/trinker/t1.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/trinker/t2.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/trinker/t3.png&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/trinker/landing.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/trinker/t1.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/trinker/t2.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/trinker/t3.png&#34; /&gt;&lt;/p&gt;
 </description>
-      <tags>entrepreneurship,app design,yui,jquery mobile,startup,</tags>
     </item>
     
     <item>
       <title>The Importance of Flow</title>
-      <link>https://bradorego.com/the-importance-of-flow</link>
-      <image>https://bradorego.com/img/posts/importance-of-flow/header.jpg</image>
+      <link>http://bradorego.com/the-importance-of-flow</link>
       <pubDate>Sat, 16 Mar 2013 16:38:15 -0500</pubDate>
       
-      <guid>https://bradorego.com/the-importance-of-flow</guid>
+      <guid>http://bradorego.com/the-importance-of-flow</guid>
       <description>&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
   &lt;h4&gt;TL;DNR&lt;/h4&gt;
   &lt;ul&gt;
@@ -828,26 +803,24 @@ end
 
 &lt;p&gt;Concidentally, research has shown a fairly high overlap between the conditions for flow and the basis of SDT. Flow requires a level of challenge that is adequately matched to the abilities of the participant (competence), the activity must have clear goals an progress (relatedness - sort of), and the task must present clear, immediate, and constant feedback, so that the participant can adjust performance. &lt;a href=&#34;http://en.wikipedia.org/wiki/Mihaly_Csikszentmihalyi&#34;&gt;Mihaly Csikszentmihalyi&lt;/a&gt; (&amp;ldquo;cheek-sent-mee-hah-yee&amp;rdquo;), a world leader in flow, published this graph to express the relationship between challenge and skill:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/posts/importance-of-flow/challenge-vs-skill.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/posts/importance-of-flow/challenge-vs-skill.png&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;There are also things that can absolutely ruin flow, which is actually the motivation behind this post. I have a new worst enemy when it comes to reading stories on some popular news sites/blogs, and it&amp;rsquo;s this thing:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/posts/importance-of-flow/comment-box.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/posts/importance-of-flow/comment-box.png&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I hate this thing so much. Any time I&amp;rsquo;m reading a news story on TechCrunch, I&amp;rsquo;m usually immersed in the experience and enjoying the read until this little thing pops up in the lower right of my browser window. Its sudden appearance grabs my attention, and I instinctively look at it. After that, I murmur something under my breath and then go ba-&amp;hellip;wait, where was I? What was I just reading?&lt;/p&gt;
 
 &lt;p&gt;It&amp;rsquo;s not a major disturbance, as I quickly regain my concentration and get back to reading, but with new/popular articles, this happens several times during my read. This little blip in concentration - a break in my flow - slows me down and sullies my experience. This happens to us all the time, what with cell phones buzzing and Facebook notifications popping up and emails rolling in constantly.&lt;/p&gt;
 </description>
-      <tags>flow,psychology,</tags>
     </item>
     
     <item>
       <title>Foursquare Heatmap &amp; Remote Sensing</title>
-      <link>https://bradorego.com/foursquare-heatmap--remote-sensing</link>
-      <image>https://bradorego.com/img/posts/foursquare-heatmap/header.png</image>
+      <link>http://bradorego.com/foursquare-heatmap--remote-sensing</link>
       <pubDate>Mon, 11 Mar 2013 17:21:36 -0500</pubDate>
       
-      <guid>https://bradorego.com/foursquare-heatmap--remote-sensing</guid>
+      <guid>http://bradorego.com/foursquare-heatmap--remote-sensing</guid>
       <description>
 
 &lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
@@ -864,13 +837,13 @@ end
 
 &lt;p&gt;What that means is that with a single query to the Foursquare API, I essentially have a list of locations and how many people are checked in at that location right now. Interesting, I thought. So then I thought, why don&amp;rsquo;t I take this information and create an overlay in Google Maps? A heat map, if you will? Well, the idea sat around for a month or two, and when I caught wind of the Foursquare Hackathon thanks to &lt;a href=&#34;http://snowshoestamp.com&#34;&gt;Snowshoe&lt;/a&gt;, I decided it was time to dust that one off.&lt;/p&gt;
 
-&lt;h1 id=&#34;the-technical-details-a-name-tech-href-tech-i-class-ion-link-i-a:8c66a7351b15f2ef68d2e9b9363a058c&#34;&gt;The technical details &lt;a name=&#34;tech&#34; href=&#34;#tech&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;the-technical-details-a-name-tech-href-tech-i-class-ion-link-i-a&#34;&gt;The technical details &lt;a name=&#34;tech&#34; href=&#34;#tech&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;The app is written entirely in Javascript (there&amp;rsquo;s no server-side code behind this - no database), and uses Foursquare&amp;rsquo;s API and Google&amp;rsquo;s Maps API. I first try to capture the user&amp;rsquo;s geolocation data (&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Using_geolocation&#34;&gt;navigator.geolocation&lt;/a&gt;) so I can display a map that&amp;rsquo;s immediately relevant to them. If that fails (or they deny), I default to NYC (as it almost always has data to show). Users can also enter an address or location which I then run through Google&amp;rsquo;s &lt;a href=&#34;https://developers.google.com/maps/documentation/geocoding/&#34;&gt;Geocoder API&lt;/a&gt; and pull out the lat/lng which go on to the 4sq/gMaps functions. Once I have a lat/lng, I make an AJAX call to Foursquare with credentials (&lt;code&gt;client_id&lt;/code&gt;, &lt;code&gt;client_secret&lt;/code&gt;, &lt;code&gt;version #&lt;/code&gt;) and the data to make the query (&lt;code&gt;radius&lt;/code&gt;, &lt;code&gt;lat&lt;/code&gt;/&lt;code&gt;lng&lt;/code&gt;, &lt;code&gt;category&lt;/code&gt;, etc). The return from that gives me the &lt;a href=&#34;https://developer.foursquare.com/docs/explore#req=venues/search%3Fll%3D40.7,-74&#34;&gt;venues list&lt;/a&gt; (&lt;code&gt;data.response.venues&lt;/code&gt;), which I save off into a local variable for later (&lt;code&gt;venueList&lt;/code&gt;). Once I have all the data, I initialize a &lt;a href=&#34;https://developers.google.com/maps/documentation/javascript/reference#Map&#34;&gt;&lt;code&gt;google.maps.Map&lt;/code&gt; object&lt;/a&gt; (with some &lt;a href=&#34;https://developers.google.com/maps/documentation/javascript/reference#MapOptions&#34;&gt;options&lt;/a&gt;), and then iterate through each of the venues, drawing a &lt;a href=&#34;https://developers.google.com/maps/documentation/javascript/reference#Circle&#34;&gt;circle&lt;/a&gt; with radius and color based on the &lt;code&gt;hereNow&lt;/code&gt; value of that venue. Once the circle is drawn to the map (which is kind of weird - you actually create a new circle with a reference to the map object), I add a &lt;a href=&#34;https://developers.google.com/maps/documentation/javascript/events&#34;&gt;click listener&lt;/a&gt; to display the venue information, and then I add them to the table below which I then run through &lt;a href=&#34;http://tablesorter.com/docs/&#34;&gt;tablesorter&lt;/a&gt;. When you click on one of the table rows, I grab the lat/lng from that row and search through the list of venues (&lt;code&gt;venueList&lt;/code&gt;) to find the one that matches and open up an &lt;a href=&#34;https://developers.google.com/maps/documentation/javascript/reference#InfoWindow&#34;&gt;info window&lt;/a&gt; to display its content. Voila.&lt;/p&gt;
 
 &lt;p&gt;Whew, okay. That was a mouthful. For the non-tech folk, basically all I&amp;rsquo;m doing is getting the latitude and longitude of your current location (or what you type in), querying Foursquare, pulling out the info, and putting circles onto Google Maps based on how many people are at the locations, which you can then click on to get more info. You can also sort the table below, and click on any row to see that location on the map.&lt;/p&gt;
 
-&lt;h1 id=&#34;but-why-brad-a-name-why-href-why-i-class-ion-link-i-a:8c66a7351b15f2ef68d2e9b9363a058c&#34;&gt;But why, Brad? &lt;a name=&#34;why&#34; href=&#34;#why&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;but-why-brad-a-name-why-href-why-i-class-ion-link-i-a&#34;&gt;But why, Brad? &lt;a name=&#34;why&#34; href=&#34;#why&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;Because it&amp;rsquo;s cool. That&amp;rsquo;s actually the first motivation. I had the idea and I wanted to see if I could pull it off. It turns out I could, and it only took me a few hours to get the base prototype working. I thought it&amp;rsquo;d be interesting to literally see where people are. That is, in essence, what this is. I&amp;rsquo;ve created an interactive information visualization of where people are, according to Foursquare. And it&amp;rsquo;s really cool. I&amp;rsquo;ve also made a few &lt;a href=&#34;http://www.youtube.com/playlist?list=PLq3M6ODce1N6IZoXoisCw5WHjEQs7SAWl&amp;amp;feature=view_all&#34;&gt;time lapse videos&lt;/a&gt; to show how cool it can be.&lt;/p&gt;
 
@@ -880,25 +853,23 @@ end
 
 &lt;p&gt;At the very least, it&amp;rsquo;s fun to play with!&lt;/p&gt;
 
-&lt;h1 id=&#34;timelapse-a-name-timelapse-href-timelapse-i-class-ion-link-i-a:8c66a7351b15f2ef68d2e9b9363a058c&#34;&gt;Timelapse &lt;a name=&#34;timelapse&#34; href=&#34;#timelapse&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;timelapse-a-name-timelapse-href-timelapse-i-class-ion-link-i-a&#34;&gt;Timelapse &lt;a name=&#34;timelapse&#34; href=&#34;#timelapse&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;You can see a few timelapse videos of various cities/locations below:&lt;/p&gt;
 
 &lt;iframe width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/videoseries?list=PLq3M6ODce1N6IZoXoisCw5WHjEQs7SAWl&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 </description>
-      <tags>foursquare,heatmap,remote sensing,javascript,</tags>
     </item>
     
     <item>
       <title>Zebradog</title>
-      <link>https://bradorego.com/case-study/zebradog</link>
-      <image>https://bradorego.com/img/case-study/zebradog/storystation.png</image>
+      <link>http://bradorego.com/case-study/zebradog</link>
       <pubDate>Fri, 01 Mar 2013 15:10:22 -0500</pubDate>
       
-      <guid>https://bradorego.com/case-study/zebradog</guid>
+      <guid>http://bradorego.com/case-study/zebradog</guid>
       <description>
 
-&lt;h1 id=&#34;about:58aa00a3f9ec4cc7a62166ecd695ef26&#34;&gt;About&lt;/h1&gt;
+&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
 
 &lt;p&gt;Zebradog is an environmental graphic design firm located in Madison, WI who specializes in creating immersive, branded experiences for their clients. Zebradog&amp;rsquo;s multidisciplinary team of architects, graphic designers, and software developers blend the physical and digital realms, creating novel digital applications of technology for interactive multimedia and website design.&lt;/p&gt;
 
@@ -908,18 +879,17 @@ end
 
 &lt;p&gt;Videos can be found on &lt;a href=&#34;http://vimeo.com/zebradog&#34;&gt;Zebradog&amp;rsquo;s Vimeo page&lt;/a&gt;, and &lt;a href=&#34;http://demo.zebradog.com&#34;&gt;Zebradog&amp;rsquo;s Demo page&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h1 id=&#34;selected-images:58aa00a3f9ec4cc7a62166ecd695ef26&#34;&gt;Selected Images&lt;/h1&gt;
+&lt;h1 id=&#34;selected-images&#34;&gt;Selected Images&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/case-study/zebradog/storystation.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/zebradog/hometownheroes.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/zebradog/aramco.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/zebradog/nw.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/zebradog/northwestern.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/zebradog/mstc-desktop.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/zebradog/mstc-tablet.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/zebradog/mstc-phone.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/case-study/zebradog/storystation.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/zebradog/hometownheroes.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/zebradog/aramco.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/zebradog/nw.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/zebradog/northwestern.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/zebradog/mstc-desktop.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/zebradog/mstc-tablet.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/zebradog/mstc-phone.png&#34; /&gt;&lt;/p&gt;
 </description>
-      <tags>interactive multimedia,website,design,kinect,kiosk,</tags>
     </item>
     
   </channel>

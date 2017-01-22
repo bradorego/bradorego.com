@@ -2,23 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>100state on bradorego.com</title>
-    <link>https://bradorego.com/tags/100state/</link>
+    <link>http://bradorego.com/tags/100state/index.xml</link>
     <description>Recent content in 100state on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Apr 2014 15:10:54 -0500</lastBuildDate>
-    <atom:link href="https://bradorego.com/tags/100state/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://bradorego.com/tags/100state/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Clean Clear Waters</title>
-      <link>https://bradorego.com/case-study/clean-clear-waters</link>
-      <image>https://bradorego.com/img/case-study/clean-clear-waters/wires.png</image>
+      <link>http://bradorego.com/case-study/clean-clear-waters</link>
       <pubDate>Mon, 14 Apr 2014 15:10:54 -0500</pubDate>
       
-      <guid>https://bradorego.com/case-study/clean-clear-waters</guid>
+      <guid>http://bradorego.com/case-study/clean-clear-waters</guid>
       <description>
 
-&lt;h1 id=&#34;about:0b1dfc567fa55bcbc48ecf5d01bfe807&#34;&gt;About&lt;/h1&gt;
+&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
 
 &lt;p&gt;One of the many projects I&amp;rsquo;ve been involed with via &lt;a href=&#34;http://100state.com&#34;&gt;100state&lt;/a&gt; was one in collaboration with the &lt;a href=&#34;https://cleanlakesalliance.com/&#34;&gt;Clean Lakes Alliance&lt;/a&gt;, a non-profit &amp;ldquo;dedicated to the improvement and protection of the lakes, streams, and wetlands of the Yahara Watershed&amp;rdquo;. One of their initiatives involves soliciting volunteers to collect data about water quality nearby their homes and places of work in order to monitor and gain insight on the water.&lt;/p&gt;
 
@@ -28,16 +26,15 @@
 
 &lt;p&gt;After I ended my engagement on the project, MIOsoft completely took over responsibility for the project. The live version can be seen at &lt;a href=&#34;http://lakeforecast.org/&#34;&gt;Lakeforecast.org&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h1 id=&#34;selected-images:0b1dfc567fa55bcbc48ecf5d01bfe807&#34;&gt;Selected Images&lt;/h1&gt;
+&lt;h1 id=&#34;selected-images&#34;&gt;Selected Images&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/case-study/clean-clear-waters/wires.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/clean-clear-waters/mockup.png&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/case-study/clean-clear-waters/wires.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/clean-clear-waters/mockup.png&#34; /&gt;
 Lakeforecast.org Map View
-&lt;img src=&#34;https://bradorego.com/img/case-study/clean-clear-waters/map.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/clean-clear-waters/map.png&#34; /&gt;
 Lakeforecast.org Beach View
-&lt;img src=&#34;https://bradorego.com/img/case-study/clean-clear-waters/beach.png&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/clean-clear-waters/beach.png&#34; /&gt;&lt;/p&gt;
 </description>
-      <tags>clean lakes alliance,100state,ionic,product design,</tags>
     </item>
     
   </channel>

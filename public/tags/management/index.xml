@@ -2,20 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Management on bradorego.com</title>
-    <link>https://bradorego.com/tags/management/</link>
+    <link>http://bradorego.com/tags/management/index.xml</link>
     <description>Recent content in Management on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 May 2016 10:04:17 -0500</lastBuildDate>
-    <atom:link href="https://bradorego.com/tags/management/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://bradorego.com/tags/management/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Product vs Project Management</title>
-      <link>https://bradorego.com/product-vs-project-management</link>
-      <image>https://bradorego.com/img/default-bg2.jpg</image>
+      <link>http://bradorego.com/product-vs-project-management</link>
       <pubDate>Wed, 11 May 2016 10:04:17 -0500</pubDate>
       
-      <guid>https://bradorego.com/product-vs-project-management</guid>
+      <guid>http://bradorego.com/product-vs-project-management</guid>
       <description>
 
 &lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
@@ -34,7 +32,7 @@
 
 &lt;p&gt;So let&amp;rsquo;s talk about some of these differences.&lt;/p&gt;
 
-&lt;h1 id=&#34;project-management-a-name-project-href-project-i-class-ion-link-i-a:2bc9b53639a6b650caacc5bab7e9a353&#34;&gt;Project Management &lt;a name=&#34;proJect&#34; href=&#34;#proJect&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;project-management-a-name-project-href-project-i-class-ion-link-i-a&#34;&gt;Project Management &lt;a name=&#34;proJect&#34; href=&#34;#proJect&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;&lt;em&gt;Project&lt;/em&gt; - a (often temporary) endeavor undertaken in order to complete a task, achieve a goal, or create a product or service. Casually, a project is just a thing a person or group does to accomplish something.&lt;/p&gt;
 
@@ -52,7 +50,7 @@
 &lt;li&gt;In what order will features be implemented?&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;product-management-a-name-product-href-product-i-class-ion-link-i-a:2bc9b53639a6b650caacc5bab7e9a353&#34;&gt;Product Management &lt;a name=&#34;proDuct&#34; href=&#34;#proDuct&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;product-management-a-name-product-href-product-i-class-ion-link-i-a&#34;&gt;Product Management &lt;a name=&#34;proDuct&#34; href=&#34;#proDuct&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;&lt;em&gt;Product&lt;/em&gt; - a good, service, or tool built in order to solve a problem for a user (or, ideally, users). Casually, a product is something people use.&lt;/p&gt;
 
@@ -70,7 +68,7 @@
 &lt;li&gt;What is the benefit to the end user, especially compared to their current solution?&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;separate-but-equal-a-name-separate-href-separate-i-class-ion-link-i-a:2bc9b53639a6b650caacc5bab7e9a353&#34;&gt;Separate, but equal? &lt;a name=&#34;separate&#34; href=&#34;#separate&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;separate-but-equal-a-name-separate-href-separate-i-class-ion-link-i-a&#34;&gt;Separate, but equal? &lt;a name=&#34;separate&#34; href=&#34;#separate&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;Now that we&amp;rsquo;ve defined some of the differences between the two PMs, we can better understand the role each fills, what their concerns are, and why they&amp;rsquo;re important to success.&lt;/p&gt;
 
@@ -85,11 +83,10 @@ http://allaboutproductmanagement.blogspot.com/2007/03/project-manager-or-product
 
 &lt;hr/&gt;
 
-&lt;h3 id=&#34;a-brief-plug:2bc9b53639a6b650caacc5bab7e9a353&#34;&gt;A brief plug&lt;/h3&gt;
+&lt;h3 id=&#34;a-brief-plug&#34;&gt;A brief plug&lt;/h3&gt;
 
 &lt;p&gt;Did you find yourself reading this post and thinking &amp;ldquo;we&amp;rsquo;ve got the project part down, but shoot, having a product person would be great&amp;rdquo;? Part of the reason this has come up a lot for me is I&amp;rsquo;m looking into a product-manager-as-a-service model. You should &lt;a href=&#34;mailto:bradley.orego@gmail.com&#34;&gt;contact me&lt;/a&gt; if you&amp;rsquo;d like to hear more.&lt;/p&gt;
 </description>
-      <tags>user-centered design,product management,management,vision,execution,</tags>
     </item>
     
   </channel>

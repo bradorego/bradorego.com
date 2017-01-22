@@ -2,20 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Content Strategy on bradorego.com</title>
-    <link>https://bradorego.com/tags/content-strategy/</link>
+    <link>http://bradorego.com/tags/content-strategy/index.xml</link>
     <description>Recent content in Content Strategy on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 Feb 2013 14:21:58 -0500</lastBuildDate>
-    <atom:link href="https://bradorego.com/tags/content-strategy/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://bradorego.com/tags/content-strategy/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>The Importance of Content</title>
-      <link>https://bradorego.com/the-importance-of-content</link>
-      <image>https://bradorego.com/img/posts/content/header.jpg</image>
+      <link>http://bradorego.com/the-importance-of-content</link>
       <pubDate>Sat, 09 Feb 2013 14:21:58 -0500</pubDate>
       
-      <guid>https://bradorego.com/the-importance-of-content</guid>
+      <guid>http://bradorego.com/the-importance-of-content</guid>
       <description>&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
   &lt;h4&gt;TL;DNR&lt;/h4&gt;
   &lt;ul&gt;
@@ -32,7 +30,6 @@
 
 &lt;p&gt;Content is, however, one of the pieces of UX that I neglect the most. I&amp;rsquo;m always an advocate for designing with the content in mind, but I usually write it off as &amp;ldquo;some text&amp;rdquo; or &amp;ldquo;an image and some text&amp;rdquo;, or some generalization of what the content actually is. The volume of content is incredibly important, and can really make or break a design if appropriate consideration isn&amp;rsquo;t taken. There&amp;rsquo;s a lot of material out there about content strategy, so that would probably be a good place to look if you wanted to brush up on it.&lt;/p&gt;
 </description>
-      <tags>content,meta,content strategy,</tags>
     </item>
     
   </channel>

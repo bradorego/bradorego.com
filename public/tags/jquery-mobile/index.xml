@@ -2,23 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jquery Mobile on bradorego.com</title>
-    <link>https://bradorego.com/tags/jquery-mobile/</link>
+    <link>http://bradorego.com/tags/jquery-mobile/index.xml</link>
     <description>Recent content in Jquery Mobile on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Apr 2013 15:10:19 -0500</lastBuildDate>
-    <atom:link href="https://bradorego.com/tags/jquery-mobile/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://bradorego.com/tags/jquery-mobile/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Trinker</title>
-      <link>https://bradorego.com/case-study/trinker</link>
-      <image>https://bradorego.com/img/case-study/trinker/landing.png</image>
+      <link>http://bradorego.com/case-study/trinker</link>
       <pubDate>Sun, 14 Apr 2013 15:10:19 -0500</pubDate>
       
-      <guid>https://bradorego.com/case-study/trinker</guid>
+      <guid>http://bradorego.com/case-study/trinker</guid>
       <description>
 
-&lt;h1 id=&#34;about:5c8d1c0ac174c2b9af11e2912b72ae28&#34;&gt;About&lt;/h1&gt;
+&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
 
 &lt;p&gt;Trinker is a service that simplifies your social life by providing an easy, secure way to share your nightlife activities, keep track of your drinking buddies, see what parts of town are hoppin&amp;rsquo;, and even save you some cash. Trinker represents my first foray into entrepreneurship, and has been a constant source of inspiration, energy, and learning for me.&lt;/p&gt;
 
@@ -28,15 +26,14 @@
 
 &lt;p&gt;Unfortunately, that was about the time my two team members had to move away from Madison for work, and I ran out of steam on the project, so Trinker has laid dormant for approximately a year. However, a new business model has breathed some life and inspiration into me, so don&amp;rsquo;t be surprised if you see this app running around Madison bars soon.&lt;/p&gt;
 
-&lt;h1 id=&#34;selected-images:5c8d1c0ac174c2b9af11e2912b72ae28&#34;&gt;Selected Images&lt;/h1&gt;
+&lt;h1 id=&#34;selected-images&#34;&gt;Selected Images&lt;/h1&gt;
 
 &lt;p&gt;Landing Page:
-&lt;img src=&#34;https://bradorego.com/img/case-study/trinker/landing.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/trinker/t1.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/trinker/t2.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/trinker/t3.png&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/trinker/landing.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/trinker/t1.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/trinker/t2.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/trinker/t3.png&#34; /&gt;&lt;/p&gt;
 </description>
-      <tags>entrepreneurship,app design,yui,jquery mobile,startup,</tags>
     </item>
     
   </channel>

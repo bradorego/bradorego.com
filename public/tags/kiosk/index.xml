@@ -2,23 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kiosk on bradorego.com</title>
-    <link>https://bradorego.com/tags/kiosk/</link>
+    <link>http://bradorego.com/tags/kiosk/index.xml</link>
     <description>Recent content in Kiosk on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Mar 2013 15:10:22 -0500</lastBuildDate>
-    <atom:link href="https://bradorego.com/tags/kiosk/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://bradorego.com/tags/kiosk/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Zebradog</title>
-      <link>https://bradorego.com/case-study/zebradog</link>
-      <image>https://bradorego.com/img/case-study/zebradog/storystation.png</image>
+      <link>http://bradorego.com/case-study/zebradog</link>
       <pubDate>Fri, 01 Mar 2013 15:10:22 -0500</pubDate>
       
-      <guid>https://bradorego.com/case-study/zebradog</guid>
+      <guid>http://bradorego.com/case-study/zebradog</guid>
       <description>
 
-&lt;h1 id=&#34;about:58aa00a3f9ec4cc7a62166ecd695ef26&#34;&gt;About&lt;/h1&gt;
+&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
 
 &lt;p&gt;Zebradog is an environmental graphic design firm located in Madison, WI who specializes in creating immersive, branded experiences for their clients. Zebradog&amp;rsquo;s multidisciplinary team of architects, graphic designers, and software developers blend the physical and digital realms, creating novel digital applications of technology for interactive multimedia and website design.&lt;/p&gt;
 
@@ -28,18 +26,17 @@
 
 &lt;p&gt;Videos can be found on &lt;a href=&#34;http://vimeo.com/zebradog&#34;&gt;Zebradog&amp;rsquo;s Vimeo page&lt;/a&gt;, and &lt;a href=&#34;http://demo.zebradog.com&#34;&gt;Zebradog&amp;rsquo;s Demo page&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h1 id=&#34;selected-images:58aa00a3f9ec4cc7a62166ecd695ef26&#34;&gt;Selected Images&lt;/h1&gt;
+&lt;h1 id=&#34;selected-images&#34;&gt;Selected Images&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/case-study/zebradog/storystation.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/zebradog/hometownheroes.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/zebradog/aramco.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/zebradog/nw.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/zebradog/northwestern.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/zebradog/mstc-desktop.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/zebradog/mstc-tablet.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/zebradog/mstc-phone.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/case-study/zebradog/storystation.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/zebradog/hometownheroes.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/zebradog/aramco.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/zebradog/nw.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/zebradog/northwestern.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/zebradog/mstc-desktop.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/zebradog/mstc-tablet.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/zebradog/mstc-phone.png&#34; /&gt;&lt;/p&gt;
 </description>
-      <tags>interactive multimedia,website,design,kinect,kiosk,</tags>
     </item>
     
   </channel>

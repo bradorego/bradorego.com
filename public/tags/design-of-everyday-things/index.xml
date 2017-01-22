@@ -2,20 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Design Of Everyday Things on bradorego.com</title>
-    <link>https://bradorego.com/tags/design-of-everyday-things/</link>
+    <link>http://bradorego.com/tags/design-of-everyday-things/index.xml</link>
     <description>Recent content in Design Of Everyday Things on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 22 Dec 2012 14:21:58 -0500</lastBuildDate>
-    <atom:link href="https://bradorego.com/tags/design-of-everyday-things/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://bradorego.com/tags/design-of-everyday-things/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>DITW: Stovetop</title>
-      <link>https://bradorego.com/ditw-stovetop</link>
-      <image>https://bradorego.com/img/posts/ditw-stovetop/header.png</image>
+      <link>http://bradorego.com/ditw-stovetop</link>
       <pubDate>Sat, 22 Dec 2012 14:21:58 -0500</pubDate>
       
-      <guid>https://bradorego.com/ditw-stovetop</guid>
+      <guid>http://bradorego.com/ditw-stovetop</guid>
       <description>&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
   &lt;h4&gt;TL;DNR&lt;/h4&gt;
   &lt;ul&gt;
@@ -34,17 +32,16 @@
 
 &lt;p&gt;In most cases, stovetops provide a linear set of controls (the knobs, in a row) in order to map onto a 2-D set of outputs (the burners, on a grid). Sometimes you&amp;rsquo;re lucky enough to have a light to tell you if there&amp;rsquo;s a hot surface, as well, like so:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/posts/ditw-stovetop/normal-stove2.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/posts/ditw-stovetop/normal-stove2.jpg&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;My current apartment&amp;rsquo;s kitchen has something I don&amp;rsquo;t recall seeing before, and it makes the cooking experience so much easier:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/posts/ditw-stovetop/my-stove1.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/posts/ditw-stovetop/my-stove1.jpg&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;There are several small features about this range that make so much more sense than the traditional setup. For one, the knobs are laid out the same way the burners are, so I don&amp;rsquo;t even have to think about or ask which knob controls which burner. It&amp;rsquo;s self-evident. There are also four individual lights - one for each burner. The self-evidence is wonderful. The only real complaint I have about this range is that these four lights could be slightly more useful if they a) stayed on after I turned the burner off for as long as that burner was hot, and/or b) had a dimmer to tell me how hot the burner was. If I put it on 1 or on 7, I get the same amount of light. Beggars can&amp;rsquo;t be choosers, though.&lt;/p&gt;
 
 &lt;p&gt;As it turns out, this exact example of mapping was discussed by Donald Norman himself in the Design of Everyday Things. In fact, that&amp;rsquo;s where the header image comes from. So this idea is far from new. The bigger question, though, is why it hasn&amp;rsquo;t been put into practice. I can&amp;rsquo;t imagine there&amp;rsquo;s a lot of inertia preventing this change. If anything, being stuck in our own ways is holding us back from a more intuitive cooking experience.&lt;/p&gt;
 </description>
-      <tags>ditw,usability,direct mapping,physical world,design of everyday things,donald norman,</tags>
     </item>
     
   </channel>

@@ -2,20 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Content on bradorego.com</title>
-    <link>https://bradorego.com/tags/content/</link>
+    <link>http://bradorego.com/tags/content/index.xml</link>
     <description>Recent content in Content on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Apr 2016 12:26:53 -0500</lastBuildDate>
-    <atom:link href="https://bradorego.com/tags/content/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://bradorego.com/tags/content/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Back to Static</title>
-      <link>https://bradorego.com/back-to-static</link>
-      <image>https://bradorego.com/img/posts/back-to-static/header.jpg</image>
+      <link>http://bradorego.com/back-to-static</link>
       <pubDate>Thu, 14 Apr 2016 12:26:53 -0500</pubDate>
       
-      <guid>https://bradorego.com/back-to-static</guid>
+      <guid>http://bradorego.com/back-to-static</guid>
       <description>
 
 &lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
@@ -30,21 +28,21 @@
 
 &lt;p&gt;As you might be able to tell, my last blog post is from 2014. It was about time to get back on the blog horse but also give the site a little facelift. I&amp;rsquo;d &lt;a href=&#34;http://beerbatterbreakfast.com/2014/07/fancy-new-blog.html&#34;&gt;migrated blog platforms&lt;/a&gt; in the past, but never really took the time to think about how my own personal site was hosted. So let&amp;rsquo;s take a quick trip down memory lane.&lt;/p&gt;
 
-&lt;h1 id=&#34;static-site-2011-a-name-2011-href-2011-i-class-ion-link-i-a:713252246435f0d8330ff0c53c578039&#34;&gt;Static Site (2011) &lt;a name=&#34;2011&#34; href=&#34;#2011&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;static-site-2011-a-name-2011-href-2011-i-class-ion-link-i-a&#34;&gt;Static Site (2011) &lt;a name=&#34;2011&#34; href=&#34;#2011&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;When I first got into web development (professionally), I thought it&amp;rsquo;d be cool to build my own website from scratch to prove my mettle. That was 2011; certainly not far enough ago by any means for most of the technologies in use today to not exist. But, I was young and naive, and had some big ideas (e.g. a live CSS switcher, replicating the exact same look/behavior with and without Javascript, etc).&lt;/p&gt;
 
 &lt;p&gt;I learned very quickly from that experience that keeping a static site up to date was really difficult. Any time you made a change one place, you had to make sure you made it everywhere. You had to make sure to manage collisions. You had to handle your own deploys and routing. It was a hassle, and I virtually never updated the site, so after spending some time working with &lt;a href=&#34;https://zebradog.com&#34;&gt;ZebraDog&lt;/a&gt; and seeing the power of Drupal, I decided it was time for a change.&lt;/p&gt;
 
-&lt;h1 id=&#34;drupal-7-0-2012-a-name-2012-href-2012-i-class-ion-link-i-a:713252246435f0d8330ff0c53c578039&#34;&gt;Drupal 7.0 (2012) &lt;a name=&#34;2012&#34; href=&#34;#2012&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;drupal-7-0-2012-a-name-2012-href-2012-i-class-ion-link-i-a&#34;&gt;Drupal 7.0 (2012) &lt;a name=&#34;2012&#34; href=&#34;#2012&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
-&lt;p&gt;So I set out to &lt;a href=&#34;https://bradorego.com/2012-11-new-site/&#34;&gt;update and re-design&lt;/a&gt; the website again, this time using something a little more powerful and modern, and to make it easier for me to create new content while still having full control and flexibility over how it&amp;rsquo;s displayed and what functionality the website had.&lt;/p&gt;
+&lt;p&gt;So I set out to &lt;a href=&#34;http://bradorego.com/2012-11-new-site/&#34;&gt;update and re-design&lt;/a&gt; the website again, this time using something a little more powerful and modern, and to make it easier for me to create new content while still having full control and flexibility over how it&amp;rsquo;s displayed and what functionality the website had.&lt;/p&gt;
 
 &lt;p&gt;After all, at ZD we&amp;rsquo;d built a lot of things on Drupal, ranging from fairly simple &lt;a href=&#34;http://www.kellerrealestategroup.com/&#34;&gt;real estate websites&lt;/a&gt; to fairly complicated &lt;a href=&#34;http://www.mstc.edu/&#34;&gt;institutional websites&lt;/a&gt; to the backbone of &lt;a href=&#34;https://www.youtube.com/watch?v=VuicjhSpbV8&#34;&gt;interactive multimedia installations&lt;/a&gt;. I could use it to build a measly blog and portfolio website, right?&lt;/p&gt;
 
 &lt;p&gt;The problem wasn&amp;rsquo;t whether I could; in fact the problem was probably &lt;strong&gt;that&lt;/strong&gt; I could. I built an incredible media delivery site that was isolated from the world and almost too powerful for its own good. Developing and maintaining the site was nontrivial, and adding new content, while certainly easier than a static site, was beyond me.&lt;/p&gt;
 
-&lt;h1 id=&#34;back-to-static-2016-a-name-2016-href-2016-i-class-ion-link-i-a:713252246435f0d8330ff0c53c578039&#34;&gt;Back to Static (2016) &lt;a name=&#34;2016&#34; href=&#34;#2016&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;back-to-static-2016-a-name-2016-href-2016-i-class-ion-link-i-a&#34;&gt;Back to Static (2016) &lt;a name=&#34;2016&#34; href=&#34;#2016&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;Blog technology philosophy has shifted lately. WordPress is still the clear winner in the space, but there&amp;rsquo;s an alternative to generating the site every time it&amp;rsquo;s requested. These take the form of static generators, and make a lot more sense to me personally. Jekyll, Ghost, Hugo, Hexo; the list goes on. What&amp;rsquo;s under the hood doesn&amp;rsquo;t really matter (which, as an aside, makes switching way easier) &amp;mdash; all that matters is the static HTML/CSS/JS they output.&lt;/p&gt;
 
@@ -58,16 +56,14 @@
 
 &lt;p&gt;So (and I&amp;rsquo;ve said this before), theoretically keeping the site updated will be a lot easier. I somewhat feel like a cop-out for using a fairly standard template/look-and-feel, but at the end of the day, my job as a designer isn&amp;rsquo;t to make things look pretty or to be unique. My job is to provide the best experience possible for my users. In the context of a blog, that means engaging, useful content; not pretty pictures.&lt;/p&gt;
 </description>
-      <tags>meta,design,hugo,blog,drupal,content,</tags>
     </item>
     
     <item>
       <title>The Importance of Content</title>
-      <link>https://bradorego.com/the-importance-of-content</link>
-      <image>https://bradorego.com/img/posts/content/header.jpg</image>
+      <link>http://bradorego.com/the-importance-of-content</link>
       <pubDate>Sat, 09 Feb 2013 14:21:58 -0500</pubDate>
       
-      <guid>https://bradorego.com/the-importance-of-content</guid>
+      <guid>http://bradorego.com/the-importance-of-content</guid>
       <description>&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
   &lt;h4&gt;TL;DNR&lt;/h4&gt;
   &lt;ul&gt;
@@ -84,7 +80,6 @@
 
 &lt;p&gt;Content is, however, one of the pieces of UX that I neglect the most. I&amp;rsquo;m always an advocate for designing with the content in mind, but I usually write it off as &amp;ldquo;some text&amp;rdquo; or &amp;ldquo;an image and some text&amp;rdquo;, or some generalization of what the content actually is. The volume of content is incredibly important, and can really make or break a design if appropriate consideration isn&amp;rsquo;t taken. There&amp;rsquo;s a lot of material out there about content strategy, so that would probably be a good place to look if you wanted to brush up on it.&lt;/p&gt;
 </description>
-      <tags>content,meta,content strategy,</tags>
     </item>
     
   </channel>

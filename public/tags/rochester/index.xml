@@ -2,23 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rochester on bradorego.com</title>
-    <link>https://bradorego.com/tags/rochester/</link>
+    <link>http://bradorego.com/tags/rochester/index.xml</link>
     <description>Recent content in Rochester on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Dec 2010 14:55:36 -0500</lastBuildDate>
-    <atom:link href="https://bradorego.com/tags/rochester/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://bradorego.com/tags/rochester/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Biodance</title>
-      <link>https://bradorego.com/case-study/biodance</link>
-      <image>https://bradorego.com/img/case-study/biodance/header.jpg</image>
+      <link>http://bradorego.com/case-study/biodance</link>
       <pubDate>Tue, 14 Dec 2010 14:55:36 -0500</pubDate>
       
-      <guid>https://bradorego.com/case-study/biodance</guid>
+      <guid>http://bradorego.com/case-study/biodance</guid>
       <description>
 
-&lt;h1 id=&#34;about:6d8d0cb2d9a39909700bf36f44e9452e&#34;&gt;About&lt;/h1&gt;
+&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
 
 &lt;p&gt;When I was entering my &lt;a href=&#34;http://www.rochester.edu/college/CCAS/students/opportunities/takefive/&#34;&gt;Take 5&lt;/a&gt; year at the &lt;a href=&#34;http://rochester.edu&#34;&gt;University of Rochester&lt;/a&gt;, I found myself in a scheduling bind that forbid me from being able to take any of the remaining dance classes I hadn&amp;rsquo;t taken. Between this and my desire to push my dance career beyond academia, I decided to propose an independent study with Missy Pfohl Smith, the newly appointed Director of the &lt;a href=&#34;http://rochester.edu/college/dance&#34;&gt;Program of Dance &amp;amp; Movement&lt;/a&gt;. The path this independent study lead me down was somewhere between unexpected and incredible.&lt;/p&gt;
 
@@ -26,16 +24,15 @@
 
 &lt;p&gt;The full text of my capstone essay can be found &lt;a href=&#34;http://old.bradorego.com/sites/default/files/docs/dan381.pdf&#34;&gt;here&lt;/a&gt;. Photos include highlights from the show I stage managed.&lt;/p&gt;
 
-&lt;h1 id=&#34;selected-images:6d8d0cb2d9a39909700bf36f44e9452e&#34;&gt;Selected Images&lt;/h1&gt;
+&lt;h1 id=&#34;selected-images&#34;&gt;Selected Images&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/case-study/biodance/1.jpg&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/biodance/2.jpg&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/biodance/3.jpg&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/biodance/4.jpg&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/biodance/5.jpg&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/biodance/6.jpg&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/case-study/biodance/1.jpg&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/biodance/2.jpg&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/biodance/3.jpg&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/biodance/4.jpg&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/biodance/5.jpg&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/biodance/6.jpg&#34; /&gt;&lt;/p&gt;
 </description>
-      <tags>dance,college,rochester,stage management,</tags>
     </item>
     
   </channel>

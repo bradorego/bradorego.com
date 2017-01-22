@@ -2,23 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Startup on bradorego.com</title>
-    <link>https://bradorego.com/tags/startup/</link>
+    <link>http://bradorego.com/tags/startup/index.xml</link>
     <description>Recent content in Startup on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Apr 2016 15:11:33 -0500</lastBuildDate>
-    <atom:link href="https://bradorego.com/tags/startup/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://bradorego.com/tags/startup/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>MobileIgniter</title>
-      <link>https://bradorego.com/case-study/mobileigniter</link>
-      <image>https://bradorego.com/img/case-study/mobile-igniter/header.jpg</image>
+      <link>http://bradorego.com/case-study/mobileigniter</link>
       <pubDate>Fri, 01 Apr 2016 15:11:33 -0500</pubDate>
       
-      <guid>https://bradorego.com/case-study/mobileigniter</guid>
+      <guid>http://bradorego.com/case-study/mobileigniter</guid>
       <description>
 
-&lt;h1 id=&#34;about:19aee21804f9101f4647ec2b7a0a8d5a&#34;&gt;About&lt;/h1&gt;
+&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://mobileigniter.com&#34;&gt;MobileIgniter&lt;/a&gt; is an Internet-of-Things consultancy and product development firm that has worked with numerous clients, ranging from Fortune 500 companies to early-stage startups, and touched many industries including consumer appliances, insurance, and air quality. MI&amp;rsquo;s engagements included helping companies figure out if IoT was right for their business/product from a strategic standpoint, helping ideate and prototype different interactions and feature sets having a &amp;ldquo;smart&amp;rdquo; device would afford, and as far as taking products to market. MobileIgniter has a unique combination of electrical engieering, software development, and business analysis that enables the company to contribute at every stop of the product development lifecycle.&lt;/p&gt;
 
@@ -26,57 +24,53 @@
 
 &lt;p&gt;Unfortunately most of the work MobileIgniter has done is under NDA, so while I can&amp;rsquo;t speak publicly about specific projects, some highlights include designing and running usability studies for a Fortune 1000 company, helping a Fortune 500 company learn Angular and Agile methodologies, publishing the &lt;a href=&#34;http://www.slideshare.net/mi-tim/usability-research-checklist-58988252/mi-tim/usability-research-checklist-58988252&#34;&gt;Usability Research Checklist&lt;/a&gt;, and developing &lt;a href=&#34;https://github.com/MobileIgniter/ng-photon&#34;&gt;ngPhoton&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h1 id=&#34;selected-images:19aee21804f9101f4647ec2b7a0a8d5a&#34;&gt;Selected Images&lt;/h1&gt;
+&lt;h1 id=&#34;selected-images&#34;&gt;Selected Images&lt;/h1&gt;
 
 &lt;p&gt;MobileIgniter&amp;rsquo;s IoT Landing Page
-&lt;img src=&#34;https://bradorego.com/img/case-study/mobile-igniter/iot-desktop.png&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/mobile-igniter/iot-desktop.png&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;LaundryMate Laundry Sensor Landing Page (Homeowner)
-&lt;img src=&#34;https://bradorego.com/img/case-study/mobile-igniter/laundrymate-personal-desktop.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/mobile-igniter/laundrymate-personal-desktop.png&#34; /&gt;
 LaundryMate Buy Page
-&lt;img src=&#34;https://bradorego.com/img/case-study/mobile-igniter/laundrymate-buy-mobile.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/mobile-igniter/laundrymate-buy-mobile.png&#34; /&gt;
 LaundryMate Laundry Sensor Landing Page (Laundromat User)
-&lt;img src=&#34;https://bradorego.com/img/case-study/mobile-igniter/laundrymate-laundromat-desktop.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/mobile-igniter/laundrymate-laundromat-desktop.png&#34; /&gt;
 UXLab @ MobileIgniter Landing Page
-&lt;img src=&#34;https://bradorego.com/img/case-study/mobile-igniter/uxlab-small-desktop.png&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/mobile-igniter/uxlab-small-desktop.png&#34; /&gt;&lt;/p&gt;
 </description>
-      <tags>startup,entrepreneurship,ux,usability research,mobile app,ionic,iot,</tags>
     </item>
     
     <item>
       <title>Nextt</title>
-      <link>https://bradorego.com/case-study/nextt</link>
-      <image>https://bradorego.com/img/case-study/nextt/screens.png</image>
+      <link>http://bradorego.com/case-study/nextt</link>
       <pubDate>Sat, 01 Mar 2014 15:11:21 -0500</pubDate>
       
-      <guid>https://bradorego.com/case-study/nextt</guid>
+      <guid>http://bradorego.com/case-study/nextt</guid>
       <description>
 
-&lt;h1 id=&#34;about:ebeef24fe61de8fef2a98739c1cee8ca&#34;&gt;About&lt;/h1&gt;
+&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
 
 &lt;p&gt;Nextt is a social event planning tool designed to help get all of your friends on the same page and to get together offline in the real world. While working with Nextt, I was responsible for development of the mobile web app (which eventually became Nextt&amp;rsquo;s Android app), as well as overseeing parts of the overall User Experience and wrangling all of the data, metrics, and analytics to help guide product development. The most interesting and valuable piece of this experience was building everything from the ground up by hand - no frameworks, no tools. I learned a ton about mobile performance, and what it takes to develop a compelling experience on mobile.&lt;/p&gt;
 
 &lt;p&gt;Along with advising visual design, branding, and interaction design, there were several small victories we achieved, such as increasing the unauth (invite) conversion rate from ~10% to ~40%, and streamlining the onboarding process to get users up to speed and interacting with the system in a meaningful way. I championed tight iteration loops and data-driven decisions about design and feature prioritization, and also managed all of Nextt&amp;rsquo;s usability studies, email questionnaires, and analytics suite. We prepared daily reports to the CEO and weekly to the Board to monitor our progress.&lt;/p&gt;
 
-&lt;h1 id=&#34;selected-images:ebeef24fe61de8fef2a98739c1cee8ca&#34;&gt;Selected Images&lt;/h1&gt;
+&lt;h1 id=&#34;selected-images&#34;&gt;Selected Images&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/case-study/nextt/unauth.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/nextt/onboarding.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/nextt/screens.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/case-study/nextt/unauth.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/nextt/onboarding.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/nextt/screens.png&#34; /&gt;&lt;/p&gt;
 </description>
-      <tags>startup,entrepreneurship,ux,usability research,analytics,mobile app,mixpanel,</tags>
     </item>
     
     <item>
       <title>Trinker</title>
-      <link>https://bradorego.com/case-study/trinker</link>
-      <image>https://bradorego.com/img/case-study/trinker/landing.png</image>
+      <link>http://bradorego.com/case-study/trinker</link>
       <pubDate>Sun, 14 Apr 2013 15:10:19 -0500</pubDate>
       
-      <guid>https://bradorego.com/case-study/trinker</guid>
+      <guid>http://bradorego.com/case-study/trinker</guid>
       <description>
 
-&lt;h1 id=&#34;about:5c8d1c0ac174c2b9af11e2912b72ae28&#34;&gt;About&lt;/h1&gt;
+&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
 
 &lt;p&gt;Trinker is a service that simplifies your social life by providing an easy, secure way to share your nightlife activities, keep track of your drinking buddies, see what parts of town are hoppin&amp;rsquo;, and even save you some cash. Trinker represents my first foray into entrepreneurship, and has been a constant source of inspiration, energy, and learning for me.&lt;/p&gt;
 
@@ -86,15 +80,14 @@ UXLab @ MobileIgniter Landing Page
 
 &lt;p&gt;Unfortunately, that was about the time my two team members had to move away from Madison for work, and I ran out of steam on the project, so Trinker has laid dormant for approximately a year. However, a new business model has breathed some life and inspiration into me, so don&amp;rsquo;t be surprised if you see this app running around Madison bars soon.&lt;/p&gt;
 
-&lt;h1 id=&#34;selected-images:5c8d1c0ac174c2b9af11e2912b72ae28&#34;&gt;Selected Images&lt;/h1&gt;
+&lt;h1 id=&#34;selected-images&#34;&gt;Selected Images&lt;/h1&gt;
 
 &lt;p&gt;Landing Page:
-&lt;img src=&#34;https://bradorego.com/img/case-study/trinker/landing.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/trinker/t1.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/trinker/t2.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/trinker/t3.png&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/trinker/landing.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/trinker/t1.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/trinker/t2.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/trinker/t3.png&#34; /&gt;&lt;/p&gt;
 </description>
-      <tags>entrepreneurship,app design,yui,jquery mobile,startup,</tags>
     </item>
     
   </channel>

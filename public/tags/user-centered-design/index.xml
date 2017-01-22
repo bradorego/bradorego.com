@@ -2,20 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>User Centered Design on bradorego.com</title>
-    <link>https://bradorego.com/tags/user-centered-design/</link>
+    <link>http://bradorego.com/tags/user-centered-design/index.xml</link>
     <description>Recent content in User Centered Design on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 May 2016 19:31:28 -0500</lastBuildDate>
-    <atom:link href="https://bradorego.com/tags/user-centered-design/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://bradorego.com/tags/user-centered-design/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>The Dangers of Tight Iteration</title>
-      <link>https://bradorego.com/the-dangers-of-tight-iteration</link>
-      <image>https://bradorego.com/img/posts/dangers-of-tight-iteration/header.png</image>
+      <link>http://bradorego.com/the-dangers-of-tight-iteration</link>
       <pubDate>Fri, 20 May 2016 19:31:28 -0500</pubDate>
       
-      <guid>https://bradorego.com/the-dangers-of-tight-iteration</guid>
+      <guid>http://bradorego.com/the-dangers-of-tight-iteration</guid>
       <description>
 
 &lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
@@ -32,7 +30,7 @@
 
 &lt;p&gt;There&amp;rsquo;s a lot wrong with this answer, but let&amp;rsquo;s unpack it a little.&lt;/p&gt;
 
-&lt;h1 id=&#34;rapid-prototyping-a-name-rapidprototyping-href-rapidprototyping-i-class-ion-link-i-a:bed2c57243224eaf92c5dc8e3d145ddb&#34;&gt;Rapid Prototyping &lt;a name=&#34;rapidPrototyping&#34; href=&#34;#rapidPrototyping&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;rapid-prototyping-a-name-rapidprototyping-href-rapidprototyping-i-class-ion-link-i-a&#34;&gt;Rapid Prototyping &lt;a name=&#34;rapidPrototyping&#34; href=&#34;#rapidPrototyping&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;First and foremost, effective use of Rapid Prototyping can be immensely beneficial to a product. If there&amp;rsquo;s one thing I could convince every company in the world to do, it would be to use some type of rapid prototyping in their product design. If I got a fraction of all of the &lt;a href=&#34;http://time.com/13549/the-10-worst-product-fails-of-all-time/&#34;&gt;money spent&lt;/a&gt; building products that ultimately failed, I&amp;rsquo;d never have to work again.&lt;/p&gt;
 
@@ -47,12 +45,12 @@
 &lt;li&gt;Interactive Prototypes - semi-functional software systems users can interact with&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;let-s-talk-about-fidelity-a-name-fidelity-href-fidelity-i-class-ion-link-i-a:bed2c57243224eaf92c5dc8e3d145ddb&#34;&gt;Let&amp;rsquo;s Talk About Fidelity &lt;a name=&#34;fidelity&#34; href=&#34;#fidelity&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;let-s-talk-about-fidelity-a-name-fidelity-href-fidelity-i-class-ion-link-i-a&#34;&gt;Let&amp;rsquo;s Talk About Fidelity &lt;a name=&#34;fidelity&#34; href=&#34;#fidelity&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;The exact definition of fidelity isn&amp;rsquo;t exactly clear, but it roughly refers to the level of detail your current iteration includes. It&amp;rsquo;s often used in the context of prototyping, but it can refer to existing products as well. Your typical startup MVP is a high-fidelity prototype but a low-fidelity product. Fidelity exists on a &lt;a href=&#34;https://www.smashingmagazine.com/2010/06/design-better-faster-with-rapid-prototyping/#the-prototyping-spectrum&#34;&gt;continuum&lt;/a&gt;, with the lower end including concepts, sketches, and rough wireframes, and the higher end being branded/visually design and interactive prototypes. I&amp;rsquo;ve seen far too many products that jump right into the deep end of fidelity, missing out on all of the potential learning from testing lower fidelity prototypes.&lt;/p&gt;
 
 &lt;figure&gt;
-&lt;img src=&#34;https://bradorego.com/img/posts/dangers-of-tight-iteration/graph.jpg&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/posts/dangers-of-tight-iteration/graph.jpg&#34; /&gt;
 &lt;figcaption&gt;&lt;a href=&#34;http://www.uxmatters.com/mt/archives/2010/05/sketches-and-wireframes-and-prototypes-oh-my-creating-your-own-magical-wizard-experience.php&#34;&gt;Credit&lt;/a&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -60,20 +58,20 @@
 
 &lt;p&gt;This graph (and more great coverage of the pluses and minuses of different levels of fidelity) from &lt;a href=&#34;http://www.uxmatters.com/mt/archives/2010/05/sketches-and-wireframes-and-prototypes-oh-my-creating-your-own-magical-wizard-experience.php&#34;&gt;UX Matters&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h1 id=&#34;why-it-matters-a-name-why-href-why-i-class-ion-link-i-a:bed2c57243224eaf92c5dc8e3d145ddb&#34;&gt;Why It Matters &lt;a name=&#34;why&#34; href=&#34;#why&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;why-it-matters-a-name-why-href-why-i-class-ion-link-i-a&#34;&gt;Why It Matters &lt;a name=&#34;why&#34; href=&#34;#why&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;It can be intoxicating to set a baseline and watch your numbers improve on whatever metrics you&amp;rsquo;ve set, as you iterate. Arguably, data-informed design is a good thing, especially compared to the alternative. The &lt;a href=&#34;http://adaptivepath.org/ideas/data-informed-not-data-driven-the-subtext/&#34;&gt;problem&lt;/a&gt; is when data starts driving your decisions, and you lose sight of the big picture - improving the experience for the end user. Increased conversions, decreased errors, or more efficient interactions may not necessarily be the most enjoyable experience (e.g. a &lt;a href=&#34;http://www.people.hbs.edu/rbuell/papers/buell_norton_2011.pdf&#34;&gt;wait time&lt;/a&gt; might actually be a &lt;em&gt;good&lt;/em&gt; thing).&lt;/p&gt;
 
 &lt;p&gt;The problem with this approach is it might be honing in on what&amp;rsquo;s known as a local maxima. Naive &lt;a href=&#34;https://en.wikipedia.org/wiki/Hill_climbing&#34;&gt;hill-climbing&lt;/a&gt; algorithms can fall victim to this problem as well. Essentially, you continue to see improvements and make changes until you reach a point where those improvements either diminish entirely or degrade. At this point, traditional wisdom would be to stop working and either a) work on something else, or b) declare yourself victorious and toast your achievement, all the while missing what could be a better solution.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&#34;https://bradorego.com/img/posts/dangers-of-tight-iteration/local-maxima.jpg&#34; /&gt;
+  &lt;img src=&#34;http://bradorego.com/img/posts/dangers-of-tight-iteration/local-maxima.jpg&#34; /&gt;
   &lt;figcaption&gt;&lt;a href=&#34;http://www.90percentofeverything.com/2011/01/06/local-maxima-and-the-perils-of-data-driven-design/&#34;&gt;Credit&lt;/a&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;On a philosophical note, I like to think of every design problem (if not every problem in life) as something like the above graphic, except the plane is infinite &amp;ndash; there&amp;rsquo;re always other options, some of which might be better than our current situation if we&amp;rsquo;re just willing to take the leap of faith and try a new approach.&lt;/p&gt;
 
-&lt;h1 id=&#34;fighting-the-local-maxima-a-name-local-href-local-i-class-ion-link-i-a:bed2c57243224eaf92c5dc8e3d145ddb&#34;&gt;Fighting the Local Maxima &lt;a name=&#34;local&#34; href=&#34;#local&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;fighting-the-local-maxima-a-name-local-href-local-i-class-ion-link-i-a&#34;&gt;Fighting the Local Maxima &lt;a name=&#34;local&#34; href=&#34;#local&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;So now we&amp;rsquo;re aware of the problem and what causes it. That doesn&amp;rsquo;t necessarily tell us what to do about it, though. Here&amp;rsquo;s a great strategy outlined in an article from 2010:&lt;/p&gt;
 
@@ -86,20 +84,18 @@
 
 &lt;hr/&gt;
 
-&lt;h3 id=&#34;a-brief-plug:bed2c57243224eaf92c5dc8e3d145ddb&#34;&gt;A brief plug&lt;/h3&gt;
+&lt;h3 id=&#34;a-brief-plug&#34;&gt;A brief plug&lt;/h3&gt;
 
 &lt;p&gt;Did you find yourself reading this post and thinking &amp;ldquo;our products have definitely suffered from the wrong type of feedback&amp;rdquo;? Part of the reason this has come up a lot for me is I&amp;rsquo;m looking into a product-manager-as-a-service model. You should &lt;a href=&#34;mailto:bradley.orego@gmail.com&#34;&gt;contact me&lt;/a&gt; if you&amp;rsquo;d like to hear more.&lt;/p&gt;
 </description>
-      <tags>prototype,user-centered design,fidelity,rapid iteration,product management,</tags>
     </item>
     
     <item>
       <title>Product vs Project Management</title>
-      <link>https://bradorego.com/product-vs-project-management</link>
-      <image>https://bradorego.com/img/default-bg2.jpg</image>
+      <link>http://bradorego.com/product-vs-project-management</link>
       <pubDate>Wed, 11 May 2016 10:04:17 -0500</pubDate>
       
-      <guid>https://bradorego.com/product-vs-project-management</guid>
+      <guid>http://bradorego.com/product-vs-project-management</guid>
       <description>
 
 &lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
@@ -118,7 +114,7 @@
 
 &lt;p&gt;So let&amp;rsquo;s talk about some of these differences.&lt;/p&gt;
 
-&lt;h1 id=&#34;project-management-a-name-project-href-project-i-class-ion-link-i-a:2bc9b53639a6b650caacc5bab7e9a353&#34;&gt;Project Management &lt;a name=&#34;proJect&#34; href=&#34;#proJect&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;project-management-a-name-project-href-project-i-class-ion-link-i-a&#34;&gt;Project Management &lt;a name=&#34;proJect&#34; href=&#34;#proJect&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;&lt;em&gt;Project&lt;/em&gt; - a (often temporary) endeavor undertaken in order to complete a task, achieve a goal, or create a product or service. Casually, a project is just a thing a person or group does to accomplish something.&lt;/p&gt;
 
@@ -136,7 +132,7 @@
 &lt;li&gt;In what order will features be implemented?&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;product-management-a-name-product-href-product-i-class-ion-link-i-a:2bc9b53639a6b650caacc5bab7e9a353&#34;&gt;Product Management &lt;a name=&#34;proDuct&#34; href=&#34;#proDuct&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;product-management-a-name-product-href-product-i-class-ion-link-i-a&#34;&gt;Product Management &lt;a name=&#34;proDuct&#34; href=&#34;#proDuct&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;&lt;em&gt;Product&lt;/em&gt; - a good, service, or tool built in order to solve a problem for a user (or, ideally, users). Casually, a product is something people use.&lt;/p&gt;
 
@@ -154,7 +150,7 @@
 &lt;li&gt;What is the benefit to the end user, especially compared to their current solution?&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;separate-but-equal-a-name-separate-href-separate-i-class-ion-link-i-a:2bc9b53639a6b650caacc5bab7e9a353&#34;&gt;Separate, but equal? &lt;a name=&#34;separate&#34; href=&#34;#separate&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;separate-but-equal-a-name-separate-href-separate-i-class-ion-link-i-a&#34;&gt;Separate, but equal? &lt;a name=&#34;separate&#34; href=&#34;#separate&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;Now that we&amp;rsquo;ve defined some of the differences between the two PMs, we can better understand the role each fills, what their concerns are, and why they&amp;rsquo;re important to success.&lt;/p&gt;
 
@@ -169,11 +165,10 @@ http://allaboutproductmanagement.blogspot.com/2007/03/project-manager-or-product
 
 &lt;hr/&gt;
 
-&lt;h3 id=&#34;a-brief-plug:2bc9b53639a6b650caacc5bab7e9a353&#34;&gt;A brief plug&lt;/h3&gt;
+&lt;h3 id=&#34;a-brief-plug&#34;&gt;A brief plug&lt;/h3&gt;
 
 &lt;p&gt;Did you find yourself reading this post and thinking &amp;ldquo;we&amp;rsquo;ve got the project part down, but shoot, having a product person would be great&amp;rdquo;? Part of the reason this has come up a lot for me is I&amp;rsquo;m looking into a product-manager-as-a-service model. You should &lt;a href=&#34;mailto:bradley.orego@gmail.com&#34;&gt;contact me&lt;/a&gt; if you&amp;rsquo;d like to hear more.&lt;/p&gt;
 </description>
-      <tags>user-centered design,product management,management,vision,execution,</tags>
     </item>
     
   </channel>

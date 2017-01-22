@@ -2,20 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Barry Schwartz on bradorego.com</title>
-    <link>https://bradorego.com/tags/barry-schwartz/</link>
+    <link>http://bradorego.com/tags/barry-schwartz/index.xml</link>
     <description>Recent content in Barry Schwartz on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Feb 2013 16:22:57 -0500</lastBuildDate>
-    <atom:link href="https://bradorego.com/tags/barry-schwartz/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://bradorego.com/tags/barry-schwartz/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Note-taking</title>
-      <link>https://bradorego.com/note-taking</link>
-      <image>https://bradorego.com/img/posts/notetaking/header.jpg</image>
+      <link>http://bradorego.com/note-taking</link>
       <pubDate>Wed, 27 Feb 2013 16:22:57 -0500</pubDate>
       
-      <guid>https://bradorego.com/note-taking</guid>
+      <guid>http://bradorego.com/note-taking</guid>
       <description>&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
   &lt;h4&gt;TL;DNR&lt;/h4&gt;
   &lt;ul&gt;
@@ -30,7 +28,7 @@
 
 &lt;p&gt;Since graduating from college, I&amp;rsquo;ve started a new version of the practice. Now, after finishing a book (sometimes immediately, but usually after a little time), I go back through the book and look over all of the underlining and notes I took. Generally speaking, when I underline something, it&amp;rsquo;s because it had a certian salience or value to me at the time. So, as I recount these notes, I take a mini post-it note and write whatever value I was trying to glean from it, and then I stick it to the margin of that page. The results look something like this:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/posts/notetaking/paradox5.jpg&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/posts/notetaking/paradox5.jpg&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Not only does this practice reinforce what I&amp;rsquo;ve learned from that book, but it also changes the way I&amp;rsquo;ve experienced reading that book. In Barry Schwartz&amp;rsquo;s book &amp;ldquo;&lt;a href=&#34;http://www.amazon.com/Paradox-Choice-Why-More-Less/dp/0060005696&#34;&gt;The Paradox of Choice&lt;/a&gt;&amp;rdquo;, he cites &lt;a href=&#34;http://profron.net/happiness/files/readings/Kahneman_ObjectiveHappiness.pdf&#34;&gt;a study by Daniel Kahneman&lt;/a&gt;&amp;nbsp;which recounts the way we experience and remember the utility of something (that is, how much we enjoyed it).&lt;/p&gt;
 
@@ -49,7 +47,6 @@
 
 &lt;p&gt;Schwartz also discusses an incredible array of information and concepts that I believe everyone should be aware of, such as opportunity costs, satisficing vs. maximizing, and the role of utility (esp. diminishing utility) in our daily lives. I&amp;rsquo;d highly recommend giving it a read, as I&amp;rsquo;ve personally seen benefit in my life by putting some of his suggestions into play.&lt;/p&gt;
 </description>
-      <tags>paradox of choice,barry schwartz,psychology,opportunity cost,</tags>
     </item>
     
   </channel>

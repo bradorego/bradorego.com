@@ -2,20 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>User Experience on bradorego.com</title>
-    <link>https://bradorego.com/categories/user-experience/</link>
+    <link>http://bradorego.com/categories/user-experience/index.xml</link>
     <description>Recent content in User Experience on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 May 2016 19:31:28 -0500</lastBuildDate>
-    <atom:link href="https://bradorego.com/categories/user-experience/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://bradorego.com/categories/user-experience/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>The Dangers of Tight Iteration</title>
-      <link>https://bradorego.com/the-dangers-of-tight-iteration</link>
-      <image>https://bradorego.com/img/posts/dangers-of-tight-iteration/header.png</image>
+      <link>http://bradorego.com/the-dangers-of-tight-iteration</link>
       <pubDate>Fri, 20 May 2016 19:31:28 -0500</pubDate>
       
-      <guid>https://bradorego.com/the-dangers-of-tight-iteration</guid>
+      <guid>http://bradorego.com/the-dangers-of-tight-iteration</guid>
       <description>
 
 &lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
@@ -32,7 +30,7 @@
 
 &lt;p&gt;There&amp;rsquo;s a lot wrong with this answer, but let&amp;rsquo;s unpack it a little.&lt;/p&gt;
 
-&lt;h1 id=&#34;rapid-prototyping-a-name-rapidprototyping-href-rapidprototyping-i-class-ion-link-i-a:bed2c57243224eaf92c5dc8e3d145ddb&#34;&gt;Rapid Prototyping &lt;a name=&#34;rapidPrototyping&#34; href=&#34;#rapidPrototyping&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;rapid-prototyping-a-name-rapidprototyping-href-rapidprototyping-i-class-ion-link-i-a&#34;&gt;Rapid Prototyping &lt;a name=&#34;rapidPrototyping&#34; href=&#34;#rapidPrototyping&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;First and foremost, effective use of Rapid Prototyping can be immensely beneficial to a product. If there&amp;rsquo;s one thing I could convince every company in the world to do, it would be to use some type of rapid prototyping in their product design. If I got a fraction of all of the &lt;a href=&#34;http://time.com/13549/the-10-worst-product-fails-of-all-time/&#34;&gt;money spent&lt;/a&gt; building products that ultimately failed, I&amp;rsquo;d never have to work again.&lt;/p&gt;
 
@@ -47,12 +45,12 @@
 &lt;li&gt;Interactive Prototypes - semi-functional software systems users can interact with&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;let-s-talk-about-fidelity-a-name-fidelity-href-fidelity-i-class-ion-link-i-a:bed2c57243224eaf92c5dc8e3d145ddb&#34;&gt;Let&amp;rsquo;s Talk About Fidelity &lt;a name=&#34;fidelity&#34; href=&#34;#fidelity&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;let-s-talk-about-fidelity-a-name-fidelity-href-fidelity-i-class-ion-link-i-a&#34;&gt;Let&amp;rsquo;s Talk About Fidelity &lt;a name=&#34;fidelity&#34; href=&#34;#fidelity&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;The exact definition of fidelity isn&amp;rsquo;t exactly clear, but it roughly refers to the level of detail your current iteration includes. It&amp;rsquo;s often used in the context of prototyping, but it can refer to existing products as well. Your typical startup MVP is a high-fidelity prototype but a low-fidelity product. Fidelity exists on a &lt;a href=&#34;https://www.smashingmagazine.com/2010/06/design-better-faster-with-rapid-prototyping/#the-prototyping-spectrum&#34;&gt;continuum&lt;/a&gt;, with the lower end including concepts, sketches, and rough wireframes, and the higher end being branded/visually design and interactive prototypes. I&amp;rsquo;ve seen far too many products that jump right into the deep end of fidelity, missing out on all of the potential learning from testing lower fidelity prototypes.&lt;/p&gt;
 
 &lt;figure&gt;
-&lt;img src=&#34;https://bradorego.com/img/posts/dangers-of-tight-iteration/graph.jpg&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/posts/dangers-of-tight-iteration/graph.jpg&#34; /&gt;
 &lt;figcaption&gt;&lt;a href=&#34;http://www.uxmatters.com/mt/archives/2010/05/sketches-and-wireframes-and-prototypes-oh-my-creating-your-own-magical-wizard-experience.php&#34;&gt;Credit&lt;/a&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -60,20 +58,20 @@
 
 &lt;p&gt;This graph (and more great coverage of the pluses and minuses of different levels of fidelity) from &lt;a href=&#34;http://www.uxmatters.com/mt/archives/2010/05/sketches-and-wireframes-and-prototypes-oh-my-creating-your-own-magical-wizard-experience.php&#34;&gt;UX Matters&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h1 id=&#34;why-it-matters-a-name-why-href-why-i-class-ion-link-i-a:bed2c57243224eaf92c5dc8e3d145ddb&#34;&gt;Why It Matters &lt;a name=&#34;why&#34; href=&#34;#why&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;why-it-matters-a-name-why-href-why-i-class-ion-link-i-a&#34;&gt;Why It Matters &lt;a name=&#34;why&#34; href=&#34;#why&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;It can be intoxicating to set a baseline and watch your numbers improve on whatever metrics you&amp;rsquo;ve set, as you iterate. Arguably, data-informed design is a good thing, especially compared to the alternative. The &lt;a href=&#34;http://adaptivepath.org/ideas/data-informed-not-data-driven-the-subtext/&#34;&gt;problem&lt;/a&gt; is when data starts driving your decisions, and you lose sight of the big picture - improving the experience for the end user. Increased conversions, decreased errors, or more efficient interactions may not necessarily be the most enjoyable experience (e.g. a &lt;a href=&#34;http://www.people.hbs.edu/rbuell/papers/buell_norton_2011.pdf&#34;&gt;wait time&lt;/a&gt; might actually be a &lt;em&gt;good&lt;/em&gt; thing).&lt;/p&gt;
 
 &lt;p&gt;The problem with this approach is it might be honing in on what&amp;rsquo;s known as a local maxima. Naive &lt;a href=&#34;https://en.wikipedia.org/wiki/Hill_climbing&#34;&gt;hill-climbing&lt;/a&gt; algorithms can fall victim to this problem as well. Essentially, you continue to see improvements and make changes until you reach a point where those improvements either diminish entirely or degrade. At this point, traditional wisdom would be to stop working and either a) work on something else, or b) declare yourself victorious and toast your achievement, all the while missing what could be a better solution.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&#34;https://bradorego.com/img/posts/dangers-of-tight-iteration/local-maxima.jpg&#34; /&gt;
+  &lt;img src=&#34;http://bradorego.com/img/posts/dangers-of-tight-iteration/local-maxima.jpg&#34; /&gt;
   &lt;figcaption&gt;&lt;a href=&#34;http://www.90percentofeverything.com/2011/01/06/local-maxima-and-the-perils-of-data-driven-design/&#34;&gt;Credit&lt;/a&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;On a philosophical note, I like to think of every design problem (if not every problem in life) as something like the above graphic, except the plane is infinite &amp;ndash; there&amp;rsquo;re always other options, some of which might be better than our current situation if we&amp;rsquo;re just willing to take the leap of faith and try a new approach.&lt;/p&gt;
 
-&lt;h1 id=&#34;fighting-the-local-maxima-a-name-local-href-local-i-class-ion-link-i-a:bed2c57243224eaf92c5dc8e3d145ddb&#34;&gt;Fighting the Local Maxima &lt;a name=&#34;local&#34; href=&#34;#local&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;fighting-the-local-maxima-a-name-local-href-local-i-class-ion-link-i-a&#34;&gt;Fighting the Local Maxima &lt;a name=&#34;local&#34; href=&#34;#local&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;So now we&amp;rsquo;re aware of the problem and what causes it. That doesn&amp;rsquo;t necessarily tell us what to do about it, though. Here&amp;rsquo;s a great strategy outlined in an article from 2010:&lt;/p&gt;
 
@@ -86,20 +84,18 @@
 
 &lt;hr/&gt;
 
-&lt;h3 id=&#34;a-brief-plug:bed2c57243224eaf92c5dc8e3d145ddb&#34;&gt;A brief plug&lt;/h3&gt;
+&lt;h3 id=&#34;a-brief-plug&#34;&gt;A brief plug&lt;/h3&gt;
 
 &lt;p&gt;Did you find yourself reading this post and thinking &amp;ldquo;our products have definitely suffered from the wrong type of feedback&amp;rdquo;? Part of the reason this has come up a lot for me is I&amp;rsquo;m looking into a product-manager-as-a-service model. You should &lt;a href=&#34;mailto:bradley.orego@gmail.com&#34;&gt;contact me&lt;/a&gt; if you&amp;rsquo;d like to hear more.&lt;/p&gt;
 </description>
-      <tags>prototype,user-centered design,fidelity,rapid iteration,product management,</tags>
     </item>
     
     <item>
       <title>Product vs Project Management</title>
-      <link>https://bradorego.com/product-vs-project-management</link>
-      <image>https://bradorego.com/img/default-bg2.jpg</image>
+      <link>http://bradorego.com/product-vs-project-management</link>
       <pubDate>Wed, 11 May 2016 10:04:17 -0500</pubDate>
       
-      <guid>https://bradorego.com/product-vs-project-management</guid>
+      <guid>http://bradorego.com/product-vs-project-management</guid>
       <description>
 
 &lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
@@ -118,7 +114,7 @@
 
 &lt;p&gt;So let&amp;rsquo;s talk about some of these differences.&lt;/p&gt;
 
-&lt;h1 id=&#34;project-management-a-name-project-href-project-i-class-ion-link-i-a:2bc9b53639a6b650caacc5bab7e9a353&#34;&gt;Project Management &lt;a name=&#34;proJect&#34; href=&#34;#proJect&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;project-management-a-name-project-href-project-i-class-ion-link-i-a&#34;&gt;Project Management &lt;a name=&#34;proJect&#34; href=&#34;#proJect&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;&lt;em&gt;Project&lt;/em&gt; - a (often temporary) endeavor undertaken in order to complete a task, achieve a goal, or create a product or service. Casually, a project is just a thing a person or group does to accomplish something.&lt;/p&gt;
 
@@ -136,7 +132,7 @@
 &lt;li&gt;In what order will features be implemented?&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;product-management-a-name-product-href-product-i-class-ion-link-i-a:2bc9b53639a6b650caacc5bab7e9a353&#34;&gt;Product Management &lt;a name=&#34;proDuct&#34; href=&#34;#proDuct&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;product-management-a-name-product-href-product-i-class-ion-link-i-a&#34;&gt;Product Management &lt;a name=&#34;proDuct&#34; href=&#34;#proDuct&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;&lt;em&gt;Product&lt;/em&gt; - a good, service, or tool built in order to solve a problem for a user (or, ideally, users). Casually, a product is something people use.&lt;/p&gt;
 
@@ -154,7 +150,7 @@
 &lt;li&gt;What is the benefit to the end user, especially compared to their current solution?&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;separate-but-equal-a-name-separate-href-separate-i-class-ion-link-i-a:2bc9b53639a6b650caacc5bab7e9a353&#34;&gt;Separate, but equal? &lt;a name=&#34;separate&#34; href=&#34;#separate&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;separate-but-equal-a-name-separate-href-separate-i-class-ion-link-i-a&#34;&gt;Separate, but equal? &lt;a name=&#34;separate&#34; href=&#34;#separate&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;Now that we&amp;rsquo;ve defined some of the differences between the two PMs, we can better understand the role each fills, what their concerns are, and why they&amp;rsquo;re important to success.&lt;/p&gt;
 
@@ -169,20 +165,18 @@ http://allaboutproductmanagement.blogspot.com/2007/03/project-manager-or-product
 
 &lt;hr/&gt;
 
-&lt;h3 id=&#34;a-brief-plug:2bc9b53639a6b650caacc5bab7e9a353&#34;&gt;A brief plug&lt;/h3&gt;
+&lt;h3 id=&#34;a-brief-plug&#34;&gt;A brief plug&lt;/h3&gt;
 
 &lt;p&gt;Did you find yourself reading this post and thinking &amp;ldquo;we&amp;rsquo;ve got the project part down, but shoot, having a product person would be great&amp;rdquo;? Part of the reason this has come up a lot for me is I&amp;rsquo;m looking into a product-manager-as-a-service model. You should &lt;a href=&#34;mailto:bradley.orego@gmail.com&#34;&gt;contact me&lt;/a&gt; if you&amp;rsquo;d like to hear more.&lt;/p&gt;
 </description>
-      <tags>user-centered design,product management,management,vision,execution,</tags>
     </item>
     
     <item>
       <title>Transparency of &#34;Online&#34;</title>
-      <link>https://bradorego.com/transparency-of-online</link>
-      <image>https://bradorego.com/img/posts/transparency-of-online/header.png</image>
+      <link>http://bradorego.com/transparency-of-online</link>
       <pubDate>Tue, 15 Jul 2014 17:37:34 -0500</pubDate>
       
-      <guid>https://bradorego.com/transparency-of-online</guid>
+      <guid>http://bradorego.com/transparency-of-online</guid>
       <description>
 
 &lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
@@ -197,21 +191,21 @@ http://allaboutproductmanagement.blogspot.com/2007/03/project-manager-or-product
 
 &lt;p&gt;With all the talk about unplugging, disconnecting, screen time, and going &amp;ldquo;off the grid&amp;rdquo;, there&amp;rsquo;s clearly been a shift in the way we interact with technology and the implications it has for society (as well as possibly our mental health). The &lt;a href=&#34;http://nationaldayofunplugging.com/&#34;&gt;National Day of Unplugging&lt;/a&gt; is dedicated to people spending ~24 hours (sundown to sundown) without engaging with technology under the premise of doing things like being more present, destressing, etc. While I could go on about how something meant to help us has become this burden of sorts, I&amp;rsquo;m more interested in the implications (from an experiential standpoint) of being forever-on.&lt;/p&gt;
 
-&lt;h1 id=&#34;always-connected-a-name-always-href-always-i-class-ion-link-i-a:0630faa271b6c4fe5b485a19f90d0aad&#34;&gt;Always Connected &lt;a name=&#34;always&#34; href=&#34;#always&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;always-connected-a-name-always-href-always-i-class-ion-link-i-a&#34;&gt;Always Connected &lt;a name=&#34;always&#34; href=&#34;#always&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;I first noticed this subtle shift when talking to someone a few weeks ago on &lt;a href=&#34;https://www.hipchat.com/&#34;&gt;HipChat&lt;/a&gt;. I was in the middle of a conversation on my laptop and knew I had to step away from the computer for a few minutes, but I didn&amp;rsquo;t feel any need to notify my conversation partner about this. Two main reasons - 1) if it were actually all that important/crucial, I could always answer it on my phone, and 2) the message wasn&amp;rsquo;t going anywhere so if I got back to him immediately or within the next 5-10 minutes, it didn&amp;rsquo;t really make a difference.&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;ve noticed an almost identical interaction pattern with Facebook Messenger. I no longer worry whether or not the person is there, nor do I feel the need to alert others of my status. In fact, most of my conversations via FB happen over the course of hours, days, even weeks at a time. The transparency of status is completely irrelevant to our interaction because we both know the messages will be there if and when the other party gets around to responding.&lt;/p&gt;
 
-&lt;h1 id=&#34;it-gets-better-or-worse-a-name-better-href-better-i-class-ion-link-i-a:0630faa271b6c4fe5b485a19f90d0aad&#34;&gt;It gets better (or worse..?) &lt;a name=&#34;better&#34; href=&#34;#better&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;it-gets-better-or-worse-a-name-better-href-better-i-class-ion-link-i-a&#34;&gt;It gets better (or worse..?) &lt;a name=&#34;better&#34; href=&#34;#better&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;Of course, there are drawbacks to this. Everybody knows the dread associatied with the assumption that, because you have a smartphone/phone/computer/laptop/tablet/smartwatch/whatever, that you can be reached any day, any time, and that creates this obsessive need to have notifications turned on for everything. The problem gets worse as we move into more-ubiquitous forms of computing, such as wearable technology.&lt;/p&gt;
 
 &lt;p&gt;This past weekend at &lt;a href=&#34;http://madisonpl.us/ux&#34;&gt;Madison+UX&lt;/a&gt;, Philip Likens gave a talk about &lt;a href=&#34;http://www.slideshare.net/philiplikens/philip-likens-madisonux&#34;&gt;wearable computing&lt;/a&gt;, mentioning that he&amp;rsquo;s abandoned most of his wearables due to &lt;a href=&#34;https://www.google.com/search?q=notifiaction+overload&amp;amp;oq=notifiaction+overload&amp;amp;aqs=chrome..69i57.2313j0j1&amp;amp;sourceid=chrome&amp;amp;es_sm=91&amp;amp;ie=UTF-8#q=notification+overload&amp;amp;spell=1&#34;&gt;notification overload&lt;/a&gt;. In (roughly) his own words, having his phone, his watch, and his Google Glass all vibrate simultaneously any time anything happened became a little overwhelming. So now, instead of having some sense of what&amp;rsquo;s going on, he doesn&amp;rsquo;t even carry his phone on his person - totally shut off.&lt;/p&gt;
 
-&lt;p&gt;I&amp;rsquo;m inadventently running the same experiment - I put my phone on silent for the conference (due to the exorbitant amount of Twitter notifications I was getting) and I simply forgot to put it back on vibrate for the first day or two. What I realized is that I spent less time on minor distractions (increasing my overall &lt;a href=&#34;https://bradorego.com/2013-03-the-importance-of-flow/&#34;&gt;flow&lt;/a&gt;), and I only checked the phone when I wanted to. It was back to on-demand instead of being always on, and it&amp;rsquo;s really refreshing.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m inadventently running the same experiment - I put my phone on silent for the conference (due to the exorbitant amount of Twitter notifications I was getting) and I simply forgot to put it back on vibrate for the first day or two. What I realized is that I spent less time on minor distractions (increasing my overall &lt;a href=&#34;http://bradorego.com/2013-03-the-importance-of-flow/&#34;&gt;flow&lt;/a&gt;), and I only checked the phone when I wanted to. It was back to on-demand instead of being always on, and it&amp;rsquo;s really refreshing.&lt;/p&gt;
 
-&lt;h1 id=&#34;designing-notifications-a-name-notifications-href-notifications-i-class-ion-link-i-a:0630faa271b6c4fe5b485a19f90d0aad&#34;&gt;Designing Notifications &lt;a name=&#34;notifications&#34; href=&#34;#notifications&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;designing-notifications-a-name-notifications-href-notifications-i-class-ion-link-i-a&#34;&gt;Designing Notifications &lt;a name=&#34;notifications&#34; href=&#34;#notifications&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;So what does this mean to us as Experience Designers? A few things:&lt;/p&gt;
 
@@ -224,16 +218,14 @@ http://allaboutproductmanagement.blogspot.com/2007/03/project-manager-or-product
 
 &lt;p&gt;And of course many more.&lt;/p&gt;
 </description>
-      <tags>offline,transparency,notifications,flow,ubiquitous computing,</tags>
     </item>
     
     <item>
       <title>An Open Letter to OkCupid</title>
-      <link>https://bradorego.com/an-open-letter-to-okcupid</link>
-      <image>https://bradorego.com/img/posts/open-letter-okcupid/header.png</image>
+      <link>http://bradorego.com/an-open-letter-to-okcupid</link>
       <pubDate>Thu, 25 Apr 2013 17:11:40 -0500</pubDate>
       
-      <guid>https://bradorego.com/an-open-letter-to-okcupid</guid>
+      <guid>http://bradorego.com/an-open-letter-to-okcupid</guid>
       <description>
 
 &lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
@@ -252,7 +244,7 @@ http://allaboutproductmanagement.blogspot.com/2007/03/project-manager-or-product
 
 &lt;p&gt;This is why I feel like I have to do this. See, there&amp;rsquo;s something wrong. It&amp;rsquo;s not a major problem (although, given the userbase and intertia you have, it might be, but given your &lt;a href=&#34;http://www.crazyblinddate.com/&#34;&gt;willingness&lt;/a&gt; to try &lt;a href=&#34;http://www.okcupid.com/mybestface&#34;&gt;experiments&lt;/a&gt; and side-projects, this might be something you can spin up/spin off), but it has some pretty significant consequences. As we&amp;rsquo;ve been made well aware by the internet, there are &lt;a href=&#34;http://theinternetisterrible.com/&#34;&gt;lots of terrible people&lt;/a&gt; out there. Humanity can be pretty messed up. OkCupid is, unfortunately, &lt;a href=&#34;http://www.mandatory.com/2012/11/13/ok-cupid-an-exploration-into-just-how-low-some-guys-will-go&#34;&gt;no safe haven&lt;/a&gt; to the &lt;a href=&#34;http://www.tumblr.com/tagged/nice%20guys%20of%20okcupid&#34;&gt;denizens of the internet&lt;/a&gt;. OkCupid&amp;rsquo;s design, however, makes it possible for these baddies to exploit the system, which is where our problem lies.&lt;/p&gt;
 
-&lt;h1 id=&#34;signal-vs-noise-a-name-signal-href-signal-i-class-ion-link-i-a:4c0c4bbe7a08bf9aa64c3401696272b2&#34;&gt;Signal vs. Noise &lt;a name=&#34;signal&#34; href=&#34;#signal&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;signal-vs-noise-a-name-signal-href-signal-i-class-ion-link-i-a&#34;&gt;Signal vs. Noise &lt;a name=&#34;signal&#34; href=&#34;#signal&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;For the uninitiated, the way OkCupid works is that users sign up, answer some profile questions about themselves, list some information, post some pictures, state what they&amp;rsquo;re interested in, and maybe even answer some of OkCupid&amp;rsquo;s &amp;ldquo;Match Questions&amp;rdquo;, which is where its famed matchmaking service comes from. Users then have the ability to send messages to any other user, under the premise of making an introduction, conversation, or whatever they please.&lt;/p&gt;
 
@@ -262,7 +254,7 @@ http://allaboutproductmanagement.blogspot.com/2007/03/project-manager-or-product
 
 &lt;p&gt;On top of forcing women away, this endless inundation desensitizes them to receiving messages in the first place, which means, for any halfway decent guy out there, actually getting through to a girl is that much harder. The number of messages guys have to send to get any responses is absurd, with&amp;nbsp;&lt;a href=&#34;http://blog.okcupid.com/index.php/online-dating-advice-exactly-what-to-say-in-a-first-message/&#34;&gt;response rates hovering around 30%&lt;/a&gt;. 30%! Mostly because (bad) guys send way too many messages.&lt;/p&gt;
 
-&lt;h1 id=&#34;okay-now-what-a-name-solution-href-solution-i-class-ion-link-i-a:4c0c4bbe7a08bf9aa64c3401696272b2&#34;&gt;Okay. Now what? &lt;a name=&#34;solution&#34; href=&#34;#solution&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;okay-now-what-a-name-solution-href-solution-i-class-ion-link-i-a&#34;&gt;Okay. Now what? &lt;a name=&#34;solution&#34; href=&#34;#solution&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;So this is bad. Some guys are ruining it for all of us, guys and gals included. What do we do, then? Sit and whine about it? Try &lt;a href=&#34;http://www.eharmony.com/&#34;&gt;one&lt;/a&gt; &lt;a href=&#34;http://www.ourtime.com/&#34;&gt;of&lt;/a&gt; &lt;a href=&#34;http://www.chemistry.com/&#34;&gt;the&lt;/a&gt; &lt;a href=&#34;https://www.zoosk.com/&#34;&gt;many&lt;/a&gt; &lt;a href=&#34;http://www.match.com/index.aspx&#34;&gt;other&lt;/a&gt; (&lt;/span&gt;&lt;a href=&#34;http://www.pof.com/&#34;&gt;mostly&lt;/a&gt; &lt;a href=&#34;http://www.christianmingle.com/&#34;&gt;terrible&lt;/a&gt;) &lt;a href=&#34;http://www.benaughty.com/&#34;&gt;dating&lt;/a&gt; sites? Go back to our old ways of bars, clubs, parties, and other social events? Give up and start our own online dating site/service? Try one of those &lt;a href=&#34;http://www.onlulu.com/&#34;&gt;newfangled&lt;/a&gt; &lt;a href=&#34;http://swoonapp.com/&#34;&gt;dating&lt;/a&gt; &lt;a href=&#34;http://blendr.com/&#34; &gt;apps&lt;/a&gt; &lt;a href=&#34;http://www.gotinder.com/index.html&#34;&gt;that&lt;/a&gt; &lt;a href=&#34;http://grindr.com/&#34;&gt;are&lt;/a&gt; &lt;a href=&#34;https://coffeemeetsbagel.com/&#34;&gt;now&lt;/a&gt; (or at least, for now) all the rage? I don&amp;rsquo;t want to do that, and you don&amp;rsquo;t want me to do that. So let&amp;rsquo;s figure out how to work it out.&lt;/span&gt;&lt;/p&gt;
 
@@ -283,16 +275,14 @@ http://allaboutproductmanagement.blogspot.com/2007/03/project-manager-or-product
 
 &lt;p&gt;I still have faith in you, OkCupid. You do great things, and you&amp;rsquo;re way better than any other site I&amp;rsquo;ve used, both in terms of user experience and user base. Just please, please fix these things, and I&amp;rsquo;ll love you even more. I&amp;rsquo;m more than happy to talk about this in further detail and clarify some points if you&amp;rsquo;d like, as this post was already getting too long to go into full detail.&lt;/p&gt;
 </description>
-      <tags>okcupid,messaging,online dating,</tags>
     </item>
     
     <item>
       <title>The Importance of Flow</title>
-      <link>https://bradorego.com/the-importance-of-flow</link>
-      <image>https://bradorego.com/img/posts/importance-of-flow/header.jpg</image>
+      <link>http://bradorego.com/the-importance-of-flow</link>
       <pubDate>Sat, 16 Mar 2013 16:38:15 -0500</pubDate>
       
-      <guid>https://bradorego.com/the-importance-of-flow</guid>
+      <guid>http://bradorego.com/the-importance-of-flow</guid>
       <description>&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
   &lt;h4&gt;TL;DNR&lt;/h4&gt;
   &lt;ul&gt;
@@ -309,26 +299,24 @@ http://allaboutproductmanagement.blogspot.com/2007/03/project-manager-or-product
 
 &lt;p&gt;Concidentally, research has shown a fairly high overlap between the conditions for flow and the basis of SDT. Flow requires a level of challenge that is adequately matched to the abilities of the participant (competence), the activity must have clear goals an progress (relatedness - sort of), and the task must present clear, immediate, and constant feedback, so that the participant can adjust performance. &lt;a href=&#34;http://en.wikipedia.org/wiki/Mihaly_Csikszentmihalyi&#34;&gt;Mihaly Csikszentmihalyi&lt;/a&gt; (&amp;ldquo;cheek-sent-mee-hah-yee&amp;rdquo;), a world leader in flow, published this graph to express the relationship between challenge and skill:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/posts/importance-of-flow/challenge-vs-skill.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/posts/importance-of-flow/challenge-vs-skill.png&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;There are also things that can absolutely ruin flow, which is actually the motivation behind this post. I have a new worst enemy when it comes to reading stories on some popular news sites/blogs, and it&amp;rsquo;s this thing:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/posts/importance-of-flow/comment-box.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/posts/importance-of-flow/comment-box.png&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I hate this thing so much. Any time I&amp;rsquo;m reading a news story on TechCrunch, I&amp;rsquo;m usually immersed in the experience and enjoying the read until this little thing pops up in the lower right of my browser window. Its sudden appearance grabs my attention, and I instinctively look at it. After that, I murmur something under my breath and then go ba-&amp;hellip;wait, where was I? What was I just reading?&lt;/p&gt;
 
 &lt;p&gt;It&amp;rsquo;s not a major disturbance, as I quickly regain my concentration and get back to reading, but with new/popular articles, this happens several times during my read. This little blip in concentration - a break in my flow - slows me down and sullies my experience. This happens to us all the time, what with cell phones buzzing and Facebook notifications popping up and emails rolling in constantly.&lt;/p&gt;
 </description>
-      <tags>flow,psychology,</tags>
     </item>
     
     <item>
       <title>Note-taking</title>
-      <link>https://bradorego.com/note-taking</link>
-      <image>https://bradorego.com/img/posts/notetaking/header.jpg</image>
+      <link>http://bradorego.com/note-taking</link>
       <pubDate>Wed, 27 Feb 2013 16:22:57 -0500</pubDate>
       
-      <guid>https://bradorego.com/note-taking</guid>
+      <guid>http://bradorego.com/note-taking</guid>
       <description>&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
   &lt;h4&gt;TL;DNR&lt;/h4&gt;
   &lt;ul&gt;
@@ -343,7 +331,7 @@ http://allaboutproductmanagement.blogspot.com/2007/03/project-manager-or-product
 
 &lt;p&gt;Since graduating from college, I&amp;rsquo;ve started a new version of the practice. Now, after finishing a book (sometimes immediately, but usually after a little time), I go back through the book and look over all of the underlining and notes I took. Generally speaking, when I underline something, it&amp;rsquo;s because it had a certian salience or value to me at the time. So, as I recount these notes, I take a mini post-it note and write whatever value I was trying to glean from it, and then I stick it to the margin of that page. The results look something like this:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/posts/notetaking/paradox5.jpg&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/posts/notetaking/paradox5.jpg&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Not only does this practice reinforce what I&amp;rsquo;ve learned from that book, but it also changes the way I&amp;rsquo;ve experienced reading that book. In Barry Schwartz&amp;rsquo;s book &amp;ldquo;&lt;a href=&#34;http://www.amazon.com/Paradox-Choice-Why-More-Less/dp/0060005696&#34;&gt;The Paradox of Choice&lt;/a&gt;&amp;rdquo;, he cites &lt;a href=&#34;http://profron.net/happiness/files/readings/Kahneman_ObjectiveHappiness.pdf&#34;&gt;a study by Daniel Kahneman&lt;/a&gt;&amp;nbsp;which recounts the way we experience and remember the utility of something (that is, how much we enjoyed it).&lt;/p&gt;
 
@@ -362,16 +350,14 @@ http://allaboutproductmanagement.blogspot.com/2007/03/project-manager-or-product
 
 &lt;p&gt;Schwartz also discusses an incredible array of information and concepts that I believe everyone should be aware of, such as opportunity costs, satisficing vs. maximizing, and the role of utility (esp. diminishing utility) in our daily lives. I&amp;rsquo;d highly recommend giving it a read, as I&amp;rsquo;ve personally seen benefit in my life by putting some of his suggestions into play.&lt;/p&gt;
 </description>
-      <tags>paradox of choice,barry schwartz,psychology,opportunity cost,</tags>
     </item>
     
     <item>
       <title>The Importance of Content</title>
-      <link>https://bradorego.com/the-importance-of-content</link>
-      <image>https://bradorego.com/img/posts/content/header.jpg</image>
+      <link>http://bradorego.com/the-importance-of-content</link>
       <pubDate>Sat, 09 Feb 2013 14:21:58 -0500</pubDate>
       
-      <guid>https://bradorego.com/the-importance-of-content</guid>
+      <guid>http://bradorego.com/the-importance-of-content</guid>
       <description>&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
   &lt;h4&gt;TL;DNR&lt;/h4&gt;
   &lt;ul&gt;
@@ -388,16 +374,14 @@ http://allaboutproductmanagement.blogspot.com/2007/03/project-manager-or-product
 
 &lt;p&gt;Content is, however, one of the pieces of UX that I neglect the most. I&amp;rsquo;m always an advocate for designing with the content in mind, but I usually write it off as &amp;ldquo;some text&amp;rdquo; or &amp;ldquo;an image and some text&amp;rdquo;, or some generalization of what the content actually is. The volume of content is incredibly important, and can really make or break a design if appropriate consideration isn&amp;rsquo;t taken. There&amp;rsquo;s a lot of material out there about content strategy, so that would probably be a good place to look if you wanted to brush up on it.&lt;/p&gt;
 </description>
-      <tags>content,meta,content strategy,</tags>
     </item>
     
     <item>
       <title>DITW: Stovetop</title>
-      <link>https://bradorego.com/ditw-stovetop</link>
-      <image>https://bradorego.com/img/posts/ditw-stovetop/header.png</image>
+      <link>http://bradorego.com/ditw-stovetop</link>
       <pubDate>Sat, 22 Dec 2012 14:21:58 -0500</pubDate>
       
-      <guid>https://bradorego.com/ditw-stovetop</guid>
+      <guid>http://bradorego.com/ditw-stovetop</guid>
       <description>&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
   &lt;h4&gt;TL;DNR&lt;/h4&gt;
   &lt;ul&gt;
@@ -416,17 +400,16 @@ http://allaboutproductmanagement.blogspot.com/2007/03/project-manager-or-product
 
 &lt;p&gt;In most cases, stovetops provide a linear set of controls (the knobs, in a row) in order to map onto a 2-D set of outputs (the burners, on a grid). Sometimes you&amp;rsquo;re lucky enough to have a light to tell you if there&amp;rsquo;s a hot surface, as well, like so:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/posts/ditw-stovetop/normal-stove2.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/posts/ditw-stovetop/normal-stove2.jpg&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;My current apartment&amp;rsquo;s kitchen has something I don&amp;rsquo;t recall seeing before, and it makes the cooking experience so much easier:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/posts/ditw-stovetop/my-stove1.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/posts/ditw-stovetop/my-stove1.jpg&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;There are several small features about this range that make so much more sense than the traditional setup. For one, the knobs are laid out the same way the burners are, so I don&amp;rsquo;t even have to think about or ask which knob controls which burner. It&amp;rsquo;s self-evident. There are also four individual lights - one for each burner. The self-evidence is wonderful. The only real complaint I have about this range is that these four lights could be slightly more useful if they a) stayed on after I turned the burner off for as long as that burner was hot, and/or b) had a dimmer to tell me how hot the burner was. If I put it on 1 or on 7, I get the same amount of light. Beggars can&amp;rsquo;t be choosers, though.&lt;/p&gt;
 
 &lt;p&gt;As it turns out, this exact example of mapping was discussed by Donald Norman himself in the Design of Everyday Things. In fact, that&amp;rsquo;s where the header image comes from. So this idea is far from new. The bigger question, though, is why it hasn&amp;rsquo;t been put into practice. I can&amp;rsquo;t imagine there&amp;rsquo;s a lot of inertia preventing this change. If anything, being stuck in our own ways is holding us back from a more intuitive cooking experience.&lt;/p&gt;
 </description>
-      <tags>ditw,usability,direct mapping,physical world,design of everyday things,donald norman,</tags>
     </item>
     
   </channel>

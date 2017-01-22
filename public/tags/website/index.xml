@@ -2,23 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Website on bradorego.com</title>
-    <link>https://bradorego.com/tags/website/</link>
+    <link>http://bradorego.com/tags/website/index.xml</link>
     <description>Recent content in Website on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Mar 2013 15:10:22 -0500</lastBuildDate>
-    <atom:link href="https://bradorego.com/tags/website/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://bradorego.com/tags/website/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Zebradog</title>
-      <link>https://bradorego.com/case-study/zebradog</link>
-      <image>https://bradorego.com/img/case-study/zebradog/storystation.png</image>
+      <link>http://bradorego.com/case-study/zebradog</link>
       <pubDate>Fri, 01 Mar 2013 15:10:22 -0500</pubDate>
       
-      <guid>https://bradorego.com/case-study/zebradog</guid>
+      <guid>http://bradorego.com/case-study/zebradog</guid>
       <description>
 
-&lt;h1 id=&#34;about:58aa00a3f9ec4cc7a62166ecd695ef26&#34;&gt;About&lt;/h1&gt;
+&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
 
 &lt;p&gt;Zebradog is an environmental graphic design firm located in Madison, WI who specializes in creating immersive, branded experiences for their clients. Zebradog&amp;rsquo;s multidisciplinary team of architects, graphic designers, and software developers blend the physical and digital realms, creating novel digital applications of technology for interactive multimedia and website design.&lt;/p&gt;
 
@@ -28,30 +26,28 @@
 
 &lt;p&gt;Videos can be found on &lt;a href=&#34;http://vimeo.com/zebradog&#34;&gt;Zebradog&amp;rsquo;s Vimeo page&lt;/a&gt;, and &lt;a href=&#34;http://demo.zebradog.com&#34;&gt;Zebradog&amp;rsquo;s Demo page&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h1 id=&#34;selected-images:58aa00a3f9ec4cc7a62166ecd695ef26&#34;&gt;Selected Images&lt;/h1&gt;
+&lt;h1 id=&#34;selected-images&#34;&gt;Selected Images&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/case-study/zebradog/storystation.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/zebradog/hometownheroes.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/zebradog/aramco.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/zebradog/nw.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/zebradog/northwestern.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/zebradog/mstc-desktop.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/zebradog/mstc-tablet.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/zebradog/mstc-phone.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/case-study/zebradog/storystation.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/zebradog/hometownheroes.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/zebradog/aramco.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/zebradog/nw.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/zebradog/northwestern.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/zebradog/mstc-desktop.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/zebradog/mstc-tablet.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/zebradog/mstc-phone.png&#34; /&gt;&lt;/p&gt;
 </description>
-      <tags>interactive multimedia,website,design,kinect,kiosk,</tags>
     </item>
     
     <item>
       <title>Design Studio Etc</title>
-      <link>https://bradorego.com/case-study/design-studio-etc</link>
-      <image>https://bradorego.com/img/case-study/design-studio-etc/beforeafter.png</image>
+      <link>http://bradorego.com/case-study/design-studio-etc</link>
       <pubDate>Tue, 12 Feb 2013 14:42:59 -0500</pubDate>
       
-      <guid>https://bradorego.com/case-study/design-studio-etc</guid>
+      <guid>http://bradorego.com/case-study/design-studio-etc</guid>
       <description>
 
-&lt;h1 id=&#34;about:7d17b5de2bae6f85a1bc96bad5421a8e&#34;&gt;About&lt;/h1&gt;
+&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
 
 &lt;p&gt;Design Studio Etc. (&amp;ldquo;etc&amp;rdquo;) is an architectural design firm headquarted in Madison, WI with over 30 years of design and consulting experience. etc&amp;rsquo;s work is featured all over Madison, greater Wisconsin, and even other areas of the country such as Illinois, Arizona, and California.&lt;/p&gt;
 
@@ -59,30 +55,28 @@
 
 &lt;p&gt;The new website features responsive design, a fluid layout, image slideshows (with lightbox for greater detail), and three structured subsections of the website (about, &amp;ldquo;what we do&amp;rdquo; (aka projects), and &amp;ldquo;on the boards&amp;rdquo; (aka blog)). The new look aligns with etc&amp;rsquo;s new identity, and provides a modern website to carry the company forward while making edits and updates easy via Drupal&amp;rsquo;s admin interface.&lt;/p&gt;
 
-&lt;h1 id=&#34;selected-images:7d17b5de2bae6f85a1bc96bad5421a8e&#34;&gt;Selected Images:&lt;/h1&gt;
+&lt;h1 id=&#34;selected-images&#34;&gt;Selected Images:&lt;/h1&gt;
 
 &lt;p&gt;Wireframe:
-&lt;img src=&#34;https://bradorego.com/img/case-study/design-studio-etc/wireframe.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/design-studio-etc/wireframe.png&#34; /&gt;
 Desktop:
-&lt;img src=&#34;https://bradorego.com/img/case-study/design-studio-etc/desktop.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/design-studio-etc/desktop.png&#34; /&gt;
 Mobile:
-&lt;img src=&#34;https://bradorego.com/img/case-study/design-studio-etc/mobile.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/design-studio-etc/mobile.png&#34; /&gt;
 Contact (before/after):
-&lt;img src=&#34;https://bradorego.com/img/case-study/design-studio-etc/beforeafter.png&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/design-studio-etc/beforeafter.png&#34; /&gt;&lt;/p&gt;
 </description>
-      <tags>drupal,jquery,css3,redesign,website,</tags>
     </item>
     
     <item>
       <title>inspireDANCE Dance Festival</title>
-      <link>https://bradorego.com/case-study/inspiredance-dance-festival</link>
-      <image>https://bradorego.com/img/case-study/inspiredance/website.png</image>
+      <link>http://bradorego.com/case-study/inspiredance-dance-festival</link>
       <pubDate>Tue, 08 Feb 2011 15:10:01 -0500</pubDate>
       
-      <guid>https://bradorego.com/case-study/inspiredance-dance-festival</guid>
+      <guid>http://bradorego.com/case-study/inspiredance-dance-festival</guid>
       <description>
 
-&lt;h1 id=&#34;about:9cc2c373eb610eea06efd486da1e5d1a&#34;&gt;About&lt;/h1&gt;
+&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
 
 &lt;p&gt;The &lt;em&gt;inspire&lt;/em&gt;DANCE Festival is the result of Arielle Friedlander&amp;rsquo;s 2010 KEY Project at the University of Rochester. As an ogoing festival, &lt;em&gt;inspire&lt;/em&gt;DANCE&amp;rsquo;s goals are to strengthen the dance community in Rochester by connecting students to professional dancers in and around the Rochester area. The Festival features professional dancers and instructors from Rochester as well as a feature artist with national (and sometimes world) renown. Past artists include &lt;a href=&#34;http://www.billevansdance.org/&#34;&gt;Bill Evans&lt;/a&gt;, &lt;a href=&#34;http://www.chosendance.com/&#34;&gt;Clyde Evans, Jr.&lt;/a&gt;, &lt;a href=&#34;http://www.heidilatskydance.net/heidilatskydance/&#34;&gt;Heidi Latsky&lt;/a&gt;, and Illstyle &amp;amp; Peace Productions as well as all of the artists on faculty at the University of Rochester.&lt;/p&gt;
 
@@ -92,13 +86,12 @@ Contact (before/after):
 
 &lt;p&gt;&lt;a href=&#34;http://www.youtube.com/watch?v=F7ob9JrOpFc&#34;&gt;Video summary available&lt;/a&gt; courtesy of the University of Rochester. Information on this year&amp;rsquo;s &lt;em&gt;inspire&lt;/em&gt;DANCE Festival via the U of R &lt;a href=&#34;http://rochester.edu/college/dance&#34;&gt;Program of Dance and Movement&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h1 id=&#34;selected-images:9cc2c373eb610eea06efd486da1e5d1a&#34;&gt;Selected Images&lt;/h1&gt;
+&lt;h1 id=&#34;selected-images&#34;&gt;Selected Images&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/case-study/inspiredance/flyers.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/inspiredance/website.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/inspiredance/workshops.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/case-study/inspiredance/flyers.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/inspiredance/website.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/inspiredance/workshops.png&#34; /&gt;&lt;/p&gt;
 </description>
-      <tags>entrepreneurship,college,dance,website,</tags>
     </item>
     
   </channel>

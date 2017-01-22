@@ -16,7 +16,7 @@
         <link href="/index.xml" rel="alternate" type="application/rss+xml" title="bradorego.com" />
         <link href="/index.xml" rel="feed" type="application/rss+xml" title="bradorego.com" />
     
-    <link href="https://bradorego.com/css/all.css" rel="stylesheet">
+    <link href="/css/all.css" rel="stylesheet">
     
     <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
 </head>
@@ -44,7 +44,7 @@
 
     
 <header class="intro-header">
-  <div class="bg-image" style="background-image: url('https://bradorego.com//img/case-study/better-mcbw/header.jpg')"></div>
+  <div class="bg-image" style="background-image: url('http://bradorego.com//img/case-study/better-mcbw/header.jpg')"></div>
   <div class="container">
     <div class="row">
        <div class="col-lg-9 col-md-10 col-md-offset-1 col-sm-12 main-column">
@@ -83,23 +83,23 @@
 </div>
 <hr/></p>
 
-<h1 id="backstory-a-name-backstory-href-backstory-i-class-ion-link-i-a:608891990651e25035713577174171c1">Backstory <a name="backstory" href="#backstory"><i class="ion-link"></i></a></h1>
+<h1 id="backstory-a-name-backstory-href-backstory-i-class-ion-link-i-a">Backstory <a name="backstory" href="#backstory"><i class="ion-link"></i></a></h1>
 
 <p><a href="http://madbeerweek.com">Madison Craft Beer Week</a> has been one of my favorite events since moving to Madison. Started as a grassroots project by a few local beer lovers, the event has ballooned to one of the best in the nation, featuring over 550 events this year. In years past, I&rsquo;ve been involved in helping out on the tech side of things, and we had big plans for this upcoming year. But in September 2015, The Isthmus <a href="http://isthmus.com/food-drink/beer/isthmus-acquires-madison-craft-beer-week/">acquired Craft Beer Week</a>, and took over all operations.</p>
 
 <p>After hearing that the 2016 was <a href="https://www.facebook.com/MadBeerWeek/posts/1225581240785685">built natively</a>, and as an Android user I would have to wait to get my hands on it, questions arose as to why such a technically/mechanically simple app wasn&rsquo;t built using <a href="http://ionicframework.com">Ionic</a>, a mobile app development framework built by a company based in Madison. After I got my hands on the Android app itself, I was less than enthusiastic about its performance and feature set.</p>
 
-<h1 id="reverse-engineering-it-a-name-reverse-href-reverse-i-class-ion-link-i-a:608891990651e25035713577174171c1">Reverse Engineering It <a name="reverse" href="#reverse"><i class="ion-link"></i></a></h1>
+<h1 id="reverse-engineering-it-a-name-reverse-href-reverse-i-class-ion-link-i-a">Reverse Engineering It <a name="reverse" href="#reverse"><i class="ion-link"></i></a></h1>
 
 <p>So, realizing that my complaints weren&rsquo;t getting anyone anywhere (not to mention I lacked the necessary context to know why they made the decisions they made), I had an idea: I have the APK, so I can decompile it, dig through it, and figure out exactly what API calls they&rsquo;re making, and then emulate them with my own codebase. Simple enough, right? Well, for someone that knows virtually nothing about native Android development, this task proved simple yet pointless. I only gained one insight from it, which was the URL of their API. Then another idea hit me: why not just set up a proxy and read the HTTP requests?</p>
 
-<h3 id="enter-mitmproxy:608891990651e25035713577174171c1">Enter <code>mitmproxy</code></h3>
+<h3 id="enter-mitmproxy">Enter <code>mitmproxy</code></h3>
 
 <p>After doing a little bit of googling, I came across this <a href="https://medium.com/@rotxed/how-to-debug-http-s-traffic-on-android-7fbe5d2a34#.mhbido9ys">incredibly helpful article</a> explaining step-by-step exactly what I wanted to do. Next thing I know, I had a proxy running on my laptop, my phone&rsquo;s internet traffic streaming through that proxy, and I had access to every HTTP request the phone (and thus, the app) made. It was almost too easy.</p>
 
 <p><img src="/img/case-study/better-mcbw/mitmproxy.png"></p>
 
-<h3 id="the-horror:608891990651e25035713577174171c1">The Horror</h3>
+<h3 id="the-horror">The Horror</h3>
 
 <p>So, now that I had all of the HTTP requests (all, uh, 4 of them that the app seemed to be making), all I had to do was make those same requests with the same body, parse the response, and I was off to the races, right? This is all true, but in my inspection of the traffic, I came across a few horrifying realizations:</p>
 
@@ -111,7 +111,7 @@
 
 <p>Interacting with this API was painful. I was literally parsing a tilde(~) delimited string to determine the result of actions, and then picking parts of that out to save (e.g. the access token). This kind of feels like somebody&rsquo;s first attempt at making an API.</p>
 
-<h3 id="off-to-the-races:608891990651e25035713577174171c1">Off to the Races</h3>
+<h3 id="off-to-the-races">Off to the Races</h3>
 
 <p>All of that aside, I thought I was in the clear. Build an Ionic app, replicate the responses, do some other stuff with the data. Simple enough, right? Aaaaand then I got <code>CORS</code>&rsquo;d, which I should&rsquo;ve seen coming. After trying to find a way to get Angular to work around pre-flighting requests, I decided to bite the bullet and build a node proxy. ~100 lines of <code>Node.js</code>/<code>Express</code> code later, I was in business. Now we can send our requests to our own server which would make the same requests to the Craft Beer Week API and pass the results back.</p>
 
@@ -130,17 +130,17 @@
 });
 </code></pre>
 
-<h3 id="feature-parity:608891990651e25035713577174171c1">Feature Parity</h3>
+<h3 id="feature-parity">Feature Parity</h3>
 
 <p>With all of that behind us, all we needed was to do was create the Ionic app to do what the native app did. Considering the native app is just a list of events, that was pretty straightforward. As part of this process, I&rsquo;d spun up a little <a href="http://firebase.com">Firebase database</a> to save my own version of user accounts (which I was still creating via the MCBW API). Further inspection of the app&rsquo;s &ldquo;save&rdquo; feature revealed a lack of persistence of those events (it was only saving it on the device), so in trying to replicate features I was actually already improving the experience.</p>
 
 <p>The rest, as they say, is history (or, at least, trivial).</p>
 
-<h3 id="deploying-to-heroku:608891990651e25035713577174171c1">Deploying to Heroku</h3>
+<h3 id="deploying-to-heroku">Deploying to Heroku</h3>
 
 <p>Having a feature-parity Ionic app on your local machine is great and all, but it doesn&rsquo;t do much good. Enter <a href="http://blog.ionic.io/heroku-ionic/">Ionic Heroku</a>, which is a nifty little boilerplate that takes care of all of the setup and deploy configuration Heroku needs. You can hit one button, punch in a name, and you have a Heroku app. Copy your www/ file into the boilerplate&rsquo;s (and update any npm/bower/ionic config you need to) and you&rsquo;re golden. This was possibly the easiest step in the process.</p>
 
-<h1 id="making-it-better-a-name-improve-href-improve-i-class-ion-link-i-a:608891990651e25035713577174171c1">Making It Better <a name="improve" href="#improve"><i class="ion-link"></i></a></h1>
+<h1 id="making-it-better-a-name-improve-href-improve-i-class-ion-link-i-a">Making It Better <a name="improve" href="#improve"><i class="ion-link"></i></a></h1>
 
 <p>At this point, I&rsquo;d spent about 8 hours including all development time and research into how their API worked. I could&rsquo;ve called it a day - I&rsquo;d built an app that reached feature parity and could be deployed to Android and iOS. My work here was done. But, even by reaching parity, I hadn&rsquo;t made anything better. At the end of the day, I was building this app for myself, so stopping here wouldn&rsquo;t&rsquo;ve helped. So, I set out with a short list of ways to improve the experience:</p>
 
@@ -153,7 +153,7 @@
 <li>What if I got an email every morning with my saved events for the day?</li>
 </ul>
 
-<h3 id="gzip-is-your-friend:608891990651e25035713577174171c1"><code>gzip</code> is your friend</h3>
+<h3 id="gzip-is-your-friend"><code>gzip</code> is your friend</h3>
 
 <p>Where do we start? What&rsquo;re the low-hanging fruit? Let&rsquo;s see what we can do about this JSON dump. As it turns out, the MCBW API wasn&rsquo;t using any compression. Enabling <code>gzip</code> on my Node server brought that 700 down to ~100, which is a huge improvement. Inspecting the data further, it seemed that all the data was there twice - as both an index and a keyed index. That lead to a horrific piece of code that looked something like this:</p>
 
@@ -174,13 +174,13 @@
 
 <p>Which brought us down to 80KB. Still not great, but much better than 700KB. Okay, great, what&rsquo;s next? Sharing seems like it&rsquo;s pretty straightforward.</p>
 
-<h3 id="enabling-sharing:608891990651e25035713577174171c1">Enabling sharing</h3>
+<h3 id="enabling-sharing">Enabling sharing</h3>
 
 <p>This isn&rsquo;t going to be a lecture about how powerful social sharing plugins are in viral/organic growth. I&rsquo;m less concerned about that and more concerned about the end-user experience. Considering I already had my own Firebase database, enabling this was actually trivial. Create a route outside the context of the app (otherwise users would get redirected to login) that took in the user&rsquo;s ID (from the URL) and pulled out the list of their saved events. Simple, straightforward, elegant. Add in a few social share buttons for convenience and the app practically markets itself.</p>
 
 <p><img src="/img/case-study/better-mcbw/sharing.png"></p>
 
-<h3 id="dividers:608891990651e25035713577174171c1">Dividers</h3>
+<h3 id="dividers">Dividers</h3>
 
 <p>Regardless of the content, a 500-item list is overwhelming. Adding date dividers at least makes it a little easier to scan through. The implementation of this is actually pretty straightforward. Here&rsquo;s that snippet (for dates) in all its glory:</p>
 
@@ -198,7 +198,7 @@
 
 <p>Couple this with <code>$ionInfiniteScroll</code> and we have lazy-loading events 20 at a time plus dividers. Much better than spitting out a list of 500 events and having users fend for themselves.</p>
 
-<h3 id="searching-sorting-maps:608891990651e25035713577174171c1">Searching, Sorting, Maps</h3>
+<h3 id="searching-sorting-maps">Searching, Sorting, Maps</h3>
 
 <p><img src="/img/case-study/better-mcbw/map.png"></p>
 
@@ -210,7 +210,7 @@
 
 <p>Mapping proved a little more difficult. After wrestling with all of the available Angular Google Maps solutions, I settled on <a href="https://ngmap.github.io/">ngMap</a>. It made the most sense to me from a structural standpoint, and made a lot of the subsequent code incredibly easy to write (think: virtually no controller code to place markers and pop up and info window on click). A little date finagling to make sure we&rsquo;re showing the right pins, and a tiny insight into managing 500 events on a map (which is actually something I learned from last year&rsquo;s MCBW website) and we&rsquo;ve finally reached a point where I think I can say I&rsquo;m done. Well, almost&hellip;.</p>
 
-<h3 id="checkin-da-emails:608891990651e25035713577174171c1">Checkin&rsquo; da Emails</h3>
+<h3 id="checkin-da-emails">Checkin&rsquo; da Emails</h3>
 
 <p>This is a terrible example of staying lean (as opposed to most of the other development on this project, which was driven by me trying to use my own app out in the wild), but I had the idea of sending an email every morning with the list of events you&rsquo;d saved for that day. Partly because, theoretically, that eliminates the need to ever check your to-do list again. Log on once, save the events you want, and then it&rsquo;ll email you your schedule for the day. Sounds ideal.</p>
 
@@ -218,7 +218,7 @@
 
 <p><img src="/img/case-study/better-mcbw/lauren.png" /></p>
 
-<h1 id="the-fuuuuuuuuuture-a-name-future-href-future-i-class-ion-link-i-a:608891990651e25035713577174171c1">The Fuuuuuuuuuture <a name="future" href="#future"><i class="ion-link"></i></a></h1>
+<h1 id="the-fuuuuuuuuuture-a-name-future-href-future-i-class-ion-link-i-a">The Fuuuuuuuuuture <a name="future" href="#future"><i class="ion-link"></i></a></h1>
 
 <p>More than once already this week, people have brought up the idea of some sort of optimization algorithm. Each event has a start time, and end time, and a location. This sounds like some sort of modified Travelling Salesman Problem, and while that would be a lot of fun to try to implement, I think that&rsquo;s a &ldquo;next-year&rdquo; type of feature. After all, I&rsquo;ve already sunk a whopping ~20 hours into this project. I can only imagine what The Isthmus paid their developers and how much time they spent on this.</p>
 
@@ -226,13 +226,13 @@
 
 <p>There also could be increased security, as right now I&rsquo;m pretty sure if you have someone&rsquo;s user ID you can modify their list of saved events, but again, 20 hours of free work plus it&rsquo;s an app that&rsquo;s only useful for one week (and for a beer event, no less).</p>
 
-<h1 id="lessons-learned-a-name-lessons-href-lessons-i-class-ion-link-i-a:608891990651e25035713577174171c1">Lessons Learned <a name="lessons" href="#lessons"><i class="ion-link"></i></a></h1>
+<h1 id="lessons-learned-a-name-lessons-href-lessons-i-class-ion-link-i-a">Lessons Learned <a name="lessons" href="#lessons"><i class="ion-link"></i></a></h1>
 
-<h3 id="firebase-synchronized-arrays:608891990651e25035713577174171c1">Firebase Synchronized Arrays</h3>
+<h3 id="firebase-synchronized-arrays">Firebase Synchronized Arrays</h3>
 
 <p>One thing I learned in trying to build this Saved Event feature is <a href="https://www.firebase.com/docs/web/libraries/angular/guide/synchronized-arrays.html">Firebase arrays</a> don&rsquo;t work the way you think they do. I had a list of events  (JSON objects) that I would push to an array (via <code>$firebaseArray.$add</code>), and when someone unchecked the magic box, I tried to use <code>$firebaseArray.$remove</code>, except that only works if you&rsquo;re talking about the same reference you used to push to the array. So, if you have a list of items, you push <em>a copy</em> of one to the array, then try to remove it, it didn&rsquo;t work.</p>
 
-<h3 id="keyed-arrays-make-sense-sometimes:608891990651e25035713577174171c1">Keyed Arrays Make Sense Sometimes</h3>
+<h3 id="keyed-arrays-make-sense-sometimes">Keyed Arrays Make Sense Sometimes</h3>
 
 <p>As a corollary to the above realization, keyed arrays actually make a lot of sense sometimes. The solution to this problem (while not the most elegant/efficient solution) is to create a keyed array of saved events. Every time a user saves/unsaves an event, we update the user&rsquo;s <code>saved</code> array by updating the object at that key, e.g.</p>
 
@@ -241,13 +241,13 @@
   delete profile.saved[event.id];
 </code></pre>
 
-<h1 id="videos-a-name-videos-href-videos-i-class-ion-link-i-a:608891990651e25035713577174171c1">Videos <a name="videos" href="#videos"><i class="ion-link"></i></a></h1>
+<h1 id="videos-a-name-videos-href-videos-i-class-ion-link-i-a">Videos <a name="videos" href="#videos"><i class="ion-link"></i></a></h1>
 
-<h3 id="official-mcbw:608891990651e25035713577174171c1">Official MCBW:</h3>
+<h3 id="official-mcbw">Official MCBW:</h3>
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/s4OAGhlFpcQ" frameborder="0" allowfullscreen></iframe>
 
-<h3 id="better-mcbw:608891990651e25035713577174171c1">Better MCBW:</h3>
+<h3 id="better-mcbw">Better MCBW:</h3>
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/yAJx1i41d04" frameborder="0" allowfullscreen></iframe>
 
@@ -274,23 +274,23 @@
     
     <ul class="categories">
     
-      <li><a href="https://bradorego.com/case-study/personal-ionic-prototypes" target="_self">Personal Ionic Prototypes</a></li>
+      <li><a href="http://bradorego.com/case-study/personal-ionic-prototypes" target="_self">Personal Ionic Prototypes</a></li>
     
-      <li><a href="https://bradorego.com/case-study/better-mcbw" target="_self">Better MCBW</a></li>
+      <li><a href="http://bradorego.com/case-study/better-mcbw" target="_self">Better MCBW</a></li>
     
-      <li><a href="https://bradorego.com/case-study/mobileigniter" target="_self">MobileIgniter</a></li>
+      <li><a href="http://bradorego.com/case-study/mobileigniter" target="_self">MobileIgniter</a></li>
     
-      <li><a href="https://bradorego.com/case-study/clean-clear-waters" target="_self">Clean Clear Waters</a></li>
+      <li><a href="http://bradorego.com/case-study/clean-clear-waters" target="_self">Clean Clear Waters</a></li>
     
-      <li><a href="https://bradorego.com/case-study/nextt" target="_self">Nextt</a></li>
+      <li><a href="http://bradorego.com/case-study/nextt" target="_self">Nextt</a></li>
     
-      <li><a href="https://bradorego.com/case-study/trinker" target="_self">Trinker</a></li>
+      <li><a href="http://bradorego.com/case-study/trinker" target="_self">Trinker</a></li>
     
-      <li><a href="https://bradorego.com/case-study/design-studio-etc" target="_self">Design Studio Etc</a></li>
+      <li><a href="http://bradorego.com/case-study/design-studio-etc" target="_self">Design Studio Etc</a></li>
     
-      <li><a href="https://bradorego.com/case-study/inspiredance-dance-festival" target="_self">inspireDANCE Dance Festival</a></li>
+      <li><a href="http://bradorego.com/case-study/inspiredance-dance-festival" target="_self">inspireDANCE Dance Festival</a></li>
     
-      <li><a href="https://bradorego.com/case-study/biodance" target="_self">Biodance</a></li>
+      <li><a href="http://bradorego.com/case-study/biodance" target="_self">Biodance</a></li>
     
     </ul>
  
@@ -351,18 +351,9 @@
       </div> 
     </div> 
 
-    <script src="https://bradorego.com/js/all.js"></script>
+    <script src="/js/all.js"></script>
 
     
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-36860431-1', 'auto');
-  ga('send', 'pageview');
-</script>
-
 
 </body>
 

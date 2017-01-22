@@ -2,29 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ionic on bradorego.com</title>
-    <link>https://bradorego.com/tags/ionic/</link>
+    <link>http://bradorego.com/tags/ionic/index.xml</link>
     <description>Recent content in Ionic on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 May 2016 12:30:41 -0500</lastBuildDate>
-    <atom:link href="https://bradorego.com/tags/ionic/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://bradorego.com/tags/ionic/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Personal Ionic Prototypes</title>
-      <link>https://bradorego.com/case-study/personal-ionic-prototypes</link>
-      <image>https://bradorego.com/img/case-study/ionic/header.png</image>
+      <link>http://bradorego.com/case-study/personal-ionic-prototypes</link>
       <pubDate>Tue, 03 May 2016 12:30:41 -0500</pubDate>
       
-      <guid>https://bradorego.com/case-study/personal-ionic-prototypes</guid>
+      <guid>http://bradorego.com/case-study/personal-ionic-prototypes</guid>
       <description>
 
-&lt;h1 id=&#34;about:11c87cc1844e7dee51d304acbe274760&#34;&gt;About&lt;/h1&gt;
+&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
 
 &lt;p&gt;The Ionic Framework was &lt;a href=&#34;http://blog.ionic.io/announcing-ionic/&#34;&gt;first released&lt;/a&gt; in October 2013 and has since taken the hybrid app development world by storm, recently announcing their &lt;a href=&#34;http://blog.ionic.io/announcing-ionics-8-5m-series-a/&#34;&gt;Series A&lt;/a&gt;. I built my first full-fledged Ionic app in earnest almost a year after the platform was announced. Since then, I&amp;rsquo;ve worked with companies to build dozens of Ionic apps for everything from pure prototypes to production-level applications.&lt;/p&gt;
 
 &lt;p&gt;In particular, here&amp;rsquo;s a short list of Ionic apps I&amp;rsquo;ve built for my own purposes.&lt;/p&gt;
 
-&lt;h1 id=&#34;newsflash-news-app-a-name-newsflash-href-newsflash-i-class-ion-link-i-a:11c87cc1844e7dee51d304acbe274760&#34;&gt;NewsFlash News App &lt;a name=&#34;newsflash&#34; href=&#34;#newsflash&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;newsflash-news-app-a-name-newsflash-href-newsflash-i-class-ion-link-i-a&#34;&gt;NewsFlash News App &lt;a name=&#34;newsflash&#34; href=&#34;#newsflash&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;NewsFlash was built using what was, at the time, a brand new feature in Ionic: swipeable cards. I&amp;rsquo;d done some work to take a demo the core team put together and enabled bi-directional swiping, and then added a little more code to allow a developer to know which direction a user swiped (the core team only offered a callback for when it was swiped) (also worth noting that both of these features are now part of the core offering).&lt;/p&gt;
 
@@ -32,7 +30,7 @@
 
 &lt;iframe width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/74PqgIf3uUk&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;h1 id=&#34;trackme-personal-tracker-a-name-trackme-href-trackme-i-class-ion-link-i-a:11c87cc1844e7dee51d304acbe274760&#34;&gt;TrackMe Personal Tracker &lt;a name=&#34;trackme&#34; href=&#34;#trackme&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;trackme-personal-tracker-a-name-trackme-href-trackme-i-class-ion-link-i-a&#34;&gt;TrackMe Personal Tracker &lt;a name=&#34;trackme&#34; href=&#34;#trackme&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;TrackMe came out of a frustration with other tracking apps as well as inspiration from Nick Felton, who&amp;rsquo;s been tracking his life in various ways and producing infographics &lt;a href=&#39;http://feltron.com/FAR05.html&#39;&gt;as far back as 2005&lt;/a&gt;. The thought is: if we have an easy way to track anything, and we store this data, we can use something like &lt;a href=&#34;https://d3js.org/&#34;&gt;D3.js&lt;/a&gt; to generate interactive infographics.&lt;/p&gt;
 
@@ -40,22 +38,20 @@
 
 &lt;iframe width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/7NZMM5rN_pA&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;h1 id=&#34;better-mcbw-a-name-mcbw-href-mcbw-i-class-ion-link-i-a:11c87cc1844e7dee51d304acbe274760&#34;&gt;Better MCBW &lt;a name=&#34;mcbw&#34; href=&#34;#mcbw&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;better-mcbw-a-name-mcbw-href-mcbw-i-class-ion-link-i-a&#34;&gt;Better MCBW &lt;a name=&#34;mcbw&#34; href=&#34;#mcbw&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
-&lt;p&gt;Better MCBW has its own entire post explaining the motivation and process. You can read more about it &lt;a href=&#34;https://bradorego.com/2016-05-better-mcbw/&#34;&gt;here&lt;/a&gt;. Better MCBW has seen a decent amount of traction among Madison Craft Beer Week participants despite the entire motivation being my own.&lt;/p&gt;
+&lt;p&gt;Better MCBW has its own entire post explaining the motivation and process. You can read more about it &lt;a href=&#34;http://bradorego.com/2016-05-better-mcbw/&#34;&gt;here&lt;/a&gt;. Better MCBW has seen a decent amount of traction among Madison Craft Beer Week participants despite the entire motivation being my own.&lt;/p&gt;
 
 &lt;iframe width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/yAJx1i41d04&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 </description>
-      <tags>ionic,ionic framework,firebase,product development,prototype,</tags>
     </item>
     
     <item>
       <title>Better MCBW</title>
-      <link>https://bradorego.com/case-study/better-mcbw</link>
-      <image>https://bradorego.com/img/case-study/better-mcbw/header.jpg</image>
+      <link>http://bradorego.com/case-study/better-mcbw</link>
       <pubDate>Mon, 02 May 2016 18:29:53 -0500</pubDate>
       
-      <guid>https://bradorego.com/case-study/better-mcbw</guid>
+      <guid>http://bradorego.com/case-study/better-mcbw</guid>
       <description>
 
 &lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
@@ -69,23 +65,23 @@
 &lt;/div&gt;
 &lt;hr/&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;backstory-a-name-backstory-href-backstory-i-class-ion-link-i-a:608891990651e25035713577174171c1&#34;&gt;Backstory &lt;a name=&#34;backstory&#34; href=&#34;#backstory&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;backstory-a-name-backstory-href-backstory-i-class-ion-link-i-a&#34;&gt;Backstory &lt;a name=&#34;backstory&#34; href=&#34;#backstory&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://madbeerweek.com&#34;&gt;Madison Craft Beer Week&lt;/a&gt; has been one of my favorite events since moving to Madison. Started as a grassroots project by a few local beer lovers, the event has ballooned to one of the best in the nation, featuring over 550 events this year. In years past, I&amp;rsquo;ve been involved in helping out on the tech side of things, and we had big plans for this upcoming year. But in September 2015, The Isthmus &lt;a href=&#34;http://isthmus.com/food-drink/beer/isthmus-acquires-madison-craft-beer-week/&#34;&gt;acquired Craft Beer Week&lt;/a&gt;, and took over all operations.&lt;/p&gt;
 
 &lt;p&gt;After hearing that the 2016 was &lt;a href=&#34;https://www.facebook.com/MadBeerWeek/posts/1225581240785685&#34;&gt;built natively&lt;/a&gt;, and as an Android user I would have to wait to get my hands on it, questions arose as to why such a technically/mechanically simple app wasn&amp;rsquo;t built using &lt;a href=&#34;http://ionicframework.com&#34;&gt;Ionic&lt;/a&gt;, a mobile app development framework built by a company based in Madison. After I got my hands on the Android app itself, I was less than enthusiastic about its performance and feature set.&lt;/p&gt;
 
-&lt;h1 id=&#34;reverse-engineering-it-a-name-reverse-href-reverse-i-class-ion-link-i-a:608891990651e25035713577174171c1&#34;&gt;Reverse Engineering It &lt;a name=&#34;reverse&#34; href=&#34;#reverse&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;reverse-engineering-it-a-name-reverse-href-reverse-i-class-ion-link-i-a&#34;&gt;Reverse Engineering It &lt;a name=&#34;reverse&#34; href=&#34;#reverse&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;So, realizing that my complaints weren&amp;rsquo;t getting anyone anywhere (not to mention I lacked the necessary context to know why they made the decisions they made), I had an idea: I have the APK, so I can decompile it, dig through it, and figure out exactly what API calls they&amp;rsquo;re making, and then emulate them with my own codebase. Simple enough, right? Well, for someone that knows virtually nothing about native Android development, this task proved simple yet pointless. I only gained one insight from it, which was the URL of their API. Then another idea hit me: why not just set up a proxy and read the HTTP requests?&lt;/p&gt;
 
-&lt;h3 id=&#34;enter-mitmproxy:608891990651e25035713577174171c1&#34;&gt;Enter &lt;code&gt;mitmproxy&lt;/code&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;enter-mitmproxy&#34;&gt;Enter &lt;code&gt;mitmproxy&lt;/code&gt;&lt;/h3&gt;
 
 &lt;p&gt;After doing a little bit of googling, I came across this &lt;a href=&#34;https://medium.com/@rotxed/how-to-debug-http-s-traffic-on-android-7fbe5d2a34#.mhbido9ys&#34;&gt;incredibly helpful article&lt;/a&gt; explaining step-by-step exactly what I wanted to do. Next thing I know, I had a proxy running on my laptop, my phone&amp;rsquo;s internet traffic streaming through that proxy, and I had access to every HTTP request the phone (and thus, the app) made. It was almost too easy.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/case-study/better-mcbw/mitmproxy.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/case-study/better-mcbw/mitmproxy.png&#34;&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;the-horror:608891990651e25035713577174171c1&#34;&gt;The Horror&lt;/h3&gt;
+&lt;h3 id=&#34;the-horror&#34;&gt;The Horror&lt;/h3&gt;
 
 &lt;p&gt;So, now that I had all of the HTTP requests (all, uh, 4 of them that the app seemed to be making), all I had to do was make those same requests with the same body, parse the response, and I was off to the races, right? This is all true, but in my inspection of the traffic, I came across a few horrifying realizations:&lt;/p&gt;
 
@@ -97,7 +93,7 @@
 
 &lt;p&gt;Interacting with this API was painful. I was literally parsing a tilde(~) delimited string to determine the result of actions, and then picking parts of that out to save (e.g. the access token). This kind of feels like somebody&amp;rsquo;s first attempt at making an API.&lt;/p&gt;
 
-&lt;h3 id=&#34;off-to-the-races:608891990651e25035713577174171c1&#34;&gt;Off to the Races&lt;/h3&gt;
+&lt;h3 id=&#34;off-to-the-races&#34;&gt;Off to the Races&lt;/h3&gt;
 
 &lt;p&gt;All of that aside, I thought I was in the clear. Build an Ionic app, replicate the responses, do some other stuff with the data. Simple enough, right? Aaaaand then I got &lt;code&gt;CORS&lt;/code&gt;&amp;rsquo;d, which I should&amp;rsquo;ve seen coming. After trying to find a way to get Angular to work around pre-flighting requests, I decided to bite the bullet and build a node proxy. ~100 lines of &lt;code&gt;Node.js&lt;/code&gt;/&lt;code&gt;Express&lt;/code&gt; code later, I was in business. Now we can send our requests to our own server which would make the same requests to the Craft Beer Week API and pass the results back.&lt;/p&gt;
 
@@ -116,17 +112,17 @@
 });
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;feature-parity:608891990651e25035713577174171c1&#34;&gt;Feature Parity&lt;/h3&gt;
+&lt;h3 id=&#34;feature-parity&#34;&gt;Feature Parity&lt;/h3&gt;
 
 &lt;p&gt;With all of that behind us, all we needed was to do was create the Ionic app to do what the native app did. Considering the native app is just a list of events, that was pretty straightforward. As part of this process, I&amp;rsquo;d spun up a little &lt;a href=&#34;http://firebase.com&#34;&gt;Firebase database&lt;/a&gt; to save my own version of user accounts (which I was still creating via the MCBW API). Further inspection of the app&amp;rsquo;s &amp;ldquo;save&amp;rdquo; feature revealed a lack of persistence of those events (it was only saving it on the device), so in trying to replicate features I was actually already improving the experience.&lt;/p&gt;
 
 &lt;p&gt;The rest, as they say, is history (or, at least, trivial).&lt;/p&gt;
 
-&lt;h3 id=&#34;deploying-to-heroku:608891990651e25035713577174171c1&#34;&gt;Deploying to Heroku&lt;/h3&gt;
+&lt;h3 id=&#34;deploying-to-heroku&#34;&gt;Deploying to Heroku&lt;/h3&gt;
 
 &lt;p&gt;Having a feature-parity Ionic app on your local machine is great and all, but it doesn&amp;rsquo;t do much good. Enter &lt;a href=&#34;http://blog.ionic.io/heroku-ionic/&#34;&gt;Ionic Heroku&lt;/a&gt;, which is a nifty little boilerplate that takes care of all of the setup and deploy configuration Heroku needs. You can hit one button, punch in a name, and you have a Heroku app. Copy your www/ file into the boilerplate&amp;rsquo;s (and update any npm/bower/ionic config you need to) and you&amp;rsquo;re golden. This was possibly the easiest step in the process.&lt;/p&gt;
 
-&lt;h1 id=&#34;making-it-better-a-name-improve-href-improve-i-class-ion-link-i-a:608891990651e25035713577174171c1&#34;&gt;Making It Better &lt;a name=&#34;improve&#34; href=&#34;#improve&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;making-it-better-a-name-improve-href-improve-i-class-ion-link-i-a&#34;&gt;Making It Better &lt;a name=&#34;improve&#34; href=&#34;#improve&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;At this point, I&amp;rsquo;d spent about 8 hours including all development time and research into how their API worked. I could&amp;rsquo;ve called it a day - I&amp;rsquo;d built an app that reached feature parity and could be deployed to Android and iOS. My work here was done. But, even by reaching parity, I hadn&amp;rsquo;t made anything better. At the end of the day, I was building this app for myself, so stopping here wouldn&amp;rsquo;t&amp;rsquo;ve helped. So, I set out with a short list of ways to improve the experience:&lt;/p&gt;
 
@@ -139,7 +135,7 @@
 &lt;li&gt;What if I got an email every morning with my saved events for the day?&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;gzip-is-your-friend:608891990651e25035713577174171c1&#34;&gt;&lt;code&gt;gzip&lt;/code&gt; is your friend&lt;/h3&gt;
+&lt;h3 id=&#34;gzip-is-your-friend&#34;&gt;&lt;code&gt;gzip&lt;/code&gt; is your friend&lt;/h3&gt;
 
 &lt;p&gt;Where do we start? What&amp;rsquo;re the low-hanging fruit? Let&amp;rsquo;s see what we can do about this JSON dump. As it turns out, the MCBW API wasn&amp;rsquo;t using any compression. Enabling &lt;code&gt;gzip&lt;/code&gt; on my Node server brought that 700 down to ~100, which is a huge improvement. Inspecting the data further, it seemed that all the data was there twice - as both an index and a keyed index. That lead to a horrific piece of code that looked something like this:&lt;/p&gt;
 
@@ -160,13 +156,13 @@
 
 &lt;p&gt;Which brought us down to 80KB. Still not great, but much better than 700KB. Okay, great, what&amp;rsquo;s next? Sharing seems like it&amp;rsquo;s pretty straightforward.&lt;/p&gt;
 
-&lt;h3 id=&#34;enabling-sharing:608891990651e25035713577174171c1&#34;&gt;Enabling sharing&lt;/h3&gt;
+&lt;h3 id=&#34;enabling-sharing&#34;&gt;Enabling sharing&lt;/h3&gt;
 
 &lt;p&gt;This isn&amp;rsquo;t going to be a lecture about how powerful social sharing plugins are in viral/organic growth. I&amp;rsquo;m less concerned about that and more concerned about the end-user experience. Considering I already had my own Firebase database, enabling this was actually trivial. Create a route outside the context of the app (otherwise users would get redirected to login) that took in the user&amp;rsquo;s ID (from the URL) and pulled out the list of their saved events. Simple, straightforward, elegant. Add in a few social share buttons for convenience and the app practically markets itself.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/case-study/better-mcbw/sharing.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/case-study/better-mcbw/sharing.png&#34;&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;dividers:608891990651e25035713577174171c1&#34;&gt;Dividers&lt;/h3&gt;
+&lt;h3 id=&#34;dividers&#34;&gt;Dividers&lt;/h3&gt;
 
 &lt;p&gt;Regardless of the content, a 500-item list is overwhelming. Adding date dividers at least makes it a little easier to scan through. The implementation of this is actually pretty straightforward. Here&amp;rsquo;s that snippet (for dates) in all its glory:&lt;/p&gt;
 
@@ -184,9 +180,9 @@
 
 &lt;p&gt;Couple this with &lt;code&gt;$ionInfiniteScroll&lt;/code&gt; and we have lazy-loading events 20 at a time plus dividers. Much better than spitting out a list of 500 events and having users fend for themselves.&lt;/p&gt;
 
-&lt;h3 id=&#34;searching-sorting-maps:608891990651e25035713577174171c1&#34;&gt;Searching, Sorting, Maps&lt;/h3&gt;
+&lt;h3 id=&#34;searching-sorting-maps&#34;&gt;Searching, Sorting, Maps&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/case-study/better-mcbw/map.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/case-study/better-mcbw/map.png&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;That&amp;rsquo;s great and all, but what if I&amp;rsquo;m looking for a specific event? What if I&amp;rsquo;m in a particular part of town and I want to know what my other options are nearby? Sorting and Filtering were actually somewhat of a happy accident between what Angular offers and how I&amp;rsquo;d structured the rest of the app. When the user logs in, I fetch the list of events once and cache it. From there, pretty much everything they see is some permutation of that.&lt;/p&gt;
 
@@ -196,15 +192,15 @@
 
 &lt;p&gt;Mapping proved a little more difficult. After wrestling with all of the available Angular Google Maps solutions, I settled on &lt;a href=&#34;https://ngmap.github.io/&#34;&gt;ngMap&lt;/a&gt;. It made the most sense to me from a structural standpoint, and made a lot of the subsequent code incredibly easy to write (think: virtually no controller code to place markers and pop up and info window on click). A little date finagling to make sure we&amp;rsquo;re showing the right pins, and a tiny insight into managing 500 events on a map (which is actually something I learned from last year&amp;rsquo;s MCBW website) and we&amp;rsquo;ve finally reached a point where I think I can say I&amp;rsquo;m done. Well, almost&amp;hellip;.&lt;/p&gt;
 
-&lt;h3 id=&#34;checkin-da-emails:608891990651e25035713577174171c1&#34;&gt;Checkin&amp;rsquo; da Emails&lt;/h3&gt;
+&lt;h3 id=&#34;checkin-da-emails&#34;&gt;Checkin&amp;rsquo; da Emails&lt;/h3&gt;
 
 &lt;p&gt;This is a terrible example of staying lean (as opposed to most of the other development on this project, which was driven by me trying to use my own app out in the wild), but I had the idea of sending an email every morning with the list of events you&amp;rsquo;d saved for that day. Partly because, theoretically, that eliminates the need to ever check your to-do list again. Log on once, save the events you want, and then it&amp;rsquo;ll email you your schedule for the day. Sounds ideal.&lt;/p&gt;
 
 &lt;p&gt;After wrestling with MailGun for awhile, &lt;a href=&#34;https://sendgrid.com/&#34;&gt;SendGrid&lt;/a&gt; won out in terms of simplicity. I had test emails out within minutes, and all I had to do then was write a little server code to compile the list, do some basic HTML formatting, and that&amp;rsquo;s one more feature to add to the list. I thought I was just doing this for myself, but I was instantly validated by this exchange:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/case-study/better-mcbw/lauren.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/case-study/better-mcbw/lauren.png&#34; /&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;the-fuuuuuuuuuture-a-name-future-href-future-i-class-ion-link-i-a:608891990651e25035713577174171c1&#34;&gt;The Fuuuuuuuuuture &lt;a name=&#34;future&#34; href=&#34;#future&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;the-fuuuuuuuuuture-a-name-future-href-future-i-class-ion-link-i-a&#34;&gt;The Fuuuuuuuuuture &lt;a name=&#34;future&#34; href=&#34;#future&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;More than once already this week, people have brought up the idea of some sort of optimization algorithm. Each event has a start time, and end time, and a location. This sounds like some sort of modified Travelling Salesman Problem, and while that would be a lot of fun to try to implement, I think that&amp;rsquo;s a &amp;ldquo;next-year&amp;rdquo; type of feature. After all, I&amp;rsquo;ve already sunk a whopping ~20 hours into this project. I can only imagine what The Isthmus paid their developers and how much time they spent on this.&lt;/p&gt;
 
@@ -212,13 +208,13 @@
 
 &lt;p&gt;There also could be increased security, as right now I&amp;rsquo;m pretty sure if you have someone&amp;rsquo;s user ID you can modify their list of saved events, but again, 20 hours of free work plus it&amp;rsquo;s an app that&amp;rsquo;s only useful for one week (and for a beer event, no less).&lt;/p&gt;
 
-&lt;h1 id=&#34;lessons-learned-a-name-lessons-href-lessons-i-class-ion-link-i-a:608891990651e25035713577174171c1&#34;&gt;Lessons Learned &lt;a name=&#34;lessons&#34; href=&#34;#lessons&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;lessons-learned-a-name-lessons-href-lessons-i-class-ion-link-i-a&#34;&gt;Lessons Learned &lt;a name=&#34;lessons&#34; href=&#34;#lessons&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
-&lt;h3 id=&#34;firebase-synchronized-arrays:608891990651e25035713577174171c1&#34;&gt;Firebase Synchronized Arrays&lt;/h3&gt;
+&lt;h3 id=&#34;firebase-synchronized-arrays&#34;&gt;Firebase Synchronized Arrays&lt;/h3&gt;
 
 &lt;p&gt;One thing I learned in trying to build this Saved Event feature is &lt;a href=&#34;https://www.firebase.com/docs/web/libraries/angular/guide/synchronized-arrays.html&#34;&gt;Firebase arrays&lt;/a&gt; don&amp;rsquo;t work the way you think they do. I had a list of events  (JSON objects) that I would push to an array (via &lt;code&gt;$firebaseArray.$add&lt;/code&gt;), and when someone unchecked the magic box, I tried to use &lt;code&gt;$firebaseArray.$remove&lt;/code&gt;, except that only works if you&amp;rsquo;re talking about the same reference you used to push to the array. So, if you have a list of items, you push &lt;em&gt;a copy&lt;/em&gt; of one to the array, then try to remove it, it didn&amp;rsquo;t work.&lt;/p&gt;
 
-&lt;h3 id=&#34;keyed-arrays-make-sense-sometimes:608891990651e25035713577174171c1&#34;&gt;Keyed Arrays Make Sense Sometimes&lt;/h3&gt;
+&lt;h3 id=&#34;keyed-arrays-make-sense-sometimes&#34;&gt;Keyed Arrays Make Sense Sometimes&lt;/h3&gt;
 
 &lt;p&gt;As a corollary to the above realization, keyed arrays actually make a lot of sense sometimes. The solution to this problem (while not the most elegant/efficient solution) is to create a keyed array of saved events. Every time a user saves/unsaves an event, we update the user&amp;rsquo;s &lt;code&gt;saved&lt;/code&gt; array by updating the object at that key, e.g.&lt;/p&gt;
 
@@ -227,29 +223,27 @@
   delete profile.saved[event.id];
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;videos-a-name-videos-href-videos-i-class-ion-link-i-a:608891990651e25035713577174171c1&#34;&gt;Videos &lt;a name=&#34;videos&#34; href=&#34;#videos&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;videos-a-name-videos-href-videos-i-class-ion-link-i-a&#34;&gt;Videos &lt;a name=&#34;videos&#34; href=&#34;#videos&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
-&lt;h3 id=&#34;official-mcbw:608891990651e25035713577174171c1&#34;&gt;Official MCBW:&lt;/h3&gt;
+&lt;h3 id=&#34;official-mcbw&#34;&gt;Official MCBW:&lt;/h3&gt;
 
 &lt;iframe width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/s4OAGhlFpcQ&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;h3 id=&#34;better-mcbw:608891990651e25035713577174171c1&#34;&gt;Better MCBW:&lt;/h3&gt;
+&lt;h3 id=&#34;better-mcbw&#34;&gt;Better MCBW:&lt;/h3&gt;
 
 &lt;iframe width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/yAJx1i41d04&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 </description>
-      <tags>ionic,madbeerweek,reverse engineer,ux,feature parity,firebase,</tags>
     </item>
     
     <item>
       <title>MobileIgniter</title>
-      <link>https://bradorego.com/case-study/mobileigniter</link>
-      <image>https://bradorego.com/img/case-study/mobile-igniter/header.jpg</image>
+      <link>http://bradorego.com/case-study/mobileigniter</link>
       <pubDate>Fri, 01 Apr 2016 15:11:33 -0500</pubDate>
       
-      <guid>https://bradorego.com/case-study/mobileigniter</guid>
+      <guid>http://bradorego.com/case-study/mobileigniter</guid>
       <description>
 
-&lt;h1 id=&#34;about:19aee21804f9101f4647ec2b7a0a8d5a&#34;&gt;About&lt;/h1&gt;
+&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://mobileigniter.com&#34;&gt;MobileIgniter&lt;/a&gt; is an Internet-of-Things consultancy and product development firm that has worked with numerous clients, ranging from Fortune 500 companies to early-stage startups, and touched many industries including consumer appliances, insurance, and air quality. MI&amp;rsquo;s engagements included helping companies figure out if IoT was right for their business/product from a strategic standpoint, helping ideate and prototype different interactions and feature sets having a &amp;ldquo;smart&amp;rdquo; device would afford, and as far as taking products to market. MobileIgniter has a unique combination of electrical engieering, software development, and business analysis that enables the company to contribute at every stop of the product development lifecycle.&lt;/p&gt;
 
@@ -257,33 +251,31 @@
 
 &lt;p&gt;Unfortunately most of the work MobileIgniter has done is under NDA, so while I can&amp;rsquo;t speak publicly about specific projects, some highlights include designing and running usability studies for a Fortune 1000 company, helping a Fortune 500 company learn Angular and Agile methodologies, publishing the &lt;a href=&#34;http://www.slideshare.net/mi-tim/usability-research-checklist-58988252/mi-tim/usability-research-checklist-58988252&#34;&gt;Usability Research Checklist&lt;/a&gt;, and developing &lt;a href=&#34;https://github.com/MobileIgniter/ng-photon&#34;&gt;ngPhoton&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h1 id=&#34;selected-images:19aee21804f9101f4647ec2b7a0a8d5a&#34;&gt;Selected Images&lt;/h1&gt;
+&lt;h1 id=&#34;selected-images&#34;&gt;Selected Images&lt;/h1&gt;
 
 &lt;p&gt;MobileIgniter&amp;rsquo;s IoT Landing Page
-&lt;img src=&#34;https://bradorego.com/img/case-study/mobile-igniter/iot-desktop.png&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/mobile-igniter/iot-desktop.png&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;LaundryMate Laundry Sensor Landing Page (Homeowner)
-&lt;img src=&#34;https://bradorego.com/img/case-study/mobile-igniter/laundrymate-personal-desktop.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/mobile-igniter/laundrymate-personal-desktop.png&#34; /&gt;
 LaundryMate Buy Page
-&lt;img src=&#34;https://bradorego.com/img/case-study/mobile-igniter/laundrymate-buy-mobile.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/mobile-igniter/laundrymate-buy-mobile.png&#34; /&gt;
 LaundryMate Laundry Sensor Landing Page (Laundromat User)
-&lt;img src=&#34;https://bradorego.com/img/case-study/mobile-igniter/laundrymate-laundromat-desktop.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/mobile-igniter/laundrymate-laundromat-desktop.png&#34; /&gt;
 UXLab @ MobileIgniter Landing Page
-&lt;img src=&#34;https://bradorego.com/img/case-study/mobile-igniter/uxlab-small-desktop.png&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/mobile-igniter/uxlab-small-desktop.png&#34; /&gt;&lt;/p&gt;
 </description>
-      <tags>startup,entrepreneurship,ux,usability research,mobile app,ionic,iot,</tags>
     </item>
     
     <item>
       <title>Clean Clear Waters</title>
-      <link>https://bradorego.com/case-study/clean-clear-waters</link>
-      <image>https://bradorego.com/img/case-study/clean-clear-waters/wires.png</image>
+      <link>http://bradorego.com/case-study/clean-clear-waters</link>
       <pubDate>Mon, 14 Apr 2014 15:10:54 -0500</pubDate>
       
-      <guid>https://bradorego.com/case-study/clean-clear-waters</guid>
+      <guid>http://bradorego.com/case-study/clean-clear-waters</guid>
       <description>
 
-&lt;h1 id=&#34;about:0b1dfc567fa55bcbc48ecf5d01bfe807&#34;&gt;About&lt;/h1&gt;
+&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
 
 &lt;p&gt;One of the many projects I&amp;rsquo;ve been involed with via &lt;a href=&#34;http://100state.com&#34;&gt;100state&lt;/a&gt; was one in collaboration with the &lt;a href=&#34;https://cleanlakesalliance.com/&#34;&gt;Clean Lakes Alliance&lt;/a&gt;, a non-profit &amp;ldquo;dedicated to the improvement and protection of the lakes, streams, and wetlands of the Yahara Watershed&amp;rdquo;. One of their initiatives involves soliciting volunteers to collect data about water quality nearby their homes and places of work in order to monitor and gain insight on the water.&lt;/p&gt;
 
@@ -293,16 +285,15 @@ UXLab @ MobileIgniter Landing Page
 
 &lt;p&gt;After I ended my engagement on the project, MIOsoft completely took over responsibility for the project. The live version can be seen at &lt;a href=&#34;http://lakeforecast.org/&#34;&gt;Lakeforecast.org&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h1 id=&#34;selected-images:0b1dfc567fa55bcbc48ecf5d01bfe807&#34;&gt;Selected Images&lt;/h1&gt;
+&lt;h1 id=&#34;selected-images&#34;&gt;Selected Images&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bradorego.com/img/case-study/clean-clear-waters/wires.png&#34; /&gt;
-&lt;img src=&#34;https://bradorego.com/img/case-study/clean-clear-waters/mockup.png&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/case-study/clean-clear-waters/wires.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/clean-clear-waters/mockup.png&#34; /&gt;
 Lakeforecast.org Map View
-&lt;img src=&#34;https://bradorego.com/img/case-study/clean-clear-waters/map.png&#34; /&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/clean-clear-waters/map.png&#34; /&gt;
 Lakeforecast.org Beach View
-&lt;img src=&#34;https://bradorego.com/img/case-study/clean-clear-waters/beach.png&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;http://bradorego.com/img/case-study/clean-clear-waters/beach.png&#34; /&gt;&lt;/p&gt;
 </description>
-      <tags>clean lakes alliance,100state,ionic,product design,</tags>
     </item>
     
   </channel>

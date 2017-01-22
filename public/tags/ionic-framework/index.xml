@@ -2,29 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ionic Framework on bradorego.com</title>
-    <link>https://bradorego.com/tags/ionic-framework/</link>
+    <link>http://bradorego.com/tags/ionic-framework/index.xml</link>
     <description>Recent content in Ionic Framework on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 May 2016 12:30:41 -0500</lastBuildDate>
-    <atom:link href="https://bradorego.com/tags/ionic-framework/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://bradorego.com/tags/ionic-framework/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Personal Ionic Prototypes</title>
-      <link>https://bradorego.com/case-study/personal-ionic-prototypes</link>
-      <image>https://bradorego.com/img/case-study/ionic/header.png</image>
+      <link>http://bradorego.com/case-study/personal-ionic-prototypes</link>
       <pubDate>Tue, 03 May 2016 12:30:41 -0500</pubDate>
       
-      <guid>https://bradorego.com/case-study/personal-ionic-prototypes</guid>
+      <guid>http://bradorego.com/case-study/personal-ionic-prototypes</guid>
       <description>
 
-&lt;h1 id=&#34;about:11c87cc1844e7dee51d304acbe274760&#34;&gt;About&lt;/h1&gt;
+&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
 
 &lt;p&gt;The Ionic Framework was &lt;a href=&#34;http://blog.ionic.io/announcing-ionic/&#34;&gt;first released&lt;/a&gt; in October 2013 and has since taken the hybrid app development world by storm, recently announcing their &lt;a href=&#34;http://blog.ionic.io/announcing-ionics-8-5m-series-a/&#34;&gt;Series A&lt;/a&gt;. I built my first full-fledged Ionic app in earnest almost a year after the platform was announced. Since then, I&amp;rsquo;ve worked with companies to build dozens of Ionic apps for everything from pure prototypes to production-level applications.&lt;/p&gt;
 
 &lt;p&gt;In particular, here&amp;rsquo;s a short list of Ionic apps I&amp;rsquo;ve built for my own purposes.&lt;/p&gt;
 
-&lt;h1 id=&#34;newsflash-news-app-a-name-newsflash-href-newsflash-i-class-ion-link-i-a:11c87cc1844e7dee51d304acbe274760&#34;&gt;NewsFlash News App &lt;a name=&#34;newsflash&#34; href=&#34;#newsflash&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;newsflash-news-app-a-name-newsflash-href-newsflash-i-class-ion-link-i-a&#34;&gt;NewsFlash News App &lt;a name=&#34;newsflash&#34; href=&#34;#newsflash&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;NewsFlash was built using what was, at the time, a brand new feature in Ionic: swipeable cards. I&amp;rsquo;d done some work to take a demo the core team put together and enabled bi-directional swiping, and then added a little more code to allow a developer to know which direction a user swiped (the core team only offered a callback for when it was swiped) (also worth noting that both of these features are now part of the core offering).&lt;/p&gt;
 
@@ -32,7 +30,7 @@
 
 &lt;iframe width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/74PqgIf3uUk&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;h1 id=&#34;trackme-personal-tracker-a-name-trackme-href-trackme-i-class-ion-link-i-a:11c87cc1844e7dee51d304acbe274760&#34;&gt;TrackMe Personal Tracker &lt;a name=&#34;trackme&#34; href=&#34;#trackme&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;trackme-personal-tracker-a-name-trackme-href-trackme-i-class-ion-link-i-a&#34;&gt;TrackMe Personal Tracker &lt;a name=&#34;trackme&#34; href=&#34;#trackme&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;TrackMe came out of a frustration with other tracking apps as well as inspiration from Nick Felton, who&amp;rsquo;s been tracking his life in various ways and producing infographics &lt;a href=&#39;http://feltron.com/FAR05.html&#39;&gt;as far back as 2005&lt;/a&gt;. The thought is: if we have an easy way to track anything, and we store this data, we can use something like &lt;a href=&#34;https://d3js.org/&#34;&gt;D3.js&lt;/a&gt; to generate interactive infographics.&lt;/p&gt;
 
@@ -40,13 +38,12 @@
 
 &lt;iframe width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/7NZMM5rN_pA&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;h1 id=&#34;better-mcbw-a-name-mcbw-href-mcbw-i-class-ion-link-i-a:11c87cc1844e7dee51d304acbe274760&#34;&gt;Better MCBW &lt;a name=&#34;mcbw&#34; href=&#34;#mcbw&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;better-mcbw-a-name-mcbw-href-mcbw-i-class-ion-link-i-a&#34;&gt;Better MCBW &lt;a name=&#34;mcbw&#34; href=&#34;#mcbw&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
 
-&lt;p&gt;Better MCBW has its own entire post explaining the motivation and process. You can read more about it &lt;a href=&#34;https://bradorego.com/2016-05-better-mcbw/&#34;&gt;here&lt;/a&gt;. Better MCBW has seen a decent amount of traction among Madison Craft Beer Week participants despite the entire motivation being my own.&lt;/p&gt;
+&lt;p&gt;Better MCBW has its own entire post explaining the motivation and process. You can read more about it &lt;a href=&#34;http://bradorego.com/2016-05-better-mcbw/&#34;&gt;here&lt;/a&gt;. Better MCBW has seen a decent amount of traction among Madison Craft Beer Week participants despite the entire motivation being my own.&lt;/p&gt;
 
 &lt;iframe width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/yAJx1i41d04&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 </description>
-      <tags>ionic,ionic framework,firebase,product development,prototype,</tags>
     </item>
     
   </channel>

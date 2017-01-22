@@ -2,20 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>New Site on bradorego.com</title>
-    <link>https://bradorego.com/tags/new-site/</link>
+    <link>http://bradorego.com/tags/new-site/index.xml</link>
     <description>Recent content in New Site on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Nov 2012 17:32:13 -0500</lastBuildDate>
-    <atom:link href="https://bradorego.com/tags/new-site/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://bradorego.com/tags/new-site/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>New Site!</title>
-      <link>https://bradorego.com/new-site</link>
-      <image>https://bradorego.com/img/posts/new-site/header.png</image>
+      <link>http://bradorego.com/new-site</link>
       <pubDate>Fri, 23 Nov 2012 17:32:13 -0500</pubDate>
       
-      <guid>https://bradorego.com/new-site</guid>
+      <guid>http://bradorego.com/new-site</guid>
       <description>&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
   &lt;h4&gt;TL;DNR&lt;/h4&gt;
   &lt;ul&gt;
@@ -41,7 +39,6 @@
 
 &lt;p&gt;Onward and upward.&lt;/p&gt;
 </description>
-      <tags>new site,meta,personal,</tags>
     </item>
     
   </channel>
