@@ -1,10 +1,4 @@
-<html>
-	<head>
-		<title>Foursquare Heat Map - bradorego.com</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-		<link rel="stylesheet" href="ext/tablesorter/themes/blue/style.css" />
-		<style type="text/css">
-			body {
+<html><head><title>Foursquare Heat Map - bradorego.com</title><meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"><link rel="stylesheet" href="ext/tablesorter/themes/blue/style.css"><style type="text/css">body {
 				font-family: Verdana, sans-serif;
 			}
 		#map {
@@ -59,77 +53,7 @@
 			.latlng{
 				display: none;
 			}
-		}
-		</style>
-	</head>
-	<body>
-		<h1>Welcome to the Foursquare Heat Map</h1>
-		<h3>Please accept the location request or enter an address manually</h3>
-		<input type="search" placeholder="Enter address/location" label="Address/Location" id="search"/>
-		<h4>Category:</h4>
-		<div id="categories">
-			<label>
-				<input type="radio" name="category" value="" checked="checked" /> All
-			</label>
-			<label>
-				<input type="radio" name="category" value="4d4b7104d754a06370d81259" /> Arts & Entertainment
-			</label>
-			<label>
-				<input type="radio" name="category" value="4d4b7105d754a06372d81259" /> College & University
-			</label>
-			<label>
-				<input type="radio" name="category" value="4d4b7105d754a06374d81259" /> Food
-			</label>
-			<label>
-				<input type="radio" name="category" value="4d4b7105d754a06376d81259" /> Nightlife
-			</label>
-			<label>
-				<input type="radio" name="category" value="4d4b7105d754a06377d81259" /> Outdoors & Recreation
-			</label>
-			<label>
-				<input type="radio" name="category" value="4d4b7105d754a06375d81259" /> Professional & Other Places
-			</label>
-			<label>
-				<input type="radio" name="category" value="4e67e38e036454776db1fb3a" /> Residences
-			</label>
-			<label>
-				<input type="radio" name="category" value="4d4b7105d754a06378d81259" /> Shops & Services
-			</label>
-			<label>
-				<input type="radio" name="category" value="4d4b7105d754a06379d81259" /> Travel & Transport
-			</label>
-		</div>
-		<h4>Radius:</h4>
-		<select id="distance">
-			<option value="1609">1mi</option>
-			<option value="4828" selected="selected">3mi</option>
-			<option value="8046">5mi</option>
-			<option value="16093">10mi</option>
-			<option value="40233">25mi</option>
-			<option value="80467">50mi</option>
-		</select>
-		<div id="map"></div>
-		<div id="results">
-			<table class="tablesorter">
-				<thead>
-					<tr>
-						<th>Name</th>
-						<th class='cat'>Category</th>
-						<th>Address</th>
-						<th class="latlng">Lat, Lng</th>
-						<th>Currently Here</th>
-					</tr>
-					<tbody>
-
-					</tbody>
-				</thead>
-			</table>
-		</div>
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
-	<script type="text/javascript" src="ext/tablesorter/jquery.tablesorter.min.js"></script>
-<script type="text/javascript">
-	var map,
+		}</style></head><body><h1>Welcome to the Foursquare Heat Map</h1><h3>Please accept the location request or enter an address manually</h3><input type="search" placeholder="Enter address/location" label="Address/Location" id="search"><h4>Category:</h4><div id="categories"><label><input type="radio" name="category" value="" checked="checked"> All</label><label><input type="radio" name="category" value="4d4b7104d754a06370d81259"> Arts & Entertainment</label><label><input type="radio" name="category" value="4d4b7105d754a06372d81259"> College & University</label><label><input type="radio" name="category" value="4d4b7105d754a06374d81259"> Food</label><label><input type="radio" name="category" value="4d4b7105d754a06376d81259"> Nightlife</label><label><input type="radio" name="category" value="4d4b7105d754a06377d81259"> Outdoors & Recreation</label><label><input type="radio" name="category" value="4d4b7105d754a06375d81259"> Professional & Other Places</label><label><input type="radio" name="category" value="4e67e38e036454776db1fb3a"> Residences</label><label><input type="radio" name="category" value="4d4b7105d754a06378d81259"> Shops & Services</label><label><input type="radio" name="category" value="4d4b7105d754a06379d81259"> Travel & Transport</label></div><h4>Radius:</h4><select id="distance"><option value="1609">1mi</option><option value="4828" selected="selected">3mi</option><option value="8046">5mi</option><option value="16093">10mi</option><option value="40233">25mi</option><option value="80467">50mi</option></select><div id="map"></div><div id="results"><table class="tablesorter"><thead><tr><th>Name</th><th class="cat">Category</th><th>Address</th><th class="latlng">Lat, Lng</th><th>Currently Here</th></tr><tbody></tbody></thead></table></div><script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script><script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script><script type="text/javascript" src="ext/tablesorter/jquery.tablesorter.min.js"></script><script type="text/javascript">var map,
 		venueList = [],
 		infoWindow = new google.maps.InfoWindow(),
 		radius = 4828, //3mi in m
@@ -384,7 +308,4 @@
 				}
 			}
 		});
-	});
-	</script>
-	</body>
-</html>
+	});</script></body></html>

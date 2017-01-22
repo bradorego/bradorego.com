@@ -1,19 +1,7 @@
-<html>
-	<head>
-		<style type="text/css">
-			#map {
+<html><head><style type="text/css">#map {
 			    width: 100%;
 			    height: 300px;
-			}
-		</style>
-	</head>
-	<body>
-
-		<input id="search" type="search"/>
-		<div id="map"></div>
-		<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places&sensor=true"></script>
-		<script type="text/javascript">
-			document.addEventListener('DOMContentLoaded', function (e) {
+			}</style></head><body><input id="search" type="search"><div id="map"></div><script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places&sensor=true"></script><script type="text/javascript">document.addEventListener('DOMContentLoaded', function (e) {
 				var map, service, infoWindow,
 				    madison = new google.maps.LatLng(43.0748, -89.3856),
 				    request = {
@@ -64,7 +52,4 @@
 
 
 				initialize();
-			});
-		</script>
-	</body>
-</html>
+			});</script></body></html>

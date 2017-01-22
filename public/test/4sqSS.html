@@ -1,10 +1,4 @@
-<html>
-	<head>
-		<title>Foursquare Heat Map - bradorego.com</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="ext/tablesorter/themes/blue/style.css" />
-		<style type="text/css">
-			html, body{
+<html><head><title>Foursquare Heat Map - bradorego.com</title><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="ext/tablesorter/themes/blue/style.css"><style type="text/css">html, body{
 				margin: 0; padding: 0;
 			}
 		#map {
@@ -20,17 +14,7 @@
 			color: white;
 			font-size: 32px;
 			padding: 5px 10px;
-		}
-		</style>
-	</head>
-	<body>
-	<div id="map"></div>
-	<div id="time"></div>
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
-	<script type="text/javascript" src="ext/tablesorter/jquery.tablesorter.min.js"></script>
-<script type="text/javascript">
-var venueList = [],
+		}</style></head><body><div id="map"></div><div id="time"></div><script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script><script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script><script type="text/javascript" src="ext/tablesorter/jquery.tablesorter.min.js"></script><script type="text/javascript">var venueList = [],
 	infoWindow = new google.maps.InfoWindow(),
 	radius = 4828, //3mi in m
 	currentPosition = {},
@@ -309,7 +293,4 @@ function calcTime(offset) {
     nd = new Date(utc + (3600000*offset));
     // return time as a string
     return nd;
-}
-	</script>
-	</body>
-</html>
+}</script></body></html>

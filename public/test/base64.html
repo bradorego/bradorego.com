@@ -1,11 +1,4 @@
-<html>
-	<head>
-		<title>Base64 - bradorego.com</title>
-		<meta name="description" content="A Javascript image to base64 converted made by Brad Orego" />
-		<meta name="keywords" content="Base64, Image conversion, Javascript, Brad Orego" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-		<style>
-			body {
+<html><head><title>Base64 - bradorego.com</title><meta name="description" content="A Javascript image to base64 converted made by Brad Orego"><meta name="keywords" content="Base64, Image conversion, Javascript, Brad Orego"><meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"><style>body {
 				background: rgba(230,230,230,1);
 			}
 			input {
@@ -26,21 +19,7 @@
 				font-weight: bold;
 				color: white;
 				letter-spacing: 1px;
-			}
-		</style>
-	</head>
-	<body>
-		<div id="dropZone">
-			<label>
-				<input id="pic" type="file" accept="image/*" />
-				<span>Add a Photo</span>
-			</label>
-			 OR Drag & Drop an image file ANYWHERE!
-			<div id="b64"></div>
-			<img id="res" src="" />
-		</div>
-		<script type="text/javascript">
-			document.addEventListener("DOMContentLoaded", function (e) {
+			}</style></head><body><div id="dropZone"><label><input id="pic" type="file" accept="image/*"> <span>Add a Photo</span></label>OR Drag & Drop an image file ANYWHERE!<div id="b64"></div><img id="res" src=""></div><script type="text/javascript">document.addEventListener("DOMContentLoaded", function (e) {
 				if (window.File && window.FileReader && window.FileList && window.Blob && window.getSelection) {
 				  // Great success! All the File APIs are supported.
 				} else {
@@ -89,7 +68,4 @@
 				        reader.readAsDataURL(e.target.files[0]);
 				    }
 				});
-			});
-		</script>
-	</body>
-</html>
+			});</script></body></html>
