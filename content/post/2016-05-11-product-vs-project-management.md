@@ -21,7 +21,7 @@
 }
 
 <div class="tldnr">
-  <h4>TL;DNR</h4>
+  <h3>TL;DNR</h3>
   <ul>
     <li>There's still a fair amount of confusion between product management and project management. Lots of people do the latter well, but the former is often forgotten/forgone.</li>
     <li>Project Management is focused on execution - securing and organizing resources, planning out tasks, and keeping things on track. Velocity. How. When.</li>
@@ -85,4 +85,4 @@ All of the planning, research, and vision is the architect's responsibility, and
 
 ### A brief plug
 
-Did you find yourself reading this post and thinking "we've got the project part down, but shoot, having a product person would be great"? Part of the reason this has come up a lot for me is I'm looking into a product-manager-as-a-service model. You should <a href="mailto:bradley.orego@gmail.com">contact me</a> if you'd like to hear more.
+Did you find yourself reading this post and thinking "we've got the project part down, but shoot, having a product person would be great"? Part of the reason this has come up a lot for me is I'm looking into a product-manager-as-a-service model. You should <a href="mailto:me@bradorego.com">contact me</a> if you'd like to hear more.

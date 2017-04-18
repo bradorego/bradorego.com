@@ -18,7 +18,7 @@
 }
 
 <div class="tldnr">
-  <h4>TL;DNR</h4>
+  <h3>TL;DNR</h3>
   <ul>
     <li>OkCupid is great, but it's broken.</li>
     <li>Fixing it should be pretty easy &mdash; just give a fast, simple way to stop bad members from being bad, and let the community sort it out.</li>

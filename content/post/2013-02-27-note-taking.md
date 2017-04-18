@@ -18,7 +18,7 @@
 }
 
 <div class="tldnr">
-  <h4>TL;DNR</h4>
+  <h3>TL;DNR</h3>
   <ul>
     <li>Memory is fallible, and humans tend to remember the most intense part and the ending of any experience.</li>
     <li>Finding systems that work for you is essential to productivity.</li>

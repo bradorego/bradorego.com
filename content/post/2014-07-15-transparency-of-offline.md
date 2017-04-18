@@ -13,7 +13,7 @@
 }
 
 <div class="tldnr">
-  <h4>TL;DNR</h4>
+  <h3>TL;DNR</h3>
   <ul>
     <li>Notification design is important, especially in the light of ubiquitous computing.</li>
     <li>Designing to allow interrupted attention is crucial.</li>

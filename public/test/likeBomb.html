@@ -1,4 +1,15 @@
-<!DOCTYPE html><html><head><title>FB Like Bomb</title><meta name="description" content="Like all of the photos in your friends' album that aren't currently liked."><meta name="author" content="Brad Orego"><meta name="viewport" content="width=device-width,initial-scale=1"><meta property="og:title" content="FB Like Bomb"><meta property="og:description" content="Like all of the photos in your friends' album that aren't currently liked."><script>window.fbAsyncInit = function() {
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>FB Like Bomb</title>
+    <meta name="description" content="Like all of the photos in your friends' album that aren't currently liked.">
+    <meta name="author" content="Brad Orego">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="FB Like Bomb">
+    <meta property="og:description" content="Like all of the photos in your friends' album that aren't currently liked.">
+    <script>
+        window.fbAsyncInit = function() {
           // init the FB JS SDK
           FB.init({
             appId      : '145297608974624', // App ID from the App Dashboard
@@ -37,7 +48,10 @@
                     }
                 }
             });
-        }</script><style type="text/css">#loading {
+        }
+    </script>
+    <style type="text/css">
+        #loading {
             position: absolute;
             top: 0.5em;
             right: 5%;
@@ -55,7 +69,18 @@
             height: 5em;
             font-size: 5em;
             margin: 0 auto;
-        }</style></head><body><div id="fb-root"></div><button id="btn">Like Bomb!</button><div id="results"></div><div id="loading">Loading...</div><script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script><script type="text/javascript">var photosToLike = [],
+        }
+    </style>
+</head>
+
+<body>
+    <div id="fb-root"></div>
+    <button id="btn">Like Bomb!</button>
+    <div id="results"></div>
+    <div id="loading">Loading...</div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    var photosToLike = [],
         timer,
         currentPhoto,
         maxPhotos,
@@ -137,4 +162,7 @@
                 }
             });
         });
-    }); //jquery</script></body></html>
+    }); //jquery
+    </script>
+</body>
+</html>

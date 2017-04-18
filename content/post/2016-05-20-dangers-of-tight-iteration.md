@@ -22,7 +22,7 @@
 }
 
 <div class="tldnr">
-  <h4>TL;DNR</h4>
+  <h3>TL;DNR</h3>
   <ul>
     <li>Getting a lot of feedback quickly isn't necessarily always the best strategy - having a guiding light is helpful as well.</li>
     <li>Users react to the level of fidelity of what you show them. You might be missing something if your fidelity doesn't match the issue in the design.</li>

@@ -14,7 +14,7 @@
 }
 
 <div class="tldnr">
-  <h4>TL;DNR</h4>
+  <h3>TL;DNR</h3>
   <ul>
     <li>Enabling native-level functionality on a hosted web app is really cool.</li>
     <li>Code reuse is also pretty cool.</li>

@@ -13,7 +13,7 @@
 }
 
 <div class="tldnr">
-  <h4>TL;DNR</h4>
+  <h3>TL;DNR</h3>
   <ul>
     <li>Static generators (e.g. <a href="https://gohugo.io">Hugo</a>) are pretty cool.</li>
     <li>Ease of use/production directly relates to content creation.</li>

@@ -18,7 +18,7 @@
 }
 
 <div class="tldnr">
-  <h4>TL;DNR</h4>
+  <h3>TL;DNR</h3>
   <ul>
     <li>Foursquare's API and Google Maps are pretty easy to work with.</li>
     <li>Creating a new product can be as easy as combining two existing technologies.</li>

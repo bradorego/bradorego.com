@@ -16,7 +16,7 @@
 }
 
 <div class="tldnr">
-  <h4>TL;DNR</h4>
+  <h3>TL;DNR</h3>
   <ul>
     <li>Pop-ups are distracting.</li>
     <li>Design your life to have less sudden distractions and you'll be more productive and happier.</li>

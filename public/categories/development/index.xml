@@ -17,7 +17,7 @@
       <description>
 
 &lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
-  &lt;h4&gt;TL;DNR&lt;/h4&gt;
+  &lt;h3&gt;TL;DNR&lt;/h3&gt;
   &lt;ul&gt;
     &lt;li&gt;Static generators (e.g. &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;) are pretty cool.&lt;/li&gt;
     &lt;li&gt;Ease of use/production directly relates to content creation.&lt;/li&gt;
@@ -67,7 +67,7 @@
       <description>
 
 &lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
-  &lt;h4&gt;TL;DNR&lt;/h4&gt;
+  &lt;h3&gt;TL;DNR&lt;/h3&gt;
   &lt;ul&gt;
     &lt;li&gt;Enabling native-level functionality on a hosted web app is really cool.&lt;/li&gt;
     &lt;li&gt;Code reuse is also pretty cool.&lt;/li&gt;
@@ -182,7 +182,7 @@ end
       <description>
 
 &lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
-  &lt;h4&gt;TL;DNR&lt;/h4&gt;
+  &lt;h3&gt;TL;DNR&lt;/h3&gt;
   &lt;ul&gt;
     &lt;li&gt;Foursquare&amp;rsquo;s API and Google Maps are pretty easy to work with.&lt;/li&gt;
     &lt;li&gt;Creating a new product can be as easy as combining two existing technologies.&lt;/li&gt;
@@ -257,7 +257,7 @@ end
       
       <guid>http://bradorego.com/new-site</guid>
       <description>&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
-  &lt;h4&gt;TL;DNR&lt;/h4&gt;
+  &lt;h3&gt;TL;DNR&lt;/h3&gt;
   &lt;ul&gt;
     &lt;li&gt;Drupal is cool, powerful, mature.&lt;/li&gt;
     &lt;li&gt;Making it easier to create content is important to how likely it is to happen.&lt;/li&gt;

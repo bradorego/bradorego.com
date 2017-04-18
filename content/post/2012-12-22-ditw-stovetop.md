@@ -21,7 +21,7 @@
 }
 
 <div class="tldnr">
-  <h4>TL;DNR</h4>
+  <h3>TL;DNR</h3>
   <ul>
     <li>Sometimes things we interact with in the physical world are poorly designed.</li>
     <li>Direct mapping makes a lot more sense, and should be used whenever/wherever possible.</li>
