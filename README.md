@@ -17,5 +17,5 @@
 # Deploy
 
 1) hugo
-2) git push origin master
-3) Aerobatic does the rest
+2) FTP to bradorego_bradorego@ssh.phx.nearlyfreespeech.net
+3) Upload the /public/ directory to the /public/ directory on remote
