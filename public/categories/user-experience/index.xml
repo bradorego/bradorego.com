@@ -2,528 +2,103 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>User Experience on bradorego.com</title>
-    <link>http://bradorego.com/categories/user-experience/index.xml</link>
+    <link>http://bradorego.com/categories/user-experience/</link>
     <description>Recent content in User Experience on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://bradorego.com/categories/user-experience/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Mar 2017 14:40:53 -0500</lastBuildDate>
+    
+	<atom:link href="http://bradorego.com/categories/user-experience/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Why We&#39;re Firing a Top-Tier Product Development Firm</title>
-      <link>http://bradorego.com/why-were-firing-a-top-tier-product-development-firm</link>
+      <link>http://bradorego.com/why-were-firing-a-top-tier-product-development-firm/</link>
       <pubDate>Sat, 18 Mar 2017 14:40:53 -0500</pubDate>
       
-      <guid>http://bradorego.com/why-were-firing-a-top-tier-product-development-firm</guid>
-      <description>
-
-&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
-  &lt;h3&gt;TL;DNR&lt;/h3&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Culture trumps credentials, reputation, and pretty much everything else.&lt;/li&gt;
-    &lt;li&gt;Don&amp;rsquo;t be afraid to pull the plug on something if it isn&amp;rsquo;t working. Trust your gut and stick to your guns.&lt;/li&gt;
-    &lt;li&gt;If you want something done right, sometimes you have to do it yourself. Just because it has a corporate name tag doesn&amp;rsquo;t mean there aren&amp;rsquo;t talented people.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-&lt;hr/&gt;&lt;/p&gt;
-
-&lt;p&gt;Some of the work I&amp;rsquo;ve been doing recently has been with what&amp;rsquo;s known as the Business Development branch of a large company. Basically, it&amp;rsquo;s like a handful of small startups with a Fortune 500 budget, or something I&amp;rsquo;ve come to learn is called &amp;ldquo;corporate innovation&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;One of the benefits of working in this environment is the incredible access to resources our teams have. I&amp;rsquo;m used to the early-stage startup world, where there&amp;rsquo;s no money, no time, a million things to do, and everything is on fire, whereas the world of corporate innovation is very, very different.&lt;/p&gt;
-
-&lt;p&gt;For one project, we decided we needed some additional help, so we decided to hire an agency to help us get an MVP up and running.&lt;/p&gt;
-
-&lt;h1 id=&#34;nobody-ever-got-fired-for-buying-ibm-a-name-ibm-href-ibm-i-class-ion-link-i-a&#34;&gt;Nobody Ever Got Fired For Buying IBM &lt;a name=&#34;ibm&#34; href=&#34;#ibm&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;h4 id=&#34;go-with-the-internationally-acclaimed-option&#34;&gt;Go with the internationally acclaimed option&lt;/h4&gt;
-
-&lt;p&gt;We interviewed about a dozen firms, including local options as well as national/international agencies, and weighed the pros and cons of working with each. Some simply couldn&amp;rsquo;t offer the bandwidth or the expertise we needed. Others we felt weren&amp;rsquo;t paying attention to our needs and wouldn&amp;rsquo;t be a good fit for the phase our product was in.&lt;/p&gt;
-
-&lt;p&gt;While we said no to some extremely well-known and highly reputable companies, we ultimately went with one that had a great reputation/track record, lots of really exciting examples, and that we were excited to work with. While none of us had any experience working with this company in the past, we felt good about it. After all, &lt;a href=&#34;https://www.quora.com/What-does-the-phrase-Nobody-ever-got-fired-for-choosing-IBM-mean&#34;&gt;nobody ever got fired for buying IBM&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Part of my role on this team was to make sure these agencies were passing the &amp;ldquo;sniff test&amp;rdquo;, and to pick one that would be the best fit for what our product (and team) needed, and I was fully confident in moving forward with this partner.&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;img src=&#34;http://bradorego.com/img/posts/why-firing-top-tier-firm/ibm.jpg&#34; /&gt;
-&lt;figcaption&gt;&lt;a href=&#34;http://pbs.twimg.com/media/CCMnwscW4AIDfqo.png:large&#34;&gt;Credit&lt;/a&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h1 id=&#34;bait-and-switch-a-name-bait-and-switch-href-bait-and-switch-i-class-ion-link-i-a&#34;&gt;Bait and Switch? &lt;a name=&#34;bait-and-switch&#34; href=&#34;#bait-and-switch&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;h4 id=&#34;an-unfortunate-circumstance&#34;&gt;An unfortunate circumstance&lt;/h4&gt;
-
-&lt;p&gt;Things got off to a bit of a rocky start, as scheduling around the holidays is virtually impossible, but there isn&amp;rsquo;t much one can do about that. There was something that was particularly interesting about this experience, though.&lt;/p&gt;
-
-&lt;p&gt;The individuals we were talking with throughout the courtship process seemed to completely understand where we were, what we were looking for, and were on board with the rough outline I (as the in-house designer) had laid out. When asked, they reassured us that this was in fact the team we&amp;rsquo;d be working with. However, when it came to scheduling, there seemed to be a few conflicts, and after having to push back the start date, we also learned that these team members wouldn&amp;rsquo;t be available any longer.&lt;/p&gt;
-
-&lt;p&gt;I don&amp;rsquo;t want to take anything away from the individuals we did work with, but this kind of felt like a bait-and-switch on our end. Not only was there now a disconnect between everything we&amp;rsquo;d talked to this team about and the new team, it just didn&amp;rsquo;t quite feel right. Cue foreshadowing.&lt;/p&gt;
-
-&lt;h1 id=&#34;culture-mismatches-a-name-culture-href-culture-i-class-ion-link-i-a&#34;&gt;Culture Mismatches &lt;a name=&#34;culture&#34; href=&#34;#culture&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;h4 id=&#34;short-work-days-every-holiday-off-laid-back-attitudes&#34;&gt;Short work days, every holiday off, laid back attitudes&lt;/h4&gt;
-
-&lt;p&gt;Once we locked in a start date, things seemed to be moving smoothly. As is typical, we kicked off our engagement with a week-long &lt;a href=&#34;http://www.gv.com/sprint/&#34;&gt;Product Design Sprint&lt;/a&gt; on-site in one of their offices. It was a great opportunity to get all of us out of our typical environment and give us an excuse to focus exclusively on this project, to (hopefully) learn something about their process, and obviously to built rapport with the team so we could work effectively going forward (especially considering it would be remote).&lt;/p&gt;
-
-&lt;p&gt;Our half of the team was totally jazzed up to get this project moving and to hit the ground running, so despite one of the worst travel days of my life (the perfect storm of a computer glitch and a winter storm) which resulted us getting into town Monday afternoon instead of Sunday night, we were ready to put in long hours and have something we were proud to show off at the end of the week.&lt;/p&gt;
-
-&lt;p&gt;Any design sprint is going to be an intensive, exhausting experience, and I&amp;rsquo;m all for working smarter versus harder, but our initial experience wasn&amp;rsquo;t exactly what we expected. It seems the standard was to start work around 10am and leave around 4pm, all while taking about an hour for lunch. This pattern continued (if not intensified) after the sprint, and was a major sticking point.&lt;/p&gt;
-
-&lt;p&gt;Our culture was more of a ~830am-430pm work day, plus extra time if you needed to stay late or work from home that evening. They also embrace Google&amp;rsquo;s &amp;ldquo;20% time&amp;rdquo; idea, meaning they were only working/billing 4 days a week, taking every Friday as a growth day. If you looked at the difference in hours per week, our team was putting in 40-50 whereas it seemed they were doing almost half that.&lt;/p&gt;
-
-&lt;p&gt;Another thing that seemed shove a pretty significant wedge between us was actually the reason we had to reschedule in the first place: holidays. We didn&amp;rsquo;t even recognize that our initial start was MLK Day. After we&amp;rsquo;d originally agreed on that date, we heard back a week or so later (after we&amp;rsquo;d already started booking travel, no less) that we had to change. They also didn&amp;rsquo;t work President&amp;rsquo;s Day, either, which along with the 20% time thing meant we had a few 3-day weeks.&lt;/p&gt;
-
-&lt;p&gt;Further exacerbating these scheduling woes were some differences in communication style and tone. Not to say we&amp;rsquo;re all hard-asses, but the laid back attitude that our partners espoused was often at odds with our desire and urgency to move the project forward. One of our colleagues (who wasn&amp;rsquo;t even on this project) was walking by during one of our daily standups (via Google Hangouts) and afterwards commented on their tone, calling it borderline unprofessional. Another teammate who wasn&amp;rsquo;t directly involved with working with them often made references to &lt;a href=&#34;http://www.ifc.com/shows/portlandia&#34;&gt;Portlandia&lt;/a&gt;.&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;img src=&#34;http://bradorego.com/img/posts/why-firing-top-tier-firm/portlandia.jpg&#34; /&gt;
-&lt;figcaption&gt;&lt;a href=&#34;http://68.media.tumblr.com/92560a542be8c8a7f8e6110772a2a744/tumblr_o0hbbgcLlP1te2cuvo1_1280.jpg&#34;&gt;Credit&lt;/a&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;All of this aside, there was one other culture shock in terms of tooling. Our team was familiar with using Asana, JIRA, Box, Outlook, AWS, and Github. Throw in some Google Analytics and Mixpanel and that&amp;rsquo;s about all we needed. Throughout our engagement with this partner, we were suddenly using Trello, GrowthHackers, FormKeep, Segment, Netlify, Google Drive, Redpen,&amp;hellip;the list goes on. Mind you, this is still &lt;em&gt;corporate&lt;/em&gt; innovation, meaning a lot of the tools we use have to be approved before we can store IP or PII in them.&lt;/p&gt;
-
-&lt;h1 id=&#34;quality-a-name-quality-href-quality-i-class-ion-link-i-a&#34;&gt;Quality &lt;a name=&#34;quality&#34; href=&#34;#quality&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;h4 id=&#34;it-shouldn-t-take-a-week-to-build-a-static-landing-page&#34;&gt;It shouldn&amp;rsquo;t take a week to build a static landing page&lt;/h4&gt;
-
-&lt;p&gt;Another surprise (and, at the end of the day, what was ultimately the breaking point) was the overall quality of the work. None of my teammates are product designers, nor do they have much experience working in tech at all, so while they were excited to see what a design sprint was like, I was looking forward to working with (and learning from) some of the best in the business. The experience we had was altogether different than our expectations.&lt;/p&gt;
-
-&lt;p&gt;One of the big differences between our team/project and I&amp;rsquo;m guessing a lot of the other work they do was the degree of empathy work and background research the team had done. I joined this project over a year into it and it took me months to digest and distill what they had learned, so I&amp;rsquo;m not saying it&amp;rsquo;s an easy task. That being said, our team came in with a lot of expertise and knowledge around who our target users were and what challenges they faced, which I would&amp;rsquo;ve assumed would help us move quickly. Instead, what we were faced with was push-back at almost every step.&lt;/p&gt;
-
-&lt;p&gt;We came out of our design sprint feeling a little lost. The target (and, thus, problem) that our partners wanted to focus on wasn&amp;rsquo;t at all what we&amp;rsquo;d come into the week with (which isn&amp;rsquo;t necessarily a bad thing), and overall there seemed to be a lot of skepticism on their side. The next few weeks saw extremely slow progress peppered with discussions about how to move forward (and how to do so more quickly, at that).&lt;/p&gt;
-
-&lt;p&gt;We came into the engagement assuming we would follow their lead in the product development process, doing what their expertise suggested. That wasn&amp;rsquo;t working, so we tried giving them direction instead. Not only did that also not work, but it seemed as if they didn&amp;rsquo;t trust our research and the conclusions we had drawn from it. As a designer, I would love to spend as much time as possible doing research, but there&amp;rsquo;s a point of diminishing returns, and one of the things we laid out at the beginning of the courtship process was a bias toward &lt;a href=&#34;https://uxmag.com/articles/from-design-thinking-to-design-doing&#34;&gt;doing&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Above all else, though, the speed and quality of work just wasn&amp;rsquo;t there. Once we convinced them to actually take action instead of focusing on research, we laid out a plan together to create a few simple landing pages and run a few Facebook/Google ads to gauge interest. These pages wound up taking over a week to write copy for, design, and implement, and that&amp;rsquo;s due in no small part to the tools selected (surprise, surprise).&lt;/p&gt;
-
-&lt;p&gt;Each landing page went through a process of low-fidelity wireframes, high-fidelity Sketch/Photoshop comps, and then built out using Middleman and Bourbon/Neat. At one point it took me fifteen minutes to get all the dependencies installed and my development environment setup only to make a 30-second change (which, mind you, was something our developer told me would take too long to change, and lead me to one of my favorite Slack exchanges ever).&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;img src=&#34;http://bradorego.com/img/posts/why-firing-top-tier-firm/redacted.jpg&#34; /&gt;
-&lt;/figure&gt;
-
-&lt;h1 id=&#34;now-what-a-name-now-what-href-now-what-i-class-ion-link-i-a&#34;&gt;Now What? &lt;a name=&#34;now-what&#34; href=&#34;#now-what&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;h4 id=&#34;look-again-bring-it-in-house&#34;&gt;Look again? Bring it in house?&lt;/h4&gt;
-
-&lt;p&gt;So we came to the conclusion that we needed to cut our losses and fire the agency. It wasn&amp;rsquo;t an easy decision considering we still need to move quickly to meet our internal deadlines, but ultimately the amount we were paying and the output we were seeing just didn&amp;rsquo;t make sense. We even had the sense that we could move more quickly by ourselves, which brings me to another interesting point.&lt;/p&gt;
-
-&lt;p&gt;If you remember back at the beginning of this post, the reason we wanted to look externally at all is so we could move more quickly. Between myself and some of my teammates, we have the skillsets needed to at least get through the first few months of designing, testing, and building an MVP. Part of the discussion of what to do next was whether we should just move forward ourselves and get as much done as possible.&lt;/p&gt;
-
-&lt;p&gt;Ultimately what we&amp;rsquo;ve decided to do is somewhat of a hybrid approach: instead of hiring a firm to do all the work, we&amp;rsquo;re looking more toward a development partner that can take care of the heavy lifting and allow us to focus on design, strategy, branding, marketing, and all the other things that come along with it. Basically, let someone else worry about the details of implementation and we&amp;rsquo;ll handle the direction.&lt;/p&gt;
-
-&lt;p&gt;What I would love would be to have an entire team on the inside that we could partner with for these types of things. If you&amp;rsquo;re in corporate innovation, and you foresee this being something that the group/company needs to do, it makes sense to bring as much of it in house as possible. We&amp;rsquo;ve already had a few different teams hire a few different agencies, and aside from it being horribly fragmented and disjointed, it&amp;rsquo;s also incredibly expensive.&lt;/p&gt;
-
-&lt;p&gt;Bringing all of that in house would increase quality, decrease turnaround time (especially considering you would eliminate all sourcing and negotiation time, which has easily added months to our timeline), and decrease costs. This is the plan I&amp;rsquo;ve been advocating for us to take and is by far the most common recommendation I make to others in similar circumstances.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;h3 id=&#34;a-brief-plug&#34;&gt;A brief plug&lt;/h3&gt;
-
-&lt;p&gt;Do you have similar experiences to share? Are you in a similar situation, trying to decide how to move forward with a project and who to hire? Trying to build your own in house team? I&amp;rsquo;d be happy to talk more about it (and hopefully be able to help)! &lt;a href=&#34;mailto:me@bradorego.com&#34;&gt;Let&amp;rsquo;s chat&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <guid>http://bradorego.com/why-were-firing-a-top-tier-product-development-firm/</guid>
+      <description>TL;DNR  Culture trumps credentials, reputation, and pretty much everything else. Don&amp;rsquo;t be afraid to pull the plug on something if it isn&amp;rsquo;t working. Trust your gut and stick to your guns. If you want something done right, sometimes you have to do it yourself. Just because it has a corporate name tag doesn&amp;rsquo;t mean there aren&amp;rsquo;t talented people.   
+Some of the work I&amp;rsquo;ve been doing recently has been with what&amp;rsquo;s known as the Business Development branch of a large company.</description>
     </item>
     
     <item>
       <title>The Dangers of Tight Iteration</title>
-      <link>http://bradorego.com/the-dangers-of-tight-iteration</link>
+      <link>http://bradorego.com/the-dangers-of-tight-iteration/</link>
       <pubDate>Fri, 20 May 2016 19:31:28 -0500</pubDate>
       
-      <guid>http://bradorego.com/the-dangers-of-tight-iteration</guid>
-      <description>
-
-&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
-  &lt;h3&gt;TL;DNR&lt;/h3&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Getting a lot of feedback quickly isn&amp;rsquo;t necessarily always the best strategy - having a guiding light is helpful as well.&lt;/li&gt;
-    &lt;li&gt;Users react to the level of fidelity of what you show them. You might be missing something if your fidelity doesn&amp;rsquo;t match the issue in the design.&lt;/li&gt;
-    &lt;li&gt;Good Product Design (or at least, a good discovery phase/project plan) can alleviate these issues.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-&lt;hr/&gt;&lt;/p&gt;
-
-&lt;p&gt;Before starting a new engagement with a client, I always ask a series of questions about their company, their processes, and the project I&amp;rsquo;ll be working on. One of those questions asks how they&amp;rsquo;re currently handling user research and product design and I&amp;rsquo;m often told they &amp;ldquo;have a tight feedback loop&amp;rdquo; and that&amp;rsquo;s all they have to say.&lt;/p&gt;
-
-&lt;p&gt;There&amp;rsquo;s a lot wrong with this answer, but let&amp;rsquo;s unpack it a little.&lt;/p&gt;
-
-&lt;h1 id=&#34;rapid-prototyping-a-name-rapidprototyping-href-rapidprototyping-i-class-ion-link-i-a&#34;&gt;Rapid Prototyping &lt;a name=&#34;rapidPrototyping&#34; href=&#34;#rapidPrototyping&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;First and foremost, effective use of Rapid Prototyping can be immensely beneficial to a product. If there&amp;rsquo;s one thing I could convince every company in the world to do, it would be to use some type of rapid prototyping in their product design. If I got a fraction of all of the &lt;a href=&#34;http://time.com/13549/the-10-worst-product-fails-of-all-time/&#34;&gt;money spent&lt;/a&gt; building products that ultimately failed, I&amp;rsquo;d never have to work again.&lt;/p&gt;
-
-&lt;p&gt;Ultimately, Rapid Prototyping is more a process or practice than a technique or specific tools. Rapid Prototyping involves getting as much feedback as often as possible throughout the design process, and this is accomplished by varying the level of fidelity of what you&amp;rsquo;re testing (more on this later). By exposing the current version of your product in all of its incomplete glory, you save sinking time into things that don&amp;rsquo;t work, and ultimately build a better product for your target user.&lt;/p&gt;
-
-&lt;p&gt;You can read more about the variety of options when it comes to Rapid Prototyping elsewhere, but here&amp;rsquo;s a brief overview of some of the options:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Paper Prototypes - hand-drawn sketches of what an interface might look like&lt;/li&gt;
-&lt;li&gt;Wizard of Oz - the practice of playing the role of the computer by abstracting future functionality away&lt;/li&gt;
-&lt;li&gt;Testing Your Competitor - before building your solution, see what problems users have with existing solutions&lt;/li&gt;
-&lt;li&gt;Interactive Prototypes - semi-functional software systems users can interact with&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;let-s-talk-about-fidelity-a-name-fidelity-href-fidelity-i-class-ion-link-i-a&#34;&gt;Let&amp;rsquo;s Talk About Fidelity &lt;a name=&#34;fidelity&#34; href=&#34;#fidelity&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;The exact definition of fidelity isn&amp;rsquo;t exactly clear, but it roughly refers to the level of detail your current iteration includes. It&amp;rsquo;s often used in the context of prototyping, but it can refer to existing products as well. Your typical startup MVP is a high-fidelity prototype but a low-fidelity product. Fidelity exists on a &lt;a href=&#34;https://www.smashingmagazine.com/2010/06/design-better-faster-with-rapid-prototyping/#the-prototyping-spectrum&#34;&gt;continuum&lt;/a&gt;, with the lower end including concepts, sketches, and rough wireframes, and the higher end being branded/visually design and interactive prototypes. I&amp;rsquo;ve seen far too many products that jump right into the deep end of fidelity, missing out on all of the potential learning from testing lower fidelity prototypes.&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;img src=&#34;http://bradorego.com/img/posts/dangers-of-tight-iteration/graph.jpg&#34; /&gt;
-&lt;figcaption&gt;&lt;a href=&#34;http://www.uxmatters.com/mt/archives/2010/05/sketches-and-wireframes-and-prototypes-oh-my-creating-your-own-magical-wizard-experience.php&#34;&gt;Credit&lt;/a&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;It might be somewhat contradictory to recommend using a lower level of detail, but you have to &lt;a href=&#34;https://blinkux.com/blog/choosing-the-right-level-of-fidelity-for-your-wireframes/&#34;&gt;match your level of fidelity&lt;/a&gt; to the type of feedback you&amp;rsquo;re looking for. Your users will respond to the fidelity they&amp;rsquo;re given, and their feedback will be colored by this. If you give them paper, they&amp;rsquo;ll talk about things like workflow, high-level design, and desired features. If you give them highly designed (read: Sketch/Photoshop) images, they&amp;rsquo;ll talk about things like color scheme, fonts, and whitespace. If you give them an interactive prototype, they&amp;rsquo;ll talk about things like transitions, interactivity, and performance.&lt;/p&gt;
-
-&lt;p&gt;This graph (and more great coverage of the pluses and minuses of different levels of fidelity) from &lt;a href=&#34;http://www.uxmatters.com/mt/archives/2010/05/sketches-and-wireframes-and-prototypes-oh-my-creating-your-own-magical-wizard-experience.php&#34;&gt;UX Matters&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h1 id=&#34;why-it-matters-a-name-why-href-why-i-class-ion-link-i-a&#34;&gt;Why It Matters &lt;a name=&#34;why&#34; href=&#34;#why&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;It can be intoxicating to set a baseline and watch your numbers improve on whatever metrics you&amp;rsquo;ve set, as you iterate. Arguably, data-informed design is a good thing, especially compared to the alternative. The &lt;a href=&#34;http://adaptivepath.org/ideas/data-informed-not-data-driven-the-subtext/&#34;&gt;problem&lt;/a&gt; is when data starts driving your decisions, and you lose sight of the big picture - improving the experience for the end user. Increased conversions, decreased errors, or more efficient interactions may not necessarily be the most enjoyable experience (e.g. a &lt;a href=&#34;http://www.people.hbs.edu/rbuell/papers/buell_norton_2011.pdf&#34;&gt;wait time&lt;/a&gt; might actually be a &lt;em&gt;good&lt;/em&gt; thing).&lt;/p&gt;
-
-&lt;p&gt;The problem with this approach is it might be honing in on what&amp;rsquo;s known as a local maxima. Naive &lt;a href=&#34;https://en.wikipedia.org/wiki/Hill_climbing&#34;&gt;hill-climbing&lt;/a&gt; algorithms can fall victim to this problem as well. Essentially, you continue to see improvements and make changes until you reach a point where those improvements either diminish entirely or degrade. At this point, traditional wisdom would be to stop working and either a) work on something else, or b) declare yourself victorious and toast your achievement, all the while missing what could be a better solution.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&#34;http://bradorego.com/img/posts/dangers-of-tight-iteration/local-maxima.jpg&#34; /&gt;
-  &lt;figcaption&gt;&lt;a href=&#34;http://www.90percentofeverything.com/2011/01/06/local-maxima-and-the-perils-of-data-driven-design/&#34;&gt;Credit&lt;/a&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;On a philosophical note, I like to think of every design problem (if not every problem in life) as something like the above graphic, except the plane is infinite &amp;ndash; there&amp;rsquo;re always other options, some of which might be better than our current situation if we&amp;rsquo;re just willing to take the leap of faith and try a new approach.&lt;/p&gt;
-
-&lt;h1 id=&#34;fighting-the-local-maxima-a-name-local-href-local-i-class-ion-link-i-a&#34;&gt;Fighting the Local Maxima &lt;a name=&#34;local&#34; href=&#34;#local&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;So now we&amp;rsquo;re aware of the problem and what causes it. That doesn&amp;rsquo;t necessarily tell us what to do about it, though. Here&amp;rsquo;s a great strategy outlined in an article from 2010:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  One strategy we might employ is to optimize until we reach a point of diminishing returns: design until changes just aren’t having a big effect. Then, stop optimizing and return to other kinds of analysis to figure out the next steps. Conduct interviews. Do user testing. Give surveys, ask questions. Find out the biggest existing pain points instead of focusing on tiny design elements at this stage. Focus at the activity-level. What are people trying to accomplish? What are their higher-level goals? What aren’t people doing that we want them to? What big hurdles keep them from taking the next action? This level of insight will allow you to make those bigger changes.
-  &lt;footer&gt;Joshua Porter, &lt;a href=&#34;http://52weeksofux.com/post/694598769/the-local-maximum&#34;&gt;52 Weeks of UX&lt;/a&gt;&lt;/footer&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I couldn&amp;rsquo;t&amp;rsquo;ve said it better myself.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;h3 id=&#34;a-brief-plug&#34;&gt;A brief plug&lt;/h3&gt;
-
-&lt;p&gt;Did you find yourself reading this post and thinking &amp;ldquo;our products have definitely suffered from the wrong type of feedback&amp;rdquo;? Part of the reason this has come up a lot for me is I&amp;rsquo;m looking into a product-manager-as-a-service model. You should &lt;a href=&#34;mailto:bradley.orego@gmail.com&#34;&gt;contact me&lt;/a&gt; if you&amp;rsquo;d like to hear more.&lt;/p&gt;
-</description>
+      <guid>http://bradorego.com/the-dangers-of-tight-iteration/</guid>
+      <description>TL;DNR  Getting a lot of feedback quickly isn&amp;rsquo;t necessarily always the best strategy - having a guiding light is helpful as well. Users react to the level of fidelity of what you show them. You might be missing something if your fidelity doesn&amp;rsquo;t match the issue in the design. Good Product Design (or at least, a good discovery phase/project plan) can alleviate these issues.   
+Before starting a new engagement with a client, I always ask a series of questions about their company, their processes, and the project I&amp;rsquo;ll be working on.</description>
     </item>
     
     <item>
       <title>Product vs Project Management</title>
-      <link>http://bradorego.com/product-vs-project-management</link>
+      <link>http://bradorego.com/product-vs-project-management/</link>
       <pubDate>Wed, 11 May 2016 10:04:17 -0500</pubDate>
       
-      <guid>http://bradorego.com/product-vs-project-management</guid>
-      <description>
-
-&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
-  &lt;h3&gt;TL;DNR&lt;/h3&gt;
-  &lt;ul&gt;
-    &lt;li&gt;There&amp;rsquo;s still a fair amount of confusion between product management and project management. Lots of people do the latter well, but the former is often forgotten/forgone.&lt;/li&gt;
-    &lt;li&gt;Project Management is focused on execution - securing and organizing resources, planning out tasks, and keeping things on track. Velocity. How. When.&lt;/li&gt;
-    &lt;li&gt;Product Management is more about vision - understanding what your users are trying to achieve, having a sense of the big picture, and making sure what&amp;rsquo;s being created fits expectations and needs. Trajectory. What. Why.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-&lt;hr/&gt;&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m &lt;a href=&#34;https://www.brainmates.com.au/brainrants/project-manager-vs-product-manager&#34;&gt;hardly&lt;/a&gt; the &lt;a href=&#34;https://koombea.com/blog/the-difference-between-product-and-project-management/&#34;&gt;first&lt;/a&gt; &lt;a href=&#34;http://radar.oreilly.com/2014/02/building-the-right-thing-vs-building-the-thing-right.html&#34;&gt;person&lt;/a&gt; to write about this (though &lt;a href=&#34;http://www.fastcodesign.com/3055429/how-to-avoid-making-products-no-one-wants&#34;&gt;this article&lt;/a&gt; is particularly relevant/pointed), but it&amp;rsquo;s been coming up a lot for me lately as I think about what I want to do next, work-wise.&lt;/p&gt;
-
-&lt;p&gt;One of the things that I&amp;rsquo;ve seen come up time and time again is the need for a Product Manager. It seems that most companies have a great sense of how to execute, and they&amp;rsquo;re great at the work that they do, but figuring out what they should be doing can be a struggle. This shows up for consulting firms in the form of rework and for product firms in the form of failed product launches. I will always cringe when I think about how much time and money is wasted creating &lt;a href=&#34;https://www.buzzfeed.com/kirstenking/products-literally-no-one-asked-for?utm_term=.glwJ8aEdE#.cf5ekOv5v&#34;&gt;things people don&amp;rsquo;t want&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;So let&amp;rsquo;s talk about some of these differences.&lt;/p&gt;
-
-&lt;h1 id=&#34;project-management-a-name-project-href-project-i-class-ion-link-i-a&#34;&gt;Project Management &lt;a name=&#34;proJect&#34; href=&#34;#proJect&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;&lt;em&gt;Project&lt;/em&gt; - a (often temporary) endeavor undertaken in order to complete a task, achieve a goal, or create a product or service. Casually, a project is just a thing a person or group does to accomplish something.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Project Manager&lt;/em&gt; - the individual responsible for coordinating resources, tasks, and schedule in order to ensure the project is successful. This often includes things like getting stakeholder buy in, securing a budget and/or time, assembling the right team of individuals, picking a methodology (whether agile, waterfall, or anything else), creating a backlog, planning tasks, etc.&lt;/p&gt;
-
-&lt;p&gt;Successful Project Managers are good at getting the right people involved and following up with them to make sure they have everything they need to fulfill their role.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Common Questions&lt;/em&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Who do you need for this project?&lt;/li&gt;
-&lt;li&gt;When will the project be delivered?&lt;/li&gt;
-&lt;li&gt;What is the current project velocity?&lt;/li&gt;
-&lt;li&gt;What can we get in scope given the budget and/or timeline restrictions?&lt;/li&gt;
-&lt;li&gt;In what order will features be implemented?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;product-management-a-name-product-href-product-i-class-ion-link-i-a&#34;&gt;Product Management &lt;a name=&#34;proDuct&#34; href=&#34;#proDuct&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;&lt;em&gt;Product&lt;/em&gt; - a good, service, or tool built in order to solve a problem for a user (or, ideally, users). Casually, a product is something people use.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Product Manager&lt;/em&gt; - the individual responsible for figuring out what the thing is supposed to do and how it&amp;rsquo;s supposed to do that. This may include determining feasibility from a business/financial standpoint, conducting any market and/or user research required to gain insights into who the end user is and what their needs are, defining a set of features to satisfy user needs, creating low-fidelity prototypes in order to communicate feature sets and behaviors, etc.&lt;/p&gt;
-
-&lt;p&gt;Successful Product Managers are good at knowing what role their product serves and for whom, and ideally can align business goals with the needs of the end user.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Common Questions&lt;/em&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Who is the target user? The &lt;a href=&#34;https://www.google.com/search?q=ux+personas&#34;&gt;more specific, the better&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Who is the customer? (this is sometimes different than the user)&lt;/li&gt;
-&lt;li&gt;What are their needs? Wants? Fears?&lt;/li&gt;
-&lt;li&gt;How does this product solve user needs?&lt;/li&gt;
-&lt;li&gt;What is the benefit to the end user, especially compared to their current solution?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;separate-but-equal-a-name-separate-href-separate-i-class-ion-link-i-a&#34;&gt;Separate, but equal? &lt;a name=&#34;separate&#34; href=&#34;#separate&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;Now that we&amp;rsquo;ve defined some of the differences between the two PMs, we can better understand the role each fills, what their concerns are, and why they&amp;rsquo;re important to success.&lt;/p&gt;
-
-&lt;p&gt;Product Managers are going to be talking to a lot of different stakeholders early on in the lifecycle and making sure it makes sense to move forward with a project. Product Managers are going to be doing a lot of the discovery phase of a project, and then stay involved throughout the implementation to make sure what&amp;rsquo;s being built matches the idea (as well as, ideally, running users through interim usability studies to catch any issues that were hard to predict before having an artifact to interact with).&lt;/p&gt;
-
-&lt;p&gt;Project Managers are going to be more involved in the day-to-day of a buildout, having little interaction with the product before that step of the process (sure, it&amp;rsquo;s possible to have a PJM involved through the process in order to have background knowledge but also keep track of resources through the entire lifecycle, but in my experience that&amp;rsquo;s the abnormal case). Project Managers will be focusing on managing expectations of the stakeholders, interfacing with the Product Manager, and securing whatever resources are needed. The Project Manager is also going to be working with the implementation team, making sure they&amp;rsquo;re on task and working well interpersonally.&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href=&#34;
-http://allaboutproductmanagement.blogspot.com/2007/03/project-manager-or-product-manager.html&#34;&gt;classic analogy&lt;/a&gt; is the project manager as a midwife, whereas the product manager is the mother. Project will come in to deliver the baby, but all of the preparation before and all of the care afterwards is up to Product. I like to think of it more like an architect versus a foreman.&lt;/p&gt;
-
-&lt;p&gt;All of the planning, research, and vision is the architect&amp;rsquo;s responsibility, and once the building is done, they&amp;rsquo;re the ones who everyone will look to when the building is successful or not (obviously there&amp;rsquo;s some back and forth with engineering as well in terms of feasibility&amp;hellip;another parallel in software). The foreman is responsible for making sure his team can execute and do what&amp;rsquo;s been planned out, but they&amp;rsquo;re often the unsung heroes of a successful project.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;h3 id=&#34;a-brief-plug&#34;&gt;A brief plug&lt;/h3&gt;
-
-&lt;p&gt;Did you find yourself reading this post and thinking &amp;ldquo;we&amp;rsquo;ve got the project part down, but shoot, having a product person would be great&amp;rdquo;? Part of the reason this has come up a lot for me is I&amp;rsquo;m looking into a product-manager-as-a-service model. You should &lt;a href=&#34;mailto:me@bradorego.com&#34;&gt;contact me&lt;/a&gt; if you&amp;rsquo;d like to hear more.&lt;/p&gt;
-</description>
+      <guid>http://bradorego.com/product-vs-project-management/</guid>
+      <description>TL;DNR  There&amp;rsquo;s still a fair amount of confusion between product management and project management. Lots of people do the latter well, but the former is often forgotten/forgone. Project Management is focused on execution - securing and organizing resources, planning out tasks, and keeping things on track. Velocity. How. When. Product Management is more about vision - understanding what your users are trying to achieve, having a sense of the big picture, and making sure what&amp;rsquo;s being created fits expectations and needs.</description>
     </item>
     
     <item>
       <title>Transparency of &#34;Online&#34;</title>
-      <link>http://bradorego.com/transparency-of-online</link>
+      <link>http://bradorego.com/transparency-of-online/</link>
       <pubDate>Tue, 15 Jul 2014 17:37:34 -0500</pubDate>
       
-      <guid>http://bradorego.com/transparency-of-online</guid>
-      <description>
-
-&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
-  &lt;h3&gt;TL;DNR&lt;/h3&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Notification design is important, especially in the light of ubiquitous computing.&lt;/li&gt;
-    &lt;li&gt;Designing to allow interrupted attention is crucial.&lt;/li&gt;
-    &lt;li&gt;Context matters: Users are no longer in a room at a desk on a computer.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-&lt;hr/&gt;&lt;/p&gt;
-
-&lt;p&gt;With all the talk about unplugging, disconnecting, screen time, and going &amp;ldquo;off the grid&amp;rdquo;, there&amp;rsquo;s clearly been a shift in the way we interact with technology and the implications it has for society (as well as possibly our mental health). The &lt;a href=&#34;http://nationaldayofunplugging.com/&#34;&gt;National Day of Unplugging&lt;/a&gt; is dedicated to people spending ~24 hours (sundown to sundown) without engaging with technology under the premise of doing things like being more present, destressing, etc. While I could go on about how something meant to help us has become this burden of sorts, I&amp;rsquo;m more interested in the implications (from an experiential standpoint) of being forever-on.&lt;/p&gt;
-
-&lt;h1 id=&#34;always-connected-a-name-always-href-always-i-class-ion-link-i-a&#34;&gt;Always Connected &lt;a name=&#34;always&#34; href=&#34;#always&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;I first noticed this subtle shift when talking to someone a few weeks ago on &lt;a href=&#34;https://www.hipchat.com/&#34;&gt;HipChat&lt;/a&gt;. I was in the middle of a conversation on my laptop and knew I had to step away from the computer for a few minutes, but I didn&amp;rsquo;t feel any need to notify my conversation partner about this. Two main reasons - 1) if it were actually all that important/crucial, I could always answer it on my phone, and 2) the message wasn&amp;rsquo;t going anywhere so if I got back to him immediately or within the next 5-10 minutes, it didn&amp;rsquo;t really make a difference.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ve noticed an almost identical interaction pattern with Facebook Messenger. I no longer worry whether or not the person is there, nor do I feel the need to alert others of my status. In fact, most of my conversations via FB happen over the course of hours, days, even weeks at a time. The transparency of status is completely irrelevant to our interaction because we both know the messages will be there if and when the other party gets around to responding.&lt;/p&gt;
-
-&lt;h1 id=&#34;it-gets-better-or-worse-a-name-better-href-better-i-class-ion-link-i-a&#34;&gt;It gets better (or worse..?) &lt;a name=&#34;better&#34; href=&#34;#better&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;Of course, there are drawbacks to this. Everybody knows the dread associatied with the assumption that, because you have a smartphone/phone/computer/laptop/tablet/smartwatch/whatever, that you can be reached any day, any time, and that creates this obsessive need to have notifications turned on for everything. The problem gets worse as we move into more-ubiquitous forms of computing, such as wearable technology.&lt;/p&gt;
-
-&lt;p&gt;This past weekend at &lt;a href=&#34;http://madisonpl.us/ux&#34;&gt;Madison+UX&lt;/a&gt;, Philip Likens gave a talk about &lt;a href=&#34;http://www.slideshare.net/philiplikens/philip-likens-madisonux&#34;&gt;wearable computing&lt;/a&gt;, mentioning that he&amp;rsquo;s abandoned most of his wearables due to &lt;a href=&#34;https://www.google.com/search?q=notifiaction+overload&amp;amp;oq=notifiaction+overload&amp;amp;aqs=chrome..69i57.2313j0j1&amp;amp;sourceid=chrome&amp;amp;es_sm=91&amp;amp;ie=UTF-8#q=notification+overload&amp;amp;spell=1&#34;&gt;notification overload&lt;/a&gt;. In (roughly) his own words, having his phone, his watch, and his Google Glass all vibrate simultaneously any time anything happened became a little overwhelming. So now, instead of having some sense of what&amp;rsquo;s going on, he doesn&amp;rsquo;t even carry his phone on his person - totally shut off.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m inadventently running the same experiment - I put my phone on silent for the conference (due to the exorbitant amount of Twitter notifications I was getting) and I simply forgot to put it back on vibrate for the first day or two. What I realized is that I spent less time on minor distractions (increasing my overall &lt;a href=&#34;http://bradorego.com/2013-03-the-importance-of-flow/&#34;&gt;flow&lt;/a&gt;), and I only checked the phone when I wanted to. It was back to on-demand instead of being always on, and it&amp;rsquo;s really refreshing.&lt;/p&gt;
-
-&lt;h1 id=&#34;designing-notifications-a-name-notifications-href-notifications-i-class-ion-link-i-a&#34;&gt;Designing Notifications &lt;a name=&#34;notifications&#34; href=&#34;#notifications&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;So what does this mean to us as Experience Designers? A few things:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Be mindful of the perceived status for your users. Do they know their status? Does your service need a smartphone app? A watch app? Do they all need to sync between each other? What about notifications? What&amp;rsquo;s important enough to potentially disrupt someone&amp;rsquo;s train of thought?&lt;/li&gt;
-&lt;li&gt;Given all of that, understand the context your users will be in. If you&amp;rsquo;re allowing them to do all of these different things in all of these different ways, how does the context of their interaction change if it&amp;rsquo;s on a computer versus a phone versus a watch?&lt;/li&gt;
-&lt;li&gt;Is your interaction temporally bound? Can they pop in and out multiple times over the course of a day, a week, a month? Does it have to happen now?&lt;/li&gt;
-&lt;li&gt;What&amp;rsquo;re the implications of your product/service as wearable computers become more ubiquitous? What types of notifications can you design? &lt;a href=&#34;http://www.slideshare.net/eadahl/ux-axioms-26-principle-to-drive-better-product-design/46&#34; target=&#34;_blank&#34;&gt;Apply Laban Movement Analysis to technology&lt;/a&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;And of course many more.&lt;/p&gt;
-</description>
+      <guid>http://bradorego.com/transparency-of-online/</guid>
+      <description>TL;DNR  Notification design is important, especially in the light of ubiquitous computing. Designing to allow interrupted attention is crucial. Context matters: Users are no longer in a room at a desk on a computer.   
+With all the talk about unplugging, disconnecting, screen time, and going &amp;ldquo;off the grid&amp;rdquo;, there&amp;rsquo;s clearly been a shift in the way we interact with technology and the implications it has for society (as well as possibly our mental health).</description>
     </item>
     
     <item>
       <title>An Open Letter to OkCupid</title>
-      <link>http://bradorego.com/an-open-letter-to-okcupid</link>
+      <link>http://bradorego.com/an-open-letter-to-okcupid/</link>
       <pubDate>Thu, 25 Apr 2013 17:11:40 -0500</pubDate>
       
-      <guid>http://bradorego.com/an-open-letter-to-okcupid</guid>
-      <description>
-
-&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
-  &lt;h3&gt;TL;DNR&lt;/h3&gt;
-  &lt;ul&gt;
-    &lt;li&gt;OkCupid is great, but it&amp;rsquo;s broken.&lt;/li&gt;
-    &lt;li&gt;Fixing it should be pretty easy &amp;mdash; just give a fast, simple way to stop bad members from being bad, and let the community sort it out.&lt;/li&gt;
-    &lt;li&gt;Empower your users and they&amp;rsquo;ll empower you.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-&lt;hr/&gt;&lt;/p&gt;
-
-&lt;p&gt;Dear OkCupid,&lt;/p&gt;
-
-&lt;p&gt;I love you. Well, maybe not so much love anymore. I really like you. I really like how you&amp;rsquo;ve made your services free for everyone, and how you&amp;rsquo;re helping people connect and meet others that they never would. I absolutely love how you use your data to create &lt;a href=&#34;http://blog.okcupid.com&#34;&gt;interesting and relevant blog posts&lt;/a&gt;. I&amp;rsquo;m also a firm believer in the company and your mission, especially after hearing CEO and co-founder Sam Yagan &lt;a href=&#34;http://www.capitalentrepreneurs.com/tonight-wisconsin-startup-night-techstars/&#34;&gt;give a talk a few weeks back&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;This is why I feel like I have to do this. See, there&amp;rsquo;s something wrong. It&amp;rsquo;s not a major problem (although, given the userbase and intertia you have, it might be, but given your &lt;a href=&#34;http://www.crazyblinddate.com/&#34;&gt;willingness&lt;/a&gt; to try &lt;a href=&#34;http://www.okcupid.com/mybestface&#34;&gt;experiments&lt;/a&gt; and side-projects, this might be something you can spin up/spin off), but it has some pretty significant consequences. As we&amp;rsquo;ve been made well aware by the internet, there are &lt;a href=&#34;http://theinternetisterrible.com/&#34;&gt;lots of terrible people&lt;/a&gt; out there. Humanity can be pretty messed up. OkCupid is, unfortunately, &lt;a href=&#34;http://www.mandatory.com/2012/11/13/ok-cupid-an-exploration-into-just-how-low-some-guys-will-go&#34;&gt;no safe haven&lt;/a&gt; to the &lt;a href=&#34;http://www.tumblr.com/tagged/nice%20guys%20of%20okcupid&#34;&gt;denizens of the internet&lt;/a&gt;. OkCupid&amp;rsquo;s design, however, makes it possible for these baddies to exploit the system, which is where our problem lies.&lt;/p&gt;
-
-&lt;h1 id=&#34;signal-vs-noise-a-name-signal-href-signal-i-class-ion-link-i-a&#34;&gt;Signal vs. Noise &lt;a name=&#34;signal&#34; href=&#34;#signal&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;For the uninitiated, the way OkCupid works is that users sign up, answer some profile questions about themselves, list some information, post some pictures, state what they&amp;rsquo;re interested in, and maybe even answer some of OkCupid&amp;rsquo;s &amp;ldquo;Match Questions&amp;rdquo;, which is where its famed matchmaking service comes from. Users then have the ability to send messages to any other user, under the premise of making an introduction, conversation, or whatever they please.&lt;/p&gt;
-
-&lt;p&gt;Any user. An infinite number of messages and an infinite number of messages. For all users on OkCupid. And yes, you can talk about anything. Sound suspicious? Maybe not at first. The same is true of most social networks - anyone can send anyone a Facebook message, or Tweet at any other user, etc. The problem comes at a combination of context and this availability. OkCupid is a dating site. Apparently, some (too many) guys think this gives them license to harass girls, to solicit unwanted relations, and to do this to hundreds of girls.&lt;/p&gt;
-
-&lt;p&gt;Sounds pretty grim for ladies, right? They sign up looking for some fun dates, maybe even Mr. Right, and they&amp;rsquo;re bombarded by one-liners, solicitations for sex, and some that are just plain weird. This is bad, because getting lots of creepy/unwanted messages means girls just get overwhelmed and/or disgruntled, and leave. This is something you&amp;rsquo;ve even mentioned and analyzed yourself in &lt;a href=&#34;http://blog.okcupid.com/index.php/the-mathematics-of-beauty/&#34;&gt;an old blog post&lt;/a&gt;. So this drives women away, this is bad, right? It gets worse.&lt;/p&gt;
-
-&lt;p&gt;On top of forcing women away, this endless inundation desensitizes them to receiving messages in the first place, which means, for any halfway decent guy out there, actually getting through to a girl is that much harder. The number of messages guys have to send to get any responses is absurd, with&amp;nbsp;&lt;a href=&#34;http://blog.okcupid.com/index.php/online-dating-advice-exactly-what-to-say-in-a-first-message/&#34;&gt;response rates hovering around 30%&lt;/a&gt;. 30%! Mostly because (bad) guys send way too many messages.&lt;/p&gt;
-
-&lt;h1 id=&#34;okay-now-what-a-name-solution-href-solution-i-class-ion-link-i-a&#34;&gt;Okay. Now what? &lt;a name=&#34;solution&#34; href=&#34;#solution&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;So this is bad. Some guys are ruining it for all of us, guys and gals included. What do we do, then? Sit and whine about it? Try &lt;a href=&#34;http://www.eharmony.com/&#34;&gt;one&lt;/a&gt; &lt;a href=&#34;http://www.ourtime.com/&#34;&gt;of&lt;/a&gt; &lt;a href=&#34;http://www.chemistry.com/&#34;&gt;the&lt;/a&gt; &lt;a href=&#34;https://www.zoosk.com/&#34;&gt;many&lt;/a&gt; &lt;a href=&#34;http://www.match.com/index.aspx&#34;&gt;other&lt;/a&gt; (&lt;/span&gt;&lt;a href=&#34;http://www.pof.com/&#34;&gt;mostly&lt;/a&gt; &lt;a href=&#34;http://www.christianmingle.com/&#34;&gt;terrible&lt;/a&gt;) &lt;a href=&#34;http://www.benaughty.com/&#34;&gt;dating&lt;/a&gt; sites? Go back to our old ways of bars, clubs, parties, and other social events? Give up and start our own online dating site/service? Try one of those &lt;a href=&#34;http://www.onlulu.com/&#34;&gt;newfangled&lt;/a&gt; &lt;a href=&#34;http://swoonapp.com/&#34;&gt;dating&lt;/a&gt; &lt;a href=&#34;http://blendr.com/&#34; &gt;apps&lt;/a&gt; &lt;a href=&#34;http://www.gotinder.com/index.html&#34;&gt;that&lt;/a&gt; &lt;a href=&#34;http://grindr.com/&#34;&gt;are&lt;/a&gt; &lt;a href=&#34;https://coffeemeetsbagel.com/&#34;&gt;now&lt;/a&gt; (or at least, for now) all the rage? I don&amp;rsquo;t want to do that, and you don&amp;rsquo;t want me to do that. So let&amp;rsquo;s figure out how to work it out.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;There are two things that I think would do a lot to fix this problem. Of course, there are ways around it, but how many guys are really that persitent (don&amp;rsquo;t answer that - I&amp;rsquo;m afraid of the answer). They aren&amp;rsquo;t even that hard to do/implement, and they should naturally weed out the bad ones pretty quickly. Ready? They aren&amp;rsquo;t exactly groundbreaking, but I&amp;rsquo;ll give justification for each.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Limit the number of outgoing messages over a certain period (e.g. 3/day? 5/day? etc)&lt;/li&gt;
-&lt;li&gt;Allow users to give feedback/behavior ratings to other users (a la karma?)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;(Okay, I actually have 3, but it&amp;rsquo;s just a variation  - Have a system where the number of outstanding messages you can have at one time is dependent upon your rating (e.g. if you send a lot of bad messages, you lose points/those messages, but if you send some good messages but the recipient just isn&amp;rsquo;t interested, you can still redeem that message))&lt;/p&gt;
-
-&lt;p&gt;Rocket surgery, right? Here&amp;rsquo;s why they&amp;rsquo;re good ideas. The first is obvious - restricting the volume cuts down on the amount of messages anyone has to deal with. It also makes everyone think harder about and be more selective with those messages they send. From a business perspective, this might be bad for OkCupid, as it&amp;rsquo;s likely to drive traffic away from their site (i.e. to email/text, but that happens anyway), but it&amp;rsquo;s probably the easiest way to cut down on the flood. The hottest girls will still get the majority of messages, but it&amp;rsquo;s still less.&lt;/p&gt;
-
-&lt;p&gt;The second allows the community to self-select the decent guys out from the garbage. If you get a bad message from someone, you&amp;rsquo;re virtually powerless. At most, girls can block guys, preventing them from sending further messages. This does nothing to their ability to harass the rest of the community, though, leaving that scummy guy to run amok. If there were a way for the collective voice to say bad things about guys, girls would have an easier way to sift through the noise, and allow the quality to float to the top (a la Reddit).&lt;/p&gt;
-
-&lt;p&gt;The third is personally my favorite, but also the hardest to implement and to make fair/balanced. Each person gets a set amount of messages per day, based on their rating. Messages that get a nice vote, or even a reply, raise that person&amp;rsquo;s rating and/or replenish their message count. The count also rebuilds itself over time. Quora does something similar to this with its Credits system. Good answers on Quora give Credits, which can be spent on promotions and whatnot. The credits also replenish themselves over time, so users aren&amp;rsquo;t left out to dry. OkCupid could really benefit from something like this.&lt;/p&gt;
-
-&lt;p&gt;I still have faith in you, OkCupid. You do great things, and you&amp;rsquo;re way better than any other site I&amp;rsquo;ve used, both in terms of user experience and user base. Just please, please fix these things, and I&amp;rsquo;ll love you even more. I&amp;rsquo;m more than happy to talk about this in further detail and clarify some points if you&amp;rsquo;d like, as this post was already getting too long to go into full detail.&lt;/p&gt;
-</description>
+      <guid>http://bradorego.com/an-open-letter-to-okcupid/</guid>
+      <description>TL;DNR  OkCupid is great, but it&amp;rsquo;s broken. Fixing it should be pretty easy &amp;mdash; just give a fast, simple way to stop bad members from being bad, and let the community sort it out. Empower your users and they&amp;rsquo;ll empower you.   
+Dear OkCupid,
+I love you. Well, maybe not so much love anymore. I really like you. I really like how you&amp;rsquo;ve made your services free for everyone, and how you&amp;rsquo;re helping people connect and meet others that they never would.</description>
     </item>
     
     <item>
       <title>The Importance of Flow</title>
-      <link>http://bradorego.com/the-importance-of-flow</link>
+      <link>http://bradorego.com/the-importance-of-flow/</link>
       <pubDate>Sat, 16 Mar 2013 16:38:15 -0500</pubDate>
       
-      <guid>http://bradorego.com/the-importance-of-flow</guid>
-      <description>&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
-  &lt;h3&gt;TL;DNR&lt;/h3&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Pop-ups are distracting.&lt;/li&gt;
-    &lt;li&gt;Design your life to have less sudden distractions and you&amp;rsquo;ll be more productive and happier.&lt;/li&gt;
-    &lt;li&gt;Desiging user experiences that encourage flow are good.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-&lt;hr/&gt;&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ve become more and more interested in &lt;a href=&#34;http://en.wikipedia.org/wiki/Flow_(psychology)&#34;&gt;Flow &lt;/a&gt;recently. As a psych major, flow is something I&amp;rsquo;ve been aware of for a long time, but I always thought of it as something that just happens, and never gave it much thought. It wasn&amp;rsquo;t until an unrelated talk by former psych professor &lt;a href=&#34;http://www.psych.rochester.edu/people/deci_edward/index.html&#34;&gt;Ed Deci&lt;/a&gt; I was listening to a few months ago that got me thinking about flow in the context of UX.&lt;/p&gt;
-
-&lt;p&gt;The thing that Prof. Deci said that got me thinking was actually about humanistic psychotherapy. Deci studies motivation, and is co-creator of the esteemed &lt;a href=&#34;http://www.selfdeterminationtheory.org/&#34;&gt;Self-Determination Theory&lt;/a&gt;. What SDT/Deci says is that intrinsic motivation is inherent in people, and it is the product of a situation that features of set of characteristics (autonomy, competence, relatedness). It is also possible (and unfortunately, very common) to thwart these needs, which leads to poor mental health, lack of motivation, etc.&lt;/p&gt;
-
-&lt;p&gt;Concidentally, research has shown a fairly high overlap between the conditions for flow and the basis of SDT. Flow requires a level of challenge that is adequately matched to the abilities of the participant (competence), the activity must have clear goals an progress (relatedness - sort of), and the task must present clear, immediate, and constant feedback, so that the participant can adjust performance. &lt;a href=&#34;http://en.wikipedia.org/wiki/Mihaly_Csikszentmihalyi&#34;&gt;Mihaly Csikszentmihalyi&lt;/a&gt; (&amp;ldquo;cheek-sent-mee-hah-yee&amp;rdquo;), a world leader in flow, published this graph to express the relationship between challenge and skill:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/posts/importance-of-flow/challenge-vs-skill.png&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;There are also things that can absolutely ruin flow, which is actually the motivation behind this post. I have a new worst enemy when it comes to reading stories on some popular news sites/blogs, and it&amp;rsquo;s this thing:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/posts/importance-of-flow/comment-box.png&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I hate this thing so much. Any time I&amp;rsquo;m reading a news story on TechCrunch, I&amp;rsquo;m usually immersed in the experience and enjoying the read until this little thing pops up in the lower right of my browser window. Its sudden appearance grabs my attention, and I instinctively look at it. After that, I murmur something under my breath and then go ba-&amp;hellip;wait, where was I? What was I just reading?&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s not a major disturbance, as I quickly regain my concentration and get back to reading, but with new/popular articles, this happens several times during my read. This little blip in concentration - a break in my flow - slows me down and sullies my experience. This happens to us all the time, what with cell phones buzzing and Facebook notifications popping up and emails rolling in constantly.&lt;/p&gt;
-</description>
+      <guid>http://bradorego.com/the-importance-of-flow/</guid>
+      <description>TL;DNR  Pop-ups are distracting. Design your life to have less sudden distractions and you&amp;rsquo;ll be more productive and happier. Desiging user experiences that encourage flow are good.   
+I&amp;rsquo;ve become more and more interested in Flow recently. As a psych major, flow is something I&amp;rsquo;ve been aware of for a long time, but I always thought of it as something that just happens, and never gave it much thought.</description>
     </item>
     
     <item>
       <title>Note-taking</title>
-      <link>http://bradorego.com/note-taking</link>
+      <link>http://bradorego.com/note-taking/</link>
       <pubDate>Wed, 27 Feb 2013 16:22:57 -0500</pubDate>
       
-      <guid>http://bradorego.com/note-taking</guid>
-      <description>&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
-  &lt;h3&gt;TL;DNR&lt;/h3&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Memory is fallible, and humans tend to remember the most intense part and the ending of any experience.&lt;/li&gt;
-    &lt;li&gt;Finding systems that work for you is essential to productivity.&lt;/li&gt;
-    &lt;li&gt;Limit the number of choices a user has to (or has the opportunity to) make. Choose smart defaults and hide most options.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-&lt;hr/&gt;&lt;/p&gt;
-
-&lt;p&gt;I have a habit when it comes to books. When I read a book, I almost always underline/take notes in the margin. I started doing so sometime in high school, when Literature teachers started telling us it was okay to write in books. The practice carried me through my studies, and I&amp;rsquo;ve enjoyed it so much it&amp;rsquo;s spilled over into my personal/leisure reading (mind you, all of my leisure reading is non-fiction). You can actually tell which books in my personal collection were books I really enjoyed/valued based on how heavily marked up they are.&lt;/p&gt;
-
-&lt;p&gt;Since graduating from college, I&amp;rsquo;ve started a new version of the practice. Now, after finishing a book (sometimes immediately, but usually after a little time), I go back through the book and look over all of the underlining and notes I took. Generally speaking, when I underline something, it&amp;rsquo;s because it had a certian salience or value to me at the time. So, as I recount these notes, I take a mini post-it note and write whatever value I was trying to glean from it, and then I stick it to the margin of that page. The results look something like this:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/posts/notetaking/paradox5.jpg&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Not only does this practice reinforce what I&amp;rsquo;ve learned from that book, but it also changes the way I&amp;rsquo;ve experienced reading that book. In Barry Schwartz&amp;rsquo;s book &amp;ldquo;&lt;a href=&#34;http://www.amazon.com/Paradox-Choice-Why-More-Less/dp/0060005696&#34;&gt;The Paradox of Choice&lt;/a&gt;&amp;rdquo;, he cites &lt;a href=&#34;http://profron.net/happiness/files/readings/Kahneman_ObjectiveHappiness.pdf&#34;&gt;a study by Daniel Kahneman&lt;/a&gt;&amp;nbsp;which recounts the way we experience and remember the utility of something (that is, how much we enjoyed it).&lt;/p&gt;
-
-&lt;p&gt;What Kahneman et al. found is that our remembered utility is governed by two main factors:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Our experience of the peak (or most intense) portion (good/bad)&lt;/li&gt;
-&lt;li&gt;Our experience of the ending (good/bad)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;As you can imagine, this has an interesting implication for all parts of life, but particularly, for the design of user interfaces and user experiences.&lt;/p&gt;
-
-&lt;p&gt;Anecdotally, I&amp;rsquo;ve heard people (users) explain their experience with a particular piece of technology. While I don&amp;rsquo;t recall hearing much about the ending (maybe I just don&amp;rsquo;t pay attention), it seems that many users are &amp;ldquo;sold&amp;rdquo; on one particular instance where either a) the system did something cool/fun/awesome (e.g. MailChimp&amp;rsquo;s Freddie the monkey&amp;rsquo;s awesome quotes) or b) the product was particularly handy/useful in a given situation.&lt;/p&gt;
-
-&lt;p&gt;The minor details of the interface, animations, colors, typography, etc. that designers and marketing teams undoubtedly spent hours laboring over have almost no value to users. I&amp;rsquo;m sure they add to the positive experience, and &amp;ldquo;grease the slicks&amp;rdquo; between the user and their end goal, but when we really get down and think about what it is we&amp;rsquo;re designing for, the minor details that can hold projects up (should) melt away. Your perfectly-aligned-and-proportioned interface elements won&amp;rsquo;t matter at all if the user can&amp;rsquo;t do what they want/need to do with your product.&lt;/p&gt;
-
-&lt;p&gt;Schwartz also discusses an incredible array of information and concepts that I believe everyone should be aware of, such as opportunity costs, satisficing vs. maximizing, and the role of utility (esp. diminishing utility) in our daily lives. I&amp;rsquo;d highly recommend giving it a read, as I&amp;rsquo;ve personally seen benefit in my life by putting some of his suggestions into play.&lt;/p&gt;
-</description>
+      <guid>http://bradorego.com/note-taking/</guid>
+      <description>TL;DNR  Memory is fallible, and humans tend to remember the most intense part and the ending of any experience. Finding systems that work for you is essential to productivity. Limit the number of choices a user has to (or has the opportunity to) make. Choose smart defaults and hide most options.   
+I have a habit when it comes to books. When I read a book, I almost always underline/take notes in the margin.</description>
     </item>
     
     <item>
       <title>The Importance of Content</title>
-      <link>http://bradorego.com/the-importance-of-content</link>
+      <link>http://bradorego.com/the-importance-of-content/</link>
       <pubDate>Sat, 09 Feb 2013 14:21:58 -0500</pubDate>
       
-      <guid>http://bradorego.com/the-importance-of-content</guid>
-      <description>&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
-  &lt;h3&gt;TL;DNR&lt;/h3&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Content is just as important to UX as aesthetics.&lt;/li&gt;
-    &lt;li&gt;Without content, your site (and all of its functionality and pretty design) is worthless.&lt;/li&gt;
-    &lt;li&gt;Trying to stay up to date with blog posts is hard.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-&lt;hr/&gt;&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m going to say this straight out of the gates: this blog post is kind of a cop-out. There have been a ton of changes in my life lately, so I&amp;rsquo;ve been a little MIA when it comes to this blog. One of the things I&amp;rsquo;ve been trying to do, though, finally (~3 months after launching the new site) is to populate my portfolio a bit more so people have stuff to look at. People like looking at stuff.&lt;/p&gt;
-
-&lt;p&gt;There are a handful of new entries for web and media projects I&amp;rsquo;ve worked on with &lt;a href=&#34;http://zebradog.com&#34;&gt;Zebradog&lt;/a&gt;, one or two freelance/side-project pieces, and a whole slew of dance items. Art is still forthcoming, as is any updates on &lt;a href=&#34;http://gettrinker.com&#34;&gt;Trinker&lt;/a&gt; (we&amp;rsquo;ve had a big month, and February will continue to be so).&lt;/p&gt;
-
-&lt;p&gt;Content is, however, one of the pieces of UX that I neglect the most. I&amp;rsquo;m always an advocate for designing with the content in mind, but I usually write it off as &amp;ldquo;some text&amp;rdquo; or &amp;ldquo;an image and some text&amp;rdquo;, or some generalization of what the content actually is. The volume of content is incredibly important, and can really make or break a design if appropriate consideration isn&amp;rsquo;t taken. There&amp;rsquo;s a lot of material out there about content strategy, so that would probably be a good place to look if you wanted to brush up on it.&lt;/p&gt;
-</description>
+      <guid>http://bradorego.com/the-importance-of-content/</guid>
+      <description>TL;DNR  Content is just as important to UX as aesthetics. Without content, your site (and all of its functionality and pretty design) is worthless. Trying to stay up to date with blog posts is hard.   
+I&amp;rsquo;m going to say this straight out of the gates: this blog post is kind of a cop-out. There have been a ton of changes in my life lately, so I&amp;rsquo;ve been a little MIA when it comes to this blog.</description>
     </item>
     
     <item>
       <title>DITW: Stovetop</title>
-      <link>http://bradorego.com/ditw-stovetop</link>
+      <link>http://bradorego.com/ditw-stovetop/</link>
       <pubDate>Sat, 22 Dec 2012 14:21:58 -0500</pubDate>
       
-      <guid>http://bradorego.com/ditw-stovetop</guid>
-      <description>&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
-  &lt;h3&gt;TL;DNR&lt;/h3&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Sometimes things we interact with in the physical world are poorly designed.&lt;/li&gt;
-    &lt;li&gt;Direct mapping makes a lot more sense, and should be used whenever/wherever possible.&lt;/li&gt;
-    &lt;li&gt;Just because people are used to a certain design/solution does not mean it&amp;rsquo;s the optimal. Don&amp;rsquo;t be afraid to start from scratch.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-&lt;hr/&gt;&lt;/p&gt;
-
-&lt;p&gt;Sometimes we come across things that, until we see an alternative, we don&amp;rsquo;t realize there&amp;rsquo;s something better than the current option. I had this direct experience when I moved into my current apartment in August, and tried to cook for the first time.&lt;/p&gt;
-
-&lt;p&gt;Oftentimes we get stuck thinking about UX or UI in context of software design. Donald Norman&amp;rsquo;s book &lt;a href=&#34;http://www.amazon.com/Design-Everyday-Things-Donald-Norman/dp/0465067107&#34;&gt;The Design of Everyday Things&lt;/a&gt; takes a look at how the design of objects in the physical world can affect our experience using those objects, and it forever changed the way I look at the world. The Design in the Wild (DITW) series is my personal look at my encounters with various objects in the physical world and what their design tells us.&lt;/p&gt;
-
-&lt;p&gt;Everyone, at one point or another, has at least seen a stovetop. Hopefully, most of us have used a stovetop at some point in our lives. Think back to the very first time you did this. How long did it take you to figure out which knob related to which burner? How many times, when you were first starting to cook, would you accidentally turn on the wrong burner at first? What we&amp;rsquo;re discussing here is a failure of mapping. Mapping is a concept in usability that relates the controls to the outputs.&lt;/p&gt;
-
-&lt;p&gt;In most cases, stovetops provide a linear set of controls (the knobs, in a row) in order to map onto a 2-D set of outputs (the burners, on a grid). Sometimes you&amp;rsquo;re lucky enough to have a light to tell you if there&amp;rsquo;s a hot surface, as well, like so:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/posts/ditw-stovetop/normal-stove2.jpg&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;My current apartment&amp;rsquo;s kitchen has something I don&amp;rsquo;t recall seeing before, and it makes the cooking experience so much easier:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/posts/ditw-stovetop/my-stove1.jpg&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;There are several small features about this range that make so much more sense than the traditional setup. For one, the knobs are laid out the same way the burners are, so I don&amp;rsquo;t even have to think about or ask which knob controls which burner. It&amp;rsquo;s self-evident. There are also four individual lights - one for each burner. The self-evidence is wonderful. The only real complaint I have about this range is that these four lights could be slightly more useful if they a) stayed on after I turned the burner off for as long as that burner was hot, and/or b) had a dimmer to tell me how hot the burner was. If I put it on 1 or on 7, I get the same amount of light. Beggars can&amp;rsquo;t be choosers, though.&lt;/p&gt;
-
-&lt;p&gt;As it turns out, this exact example of mapping was discussed by Donald Norman himself in the Design of Everyday Things. In fact, that&amp;rsquo;s where the header image comes from. So this idea is far from new. The bigger question, though, is why it hasn&amp;rsquo;t been put into practice. I can&amp;rsquo;t imagine there&amp;rsquo;s a lot of inertia preventing this change. If anything, being stuck in our own ways is holding us back from a more intuitive cooking experience.&lt;/p&gt;
-</description>
+      <guid>http://bradorego.com/ditw-stovetop/</guid>
+      <description>TL;DNR  Sometimes things we interact with in the physical world are poorly designed. Direct mapping makes a lot more sense, and should be used whenever/wherever possible. Just because people are used to a certain design/solution does not mean it&amp;rsquo;s the optimal. Don&amp;rsquo;t be afraid to start from scratch.   
+Sometimes we come across things that, until we see an alternative, we don&amp;rsquo;t realize there&amp;rsquo;s something better than the current option.</description>
     </item>
     
   </channel>

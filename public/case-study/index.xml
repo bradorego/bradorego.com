@@ -2,462 +2,108 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Case-studies on bradorego.com</title>
-    <link>http://bradorego.com/case-study/index.xml</link>
+    <link>http://bradorego.com/case-study/</link>
     <description>Recent content in Case-studies on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 03 May 2016 12:30:41 -0500</lastBuildDate>
-    <atom:link href="http://bradorego.com/case-study/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://bradorego.com/case-study/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Personal Ionic Prototypes</title>
-      <link>http://bradorego.com/case-study/personal-ionic-prototypes</link>
+      <link>http://bradorego.com/case-study/personal-ionic-prototypes/</link>
       <pubDate>Tue, 03 May 2016 12:30:41 -0500</pubDate>
       
-      <guid>http://bradorego.com/case-study/personal-ionic-prototypes</guid>
-      <description>
-
-&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
-
-&lt;p&gt;The Ionic Framework was &lt;a href=&#34;http://blog.ionic.io/announcing-ionic/&#34;&gt;first released&lt;/a&gt; in October 2013 and has since taken the hybrid app development world by storm, recently announcing their &lt;a href=&#34;http://blog.ionic.io/announcing-ionics-8-5m-series-a/&#34;&gt;Series A&lt;/a&gt;. I built my first full-fledged Ionic app in earnest almost a year after the platform was announced. Since then, I&amp;rsquo;ve worked with companies to build dozens of Ionic apps for everything from pure prototypes to production-level applications.&lt;/p&gt;
-
-&lt;p&gt;In particular, here&amp;rsquo;s a short list of Ionic apps I&amp;rsquo;ve built for my own purposes.&lt;/p&gt;
-
-&lt;h1 id=&#34;newsflash-news-app-a-name-newsflash-href-newsflash-i-class-ion-link-i-a&#34;&gt;NewsFlash News App &lt;a name=&#34;newsflash&#34; href=&#34;#newsflash&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;NewsFlash was built using what was, at the time, a brand new feature in Ionic: swipeable cards. I&amp;rsquo;d done some work to take a demo the core team put together and enabled bi-directional swiping, and then added a little more code to allow a developer to know which direction a user swiped (the core team only offered a callback for when it was swiped) (also worth noting that both of these features are now part of the core offering).&lt;/p&gt;
-
-&lt;p&gt;The idea behind NewsFlash was that I never got around to reading any content on my RSS feeds. Even in the days of &lt;a href=&#34;https://www.google.com/reader/about/&#34;&gt;Google Reader&lt;/a&gt;, my list of feeds always left me with hundreds of articles to read and no good way to sort through what was interesting. Given the recent fame of the Tinder-style swipe interaction, I had the idea to create &amp;ldquo;Tinder for RSS&amp;rdquo;. Add your feeds, swipe right to save the stories you care about, left to discard them. The app keeps track of what you&amp;rsquo;ve previously saved so you have one place to manage your reading list. See a quick demo below:&lt;/p&gt;
-
-&lt;iframe width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/74PqgIf3uUk&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;h1 id=&#34;trackme-personal-tracker-a-name-trackme-href-trackme-i-class-ion-link-i-a&#34;&gt;TrackMe Personal Tracker &lt;a name=&#34;trackme&#34; href=&#34;#trackme&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;TrackMe came out of a frustration with other tracking apps as well as inspiration from Nick Felton, who&amp;rsquo;s been tracking his life in various ways and producing infographics &lt;a href=&#39;http://feltron.com/FAR05.html&#39;&gt;as far back as 2005&lt;/a&gt;. The thought is: if we have an easy way to track anything, and we store this data, we can use something like &lt;a href=&#34;https://d3js.org/&#34;&gt;D3.js&lt;/a&gt; to generate interactive infographics.&lt;/p&gt;
-
-&lt;p&gt;TrackMe is another example of a minimalist application - one whose design is simple and purpose is singular. Users create items to track, and then add individual entries to update the total value of whatever they&amp;rsquo;re tracking. Positive, negative, integer, whole number; mileage, reps, money spent, time spent - the application doesn&amp;rsquo;t care what you&amp;rsquo;re tracking. It&amp;rsquo;s up to you to track. Eventually, we&amp;rsquo;ll be offering a set of tools to build whatever infographics you want as well.&lt;/p&gt;
-
-&lt;iframe width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/7NZMM5rN_pA&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;h1 id=&#34;better-mcbw-a-name-mcbw-href-mcbw-i-class-ion-link-i-a&#34;&gt;Better MCBW &lt;a name=&#34;mcbw&#34; href=&#34;#mcbw&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;Better MCBW has its own entire post explaining the motivation and process. You can read more about it &lt;a href=&#34;http://bradorego.com/2016-05-better-mcbw/&#34;&gt;here&lt;/a&gt;. Better MCBW has seen a decent amount of traction among Madison Craft Beer Week participants despite the entire motivation being my own.&lt;/p&gt;
-
-&lt;iframe width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/yAJx1i41d04&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-</description>
+      <guid>http://bradorego.com/case-study/personal-ionic-prototypes/</guid>
+      <description>About The Ionic Framework was first released in October 2013 and has since taken the hybrid app development world by storm, recently announcing their Series A. I built my first full-fledged Ionic app in earnest almost a year after the platform was announced. Since then, I&amp;rsquo;ve worked with companies to build dozens of Ionic apps for everything from pure prototypes to production-level applications.
+In particular, here&amp;rsquo;s a short list of Ionic apps I&amp;rsquo;ve built for my own purposes.</description>
     </item>
     
     <item>
       <title>Better MCBW</title>
-      <link>http://bradorego.com/case-study/better-mcbw</link>
+      <link>http://bradorego.com/case-study/better-mcbw/</link>
       <pubDate>Mon, 02 May 2016 18:29:53 -0500</pubDate>
       
-      <guid>http://bradorego.com/case-study/better-mcbw</guid>
-      <description>
-
-&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
-  &lt;h4&gt;TL;DNR&lt;/h4&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;a href=&#34;http://ionicframework.com&#34;&gt;Ionic&lt;/a&gt; lets you build apps ridiculously fast. Write once, build many.&lt;/li&gt;
-    &lt;li&gt;If you don&amp;rsquo;t like how something&amp;rsquo;s done, instead of just complaining about it, do something to make it better.&lt;/li&gt;
-    &lt;li&gt;Reverse engineering is easier than ever. Your success is not a factor of your codebase, but about the value you offer an end-user.&lt;/li&gt;
-    &lt;li&gt;The end result: &lt;a href=&#34;http://mcbw.herokuapp.com&#34;&gt;Better MCBW&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-&lt;hr/&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;backstory-a-name-backstory-href-backstory-i-class-ion-link-i-a&#34;&gt;Backstory &lt;a name=&#34;backstory&#34; href=&#34;#backstory&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://madbeerweek.com&#34;&gt;Madison Craft Beer Week&lt;/a&gt; has been one of my favorite events since moving to Madison. Started as a grassroots project by a few local beer lovers, the event has ballooned to one of the best in the nation, featuring over 550 events this year. In years past, I&amp;rsquo;ve been involved in helping out on the tech side of things, and we had big plans for this upcoming year. But in September 2015, The Isthmus &lt;a href=&#34;http://isthmus.com/food-drink/beer/isthmus-acquires-madison-craft-beer-week/&#34;&gt;acquired Craft Beer Week&lt;/a&gt;, and took over all operations.&lt;/p&gt;
-
-&lt;p&gt;After hearing that the 2016 was &lt;a href=&#34;https://www.facebook.com/MadBeerWeek/posts/1225581240785685&#34;&gt;built natively&lt;/a&gt;, and as an Android user I would have to wait to get my hands on it, questions arose as to why such a technically/mechanically simple app wasn&amp;rsquo;t built using &lt;a href=&#34;http://ionicframework.com&#34;&gt;Ionic&lt;/a&gt;, a mobile app development framework built by a company based in Madison. After I got my hands on the Android app itself, I was less than enthusiastic about its performance and feature set.&lt;/p&gt;
-
-&lt;h1 id=&#34;reverse-engineering-it-a-name-reverse-href-reverse-i-class-ion-link-i-a&#34;&gt;Reverse Engineering It &lt;a name=&#34;reverse&#34; href=&#34;#reverse&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;So, realizing that my complaints weren&amp;rsquo;t getting anyone anywhere (not to mention I lacked the necessary context to know why they made the decisions they made), I had an idea: I have the APK, so I can decompile it, dig through it, and figure out exactly what API calls they&amp;rsquo;re making, and then emulate them with my own codebase. Simple enough, right? Well, for someone that knows virtually nothing about native Android development, this task proved simple yet pointless. I only gained one insight from it, which was the URL of their API. Then another idea hit me: why not just set up a proxy and read the HTTP requests?&lt;/p&gt;
-
-&lt;h3 id=&#34;enter-mitmproxy&#34;&gt;Enter &lt;code&gt;mitmproxy&lt;/code&gt;&lt;/h3&gt;
-
-&lt;p&gt;After doing a little bit of googling, I came across this &lt;a href=&#34;https://medium.com/@rotxed/how-to-debug-http-s-traffic-on-android-7fbe5d2a34#.mhbido9ys&#34;&gt;incredibly helpful article&lt;/a&gt; explaining step-by-step exactly what I wanted to do. Next thing I know, I had a proxy running on my laptop, my phone&amp;rsquo;s internet traffic streaming through that proxy, and I had access to every HTTP request the phone (and thus, the app) made. It was almost too easy.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/case-study/better-mcbw/mitmproxy.png&#34;&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;the-horror&#34;&gt;The Horror&lt;/h3&gt;
-
-&lt;p&gt;So, now that I had all of the HTTP requests (all, uh, 4 of them that the app seemed to be making), all I had to do was make those same requests with the same body, parse the response, and I was off to the races, right? This is all true, but in my inspection of the traffic, I came across a few horrifying realizations:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Every request made was a &lt;code&gt;POST&lt;/code&gt;. Getting the list of events? &lt;code&gt;POST&lt;/code&gt;. Creating an account? &lt;code&gt;POST&lt;/code&gt;. Logging in, and creating a session? &lt;code&gt;POST&lt;/code&gt;. Getting a list of special offers? &lt;code&gt;POST&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Every response had a status of &lt;code&gt;200 - OK&lt;/code&gt;. If there was an error, you have to parse the body of the message. And those bodies are in no way consistent.&lt;/li&gt;
-&lt;li&gt;The list of events (~580 json objects) came out to a staggering 700KB of data. Not the end of the world in today&amp;rsquo;s day and age, but a tough pill to swallow. There&amp;rsquo;s gotta be something we can do about that, right? (Spoiler alert: there is).&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Interacting with this API was painful. I was literally parsing a tilde(~) delimited string to determine the result of actions, and then picking parts of that out to save (e.g. the access token). This kind of feels like somebody&amp;rsquo;s first attempt at making an API.&lt;/p&gt;
-
-&lt;h3 id=&#34;off-to-the-races&#34;&gt;Off to the Races&lt;/h3&gt;
-
-&lt;p&gt;All of that aside, I thought I was in the clear. Build an Ionic app, replicate the responses, do some other stuff with the data. Simple enough, right? Aaaaand then I got &lt;code&gt;CORS&lt;/code&gt;&amp;rsquo;d, which I should&amp;rsquo;ve seen coming. After trying to find a way to get Angular to work around pre-flighting requests, I decided to bite the bullet and build a node proxy. ~100 lines of &lt;code&gt;Node.js&lt;/code&gt;/&lt;code&gt;Express&lt;/code&gt; code later, I was in business. Now we can send our requests to our own server which would make the same requests to the Craft Beer Week API and pass the results back.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;app.post(&#39;*&#39;, function (req, res, next) {
-  console.log(&amp;quot;requesting &amp;quot; + API_URL + req.originalUrl);
-  request.post(API_URL + req.originalUrl, {form: req.body},
-    function (error, response, body) {
-      if (body.indexOf(&#39;Your session&#39;) !== -1) {
-        res.status(401);
-        return res.send(body);
-      }
-      console.log(response.statusCode + &amp;quot; - &amp;quot; + response.statusMessage);
-      res.status(response.statusCode);
-      res.send(body);
-    });
-});
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;feature-parity&#34;&gt;Feature Parity&lt;/h3&gt;
-
-&lt;p&gt;With all of that behind us, all we needed was to do was create the Ionic app to do what the native app did. Considering the native app is just a list of events, that was pretty straightforward. As part of this process, I&amp;rsquo;d spun up a little &lt;a href=&#34;http://firebase.com&#34;&gt;Firebase database&lt;/a&gt; to save my own version of user accounts (which I was still creating via the MCBW API). Further inspection of the app&amp;rsquo;s &amp;ldquo;save&amp;rdquo; feature revealed a lack of persistence of those events (it was only saving it on the device), so in trying to replicate features I was actually already improving the experience.&lt;/p&gt;
-
-&lt;p&gt;The rest, as they say, is history (or, at least, trivial).&lt;/p&gt;
-
-&lt;h3 id=&#34;deploying-to-heroku&#34;&gt;Deploying to Heroku&lt;/h3&gt;
-
-&lt;p&gt;Having a feature-parity Ionic app on your local machine is great and all, but it doesn&amp;rsquo;t do much good. Enter &lt;a href=&#34;http://blog.ionic.io/heroku-ionic/&#34;&gt;Ionic Heroku&lt;/a&gt;, which is a nifty little boilerplate that takes care of all of the setup and deploy configuration Heroku needs. You can hit one button, punch in a name, and you have a Heroku app. Copy your www/ file into the boilerplate&amp;rsquo;s (and update any npm/bower/ionic config you need to) and you&amp;rsquo;re golden. This was possibly the easiest step in the process.&lt;/p&gt;
-
-&lt;h1 id=&#34;making-it-better-a-name-improve-href-improve-i-class-ion-link-i-a&#34;&gt;Making It Better &lt;a name=&#34;improve&#34; href=&#34;#improve&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;At this point, I&amp;rsquo;d spent about 8 hours including all development time and research into how their API worked. I could&amp;rsquo;ve called it a day - I&amp;rsquo;d built an app that reached feature parity and could be deployed to Android and iOS. My work here was done. But, even by reaching parity, I hadn&amp;rsquo;t made anything better. At the end of the day, I was building this app for myself, so stopping here wouldn&amp;rsquo;t&amp;rsquo;ve helped. So, I set out with a short list of ways to improve the experience:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;700KB of JSON seemed like a bit much&lt;/li&gt;
-&lt;li&gt;Date dividers would make scanning the list a lot easier&lt;/li&gt;
-&lt;li&gt;Saving a list of events is one thing, being able to share that list is another&lt;/li&gt;
-&lt;li&gt;Different ways of sorting (e.g. by location name, by event name)&lt;/li&gt;
-&lt;li&gt;A map view would be clutch&lt;/li&gt;
-&lt;li&gt;What if I got an email every morning with my saved events for the day?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;gzip-is-your-friend&#34;&gt;&lt;code&gt;gzip&lt;/code&gt; is your friend&lt;/h3&gt;
-
-&lt;p&gt;Where do we start? What&amp;rsquo;re the low-hanging fruit? Let&amp;rsquo;s see what we can do about this JSON dump. As it turns out, the MCBW API wasn&amp;rsquo;t using any compression. Enabling &lt;code&gt;gzip&lt;/code&gt; on my Node server brought that 700 down to ~100, which is a huge improvement. Inspecting the data further, it seemed that all the data was there twice - as both an index and a keyed index. That lead to a horrific piece of code that looked something like this:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;  delete jsonBody[i][0];
-  delete jsonBody[i][1];
-  delete jsonBody[i][2];
-  delete jsonBody[i][3];
-  delete jsonBody[i][4];
-  delete jsonBody[i][5];
-  delete jsonBody[i][6];
-  delete jsonBody[i][7];
-  delete jsonBody[i][8];
-  delete jsonBody[i][9];
-  delete jsonBody[i][10];
-  delete jsonBody[i][11];
-  delete jsonBody[i][12];
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Which brought us down to 80KB. Still not great, but much better than 700KB. Okay, great, what&amp;rsquo;s next? Sharing seems like it&amp;rsquo;s pretty straightforward.&lt;/p&gt;
-
-&lt;h3 id=&#34;enabling-sharing&#34;&gt;Enabling sharing&lt;/h3&gt;
-
-&lt;p&gt;This isn&amp;rsquo;t going to be a lecture about how powerful social sharing plugins are in viral/organic growth. I&amp;rsquo;m less concerned about that and more concerned about the end-user experience. Considering I already had my own Firebase database, enabling this was actually trivial. Create a route outside the context of the app (otherwise users would get redirected to login) that took in the user&amp;rsquo;s ID (from the URL) and pulled out the list of their saved events. Simple, straightforward, elegant. Add in a few social share buttons for convenience and the app practically markets itself.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/case-study/better-mcbw/sharing.png&#34;&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;dividers&#34;&gt;Dividers&lt;/h3&gt;
-
-&lt;p&gt;Regardless of the content, a 500-item list is overwhelming. Adding date dividers at least makes it a little easier to scan through. The implementation of this is actually pretty straightforward. Here&amp;rsquo;s that snippet (for dates) in all its glory:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;  for (i = 0; i &amp;lt; events.length; i++) {
-    if (events[i].type !== &amp;quot;divider&amp;quot;) { /// don&#39;t process dividers if we come across them
-      tempDate = new Date(events[i].start_date);
-      if (currentDate.getDate() !== tempDate.getDate()) { /// tempDate is a new date!
-        currentDate = tempDate;
-        events.splice(i, 0, {type: &amp;quot;divider&amp;quot;, value: dayDividerFormat(currentDate)});
-        i--; /// backtrack so we don&#39;t miss something
-      }
-    }
-  }
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Couple this with &lt;code&gt;$ionInfiniteScroll&lt;/code&gt; and we have lazy-loading events 20 at a time plus dividers. Much better than spitting out a list of 500 events and having users fend for themselves.&lt;/p&gt;
-
-&lt;h3 id=&#34;searching-sorting-maps&#34;&gt;Searching, Sorting, Maps&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/case-study/better-mcbw/map.png&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;That&amp;rsquo;s great and all, but what if I&amp;rsquo;m looking for a specific event? What if I&amp;rsquo;m in a particular part of town and I want to know what my other options are nearby? Sorting and Filtering were actually somewhat of a happy accident between what Angular offers and how I&amp;rsquo;d structured the rest of the app. When the user logs in, I fetch the list of events once and cache it. From there, pretty much everything they see is some permutation of that.&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s a fair amount of heavy-lifting on the client, but it also means I have all the source material and we&amp;rsquo;re minimizing the number of round-trips. I already have a mechanism for adding dividers, so if I want to enable other sorting (the Node server sorts by start date by default), all I needed to do was a simple Javascript &lt;code&gt;Array.sort()&lt;/code&gt; and then pass that into the divider function.&lt;/p&gt;
-
-&lt;p&gt;Searching proved a little more complicated. Aforementioned lazy loading meant I couldn&amp;rsquo;t just use an Angular &lt;code&gt;$filter&lt;/code&gt; (without additional complications - I&amp;rsquo;m sure I could&amp;rsquo;ve), but that local cache made it fairly trivial. Here, &lt;code&gt;Array.filter()&lt;/code&gt; came to the rescue. A simple string compare (via the ever-popular &lt;code&gt;String.indexOf()&lt;/code&gt;) spat out the results we crave.&lt;/p&gt;
-
-&lt;p&gt;Mapping proved a little more difficult. After wrestling with all of the available Angular Google Maps solutions, I settled on &lt;a href=&#34;https://ngmap.github.io/&#34;&gt;ngMap&lt;/a&gt;. It made the most sense to me from a structural standpoint, and made a lot of the subsequent code incredibly easy to write (think: virtually no controller code to place markers and pop up and info window on click). A little date finagling to make sure we&amp;rsquo;re showing the right pins, and a tiny insight into managing 500 events on a map (which is actually something I learned from last year&amp;rsquo;s MCBW website) and we&amp;rsquo;ve finally reached a point where I think I can say I&amp;rsquo;m done. Well, almost&amp;hellip;.&lt;/p&gt;
-
-&lt;h3 id=&#34;checkin-da-emails&#34;&gt;Checkin&amp;rsquo; da Emails&lt;/h3&gt;
-
-&lt;p&gt;This is a terrible example of staying lean (as opposed to most of the other development on this project, which was driven by me trying to use my own app out in the wild), but I had the idea of sending an email every morning with the list of events you&amp;rsquo;d saved for that day. Partly because, theoretically, that eliminates the need to ever check your to-do list again. Log on once, save the events you want, and then it&amp;rsquo;ll email you your schedule for the day. Sounds ideal.&lt;/p&gt;
-
-&lt;p&gt;After wrestling with MailGun for awhile, &lt;a href=&#34;https://sendgrid.com/&#34;&gt;SendGrid&lt;/a&gt; won out in terms of simplicity. I had test emails out within minutes, and all I had to do then was write a little server code to compile the list, do some basic HTML formatting, and that&amp;rsquo;s one more feature to add to the list. I thought I was just doing this for myself, but I was instantly validated by this exchange:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/case-study/better-mcbw/lauren.png&#34; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;the-fuuuuuuuuuture-a-name-future-href-future-i-class-ion-link-i-a&#34;&gt;The Fuuuuuuuuuture &lt;a name=&#34;future&#34; href=&#34;#future&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;More than once already this week, people have brought up the idea of some sort of optimization algorithm. Each event has a start time, and end time, and a location. This sounds like some sort of modified Travelling Salesman Problem, and while that would be a lot of fun to try to implement, I think that&amp;rsquo;s a &amp;ldquo;next-year&amp;rdquo; type of feature. After all, I&amp;rsquo;ve already sunk a whopping ~20 hours into this project. I can only imagine what The Isthmus paid their developers and how much time they spent on this.&lt;/p&gt;
-
-&lt;p&gt;The code could also use a serious refactor, especially on the client side. This is what happens when innovation/speed of development matters more than code quality/longevity/cost of support. Whoops.&lt;/p&gt;
-
-&lt;p&gt;There also could be increased security, as right now I&amp;rsquo;m pretty sure if you have someone&amp;rsquo;s user ID you can modify their list of saved events, but again, 20 hours of free work plus it&amp;rsquo;s an app that&amp;rsquo;s only useful for one week (and for a beer event, no less).&lt;/p&gt;
-
-&lt;h1 id=&#34;lessons-learned-a-name-lessons-href-lessons-i-class-ion-link-i-a&#34;&gt;Lessons Learned &lt;a name=&#34;lessons&#34; href=&#34;#lessons&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;h3 id=&#34;firebase-synchronized-arrays&#34;&gt;Firebase Synchronized Arrays&lt;/h3&gt;
-
-&lt;p&gt;One thing I learned in trying to build this Saved Event feature is &lt;a href=&#34;https://www.firebase.com/docs/web/libraries/angular/guide/synchronized-arrays.html&#34;&gt;Firebase arrays&lt;/a&gt; don&amp;rsquo;t work the way you think they do. I had a list of events  (JSON objects) that I would push to an array (via &lt;code&gt;$firebaseArray.$add&lt;/code&gt;), and when someone unchecked the magic box, I tried to use &lt;code&gt;$firebaseArray.$remove&lt;/code&gt;, except that only works if you&amp;rsquo;re talking about the same reference you used to push to the array. So, if you have a list of items, you push &lt;em&gt;a copy&lt;/em&gt; of one to the array, then try to remove it, it didn&amp;rsquo;t work.&lt;/p&gt;
-
-&lt;h3 id=&#34;keyed-arrays-make-sense-sometimes&#34;&gt;Keyed Arrays Make Sense Sometimes&lt;/h3&gt;
-
-&lt;p&gt;As a corollary to the above realization, keyed arrays actually make a lot of sense sometimes. The solution to this problem (while not the most elegant/efficient solution) is to create a keyed array of saved events. Every time a user saves/unsaves an event, we update the user&amp;rsquo;s &lt;code&gt;saved&lt;/code&gt; array by updating the object at that key, e.g.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;  profile.saved[event.id] = event;
-  /// or
-  delete profile.saved[event.id];
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&#34;videos-a-name-videos-href-videos-i-class-ion-link-i-a&#34;&gt;Videos &lt;a name=&#34;videos&#34; href=&#34;#videos&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;h3 id=&#34;official-mcbw&#34;&gt;Official MCBW:&lt;/h3&gt;
-
-&lt;iframe width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/s4OAGhlFpcQ&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;h3 id=&#34;better-mcbw&#34;&gt;Better MCBW:&lt;/h3&gt;
-
-&lt;iframe width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/yAJx1i41d04&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-</description>
+      <guid>http://bradorego.com/case-study/better-mcbw/</guid>
+      <description>TL;DNR  Ionic lets you build apps ridiculously fast. Write once, build many. If you don&amp;rsquo;t like how something&amp;rsquo;s done, instead of just complaining about it, do something to make it better. Reverse engineering is easier than ever. Your success is not a factor of your codebase, but about the value you offer an end-user. The end result: Better MCBW   
+Backstory  Madison Craft Beer Week has been one of my favorite events since moving to Madison.</description>
     </item>
     
     <item>
       <title>MobileIgniter</title>
-      <link>http://bradorego.com/case-study/mobileigniter</link>
+      <link>http://bradorego.com/case-study/mobileigniter/</link>
       <pubDate>Fri, 01 Apr 2016 15:11:33 -0500</pubDate>
       
-      <guid>http://bradorego.com/case-study/mobileigniter</guid>
-      <description>
-
-&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://mobileigniter.com&#34;&gt;MobileIgniter&lt;/a&gt; is an Internet-of-Things consultancy and product development firm that has worked with numerous clients, ranging from Fortune 500 companies to early-stage startups, and touched many industries including consumer appliances, insurance, and air quality. MI&amp;rsquo;s engagements included helping companies figure out if IoT was right for their business/product from a strategic standpoint, helping ideate and prototype different interactions and feature sets having a &amp;ldquo;smart&amp;rdquo; device would afford, and as far as taking products to market. MobileIgniter has a unique combination of electrical engieering, software development, and business analysis that enables the company to contribute at every stop of the product development lifecycle.&lt;/p&gt;
-
-&lt;p&gt;As with any startup/small company, individuals wear many hats and are responsible for many different roles. At MobileIgniter, I was primarily responsible for design and research, with additional support in front-end development and project management. Essentially, anything that happened between signing the contract and the app reaching production was in my wheelhouse. In particular, MI ran several marketing experiments while exploring different product opportunities, and designing the marketing material, email campaigns, and advertising campaigns was my responsibility.&lt;/p&gt;
-
-&lt;p&gt;Unfortunately most of the work MobileIgniter has done is under NDA, so while I can&amp;rsquo;t speak publicly about specific projects, some highlights include designing and running usability studies for a Fortune 1000 company, helping a Fortune 500 company learn Angular and Agile methodologies, publishing the &lt;a href=&#34;http://www.slideshare.net/mi-tim/usability-research-checklist-58988252/mi-tim/usability-research-checklist-58988252&#34;&gt;Usability Research Checklist&lt;/a&gt;, and developing &lt;a href=&#34;https://github.com/MobileIgniter/ng-photon&#34;&gt;ngPhoton&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h1 id=&#34;selected-images&#34;&gt;Selected Images&lt;/h1&gt;
-
-&lt;p&gt;MobileIgniter&amp;rsquo;s IoT Landing Page
-&lt;img src=&#34;http://bradorego.com/img/case-study/mobile-igniter/iot-desktop.png&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;LaundryMate Laundry Sensor Landing Page (Homeowner)
-&lt;img src=&#34;http://bradorego.com/img/case-study/mobile-igniter/laundrymate-personal-desktop.png&#34; /&gt;
-LaundryMate Buy Page
-&lt;img src=&#34;http://bradorego.com/img/case-study/mobile-igniter/laundrymate-buy-mobile.png&#34; /&gt;
-LaundryMate Laundry Sensor Landing Page (Laundromat User)
-&lt;img src=&#34;http://bradorego.com/img/case-study/mobile-igniter/laundrymate-laundromat-desktop.png&#34; /&gt;
-UXLab @ MobileIgniter Landing Page
-&lt;img src=&#34;http://bradorego.com/img/case-study/mobile-igniter/uxlab-small-desktop.png&#34; /&gt;&lt;/p&gt;
-</description>
+      <guid>http://bradorego.com/case-study/mobileigniter/</guid>
+      <description>About MobileIgniter is an Internet-of-Things consultancy and product development firm that has worked with numerous clients, ranging from Fortune 500 companies to early-stage startups, and touched many industries including consumer appliances, insurance, and air quality. MI&amp;rsquo;s engagements included helping companies figure out if IoT was right for their business/product from a strategic standpoint, helping ideate and prototype different interactions and feature sets having a &amp;ldquo;smart&amp;rdquo; device would afford, and as far as taking products to market.</description>
     </item>
     
     <item>
       <title>Clean Clear Waters</title>
-      <link>http://bradorego.com/case-study/clean-clear-waters</link>
+      <link>http://bradorego.com/case-study/clean-clear-waters/</link>
       <pubDate>Mon, 14 Apr 2014 15:10:54 -0500</pubDate>
       
-      <guid>http://bradorego.com/case-study/clean-clear-waters</guid>
-      <description>
-
-&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
-
-&lt;p&gt;One of the many projects I&amp;rsquo;ve been involed with via &lt;a href=&#34;http://100state.com&#34;&gt;100state&lt;/a&gt; was one in collaboration with the &lt;a href=&#34;https://cleanlakesalliance.com/&#34;&gt;Clean Lakes Alliance&lt;/a&gt;, a non-profit &amp;ldquo;dedicated to the improvement and protection of the lakes, streams, and wetlands of the Yahara Watershed&amp;rdquo;. One of their initiatives involves soliciting volunteers to collect data about water quality nearby their homes and places of work in order to monitor and gain insight on the water.&lt;/p&gt;
-
-&lt;p&gt;Previously, data collection has happened in a variety of means, such as email or a Google Spreadsheet. The first step of the project was to digitize the entire process by creating a web app that volunteers can use to log into and track their data. The second phase would be to roll out a public-facing web and mobile application that Madison beachgoers can use to check which beaches were open or closed, what the relative water quality at each location is, and to be able to submit their own visual observations of the water quality based on a few scales CLA put forth.&lt;/p&gt;
-
-&lt;p&gt;My responsibilities for this project were to take care of product design (UX, visual) as well as implement a prototype for the front-end. Josh and Jordan from &lt;a href=&#34;https://miosoft.com&#34;&gt;MIOsoft&lt;/a&gt; graciously offered to handle all of the back-end data handling and implementation. For the front-end, we chose to work with the &lt;a href=&#34;http://ionicframework.com&#34;&gt;Ionic Framework&lt;/a&gt;, deciding to go completely mobile-first.&lt;/p&gt;
-
-&lt;p&gt;After I ended my engagement on the project, MIOsoft completely took over responsibility for the project. The live version can be seen at &lt;a href=&#34;http://lakeforecast.org/&#34;&gt;Lakeforecast.org&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h1 id=&#34;selected-images&#34;&gt;Selected Images&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/case-study/clean-clear-waters/wires.png&#34; /&gt;
-&lt;img src=&#34;http://bradorego.com/img/case-study/clean-clear-waters/mockup.png&#34; /&gt;
-Lakeforecast.org Map View
-&lt;img src=&#34;http://bradorego.com/img/case-study/clean-clear-waters/map.png&#34; /&gt;
-Lakeforecast.org Beach View
-&lt;img src=&#34;http://bradorego.com/img/case-study/clean-clear-waters/beach.png&#34; /&gt;&lt;/p&gt;
-</description>
+      <guid>http://bradorego.com/case-study/clean-clear-waters/</guid>
+      <description>About One of the many projects I&amp;rsquo;ve been involed with via 100state was one in collaboration with the Clean Lakes Alliance, a non-profit &amp;ldquo;dedicated to the improvement and protection of the lakes, streams, and wetlands of the Yahara Watershed&amp;rdquo;. One of their initiatives involves soliciting volunteers to collect data about water quality nearby their homes and places of work in order to monitor and gain insight on the water.</description>
     </item>
     
     <item>
       <title>Nextt</title>
-      <link>http://bradorego.com/case-study/nextt</link>
+      <link>http://bradorego.com/case-study/nextt/</link>
       <pubDate>Sat, 01 Mar 2014 15:11:21 -0500</pubDate>
       
-      <guid>http://bradorego.com/case-study/nextt</guid>
-      <description>
-
-&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
-
-&lt;p&gt;Nextt is a social event planning tool designed to help get all of your friends on the same page and to get together offline in the real world. While working with Nextt, I was responsible for development of the mobile web app (which eventually became Nextt&amp;rsquo;s Android app), as well as overseeing parts of the overall User Experience and wrangling all of the data, metrics, and analytics to help guide product development. The most interesting and valuable piece of this experience was building everything from the ground up by hand - no frameworks, no tools. I learned a ton about mobile performance, and what it takes to develop a compelling experience on mobile.&lt;/p&gt;
-
-&lt;p&gt;Along with advising visual design, branding, and interaction design, there were several small victories we achieved, such as increasing the unauth (invite) conversion rate from ~10% to ~40%, and streamlining the onboarding process to get users up to speed and interacting with the system in a meaningful way. I championed tight iteration loops and data-driven decisions about design and feature prioritization, and also managed all of Nextt&amp;rsquo;s usability studies, email questionnaires, and analytics suite. We prepared daily reports to the CEO and weekly to the Board to monitor our progress.&lt;/p&gt;
-
-&lt;h1 id=&#34;selected-images&#34;&gt;Selected Images&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/case-study/nextt/unauth.png&#34; /&gt;
-&lt;img src=&#34;http://bradorego.com/img/case-study/nextt/onboarding.png&#34; /&gt;
-&lt;img src=&#34;http://bradorego.com/img/case-study/nextt/screens.png&#34; /&gt;&lt;/p&gt;
-</description>
+      <guid>http://bradorego.com/case-study/nextt/</guid>
+      <description>About Nextt is a social event planning tool designed to help get all of your friends on the same page and to get together offline in the real world. While working with Nextt, I was responsible for development of the mobile web app (which eventually became Nextt&amp;rsquo;s Android app), as well as overseeing parts of the overall User Experience and wrangling all of the data, metrics, and analytics to help guide product development.</description>
     </item>
     
     <item>
       <title>Trinker</title>
-      <link>http://bradorego.com/case-study/trinker</link>
+      <link>http://bradorego.com/case-study/trinker/</link>
       <pubDate>Sun, 14 Apr 2013 15:10:19 -0500</pubDate>
       
-      <guid>http://bradorego.com/case-study/trinker</guid>
-      <description>
-
-&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
-
-&lt;p&gt;Trinker is a service that simplifies your social life by providing an easy, secure way to share your nightlife activities, keep track of your drinking buddies, see what parts of town are hoppin&amp;rsquo;, and even save you some cash. Trinker represents my first foray into entrepreneurship, and has been a constant source of inspiration, energy, and learning for me.&lt;/p&gt;
-
-&lt;p&gt;Trinker was first brought to life through conversations with Rob Brooks, a good friend of mine, and when we decided to participate in &lt;a href=&#34;http://madison.startupweekend.org/2012/04/28/game-on/&#34;&gt;Startup Weekend: Madison 2012&lt;/a&gt;. Armed with the skeleton of a back-end I&amp;rsquo;d built on PHP and MongoDB, and my knowledge of jQuery Mobile, I set my team out to do as much validation as possible while I threw together as much of a functional prototype as I could based on what Rob and I had sketched out. I actually invented the Trinker logo when hailing a team after giving the 60-second pitch on Friday night, and designed our first business cards that night.&lt;/p&gt;
-
-&lt;p&gt;After running into some severe performance limitations with jQuery Mobile, and being inspired by Assanka&amp;rsquo;s (now FT Labs) &lt;a href=&#34;https://www.youtube.com/watch?v=iZA4t5MmRBY&#34;&gt;Financial Times&lt;/a&gt; mobile app, I decided to re-design the app and re-write the front-end using vanilla Javascript and CSS. This was my first foray into mobile web development as well, and due to my relative inexperience with Javascript at the time, I ran into a lot of issues, and ultimately decided this approach wasn&amp;rsquo;t sustainable and went about re-writing it a third time using &lt;a href=&#34;http://yuilibrary.com/&#34;&gt;YUI&lt;/a&gt; and a new back-end built on top of Ruby on Rails.&lt;/p&gt;
-
-&lt;p&gt;Unfortunately, that was about the time my two team members had to move away from Madison for work, and I ran out of steam on the project, so Trinker has laid dormant for approximately a year. However, a new business model has breathed some life and inspiration into me, so don&amp;rsquo;t be surprised if you see this app running around Madison bars soon.&lt;/p&gt;
-
-&lt;h1 id=&#34;selected-images&#34;&gt;Selected Images&lt;/h1&gt;
-
-&lt;p&gt;Landing Page:
-&lt;img src=&#34;http://bradorego.com/img/case-study/trinker/landing.png&#34; /&gt;
-&lt;img src=&#34;http://bradorego.com/img/case-study/trinker/t1.png&#34; /&gt;
-&lt;img src=&#34;http://bradorego.com/img/case-study/trinker/t2.png&#34; /&gt;
-&lt;img src=&#34;http://bradorego.com/img/case-study/trinker/t3.png&#34; /&gt;&lt;/p&gt;
-</description>
+      <guid>http://bradorego.com/case-study/trinker/</guid>
+      <description>About Trinker is a service that simplifies your social life by providing an easy, secure way to share your nightlife activities, keep track of your drinking buddies, see what parts of town are hoppin&amp;rsquo;, and even save you some cash. Trinker represents my first foray into entrepreneurship, and has been a constant source of inspiration, energy, and learning for me.
+Trinker was first brought to life through conversations with Rob Brooks, a good friend of mine, and when we decided to participate in Startup Weekend: Madison 2012.</description>
     </item>
     
     <item>
       <title>Zebradog</title>
-      <link>http://bradorego.com/case-study/zebradog</link>
+      <link>http://bradorego.com/case-study/zebradog/</link>
       <pubDate>Fri, 01 Mar 2013 15:10:22 -0500</pubDate>
       
-      <guid>http://bradorego.com/case-study/zebradog</guid>
-      <description>
-
-&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
-
-&lt;p&gt;Zebradog is an environmental graphic design firm located in Madison, WI who specializes in creating immersive, branded experiences for their clients. Zebradog&amp;rsquo;s multidisciplinary team of architects, graphic designers, and software developers blend the physical and digital realms, creating novel digital applications of technology for interactive multimedia and website design.&lt;/p&gt;
-
-&lt;p&gt;Working with Zebradog gave me the opportunity to work with an extremely talented team as well as push the limits of  web technology in the interactive multimedia space. During my time at Zebradog, we made the decision to move away from the technology the company had previously used (Quartz Composer) and toward embracing the developing world of web technology, which lead us to experiment with a lot of new technology, such as Three.js (for WebGL), Zigfu (for Kinect), and many Javascript touch libraries.&lt;/p&gt;
-
-&lt;p&gt;The other branch of Zebradog&amp;rsquo;s Digital Team built beautiful, well-structured, and  highly usable websites for clients. Built mainly on Drupal, ZD&amp;rsquo;s sites traditionally had not been responsive or mobile-friendly, which is another point I stressed while working with ZD. Mid-State Technical College serves as an example of the first mobile-first design project Zebradog completed.&lt;/p&gt;
-
-&lt;p&gt;Videos can be found on &lt;a href=&#34;http://vimeo.com/zebradog&#34;&gt;Zebradog&amp;rsquo;s Vimeo page&lt;/a&gt;, and &lt;a href=&#34;http://demo.zebradog.com&#34;&gt;Zebradog&amp;rsquo;s Demo page&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h1 id=&#34;selected-images&#34;&gt;Selected Images&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/case-study/zebradog/storystation.png&#34; /&gt;
-&lt;img src=&#34;http://bradorego.com/img/case-study/zebradog/hometownheroes.png&#34; /&gt;
-&lt;img src=&#34;http://bradorego.com/img/case-study/zebradog/aramco.png&#34; /&gt;
-&lt;img src=&#34;http://bradorego.com/img/case-study/zebradog/nw.png&#34; /&gt;
-&lt;img src=&#34;http://bradorego.com/img/case-study/zebradog/northwestern.png&#34; /&gt;
-&lt;img src=&#34;http://bradorego.com/img/case-study/zebradog/mstc-desktop.png&#34; /&gt;
-&lt;img src=&#34;http://bradorego.com/img/case-study/zebradog/mstc-tablet.png&#34; /&gt;
-&lt;img src=&#34;http://bradorego.com/img/case-study/zebradog/mstc-phone.png&#34; /&gt;&lt;/p&gt;
-</description>
+      <guid>http://bradorego.com/case-study/zebradog/</guid>
+      <description>About Zebradog is an environmental graphic design firm located in Madison, WI who specializes in creating immersive, branded experiences for their clients. Zebradog&amp;rsquo;s multidisciplinary team of architects, graphic designers, and software developers blend the physical and digital realms, creating novel digital applications of technology for interactive multimedia and website design.
+Working with Zebradog gave me the opportunity to work with an extremely talented team as well as push the limits of web technology in the interactive multimedia space.</description>
     </item>
     
     <item>
       <title>Design Studio Etc</title>
-      <link>http://bradorego.com/case-study/design-studio-etc</link>
+      <link>http://bradorego.com/case-study/design-studio-etc/</link>
       <pubDate>Tue, 12 Feb 2013 14:42:59 -0500</pubDate>
       
-      <guid>http://bradorego.com/case-study/design-studio-etc</guid>
-      <description>
-
-&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
-
-&lt;p&gt;Design Studio Etc. (&amp;ldquo;etc&amp;rdquo;) is an architectural design firm headquarted in Madison, WI with over 30 years of design and consulting experience. etc&amp;rsquo;s work is featured all over Madison, greater Wisconsin, and even other areas of the country such as Illinois, Arizona, and California.&lt;/p&gt;
-
-&lt;p&gt;etc&amp;rsquo;s former website was a flat set of three pages which left the user with virtually no idea of what the company actually was/did. The &amp;ldquo;about&amp;rdquo; page was the only way to glean any real information, and the design was dominated by an image that had very little value-add. Within a course of a couple weeks, the entire brand identity, look and feel, and design of the website was turned around (with the help and incredible energy of the client).&lt;/p&gt;
-
-&lt;p&gt;The new website features responsive design, a fluid layout, image slideshows (with lightbox for greater detail), and three structured subsections of the website (about, &amp;ldquo;what we do&amp;rdquo; (aka projects), and &amp;ldquo;on the boards&amp;rdquo; (aka blog)). The new look aligns with etc&amp;rsquo;s new identity, and provides a modern website to carry the company forward while making edits and updates easy via Drupal&amp;rsquo;s admin interface.&lt;/p&gt;
-
-&lt;h1 id=&#34;selected-images&#34;&gt;Selected Images:&lt;/h1&gt;
-
-&lt;p&gt;Wireframe:
-&lt;img src=&#34;http://bradorego.com/img/case-study/design-studio-etc/wireframe.png&#34; /&gt;
-Desktop:
-&lt;img src=&#34;http://bradorego.com/img/case-study/design-studio-etc/desktop.png&#34; /&gt;
-Mobile:
-&lt;img src=&#34;http://bradorego.com/img/case-study/design-studio-etc/mobile.png&#34; /&gt;
-Contact (before/after):
-&lt;img src=&#34;http://bradorego.com/img/case-study/design-studio-etc/beforeafter.png&#34; /&gt;&lt;/p&gt;
-</description>
+      <guid>http://bradorego.com/case-study/design-studio-etc/</guid>
+      <description>About Design Studio Etc. (&amp;ldquo;etc&amp;rdquo;) is an architectural design firm headquarted in Madison, WI with over 30 years of design and consulting experience. etc&amp;rsquo;s work is featured all over Madison, greater Wisconsin, and even other areas of the country such as Illinois, Arizona, and California.
+etc&amp;rsquo;s former website was a flat set of three pages which left the user with virtually no idea of what the company actually was/did. The &amp;ldquo;about&amp;rdquo; page was the only way to glean any real information, and the design was dominated by an image that had very little value-add.</description>
     </item>
     
     <item>
       <title>inspireDANCE Dance Festival</title>
-      <link>http://bradorego.com/case-study/inspiredance-dance-festival</link>
+      <link>http://bradorego.com/case-study/inspiredance-dance-festival/</link>
       <pubDate>Tue, 08 Feb 2011 15:10:01 -0500</pubDate>
       
-      <guid>http://bradorego.com/case-study/inspiredance-dance-festival</guid>
-      <description>
-
-&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
-
-&lt;p&gt;The &lt;em&gt;inspire&lt;/em&gt;DANCE Festival is the result of Arielle Friedlander&amp;rsquo;s 2010 KEY Project at the University of Rochester. As an ogoing festival, &lt;em&gt;inspire&lt;/em&gt;DANCE&amp;rsquo;s goals are to strengthen the dance community in Rochester by connecting students to professional dancers in and around the Rochester area. The Festival features professional dancers and instructors from Rochester as well as a feature artist with national (and sometimes world) renown. Past artists include &lt;a href=&#34;http://www.billevansdance.org/&#34;&gt;Bill Evans&lt;/a&gt;, &lt;a href=&#34;http://www.chosendance.com/&#34;&gt;Clyde Evans, Jr.&lt;/a&gt;, &lt;a href=&#34;http://www.heidilatskydance.net/heidilatskydance/&#34;&gt;Heidi Latsky&lt;/a&gt;, and Illstyle &amp;amp; Peace Productions as well as all of the artists on faculty at the University of Rochester.&lt;/p&gt;
-
-&lt;p&gt;As one of the founding members, my role in &lt;em&gt;inspire&lt;/em&gt;DANCE&amp;rsquo;s formation was both the Fundraising &amp;amp; Publicity Director and the Assistant to the Director. I was responsible for reaching out to different groups around campus as well as in the Rochetser community to secure funding for the event as well as to publicize the festival, including development of print and web media. As Assitant to the Director, I carried out many administrative tasks and assisted in decision making on issues large and small, including marketing, financing, and other administrative decisions.&lt;/p&gt;
-
-&lt;p&gt;The original &lt;em&gt;inspire&lt;/em&gt;DANCE website was built at a moment&amp;rsquo;s notice as a temporary location for information about the event before and during the festival. Site design was based on the flyers for the event.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.youtube.com/watch?v=F7ob9JrOpFc&#34;&gt;Video summary available&lt;/a&gt; courtesy of the University of Rochester. Information on this year&amp;rsquo;s &lt;em&gt;inspire&lt;/em&gt;DANCE Festival via the U of R &lt;a href=&#34;http://rochester.edu/college/dance&#34;&gt;Program of Dance and Movement&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h1 id=&#34;selected-images&#34;&gt;Selected Images&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/case-study/inspiredance/flyers.png&#34; /&gt;
-&lt;img src=&#34;http://bradorego.com/img/case-study/inspiredance/website.png&#34; /&gt;
-&lt;img src=&#34;http://bradorego.com/img/case-study/inspiredance/workshops.png&#34; /&gt;&lt;/p&gt;
-</description>
+      <guid>http://bradorego.com/case-study/inspiredance-dance-festival/</guid>
+      <description>About The inspireDANCE Festival is the result of Arielle Friedlander&amp;rsquo;s 2010 KEY Project at the University of Rochester. As an ogoing festival, inspireDANCE&amp;rsquo;s goals are to strengthen the dance community in Rochester by connecting students to professional dancers in and around the Rochester area. The Festival features professional dancers and instructors from Rochester as well as a feature artist with national (and sometimes world) renown. Past artists include Bill Evans, Clyde Evans, Jr.</description>
     </item>
     
     <item>
       <title>Biodance</title>
-      <link>http://bradorego.com/case-study/biodance</link>
+      <link>http://bradorego.com/case-study/biodance/</link>
       <pubDate>Tue, 14 Dec 2010 14:55:36 -0500</pubDate>
       
-      <guid>http://bradorego.com/case-study/biodance</guid>
-      <description>
-
-&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
-
-&lt;p&gt;When I was entering my &lt;a href=&#34;http://www.rochester.edu/college/CCAS/students/opportunities/takefive/&#34;&gt;Take 5&lt;/a&gt; year at the &lt;a href=&#34;http://rochester.edu&#34;&gt;University of Rochester&lt;/a&gt;, I found myself in a scheduling bind that forbid me from being able to take any of the remaining dance classes I hadn&amp;rsquo;t taken. Between this and my desire to push my dance career beyond academia, I decided to propose an independent study with Missy Pfohl Smith, the newly appointed Director of the &lt;a href=&#34;http://rochester.edu/college/dance&#34;&gt;Program of Dance &amp;amp; Movement&lt;/a&gt;. The path this independent study lead me down was somewhere between unexpected and incredible.&lt;/p&gt;
-
-&lt;p&gt;Given the experience to intern with &lt;a href=&#34;http://biodance.com&#34;&gt;Biodance&lt;/a&gt; as well as stage manage their Fall 2010 production at Geva Theater, I learned much more about dance &amp;ldquo;in the real world&amp;rdquo; than I had expected. On top of the hands-on experience of professional rehearsals and stage management for a live show, I was also blessed with the opportunities to learn about the logistics of running a dance company, such as grant writing, proofreading, marketing, and preparing/disseminating press releases.&lt;/p&gt;
-
-&lt;p&gt;The full text of my capstone essay can be found &lt;a href=&#34;http://old.bradorego.com/sites/default/files/docs/dan381.pdf&#34;&gt;here&lt;/a&gt;. Photos include highlights from the show I stage managed.&lt;/p&gt;
-
-&lt;h1 id=&#34;selected-images&#34;&gt;Selected Images&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/case-study/biodance/1.jpg&#34; /&gt;
-&lt;img src=&#34;http://bradorego.com/img/case-study/biodance/2.jpg&#34; /&gt;
-&lt;img src=&#34;http://bradorego.com/img/case-study/biodance/3.jpg&#34; /&gt;
-&lt;img src=&#34;http://bradorego.com/img/case-study/biodance/4.jpg&#34; /&gt;
-&lt;img src=&#34;http://bradorego.com/img/case-study/biodance/5.jpg&#34; /&gt;
-&lt;img src=&#34;http://bradorego.com/img/case-study/biodance/6.jpg&#34; /&gt;&lt;/p&gt;
-</description>
+      <guid>http://bradorego.com/case-study/biodance/</guid>
+      <description>About When I was entering my Take 5 year at the University of Rochester, I found myself in a scheduling bind that forbid me from being able to take any of the remaining dance classes I hadn&amp;rsquo;t taken. Between this and my desire to push my dance career beyond academia, I decided to propose an independent study with Missy Pfohl Smith, the newly appointed Director of the Program of Dance &amp;amp; Movement.</description>
     </item>
     
   </channel>

@@ -2,67 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Messaging on bradorego.com</title>
-    <link>http://bradorego.com/tags/messaging/index.xml</link>
+    <link>http://bradorego.com/tags/messaging/</link>
     <description>Recent content in Messaging on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://bradorego.com/tags/messaging/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Apr 2013 17:11:40 -0500</lastBuildDate>
+    
+	<atom:link href="http://bradorego.com/tags/messaging/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>An Open Letter to OkCupid</title>
-      <link>http://bradorego.com/an-open-letter-to-okcupid</link>
+      <link>http://bradorego.com/an-open-letter-to-okcupid/</link>
       <pubDate>Thu, 25 Apr 2013 17:11:40 -0500</pubDate>
       
-      <guid>http://bradorego.com/an-open-letter-to-okcupid</guid>
-      <description>
-
-&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
-  &lt;h3&gt;TL;DNR&lt;/h3&gt;
-  &lt;ul&gt;
-    &lt;li&gt;OkCupid is great, but it&amp;rsquo;s broken.&lt;/li&gt;
-    &lt;li&gt;Fixing it should be pretty easy &amp;mdash; just give a fast, simple way to stop bad members from being bad, and let the community sort it out.&lt;/li&gt;
-    &lt;li&gt;Empower your users and they&amp;rsquo;ll empower you.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-&lt;hr/&gt;&lt;/p&gt;
-
-&lt;p&gt;Dear OkCupid,&lt;/p&gt;
-
-&lt;p&gt;I love you. Well, maybe not so much love anymore. I really like you. I really like how you&amp;rsquo;ve made your services free for everyone, and how you&amp;rsquo;re helping people connect and meet others that they never would. I absolutely love how you use your data to create &lt;a href=&#34;http://blog.okcupid.com&#34;&gt;interesting and relevant blog posts&lt;/a&gt;. I&amp;rsquo;m also a firm believer in the company and your mission, especially after hearing CEO and co-founder Sam Yagan &lt;a href=&#34;http://www.capitalentrepreneurs.com/tonight-wisconsin-startup-night-techstars/&#34;&gt;give a talk a few weeks back&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;This is why I feel like I have to do this. See, there&amp;rsquo;s something wrong. It&amp;rsquo;s not a major problem (although, given the userbase and intertia you have, it might be, but given your &lt;a href=&#34;http://www.crazyblinddate.com/&#34;&gt;willingness&lt;/a&gt; to try &lt;a href=&#34;http://www.okcupid.com/mybestface&#34;&gt;experiments&lt;/a&gt; and side-projects, this might be something you can spin up/spin off), but it has some pretty significant consequences. As we&amp;rsquo;ve been made well aware by the internet, there are &lt;a href=&#34;http://theinternetisterrible.com/&#34;&gt;lots of terrible people&lt;/a&gt; out there. Humanity can be pretty messed up. OkCupid is, unfortunately, &lt;a href=&#34;http://www.mandatory.com/2012/11/13/ok-cupid-an-exploration-into-just-how-low-some-guys-will-go&#34;&gt;no safe haven&lt;/a&gt; to the &lt;a href=&#34;http://www.tumblr.com/tagged/nice%20guys%20of%20okcupid&#34;&gt;denizens of the internet&lt;/a&gt;. OkCupid&amp;rsquo;s design, however, makes it possible for these baddies to exploit the system, which is where our problem lies.&lt;/p&gt;
-
-&lt;h1 id=&#34;signal-vs-noise-a-name-signal-href-signal-i-class-ion-link-i-a&#34;&gt;Signal vs. Noise &lt;a name=&#34;signal&#34; href=&#34;#signal&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;For the uninitiated, the way OkCupid works is that users sign up, answer some profile questions about themselves, list some information, post some pictures, state what they&amp;rsquo;re interested in, and maybe even answer some of OkCupid&amp;rsquo;s &amp;ldquo;Match Questions&amp;rdquo;, which is where its famed matchmaking service comes from. Users then have the ability to send messages to any other user, under the premise of making an introduction, conversation, or whatever they please.&lt;/p&gt;
-
-&lt;p&gt;Any user. An infinite number of messages and an infinite number of messages. For all users on OkCupid. And yes, you can talk about anything. Sound suspicious? Maybe not at first. The same is true of most social networks - anyone can send anyone a Facebook message, or Tweet at any other user, etc. The problem comes at a combination of context and this availability. OkCupid is a dating site. Apparently, some (too many) guys think this gives them license to harass girls, to solicit unwanted relations, and to do this to hundreds of girls.&lt;/p&gt;
-
-&lt;p&gt;Sounds pretty grim for ladies, right? They sign up looking for some fun dates, maybe even Mr. Right, and they&amp;rsquo;re bombarded by one-liners, solicitations for sex, and some that are just plain weird. This is bad, because getting lots of creepy/unwanted messages means girls just get overwhelmed and/or disgruntled, and leave. This is something you&amp;rsquo;ve even mentioned and analyzed yourself in &lt;a href=&#34;http://blog.okcupid.com/index.php/the-mathematics-of-beauty/&#34;&gt;an old blog post&lt;/a&gt;. So this drives women away, this is bad, right? It gets worse.&lt;/p&gt;
-
-&lt;p&gt;On top of forcing women away, this endless inundation desensitizes them to receiving messages in the first place, which means, for any halfway decent guy out there, actually getting through to a girl is that much harder. The number of messages guys have to send to get any responses is absurd, with&amp;nbsp;&lt;a href=&#34;http://blog.okcupid.com/index.php/online-dating-advice-exactly-what-to-say-in-a-first-message/&#34;&gt;response rates hovering around 30%&lt;/a&gt;. 30%! Mostly because (bad) guys send way too many messages.&lt;/p&gt;
-
-&lt;h1 id=&#34;okay-now-what-a-name-solution-href-solution-i-class-ion-link-i-a&#34;&gt;Okay. Now what? &lt;a name=&#34;solution&#34; href=&#34;#solution&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;So this is bad. Some guys are ruining it for all of us, guys and gals included. What do we do, then? Sit and whine about it? Try &lt;a href=&#34;http://www.eharmony.com/&#34;&gt;one&lt;/a&gt; &lt;a href=&#34;http://www.ourtime.com/&#34;&gt;of&lt;/a&gt; &lt;a href=&#34;http://www.chemistry.com/&#34;&gt;the&lt;/a&gt; &lt;a href=&#34;https://www.zoosk.com/&#34;&gt;many&lt;/a&gt; &lt;a href=&#34;http://www.match.com/index.aspx&#34;&gt;other&lt;/a&gt; (&lt;/span&gt;&lt;a href=&#34;http://www.pof.com/&#34;&gt;mostly&lt;/a&gt; &lt;a href=&#34;http://www.christianmingle.com/&#34;&gt;terrible&lt;/a&gt;) &lt;a href=&#34;http://www.benaughty.com/&#34;&gt;dating&lt;/a&gt; sites? Go back to our old ways of bars, clubs, parties, and other social events? Give up and start our own online dating site/service? Try one of those &lt;a href=&#34;http://www.onlulu.com/&#34;&gt;newfangled&lt;/a&gt; &lt;a href=&#34;http://swoonapp.com/&#34;&gt;dating&lt;/a&gt; &lt;a href=&#34;http://blendr.com/&#34; &gt;apps&lt;/a&gt; &lt;a href=&#34;http://www.gotinder.com/index.html&#34;&gt;that&lt;/a&gt; &lt;a href=&#34;http://grindr.com/&#34;&gt;are&lt;/a&gt; &lt;a href=&#34;https://coffeemeetsbagel.com/&#34;&gt;now&lt;/a&gt; (or at least, for now) all the rage? I don&amp;rsquo;t want to do that, and you don&amp;rsquo;t want me to do that. So let&amp;rsquo;s figure out how to work it out.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;There are two things that I think would do a lot to fix this problem. Of course, there are ways around it, but how many guys are really that persitent (don&amp;rsquo;t answer that - I&amp;rsquo;m afraid of the answer). They aren&amp;rsquo;t even that hard to do/implement, and they should naturally weed out the bad ones pretty quickly. Ready? They aren&amp;rsquo;t exactly groundbreaking, but I&amp;rsquo;ll give justification for each.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Limit the number of outgoing messages over a certain period (e.g. 3/day? 5/day? etc)&lt;/li&gt;
-&lt;li&gt;Allow users to give feedback/behavior ratings to other users (a la karma?)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;(Okay, I actually have 3, but it&amp;rsquo;s just a variation  - Have a system where the number of outstanding messages you can have at one time is dependent upon your rating (e.g. if you send a lot of bad messages, you lose points/those messages, but if you send some good messages but the recipient just isn&amp;rsquo;t interested, you can still redeem that message))&lt;/p&gt;
-
-&lt;p&gt;Rocket surgery, right? Here&amp;rsquo;s why they&amp;rsquo;re good ideas. The first is obvious - restricting the volume cuts down on the amount of messages anyone has to deal with. It also makes everyone think harder about and be more selective with those messages they send. From a business perspective, this might be bad for OkCupid, as it&amp;rsquo;s likely to drive traffic away from their site (i.e. to email/text, but that happens anyway), but it&amp;rsquo;s probably the easiest way to cut down on the flood. The hottest girls will still get the majority of messages, but it&amp;rsquo;s still less.&lt;/p&gt;
-
-&lt;p&gt;The second allows the community to self-select the decent guys out from the garbage. If you get a bad message from someone, you&amp;rsquo;re virtually powerless. At most, girls can block guys, preventing them from sending further messages. This does nothing to their ability to harass the rest of the community, though, leaving that scummy guy to run amok. If there were a way for the collective voice to say bad things about guys, girls would have an easier way to sift through the noise, and allow the quality to float to the top (a la Reddit).&lt;/p&gt;
-
-&lt;p&gt;The third is personally my favorite, but also the hardest to implement and to make fair/balanced. Each person gets a set amount of messages per day, based on their rating. Messages that get a nice vote, or even a reply, raise that person&amp;rsquo;s rating and/or replenish their message count. The count also rebuilds itself over time. Quora does something similar to this with its Credits system. Good answers on Quora give Credits, which can be spent on promotions and whatnot. The credits also replenish themselves over time, so users aren&amp;rsquo;t left out to dry. OkCupid could really benefit from something like this.&lt;/p&gt;
-
-&lt;p&gt;I still have faith in you, OkCupid. You do great things, and you&amp;rsquo;re way better than any other site I&amp;rsquo;ve used, both in terms of user experience and user base. Just please, please fix these things, and I&amp;rsquo;ll love you even more. I&amp;rsquo;m more than happy to talk about this in further detail and clarify some points if you&amp;rsquo;d like, as this post was already getting too long to go into full detail.&lt;/p&gt;
-</description>
+      <guid>http://bradorego.com/an-open-letter-to-okcupid/</guid>
+      <description>TL;DNR  OkCupid is great, but it&amp;rsquo;s broken. Fixing it should be pretty easy &amp;mdash; just give a fast, simple way to stop bad members from being bad, and let the community sort it out. Empower your users and they&amp;rsquo;ll empower you.   
+Dear OkCupid,
+I love you. Well, maybe not so much love anymore. I really like you. I really like how you&amp;rsquo;ve made your services free for everyone, and how you&amp;rsquo;re helping people connect and meet others that they never would.</description>
     </item>
     
   </channel>

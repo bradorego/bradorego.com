@@ -2,118 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Entrepreneurship on bradorego.com</title>
-    <link>http://bradorego.com/tags/entrepreneurship/index.xml</link>
+    <link>http://bradorego.com/tags/entrepreneurship/</link>
     <description>Recent content in Entrepreneurship on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://bradorego.com/tags/entrepreneurship/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Apr 2016 15:11:33 -0500</lastBuildDate>
+    
+	<atom:link href="http://bradorego.com/tags/entrepreneurship/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>MobileIgniter</title>
-      <link>http://bradorego.com/case-study/mobileigniter</link>
+      <link>http://bradorego.com/case-study/mobileigniter/</link>
       <pubDate>Fri, 01 Apr 2016 15:11:33 -0500</pubDate>
       
-      <guid>http://bradorego.com/case-study/mobileigniter</guid>
-      <description>
-
-&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://mobileigniter.com&#34;&gt;MobileIgniter&lt;/a&gt; is an Internet-of-Things consultancy and product development firm that has worked with numerous clients, ranging from Fortune 500 companies to early-stage startups, and touched many industries including consumer appliances, insurance, and air quality. MI&amp;rsquo;s engagements included helping companies figure out if IoT was right for their business/product from a strategic standpoint, helping ideate and prototype different interactions and feature sets having a &amp;ldquo;smart&amp;rdquo; device would afford, and as far as taking products to market. MobileIgniter has a unique combination of electrical engieering, software development, and business analysis that enables the company to contribute at every stop of the product development lifecycle.&lt;/p&gt;
-
-&lt;p&gt;As with any startup/small company, individuals wear many hats and are responsible for many different roles. At MobileIgniter, I was primarily responsible for design and research, with additional support in front-end development and project management. Essentially, anything that happened between signing the contract and the app reaching production was in my wheelhouse. In particular, MI ran several marketing experiments while exploring different product opportunities, and designing the marketing material, email campaigns, and advertising campaigns was my responsibility.&lt;/p&gt;
-
-&lt;p&gt;Unfortunately most of the work MobileIgniter has done is under NDA, so while I can&amp;rsquo;t speak publicly about specific projects, some highlights include designing and running usability studies for a Fortune 1000 company, helping a Fortune 500 company learn Angular and Agile methodologies, publishing the &lt;a href=&#34;http://www.slideshare.net/mi-tim/usability-research-checklist-58988252/mi-tim/usability-research-checklist-58988252&#34;&gt;Usability Research Checklist&lt;/a&gt;, and developing &lt;a href=&#34;https://github.com/MobileIgniter/ng-photon&#34;&gt;ngPhoton&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h1 id=&#34;selected-images&#34;&gt;Selected Images&lt;/h1&gt;
-
-&lt;p&gt;MobileIgniter&amp;rsquo;s IoT Landing Page
-&lt;img src=&#34;http://bradorego.com/img/case-study/mobile-igniter/iot-desktop.png&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;LaundryMate Laundry Sensor Landing Page (Homeowner)
-&lt;img src=&#34;http://bradorego.com/img/case-study/mobile-igniter/laundrymate-personal-desktop.png&#34; /&gt;
-LaundryMate Buy Page
-&lt;img src=&#34;http://bradorego.com/img/case-study/mobile-igniter/laundrymate-buy-mobile.png&#34; /&gt;
-LaundryMate Laundry Sensor Landing Page (Laundromat User)
-&lt;img src=&#34;http://bradorego.com/img/case-study/mobile-igniter/laundrymate-laundromat-desktop.png&#34; /&gt;
-UXLab @ MobileIgniter Landing Page
-&lt;img src=&#34;http://bradorego.com/img/case-study/mobile-igniter/uxlab-small-desktop.png&#34; /&gt;&lt;/p&gt;
-</description>
+      <guid>http://bradorego.com/case-study/mobileigniter/</guid>
+      <description>About MobileIgniter is an Internet-of-Things consultancy and product development firm that has worked with numerous clients, ranging from Fortune 500 companies to early-stage startups, and touched many industries including consumer appliances, insurance, and air quality. MI&amp;rsquo;s engagements included helping companies figure out if IoT was right for their business/product from a strategic standpoint, helping ideate and prototype different interactions and feature sets having a &amp;ldquo;smart&amp;rdquo; device would afford, and as far as taking products to market.</description>
     </item>
     
     <item>
       <title>Nextt</title>
-      <link>http://bradorego.com/case-study/nextt</link>
+      <link>http://bradorego.com/case-study/nextt/</link>
       <pubDate>Sat, 01 Mar 2014 15:11:21 -0500</pubDate>
       
-      <guid>http://bradorego.com/case-study/nextt</guid>
-      <description>
-
-&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
-
-&lt;p&gt;Nextt is a social event planning tool designed to help get all of your friends on the same page and to get together offline in the real world. While working with Nextt, I was responsible for development of the mobile web app (which eventually became Nextt&amp;rsquo;s Android app), as well as overseeing parts of the overall User Experience and wrangling all of the data, metrics, and analytics to help guide product development. The most interesting and valuable piece of this experience was building everything from the ground up by hand - no frameworks, no tools. I learned a ton about mobile performance, and what it takes to develop a compelling experience on mobile.&lt;/p&gt;
-
-&lt;p&gt;Along with advising visual design, branding, and interaction design, there were several small victories we achieved, such as increasing the unauth (invite) conversion rate from ~10% to ~40%, and streamlining the onboarding process to get users up to speed and interacting with the system in a meaningful way. I championed tight iteration loops and data-driven decisions about design and feature prioritization, and also managed all of Nextt&amp;rsquo;s usability studies, email questionnaires, and analytics suite. We prepared daily reports to the CEO and weekly to the Board to monitor our progress.&lt;/p&gt;
-
-&lt;h1 id=&#34;selected-images&#34;&gt;Selected Images&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/case-study/nextt/unauth.png&#34; /&gt;
-&lt;img src=&#34;http://bradorego.com/img/case-study/nextt/onboarding.png&#34; /&gt;
-&lt;img src=&#34;http://bradorego.com/img/case-study/nextt/screens.png&#34; /&gt;&lt;/p&gt;
-</description>
+      <guid>http://bradorego.com/case-study/nextt/</guid>
+      <description>About Nextt is a social event planning tool designed to help get all of your friends on the same page and to get together offline in the real world. While working with Nextt, I was responsible for development of the mobile web app (which eventually became Nextt&amp;rsquo;s Android app), as well as overseeing parts of the overall User Experience and wrangling all of the data, metrics, and analytics to help guide product development.</description>
     </item>
     
     <item>
       <title>Trinker</title>
-      <link>http://bradorego.com/case-study/trinker</link>
+      <link>http://bradorego.com/case-study/trinker/</link>
       <pubDate>Sun, 14 Apr 2013 15:10:19 -0500</pubDate>
       
-      <guid>http://bradorego.com/case-study/trinker</guid>
-      <description>
-
-&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
-
-&lt;p&gt;Trinker is a service that simplifies your social life by providing an easy, secure way to share your nightlife activities, keep track of your drinking buddies, see what parts of town are hoppin&amp;rsquo;, and even save you some cash. Trinker represents my first foray into entrepreneurship, and has been a constant source of inspiration, energy, and learning for me.&lt;/p&gt;
-
-&lt;p&gt;Trinker was first brought to life through conversations with Rob Brooks, a good friend of mine, and when we decided to participate in &lt;a href=&#34;http://madison.startupweekend.org/2012/04/28/game-on/&#34;&gt;Startup Weekend: Madison 2012&lt;/a&gt;. Armed with the skeleton of a back-end I&amp;rsquo;d built on PHP and MongoDB, and my knowledge of jQuery Mobile, I set my team out to do as much validation as possible while I threw together as much of a functional prototype as I could based on what Rob and I had sketched out. I actually invented the Trinker logo when hailing a team after giving the 60-second pitch on Friday night, and designed our first business cards that night.&lt;/p&gt;
-
-&lt;p&gt;After running into some severe performance limitations with jQuery Mobile, and being inspired by Assanka&amp;rsquo;s (now FT Labs) &lt;a href=&#34;https://www.youtube.com/watch?v=iZA4t5MmRBY&#34;&gt;Financial Times&lt;/a&gt; mobile app, I decided to re-design the app and re-write the front-end using vanilla Javascript and CSS. This was my first foray into mobile web development as well, and due to my relative inexperience with Javascript at the time, I ran into a lot of issues, and ultimately decided this approach wasn&amp;rsquo;t sustainable and went about re-writing it a third time using &lt;a href=&#34;http://yuilibrary.com/&#34;&gt;YUI&lt;/a&gt; and a new back-end built on top of Ruby on Rails.&lt;/p&gt;
-
-&lt;p&gt;Unfortunately, that was about the time my two team members had to move away from Madison for work, and I ran out of steam on the project, so Trinker has laid dormant for approximately a year. However, a new business model has breathed some life and inspiration into me, so don&amp;rsquo;t be surprised if you see this app running around Madison bars soon.&lt;/p&gt;
-
-&lt;h1 id=&#34;selected-images&#34;&gt;Selected Images&lt;/h1&gt;
-
-&lt;p&gt;Landing Page:
-&lt;img src=&#34;http://bradorego.com/img/case-study/trinker/landing.png&#34; /&gt;
-&lt;img src=&#34;http://bradorego.com/img/case-study/trinker/t1.png&#34; /&gt;
-&lt;img src=&#34;http://bradorego.com/img/case-study/trinker/t2.png&#34; /&gt;
-&lt;img src=&#34;http://bradorego.com/img/case-study/trinker/t3.png&#34; /&gt;&lt;/p&gt;
-</description>
+      <guid>http://bradorego.com/case-study/trinker/</guid>
+      <description>About Trinker is a service that simplifies your social life by providing an easy, secure way to share your nightlife activities, keep track of your drinking buddies, see what parts of town are hoppin&amp;rsquo;, and even save you some cash. Trinker represents my first foray into entrepreneurship, and has been a constant source of inspiration, energy, and learning for me.
+Trinker was first brought to life through conversations with Rob Brooks, a good friend of mine, and when we decided to participate in Startup Weekend: Madison 2012.</description>
     </item>
     
     <item>
       <title>inspireDANCE Dance Festival</title>
-      <link>http://bradorego.com/case-study/inspiredance-dance-festival</link>
+      <link>http://bradorego.com/case-study/inspiredance-dance-festival/</link>
       <pubDate>Tue, 08 Feb 2011 15:10:01 -0500</pubDate>
       
-      <guid>http://bradorego.com/case-study/inspiredance-dance-festival</guid>
-      <description>
-
-&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
-
-&lt;p&gt;The &lt;em&gt;inspire&lt;/em&gt;DANCE Festival is the result of Arielle Friedlander&amp;rsquo;s 2010 KEY Project at the University of Rochester. As an ogoing festival, &lt;em&gt;inspire&lt;/em&gt;DANCE&amp;rsquo;s goals are to strengthen the dance community in Rochester by connecting students to professional dancers in and around the Rochester area. The Festival features professional dancers and instructors from Rochester as well as a feature artist with national (and sometimes world) renown. Past artists include &lt;a href=&#34;http://www.billevansdance.org/&#34;&gt;Bill Evans&lt;/a&gt;, &lt;a href=&#34;http://www.chosendance.com/&#34;&gt;Clyde Evans, Jr.&lt;/a&gt;, &lt;a href=&#34;http://www.heidilatskydance.net/heidilatskydance/&#34;&gt;Heidi Latsky&lt;/a&gt;, and Illstyle &amp;amp; Peace Productions as well as all of the artists on faculty at the University of Rochester.&lt;/p&gt;
-
-&lt;p&gt;As one of the founding members, my role in &lt;em&gt;inspire&lt;/em&gt;DANCE&amp;rsquo;s formation was both the Fundraising &amp;amp; Publicity Director and the Assistant to the Director. I was responsible for reaching out to different groups around campus as well as in the Rochetser community to secure funding for the event as well as to publicize the festival, including development of print and web media. As Assitant to the Director, I carried out many administrative tasks and assisted in decision making on issues large and small, including marketing, financing, and other administrative decisions.&lt;/p&gt;
-
-&lt;p&gt;The original &lt;em&gt;inspire&lt;/em&gt;DANCE website was built at a moment&amp;rsquo;s notice as a temporary location for information about the event before and during the festival. Site design was based on the flyers for the event.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.youtube.com/watch?v=F7ob9JrOpFc&#34;&gt;Video summary available&lt;/a&gt; courtesy of the University of Rochester. Information on this year&amp;rsquo;s &lt;em&gt;inspire&lt;/em&gt;DANCE Festival via the U of R &lt;a href=&#34;http://rochester.edu/college/dance&#34;&gt;Program of Dance and Movement&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h1 id=&#34;selected-images&#34;&gt;Selected Images&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/case-study/inspiredance/flyers.png&#34; /&gt;
-&lt;img src=&#34;http://bradorego.com/img/case-study/inspiredance/website.png&#34; /&gt;
-&lt;img src=&#34;http://bradorego.com/img/case-study/inspiredance/workshops.png&#34; /&gt;&lt;/p&gt;
-</description>
+      <guid>http://bradorego.com/case-study/inspiredance-dance-festival/</guid>
+      <description>About The inspireDANCE Festival is the result of Arielle Friedlander&amp;rsquo;s 2010 KEY Project at the University of Rochester. As an ogoing festival, inspireDANCE&amp;rsquo;s goals are to strengthen the dance community in Rochester by connecting students to professional dancers in and around the Rochester area. The Festival features professional dancers and instructors from Rochester as well as a feature artist with national (and sometimes world) renown. Past artists include Bill Evans, Clyde Evans, Jr.</description>
     </item>
     
   </channel>

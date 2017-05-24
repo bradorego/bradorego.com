@@ -2,43 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Personal on bradorego.com</title>
-    <link>http://bradorego.com/tags/personal/index.xml</link>
+    <link>http://bradorego.com/tags/personal/</link>
     <description>Recent content in Personal on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://bradorego.com/tags/personal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Nov 2012 17:32:13 -0500</lastBuildDate>
+    
+	<atom:link href="http://bradorego.com/tags/personal/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>New Site!</title>
-      <link>http://bradorego.com/new-site</link>
+      <link>http://bradorego.com/new-site/</link>
       <pubDate>Fri, 23 Nov 2012 17:32:13 -0500</pubDate>
       
-      <guid>http://bradorego.com/new-site</guid>
-      <description>&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
-  &lt;h3&gt;TL;DNR&lt;/h3&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Drupal is cool, powerful, mature.&lt;/li&gt;
-    &lt;li&gt;Making it easier to create content is important to how likely it is to happen.&lt;/li&gt;
-    &lt;li&gt;Keeping up with technology and the design community is important.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-&lt;hr/&gt;&lt;/p&gt;
-
-&lt;p&gt;It only took me about 10 months, but I&amp;rsquo;ve finally gotten around to rebuilding this site to have a purpose. I originally built a personal website when I was leaving Epic with the intention of having a place to show my past work as well as a place to play around with new technologies on the web. That was, at least, the intention. If any of you were keeping tabs on it, that never actually happened. I built the site haphazardly over the course of a few days and never updated it.&lt;/p&gt;
-
-&lt;p&gt;This time around, though, it&amp;rsquo;ll be different. Two main reasons:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;I built the site on top of Drupal this time around instead of doing everything by hand. This means I&amp;rsquo;m not trying to be a whizkid web developer anymore (read: more professional) and it also means updating things is a lot easier/less painful.&lt;/li&gt;
-&lt;li&gt;I have a reason and method of keeping it up to date. If I&amp;rsquo;m blogging about usability/user experience, it&amp;rsquo;s an excuse to keep on top of things, and to keep it fresh. Plus, if I want to be a consultant, I&amp;rsquo;ve gotta show my stuff somehow, right?&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;I do have to give a fair bit of credit to my &lt;a href=&#34;https://zebradog.com&#34;&gt;ZD&lt;/a&gt; family for both inspiring me and giving me some experience building sites from scratch on top of Drupal. I wouldn&amp;rsquo;t be where I am today (both in terms of skills and motivation) if not for them, and I&amp;rsquo;m looking forward to each new day with ZD.&lt;/p&gt;
-
-&lt;p&gt;I have a few ideas of blog post themes/threads (Design in the Wild, War Stories, etc.), but this blog will also likely be a mixture of professional, personal, and possibly-insane. It&amp;rsquo;ll be fun to work on it, see it grow, populate my portfolio, etc.&lt;/p&gt;
-
-&lt;p&gt;Onward and upward.&lt;/p&gt;
-</description>
+      <guid>http://bradorego.com/new-site/</guid>
+      <description>TL;DNR  Drupal is cool, powerful, mature. Making it easier to create content is important to how likely it is to happen. Keeping up with technology and the design community is important.   
+It only took me about 10 months, but I&amp;rsquo;ve finally gotten around to rebuilding this site to have a purpose. I originally built a personal website when I was leaving Epic with the intention of having a place to show my past work as well as a place to play around with new technologies on the web.</description>
     </item>
     
   </channel>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on bradorego.com</title>
+    <link>http://bradorego.com/categories/</link>
+    <description>Recent content in Categories on bradorego.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 May 2016 12:30:41 -0500</lastBuildDate>
+    
+	<atom:link href="http://bradorego.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Case Study</title>
+      <link>http://bradorego.com/categories/case-study/</link>
+      <pubDate>Tue, 03 May 2016 12:30:41 -0500</pubDate>
+      
+      <guid>http://bradorego.com/categories/case-study/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>http://bradorego.com/categories/development/</link>
+      <pubDate>Thu, 14 Apr 2016 12:26:53 -0500</pubDate>
+      
+      <guid>http://bradorego.com/categories/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>User Experience</title>
+      <link>http://bradorego.com/categories/user-experience/</link>
+      <pubDate>Sat, 18 Mar 2017 14:40:53 -0500</pubDate>
+      
+      <guid>http://bradorego.com/categories/user-experience/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

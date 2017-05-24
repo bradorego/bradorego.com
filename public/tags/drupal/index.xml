@@ -2,89 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Drupal on bradorego.com</title>
-    <link>http://bradorego.com/tags/drupal/index.xml</link>
+    <link>http://bradorego.com/tags/drupal/</link>
     <description>Recent content in Drupal on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://bradorego.com/tags/drupal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Apr 2016 12:26:53 -0500</lastBuildDate>
+    
+	<atom:link href="http://bradorego.com/tags/drupal/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Back to Static</title>
-      <link>http://bradorego.com/back-to-static</link>
+      <link>http://bradorego.com/back-to-static/</link>
       <pubDate>Thu, 14 Apr 2016 12:26:53 -0500</pubDate>
       
-      <guid>http://bradorego.com/back-to-static</guid>
-      <description>
-
-&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
-  &lt;h3&gt;TL;DNR&lt;/h3&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Static generators (e.g. &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;) are pretty cool.&lt;/li&gt;
-    &lt;li&gt;Ease of use/production directly relates to content creation.&lt;/li&gt;
-    &lt;li&gt;It&amp;rsquo;s okay to borrow aesthetics/technologies/designs from others.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-&lt;hr/&gt;&lt;/p&gt;
-
-&lt;p&gt;As you might be able to tell, my last blog post is from 2014. It was about time to get back on the blog horse but also give the site a little facelift. I&amp;rsquo;d &lt;a href=&#34;http://beerbatterbreakfast.com/2014/07/fancy-new-blog.html&#34;&gt;migrated blog platforms&lt;/a&gt; in the past, but never really took the time to think about how my own personal site was hosted. So let&amp;rsquo;s take a quick trip down memory lane.&lt;/p&gt;
-
-&lt;h1 id=&#34;static-site-2011-a-name-2011-href-2011-i-class-ion-link-i-a&#34;&gt;Static Site (2011) &lt;a name=&#34;2011&#34; href=&#34;#2011&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;When I first got into web development (professionally), I thought it&amp;rsquo;d be cool to build my own website from scratch to prove my mettle. That was 2011; certainly not far enough ago by any means for most of the technologies in use today to not exist. But, I was young and naive, and had some big ideas (e.g. a live CSS switcher, replicating the exact same look/behavior with and without Javascript, etc).&lt;/p&gt;
-
-&lt;p&gt;I learned very quickly from that experience that keeping a static site up to date was really difficult. Any time you made a change one place, you had to make sure you made it everywhere. You had to make sure to manage collisions. You had to handle your own deploys and routing. It was a hassle, and I virtually never updated the site, so after spending some time working with &lt;a href=&#34;https://zebradog.com&#34;&gt;ZebraDog&lt;/a&gt; and seeing the power of Drupal, I decided it was time for a change.&lt;/p&gt;
-
-&lt;h1 id=&#34;drupal-7-0-2012-a-name-2012-href-2012-i-class-ion-link-i-a&#34;&gt;Drupal 7.0 (2012) &lt;a name=&#34;2012&#34; href=&#34;#2012&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;So I set out to &lt;a href=&#34;http://bradorego.com/2012-11-new-site/&#34;&gt;update and re-design&lt;/a&gt; the website again, this time using something a little more powerful and modern, and to make it easier for me to create new content while still having full control and flexibility over how it&amp;rsquo;s displayed and what functionality the website had.&lt;/p&gt;
-
-&lt;p&gt;After all, at ZD we&amp;rsquo;d built a lot of things on Drupal, ranging from fairly simple &lt;a href=&#34;http://www.kellerrealestategroup.com/&#34;&gt;real estate websites&lt;/a&gt; to fairly complicated &lt;a href=&#34;http://www.mstc.edu/&#34;&gt;institutional websites&lt;/a&gt; to the backbone of &lt;a href=&#34;https://www.youtube.com/watch?v=VuicjhSpbV8&#34;&gt;interactive multimedia installations&lt;/a&gt;. I could use it to build a measly blog and portfolio website, right?&lt;/p&gt;
-
-&lt;p&gt;The problem wasn&amp;rsquo;t whether I could; in fact the problem was probably &lt;strong&gt;that&lt;/strong&gt; I could. I built an incredible media delivery site that was isolated from the world and almost too powerful for its own good. Developing and maintaining the site was nontrivial, and adding new content, while certainly easier than a static site, was beyond me.&lt;/p&gt;
-
-&lt;h1 id=&#34;back-to-static-2016-a-name-2016-href-2016-i-class-ion-link-i-a&#34;&gt;Back to Static (2016) &lt;a name=&#34;2016&#34; href=&#34;#2016&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;Blog technology philosophy has shifted lately. WordPress is still the clear winner in the space, but there&amp;rsquo;s an alternative to generating the site every time it&amp;rsquo;s requested. These take the form of static generators, and make a lot more sense to me personally. Jekyll, Ghost, Hugo, Hexo; the list goes on. What&amp;rsquo;s under the hood doesn&amp;rsquo;t really matter (which, as an aside, makes switching way easier) &amp;mdash; all that matters is the static HTML/CSS/JS they output.&lt;/p&gt;
-
-&lt;p&gt;It seems a little weird to be going back to a static option, but there are some major differences:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;I have so much less to worry about in terms of upkeep and deploy thanks to things like partials and services like &lt;a href=&#34;https://www.aerobatic.com/&#34;&gt;Aerobatic&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Content creation is way easier because I literally create a file and start typing. Markdown gets translated into HTML and all of the formatting and styling is handled by the templates I define.&lt;/li&gt;
-&lt;li&gt;I stand on the shoulders of giants &amp;mdash; there have been tons of people putting in tons of work to make things like this easier. There&amp;rsquo;s no reason to reinvent the wheel.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;So (and I&amp;rsquo;ve said this before), theoretically keeping the site updated will be a lot easier. I somewhat feel like a cop-out for using a fairly standard template/look-and-feel, but at the end of the day, my job as a designer isn&amp;rsquo;t to make things look pretty or to be unique. My job is to provide the best experience possible for my users. In the context of a blog, that means engaging, useful content; not pretty pictures.&lt;/p&gt;
-</description>
+      <guid>http://bradorego.com/back-to-static/</guid>
+      <description>TL;DNR  Static generators (e.g. Hugo) are pretty cool. Ease of use/production directly relates to content creation. It&amp;rsquo;s okay to borrow aesthetics/technologies/designs from others.   
+As you might be able to tell, my last blog post is from 2014. It was about time to get back on the blog horse but also give the site a little facelift. I&amp;rsquo;d migrated blog platforms in the past, but never really took the time to think about how my own personal site was hosted.</description>
     </item>
     
     <item>
       <title>Design Studio Etc</title>
-      <link>http://bradorego.com/case-study/design-studio-etc</link>
+      <link>http://bradorego.com/case-study/design-studio-etc/</link>
       <pubDate>Tue, 12 Feb 2013 14:42:59 -0500</pubDate>
       
-      <guid>http://bradorego.com/case-study/design-studio-etc</guid>
-      <description>
-
-&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
-
-&lt;p&gt;Design Studio Etc. (&amp;ldquo;etc&amp;rdquo;) is an architectural design firm headquarted in Madison, WI with over 30 years of design and consulting experience. etc&amp;rsquo;s work is featured all over Madison, greater Wisconsin, and even other areas of the country such as Illinois, Arizona, and California.&lt;/p&gt;
-
-&lt;p&gt;etc&amp;rsquo;s former website was a flat set of three pages which left the user with virtually no idea of what the company actually was/did. The &amp;ldquo;about&amp;rdquo; page was the only way to glean any real information, and the design was dominated by an image that had very little value-add. Within a course of a couple weeks, the entire brand identity, look and feel, and design of the website was turned around (with the help and incredible energy of the client).&lt;/p&gt;
-
-&lt;p&gt;The new website features responsive design, a fluid layout, image slideshows (with lightbox for greater detail), and three structured subsections of the website (about, &amp;ldquo;what we do&amp;rdquo; (aka projects), and &amp;ldquo;on the boards&amp;rdquo; (aka blog)). The new look aligns with etc&amp;rsquo;s new identity, and provides a modern website to carry the company forward while making edits and updates easy via Drupal&amp;rsquo;s admin interface.&lt;/p&gt;
-
-&lt;h1 id=&#34;selected-images&#34;&gt;Selected Images:&lt;/h1&gt;
-
-&lt;p&gt;Wireframe:
-&lt;img src=&#34;http://bradorego.com/img/case-study/design-studio-etc/wireframe.png&#34; /&gt;
-Desktop:
-&lt;img src=&#34;http://bradorego.com/img/case-study/design-studio-etc/desktop.png&#34; /&gt;
-Mobile:
-&lt;img src=&#34;http://bradorego.com/img/case-study/design-studio-etc/mobile.png&#34; /&gt;
-Contact (before/after):
-&lt;img src=&#34;http://bradorego.com/img/case-study/design-studio-etc/beforeafter.png&#34; /&gt;&lt;/p&gt;
-</description>
+      <guid>http://bradorego.com/case-study/design-studio-etc/</guid>
+      <description>About Design Studio Etc. (&amp;ldquo;etc&amp;rdquo;) is an architectural design firm headquarted in Madison, WI with over 30 years of design and consulting experience. etc&amp;rsquo;s work is featured all over Madison, greater Wisconsin, and even other areas of the country such as Illinois, Arizona, and California.
+etc&amp;rsquo;s former website was a flat set of three pages which left the user with virtually no idea of what the company actually was/did. The &amp;ldquo;about&amp;rdquo; page was the only way to glean any real information, and the design was dominated by an image that had very little value-add.</description>
     </item>
     
   </channel>

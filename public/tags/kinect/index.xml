@@ -2,41 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kinect on bradorego.com</title>
-    <link>http://bradorego.com/tags/kinect/index.xml</link>
+    <link>http://bradorego.com/tags/kinect/</link>
     <description>Recent content in Kinect on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://bradorego.com/tags/kinect/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Mar 2013 15:10:22 -0500</lastBuildDate>
+    
+	<atom:link href="http://bradorego.com/tags/kinect/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Zebradog</title>
-      <link>http://bradorego.com/case-study/zebradog</link>
+      <link>http://bradorego.com/case-study/zebradog/</link>
       <pubDate>Fri, 01 Mar 2013 15:10:22 -0500</pubDate>
       
-      <guid>http://bradorego.com/case-study/zebradog</guid>
-      <description>
-
-&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
-
-&lt;p&gt;Zebradog is an environmental graphic design firm located in Madison, WI who specializes in creating immersive, branded experiences for their clients. Zebradog&amp;rsquo;s multidisciplinary team of architects, graphic designers, and software developers blend the physical and digital realms, creating novel digital applications of technology for interactive multimedia and website design.&lt;/p&gt;
-
-&lt;p&gt;Working with Zebradog gave me the opportunity to work with an extremely talented team as well as push the limits of  web technology in the interactive multimedia space. During my time at Zebradog, we made the decision to move away from the technology the company had previously used (Quartz Composer) and toward embracing the developing world of web technology, which lead us to experiment with a lot of new technology, such as Three.js (for WebGL), Zigfu (for Kinect), and many Javascript touch libraries.&lt;/p&gt;
-
-&lt;p&gt;The other branch of Zebradog&amp;rsquo;s Digital Team built beautiful, well-structured, and  highly usable websites for clients. Built mainly on Drupal, ZD&amp;rsquo;s sites traditionally had not been responsive or mobile-friendly, which is another point I stressed while working with ZD. Mid-State Technical College serves as an example of the first mobile-first design project Zebradog completed.&lt;/p&gt;
-
-&lt;p&gt;Videos can be found on &lt;a href=&#34;http://vimeo.com/zebradog&#34;&gt;Zebradog&amp;rsquo;s Vimeo page&lt;/a&gt;, and &lt;a href=&#34;http://demo.zebradog.com&#34;&gt;Zebradog&amp;rsquo;s Demo page&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h1 id=&#34;selected-images&#34;&gt;Selected Images&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://bradorego.com/img/case-study/zebradog/storystation.png&#34; /&gt;
-&lt;img src=&#34;http://bradorego.com/img/case-study/zebradog/hometownheroes.png&#34; /&gt;
-&lt;img src=&#34;http://bradorego.com/img/case-study/zebradog/aramco.png&#34; /&gt;
-&lt;img src=&#34;http://bradorego.com/img/case-study/zebradog/nw.png&#34; /&gt;
-&lt;img src=&#34;http://bradorego.com/img/case-study/zebradog/northwestern.png&#34; /&gt;
-&lt;img src=&#34;http://bradorego.com/img/case-study/zebradog/mstc-desktop.png&#34; /&gt;
-&lt;img src=&#34;http://bradorego.com/img/case-study/zebradog/mstc-tablet.png&#34; /&gt;
-&lt;img src=&#34;http://bradorego.com/img/case-study/zebradog/mstc-phone.png&#34; /&gt;&lt;/p&gt;
-</description>
+      <guid>http://bradorego.com/case-study/zebradog/</guid>
+      <description>About Zebradog is an environmental graphic design firm located in Madison, WI who specializes in creating immersive, branded experiences for their clients. Zebradog&amp;rsquo;s multidisciplinary team of architects, graphic designers, and software developers blend the physical and digital realms, creating novel digital applications of technology for interactive multimedia and website design.
+Working with Zebradog gave me the opportunity to work with an extremely talented team as well as push the limits of web technology in the interactive multimedia space.</description>
     </item>
     
   </channel>

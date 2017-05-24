@@ -2,287 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Product Management on bradorego.com</title>
-    <link>http://bradorego.com/tags/product-management/index.xml</link>
+    <link>http://bradorego.com/tags/product-management/</link>
     <description>Recent content in Product Management on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://bradorego.com/tags/product-management/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Mar 2017 14:40:53 -0500</lastBuildDate>
+    
+	<atom:link href="http://bradorego.com/tags/product-management/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Why We&#39;re Firing a Top-Tier Product Development Firm</title>
-      <link>http://bradorego.com/why-were-firing-a-top-tier-product-development-firm</link>
+      <link>http://bradorego.com/why-were-firing-a-top-tier-product-development-firm/</link>
       <pubDate>Sat, 18 Mar 2017 14:40:53 -0500</pubDate>
       
-      <guid>http://bradorego.com/why-were-firing-a-top-tier-product-development-firm</guid>
-      <description>
-
-&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
-  &lt;h3&gt;TL;DNR&lt;/h3&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Culture trumps credentials, reputation, and pretty much everything else.&lt;/li&gt;
-    &lt;li&gt;Don&amp;rsquo;t be afraid to pull the plug on something if it isn&amp;rsquo;t working. Trust your gut and stick to your guns.&lt;/li&gt;
-    &lt;li&gt;If you want something done right, sometimes you have to do it yourself. Just because it has a corporate name tag doesn&amp;rsquo;t mean there aren&amp;rsquo;t talented people.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-&lt;hr/&gt;&lt;/p&gt;
-
-&lt;p&gt;Some of the work I&amp;rsquo;ve been doing recently has been with what&amp;rsquo;s known as the Business Development branch of a large company. Basically, it&amp;rsquo;s like a handful of small startups with a Fortune 500 budget, or something I&amp;rsquo;ve come to learn is called &amp;ldquo;corporate innovation&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;One of the benefits of working in this environment is the incredible access to resources our teams have. I&amp;rsquo;m used to the early-stage startup world, where there&amp;rsquo;s no money, no time, a million things to do, and everything is on fire, whereas the world of corporate innovation is very, very different.&lt;/p&gt;
-
-&lt;p&gt;For one project, we decided we needed some additional help, so we decided to hire an agency to help us get an MVP up and running.&lt;/p&gt;
-
-&lt;h1 id=&#34;nobody-ever-got-fired-for-buying-ibm-a-name-ibm-href-ibm-i-class-ion-link-i-a&#34;&gt;Nobody Ever Got Fired For Buying IBM &lt;a name=&#34;ibm&#34; href=&#34;#ibm&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;h4 id=&#34;go-with-the-internationally-acclaimed-option&#34;&gt;Go with the internationally acclaimed option&lt;/h4&gt;
-
-&lt;p&gt;We interviewed about a dozen firms, including local options as well as national/international agencies, and weighed the pros and cons of working with each. Some simply couldn&amp;rsquo;t offer the bandwidth or the expertise we needed. Others we felt weren&amp;rsquo;t paying attention to our needs and wouldn&amp;rsquo;t be a good fit for the phase our product was in.&lt;/p&gt;
-
-&lt;p&gt;While we said no to some extremely well-known and highly reputable companies, we ultimately went with one that had a great reputation/track record, lots of really exciting examples, and that we were excited to work with. While none of us had any experience working with this company in the past, we felt good about it. After all, &lt;a href=&#34;https://www.quora.com/What-does-the-phrase-Nobody-ever-got-fired-for-choosing-IBM-mean&#34;&gt;nobody ever got fired for buying IBM&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Part of my role on this team was to make sure these agencies were passing the &amp;ldquo;sniff test&amp;rdquo;, and to pick one that would be the best fit for what our product (and team) needed, and I was fully confident in moving forward with this partner.&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;img src=&#34;http://bradorego.com/img/posts/why-firing-top-tier-firm/ibm.jpg&#34; /&gt;
-&lt;figcaption&gt;&lt;a href=&#34;http://pbs.twimg.com/media/CCMnwscW4AIDfqo.png:large&#34;&gt;Credit&lt;/a&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h1 id=&#34;bait-and-switch-a-name-bait-and-switch-href-bait-and-switch-i-class-ion-link-i-a&#34;&gt;Bait and Switch? &lt;a name=&#34;bait-and-switch&#34; href=&#34;#bait-and-switch&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;h4 id=&#34;an-unfortunate-circumstance&#34;&gt;An unfortunate circumstance&lt;/h4&gt;
-
-&lt;p&gt;Things got off to a bit of a rocky start, as scheduling around the holidays is virtually impossible, but there isn&amp;rsquo;t much one can do about that. There was something that was particularly interesting about this experience, though.&lt;/p&gt;
-
-&lt;p&gt;The individuals we were talking with throughout the courtship process seemed to completely understand where we were, what we were looking for, and were on board with the rough outline I (as the in-house designer) had laid out. When asked, they reassured us that this was in fact the team we&amp;rsquo;d be working with. However, when it came to scheduling, there seemed to be a few conflicts, and after having to push back the start date, we also learned that these team members wouldn&amp;rsquo;t be available any longer.&lt;/p&gt;
-
-&lt;p&gt;I don&amp;rsquo;t want to take anything away from the individuals we did work with, but this kind of felt like a bait-and-switch on our end. Not only was there now a disconnect between everything we&amp;rsquo;d talked to this team about and the new team, it just didn&amp;rsquo;t quite feel right. Cue foreshadowing.&lt;/p&gt;
-
-&lt;h1 id=&#34;culture-mismatches-a-name-culture-href-culture-i-class-ion-link-i-a&#34;&gt;Culture Mismatches &lt;a name=&#34;culture&#34; href=&#34;#culture&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;h4 id=&#34;short-work-days-every-holiday-off-laid-back-attitudes&#34;&gt;Short work days, every holiday off, laid back attitudes&lt;/h4&gt;
-
-&lt;p&gt;Once we locked in a start date, things seemed to be moving smoothly. As is typical, we kicked off our engagement with a week-long &lt;a href=&#34;http://www.gv.com/sprint/&#34;&gt;Product Design Sprint&lt;/a&gt; on-site in one of their offices. It was a great opportunity to get all of us out of our typical environment and give us an excuse to focus exclusively on this project, to (hopefully) learn something about their process, and obviously to built rapport with the team so we could work effectively going forward (especially considering it would be remote).&lt;/p&gt;
-
-&lt;p&gt;Our half of the team was totally jazzed up to get this project moving and to hit the ground running, so despite one of the worst travel days of my life (the perfect storm of a computer glitch and a winter storm) which resulted us getting into town Monday afternoon instead of Sunday night, we were ready to put in long hours and have something we were proud to show off at the end of the week.&lt;/p&gt;
-
-&lt;p&gt;Any design sprint is going to be an intensive, exhausting experience, and I&amp;rsquo;m all for working smarter versus harder, but our initial experience wasn&amp;rsquo;t exactly what we expected. It seems the standard was to start work around 10am and leave around 4pm, all while taking about an hour for lunch. This pattern continued (if not intensified) after the sprint, and was a major sticking point.&lt;/p&gt;
-
-&lt;p&gt;Our culture was more of a ~830am-430pm work day, plus extra time if you needed to stay late or work from home that evening. They also embrace Google&amp;rsquo;s &amp;ldquo;20% time&amp;rdquo; idea, meaning they were only working/billing 4 days a week, taking every Friday as a growth day. If you looked at the difference in hours per week, our team was putting in 40-50 whereas it seemed they were doing almost half that.&lt;/p&gt;
-
-&lt;p&gt;Another thing that seemed shove a pretty significant wedge between us was actually the reason we had to reschedule in the first place: holidays. We didn&amp;rsquo;t even recognize that our initial start was MLK Day. After we&amp;rsquo;d originally agreed on that date, we heard back a week or so later (after we&amp;rsquo;d already started booking travel, no less) that we had to change. They also didn&amp;rsquo;t work President&amp;rsquo;s Day, either, which along with the 20% time thing meant we had a few 3-day weeks.&lt;/p&gt;
-
-&lt;p&gt;Further exacerbating these scheduling woes were some differences in communication style and tone. Not to say we&amp;rsquo;re all hard-asses, but the laid back attitude that our partners espoused was often at odds with our desire and urgency to move the project forward. One of our colleagues (who wasn&amp;rsquo;t even on this project) was walking by during one of our daily standups (via Google Hangouts) and afterwards commented on their tone, calling it borderline unprofessional. Another teammate who wasn&amp;rsquo;t directly involved with working with them often made references to &lt;a href=&#34;http://www.ifc.com/shows/portlandia&#34;&gt;Portlandia&lt;/a&gt;.&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;img src=&#34;http://bradorego.com/img/posts/why-firing-top-tier-firm/portlandia.jpg&#34; /&gt;
-&lt;figcaption&gt;&lt;a href=&#34;http://68.media.tumblr.com/92560a542be8c8a7f8e6110772a2a744/tumblr_o0hbbgcLlP1te2cuvo1_1280.jpg&#34;&gt;Credit&lt;/a&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;All of this aside, there was one other culture shock in terms of tooling. Our team was familiar with using Asana, JIRA, Box, Outlook, AWS, and Github. Throw in some Google Analytics and Mixpanel and that&amp;rsquo;s about all we needed. Throughout our engagement with this partner, we were suddenly using Trello, GrowthHackers, FormKeep, Segment, Netlify, Google Drive, Redpen,&amp;hellip;the list goes on. Mind you, this is still &lt;em&gt;corporate&lt;/em&gt; innovation, meaning a lot of the tools we use have to be approved before we can store IP or PII in them.&lt;/p&gt;
-
-&lt;h1 id=&#34;quality-a-name-quality-href-quality-i-class-ion-link-i-a&#34;&gt;Quality &lt;a name=&#34;quality&#34; href=&#34;#quality&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;h4 id=&#34;it-shouldn-t-take-a-week-to-build-a-static-landing-page&#34;&gt;It shouldn&amp;rsquo;t take a week to build a static landing page&lt;/h4&gt;
-
-&lt;p&gt;Another surprise (and, at the end of the day, what was ultimately the breaking point) was the overall quality of the work. None of my teammates are product designers, nor do they have much experience working in tech at all, so while they were excited to see what a design sprint was like, I was looking forward to working with (and learning from) some of the best in the business. The experience we had was altogether different than our expectations.&lt;/p&gt;
-
-&lt;p&gt;One of the big differences between our team/project and I&amp;rsquo;m guessing a lot of the other work they do was the degree of empathy work and background research the team had done. I joined this project over a year into it and it took me months to digest and distill what they had learned, so I&amp;rsquo;m not saying it&amp;rsquo;s an easy task. That being said, our team came in with a lot of expertise and knowledge around who our target users were and what challenges they faced, which I would&amp;rsquo;ve assumed would help us move quickly. Instead, what we were faced with was push-back at almost every step.&lt;/p&gt;
-
-&lt;p&gt;We came out of our design sprint feeling a little lost. The target (and, thus, problem) that our partners wanted to focus on wasn&amp;rsquo;t at all what we&amp;rsquo;d come into the week with (which isn&amp;rsquo;t necessarily a bad thing), and overall there seemed to be a lot of skepticism on their side. The next few weeks saw extremely slow progress peppered with discussions about how to move forward (and how to do so more quickly, at that).&lt;/p&gt;
-
-&lt;p&gt;We came into the engagement assuming we would follow their lead in the product development process, doing what their expertise suggested. That wasn&amp;rsquo;t working, so we tried giving them direction instead. Not only did that also not work, but it seemed as if they didn&amp;rsquo;t trust our research and the conclusions we had drawn from it. As a designer, I would love to spend as much time as possible doing research, but there&amp;rsquo;s a point of diminishing returns, and one of the things we laid out at the beginning of the courtship process was a bias toward &lt;a href=&#34;https://uxmag.com/articles/from-design-thinking-to-design-doing&#34;&gt;doing&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Above all else, though, the speed and quality of work just wasn&amp;rsquo;t there. Once we convinced them to actually take action instead of focusing on research, we laid out a plan together to create a few simple landing pages and run a few Facebook/Google ads to gauge interest. These pages wound up taking over a week to write copy for, design, and implement, and that&amp;rsquo;s due in no small part to the tools selected (surprise, surprise).&lt;/p&gt;
-
-&lt;p&gt;Each landing page went through a process of low-fidelity wireframes, high-fidelity Sketch/Photoshop comps, and then built out using Middleman and Bourbon/Neat. At one point it took me fifteen minutes to get all the dependencies installed and my development environment setup only to make a 30-second change (which, mind you, was something our developer told me would take too long to change, and lead me to one of my favorite Slack exchanges ever).&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;img src=&#34;http://bradorego.com/img/posts/why-firing-top-tier-firm/redacted.jpg&#34; /&gt;
-&lt;/figure&gt;
-
-&lt;h1 id=&#34;now-what-a-name-now-what-href-now-what-i-class-ion-link-i-a&#34;&gt;Now What? &lt;a name=&#34;now-what&#34; href=&#34;#now-what&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;h4 id=&#34;look-again-bring-it-in-house&#34;&gt;Look again? Bring it in house?&lt;/h4&gt;
-
-&lt;p&gt;So we came to the conclusion that we needed to cut our losses and fire the agency. It wasn&amp;rsquo;t an easy decision considering we still need to move quickly to meet our internal deadlines, but ultimately the amount we were paying and the output we were seeing just didn&amp;rsquo;t make sense. We even had the sense that we could move more quickly by ourselves, which brings me to another interesting point.&lt;/p&gt;
-
-&lt;p&gt;If you remember back at the beginning of this post, the reason we wanted to look externally at all is so we could move more quickly. Between myself and some of my teammates, we have the skillsets needed to at least get through the first few months of designing, testing, and building an MVP. Part of the discussion of what to do next was whether we should just move forward ourselves and get as much done as possible.&lt;/p&gt;
-
-&lt;p&gt;Ultimately what we&amp;rsquo;ve decided to do is somewhat of a hybrid approach: instead of hiring a firm to do all the work, we&amp;rsquo;re looking more toward a development partner that can take care of the heavy lifting and allow us to focus on design, strategy, branding, marketing, and all the other things that come along with it. Basically, let someone else worry about the details of implementation and we&amp;rsquo;ll handle the direction.&lt;/p&gt;
-
-&lt;p&gt;What I would love would be to have an entire team on the inside that we could partner with for these types of things. If you&amp;rsquo;re in corporate innovation, and you foresee this being something that the group/company needs to do, it makes sense to bring as much of it in house as possible. We&amp;rsquo;ve already had a few different teams hire a few different agencies, and aside from it being horribly fragmented and disjointed, it&amp;rsquo;s also incredibly expensive.&lt;/p&gt;
-
-&lt;p&gt;Bringing all of that in house would increase quality, decrease turnaround time (especially considering you would eliminate all sourcing and negotiation time, which has easily added months to our timeline), and decrease costs. This is the plan I&amp;rsquo;ve been advocating for us to take and is by far the most common recommendation I make to others in similar circumstances.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;h3 id=&#34;a-brief-plug&#34;&gt;A brief plug&lt;/h3&gt;
-
-&lt;p&gt;Do you have similar experiences to share? Are you in a similar situation, trying to decide how to move forward with a project and who to hire? Trying to build your own in house team? I&amp;rsquo;d be happy to talk more about it (and hopefully be able to help)! &lt;a href=&#34;mailto:me@bradorego.com&#34;&gt;Let&amp;rsquo;s chat&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <guid>http://bradorego.com/why-were-firing-a-top-tier-product-development-firm/</guid>
+      <description>TL;DNR  Culture trumps credentials, reputation, and pretty much everything else. Don&amp;rsquo;t be afraid to pull the plug on something if it isn&amp;rsquo;t working. Trust your gut and stick to your guns. If you want something done right, sometimes you have to do it yourself. Just because it has a corporate name tag doesn&amp;rsquo;t mean there aren&amp;rsquo;t talented people.   
+Some of the work I&amp;rsquo;ve been doing recently has been with what&amp;rsquo;s known as the Business Development branch of a large company.</description>
     </item>
     
     <item>
       <title>The Dangers of Tight Iteration</title>
-      <link>http://bradorego.com/the-dangers-of-tight-iteration</link>
+      <link>http://bradorego.com/the-dangers-of-tight-iteration/</link>
       <pubDate>Fri, 20 May 2016 19:31:28 -0500</pubDate>
       
-      <guid>http://bradorego.com/the-dangers-of-tight-iteration</guid>
-      <description>
-
-&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
-  &lt;h3&gt;TL;DNR&lt;/h3&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Getting a lot of feedback quickly isn&amp;rsquo;t necessarily always the best strategy - having a guiding light is helpful as well.&lt;/li&gt;
-    &lt;li&gt;Users react to the level of fidelity of what you show them. You might be missing something if your fidelity doesn&amp;rsquo;t match the issue in the design.&lt;/li&gt;
-    &lt;li&gt;Good Product Design (or at least, a good discovery phase/project plan) can alleviate these issues.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-&lt;hr/&gt;&lt;/p&gt;
-
-&lt;p&gt;Before starting a new engagement with a client, I always ask a series of questions about their company, their processes, and the project I&amp;rsquo;ll be working on. One of those questions asks how they&amp;rsquo;re currently handling user research and product design and I&amp;rsquo;m often told they &amp;ldquo;have a tight feedback loop&amp;rdquo; and that&amp;rsquo;s all they have to say.&lt;/p&gt;
-
-&lt;p&gt;There&amp;rsquo;s a lot wrong with this answer, but let&amp;rsquo;s unpack it a little.&lt;/p&gt;
-
-&lt;h1 id=&#34;rapid-prototyping-a-name-rapidprototyping-href-rapidprototyping-i-class-ion-link-i-a&#34;&gt;Rapid Prototyping &lt;a name=&#34;rapidPrototyping&#34; href=&#34;#rapidPrototyping&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;First and foremost, effective use of Rapid Prototyping can be immensely beneficial to a product. If there&amp;rsquo;s one thing I could convince every company in the world to do, it would be to use some type of rapid prototyping in their product design. If I got a fraction of all of the &lt;a href=&#34;http://time.com/13549/the-10-worst-product-fails-of-all-time/&#34;&gt;money spent&lt;/a&gt; building products that ultimately failed, I&amp;rsquo;d never have to work again.&lt;/p&gt;
-
-&lt;p&gt;Ultimately, Rapid Prototyping is more a process or practice than a technique or specific tools. Rapid Prototyping involves getting as much feedback as often as possible throughout the design process, and this is accomplished by varying the level of fidelity of what you&amp;rsquo;re testing (more on this later). By exposing the current version of your product in all of its incomplete glory, you save sinking time into things that don&amp;rsquo;t work, and ultimately build a better product for your target user.&lt;/p&gt;
-
-&lt;p&gt;You can read more about the variety of options when it comes to Rapid Prototyping elsewhere, but here&amp;rsquo;s a brief overview of some of the options:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Paper Prototypes - hand-drawn sketches of what an interface might look like&lt;/li&gt;
-&lt;li&gt;Wizard of Oz - the practice of playing the role of the computer by abstracting future functionality away&lt;/li&gt;
-&lt;li&gt;Testing Your Competitor - before building your solution, see what problems users have with existing solutions&lt;/li&gt;
-&lt;li&gt;Interactive Prototypes - semi-functional software systems users can interact with&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;let-s-talk-about-fidelity-a-name-fidelity-href-fidelity-i-class-ion-link-i-a&#34;&gt;Let&amp;rsquo;s Talk About Fidelity &lt;a name=&#34;fidelity&#34; href=&#34;#fidelity&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;The exact definition of fidelity isn&amp;rsquo;t exactly clear, but it roughly refers to the level of detail your current iteration includes. It&amp;rsquo;s often used in the context of prototyping, but it can refer to existing products as well. Your typical startup MVP is a high-fidelity prototype but a low-fidelity product. Fidelity exists on a &lt;a href=&#34;https://www.smashingmagazine.com/2010/06/design-better-faster-with-rapid-prototyping/#the-prototyping-spectrum&#34;&gt;continuum&lt;/a&gt;, with the lower end including concepts, sketches, and rough wireframes, and the higher end being branded/visually design and interactive prototypes. I&amp;rsquo;ve seen far too many products that jump right into the deep end of fidelity, missing out on all of the potential learning from testing lower fidelity prototypes.&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;img src=&#34;http://bradorego.com/img/posts/dangers-of-tight-iteration/graph.jpg&#34; /&gt;
-&lt;figcaption&gt;&lt;a href=&#34;http://www.uxmatters.com/mt/archives/2010/05/sketches-and-wireframes-and-prototypes-oh-my-creating-your-own-magical-wizard-experience.php&#34;&gt;Credit&lt;/a&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;It might be somewhat contradictory to recommend using a lower level of detail, but you have to &lt;a href=&#34;https://blinkux.com/blog/choosing-the-right-level-of-fidelity-for-your-wireframes/&#34;&gt;match your level of fidelity&lt;/a&gt; to the type of feedback you&amp;rsquo;re looking for. Your users will respond to the fidelity they&amp;rsquo;re given, and their feedback will be colored by this. If you give them paper, they&amp;rsquo;ll talk about things like workflow, high-level design, and desired features. If you give them highly designed (read: Sketch/Photoshop) images, they&amp;rsquo;ll talk about things like color scheme, fonts, and whitespace. If you give them an interactive prototype, they&amp;rsquo;ll talk about things like transitions, interactivity, and performance.&lt;/p&gt;
-
-&lt;p&gt;This graph (and more great coverage of the pluses and minuses of different levels of fidelity) from &lt;a href=&#34;http://www.uxmatters.com/mt/archives/2010/05/sketches-and-wireframes-and-prototypes-oh-my-creating-your-own-magical-wizard-experience.php&#34;&gt;UX Matters&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h1 id=&#34;why-it-matters-a-name-why-href-why-i-class-ion-link-i-a&#34;&gt;Why It Matters &lt;a name=&#34;why&#34; href=&#34;#why&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;It can be intoxicating to set a baseline and watch your numbers improve on whatever metrics you&amp;rsquo;ve set, as you iterate. Arguably, data-informed design is a good thing, especially compared to the alternative. The &lt;a href=&#34;http://adaptivepath.org/ideas/data-informed-not-data-driven-the-subtext/&#34;&gt;problem&lt;/a&gt; is when data starts driving your decisions, and you lose sight of the big picture - improving the experience for the end user. Increased conversions, decreased errors, or more efficient interactions may not necessarily be the most enjoyable experience (e.g. a &lt;a href=&#34;http://www.people.hbs.edu/rbuell/papers/buell_norton_2011.pdf&#34;&gt;wait time&lt;/a&gt; might actually be a &lt;em&gt;good&lt;/em&gt; thing).&lt;/p&gt;
-
-&lt;p&gt;The problem with this approach is it might be honing in on what&amp;rsquo;s known as a local maxima. Naive &lt;a href=&#34;https://en.wikipedia.org/wiki/Hill_climbing&#34;&gt;hill-climbing&lt;/a&gt; algorithms can fall victim to this problem as well. Essentially, you continue to see improvements and make changes until you reach a point where those improvements either diminish entirely or degrade. At this point, traditional wisdom would be to stop working and either a) work on something else, or b) declare yourself victorious and toast your achievement, all the while missing what could be a better solution.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&#34;http://bradorego.com/img/posts/dangers-of-tight-iteration/local-maxima.jpg&#34; /&gt;
-  &lt;figcaption&gt;&lt;a href=&#34;http://www.90percentofeverything.com/2011/01/06/local-maxima-and-the-perils-of-data-driven-design/&#34;&gt;Credit&lt;/a&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;On a philosophical note, I like to think of every design problem (if not every problem in life) as something like the above graphic, except the plane is infinite &amp;ndash; there&amp;rsquo;re always other options, some of which might be better than our current situation if we&amp;rsquo;re just willing to take the leap of faith and try a new approach.&lt;/p&gt;
-
-&lt;h1 id=&#34;fighting-the-local-maxima-a-name-local-href-local-i-class-ion-link-i-a&#34;&gt;Fighting the Local Maxima &lt;a name=&#34;local&#34; href=&#34;#local&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;So now we&amp;rsquo;re aware of the problem and what causes it. That doesn&amp;rsquo;t necessarily tell us what to do about it, though. Here&amp;rsquo;s a great strategy outlined in an article from 2010:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  One strategy we might employ is to optimize until we reach a point of diminishing returns: design until changes just aren’t having a big effect. Then, stop optimizing and return to other kinds of analysis to figure out the next steps. Conduct interviews. Do user testing. Give surveys, ask questions. Find out the biggest existing pain points instead of focusing on tiny design elements at this stage. Focus at the activity-level. What are people trying to accomplish? What are their higher-level goals? What aren’t people doing that we want them to? What big hurdles keep them from taking the next action? This level of insight will allow you to make those bigger changes.
-  &lt;footer&gt;Joshua Porter, &lt;a href=&#34;http://52weeksofux.com/post/694598769/the-local-maximum&#34;&gt;52 Weeks of UX&lt;/a&gt;&lt;/footer&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I couldn&amp;rsquo;t&amp;rsquo;ve said it better myself.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;h3 id=&#34;a-brief-plug&#34;&gt;A brief plug&lt;/h3&gt;
-
-&lt;p&gt;Did you find yourself reading this post and thinking &amp;ldquo;our products have definitely suffered from the wrong type of feedback&amp;rdquo;? Part of the reason this has come up a lot for me is I&amp;rsquo;m looking into a product-manager-as-a-service model. You should &lt;a href=&#34;mailto:bradley.orego@gmail.com&#34;&gt;contact me&lt;/a&gt; if you&amp;rsquo;d like to hear more.&lt;/p&gt;
-</description>
+      <guid>http://bradorego.com/the-dangers-of-tight-iteration/</guid>
+      <description>TL;DNR  Getting a lot of feedback quickly isn&amp;rsquo;t necessarily always the best strategy - having a guiding light is helpful as well. Users react to the level of fidelity of what you show them. You might be missing something if your fidelity doesn&amp;rsquo;t match the issue in the design. Good Product Design (or at least, a good discovery phase/project plan) can alleviate these issues.   
+Before starting a new engagement with a client, I always ask a series of questions about their company, their processes, and the project I&amp;rsquo;ll be working on.</description>
     </item>
     
     <item>
       <title>Product vs Project Management</title>
-      <link>http://bradorego.com/product-vs-project-management</link>
+      <link>http://bradorego.com/product-vs-project-management/</link>
       <pubDate>Wed, 11 May 2016 10:04:17 -0500</pubDate>
       
-      <guid>http://bradorego.com/product-vs-project-management</guid>
-      <description>
-
-&lt;p&gt;&lt;div class=&#34;tldnr&#34;&gt;
-  &lt;h3&gt;TL;DNR&lt;/h3&gt;
-  &lt;ul&gt;
-    &lt;li&gt;There&amp;rsquo;s still a fair amount of confusion between product management and project management. Lots of people do the latter well, but the former is often forgotten/forgone.&lt;/li&gt;
-    &lt;li&gt;Project Management is focused on execution - securing and organizing resources, planning out tasks, and keeping things on track. Velocity. How. When.&lt;/li&gt;
-    &lt;li&gt;Product Management is more about vision - understanding what your users are trying to achieve, having a sense of the big picture, and making sure what&amp;rsquo;s being created fits expectations and needs. Trajectory. What. Why.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-&lt;hr/&gt;&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m &lt;a href=&#34;https://www.brainmates.com.au/brainrants/project-manager-vs-product-manager&#34;&gt;hardly&lt;/a&gt; the &lt;a href=&#34;https://koombea.com/blog/the-difference-between-product-and-project-management/&#34;&gt;first&lt;/a&gt; &lt;a href=&#34;http://radar.oreilly.com/2014/02/building-the-right-thing-vs-building-the-thing-right.html&#34;&gt;person&lt;/a&gt; to write about this (though &lt;a href=&#34;http://www.fastcodesign.com/3055429/how-to-avoid-making-products-no-one-wants&#34;&gt;this article&lt;/a&gt; is particularly relevant/pointed), but it&amp;rsquo;s been coming up a lot for me lately as I think about what I want to do next, work-wise.&lt;/p&gt;
-
-&lt;p&gt;One of the things that I&amp;rsquo;ve seen come up time and time again is the need for a Product Manager. It seems that most companies have a great sense of how to execute, and they&amp;rsquo;re great at the work that they do, but figuring out what they should be doing can be a struggle. This shows up for consulting firms in the form of rework and for product firms in the form of failed product launches. I will always cringe when I think about how much time and money is wasted creating &lt;a href=&#34;https://www.buzzfeed.com/kirstenking/products-literally-no-one-asked-for?utm_term=.glwJ8aEdE#.cf5ekOv5v&#34;&gt;things people don&amp;rsquo;t want&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;So let&amp;rsquo;s talk about some of these differences.&lt;/p&gt;
-
-&lt;h1 id=&#34;project-management-a-name-project-href-project-i-class-ion-link-i-a&#34;&gt;Project Management &lt;a name=&#34;proJect&#34; href=&#34;#proJect&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;&lt;em&gt;Project&lt;/em&gt; - a (often temporary) endeavor undertaken in order to complete a task, achieve a goal, or create a product or service. Casually, a project is just a thing a person or group does to accomplish something.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Project Manager&lt;/em&gt; - the individual responsible for coordinating resources, tasks, and schedule in order to ensure the project is successful. This often includes things like getting stakeholder buy in, securing a budget and/or time, assembling the right team of individuals, picking a methodology (whether agile, waterfall, or anything else), creating a backlog, planning tasks, etc.&lt;/p&gt;
-
-&lt;p&gt;Successful Project Managers are good at getting the right people involved and following up with them to make sure they have everything they need to fulfill their role.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Common Questions&lt;/em&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Who do you need for this project?&lt;/li&gt;
-&lt;li&gt;When will the project be delivered?&lt;/li&gt;
-&lt;li&gt;What is the current project velocity?&lt;/li&gt;
-&lt;li&gt;What can we get in scope given the budget and/or timeline restrictions?&lt;/li&gt;
-&lt;li&gt;In what order will features be implemented?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;product-management-a-name-product-href-product-i-class-ion-link-i-a&#34;&gt;Product Management &lt;a name=&#34;proDuct&#34; href=&#34;#proDuct&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;&lt;em&gt;Product&lt;/em&gt; - a good, service, or tool built in order to solve a problem for a user (or, ideally, users). Casually, a product is something people use.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Product Manager&lt;/em&gt; - the individual responsible for figuring out what the thing is supposed to do and how it&amp;rsquo;s supposed to do that. This may include determining feasibility from a business/financial standpoint, conducting any market and/or user research required to gain insights into who the end user is and what their needs are, defining a set of features to satisfy user needs, creating low-fidelity prototypes in order to communicate feature sets and behaviors, etc.&lt;/p&gt;
-
-&lt;p&gt;Successful Product Managers are good at knowing what role their product serves and for whom, and ideally can align business goals with the needs of the end user.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Common Questions&lt;/em&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Who is the target user? The &lt;a href=&#34;https://www.google.com/search?q=ux+personas&#34;&gt;more specific, the better&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Who is the customer? (this is sometimes different than the user)&lt;/li&gt;
-&lt;li&gt;What are their needs? Wants? Fears?&lt;/li&gt;
-&lt;li&gt;How does this product solve user needs?&lt;/li&gt;
-&lt;li&gt;What is the benefit to the end user, especially compared to their current solution?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;separate-but-equal-a-name-separate-href-separate-i-class-ion-link-i-a&#34;&gt;Separate, but equal? &lt;a name=&#34;separate&#34; href=&#34;#separate&#34;&gt;&lt;i class=&#34;ion-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;Now that we&amp;rsquo;ve defined some of the differences between the two PMs, we can better understand the role each fills, what their concerns are, and why they&amp;rsquo;re important to success.&lt;/p&gt;
-
-&lt;p&gt;Product Managers are going to be talking to a lot of different stakeholders early on in the lifecycle and making sure it makes sense to move forward with a project. Product Managers are going to be doing a lot of the discovery phase of a project, and then stay involved throughout the implementation to make sure what&amp;rsquo;s being built matches the idea (as well as, ideally, running users through interim usability studies to catch any issues that were hard to predict before having an artifact to interact with).&lt;/p&gt;
-
-&lt;p&gt;Project Managers are going to be more involved in the day-to-day of a buildout, having little interaction with the product before that step of the process (sure, it&amp;rsquo;s possible to have a PJM involved through the process in order to have background knowledge but also keep track of resources through the entire lifecycle, but in my experience that&amp;rsquo;s the abnormal case). Project Managers will be focusing on managing expectations of the stakeholders, interfacing with the Product Manager, and securing whatever resources are needed. The Project Manager is also going to be working with the implementation team, making sure they&amp;rsquo;re on task and working well interpersonally.&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href=&#34;
-http://allaboutproductmanagement.blogspot.com/2007/03/project-manager-or-product-manager.html&#34;&gt;classic analogy&lt;/a&gt; is the project manager as a midwife, whereas the product manager is the mother. Project will come in to deliver the baby, but all of the preparation before and all of the care afterwards is up to Product. I like to think of it more like an architect versus a foreman.&lt;/p&gt;
-
-&lt;p&gt;All of the planning, research, and vision is the architect&amp;rsquo;s responsibility, and once the building is done, they&amp;rsquo;re the ones who everyone will look to when the building is successful or not (obviously there&amp;rsquo;s some back and forth with engineering as well in terms of feasibility&amp;hellip;another parallel in software). The foreman is responsible for making sure his team can execute and do what&amp;rsquo;s been planned out, but they&amp;rsquo;re often the unsung heroes of a successful project.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;h3 id=&#34;a-brief-plug&#34;&gt;A brief plug&lt;/h3&gt;
-
-&lt;p&gt;Did you find yourself reading this post and thinking &amp;ldquo;we&amp;rsquo;ve got the project part down, but shoot, having a product person would be great&amp;rdquo;? Part of the reason this has come up a lot for me is I&amp;rsquo;m looking into a product-manager-as-a-service model. You should &lt;a href=&#34;mailto:me@bradorego.com&#34;&gt;contact me&lt;/a&gt; if you&amp;rsquo;d like to hear more.&lt;/p&gt;
-</description>
+      <guid>http://bradorego.com/product-vs-project-management/</guid>
+      <description>TL;DNR  There&amp;rsquo;s still a fair amount of confusion between product management and project management. Lots of people do the latter well, but the former is often forgotten/forgone. Project Management is focused on execution - securing and organizing resources, planning out tasks, and keeping things on track. Velocity. How. When. Product Management is more about vision - understanding what your users are trying to achieve, having a sense of the big picture, and making sure what&amp;rsquo;s being created fits expectations and needs.</description>
     </item>
     
   </channel>
