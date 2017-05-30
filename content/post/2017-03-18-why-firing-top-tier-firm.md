@@ -1,9 +1,9 @@
 {
    "aliases": [
-      "/2016/05/the-dangers-of-tight-iteration"
+      "/2016/03/why-firing-top-tier-firm"
    ],
    "categories": [
-      "User Experience"
+      "Meta"
    ],
    "date": "2017-03-18T14:40:53-05:00",
    "description": "We hired a top-tier product development firm, and now we're firing them for a variety of reasons.",
