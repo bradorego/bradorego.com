@@ -80,13 +80,31 @@ One of my favorite stories to tell from my experience is the blowback I got for 
 
 The other story I tell that I (probably luckily) wasn't around for was when I learned about the concept of a <a href="http://www.movestheneedle.com/blog/enterprise-lean-startup-experiment-examples/">"dry wallet" test</a>. Apparently the team wasn't allowed to actually accept money from interested parties, so they were forced to simply ask if users would pay for something. Conversion is one of the most important metrics for a startup to test, and one of the most powerful to measure conversion is if people will actually give you money (sometimes before you even have a finished product).
 
+While not practical in all cases, I've been advocating for creating separate legal entities (wholly owned by the parent company, of course) with different requirements and guidelines. One of the problems with the dry wallet thing is, due to regulations, we weren't allowed to accept money that wasn't directly tied to the core business. That's a huge problem that could be easily avoided.
+
 # Do: Let Your People Tell Their Story <a name="story" href="#story"><i class="ion-link"></i></a>
-#### Your best asset is your team.
-
-
-# Don't: Let Corporate Culture Corrupt <a name="corporate" href="#corporate"><i class="ion-link"></i></a>
 #### The biggest challenge is attracting and retaining talent.
 
+I was lucky enough, in my time with this team, to witness one of their "off-sites", which is basically a biannual retreat for the company (called an off-site because they do it outside of the innovation office). At the end of the day, the directors got up front and took the last hour as an AMA. One of the questions posed (along with my "why am I the only designer in a team of 50 people?" - but that's a different story) was a fairly generic "what's keeping each of you up at night?"
+
+Three of the five directors responded with some permutation of "attracting and retaining talent", which launched us into a discussion about how we brand ourselves (independent of the corporate identity), how to get the word out about the work we do, and what we can do to tell our story and get people interested. A good discussion, but ultimately fruitless.
+
+Fast forward to SXSW 2017. It turns out, if you register for the event as part of a Fortune 500's corporate innovation (or, as we call it, "Business Development") team, you get noticed. Among other emails we received asking for meetings was an invite to InsureTech ATX's Pre-SXSW meetup. The organizer was looking for a speaker to talk about pretty much anything, but given we were a leader in corporate innovation, he was eager to hear more about what we did.
+
+As I was the most junior member attending SXSW, I deferred to my teammates to take the offer (assuming this is a great opportunity to show off/share some knowledge). When nobody else was interested, I offered to put a talk together about my experience thus far. After getting the thumbs up from my team and an enthusiastic yes from the organizer, I started on my slide deck.
+
+When I finished (on the flight to Austin, mind you), I had the foresight to realize I should get this reviewed. Long story short, it took two reviews for someone to point out that apparently all speaking engagements need to be approved by your supervisor, so I pulled the plug. I also received some feedback that some of the things I was saying weren't very nice, and someone actually posed the question "would you give this if our director was in the room?", to which I emphatically replied "I'd love to sit down and talk to him one-on-one about this".
+
+If you want to empower the talented, driven people you've worked so hard to get, and if you want to be able to attract and retain those people, you need to give them the freedom to do the work they need to do and to tell others about it. Your people are your greatest asset.
+
+# Don't: Let Corporate Culture Corrupt <a name="corporate" href="#corporate"><i class="ion-link"></i></a>
+#### There's no such thing as "that's just how things are here".
+
+My biggest fear when working on this team was whether or not we were shooting ourselves in the foot. There are major opportunities that smaller companies can't address, sure, but that doesn't mean others won't try. Without effective stage-gates in place, and struggling with all of the rules and regulations, we ran into a lot of issues where the agility of an innovation team and the stability of a corporate entity came into conflict.
+
+Approved service providers, approved tools, security reviews; these are all things that slow us down. When the team wanted to switch from HipChat to Slack, there was a major undertaking to review needs and determine if Slack was up to snuff. When the team wanted to try out alternates to JIRA, every new service we wanted to try had to go through a 2-week review process. When an agency we hired wanted to use Google Drive, Trello, Zapier, and Segment, we had to receive a written exemption and had to follow strict guidelines as to what could and couldn't be stored/transmitted with those services.
+
+Any time somebody tried to raise a complaint, the response was basically "that's just how things are here". At the end of the day, everything was being funded by the core business, and the core business has certain requirements and regulations, so as much as we tried to divorce ourselves from the corporate way of thinking and doing, at the end of the day we were still tied down. Couple that with some leftover culture artifacts of meetings, shareouts, email chains, and the ever-present CYA attitude, and you have a recipe for underperformance.
 
 <hr />
 
