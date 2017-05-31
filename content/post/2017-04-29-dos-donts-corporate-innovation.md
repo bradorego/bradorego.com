@@ -72,6 +72,14 @@ Stage gates have the added benefit of preventing <a href="https://hbr.org/2015/0
 # Don't: Let Policy (or Process) Interfere With Progress <a name="policy" href="#policy"><i class="ion-link"></i></a>
 #### Hire good people and get out of their way.
 
+The only stated drawback to using a stage-gate process on the Wikipedia entry is that it creates the oportunity for more bureaucracy and more process to get in the way. While it's possible, as mentioned, I'd encourage giving the team as much freedom as possible (within the confines of the framework, of course). Give them a goal, give them a budget, and get out of the way.
+
+This applies more broadly to any work happening on an innovation team. Your core business (and the rest of the company) likely have a set of policies, procedures, and requirements that govern what they do and how they can work. Large organizations survive on policy; you can't honestly expect that many people to be able to work together cohesively without predefined rules and methods of interaction. However, when you're trying to be agile, these policies are a major handicap.
+
+One of my favorite stories to tell from my experience is the blowback I got for putting together a few landing pages and Facebook ads. As the story goes, we were A/B testing a handful of different product ideas and marketing content, measuring which got the best clickthrough, engagement, and conversion rates. When I made an offhand comment about it at a weekly status update, our security representation nearly had a conniption. The fact that we had "properties" on the internet that hadn't been reviewed, and that we were using services to host them that weren't approved, and that we were collecting emails and passing/storing them somewhere that wasn't secure, was enough to put an end to the entire exercise. One of the most basic and rudimentary exercises in startupland (which should take a few hours, max) was ground to a halt, incurring over 2 weeks worth of meetings, reviews, and approvals.
+
+The other story I tell that I (probably luckily) wasn't around for was when I learned about the concept of a <a href="http://www.movestheneedle.com/blog/enterprise-lean-startup-experiment-examples/">"dry wallet" test</a>. Apparently the team wasn't allowed to actually accept money from interested parties, so they were forced to simply ask if users would pay for something. Conversion is one of the most important metrics for a startup to test, and one of the most powerful to measure conversion is if people will actually give you money (sometimes before you even have a finished product).
+
 # Do: Let Your People Tell Their Story <a name="story" href="#story"><i class="ion-link"></i></a>
 #### Your best asset is your team.
 
