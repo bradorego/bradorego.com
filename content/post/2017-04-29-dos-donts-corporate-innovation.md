@@ -30,14 +30,14 @@
 </div>
 <hr/>
 
-As some of you may know, I've been spending some time working in the corporate innovation team of a Fortune 500 company. I was hesitant to take the role consdering I've spent the majority of my career with early stage startups, but the opportunity seemed interesting and worth exploring. After 6 months, I've learned that, while my hesitations were warranted, there's also a lot of potential.
+As some of you may know, I've been spending some time working in the corporate innovation team of a Fortune 500 company. I was hesitant to take the role considering I've spent the majority of my career with early stage startups, but the opportunity seemed interesting and worth exploring. After 6 months, I've learned that, while my hesitations were warranted, there's also a lot of potential.
 
-This post is going to serve as a sort of stand-in for a talk I was going to give at InsureTechATX on the eve of this year's SXSW. Why this is necessary will come up later.
+This post is going to serve as a sort of stand-in for a talk I was going to give at [InsureTechATX](https://www.meetup.com/InsureTech-ATX/) on the eve of this year's SXSW. Why this is necessary will come up later.
 
 # Do: Provide Resources <a name="resources" href="#resources"><i class="ion-link"></i></a>
 #### But don't limit yourself to thinking "resource" === "money".
 
-During the first conversation I had with my manager-to-be when discussing long-term plans, he dropped something casually in conversation that I nearly fell out of my chair over. Essentially, they had plans to acquire up to 3 companies at an up to 9 figure pricetag each. When he noticed my look of incredulity, he added "Oh, don't worry. You'll get used to that here."
+During the first conversation I had with my manager-to-be when discussing long-term plans, he dropped something casually in conversation that I nearly fell out of my chair over. Essentially, they had plans to acquire up to 3 companies at an up to 9 figure price tag each. When he noticed my look of incredulity, he added "Oh, don't worry. You'll get used to that here."
 
 
 <figure>
@@ -63,16 +63,16 @@ Another thing that came up was the ability to purchase data sets (or data stream
 
 One of the dangers of having so much resource available is that it's easy to feel too comfortable, and it's easy for people to fall back into old ways of being, thinking, and doing. When you have newcomers join the team, and they have different ways of thinking or working, this can cause tension. Creating a culture of transparency, openness, and candor is how you fight this.
 
-In the startup world, this way of thinking is almost assumed due to the pressures and deadlines being exerted on the company. There's no time for glad-handing or making sure you <a href="https://www.google.com/search?q=CYA">CYA</a> when everything is on fire. If someone isn't doing something they need to (or is doing something they don't need to), it becomes immediately apparent.
+In the startup world, this way of thinking is almost assumed due to the pressures and deadlines being exerted on the company. There's no time for glad-handing or making sure you [CYA](https://www.google.com/search?q=CYA) when everything is on fire. If someone isn't doing something they need to (or is doing something they don't need to), it becomes immediately apparent.
 
 Obviously there's something to be said about tact, but if you hire good people (see below), you can assume if they're saying something it's for the benefit of the company and of the team. Don't let a culture creep up where fragile egos (or, even worse, apathy) get in the way of progress and growth. Encourage your team to question everything and to always be pushing themselves and each other.
 
 # Do: Set Deadlines, Goals, and Incentives <a name="goals" href="#goals"><i class="ion-link"></i></a>
 #### Accountability is key. Stage gating is your friend.
 
-When there are no external deadlines and no burn rate to keep a team motivated, it can be easy to let things slide and to become complacent. Complacency is the death of a startup. By definining what exactly the goal of each activity is and setting clear expectations, not only can you keep everyone moving forward, but in many ways this helps getting out of people's ways (see below).
+When there are no external deadlines and no burn rate to keep a team motivated, it can be easy to let things slide and to become complacent. Complacency is the death of a startup. By defining what exactly the goal of each activity is and setting clear expectations, not only can you keep everyone moving forward, but in many ways this helps getting out of people's ways (see below).
 
-One of the things I was introduced to (although we didn't implement) was the concept of <a href="https://en.wikipedia.org/wiki/Phase-gate_process">stage-/phase-gating</a>. Essentially, you define a set of goals, a set timeframe, and a budget for whatever phase (or stage) the team/product is currently in. By doing so, you make it clear what the objective is and what resources (time, money, people) the team has available to achieve those goals. If there are any further requirements, you can lay those out at this point as well, but I would recommend being as flexible with these as possible.
+One of the things I was introduced to (although we didn't implement) was the concept of [stage-/phase-gating](https://en.wikipedia.org/wiki/Phase-gate_process). Essentially, you define a set of goals, a set time frame, and a budget for whatever phase (or stage) the team/product is currently in. By doing so, you make it clear what the objective is and what resources (time, money, people) the team has available to achieve those goals. If there are any further requirements, you can lay those out at this point as well, but I would recommend being as flexible with these as possible.
 
 
 <figure>
@@ -84,18 +84,18 @@ If the team achieves the goals by the given date, they are successful, and you m
 
 You can also tie incentives to those stage gates. In traditional settings, it's easy to define whether someone is under- or outperforming their peers. On an innovation team, this is harder to identify. Instead of focusing on the individual, reward the entire team for achieving a goal, especially if they do so without spending all of the budget they were allotted.
 
-Stage gates have the added benefit of preventing <a href="https://hbr.org/2015/03/zombie-projects-how-to-find-them-and-kill-them">zombie projects</a> (another term I discovered in the corporate world). If every project has a specific set of goals and timeline, the opportunity for projects to continue on without end is severely curtailed.
+Stage gates have the added benefit of preventing [zombie projects](https://hbr.org/2015/03/zombie-projects-how-to-find-them-and-kill-them) (another term I discovered in the corporate world). If every project has a specific set of goals and timeline, the opportunity for projects to continue on without end is severely curtailed.
 
 # Don't: Let Policy (or Process) Interfere With Progress <a name="policy" href="#policy"><i class="ion-link"></i></a>
 #### Hire good people and get out of their way.
 
-The only stated drawback to using a stage-gate process on the Wikipedia entry is that it creates the oportunity for more bureaucracy and more process to get in the way. While it's possible, as mentioned, I'd encourage giving the team as much freedom as possible (within the confines of the framework, of course). Give them a goal, give them a budget, and get out of the way.
+The only stated drawback to using a stage-gate process on the Wikipedia entry is that it creates an opening for more bureaucracy and more process to get in the way. While it's possible, as mentioned, I'd encourage giving the team as much freedom as possible (within the confines of the framework, of course). Give them a goal, give them a budget, and get out of the way.
 
 This applies more broadly to any work happening on an innovation team. Your core business (and the rest of the company) likely have a set of policies, procedures, and requirements that govern what they do and how they can work. Large organizations survive on policy; you can't honestly expect that many people to be able to work together cohesively without predefined rules and methods of interaction. However, when you're trying to be agile, these policies are a major handicap.
 
 One of my favorite stories to tell is the blowback I got for publishing a few landing pages without prior approval. As the story goes, we were A/B testing a handful of different product ideas and marketing content, measuring which got the best clickthrough, engagement, and conversion rates. When I made an offhand comment about it at a weekly status update, our security representative nearly had a conniption. The fact that we had "properties" on the internet that hadn't been reviewed, and that we were using services to host them that weren't approved, and that we were collecting emails and passing/storing them somewhere that wasn't secure, was enough to put an end to the entire exercise. One of the most basic and rudimentary exercises in startupland (which should take a few hours, max) was ground to a halt, incurring over 2 weeks worth of meetings, reviews, and approvals.
 
-The other story I tell that I (probably luckily) wasn't around for was when I learned about the concept of a <a href="http://www.movestheneedle.com/blog/enterprise-lean-startup-experiment-examples/">"dry wallet" test</a>. Apparently the team wasn't allowed to actually accept money from interested parties, so they were forced to simply ask if users would pay for something. Conversion is one of the most important metrics for a startup to test, and one of the most powerful to measure conversion is if people will actually give you money (sometimes before you even have a finished product). There’s a big difference between someone saying they’ll give you $20 and someone actually giving you $20.
+The other story I tell that I (probably luckily) wasn't around for was when I learned about the concept of a ["dry wallet" test](http://www.movestheneedle.com/blog/enterprise-lean-startup-experiment-examples/). Apparently the team wasn't allowed to actually accept money from interested parties, so they were forced to simply ask if users would pay for something. Conversion is one of the most important metrics for a startup to test, and one of the most powerful to measure conversion is if people will actually give you money (sometimes before you even have a finished product). There’s a big difference between someone saying they’ll give you $20 and someone actually giving you $20.
 
 <figure>
   <img src="/img/posts/dos-donts-corporate-innovation/twenty-dollars.jpg" />
@@ -126,17 +126,17 @@ If you want to empower the talented, driven people you've worked so hard to get,
 # Don't: Let Corporate Culture Corrupt <a name="corporate" href="#corporate"><i class="ion-link"></i></a>
 #### There's no such thing as "that's just how things are here".
 
-My biggest fear when working on this team was whether or not we were shooting ourselves in the foot. There are major opportunities that smaller companies can't address, sure, but that doesn't mean others won't try. Without effective stage-gates in place, and struggling with all of the rules and regulations, we ran into a lot of issues where the agility of an innovation team came into conflict with the stability of a corporate entity.
+My biggest fear when working on this team was if we were shooting ourselves in the foot. There are major opportunities that smaller companies can't address, sure, but that doesn't mean others won't try. Without effective stage-gates in place, and struggling with all of the rules and regulations, we ran into a lot of issues where the agility of an innovation team came into conflict with the stability of a corporate entity.
 
 <figure>
   <img src="https://media.giphy.com/media/EizPK3InQbrNK/giphy.gif" />
   <figcaption><a href="https://giphy.com/gifs/EizPK3InQbrNK">Credit</a></figcaption>
 </figure>
 
-Approved service providers, approved tools, security reviews; these are all things that slowed us down. When the team wanted to switch from HipChat to Slack, there was a major undertaking to review needs and determine if Slack was up to snuff. When the team wanted to try out alternates to JIRA, every new service we wanted to try had to go through a 2-week review process. When an agency we hired wanted to use Google Drive, Trello, Zapier, and Segment, we had to receive a written exemption and had to follow strict guidelines as to what could and couldn't be stored/transmitted with those services. The team had a 20-page document laying out what services were approved and for what use. There were exactly 4 providers approved to store PII.
+Approved service providers, approved tools, security reviews; these are all things that slowed us down. When the team wanted to switch from HipChat to Slack, there was a major undertaking to review needs and determine if Slack was up to snuff. When the team wanted to try out alternates to JIRA, every new service we wanted to try had to go through a 2-week review process. When an [agency we hired](http://bradorego.com/why-were-firing-a-top-tier-product-development-firm/) wanted to use Google Drive, Trello, Zapier, and Segment, we had to receive a written exemption and had to follow strict guidelines as to what could and couldn't be stored/transmitted with those services. The team had a 20-page document laying out what services were approved and for what use. There were exactly 3 providers (AWS, Microsoft, or our own data center; yep, no Google products allowed) approved to store PII.
 
 Any time somebody tried to raise a complaint, the response was basically "that's just how things are here". At the end of the day, everything was being funded by the core business, and the core business has certain requirements and regulations, so as much as we tried to divorce ourselves from the corporate way of thinking and doing, at the end of the day we were still tied down. Couple that with some leftover culture artifacts of meetings, shareouts, email chains, and the ever-present CYA attitude, and you have a recipe for underperformance.
 
 <hr />
 
-I haven't decided if this brief foray into corporate innovation will be my last, but hopefully the shock of coming from the wild west of early stage startupland into a corporate environment has opened some eyes and bring about change. I'm always happy to talk about my experience if anyone's interested. Feel free to <a href="mailto:me@bradorego.com">reach out</a>.
+I haven't decided if this brief foray into corporate innovation will be my last, but hopefully the shock of coming from the wild west of early stage startupland into a corporate environment has opened some eyes and bring about change. I'm always happy to talk about my experience if anyone's interested. Feel free to [reach out](mailto:me@bradorego.com).
