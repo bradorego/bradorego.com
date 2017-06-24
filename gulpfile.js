@@ -87,5 +87,6 @@ gulp.task('build', ['deploy']);
 gulp.task('deploy', ['remove-public', 'uglifyjs-deploy', 'uglifycss-deploy'], function () {
   exec('hugo');
   sleep.sleep(2000);
+  del.sync(prodRoot + '/less');
   return gulp.start('minify');
 });
