@@ -11,6 +11,8 @@ var gulp = require('gulp'),
   cssRoot = devRoot + '/css',
   prodRoot = './public',
   exec = require('child_process').exec,
+  minifyHTML = require("gulp-minify-html"),
+  sleep = require('sleep'),
   htmlmin = require('gulp-htmlmin');
 
 // define tasks here
@@ -53,7 +55,7 @@ gulp.task('concat-css', function () {
 
 gulp.task('minify', function() {
   return gulp.src(prodRoot + '/**/*.html')
-    .pipe(htmlmin({collapseWhitespace: true}))
+    .pipe(minifyHTML({"empty": true}))
     .pipe(gulp.dest(prodRoot));
 });;
 
@@ -83,5 +85,7 @@ gulp.task('remove-public', function () {
 gulp.task('build', ['deploy']);
 
 gulp.task('deploy', ['remove-public', 'uglifyjs-deploy', 'uglifycss-deploy'], function () {
-  return exec('hugo');
+  exec('hugo');
+  sleep.sleep(2000);
+  return gulp.start('minify');
 });
