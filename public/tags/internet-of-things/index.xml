@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Product Design on bradorego.com</title>
-    <link>http://bradorego.com/tags/product-design/</link>
-    <description>Recent content in Product Design on bradorego.com</description>
+    <title>Internet Of Things on bradorego.com</title>
+    <link>http://bradorego.com/tags/internet-of-things/</link>
+    <description>Recent content in Internet Of Things on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 15 May 2017 11:53:22 -0500</lastBuildDate>
     
-	<atom:link href="http://bradorego.com/tags/product-design/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://bradorego.com/tags/internet-of-things/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,15 +19,6 @@
       <guid>http://bradorego.com/ux-considerations-for-iot/</guid>
       <description>TL;DNR  Latency and reliability can be a major issue. You should include some sort of manual control (interface or cable). Tech literacy is another concern, especially as IoT products continue to move into the home and gain mainstream adoption. Be aware of your brand experience across all communication modalities (print, mobile, physical).   
 Internet of Things (IoT) has been all the rage for a hot second as more and more companies try to bring their devices online and increase access (and functionality) to customers, but it&amp;rsquo;s far too easy for things to go wrong.</description>
-    </item>
-    
-    <item>
-      <title>Clean Clear Waters</title>
-      <link>http://bradorego.com/case-study/clean-clear-waters/</link>
-      <pubDate>Mon, 14 Apr 2014 15:10:54 -0500</pubDate>
-      
-      <guid>http://bradorego.com/case-study/clean-clear-waters/</guid>
-      <description>About One of the many projects I&amp;rsquo;ve been involed with via 100state was one in collaboration with the Clean Lakes Alliance, a non-profit &amp;ldquo;dedicated to the improvement and protection of the lakes, streams, and wetlands of the Yahara Watershed&amp;rdquo;. One of their initiatives involves soliciting volunteers to collect data about water quality nearby their homes and places of work in order to monitor and gain insight on the water.</description>
     </item>
     
   </channel>
