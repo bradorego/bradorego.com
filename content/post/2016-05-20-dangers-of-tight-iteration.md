@@ -29,7 +29,8 @@
     <li>Good Product Design (or at least, a good discovery phase/project plan) can alleviate these issues.</li>
   </ul>
 </div>
-<hr/>
+
+---
 
 Before starting a new engagement with a client, I always ask a series of questions about their company, their processes, and the project I'll be working on. One of those questions asks how they're currently handling user research and product design and I'm often told they "have a tight feedback loop" and that's all they have to say.
 
@@ -87,7 +88,7 @@ So now we're aware of the problem and what causes it. That doesn't necessarily t
 
 I couldn't've said it better myself.
 
-<hr/>
+---
 
 ### A brief plug
 

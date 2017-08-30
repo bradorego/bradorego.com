@@ -28,7 +28,8 @@
     <li>Product Management is more about vision - understanding what your users are trying to achieve, having a sense of the big picture, and making sure what's being created fits expectations and needs. Trajectory. What. Why.</li>
   </ul>
 </div>
-<hr/>
+
+---
 
 I'm <a href="https://www.brainmates.com.au/brainrants/project-manager-vs-product-manager">hardly</a> the <a href="https://koombea.com/blog/the-difference-between-product-and-project-management/">first</a> <a href="http://radar.oreilly.com/2014/02/building-the-right-thing-vs-building-the-thing-right.html">person</a> to write about this (though <a href="http://www.fastcodesign.com/3055429/how-to-avoid-making-products-no-one-wants">this article</a> is particularly relevant/pointed), but it's been coming up a lot for me lately as I think about what I want to do next, work-wise.
 
@@ -81,7 +82,7 @@ http://allaboutproductmanagement.blogspot.com/2007/03/project-manager-or-product
 
 All of the planning, research, and vision is the architect's responsibility, and once the building is done, they're the ones who everyone will look to when the building is successful or not (obviously there's some back and forth with engineering as well in terms of feasibility...another parallel in software). The foreman is responsible for making sure his team can execute and do what's been planned out, but they're often the unsung heroes of a successful project.
 
-<hr/>
+---
 
 ### A brief plug
 

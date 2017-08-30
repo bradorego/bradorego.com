@@ -25,7 +25,8 @@
     <li>New products create opportunities for new experiences.</li>
   </ul>
 </div>
-<hr/>
+
+---
 
 A little over a month ago (technically during the <a href="https://www.hackerleague.org/hackathons/foursquare-hackathon-2013">Foursquare Hackathon</a>, but I was working from home due to <a href="http://midwestultimate.com/red-eye">Red Eye</a>) I spent a few hours one weekend hacking together an idea I'd come up with when working on Foursquare integration for <a href="http://gettrinker.com">Trinker</a>. What I discovered while playing with the <a href="https://developer.foursquare.com/overview/venues">Venues API</a> is that with one query, you can get all of the information about a bunch of different venues (I think it tops out at 30). Part of that information is, of course, the location (latitude, longitude, address), and another interesting data point: the `hereNow` value.
 

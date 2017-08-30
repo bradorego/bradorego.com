@@ -25,7 +25,8 @@
     <li>Empower your users and they'll empower you.</li>
   </ul>
 </div>
-<hr/>
+
+---
 
 Dear OkCupid,
 

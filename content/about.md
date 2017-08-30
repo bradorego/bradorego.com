@@ -10,10 +10,10 @@ Brad Orego is an Experience Designer, Web Developer, Entrepreneur, and Dancer cu
 
 Brad is a graduate of the <a href="http://rochester.edu/">University of Rochester</a> with a B.S. in Computer Science, a B.A. in Psychology, and minors in Spanish and Dance. Brad spends his time wearing many hats. He spends his days working with Madison-based startups and small businesses, participates in entrepreneurial events and hackathons, dances with <a href="http://kanopydance.org">Kanopy Dance Company</a>, curls at the <a href="http://madisoncurlingclub.com">Madison Curling Club</a>, plays ultimate frisbee, runs, bikes, homebrews as a proud member of <a href="http://mhtg.org">MHTG</a>, <a href="http://beerbatterbreakfast.com/">makes and blogs about beer-batter pancakes</a>, makes pretentiously long lists of his activities, and even plays old video games from time to time.
 
-<hr/>
+---
 
 If you're <a href="http://www.sean-johnson.com/why-you-should-burn-your-resume/">unfortunate enough</a> to be looking for a r&eacute;sum&eacute;, you can find that <a href="/resume" target="_self">here</a>.
 
-<hr/>
+---
 
 <small>Dance photography on bradorego.com courtesy of <a href="http://www.shawnharper.net/">Shawn Harper</a>, <a href="http://matznerphotography.com/">Matzner Photography</a>, and <a href="http://kanopydance.org">Kanopy Dance</a>.</small>

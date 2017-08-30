@@ -21,7 +21,8 @@
     <li>Beware of the gotchas. There are always gotchas.</li>
   </ul>
 </div>
-<hr/>
+
+---
 
 <em>Note: This blog post is the long-form answer to <a href="http://stackoverflow.com/questions/20574938/progressive-enhancement-with-phonegap">this StackOverflow post</a> I made about it (which is, at the time of writing, the #1 Google result for "progressive enhancement phonegap"). Also worth noting this guide only addresses Android right now. Doing so for iOS should follow the same methodology though.</em>
 

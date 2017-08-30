@@ -29,7 +29,8 @@
     <li>Trust is your most powerful tool. Get a bunch of good people together, point them in a direction, and get out of the way.</li>
   </ul>
 </div>
-<hr/>
+
+---
 
 One of the myriad benefits of having spent so much time working as a contractor is the variety of cultures, work practices, and methodologies employed by various companies. I've seen dozens of companies succeed and fail first-hand, and I've learned a lot about what works well and what doesn't, both for the company and for the team members.
 

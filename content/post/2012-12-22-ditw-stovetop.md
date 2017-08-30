@@ -28,7 +28,8 @@
     <li>Just because people are used to a certain design/solution does not mean it's the optimal. Don't be afraid to start from scratch.</li>
   </ul>
 </div>
-<hr/>
+
+---
 
 Sometimes we come across things that, until we see an alternative, we don't realize there's something better than the current option. I had this direct experience when I moved into my current apartment in August, and tried to cook for the first time.
 

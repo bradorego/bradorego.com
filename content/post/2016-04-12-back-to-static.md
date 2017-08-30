@@ -20,7 +20,8 @@
     <li>It's okay to borrow aesthetics/technologies/designs from others.</li>
   </ul>
 </div>
-<hr/>
+
+---
 
 As you might be able to tell, my last blog post is from 2014. It was about time to get back on the blog horse but also give the site a little facelift. I'd <a href="http://beerbatterbreakfast.com/2014/07/fancy-new-blog.html">migrated blog platforms</a> in the past, but never really took the time to think about how my own personal site was hosted. So let's take a quick trip down memory lane.
 

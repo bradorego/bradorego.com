@@ -20,7 +20,8 @@
     <li>Context matters: Users are no longer in a room at a desk on a computer.</li>
   </ul>
 </div>
-<hr/>
+
+---
 
 With all the talk about unplugging, disconnecting, screen time, and going "off the grid", there's clearly been a shift in the way we interact with technology and the implications it has for society (as well as possibly our mental health). The <a href="http://nationaldayofunplugging.com/">National Day of Unplugging</a> is dedicated to people spending ~24 hours (sundown to sundown) without engaging with technology under the premise of doing things like being more present, destressing, etc. While I could go on about how something meant to help us has become this burden of sorts, I'm more interested in the implications (from an experiential standpoint) of being forever-on.
 

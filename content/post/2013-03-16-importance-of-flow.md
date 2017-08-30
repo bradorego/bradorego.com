@@ -23,7 +23,8 @@
     <li>Desiging user experiences that encourage flow are good.</li>
   </ul>
 </div>
-<hr/>
+
+---
 
 I've become more and more interested in <a href="http://en.wikipedia.org/wiki/Flow_(psychology)">Flow </a>recently. As a psych major, flow is something I've been aware of for a long time, but I always thought of it as something that just happens, and never gave it much thought. It wasn't until an unrelated talk by former psych professor <a href="http://www.psych.rochester.edu/people/deci_edward/index.html">Ed Deci</a> I was listening to a few months ago that got me thinking about flow in the context of UX.
 

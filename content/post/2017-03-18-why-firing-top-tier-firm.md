@@ -28,7 +28,8 @@
     <li>If you want something done right, sometimes you have to do it yourself. Just because it has a corporate name tag doesn't mean there aren't talented people.</li>
   </ul>
 </div>
-<hr/>
+
+---
 
 Some of the work I've been doing recently has been with what's known as the Business Development branch of a large company. Basically, it's like a handful of small startups with a Fortune 500 budget, or something I've come to learn is called "corporate innovation".
 
@@ -113,7 +114,7 @@ What I would love would be to have an entire team on the inside that we could pa
 
 Bringing all of that in house would increase quality, decrease turnaround time (especially considering you would eliminate all sourcing and negotiation time, which has easily added months to our timeline), and decrease costs. This is the plan I've been advocating for us to take and is by far the most common recommendation I make to others in similar circumstances.
 
-<hr/>
+---
 
 ### A brief plug
 

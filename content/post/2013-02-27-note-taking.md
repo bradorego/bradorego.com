@@ -25,7 +25,8 @@
     <li>Limit the number of choices a user has to (or has the opportunity to) make. Choose smart defaults and hide most options.</li>
   </ul>
 </div>
-<hr/>
+
+---
 
 I have a habit when it comes to books. When I read a book, I almost always underline/take notes in the margin. I started doing so sometime in high school, when Literature teachers started telling us it was okay to write in books. The practice carried me through my studies, and I've enjoyed it so much it's spilled over into my personal/leisure reading (mind you, all of my leisure reading is non-fiction). You can actually tell which books in my personal collection were books I really enjoyed/valued based on how heavily marked up they are.
 

@@ -27,7 +27,8 @@
     <li>The end result: <a href="http://mcbw.herokuapp.com">Better MCBW</a></li>
   </ul>
 </div>
-<hr/>
+
+---
 
 # Backstory <a name="backstory" href="#backstory"><i class="ion-link"></i></a>
 

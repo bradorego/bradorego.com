@@ -29,7 +29,8 @@
     <li>Be aware of your brand experience across all communication modalities (print, mobile, physical).</li>
   </ul>
 </div>
-<hr/>
+
+---
 
 Internet of Things (IoT) has been all the rage for a hot second as more and more companies try to bring their devices online and increase access (and functionality) to customers, but it's far too easy for things to go wrong. After working through these problems on a few projects and seeing the same issues come up, I figured it's about time to write out some of the main things to consider when designing for IoT.
 

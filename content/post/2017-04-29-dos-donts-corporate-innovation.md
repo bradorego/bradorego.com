@@ -28,7 +28,8 @@
     <li>Culture and environment are the most important things to define and develop in these settings. Don't settle, and don't let corporate culture interfere.</li>
   </ul>
 </div>
-<hr/>
+
+---
 
 As some of you may know, I've been spending some time working in the corporate innovation team of a Fortune 500 company. I was hesitant to take the role considering I've spent the majority of my career with early stage startups, but the opportunity seemed interesting and worth exploring. After 6 months, I've learned that, while my hesitations were warranted, there's also a lot of potential.
 
