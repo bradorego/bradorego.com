@@ -78,13 +78,13 @@ gulp.task('deploy-img', function () {
     .pipe(gulp.dest(prodRoot + '/img'));
 });
 
-gulp.task('remove-public', function () {
+gulp.task('clean', function () {
   return del.sync([prodRoot]);
 });
 
 gulp.task('build', ['deploy']);
 
-gulp.task('deploy', ['remove-public', 'uglifyjs-deploy', 'uglifycss-deploy'], function () {
+gulp.task('deploy', ['clean', 'uglifyjs-deploy', 'uglifycss-deploy'], function () {
   exec('hugo');
   sleep.sleep(2000);
   del.sync(prodRoot + '/less');
