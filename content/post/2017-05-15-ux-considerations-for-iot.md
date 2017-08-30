@@ -94,6 +94,6 @@ It might not seem like much, but the more you can do to make the experience feel
 
 <hr />
 
-I truly believe in the power of IoT (when done right) to bring delightful experiences to users. If you're working on (or thinking about) creating something new or bringing an existing product online, feel free to [reach out](mailto:me@bradorego.com) and let's chat about how to make that experience the best it can.
+I truly believe in the power of IoT (when done right) to bring delightful experiences to users. If you're working on (or thinking about) creating something new or bringing an existing product online, feel free to [reach out](mailto:me@bradorego.com?subject=UX%20%for%20IoT) and let's chat about how to make that experience the best it can.
 
 P.S. If you're in need of a good laugh when it comes to IoT blunders, check out [Internet of Shit](https://twitter.com/internetofshit) on Twitter.

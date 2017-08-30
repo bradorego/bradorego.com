@@ -140,4 +140,4 @@ Any time somebody tried to raise a complaint, the response was basically "that's
 
 <hr />
 
-I haven't decided if this brief foray into corporate innovation will be my last, but hopefully the shock of coming from the wild west of early stage startupland into a corporate environment has opened some eyes and bring about change. I'm always happy to talk about my experience if anyone's interested. Feel free to [reach out](mailto:me@bradorego.com).
+I haven't decided if this brief foray into corporate innovation will be my last, but hopefully the shock of coming from the wild west of early stage startupland into a corporate environment has opened some eyes and bring about change. I'm always happy to talk about my experience if anyone's interested. Feel free to [reach out](mailto:me@bradorego.com?subject=Corporate%20Innovation).

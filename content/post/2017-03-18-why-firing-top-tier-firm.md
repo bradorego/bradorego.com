@@ -116,6 +116,4 @@ Bringing all of that in house would increase quality, decrease turnaround time (
 
 ---
 
-### A brief plug
-
-Do you have similar experiences to share? Are you in a similar situation, trying to decide how to move forward with a project and who to hire? Trying to build your own in house team? I'd be happy to talk more about it (and hopefully be able to help)! <a href="mailto:me@bradorego.com">Let's chat</a>.
+Do you have similar experiences to share? Are you in a similar situation, trying to decide how to move forward with a project and who to hire? Trying to build your own in house team? I'd be happy to talk more about it (and hopefully be able to help)! <a href="mailto:me@bradorego.com?subject=Hiring%20vs%20In-House">Let's chat</a>.

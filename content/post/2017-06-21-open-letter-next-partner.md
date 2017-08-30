@@ -99,5 +99,5 @@ Nothing, and I mean nothing, can kill performance and motivation like having tea
 
 <hr />
 
-Obviously this isn't an exhaustive list, but I wanted to get some thoughts out around what I look for when considering new opportunities, as well as things I've learned that seem to work well. I'd love to [chat more](mailto:me@bradorego.com) about these points and more, and to see how we can improve your company's work environment.
+Obviously this isn't an exhaustive list, but I wanted to get some thoughts out around what I look for when considering new opportunities, as well as things I've learned that seem to work well. I'd love to [chat more](mailto:me@bradorego.com?subject=Open%20Love%20Letter) about these points and more, and to see how we can improve your company's work environment.
 
