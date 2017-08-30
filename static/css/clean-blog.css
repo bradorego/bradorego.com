@@ -158,6 +158,9 @@ p {
 p a {
   text-decoration: underline;
 }
+.tldnr {
+  margin-top: 20px;
+}
 .tldnr a {
   text-decoration: underline;
 }
