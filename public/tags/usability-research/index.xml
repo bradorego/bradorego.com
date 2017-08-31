@@ -6,10 +6,19 @@
     <description>Recent content in Usability Research on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Apr 2016 15:11:33 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 30 Aug 2017 15:58:43 -0500</lastBuildDate>
     
 	<atom:link href="http://bradorego.com/tags/usability-research/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Usability Research Checklist</title>
+      <link>http://bradorego.com/usability-research-checklist/</link>
+      <pubDate>Wed, 30 Aug 2017 15:58:43 -0500</pubDate>
+      
+      <guid>http://bradorego.com/usability-research-checklist/</guid>
+      <description>TL;DNR  A lot more goes into designing and running your own usability tests than people typically think. Being properly prepared can be the difference between great success and catastrophic failure for your user research. Don&#39;t underestimate how much time, energy, and resource setting up a proper usability study takes.   MobileIgniter asked me to put together a checklist of everything needed to properly set up and run studies in a usability lab.</description>
+    </item>
     
     <item>
       <title>MobileIgniter</title>

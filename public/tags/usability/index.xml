@@ -6,10 +6,19 @@
     <description>Recent content in Usability on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 22 Dec 2012 14:21:58 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 30 Aug 2017 15:58:43 -0500</lastBuildDate>
     
 	<atom:link href="http://bradorego.com/tags/usability/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Usability Research Checklist</title>
+      <link>http://bradorego.com/usability-research-checklist/</link>
+      <pubDate>Wed, 30 Aug 2017 15:58:43 -0500</pubDate>
+      
+      <guid>http://bradorego.com/usability-research-checklist/</guid>
+      <description>TL;DNR  A lot more goes into designing and running your own usability tests than people typically think. Being properly prepared can be the difference between great success and catastrophic failure for your user research. Don&#39;t underestimate how much time, energy, and resource setting up a proper usability study takes.   MobileIgniter asked me to put together a checklist of everything needed to properly set up and run studies in a usability lab.</description>
+    </item>
     
     <item>
       <title>DITW: Stovetop</title>
@@ -17,8 +26,7 @@
       <pubDate>Sat, 22 Dec 2012 14:21:58 -0500</pubDate>
       
       <guid>http://bradorego.com/ditw-stovetop/</guid>
-      <description>TL;DNR  Sometimes things we interact with in the physical world are poorly designed. Direct mapping makes a lot more sense, and should be used whenever/wherever possible. Just because people are used to a certain design/solution does not mean it&amp;rsquo;s the optimal. Don&amp;rsquo;t be afraid to start from scratch.   
-Sometimes we come across things that, until we see an alternative, we don&amp;rsquo;t realize there&amp;rsquo;s something better than the current option.</description>
+      <description>TL;DNR  Sometimes things we interact with in the physical world are poorly designed. Direct mapping makes a lot more sense, and should be used whenever/wherever possible. Just because people are used to a certain design/solution does not mean it&#39;s the optimal. Don&#39;t be afraid to start from scratch.   Sometimes we come across things that, until we see an alternative, we don&amp;rsquo;t realize there&amp;rsquo;s something better than the current option.</description>
     </item>
     
   </channel>

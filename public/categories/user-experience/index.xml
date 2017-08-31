@@ -6,10 +6,19 @@
     <description>Recent content in User Experience on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 May 2017 11:53:22 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 30 Aug 2017 15:58:43 -0500</lastBuildDate>
     
 	<atom:link href="http://bradorego.com/categories/user-experience/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Usability Research Checklist</title>
+      <link>http://bradorego.com/usability-research-checklist/</link>
+      <pubDate>Wed, 30 Aug 2017 15:58:43 -0500</pubDate>
+      
+      <guid>http://bradorego.com/usability-research-checklist/</guid>
+      <description>TL;DNR  A lot more goes into designing and running your own usability tests than people typically think. Being properly prepared can be the difference between great success and catastrophic failure for your user research. Don&#39;t underestimate how much time, energy, and resource setting up a proper usability study takes.   MobileIgniter asked me to put together a checklist of everything needed to properly set up and run studies in a usability lab.</description>
+    </item>
     
     <item>
       <title>UX Considerations For IoT</title>
@@ -17,8 +26,7 @@
       <pubDate>Mon, 15 May 2017 11:53:22 -0500</pubDate>
       
       <guid>http://bradorego.com/ux-considerations-for-iot/</guid>
-      <description>TL;DNR  Latency and reliability can be a major issue. You should include some sort of manual control (interface or cable). Tech literacy is another concern, especially as IoT products continue to move into the home and gain mainstream adoption. Be aware of your brand experience across all communication modalities (print, mobile, physical).   
-Internet of Things (IoT) has been all the rage for a hot second as more and more companies try to bring their devices online and increase access (and functionality) to customers, but it&amp;rsquo;s far too easy for things to go wrong.</description>
+      <description>TL;DNR  Latency and reliability can be a major issue. You should include some sort of manual control (interface or cable). Tech literacy is another concern, especially as IoT products continue to move into the home and gain mainstream adoption. Be aware of your brand experience across all communication modalities (print, mobile, physical).   Internet of Things (IoT) has been all the rage for a hot second as more and more companies try to bring their devices online and increase access (and functionality) to customers, but it&amp;rsquo;s far too easy for things to go wrong.</description>
     </item>
     
     <item>
@@ -27,8 +35,7 @@ Internet of Things (IoT) has been all the rage for a hot second as more and more
       <pubDate>Fri, 20 May 2016 19:31:28 -0500</pubDate>
       
       <guid>http://bradorego.com/the-dangers-of-tight-iteration/</guid>
-      <description>TL;DNR  Getting a lot of feedback quickly isn&amp;rsquo;t necessarily always the best strategy - having a guiding light is helpful as well. Users react to the level of fidelity of what you show them. You might be missing something if your fidelity doesn&amp;rsquo;t match the issue in the design. Good Product Design (or at least, a good discovery phase/project plan) can alleviate these issues.   
-Before starting a new engagement with a client, I always ask a series of questions about their company, their processes, and the project I&amp;rsquo;ll be working on.</description>
+      <description>TL;DNR  Getting a lot of feedback quickly isn&#39;t necessarily always the best strategy - having a guiding light is helpful as well. Users react to the level of fidelity of what you show them. You might be missing something if your fidelity doesn&#39;t match the issue in the design. Good Product Design (or at least, a good discovery phase/project plan) can alleviate these issues.   Before starting a new engagement with a client, I always ask a series of questions about their company, their processes, and the project I&amp;rsquo;ll be working on.</description>
     </item>
     
     <item>
@@ -37,7 +44,7 @@ Before starting a new engagement with a client, I always ask a series of questio
       <pubDate>Wed, 11 May 2016 10:04:17 -0500</pubDate>
       
       <guid>http://bradorego.com/product-vs-project-management/</guid>
-      <description>TL;DNR  There&amp;rsquo;s still a fair amount of confusion between product management and project management. Lots of people do the latter well, but the former is often forgotten/forgone. Project Management is focused on execution - securing and organizing resources, planning out tasks, and keeping things on track. Velocity. How. When. Product Management is more about vision - understanding what your users are trying to achieve, having a sense of the big picture, and making sure what&amp;rsquo;s being created fits expectations and needs.</description>
+      <description>TL;DNR  There&#39;s still a fair amount of confusion between product management and project management. Lots of people do the latter well, but the former is often forgotten/forgone. Project Management is focused on execution - securing and organizing resources, planning out tasks, and keeping things on track. Velocity. How. When. Product Management is more about vision - understanding what your users are trying to achieve, having a sense of the big picture, and making sure what&#39;s being created fits expectations and needs.</description>
     </item>
     
     <item>
@@ -46,8 +53,7 @@ Before starting a new engagement with a client, I always ask a series of questio
       <pubDate>Tue, 15 Jul 2014 17:37:34 -0500</pubDate>
       
       <guid>http://bradorego.com/transparency-of-online/</guid>
-      <description>TL;DNR  Notification design is important, especially in the light of ubiquitous computing. Designing to allow interrupted attention is crucial. Context matters: Users are no longer in a room at a desk on a computer.   
-With all the talk about unplugging, disconnecting, screen time, and going &amp;ldquo;off the grid&amp;rdquo;, there&amp;rsquo;s clearly been a shift in the way we interact with technology and the implications it has for society (as well as possibly our mental health).</description>
+      <description>TL;DNR  Notification design is important, especially in the light of ubiquitous computing. Designing to allow interrupted attention is crucial. Context matters: Users are no longer in a room at a desk on a computer.   With all the talk about unplugging, disconnecting, screen time, and going &amp;ldquo;off the grid&amp;rdquo;, there&amp;rsquo;s clearly been a shift in the way we interact with technology and the implications it has for society (as well as possibly our mental health).</description>
     </item>
     
     <item>
@@ -56,8 +62,7 @@ With all the talk about unplugging, disconnecting, screen time, and going &amp;l
       <pubDate>Thu, 25 Apr 2013 17:11:40 -0500</pubDate>
       
       <guid>http://bradorego.com/an-open-letter-to-okcupid/</guid>
-      <description>TL;DNR  OkCupid is great, but it&amp;rsquo;s broken. Fixing it should be pretty easy &amp;mdash; just give a fast, simple way to stop bad members from being bad, and let the community sort it out. Empower your users and they&amp;rsquo;ll empower you.   
-Dear OkCupid,
+      <description>TL;DNR  OkCupid is great, but it&#39;s broken. Fixing it should be pretty easy &amp;mdash; just give a fast, simple way to stop bad members from being bad, and let the community sort it out. Empower your users and they&#39;ll empower you.   Dear OkCupid,
 I love you. Well, maybe not so much love anymore. I really like you. I really like how you&amp;rsquo;ve made your services free for everyone, and how you&amp;rsquo;re helping people connect and meet others that they never would.</description>
     </item>
     
@@ -67,8 +72,7 @@ I love you. Well, maybe not so much love anymore. I really like you. I really li
       <pubDate>Sat, 16 Mar 2013 16:38:15 -0500</pubDate>
       
       <guid>http://bradorego.com/the-importance-of-flow/</guid>
-      <description>TL;DNR  Pop-ups are distracting. Design your life to have less sudden distractions and you&amp;rsquo;ll be more productive and happier. Desiging user experiences that encourage flow are good.   
-I&amp;rsquo;ve become more and more interested in Flow recently. As a psych major, flow is something I&amp;rsquo;ve been aware of for a long time, but I always thought of it as something that just happens, and never gave it much thought.</description>
+      <description>TL;DNR  Pop-ups are distracting. Design your life to have less sudden distractions and you&#39;ll be more productive and happier. Desiging user experiences that encourage flow are good.   I&amp;rsquo;ve become more and more interested in Flow recently. As a psych major, flow is something I&amp;rsquo;ve been aware of for a long time, but I always thought of it as something that just happens, and never gave it much thought.</description>
     </item>
     
     <item>
@@ -77,8 +81,7 @@ I&amp;rsquo;ve become more and more interested in Flow recently. As a psych majo
       <pubDate>Wed, 27 Feb 2013 16:22:57 -0500</pubDate>
       
       <guid>http://bradorego.com/note-taking/</guid>
-      <description>TL;DNR  Memory is fallible, and humans tend to remember the most intense part and the ending of any experience. Finding systems that work for you is essential to productivity. Limit the number of choices a user has to (or has the opportunity to) make. Choose smart defaults and hide most options.   
-I have a habit when it comes to books. When I read a book, I almost always underline/take notes in the margin.</description>
+      <description>TL;DNR  Memory is fallible, and humans tend to remember the most intense part and the ending of any experience. Finding systems that work for you is essential to productivity. Limit the number of choices a user has to (or has the opportunity to) make. Choose smart defaults and hide most options.   I have a habit when it comes to books. When I read a book, I almost always underline/take notes in the margin.</description>
     </item>
     
     <item>
@@ -87,8 +90,7 @@ I have a habit when it comes to books. When I read a book, I almost always under
       <pubDate>Sat, 09 Feb 2013 14:21:58 -0500</pubDate>
       
       <guid>http://bradorego.com/the-importance-of-content/</guid>
-      <description>TL;DNR  Content is just as important to UX as aesthetics. Without content, your site (and all of its functionality and pretty design) is worthless. Trying to stay up to date with blog posts is hard.   
-I&amp;rsquo;m going to say this straight out of the gates: this blog post is kind of a cop-out. There have been a ton of changes in my life lately, so I&amp;rsquo;ve been a little MIA when it comes to this blog.</description>
+      <description>TL;DNR  Content is just as important to UX as aesthetics. Without content, your site (and all of its functionality and pretty design) is worthless. Trying to stay up to date with blog posts is hard.   I&amp;rsquo;m going to say this straight out of the gates: this blog post is kind of a cop-out. There have been a ton of changes in my life lately, so I&amp;rsquo;ve been a little MIA when it comes to this blog.</description>
     </item>
     
     <item>
@@ -97,8 +99,7 @@ I&amp;rsquo;m going to say this straight out of the gates: this blog post is kin
       <pubDate>Sat, 22 Dec 2012 14:21:58 -0500</pubDate>
       
       <guid>http://bradorego.com/ditw-stovetop/</guid>
-      <description>TL;DNR  Sometimes things we interact with in the physical world are poorly designed. Direct mapping makes a lot more sense, and should be used whenever/wherever possible. Just because people are used to a certain design/solution does not mean it&amp;rsquo;s the optimal. Don&amp;rsquo;t be afraid to start from scratch.   
-Sometimes we come across things that, until we see an alternative, we don&amp;rsquo;t realize there&amp;rsquo;s something better than the current option.</description>
+      <description>TL;DNR  Sometimes things we interact with in the physical world are poorly designed. Direct mapping makes a lot more sense, and should be used whenever/wherever possible. Just because people are used to a certain design/solution does not mean it&#39;s the optimal. Don&#39;t be afraid to start from scratch.   Sometimes we come across things that, until we see an alternative, we don&amp;rsquo;t realize there&amp;rsquo;s something better than the current option.</description>
     </item>
     
   </channel>

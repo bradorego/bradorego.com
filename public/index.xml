@@ -6,10 +6,19 @@
     <description>Recent content on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Jun 2017 13:54:44 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 30 Aug 2017 15:58:43 -0500</lastBuildDate>
     
 	<atom:link href="http://bradorego.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Usability Research Checklist</title>
+      <link>http://bradorego.com/usability-research-checklist/</link>
+      <pubDate>Wed, 30 Aug 2017 15:58:43 -0500</pubDate>
+      
+      <guid>http://bradorego.com/usability-research-checklist/</guid>
+      <description>TL;DNR  A lot more goes into designing and running your own usability tests than people typically think. Being properly prepared can be the difference between great success and catastrophic failure for your user research. Don&#39;t underestimate how much time, energy, and resource setting up a proper usability study takes.   MobileIgniter asked me to put together a checklist of everything needed to properly set up and run studies in a usability lab.</description>
+    </item>
     
     <item>
       <title>An Open (Love) Letter To My Next Work Partner</title>
@@ -17,8 +26,7 @@
       <pubDate>Wed, 21 Jun 2017 13:54:44 -0500</pubDate>
       
       <guid>http://bradorego.com/an-open-love-letter-to-my-next-work-partner/</guid>
-      <description>TL;DNR  Transparency is paramount. Make sure there are stated objectives (even if they&amp;rsquo;re inaccurate), daily check-ins, and quarterly reviews. Flexibility empowers your people to do the best work they can. Have a bias against policies, rules, and meetings. Trust is your most powerful tool. Get a bunch of good people together, point them in a direction, and get out of the way.   
-One of the myriad benefits of having spent so much time working as a contractor is the variety of cultures, work practices, and methodologies employed by various companies.</description>
+      <description>TL;DNR  Transparency is paramount. Make sure there are stated objectives (even if they&#39;re inaccurate), daily check-ins, and quarterly reviews. Flexibility empowers your people to do the best work they can. Have a bias against policies, rules, and meetings. Trust is your most powerful tool. Get a bunch of good people together, point them in a direction, and get out of the way.   One of the myriad benefits of having spent so much time working as a contractor is the variety of cultures, work practices, and methodologies employed by various companies.</description>
     </item>
     
     <item>
@@ -27,8 +35,7 @@ One of the myriad benefits of having spent so much time working as a contractor 
       <pubDate>Mon, 15 May 2017 11:53:22 -0500</pubDate>
       
       <guid>http://bradorego.com/ux-considerations-for-iot/</guid>
-      <description>TL;DNR  Latency and reliability can be a major issue. You should include some sort of manual control (interface or cable). Tech literacy is another concern, especially as IoT products continue to move into the home and gain mainstream adoption. Be aware of your brand experience across all communication modalities (print, mobile, physical).   
-Internet of Things (IoT) has been all the rage for a hot second as more and more companies try to bring their devices online and increase access (and functionality) to customers, but it&amp;rsquo;s far too easy for things to go wrong.</description>
+      <description>TL;DNR  Latency and reliability can be a major issue. You should include some sort of manual control (interface or cable). Tech literacy is another concern, especially as IoT products continue to move into the home and gain mainstream adoption. Be aware of your brand experience across all communication modalities (print, mobile, physical).   Internet of Things (IoT) has been all the rage for a hot second as more and more companies try to bring their devices online and increase access (and functionality) to customers, but it&amp;rsquo;s far too easy for things to go wrong.</description>
     </item>
     
     <item>
@@ -37,7 +44,7 @@ Internet of Things (IoT) has been all the rage for a hot second as more and more
       <pubDate>Sat, 29 Apr 2017 15:23:55 -0500</pubDate>
       
       <guid>http://bradorego.com/dos-and-donts-of-corporate-innovation/</guid>
-      <description>TL;DNR  There&amp;rsquo;s a ton of potential in the corporate innovation world, and as the venture market cools, the future of early stage might be corporate. Innovation teams need certain special rules and freedoms compared to the core business, especially in highly regulated industries. Culture and environment are the most important things to define and develop in these settings. Don&amp;rsquo;t settle, and don&amp;rsquo;t let corporate culture interfere.</description>
+      <description>TL;DNR  There&#39;s a ton of potential in the corporate innovation world, and as the venture market cools, the future of early stage might be corporate. Innovation teams need certain special rules and freedoms compared to the core business, especially in highly regulated industries. Culture and environment are the most important things to define and develop in these settings. Don&#39;t settle, and don&#39;t let corporate culture interfere.   As some of you may know, I&amp;rsquo;ve been spending some time working in the corporate innovation team of a Fortune 500 company.</description>
     </item>
     
     <item>
@@ -46,8 +53,7 @@ Internet of Things (IoT) has been all the rage for a hot second as more and more
       <pubDate>Sat, 18 Mar 2017 14:40:53 -0500</pubDate>
       
       <guid>http://bradorego.com/why-were-firing-a-top-tier-product-development-firm/</guid>
-      <description>TL;DNR  Culture trumps credentials, reputation, and pretty much everything else. Don&amp;rsquo;t be afraid to pull the plug on something if it isn&amp;rsquo;t working. Trust your gut and stick to your guns. If you want something done right, sometimes you have to do it yourself. Just because it has a corporate name tag doesn&amp;rsquo;t mean there aren&amp;rsquo;t talented people.   
-Some of the work I&amp;rsquo;ve been doing recently has been with what&amp;rsquo;s known as the Business Development branch of a large company.</description>
+      <description>TL;DNR  Culture trumps credentials, reputation, and pretty much everything else. Don&#39;t be afraid to pull the plug on something if it isn&#39;t working. Trust your gut and stick to your guns. If you want something done right, sometimes you have to do it yourself. Just because it has a corporate name tag doesn&#39;t mean there aren&#39;t talented people.   Some of the work I&amp;rsquo;ve been doing recently has been with what&amp;rsquo;s known as the Business Development branch of a large company.</description>
     </item>
     
     <item>
@@ -56,8 +62,7 @@ Some of the work I&amp;rsquo;ve been doing recently has been with what&amp;rsquo
       <pubDate>Fri, 20 May 2016 19:31:28 -0500</pubDate>
       
       <guid>http://bradorego.com/the-dangers-of-tight-iteration/</guid>
-      <description>TL;DNR  Getting a lot of feedback quickly isn&amp;rsquo;t necessarily always the best strategy - having a guiding light is helpful as well. Users react to the level of fidelity of what you show them. You might be missing something if your fidelity doesn&amp;rsquo;t match the issue in the design. Good Product Design (or at least, a good discovery phase/project plan) can alleviate these issues.   
-Before starting a new engagement with a client, I always ask a series of questions about their company, their processes, and the project I&amp;rsquo;ll be working on.</description>
+      <description>TL;DNR  Getting a lot of feedback quickly isn&#39;t necessarily always the best strategy - having a guiding light is helpful as well. Users react to the level of fidelity of what you show them. You might be missing something if your fidelity doesn&#39;t match the issue in the design. Good Product Design (or at least, a good discovery phase/project plan) can alleviate these issues.   Before starting a new engagement with a client, I always ask a series of questions about their company, their processes, and the project I&amp;rsquo;ll be working on.</description>
     </item>
     
     <item>
@@ -66,7 +71,7 @@ Before starting a new engagement with a client, I always ask a series of questio
       <pubDate>Wed, 11 May 2016 10:04:17 -0500</pubDate>
       
       <guid>http://bradorego.com/product-vs-project-management/</guid>
-      <description>TL;DNR  There&amp;rsquo;s still a fair amount of confusion between product management and project management. Lots of people do the latter well, but the former is often forgotten/forgone. Project Management is focused on execution - securing and organizing resources, planning out tasks, and keeping things on track. Velocity. How. When. Product Management is more about vision - understanding what your users are trying to achieve, having a sense of the big picture, and making sure what&amp;rsquo;s being created fits expectations and needs.</description>
+      <description>TL;DNR  There&#39;s still a fair amount of confusion between product management and project management. Lots of people do the latter well, but the former is often forgotten/forgone. Project Management is focused on execution - securing and organizing resources, planning out tasks, and keeping things on track. Velocity. How. When. Product Management is more about vision - understanding what your users are trying to achieve, having a sense of the big picture, and making sure what&#39;s being created fits expectations and needs.</description>
     </item>
     
     <item>
@@ -85,8 +90,7 @@ In particular, here&amp;rsquo;s a short list of Ionic apps I&amp;rsquo;ve built 
       <pubDate>Mon, 02 May 2016 18:29:53 -0500</pubDate>
       
       <guid>http://bradorego.com/case-study/better-mcbw/</guid>
-      <description>TL;DNR  Ionic lets you build apps ridiculously fast. Write once, build many. If you don&amp;rsquo;t like how something&amp;rsquo;s done, instead of just complaining about it, do something to make it better. Reverse engineering is easier than ever. Your success is not a factor of your codebase, but about the value you offer an end-user. The end result: Better MCBW   
-Backstory  Madison Craft Beer Week has been one of my favorite events since moving to Madison.</description>
+      <description>TL;DNR  Ionic lets you build apps ridiculously fast. Write once, build many. If you don&#39;t like how something&#39;s done, instead of just complaining about it, do something to make it better. Reverse engineering is easier than ever. Your success is not a factor of your codebase, but about the value you offer an end-user. The end result: Better MCBW   Backstory  Madison Craft Beer Week has been one of my favorite events since moving to Madison.</description>
     </item>
     
     <item>
@@ -95,8 +99,7 @@ Backstory  Madison Craft Beer Week has been one of my favorite events since movi
       <pubDate>Thu, 14 Apr 2016 12:26:53 -0500</pubDate>
       
       <guid>http://bradorego.com/back-to-static/</guid>
-      <description>TL;DNR  Static generators (e.g. Hugo) are pretty cool. Ease of use/production directly relates to content creation. It&amp;rsquo;s okay to borrow aesthetics/technologies/designs from others.   
-As you might be able to tell, my last blog post is from 2014. It was about time to get back on the blog horse but also give the site a little facelift. I&amp;rsquo;d migrated blog platforms in the past, but never really took the time to think about how my own personal site was hosted.</description>
+      <description>TL;DNR  Static generators (e.g. Hugo) are pretty cool. Ease of use/production directly relates to content creation. It&#39;s okay to borrow aesthetics/technologies/designs from others.   As you might be able to tell, my last blog post is from 2014. It was about time to get back on the blog horse but also give the site a little facelift. I&amp;rsquo;d migrated blog platforms in the past, but never really took the time to think about how my own personal site was hosted.</description>
     </item>
     
     <item>
@@ -114,8 +117,7 @@ As you might be able to tell, my last blog post is from 2014. It was about time 
       <pubDate>Tue, 15 Jul 2014 17:37:34 -0500</pubDate>
       
       <guid>http://bradorego.com/transparency-of-online/</guid>
-      <description>TL;DNR  Notification design is important, especially in the light of ubiquitous computing. Designing to allow interrupted attention is crucial. Context matters: Users are no longer in a room at a desk on a computer.   
-With all the talk about unplugging, disconnecting, screen time, and going &amp;ldquo;off the grid&amp;rdquo;, there&amp;rsquo;s clearly been a shift in the way we interact with technology and the implications it has for society (as well as possibly our mental health).</description>
+      <description>TL;DNR  Notification design is important, especially in the light of ubiquitous computing. Designing to allow interrupted attention is crucial. Context matters: Users are no longer in a room at a desk on a computer.   With all the talk about unplugging, disconnecting, screen time, and going &amp;ldquo;off the grid&amp;rdquo;, there&amp;rsquo;s clearly been a shift in the way we interact with technology and the implications it has for society (as well as possibly our mental health).</description>
     </item>
     
     <item>
@@ -142,8 +144,7 @@ With all the talk about unplugging, disconnecting, screen time, and going &amp;l
       <pubDate>Thu, 20 Feb 2014 16:46:54 -0500</pubDate>
       
       <guid>http://bradorego.com/progressive-enhancement-with-phonegap/</guid>
-      <description>TL;DNR  Enabling native-level functionality on a hosted web app is really cool. Code reuse is also pretty cool. Beware of the gotchas. There are always gotchas.   
-Note: This blog post is the long-form answer to this StackOverflow post I made about it (which is, at the time of writing, the #1 Google result for &amp;ldquo;progressive enhancement phonegap&amp;rdquo;). Also worth noting this guide only addresses Android right now.</description>
+      <description>TL;DNR  Enabling native-level functionality on a hosted web app is really cool. Code reuse is also pretty cool. Beware of the gotchas. There are always gotchas.   Note: This blog post is the long-form answer to this StackOverflow post I made about it (which is, at the time of writing, the #1 Google result for &amp;ldquo;progressive enhancement phonegap&amp;rdquo;). Also worth noting this guide only addresses Android right now.</description>
     </item>
     
     <item>
@@ -152,8 +153,7 @@ Note: This blog post is the long-form answer to this StackOverflow post I made a
       <pubDate>Thu, 25 Apr 2013 17:11:40 -0500</pubDate>
       
       <guid>http://bradorego.com/an-open-letter-to-okcupid/</guid>
-      <description>TL;DNR  OkCupid is great, but it&amp;rsquo;s broken. Fixing it should be pretty easy &amp;mdash; just give a fast, simple way to stop bad members from being bad, and let the community sort it out. Empower your users and they&amp;rsquo;ll empower you.   
-Dear OkCupid,
+      <description>TL;DNR  OkCupid is great, but it&#39;s broken. Fixing it should be pretty easy &amp;mdash; just give a fast, simple way to stop bad members from being bad, and let the community sort it out. Empower your users and they&#39;ll empower you.   Dear OkCupid,
 I love you. Well, maybe not so much love anymore. I really like you. I really like how you&amp;rsquo;ve made your services free for everyone, and how you&amp;rsquo;re helping people connect and meet others that they never would.</description>
     </item>
     
@@ -173,8 +173,7 @@ Trinker was first brought to life through conversations with Rob Brooks, a good 
       <pubDate>Sat, 16 Mar 2013 16:38:15 -0500</pubDate>
       
       <guid>http://bradorego.com/the-importance-of-flow/</guid>
-      <description>TL;DNR  Pop-ups are distracting. Design your life to have less sudden distractions and you&amp;rsquo;ll be more productive and happier. Desiging user experiences that encourage flow are good.   
-I&amp;rsquo;ve become more and more interested in Flow recently. As a psych major, flow is something I&amp;rsquo;ve been aware of for a long time, but I always thought of it as something that just happens, and never gave it much thought.</description>
+      <description>TL;DNR  Pop-ups are distracting. Design your life to have less sudden distractions and you&#39;ll be more productive and happier. Desiging user experiences that encourage flow are good.   I&amp;rsquo;ve become more and more interested in Flow recently. As a psych major, flow is something I&amp;rsquo;ve been aware of for a long time, but I always thought of it as something that just happens, and never gave it much thought.</description>
     </item>
     
     <item>
@@ -183,8 +182,7 @@ I&amp;rsquo;ve become more and more interested in Flow recently. As a psych majo
       <pubDate>Mon, 11 Mar 2013 17:21:36 -0500</pubDate>
       
       <guid>http://bradorego.com/foursquare-heatmap--remote-sensing/</guid>
-      <description>TL;DNR  Foursquare&amp;rsquo;s API and Google Maps are pretty easy to work with. Creating a new product can be as easy as combining two existing technologies. New products create opportunities for new experiences.   
-A little over a month ago (technically during the Foursquare Hackathon, but I was working from home due to Red Eye) I spent a few hours one weekend hacking together an idea I&amp;rsquo;d come up with when working on Foursquare integration for Trinker.</description>
+      <description>TL;DNR  Foursquare&#39;s API and Google Maps are pretty easy to work with. Creating a new product can be as easy as combining two existing technologies. New products create opportunities for new experiences.   A little over a month ago (technically during the Foursquare Hackathon, but I was working from home due to Red Eye) I spent a few hours one weekend hacking together an idea I&amp;rsquo;d come up with when working on Foursquare integration for Trinker.</description>
     </item>
     
     <item>
@@ -203,8 +201,7 @@ Working with Zebradog gave me the opportunity to work with an extremely talented
       <pubDate>Wed, 27 Feb 2013 16:22:57 -0500</pubDate>
       
       <guid>http://bradorego.com/note-taking/</guid>
-      <description>TL;DNR  Memory is fallible, and humans tend to remember the most intense part and the ending of any experience. Finding systems that work for you is essential to productivity. Limit the number of choices a user has to (or has the opportunity to) make. Choose smart defaults and hide most options.   
-I have a habit when it comes to books. When I read a book, I almost always underline/take notes in the margin.</description>
+      <description>TL;DNR  Memory is fallible, and humans tend to remember the most intense part and the ending of any experience. Finding systems that work for you is essential to productivity. Limit the number of choices a user has to (or has the opportunity to) make. Choose smart defaults and hide most options.   I have a habit when it comes to books. When I read a book, I almost always underline/take notes in the margin.</description>
     </item>
     
     <item>
@@ -223,8 +220,7 @@ etc&amp;rsquo;s former website was a flat set of three pages which left the user
       <pubDate>Sat, 09 Feb 2013 14:21:58 -0500</pubDate>
       
       <guid>http://bradorego.com/the-importance-of-content/</guid>
-      <description>TL;DNR  Content is just as important to UX as aesthetics. Without content, your site (and all of its functionality and pretty design) is worthless. Trying to stay up to date with blog posts is hard.   
-I&amp;rsquo;m going to say this straight out of the gates: this blog post is kind of a cop-out. There have been a ton of changes in my life lately, so I&amp;rsquo;ve been a little MIA when it comes to this blog.</description>
+      <description>TL;DNR  Content is just as important to UX as aesthetics. Without content, your site (and all of its functionality and pretty design) is worthless. Trying to stay up to date with blog posts is hard.   I&amp;rsquo;m going to say this straight out of the gates: this blog post is kind of a cop-out. There have been a ton of changes in my life lately, so I&amp;rsquo;ve been a little MIA when it comes to this blog.</description>
     </item>
     
     <item>
@@ -233,8 +229,7 @@ I&amp;rsquo;m going to say this straight out of the gates: this blog post is kin
       <pubDate>Sat, 22 Dec 2012 14:21:58 -0500</pubDate>
       
       <guid>http://bradorego.com/ditw-stovetop/</guid>
-      <description>TL;DNR  Sometimes things we interact with in the physical world are poorly designed. Direct mapping makes a lot more sense, and should be used whenever/wherever possible. Just because people are used to a certain design/solution does not mean it&amp;rsquo;s the optimal. Don&amp;rsquo;t be afraid to start from scratch.   
-Sometimes we come across things that, until we see an alternative, we don&amp;rsquo;t realize there&amp;rsquo;s something better than the current option.</description>
+      <description>TL;DNR  Sometimes things we interact with in the physical world are poorly designed. Direct mapping makes a lot more sense, and should be used whenever/wherever possible. Just because people are used to a certain design/solution does not mean it&#39;s the optimal. Don&#39;t be afraid to start from scratch.   Sometimes we come across things that, until we see an alternative, we don&amp;rsquo;t realize there&amp;rsquo;s something better than the current option.</description>
     </item>
     
     <item>
@@ -243,8 +238,7 @@ Sometimes we come across things that, until we see an alternative, we don&amp;rs
       <pubDate>Fri, 23 Nov 2012 17:32:13 -0500</pubDate>
       
       <guid>http://bradorego.com/new-site/</guid>
-      <description>TL;DNR  Drupal is cool, powerful, mature. Making it easier to create content is important to how likely it is to happen. Keeping up with technology and the design community is important.   
-It only took me about 10 months, but I&amp;rsquo;ve finally gotten around to rebuilding this site to have a purpose. I originally built a personal website when I was leaving Epic with the intention of having a place to show my past work as well as a place to play around with new technologies on the web.</description>
+      <description>TL;DNR  Drupal is cool, powerful, mature. Making it easier to create content is important to how likely it is to happen. Keeping up with technology and the design community is important.   It only took me about 10 months, but I&amp;rsquo;ve finally gotten around to rebuilding this site to have a purpose. I originally built a personal website when I was leaving Epic with the intention of having a place to show my past work as well as a place to play around with new technologies on the web.</description>
     </item>
     
     <item>
