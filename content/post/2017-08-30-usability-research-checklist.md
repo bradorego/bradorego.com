@@ -93,11 +93,13 @@ Once you have the screener set up and in place, you need to figure out how parti
 
 Now comes the fun part. You've done all the design and prep work; you've found, screened, and scheduled your participants; now you actually have to run the study. This might seem like the easy part but it's far from it.
 
-Part of your facilitator protocol should include getting there early to make sure all the materials are set up - cameras are charged, testing device is reset to whatever starting state you've defined, paperwork and refreshments are ready. Make sure to disable all notifications on the testing device and, as much as possible, remove/hide all other functionality. You want to minimize distractions and interruptions.
+Part of your facilitator protocol should include getting there early to make sure all the materials are set up &mdash; cameras are charged, testing device is reset to whatever starting state you've defined, paperwork and refreshments are ready. Make sure to disable all notifications on the testing device and, as much as possible, remove/hide all other functionality. You want to minimize distractions and interruptions.
 
 There's a certain art to being a testing facilitator which I can't cover in full here, but basically your goal is to answer as few questions as possible during the testing session. Let participants ask questions during briefing and debriefing, and let them know those are their times to ask. If you see them getting stuck, let them struggle. Don't intervene until they feel like they've exhausted all of their options, and if you don't think they've tried everything (i.e. suffered enough), you can politely urge them to keep trying other things until they've actually stagnated.
 
 I've seen some really interesting and novel solution attempts in user testing, but I've also come across instances where users got the system into a new error state that even the engineering team hadn't seen before. You'll know when to step in. The easiest way to ruin a usability testing session is to intervene too often/too soon.
+
+Also, DO NOT, under any circumstance, attempt to take notes while facilitating. You're recording these sessions for a reason. You can have a live note-taker as well, but people generally don't like being watched, so having someone else in the room adds pressure. If you're going to dedicate two person-hours (or half-hours) to this, you're better off having the second hour be spent watching the video later.
 
 # Analyze Results <a name="analyze" href="#analyze"><i class="ion-link"></i></a>
 #### All that feedback doesn't do much good on its own.
@@ -106,6 +108,11 @@ I've seen some really interesting and novel solution attempts in user testing, b
 <img src="/img/posts/usability-research-checklist/urc-analyze.jpg" />
 </figure>
 
+Just as a task without a hypothesis is incomplete, gathering all of this data without analyzing it doesn't serve much good, either. There are many ways to slice, summarize, group, and digest data, and the best way to do so will depend on exactly what's being tested (are you comparing two designs for efficiency? are you testing a new design for completion?), but there a few general ways to organize data.
+
+The reason we set up cameras earlier is so you can go back and get the fine-grained data necessary for analysis. Depending on the fidelity of the software you're testing (and whether or not you actually have access to it), you can set up some automated tools to capture events, but you're still going to want to go back and watch every video so you can pick out relevant quotes and overall trends. Nothing is more compelling than hearing the same sentiment come out of a dozen participant's mouths.
+
+On top of the analysis, you should offer recommendations as well. As a researcher, your job may not necessarily be to design a better solution, but pointing out areas that tripped users up and some of the common mistakes they made can help direct the design/development team. Doing so also bolsters justification for the expense of testing; I've saved companies millions of dollars by spending tens of thousands on usability testing.
 
 # Afterward <a name="after" href="#after"><i class="ion-link"></i></a>
 #### Now what?
@@ -113,6 +120,12 @@ I've seen some really interesting and novel solution attempts in user testing, b
 <figure>
 <img src="/img/posts/usability-research-checklist/urc-after.jpg" />
 </figure>
+
+If you have hopes of ever doing this again, you'll need to find a way to make your findings (and recommendations) presentable and actionable. Usability research for its own sake is a wonderful thing, but more likely than not there are stakeholders who allocated funds for this and they'll want some sort of return. That return comes in the analysis and presentation of what you found.
+
+The most immediate value is obviously to the product team responsible for what was tested. Work closely with them to walk through what was found and what can be done about it, and if possible, sit with them and help prioritize their next steps. There's also value in reporting findings to higher-up stakeholders, as they'll want to see the summary of what was found and what's being done about it.
+
+A fringe benefit to doing research like this is the opportunity to publicize your findings. If you're studying something that can be generalized, doing so in a whitepaper or a blog post can help the community and start to make a name for the brand as one that cares about users. If nothing else, letting your current users/customers know that you're working to make the product better should earn some brownie points.
 
 ---
 
