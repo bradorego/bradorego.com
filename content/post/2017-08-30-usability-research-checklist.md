@@ -35,7 +35,7 @@ MobileIgniter asked me to put together a checklist of everything needed to prope
 
 
 # Gather Resources <a name="resources" href="#resources"><i class="ion-link"></i></a>
-#### Make sure you have everyhing you need to get started.
+#### Make sure you have everything you need to get started.
 
 <figure>
 <img src="/img/posts/usability-research-checklist/urc-resources.jpg" />
