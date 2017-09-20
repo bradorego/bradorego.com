@@ -6,9 +6,9 @@
   "image": "img/about.jpg"
 }
 
-Brad Orego is an Experience Designer, Web Developer, Entrepreneur, and Dancer currently located in Madison, WI. This is his web playground. Web technologies on the whole are at a point where they're so powerful and accessible that the onus is solely on the developer/designer to create elegant, engaging solutions.
+Brad Orego is an Experience Designer, Web Developer, Entrepreneur, and Dancer currently spending time between Brooklyn, NY and Madison, WI. This is his personal blog, where you'll posts on anything from company culture to experience design to homebrewing to dance.
 
-Brad is a graduate of the <a href="http://rochester.edu/">University of Rochester</a> with a B.S. in Computer Science, a B.A. in Psychology, and minors in Spanish and Dance. Brad spends his time wearing many hats. He spends his days working with Madison-based startups and small businesses, participates in entrepreneurial events and hackathons, dances with <a href="http://kanopydance.org">Kanopy Dance Company</a>, curls at the <a href="http://madisoncurlingclub.com">Madison Curling Club</a>, plays ultimate frisbee, runs, bikes, homebrews as a proud member of <a href="http://mhtg.org">MHTG</a>, <a href="http://beerbatterbreakfast.com/">makes and blogs about beer-batter pancakes</a>, makes pretentiously long lists of his activities, and even plays old video games from time to time.
+Brad is a graduate of the <a href="http://rochester.edu/">University of Rochester</a> with a B.S. in Computer Science, a B.A. in Psychology, and minors in Spanish and Dance. Brad spends his time wearing many hats. He spends his days working with startups and small businesses, participates in entrepreneurial events and hackathons, dances with <a href="http://kanopydance.org">Kanopy Dance Company</a>, curls at the <a href="http://madisoncurlingclub.com">Madison Curling Club</a>, plays ultimate frisbee, runs, bikes, homebrews as a proud member of <a href="http://mhtg.org">MHTG</a>, <a href="http://beerbatterbreakfast.com/">makes and blogs about beer-batter pancakes</a>, makes pretentiously long lists of his activities, and even plays old video games from time to time.
 
 ---
 
