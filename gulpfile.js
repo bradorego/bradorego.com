@@ -10,11 +10,11 @@ var gulp = require('gulp'),
   lessRoot = devRoot + '/less',
   cssRoot = devRoot + '/css',
   prodRoot = './public',
+  allImg = `${devRoot}/img/**/*.*`,
   exec = require('child_process').exec,
   minifyHTML = require("gulp-minify-html"),
   sleep = require('sleep'),
-  htmlmin = require('gulp-htmlmin'),
-  imageOptim = require('gulp-imageoptim');
+  htmlmin = require('gulp-htmlmin');
 
 // define tasks here
 gulp.task('default', ['less', 'concat-js', 'concat-css'], function () {
@@ -75,8 +75,7 @@ gulp.task('uglifycss-deploy', function () {
 });
 gulp.task('deploy-img', function () {
   del.sync([prodRoot + '/img']);
-  return gulp.src(devRoot + '/img/**/*.*')
-    .pipe(imageOptim.optimize())
+  return gulp.src(allImg)
     .pipe(gulp.dest(prodRoot + '/img'));
 });
 
