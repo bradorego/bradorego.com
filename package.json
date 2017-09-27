@@ -19,5 +19,8 @@
     "gulp-serve": "^1.2.0",
     "gulp-uglify": "^1.5.3",
     "sleep": "^5.1.1"
+  },
+  "dependencies": {
+    "gulp-imageoptim": "^1.0.9"
   }
 }

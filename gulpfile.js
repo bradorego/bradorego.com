@@ -13,7 +13,8 @@ var gulp = require('gulp'),
   exec = require('child_process').exec,
   minifyHTML = require("gulp-minify-html"),
   sleep = require('sleep'),
-  htmlmin = require('gulp-htmlmin');
+  htmlmin = require('gulp-htmlmin'),
+  imageOptim = require('gulp-imageoptim');
 
 // define tasks here
 gulp.task('default', ['less', 'concat-js', 'concat-css'], function () {
@@ -75,6 +76,7 @@ gulp.task('uglifycss-deploy', function () {
 gulp.task('deploy-img', function () {
   del.sync([prodRoot + '/img']);
   return gulp.src(devRoot + '/img/**/*.*')
+    .pipe(imageOptim.optimize())
     .pipe(gulp.dest(prodRoot + '/img'));
 });
 
@@ -88,5 +90,6 @@ gulp.task('deploy', ['clean', 'uglifyjs-deploy', 'uglifycss-deploy'], function (
   exec('hugo');
   sleep.sleep(2000);
   del.sync(prodRoot + '/less');
+  gulp.start('deploy-img');
   return gulp.start('minify');
 });
