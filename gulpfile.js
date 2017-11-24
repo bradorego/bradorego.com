@@ -1,6 +1,5 @@
 var gulp = require('gulp'),
   less = require('gulp-less'),
-  // serve = require('gulp-serve'),
   uglify = require('gulp-uglify'),
   cleanCSS = require('gulp-clean-css'),
   del = require('del'),
@@ -13,8 +12,7 @@ var gulp = require('gulp'),
   allImg = `${devRoot}/img/**/*.*`,
   exec = require('child_process').exec,
   minifyHTML = require("gulp-minify-html"),
-  sleep = require('sleep'),
-  htmlmin = require('gulp-htmlmin');
+  sleep = require('sleep');
 
 // define tasks here
 gulp.task('default', ['less', 'concat-js', 'concat-css'], function () {
@@ -43,16 +41,6 @@ gulp.task('concat-css', function () {
     .pipe(concat('all.css'))
     .pipe(gulp.dest(cssRoot + '/'));
 });
-
-// gulp.task('serve', serve({
-//   root: [devRoot],
-//   port: 8010
-// }));
-
-// gulp.task('serve-deploy', serve({
-//   root: [prodRoot],
-//   port: 8011
-// }))
 
 gulp.task('minify', function() {
   return gulp.src(prodRoot + '/**/*.html')
