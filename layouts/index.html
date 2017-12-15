@@ -1,22 +1,30 @@
 {{ partial "header.html" .}}
 
-    {{ partial "page-header.html" .Site.Params}}
+    <!-- {{ partial "page-header.html" .Site.Params}} -->
+    {{ partial "new-header.html" .Site.Params}}
+
+    <cards>
+      {{ range first 5 .Site.Pages }}
+        {{ .Render "card"}}
+      {{ end }}
+    </cards>
+
+    <!-- Pager -->
+    <ul class="pager">
+      <li class="next">
+        <a href="{{ .Site.BaseURL }}/post/" target="_self">View All Posts</a>
+      </li>
+    </ul>
 
     <!-- Main Content -->
-    <div class="container">
+    <!-- <div class="container">
       <div class="row">
         {{ partial "bootstrap-div.html" .}}
           {{ range first 5 .Site.Pages }}
               {{ .Render "summary"}}
           {{ end }}
-          <!-- Pager -->
-          <ul class="pager">
-            <li class="next">
-              <a href="{{ .Site.BaseURL }}/post/" target="_self">View All Posts</a>
-            </li>
-          </ul>
         </div>
       </div>
-    </div>
+    </div> -->
 
 {{ partial "footer.html" .}}
