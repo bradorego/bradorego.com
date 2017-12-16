@@ -2,6 +2,7 @@
 @white: white;
 @card-shadow: #c8bebe;
 @bg: #eaeaea;
+@border-radius: 8px;
 
 * {
   font-family: 'Roboto', sans-serif;
@@ -180,6 +181,12 @@ cards.resume {
     }
   }
 
+ribbon {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+
 header {
   z-index: 1000;
   transform: translateZ(0);
@@ -193,11 +200,6 @@ header {
   left: 0px;
   padding: 0px;
   text-align: left;
-  ribbon {
-    display: block;
-    margin: 0 auto;
-    position: relative;
-  }
   a.title {
     display: inline-block;
     padding: 10px 0px;
@@ -237,11 +239,11 @@ toggle {
     background: lighten(@primary, 20%);
   }
   tog:first-child {
-    border-radius: 8px 0px 0px 8px !important;
+    border-radius: @border-radius 0px 0px @border-radius !important;
     border-left: 2px solid @primary !important;
   }
   tog:last-child {
-    border-radius: 0px 8px 8px 0px;
+    border-radius: 0px @border-radius @border-radius 0px;
   }
   tog.selected {
     background:@primary;
@@ -276,7 +278,8 @@ header {
 /*------------------- */
 
 @media screen and (min-width: 320px) {
-  header ribbon {
+  header ribbon,
+  footer ribbon {
     width: 300px;
     height: auto;
   }
@@ -291,7 +294,8 @@ header {
 }
 
 @media screen and (min-width: 768px) {
-  header ribbon {
+  header ribbon,
+  footer ribbon {
     width: 700px;
   }
   cards{
@@ -305,7 +309,8 @@ header {
 }
 
 @media screen and (min-width: 1024px){
-  header ribbon {
+  header ribbon,
+  footer ribbon {
     width: 900px;
   }
   cards{
@@ -319,7 +324,8 @@ header {
 }
 
 @media screen and (min-width: 1200px){
-  header ribbon {
+  header ribbon,
+  footer ribbon {
     width: 1100px;
   }
   cards{

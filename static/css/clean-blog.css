@@ -150,6 +150,11 @@ cards card.divider detail {
 cards card.divider subhead {
   display: block;
 }
+ribbon {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
 header {
   z-index: 1000;
   transform: translateZ(0);
@@ -163,11 +168,6 @@ header {
   left: 0px;
   padding: 0px;
   text-align: left;
-}
-header ribbon {
-  display: block;
-  margin: 0 auto;
-  position: relative;
 }
 header a.title {
   display: inline-block;
@@ -241,7 +241,8 @@ header tog {
 }
 /*------------------- */
 @media screen and (min-width: 320px) {
-  header ribbon {
+  header ribbon,
+  footer ribbon {
     width: 300px;
     height: auto;
   }
@@ -255,7 +256,8 @@ header tog {
   }
 }
 @media screen and (min-width: 768px) {
-  header ribbon {
+  header ribbon,
+  footer ribbon {
     width: 700px;
   }
   cards {
@@ -268,7 +270,8 @@ header tog {
   }
 }
 @media screen and (min-width: 1024px) {
-  header ribbon {
+  header ribbon,
+  footer ribbon {
     width: 900px;
   }
   cards {
@@ -281,7 +284,8 @@ header tog {
   }
 }
 @media screen and (min-width: 1200px) {
-  header ribbon {
+  header ribbon,
+  footer ribbon {
     width: 1100px;
   }
   cards {
@@ -313,6 +317,9 @@ header tog {
     box-shadow: none;
   }
 }
+h2 {
+  font-size: inherit;
+}
 .img-preview {
   width: 100px;
   height: 100px;
@@ -337,18 +344,13 @@ header tog {
   border: 1px solid #447AD4;
   color: #447AD4;
   background: white;
-  border-radius: 4px;
+  border-radius: 8px;
   padding: 0px 12px;
   text-align: center;
 }
 .floating-button:hover {
   background: #447AD4;
   color: white;
-}
-@media (min-width: 1200px) {
-  .floating-button {
-    display: none;
-  }
 }
 #scrollUp {
   bottom: 20px;
@@ -358,15 +360,18 @@ header tog {
   margin: 20px 0 0;
   text-align: center;
 }
-.pager li > a {
-  border: none;
+.pager a {
+  padding: 10px;
+  border-radius: 8px;
+  background: white;
+  border: 1px solid #447AD4;
 }
-.pager .next > a,
-.pager .next > span {
+.pager a,
+.pager span {
   float: initial;
 }
-.pager li > a:focus,
-.pager li > a:hover {
+.pager a:focus,
+.pager a:hover {
   background: #447AD4;
   color: white;
 }
