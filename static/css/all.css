@@ -16,7 +16,7 @@ body {
 }
 cards {
   display: block;
-  margin: 100px auto 20px;
+  margin: 120px auto 20px;
 }
 cards card {
   display: block;
@@ -412,6 +412,9 @@ footer i {
 footer li.patreon g {
   fill: #64666b;
 }
+footer li.patreon:hover g {
+  fill: #ffbe40;
+}
 .post-meta {
   font-size: 16px;
   font-style: italic;
@@ -509,8 +512,17 @@ body {
 .blog-body .blog-content a {
   text-decoration: underline;
 }
+.blog-body .blog-content p {
+  margin: 30px 0px;
+}
+.blog-body .blog-content h1 {
+  margin-top: 30px;
+}
 .blog-body .blog-content img {
   width: 100%;
+}
+.blog-body .blog-content hr {
+  border: 1px solid #cccdcf;
 }
 .blog-body .blog-content .post-meta a,
 .blog-body .blog-content .categories a {
