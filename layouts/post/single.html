@@ -1,22 +1,10 @@
 {{ partial "header.html" .}}
 
-  <!-- {{ partial "page-header.html" .}} -->
-
   {{ partial "new-header.html"}}
 
   <!-- Post Content -->
   <ribbon class="blog-body">
-    <div class="blog-header">
-      <div class="bg-image" style="background-image: url('{{ .Site.BaseURL }}/{{if isset .Params "image"}}{{.Params.image}}{{else}}img/default-bg0.jpg{{end}}')"></div>
-      <div class="text">
-        <h1>{{ .Title }}</h1>
-        {{if .Description}}
-          <hr class="small" />
-          <h3 class="subheading">{{ .Description }}</h3>
-          {{ if eq .Type "post"}}<h5>{{ .ReadingTime }} minute read</h5>{{end}}
-        {{ end }}
-      </div>
-    </div>
+    {{ partial "blog-header.html" . }}
     <div class="blog-content">
       {{ .Content }}
       <hr/>

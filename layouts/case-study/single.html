@@ -1,21 +1,20 @@
+<!-- needs edit -->
+
 {{ partial "header.html" .}}
 
-    {{ partial "page-header.html" .}}
+  {{ partial "new-header.html"}}
 
-    <!-- Post Content -->
-    <article class="main-content">
-        <div class="container">
-            <div class="row">
-                {{ partial "bootstrap-div.html" .}}
-                  {{ .Content }}
-                  <hr/>
-                  <p class="post-meta">
-                    {{ partial "posted-on-in.html" .}}
-                  </p>
-                  {{ partial "related-posts.html" . }}
-                </div>
-            </div>
-        </div>
-    </article>
+  <!-- Post Content -->
+  <ribbon class="blog-body">
+    {{ partial "blog-header.html" . }}
+    <div class="blog-content">
+      {{ .Content }}
+      <hr/>
+      <p class="post-meta">
+          {{ partial "posted-on-in.html" .}}
+      </p>
+      {{ partial "related-posts.html" . }}
+    </div>
+  </ribbon>
 
 {{ partial "footer.html" .}}
