@@ -4,14 +4,14 @@
     {{ partial "new-header.html" .Site.Params}}
 
     <cards>
-      {{ range first 5 .Site.Pages }}
+      {{ range first 5 (where .Site.Pages "Type" "blog") }}
         {{ .Render "card"}}
       {{ end }}
     </cards>
 
     <!-- Pager -->
     <div class="pager">
-      <a href="{{ .Site.BaseURL }}/post/" target="_self">View All Posts</a>
+      <a href="{{ .Site.BaseURL }}/blog/" target="_self">View All Posts</a>
     </div>
 
     <!-- Main Content -->
