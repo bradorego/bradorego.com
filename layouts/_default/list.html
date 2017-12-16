@@ -3,7 +3,6 @@
     {{ partial "new-header.html" . }}
 
     <cards>
-      {{ .Title }}
       {{ range where .Site.Pages "Type" "post" }}
         {{ .Render "archive" }}
       {{ end }}

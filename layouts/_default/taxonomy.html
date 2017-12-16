@@ -4,7 +4,7 @@
 
     <cards>
       {{.Title}}
-      {{ range where .Site.Pages "Type" "post" }}
+      {{ range where .Data.Pages "Type" "post" }}
         {{ .Render "archive" }}
       {{ end }}
       {{ template "_internal/pagination.html" }}
