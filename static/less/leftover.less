@@ -1,5 +1,20 @@
+h1 {
+  font-size: 2rem;
+}
 h2 {
-  font-size: inherit;
+  font-size: 1.5rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
+h4 {
+  font-size: 1rem;
+}
+h5 {
+  font-size: 0.8rem;
+}
+h6 {
+  font-size: 0.6rem;
 }
 
 .img-preview {
@@ -40,17 +55,17 @@ h2 {
 }
 // Pager Styling
 .pager {
-	margin: 20px 0 0;
+	margin: 40px;
   text-align: center; /// center-align view all button
   a {
-    padding: 10px;
+    padding: 15px 25px;
     border-radius: @border-radius;
     background: @white;
     border: 1px solid @primary;
-  }
-  a,
-  span {
-    float:initial;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
   }
   a:focus,
   a:hover {
@@ -60,7 +75,8 @@ h2 {
 }
 
 a {
-  color: darken(@primary, 10%);
+  // text-decoration: underline;
+  color: @primary;
   &:hover,
   &:focus {
     color: @brand-primary;
@@ -69,6 +85,13 @@ a {
 }
 
 footer {
+  margin-top: 20px;
+  ul {
+    margin-bottom: 0;
+  }
+  i { /// icons
+    font-size: 32px;
+  }
 	li.patreon {
     g {
       fill: @primary;
@@ -90,4 +113,34 @@ footer {
       text-decoration: none;
     }
   }
+}
+
+
+
+figure {
+	position: relative;
+	figcaption {
+		position: absolute;
+		font-size: 12px;
+		right: 0px;
+	}
+}
+
+
+hr.small {
+	max-width: 100px;
+	margin: 15px auto;
+	border-width: 4px;
+	border-color: white;
+}
+
+hr.medium {
+	max-width: 300px;
+	margin: 15px auto;
+	border-width: 4px;
+	border-color: white;
+}
+
+hr.dark {
+	border-color: @primary;
 }

@@ -1,21 +1,30 @@
 {{ partial "header.html" .}}
 
-    {{ partial "page-header.html" .}}
+  <!-- {{ partial "page-header.html" .}} -->
 
-    <!-- Post Content -->
-    <article class="main-content">
-        <div class="container">
-            <div class="row">
-                {{ partial "bootstrap-div.html" .}}
-                  {{ .Content }}
-                  <hr/>
-                  <p class="post-meta">
-                    {{ partial "posted-on-in.html" .}}
-                  </p>
-                  {{ partial "related-posts.html" . }}
-                </div>
-            </div>
-        </div>
-    </article>
+  {{ partial "new-header.html"}}
+
+  <!-- Post Content -->
+  <ribbon class="blog-body">
+    <div class="blog-header">
+      <div class="bg-image" style="background-image: url('{{ .Site.BaseURL }}/{{if isset .Params "image"}}{{.Params.image}}{{else}}img/default-bg0.jpg{{end}}')"></div>
+      <div class="text">
+        <h1>{{ .Title }}</h1>
+        {{if .Description}}
+          <hr class="small" />
+          <h3 class="subheading">{{ .Description }}</h3>
+          {{ if eq .Type "post"}}<h5>{{ .ReadingTime }} minute read</h5>{{end}}
+        {{ end }}
+      </div>
+    </div>
+    <div class="blog-content">
+      {{ .Content }}
+      <hr/>
+      <p class="post-meta">
+          {{ partial "posted-on-in.html" .}}
+      </p>
+      {{ partial "related-posts.html" . }}
+    </div>
+  </ribbon>
 
 {{ partial "footer.html" .}}

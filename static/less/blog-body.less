@@ -1,0 +1,46 @@
+.blog-body {
+  margin-top: 120px;
+  background: @white;
+  overflow: hidden;
+  .blog-header {
+    width: 100%;
+    position: relative;
+    .bg-image {
+      position: absolute;
+      top: -10px;
+      left: -10px;
+      width: 105%;
+      height: 100%;
+      background: no-repeat center center;
+      background-attachment: scroll;
+      .background-cover;
+      .blur(5px);
+      // NOTE: Background images are set within the HTML using inline CSS!
+    }
+    .text {
+      color: @white;
+      position: relative;
+      padding: 40px;
+      .header-text-shadow;
+    }
+    hr.small {
+      margin: 20px 0;
+      box-shadow: 0 0 3px 0 #000;
+    }
+  }
+  .blog-content {
+    padding: 40px;
+    a {
+      text-decoration: underline;
+    }
+    img {
+      width: 100%;
+    }
+    .post-meta,
+    .categories {
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}
