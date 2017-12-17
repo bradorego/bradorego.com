@@ -39,11 +39,11 @@ Element.prototype.toggleClass = function (name) {
 };
 document.addEventListener('DOMContentLoaded', function () {
   var $wrapper = document.getElementById('wrapper'),
-    $menuToggle = document.getElementsByClassName('menu-toggle')[0],
+    // $menuToggle = document.getElementsByClassName('menu-toggle')[0],
     $scrollUp = document.getElementById('scrollUp');
-  $menuToggle.addEventListener('click', function (e) {
-    $wrapper.toggleClass('toggled');
-  });
+  // $menuToggle.addEventListener('click', function (e) {
+  //   $wrapper.toggleClass('toggled');
+  // });
 
   if ($scrollUp) {
     window.addEventListener('scroll', function (e) {

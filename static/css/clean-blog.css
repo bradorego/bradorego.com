@@ -193,7 +193,7 @@ toggle {
   text-align: left;
   white-space: nowrap;
 }
-toggle tog {
+toggle a.tog {
   display: inline-table;
   color: #64666b;
   border: 2px solid #64666b;
@@ -208,17 +208,17 @@ toggle tog {
   border-left: none;
   white-space: nowrap;
 }
-toggle tog:hover {
+toggle a.tog:hover {
   background: #97999e;
 }
-toggle tog:first-child {
+toggle a.tog:first-child {
   border-radius: 8px 0px 0px 8px !important;
   border-left: 2px solid #64666b !important;
 }
-toggle tog:last-child {
+toggle a.tog:last-child {
   border-radius: 0px 8px 8px 0px;
 }
-toggle tog.selected {
+toggle a.tog.selected {
   background: #64666b;
   color: white;
   border-color: #64666b;
@@ -230,15 +230,15 @@ header toggle {
   margin: 20px 0px;
   text-align: right;
 }
-header toggle tog.selected {
+header toggle a.tog.selected {
   color: #64666b;
   background: white;
   border-color: white;
 }
-header toggle tog:first-child {
+header toggle a.tog:first-child {
   border-left: 2px solid white !important;
 }
-header tog {
+header a.tog {
   color: white;
   margin: 0px;
   border-color: white !important;
