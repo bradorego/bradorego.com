@@ -1,11 +1,11 @@
 {
    "categories": [
-      "Case Study"
+      "Showcase"
    ],
    "date": "2013-04-14T15:10:19-05:00",
    "description": "Social Drinking App built from the ground up",
    "draft": false,
-   "image": "/img/case-study/trinker/landing.png",
+   "image": "/img/showcase/trinker/landing.png",
    "publishdate": "2013-04-12T14:47:36-05:00",
    "tags": [
       "entrepreneurship",
@@ -30,7 +30,7 @@ Unfortunately, that was about the time my two team members had to move away from
 # Selected Images
 
 Landing Page:
-<img src="/img/case-study/trinker/landing.png" />
-<img src="/img/case-study/trinker/t1.png" />
-<img src="/img/case-study/trinker/t2.png" />
-<img src="/img/case-study/trinker/t3.png" />
+<img src="/img/showcase/trinker/landing.png" />
+<img src="/img/showcase/trinker/t1.png" />
+<img src="/img/showcase/trinker/t2.png" />
+<img src="/img/showcase/trinker/t3.png" />

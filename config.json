@@ -11,7 +11,7 @@
   "paginatePath": "page",
   "permalinks": {
     "blog": "/:title",
-    "case-study": "/case-study/:title"
+    "showcase": "/showcase/:title"
   },
   "author": "Brad Orego",
   "params": {

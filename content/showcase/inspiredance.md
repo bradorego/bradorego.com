@@ -1,11 +1,11 @@
 {
    "categories": [
-      "Case Study"
+      "Showcase"
    ],
    "date": "2011-02-08T15:10:01-05:00",
    "description": "Founding University of Rochester annual dance festival.",
    "draft": false,
-   "image": "/img/case-study/inspiredance/website.png",
+   "image": "/img/showcase/inspiredance/website.png",
    "publishdate": "2011-02-08T14:47:36-05:00",
    "tags": [
       "entrepreneurship",
@@ -28,6 +28,6 @@ The original <em>inspire</em>DANCE website was built at a moment's notice as a t
 
 # Selected Images
 
-<img src="/img/case-study/inspiredance/flyers.png" />
-<img src="/img/case-study/inspiredance/website.png" />
-<img src="/img/case-study/inspiredance/workshops.png" />
+<img src="/img/showcase/inspiredance/flyers.png" />
+<img src="/img/showcase/inspiredance/website.png" />
+<img src="/img/showcase/inspiredance/workshops.png" />

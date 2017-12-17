@@ -1,11 +1,11 @@
 {
    "categories": [
-      "Case Study"
+      "Showcase"
    ],
    "date": "2014-04-14T15:10:54-05:00",
    "description": "Water quality monitoring/reporting application",
    "draft": false,
-   "image": "/img/case-study/clean-clear-waters/wires.png",
+   "image": "/img/showcase/clean-clear-waters/wires.png",
    "publishdate": "2014-04-12T14:47:36-05:00",
    "tags": [
       "Clean Lakes Alliance",
@@ -30,9 +30,9 @@ After I ended my engagement on the project, MIOsoft completely took over respons
 
 # Selected Images
 
-<img src="/img/case-study/clean-clear-waters/wires.png" />
-<img src="/img/case-study/clean-clear-waters/mockup.png" />
+<img src="/img/showcase/clean-clear-waters/wires.png" />
+<img src="/img/showcase/clean-clear-waters/mockup.png" />
 Lakeforecast.org Map View
-<img src="/img/case-study/clean-clear-waters/map.png" />
+<img src="/img/showcase/clean-clear-waters/map.png" />
 Lakeforecast.org Beach View
-<img src="/img/case-study/clean-clear-waters/beach.png" />
+<img src="/img/showcase/clean-clear-waters/beach.png" />

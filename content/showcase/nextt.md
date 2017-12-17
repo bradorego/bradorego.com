@@ -1,11 +1,11 @@
 {
    "categories": [
-      "Case Study"
+      "Showcase"
    ],
    "date": "2014-03-01T15:11:21-05:00",
    "description": "Collaborative Social Planning Tool",
    "draft": false,
-   "image": "/img/case-study/nextt/screens.png",
+   "image": "/img/showcase/nextt/screens.png",
    "publishdate": "2014-03-01T14:47:36-05:00",
    "tags": [
       "startup",
@@ -27,6 +27,6 @@ Along with advising visual design, branding, and interaction design, there were 
 
 # Selected Images
 
-<img src="/img/case-study/nextt/unauth.png" />
-<img src="/img/case-study/nextt/onboarding.png" />
-<img src="/img/case-study/nextt/screens.png" />
+<img src="/img/showcase/nextt/unauth.png" />
+<img src="/img/showcase/nextt/onboarding.png" />
+<img src="/img/showcase/nextt/screens.png" />

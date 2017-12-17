@@ -1,11 +1,11 @@
 {
    "categories": [
-      "development"
+      "Showcase"
    ],
    "date": "2013-03-01T15:10:22-05:00",
    "description": "Interactive multimedia and website design",
    "draft": false,
-   "image": "/img/case-study/zebradog/storystation.png",
+   "image": "/img/showcase/zebradog/storystation.png",
    "publishdate": "2013-03-01T14:47:36-05:00",
    "tags": [
       "interactive multimedia",
@@ -29,11 +29,11 @@ Videos can be found on <a href="http://vimeo.com/zebradog">Zebradog's Vimeo page
 
 # Selected Images
 
-<img src="/img/case-study/zebradog/storystation.png" />
-<img src="/img/case-study/zebradog/hometownheroes.png" />
-<img src="/img/case-study/zebradog/aramco.png" />
-<img src="/img/case-study/zebradog/nw.png" />
-<img src="/img/case-study/zebradog/northwestern.png" />
-<img src="/img/case-study/zebradog/mstc-desktop.png" />
-<img src="/img/case-study/zebradog/mstc-tablet.png" />
-<img src="/img/case-study/zebradog/mstc-phone.png" />
+<img src="/img/showcase/zebradog/storystation.png" />
+<img src="/img/showcase/zebradog/hometownheroes.png" />
+<img src="/img/showcase/zebradog/aramco.png" />
+<img src="/img/showcase/zebradog/nw.png" />
+<img src="/img/showcase/zebradog/northwestern.png" />
+<img src="/img/showcase/zebradog/mstc-desktop.png" />
+<img src="/img/showcase/zebradog/mstc-tablet.png" />
+<img src="/img/showcase/zebradog/mstc-phone.png" />

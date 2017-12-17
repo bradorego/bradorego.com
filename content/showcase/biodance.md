@@ -1,9 +1,9 @@
 {
-   "categories": ["Case Study"],
+   "categories": ["Showcase"],
    "date": "2010-12-14T14:55:36-05:00",
    "description": "Intern, Understudy, Stage Manager for Your Stories/Our Stories",
    "draft": false,
-   "image": "/img/case-study/biodance/header.jpg",
+   "image": "/img/showcase/biodance/header.jpg",
    "publishdate": "2010-12-14T14:47:36-05:00",
    "tags": [
       "dance",
@@ -24,9 +24,9 @@ The full text of my capstone essay can be found <a href="http://old.bradorego.co
 
 # Selected Images
 
-<img src="/img/case-study/biodance/1.jpg" />
-<img src="/img/case-study/biodance/2.jpg" />
-<img src="/img/case-study/biodance/3.jpg" />
-<img src="/img/case-study/biodance/4.jpg" />
-<img src="/img/case-study/biodance/5.jpg" />
-<img src="/img/case-study/biodance/6.jpg" />
+<img src="/img/showcase/biodance/1.jpg" />
+<img src="/img/showcase/biodance/2.jpg" />
+<img src="/img/showcase/biodance/3.jpg" />
+<img src="/img/showcase/biodance/4.jpg" />
+<img src="/img/showcase/biodance/5.jpg" />
+<img src="/img/showcase/biodance/6.jpg" />

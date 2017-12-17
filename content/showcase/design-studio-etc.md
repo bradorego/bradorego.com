@@ -1,9 +1,9 @@
 {
-   "categories": ["Case Study"],
+   "categories": ["Showcase"],
    "date": "2013-02-12T14:42:59-05:00",
    "description": "Architectural Design website upgrade and re-design.",
    "draft": false,
-   "image": "/img/case-study/design-studio-etc/beforeafter.png",
+   "image": "/img/showcase/design-studio-etc/beforeafter.png",
    "publishdate": "2013-02-12T14:47:36-05:00",
    "tags": [
       "Drupal",
@@ -26,10 +26,10 @@ The new website features responsive design, a fluid layout, image slideshows (wi
 # Selected Images:
 
 Wireframe:
-<img src="/img/case-study/design-studio-etc/wireframe.png" />
+<img src="/img/showcase/design-studio-etc/wireframe.png" />
 Desktop:
-<img src="/img/case-study/design-studio-etc/desktop.png" />
+<img src="/img/showcase/design-studio-etc/desktop.png" />
 Mobile:
-<img src="/img/case-study/design-studio-etc/mobile.png" />
+<img src="/img/showcase/design-studio-etc/mobile.png" />
 Contact (before/after):
-<img src="/img/case-study/design-studio-etc/beforeafter.png" />
+<img src="/img/showcase/design-studio-etc/beforeafter.png" />

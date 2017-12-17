@@ -1,11 +1,11 @@
 {
    "categories": [
-      "Case Study"
+      "Showcase"
    ],
    "date": "2016-04-01T15:11:33-05:00",
    "description": "IoT Consultancy and Product Development",
    "draft": false,
-   "image": "/img/case-study/mobile-igniter/header.jpg",
+   "image": "/img/showcase/mobile-igniter/header.jpg",
    "publishdate": "2016-04-01T14:47:36-05:00",
    "tags": [
       "startup",
@@ -30,13 +30,13 @@ Unfortunately most of the work MobileIgniter has done is under NDA, so while I c
 # Selected Images
 
 MobileIgniter's IoT Landing Page
-<img src="/img/case-study/mobile-igniter/iot-desktop.png" />
+<img src="/img/showcase/mobile-igniter/iot-desktop.png" />
 
 LaundryMate Laundry Sensor Landing Page (Homeowner)
-<img src="/img/case-study/mobile-igniter/laundrymate-personal-desktop.png" />
+<img src="/img/showcase/mobile-igniter/laundrymate-personal-desktop.png" />
 LaundryMate Buy Page
-<img src="/img/case-study/mobile-igniter/laundrymate-buy-mobile.png" />
+<img src="/img/showcase/mobile-igniter/laundrymate-buy-mobile.png" />
 LaundryMate Laundry Sensor Landing Page (Laundromat User)
-<img src="/img/case-study/mobile-igniter/laundrymate-laundromat-desktop.png" />
+<img src="/img/showcase/mobile-igniter/laundrymate-laundromat-desktop.png" />
 UXLab @ MobileIgniter Landing Page
-<img src="/img/case-study/mobile-igniter/uxlab-small-desktop.png" />
+<img src="/img/showcase/mobile-igniter/uxlab-small-desktop.png" />
