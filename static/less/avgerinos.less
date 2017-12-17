@@ -227,7 +227,7 @@ toggle {
   display: block;
   text-align: left;
   white-space: nowrap;
-  tog {
+  a.tog {
     display: inline-table;
     color: @primary;
     border: 2px solid @primary;
@@ -242,17 +242,17 @@ toggle {
     border-left: none;
     white-space: nowrap;
   }
-  tog:hover {
+  a.tog:hover {
     background: lighten(@primary, 20%);
   }
-  tog:first-child {
+  a.tog:first-child {
     border-radius: @border-radius 0px 0px @border-radius !important;
     border-left: 2px solid @primary !important;
   }
-  tog:last-child {
+  a.tog:last-child {
     border-radius: 0px @border-radius @border-radius 0px;
   }
-  tog.selected {
+  a.tog.selected {
     background:@primary;
     color: @white;
     border-color: @primary;
@@ -266,16 +266,16 @@ header {
     min-width: 300px;
     margin: 20px 0px;
     text-align: right;
-    tog.selected {
+    a.tog.selected {
       color: @primary;
       background: @white;
       border-color: @white;
     }
-    tog:first-child {
+    a.tog:first-child {
       border-left: 2px solid @white !important;
     }
   }
-  tog {
+  a.tog {
     color: @white;
     margin: 0px;
     border-color: @white !important;

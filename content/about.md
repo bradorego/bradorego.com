@@ -3,7 +3,8 @@
   "description": "He's a pretty rad dude",
   "permalink": "/about",
   "noPosted": true,
-  "image": "img/about.jpg"
+  "image": "img/about.jpg",
+  "highlighted": "about"
 }
 
 Brad Orego is an Experience Designer, Web Developer, Entrepreneur, and Dancer currently spending time between Brooklyn, NY and Madison, WI ([not literally!](https://www.meetways.com/halfway/Madison%2c%20WI%2c%20United%20States/Brooklyn%2c%20NY%2c%20United%20States/bar/d)). This is his personal blog, where you'll find posts on anything from company culture to experience design to homebrewing to dance.
