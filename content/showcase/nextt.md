@@ -4,7 +4,7 @@
    ],
    "date": "2014-03-01T15:11:21-05:00",
    "description": "Collaborative Social Planning Tool",
-   "draft": false,
+   "draft": true,
    "image": "/img/showcase/nextt/screens.png",
    "publishdate": "2014-03-01T14:47:36-05:00",
    "tags": [

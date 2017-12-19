@@ -4,7 +4,7 @@
    ],
    "date": "2011-02-08T15:10:01-05:00",
    "description": "Founding University of Rochester annual dance festival.",
-   "draft": false,
+   "draft": true,
    "image": "/img/showcase/inspiredance/website.png",
    "publishdate": "2011-02-08T14:47:36-05:00",
    "tags": [

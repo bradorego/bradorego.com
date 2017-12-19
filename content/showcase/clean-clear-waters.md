@@ -4,7 +4,7 @@
    ],
    "date": "2014-04-14T15:10:54-05:00",
    "description": "Water quality monitoring/reporting application",
-   "draft": false,
+   "draft": true,
    "image": "/img/showcase/clean-clear-waters/wires.png",
    "publishdate": "2014-04-12T14:47:36-05:00",
    "tags": [

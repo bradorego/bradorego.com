@@ -3,14 +3,7 @@
     {{ partial "new-header.html" .}}
 
     <cards>
-      {{ range first 5 (where .Site.Pages "Type" "showcase") }}
-        {{ .Render "card"}}
-      {{ end }}
+      <h1>Coming Soon!</h1>
     </cards>
-
-    <!-- Pager -->
-    <div class="pager">
-      <a href="{{ .Site.BaseURL }}/showcase/" target="_self">View All Posts</a>
-    </div>
 
 {{ partial "footer.html" .}}

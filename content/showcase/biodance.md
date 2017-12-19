@@ -2,7 +2,7 @@
    "categories": ["Showcase"],
    "date": "2010-12-14T14:55:36-05:00",
    "description": "Intern, Understudy, Stage Manager for Your Stories/Our Stories",
-   "draft": false,
+   "draft": true,
    "image": "/img/showcase/biodance/header.jpg",
    "publishdate": "2010-12-14T14:47:36-05:00",
    "tags": [

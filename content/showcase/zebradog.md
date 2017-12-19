@@ -4,7 +4,7 @@
    ],
    "date": "2013-03-01T15:10:22-05:00",
    "description": "Interactive multimedia and website design",
-   "draft": false,
+   "draft": true,
    "image": "/img/showcase/zebradog/storystation.png",
    "publishdate": "2013-03-01T14:47:36-05:00",
    "tags": [

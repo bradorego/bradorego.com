@@ -2,7 +2,7 @@
    "categories": ["Showcase"],
    "date": "2013-02-12T14:42:59-05:00",
    "description": "Architectural Design website upgrade and re-design.",
-   "draft": false,
+   "draft": true,
    "image": "/img/showcase/design-studio-etc/beforeafter.png",
    "publishdate": "2013-02-12T14:47:36-05:00",
    "tags": [
