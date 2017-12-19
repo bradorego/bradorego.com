@@ -6,19 +6,10 @@
     <description>Recent content in Tags on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Apr 2014 15:10:54 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 18 Mar 2017 14:40:53 -0500</lastBuildDate>
     
 	<atom:link href="http://bradorego.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>100state</title>
-      <link>http://bradorego.com/tags/100state/</link>
-      <pubDate>Mon, 14 Apr 2014 15:10:54 -0500</pubDate>
-      
-      <guid>http://bradorego.com/tags/100state/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Agency</title>
@@ -26,24 +17,6 @@
       <pubDate>Sat, 18 Mar 2017 14:40:53 -0500</pubDate>
       
       <guid>http://bradorego.com/tags/agency/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Analytics</title>
-      <link>http://bradorego.com/tags/analytics/</link>
-      <pubDate>Sat, 01 Mar 2014 15:11:21 -0500</pubDate>
-      
-      <guid>http://bradorego.com/tags/analytics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>App Design</title>
-      <link>http://bradorego.com/tags/app-design/</link>
-      <pubDate>Sun, 14 Apr 2013 15:10:19 -0500</pubDate>
-      
-      <guid>http://bradorego.com/tags/app-design/</guid>
       <description></description>
     </item>
     
@@ -75,24 +48,6 @@
     </item>
     
     <item>
-      <title>Clean Lakes Alliance</title>
-      <link>http://bradorego.com/tags/clean-lakes-alliance/</link>
-      <pubDate>Mon, 14 Apr 2014 15:10:54 -0500</pubDate>
-      
-      <guid>http://bradorego.com/tags/clean-lakes-alliance/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>College</title>
-      <link>http://bradorego.com/tags/college/</link>
-      <pubDate>Tue, 08 Feb 2011 15:10:01 -0500</pubDate>
-      
-      <guid>http://bradorego.com/tags/college/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Content</title>
       <link>http://bradorego.com/tags/content/</link>
       <pubDate>Thu, 14 Apr 2016 12:26:53 -0500</pubDate>
@@ -120,29 +75,11 @@
     </item>
     
     <item>
-      <title>Css3</title>
-      <link>http://bradorego.com/tags/css3/</link>
-      <pubDate>Tue, 12 Feb 2013 14:42:59 -0500</pubDate>
-      
-      <guid>http://bradorego.com/tags/css3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Culture</title>
       <link>http://bradorego.com/tags/culture/</link>
       <pubDate>Wed, 21 Jun 2017 13:54:44 -0500</pubDate>
       
       <guid>http://bradorego.com/tags/culture/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dance</title>
-      <link>http://bradorego.com/tags/dance/</link>
-      <pubDate>Tue, 08 Feb 2011 15:10:01 -0500</pubDate>
-      
-      <guid>http://bradorego.com/tags/dance/</guid>
       <description></description>
     </item>
     
@@ -201,15 +138,6 @@
     </item>
     
     <item>
-      <title>Entrepreneurship</title>
-      <link>http://bradorego.com/tags/entrepreneurship/</link>
-      <pubDate>Fri, 01 Apr 2016 15:11:33 -0500</pubDate>
-      
-      <guid>http://bradorego.com/tags/entrepreneurship/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Execution</title>
       <link>http://bradorego.com/tags/execution/</link>
       <pubDate>Wed, 11 May 2016 10:04:17 -0500</pubDate>
@@ -239,7 +167,7 @@
     <item>
       <title>Firebase</title>
       <link>http://bradorego.com/tags/firebase/</link>
-      <pubDate>Tue, 03 May 2016 12:30:41 -0500</pubDate>
+      <pubDate>Mon, 02 May 2016 18:29:53 -0500</pubDate>
       
       <guid>http://bradorego.com/tags/firebase/</guid>
       <description></description>
@@ -300,15 +228,6 @@
     </item>
     
     <item>
-      <title>Interactive Multimedia</title>
-      <link>http://bradorego.com/tags/interactive-multimedia/</link>
-      <pubDate>Fri, 01 Mar 2013 15:10:22 -0500</pubDate>
-      
-      <guid>http://bradorego.com/tags/interactive-multimedia/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Internet Of Things</title>
       <link>http://bradorego.com/tags/internet-of-things/</link>
       <pubDate>Mon, 15 May 2017 11:53:22 -0500</pubDate>
@@ -320,27 +239,9 @@
     <item>
       <title>Ionic</title>
       <link>http://bradorego.com/tags/ionic/</link>
-      <pubDate>Tue, 03 May 2016 12:30:41 -0500</pubDate>
+      <pubDate>Mon, 02 May 2016 18:29:53 -0500</pubDate>
       
       <guid>http://bradorego.com/tags/ionic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ionic Framework</title>
-      <link>http://bradorego.com/tags/ionic-framework/</link>
-      <pubDate>Tue, 03 May 2016 12:30:41 -0500</pubDate>
-      
-      <guid>http://bradorego.com/tags/ionic-framework/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Iot</title>
-      <link>http://bradorego.com/tags/iot/</link>
-      <pubDate>Fri, 01 Apr 2016 15:11:33 -0500</pubDate>
-      
-      <guid>http://bradorego.com/tags/iot/</guid>
       <description></description>
     </item>
     
@@ -359,42 +260,6 @@
       <pubDate>Mon, 11 Mar 2013 17:21:36 -0500</pubDate>
       
       <guid>http://bradorego.com/tags/javascript/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jquery</title>
-      <link>http://bradorego.com/tags/jquery/</link>
-      <pubDate>Tue, 12 Feb 2013 14:42:59 -0500</pubDate>
-      
-      <guid>http://bradorego.com/tags/jquery/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jquery Mobile</title>
-      <link>http://bradorego.com/tags/jquery-mobile/</link>
-      <pubDate>Sun, 14 Apr 2013 15:10:19 -0500</pubDate>
-      
-      <guid>http://bradorego.com/tags/jquery-mobile/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kinect</title>
-      <link>http://bradorego.com/tags/kinect/</link>
-      <pubDate>Fri, 01 Mar 2013 15:10:22 -0500</pubDate>
-      
-      <guid>http://bradorego.com/tags/kinect/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kiosk</title>
-      <link>http://bradorego.com/tags/kiosk/</link>
-      <pubDate>Fri, 01 Mar 2013 15:10:22 -0500</pubDate>
-      
-      <guid>http://bradorego.com/tags/kiosk/</guid>
       <description></description>
     </item>
     
@@ -431,24 +296,6 @@
       <pubDate>Thu, 14 Apr 2016 12:26:53 -0500</pubDate>
       
       <guid>http://bradorego.com/tags/meta/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mixpanel</title>
-      <link>http://bradorego.com/tags/mixpanel/</link>
-      <pubDate>Sat, 01 Mar 2014 15:11:21 -0500</pubDate>
-      
-      <guid>http://bradorego.com/tags/mixpanel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mobile App</title>
-      <link>http://bradorego.com/tags/mobile-app/</link>
-      <pubDate>Fri, 01 Apr 2016 15:11:33 -0500</pubDate>
-      
-      <guid>http://bradorego.com/tags/mobile-app/</guid>
       <description></description>
     </item>
     
@@ -570,15 +417,6 @@
     </item>
     
     <item>
-      <title>Product Development</title>
-      <link>http://bradorego.com/tags/product-development/</link>
-      <pubDate>Tue, 03 May 2016 12:30:41 -0500</pubDate>
-      
-      <guid>http://bradorego.com/tags/product-development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Product Management</title>
       <link>http://bradorego.com/tags/product-management/</link>
       <pubDate>Sat, 29 Apr 2017 15:23:55 -0500</pubDate>
@@ -633,15 +471,6 @@
     </item>
     
     <item>
-      <title>Redesign</title>
-      <link>http://bradorego.com/tags/redesign/</link>
-      <pubDate>Tue, 12 Feb 2013 14:42:59 -0500</pubDate>
-      
-      <guid>http://bradorego.com/tags/redesign/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Remote Sensing</title>
       <link>http://bradorego.com/tags/remote-sensing/</link>
       <pubDate>Mon, 11 Mar 2013 17:21:36 -0500</pubDate>
@@ -660,38 +489,11 @@
     </item>
     
     <item>
-      <title>Rochester</title>
-      <link>http://bradorego.com/tags/rochester/</link>
-      <pubDate>Tue, 14 Dec 2010 14:55:36 -0500</pubDate>
-      
-      <guid>http://bradorego.com/tags/rochester/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Sourcing</title>
       <link>http://bradorego.com/tags/sourcing/</link>
       <pubDate>Sat, 18 Mar 2017 14:40:53 -0500</pubDate>
       
       <guid>http://bradorego.com/tags/sourcing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Stage Management</title>
-      <link>http://bradorego.com/tags/stage-management/</link>
-      <pubDate>Tue, 14 Dec 2010 14:55:36 -0500</pubDate>
-      
-      <guid>http://bradorego.com/tags/stage-management/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Startup</title>
-      <link>http://bradorego.com/tags/startup/</link>
-      <pubDate>Fri, 01 Apr 2016 15:11:33 -0500</pubDate>
-      
-      <guid>http://bradorego.com/tags/startup/</guid>
       <description></description>
     </item>
     
@@ -791,24 +593,6 @@
       <pubDate>Wed, 11 May 2016 10:04:17 -0500</pubDate>
       
       <guid>http://bradorego.com/tags/vision/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Website</title>
-      <link>http://bradorego.com/tags/website/</link>
-      <pubDate>Fri, 01 Mar 2013 15:10:22 -0500</pubDate>
-      
-      <guid>http://bradorego.com/tags/website/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Yui</title>
-      <link>http://bradorego.com/tags/yui/</link>
-      <pubDate>Sun, 14 Apr 2013 15:10:19 -0500</pubDate>
-      
-      <guid>http://bradorego.com/tags/yui/</guid>
       <description></description>
     </item>
     
