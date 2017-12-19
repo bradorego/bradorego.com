@@ -3,7 +3,7 @@
     {{ partial "new-header.html" . }}
 
     <cards>
-      {{ range where .Site.Pages "Type" "blog" }}
+      {{ range .Site.Pages }}
         {{ .Render "archive" }}
       {{ end }}
       {{ template "_internal/pagination.html" }}

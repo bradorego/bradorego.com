@@ -1,0 +1,12 @@
+{{ partial "header.html" . }}
+
+    {{ partial "new-header.html" . }}
+
+    <cards>
+      {{ range where .Site.Pages "Type" "showcase" }}
+        {{ .Render "archive" }}
+      {{ end }}
+      {{ template "_internal/pagination.html" }}
+    </cards>
+
+{{ partial "footer.html" . }}
