@@ -5,9 +5,12 @@
   <text class="timeline">
     <h2 class="timeline">{{ .Description }}</h2>
     <tiny class="timeline">Lorem ipsum dolor sit amet</tiny>
+    <toggle>
+      <a class="tog" id="sun">Noom Coach</a>
+      <a id="sun_old" class="tog selected">The competition</a>
+    </toggle>
   </text>
   <graphic class="timeline">
     <img src=" {{.Params.image}}" />
-    <!-- <div class="img-preview" style="background-image:url({{ .Params.image }})"></div> -->
   </graphic>
 </card>
