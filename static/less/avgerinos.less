@@ -71,10 +71,24 @@ cards.timeline {
   background: none;
 }
 
-card.blog {
-}
-
 card.timeline {
+  text {
+    margin: 50px;
+    width: 42%;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    height: intrinsic;
+    margin: 0px;
+  }
+  h2 {
+    width: 90%;
+    font-size: 28px;
+    line-height: 42px;
+    font-weight: 400;
+    margin: 20px 0px;
+    padding-bottom: 50px;
+  }
   graphic {
     width: 44%;
     img {
@@ -99,90 +113,6 @@ card.timeline {
   }
 }
 
-/* RESUME */
-
-cards.resume {
-    background: @white;
-    box-shadow: 0px 1px 6px @card-shadow;
-    }
-
-    card.resume {
-    padding: 5px 100px 5px 150px;
-    }
-
-    card.resume .pinkLine{
-    display: none;
-    }
-
-    card.resume graphic {
-    width: 0%;
-    height: 0px;
-    }
-
-    card.resume toggle{
-    display: none;
-    }
-
-
-    card.resume text{
-    margin: 5px 100px;
-    width: 60%;
-    }
-
-    card.resume h2 {
-    width: auto;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 24px;
-    margin: 0px;
-    }
-
-    card.resume tiny {
-    width: auto;
-    font-size: 14px;
-    font-weight: 400;
-    margin: 5px 0px;
-    display: none;
-    }
-
-    b {
-    font-weight: bold;
-    font-size: inherit;
-    }
-
-    .resume graphic {
-    display: none;
-    }
-
-
-  cards card.divider {
-    &.resume {
-    display: block !important;
-    padding: 100px 100px 50px 150px;
-    }
-    &.timeline {
-      box-shadow: none;
-      background: none;
-      min-height: auto !important;
-      height: auto;
-      margin: 0px !important;
-      padding: 20px;
-      font-size: 12px;
-    }
-    company {
-      font-weight: 500;
-      font-size: 24px;
-      margin-right: 10px;
-    }
-    detail {
-      font-size: 24px;
-      font-weight: 500;
-      opacity: 0.5
-    }
-    subhead {
-      display: block;
-    }
-  }
 
 ribbon {
   display: block;

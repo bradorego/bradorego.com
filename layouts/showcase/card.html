@@ -1,9 +1,13 @@
-<card class="blog">
-  <a href="{{ .Permalink }}" target="_self">
-    <div class="img-preview" style="background-image:url({{ .Params.image }})"></div>
-    <h2 class="post-title">{{ .Title }}</h2>
-  </a>
-  <p class="post-meta">
-    {{ partial "posted-on-in.html" . }}
-  </p>
+
+  {{ .Title }}
+
+<card class="timeline">
+  <text class="timeline">
+    <h2 class="timeline">{{ .Description }}</h2>
+    <tiny class="timeline">Lorem ipsum dolor sit amet</tiny>
+  </text>
+  <graphic class="timeline">
+    <img src=" {{.Params.image}}" />
+    <!-- <div class="img-preview" style="background-image:url({{ .Params.image }})"></div> -->
+  </graphic>
 </card>
