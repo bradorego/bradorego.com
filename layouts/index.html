@@ -1,28 +1,16 @@
 {{ partial "header.html" .}}
 
-    <!-- {{ partial "page-header.html" .Site.Params}} -->
     {{ partial "new-header.html" .}}
 
     <cards>
-      {{ range first 5 (where .Site.Pages "Type" "blog") }}
+      {{ range first 5 (where .Site.Pages "Type" "showcase") }}
         {{ .Render "card"}}
       {{ end }}
     </cards>
 
     <!-- Pager -->
     <div class="pager">
-      <a href="{{ .Site.BaseURL }}/blog/" target="_self">View All Posts</a>
+      <a href="{{ .Site.BaseURL }}/showcase/" target="_self">View All Posts</a>
     </div>
-
-    <!-- Main Content -->
-    <!-- <div class="container">
-      <div class="row">
-        {{ partial "bootstrap-div.html" .}}
-          {{ range first 5 .Site.Pages }}
-              {{ .Render "summary"}}
-          {{ end }}
-        </div>
-      </div>
-    </div> -->
 
 {{ partial "footer.html" .}}
