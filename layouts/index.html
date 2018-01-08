@@ -1,9 +1,12 @@
-{{ partial "header.html" .}}
+{{ partial "header.html" . }}
 
-    {{ partial "new-header.html" .}}
+    {{ partial "new-header.html" . }}
 
     <cards>
-      <h1>Coming Soon!</h1>
+      {{ range where .Site.Pages "Type" "showcase" }}
+        {{ .Render "archive" }}
+      {{ end }}
+      {{ template "_internal/pagination.html" }}
     </cards>
 
-{{ partial "footer.html" .}}
+{{ partial "footer.html" . }}
