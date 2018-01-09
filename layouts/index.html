@@ -2,7 +2,11 @@
 
     {{ partial "new-header.html" . }}
 
-    <cards>
+    <cards class="showcase">
+      <h2 class="divider">Current Projects:</h2>
+      <card class="currently">
+        <a href="https://getbounce.co/">Bounce</a> <a href="https://justprotect.co">JustProtect</a> <a href="http://freethoughttoday.com">Freethought Today</a> <a href="https://swag.express">SwagExpress</a>
+      </card>
       {{ range where .Site.Pages "Type" "showcase" }}
         {{ .Render "archive" }}
       {{ end }}

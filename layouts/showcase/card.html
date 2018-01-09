@@ -1,17 +1,17 @@
 
-<a href="{{ .Permalink }}" target="_self">{{ .Title }}</a>
+<h2 class="divider">{{ .Title }} ({{.Params.dateRange}})</h2>
 <card class="timeline">
+  <div class="graphic timeline">
+    {{$img := (index (.Params.showcaseImg) 0) }}
+    <img src="{{ $img.src }}" />
+  </div>
   <div class="text">
     <h2>{{ .Params.headline }}</h2>
-    <p class="tiny">Lorem ipsum dolor sit amet</p>
+    <p class="tiny">{{.Description}}</p>
     <toggle>
       {{ range $index, $link := .Params.showcaseImg }}
         <a class="tog showcase-toggle {{if eq $index 0}}selected{{end}}" data-img-src="{{$link.src}}">{{$link.title}}</a>
       {{ end }}
     </toggle>
-  </div>
-  <div class="graphic timeline">
-    {{$img := (index (.Params.showcaseImg) 0) }}
-    <img src="{{ $img.src }}" />
   </div>
 </card>

@@ -25,7 +25,7 @@ cards {
     position: relative;
     background: @white;
     padding: 30px;
-    margin: 30px 0px;
+    margin: 30px auto;
     box-shadow: 0px 1px 6px @card-shadow;
     height: auto;
     overflow: hidden;
@@ -66,15 +66,17 @@ cards {
 
 /* TIMELINE */
 
-cards.timeline {
-  box-shadow: none;
-  background: none;
+cards.showcase {
+  h2.divider {
+    margin-left: 15px;
+  }
 }
 
 card.timeline {
+  padding: 30px 50px;
   .text {
     margin: 50px;
-    width: 42%;
+    width: 100%;
     display: inline-block;
     vertical-align: top;
     position: relative;
@@ -90,7 +92,7 @@ card.timeline {
     padding-bottom: 50px;
   }
   .graphic {
-    width: 44%;
+    width: 100%;
     display: inline-block;
     float: right;
     img {
@@ -225,15 +227,25 @@ header {
     width: 95%;
     height: auto;
   }
-  cards{
-    width: 95%;
+  cards {
     overflow: hidden;
   }
-  card{
+  card {
     width: 95%;
     height:610px;
   }
+  header {
+    .title,
+    toggle {
+      width: 100%;
+    }
+    toggle {
+      text-align: center;
+      margin: 0px auto 10px;
+    }
+  }
 }
+
 
 @media screen and (min-width: 768px) {
   ribbon {
@@ -246,6 +258,22 @@ header {
   card{
     width:700px;
     height:520px;
+  }
+  card.timeline {
+    .text,
+    .graphic {
+      width: 48%;
+    }
+  }
+  header {
+    .title, 
+    toggle {
+      width: 49%;
+    }
+    toggle {
+      text-align: right;
+      margin: -10px auto 10px;
+    }
   }
 }
 
@@ -277,23 +305,17 @@ header {
   }
 }
 
-@media print {
-  body {
-    background: none;
-  }
-  header {
-    display: none;
-  }
-  card.divider * {
-    font-size: 16pt !important;
-    padding: 0px !important;
-  }
-  card.resume h2 {
-    font-size: 12pt !important;
-  }
-  cards {
-    margin-top: 0px;
-    color: @primary !important;
-    box-shadow: none;
+//////////////////////
+/////////////////////
+////////////////////
+
+cards {
+  card.currently {
+    padding: 30px 50px;
+    a {
+      font-weight: 900;
+      margin-right: 10px;
+      display: inline-block;
+    }
   }
 }
