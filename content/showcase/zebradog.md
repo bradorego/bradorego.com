@@ -3,13 +3,10 @@
       "Showcase"
    ],
    "date": "2013-03-01T15:10:22-05:00",
-   "headline": "UX research/design and web development.",
-   "description": "Zebradog is an award-winning interactive multimedia design firm. We worked with Aurora Healthcare, Northwestern University, Saudi Aramco, UW-Madison, and others in various industries.",
+   "headline": "Interactive multimedia, UX research/design, Javascript/Drupal development.",
+   "description": "Zebradog is an award-winning interactive multimedia design firm. We built solutions for Aurora Healthcare, Northwestern University, Saudi Aramco, UW-Madison, and others in various industries.",
    "draft": false,
    "image": "/img/showcase/zebradog/storystation.png",
-   "slides": [
-     "/img/showcase/zebradog/slideshow/1.gif"
-   ],
    "publishdate": "2013-03-01T14:47:36-05:00",
    "tags": [
       "interactive multimedia",
@@ -20,14 +17,19 @@
    ],
    "showcaseImg": [
      {
-       "title": "test",
-       "src": "http://via.placeholder.com/350x150"
+       "title": "Website",
+       "src": "/img/showcase/zebradog/showcase/mstc.gif"
      },
      {
-       "title": "test2",
-       "src": "http://via.placeholder.com/350x250"
+       "title": "Kinect",
+       "src": "/img/showcase/zebradog/showcase/nwern.gif"
+     },
+     {
+       "title": "Media Wall",
+       "src": "/img/showcase/zebradog/showcase/aramco.gif"
      }
    ],
+   "dateRange": "2012-2013",
    "title": "Zebradog"
 }
 
