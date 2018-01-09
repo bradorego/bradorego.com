@@ -3,8 +3,8 @@
       "Showcase"
    ],
    "date": "2016-09-09T11:12:46-05:00",
-   "headline": "User research, enterprise dashboard re-design, mobile app design.",
-   "description": "SingleWire reached out to me to help them update their SaaS dashboard/desktop notifier and design a new mobile application.",
+   "headline": "UX research, enterprise dashboard re-design, mobile app design.",
+   "description": "SingleWire's InformaCast is an emergency notification software platform trusted by federal agencies, major universities, and large companies.",
    "draft": false,
    "image": "/img/showcase/zebradog/storystation.png",
    "publishdate": "2016-09-09T11:12:46-05:00",

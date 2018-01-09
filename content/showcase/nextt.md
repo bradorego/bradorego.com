@@ -3,8 +3,9 @@
       "Showcase"
    ],
    "date": "2014-03-01T15:11:21-05:00",
-   "description": "Collaborative Social Planning Tool",
-   "draft": true,
+   "headline": "UX research, analytics, mobile web development.",
+   "description": "Nextt was a collaborate social planning tool targeting groups of 4-10 people making plans within the next 2 weeks.",
+   "draft": false,
    "image": "/img/showcase/nextt/screens.png",
    "publishdate": "2014-03-01T14:47:36-05:00",
    "tags": [
@@ -16,6 +17,21 @@
       "mobile app",
       "mixpanel"
    ],
+   "showcaseImg": [
+     {
+       "title": "Research",
+       "src": "/img/showcase/nextt/showcase/research.gif"
+     },
+     {
+       "title": "Wireframes",
+       "src": "/img/showcase/nextt/showcase/wires.gif"
+     },
+     {
+       "title": "Screenshots",
+       "src": "/img/showcase/nextt/showcase/screens.gif"
+     }
+   ],
+   "dateRange": "2013-2014",
    "title": "Nextt"
 }
 
