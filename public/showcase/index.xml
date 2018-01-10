@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Showcases on bradorego.com</title>
+    <link>http://bradorego.com/showcase/</link>
+    <description>Recent content in Showcases on bradorego.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 09 Apr 2017 11:12:46 -0500</lastBuildDate>
+    
+	<atom:link href="http://bradorego.com/showcase/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>American Family Insurance</title>
+      <link>http://bradorego.com/showcase/american-family-insurance/</link>
+      <pubDate>Sun, 09 Apr 2017 11:12:46 -0500</pubDate>
+      
+      <guid>http://bradorego.com/showcase/american-family-insurance/</guid>
+      <description> About Selected Images </description>
+    </item>
+    
+    <item>
+      <title>SingleWire Software</title>
+      <link>http://bradorego.com/showcase/singlewire-software/</link>
+      <pubDate>Fri, 09 Sep 2016 11:12:46 -0500</pubDate>
+      
+      <guid>http://bradorego.com/showcase/singlewire-software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Therma-Stor</title>
+      <link>http://bradorego.com/showcase/therma-stor/</link>
+      <pubDate>Tue, 09 Aug 2016 11:12:46 -0500</pubDate>
+      
+      <guid>http://bradorego.com/showcase/therma-stor/</guid>
+      <description> About Selected Images </description>
+    </item>
+    
+    <item>
+      <title>Spectrum Brands</title>
+      <link>http://bradorego.com/showcase/spectrum-brands/</link>
+      <pubDate>Sat, 09 Jan 2016 11:12:46 -0500</pubDate>
+      
+      <guid>http://bradorego.com/showcase/spectrum-brands/</guid>
+      <description> About Selected Images </description>
+    </item>
+    
+    <item>
+      <title>Candorem</title>
+      <link>http://bradorego.com/showcase/candorem/</link>
+      <pubDate>Mon, 09 Jun 2014 11:12:46 -0500</pubDate>
+      
+      <guid>http://bradorego.com/showcase/candorem/</guid>
+      <description> About Selected Images </description>
+    </item>
+    
+    <item>
+      <title>Nextt</title>
+      <link>http://bradorego.com/showcase/nextt/</link>
+      <pubDate>Sat, 01 Mar 2014 15:11:21 -0500</pubDate>
+      
+      <guid>http://bradorego.com/showcase/nextt/</guid>
+      <description>About Nextt is a social event planning tool designed to help get all of your friends on the same page and to get together offline in the real world. While working with Nextt, I was responsible for development of the mobile web app (which eventually became Nextt&amp;rsquo;s Android app), as well as overseeing parts of the overall User Experience and wrangling all of the data, metrics, and analytics to help guide product development.</description>
+    </item>
+    
+    <item>
+      <title>Zebradog</title>
+      <link>http://bradorego.com/showcase/zebradog/</link>
+      <pubDate>Fri, 01 Mar 2013 15:10:22 -0500</pubDate>
+      
+      <guid>http://bradorego.com/showcase/zebradog/</guid>
+      <description>About Zebradog is an environmental graphic design firm located in Madison, WI who specializes in creating immersive, branded experiences for their clients. Zebradog&amp;rsquo;s multidisciplinary team of architects, graphic designers, and software developers blend the physical and digital realms, creating novel digital applications of technology for interactive multimedia and website design.
+Working with Zebradog gave me the opportunity to work with an extremely talented team as well as push the limits of web technology in the interactive multimedia space.</description>
+    </item>
+    
+    <item>
+      <title>Epic Systems</title>
+      <link>http://bradorego.com/showcase/epic-systems/</link>
+      <pubDate>Mon, 09 Jan 2012 11:12:46 -0500</pubDate>
+      
+      <guid>http://bradorego.com/showcase/epic-systems/</guid>
+      <description> About Selected Images </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -20,5 +20,14 @@
       <description>TL;DNR  Ionic lets you build apps ridiculously fast. Write once, build many. If you don&#39;t like how something&#39;s done, instead of just complaining about it, do something to make it better. Reverse engineering is easier than ever. Your success is not a factor of your codebase, but about the value you offer an end-user. The end result: Better MCBW   Backstory  Madison Craft Beer Week has been one of my favorite events since moving to Madison.</description>
     </item>
     
+    <item>
+      <title>Nextt</title>
+      <link>http://bradorego.com/showcase/nextt/</link>
+      <pubDate>Sat, 01 Mar 2014 15:11:21 -0500</pubDate>
+      
+      <guid>http://bradorego.com/showcase/nextt/</guid>
+      <description>About Nextt is a social event planning tool designed to help get all of your friends on the same page and to get together offline in the real world. While working with Nextt, I was responsible for development of the mobile web app (which eventually became Nextt&amp;rsquo;s Android app), as well as overseeing parts of the overall User Experience and wrangling all of the data, metrics, and analytics to help guide product development.</description>
+    </item>
+    
   </channel>
 </rss>

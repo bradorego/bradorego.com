@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Saas on bradorego.com</title>
+    <link>http://bradorego.com/tags/saas/</link>
+    <description>Recent content in Saas on bradorego.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 Sep 2016 11:12:46 -0500</lastBuildDate>
+    
+	<atom:link href="http://bradorego.com/tags/saas/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SingleWire Software</title>
+      <link>http://bradorego.com/showcase/singlewire-software/</link>
+      <pubDate>Fri, 09 Sep 2016 11:12:46 -0500</pubDate>
+      
+      <guid>http://bradorego.com/showcase/singlewire-software/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

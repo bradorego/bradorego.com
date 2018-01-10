@@ -21,6 +21,33 @@
     </item>
     
     <item>
+      <title>Agile</title>
+      <link>http://bradorego.com/tags/agile/</link>
+      <pubDate>Sun, 09 Apr 2017 11:12:46 -0500</pubDate>
+      
+      <guid>http://bradorego.com/tags/agile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analytics</title>
+      <link>http://bradorego.com/tags/analytics/</link>
+      <pubDate>Sat, 01 Mar 2014 15:11:21 -0500</pubDate>
+      
+      <guid>http://bradorego.com/tags/analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Angular</title>
+      <link>http://bradorego.com/tags/angular/</link>
+      <pubDate>Sun, 09 Apr 2017 11:12:46 -0500</pubDate>
+      
+      <guid>http://bradorego.com/tags/angular/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Barry Schwartz</title>
       <link>http://bradorego.com/tags/barry-schwartz/</link>
       <pubDate>Wed, 27 Feb 2013 16:22:57 -0500</pubDate>
@@ -84,6 +111,15 @@
     </item>
     
     <item>
+      <title>Dashboard</title>
+      <link>http://bradorego.com/tags/dashboard/</link>
+      <pubDate>Fri, 09 Sep 2016 11:12:46 -0500</pubDate>
+      
+      <guid>http://bradorego.com/tags/dashboard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Design</title>
       <link>http://bradorego.com/tags/design/</link>
       <pubDate>Thu, 14 Apr 2016 12:26:53 -0500</pubDate>
@@ -134,6 +170,15 @@
       <pubDate>Thu, 14 Apr 2016 12:26:53 -0500</pubDate>
       
       <guid>http://bradorego.com/tags/drupal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Entrepreneurship</title>
+      <link>http://bradorego.com/tags/entrepreneurship/</link>
+      <pubDate>Sat, 01 Mar 2014 15:11:21 -0500</pubDate>
+      
+      <guid>http://bradorego.com/tags/entrepreneurship/</guid>
       <description></description>
     </item>
     
@@ -201,6 +246,15 @@
     </item>
     
     <item>
+      <title>Healthcare</title>
+      <link>http://bradorego.com/tags/healthcare/</link>
+      <pubDate>Mon, 09 Jan 2012 11:12:46 -0500</pubDate>
+      
+      <guid>http://bradorego.com/tags/healthcare/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Heatmap</title>
       <link>http://bradorego.com/tags/heatmap/</link>
       <pubDate>Mon, 11 Mar 2013 17:21:36 -0500</pubDate>
@@ -228,6 +282,24 @@
     </item>
     
     <item>
+      <title>Information Architecture</title>
+      <link>http://bradorego.com/tags/information-architecture/</link>
+      <pubDate>Mon, 09 Jun 2014 11:12:46 -0500</pubDate>
+      
+      <guid>http://bradorego.com/tags/information-architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interactive Multimedia</title>
+      <link>http://bradorego.com/tags/interactive-multimedia/</link>
+      <pubDate>Fri, 01 Mar 2013 15:10:22 -0500</pubDate>
+      
+      <guid>http://bradorego.com/tags/interactive-multimedia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Internet Of Things</title>
       <link>http://bradorego.com/tags/internet-of-things/</link>
       <pubDate>Mon, 15 May 2017 11:53:22 -0500</pubDate>
@@ -239,7 +311,7 @@
     <item>
       <title>Ionic</title>
       <link>http://bradorego.com/tags/ionic/</link>
-      <pubDate>Mon, 02 May 2016 18:29:53 -0500</pubDate>
+      <pubDate>Tue, 09 Aug 2016 11:12:46 -0500</pubDate>
       
       <guid>http://bradorego.com/tags/ionic/</guid>
       <description></description>
@@ -260,6 +332,24 @@
       <pubDate>Mon, 11 Mar 2013 17:21:36 -0500</pubDate>
       
       <guid>http://bradorego.com/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kinect</title>
+      <link>http://bradorego.com/tags/kinect/</link>
+      <pubDate>Fri, 01 Mar 2013 15:10:22 -0500</pubDate>
+      
+      <guid>http://bradorego.com/tags/kinect/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kiosk</title>
+      <link>http://bradorego.com/tags/kiosk/</link>
+      <pubDate>Fri, 01 Mar 2013 15:10:22 -0500</pubDate>
+      
+      <guid>http://bradorego.com/tags/kiosk/</guid>
       <description></description>
     </item>
     
@@ -296,6 +386,24 @@
       <pubDate>Thu, 14 Apr 2016 12:26:53 -0500</pubDate>
       
       <guid>http://bradorego.com/tags/meta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mixpanel</title>
+      <link>http://bradorego.com/tags/mixpanel/</link>
+      <pubDate>Sat, 01 Mar 2014 15:11:21 -0500</pubDate>
+      
+      <guid>http://bradorego.com/tags/mixpanel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mobile App</title>
+      <link>http://bradorego.com/tags/mobile-app/</link>
+      <pubDate>Fri, 09 Sep 2016 11:12:46 -0500</pubDate>
+      
+      <guid>http://bradorego.com/tags/mobile-app/</guid>
       <description></description>
     </item>
     
@@ -480,6 +588,15 @@
     </item>
     
     <item>
+      <title>Research</title>
+      <link>http://bradorego.com/tags/research/</link>
+      <pubDate>Fri, 09 Sep 2016 11:12:46 -0500</pubDate>
+      
+      <guid>http://bradorego.com/tags/research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Reverse Engineer</title>
       <link>http://bradorego.com/tags/reverse-engineer/</link>
       <pubDate>Mon, 02 May 2016 18:29:53 -0500</pubDate>
@@ -489,11 +606,29 @@
     </item>
     
     <item>
+      <title>Saas</title>
+      <link>http://bradorego.com/tags/saas/</link>
+      <pubDate>Fri, 09 Sep 2016 11:12:46 -0500</pubDate>
+      
+      <guid>http://bradorego.com/tags/saas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Sourcing</title>
       <link>http://bradorego.com/tags/sourcing/</link>
       <pubDate>Sat, 18 Mar 2017 14:40:53 -0500</pubDate>
       
       <guid>http://bradorego.com/tags/sourcing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Startup</title>
+      <link>http://bradorego.com/tags/startup/</link>
+      <pubDate>Sat, 01 Mar 2014 15:11:21 -0500</pubDate>
+      
+      <guid>http://bradorego.com/tags/startup/</guid>
       <description></description>
     </item>
     
@@ -534,6 +669,15 @@
     </item>
     
     <item>
+      <title>Ui Liaison</title>
+      <link>http://bradorego.com/tags/ui-liaison/</link>
+      <pubDate>Mon, 09 Jan 2012 11:12:46 -0500</pubDate>
+      
+      <guid>http://bradorego.com/tags/ui-liaison/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Usability</title>
       <link>http://bradorego.com/tags/usability/</link>
       <pubDate>Wed, 30 Aug 2017 15:58:43 -0500</pubDate>
@@ -570,6 +714,15 @@
     </item>
     
     <item>
+      <title>User Research</title>
+      <link>http://bradorego.com/tags/user-research/</link>
+      <pubDate>Tue, 09 Aug 2016 11:12:46 -0500</pubDate>
+      
+      <guid>http://bradorego.com/tags/user-research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>User Testing</title>
       <link>http://bradorego.com/tags/user-testing/</link>
       <pubDate>Wed, 30 Aug 2017 15:58:43 -0500</pubDate>
@@ -593,6 +746,24 @@
       <pubDate>Wed, 11 May 2016 10:04:17 -0500</pubDate>
       
       <guid>http://bradorego.com/tags/vision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Website</title>
+      <link>http://bradorego.com/tags/website/</link>
+      <pubDate>Fri, 01 Mar 2013 15:10:22 -0500</pubDate>
+      
+      <guid>http://bradorego.com/tags/website/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wireframes</title>
+      <link>http://bradorego.com/tags/wireframes/</link>
+      <pubDate>Mon, 09 Jun 2014 11:12:46 -0500</pubDate>
+      
+      <guid>http://bradorego.com/tags/wireframes/</guid>
       <description></description>
     </item>
     

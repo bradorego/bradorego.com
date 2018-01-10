@@ -39,12 +39,19 @@ Element.prototype.toggleClass = function (name) {
 };
 document.addEventListener('DOMContentLoaded', function () {
   var $wrapper = document.getElementById('wrapper'),
-    // $menuToggle = document.getElementsByClassName('menu-toggle')[0],
     $scrollUp = document.getElementById('scrollUp');
-  // $menuToggle.addEventListener('click', function (e) {
-  //   $wrapper.toggleClass('toggled');
-  // });
+    $toggles = Array.from(document.getElementsByClassName('showcase-toggle')),
+    toggleClickListener = (event) => {
+      event.preventDefault(); event.stopPropagation();
+      let card = event.target.parentElement.parentElement.parentElement;
+      card.getElementsByTagName('img')[0].src = event.target.dataset.imgSrc;
+      Array.from(card.getElementsByClassName('showcase-toggle')).forEach((t) => {t.removeClass('selected');}); /// unselect others
+      event.target.addClass('selected'); /// select clicked
+    };
 
+    $toggles.forEach((t) => {
+      t.addEventListener('click', toggleClickListener);
+    });
   if ($scrollUp) {
     window.addEventListener('scroll', function (e) {
       if (window.scrollY > 300) {

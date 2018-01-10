@@ -16,7 +16,7 @@ cards card {
   position: relative;
   background: white;
   padding: 30px;
-  margin: 30px 0px;
+  margin: 30px auto;
   box-shadow: 0px 1px 6px #c8bebe;
   height: auto;
   overflow: hidden;
@@ -54,13 +54,15 @@ cards card graphic img {
   margin-bottom: 40px;
 }
 /* TIMELINE */
-cards.timeline {
-  box-shadow: none;
-  background: none;
+cards.showcase h2.divider {
+  margin-left: 15px;
 }
-card.timeline text {
+card.timeline {
+  padding: 30px 50px;
+}
+card.timeline .text {
   margin: 50px;
-  width: 42%;
+  width: 100%;
   display: inline-block;
   vertical-align: top;
   position: relative;
@@ -75,13 +77,15 @@ card.timeline h2 {
   margin: 20px 0px;
   padding-bottom: 50px;
 }
-card.timeline graphic {
-  width: 44%;
+card.timeline .graphic {
+  width: 100%;
+  display: inline-block;
+  float: right;
 }
-card.timeline graphic img {
+card.timeline .graphic img {
   width: 100%;
 }
-card.timeline tiny {
+card.timeline .tiny {
   font-size: 16px;
   line-height: 32px;
   font-weight: 400;
@@ -202,12 +206,19 @@ header a.tog {
     height: auto;
   }
   cards {
-    width: 95%;
     overflow: hidden;
   }
   card {
     width: 95%;
     height: 610px;
+  }
+  header .title,
+  header toggle {
+    width: 100%;
+  }
+  header toggle {
+    text-align: center;
+    margin: 0px auto 10px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -221,6 +232,18 @@ header a.tog {
   card {
     width: 700px;
     height: 520px;
+  }
+  card.timeline .text,
+  card.timeline .graphic {
+    width: 48%;
+  }
+  header .title,
+  header toggle {
+    width: 49%;
+  }
+  header toggle {
+    text-align: right;
+    margin: -10px auto 10px;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -249,25 +272,13 @@ header a.tog {
     height: 700px;
   }
 }
-@media print {
-  body {
-    background: none;
-  }
-  header {
-    display: none;
-  }
-  card.divider * {
-    font-size: 16pt !important;
-    padding: 0px !important;
-  }
-  card.resume h2 {
-    font-size: 12pt !important;
-  }
-  cards {
-    margin-top: 0px;
-    color: #64666b !important;
-    box-shadow: none;
-  }
+cards card.currently {
+  padding: 30px 50px;
+}
+cards card.currently a {
+  font-weight: 900;
+  margin-right: 10px;
+  display: inline-block;
 }
 h1 {
   font-size: 2rem;
@@ -362,7 +373,9 @@ footer i {
 footer li.patreon g {
   fill: #64666b;
 }
-footer li.patreon:hover g {
+footer li.patreon a:hover g,
+footer li.patreon a:focus g,
+footer li.patreon a:active g {
   fill: #ffbe40;
 }
 .post-meta {

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>User Research on bradorego.com</title>
+    <link>http://bradorego.com/tags/user-research/</link>
+    <description>Recent content in User Research on bradorego.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 Aug 2016 11:12:46 -0500</lastBuildDate>
+    
+	<atom:link href="http://bradorego.com/tags/user-research/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Therma-Stor</title>
+      <link>http://bradorego.com/showcase/therma-stor/</link>
+      <pubDate>Tue, 09 Aug 2016 11:12:46 -0500</pubDate>
+      
+      <guid>http://bradorego.com/showcase/therma-stor/</guid>
+      <description> About Selected Images </description>
+    </item>
+    
+  </channel>
+</rss>

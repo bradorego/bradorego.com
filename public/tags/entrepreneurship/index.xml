@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Entrepreneurship on bradorego.com</title>
+    <link>http://bradorego.com/tags/entrepreneurship/</link>
+    <description>Recent content in Entrepreneurship on bradorego.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Mar 2014 15:11:21 -0500</lastBuildDate>
+    
+	<atom:link href="http://bradorego.com/tags/entrepreneurship/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Nextt</title>
+      <link>http://bradorego.com/showcase/nextt/</link>
+      <pubDate>Sat, 01 Mar 2014 15:11:21 -0500</pubDate>
+      
+      <guid>http://bradorego.com/showcase/nextt/</guid>
+      <description>About Nextt is a social event planning tool designed to help get all of your friends on the same page and to get together offline in the real world. While working with Nextt, I was responsible for development of the mobile web app (which eventually became Nextt&amp;rsquo;s Android app), as well as overseeing parts of the overall User Experience and wrangling all of the data, metrics, and analytics to help guide product development.</description>
+    </item>
+    
+  </channel>
+</rss>
