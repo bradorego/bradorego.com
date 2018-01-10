@@ -9,16 +9,7 @@
    "headline": "Information Architecture, Wireframes, UX Research, Website Design.",
    "image": "/img/showcase/candorem/storystation.png",
    "publishdate": "2014-06-09T11:12:46-05:00",
-   "showcaseImg": [
-      {
-         "src": "http://via.placeholder.com/350x150",
-         "title": "test"
-      },
-      {
-         "src": "http://via.placeholder.com/350x250",
-         "title": "test2"
-      }
-   ],
+   "showcaseImg": [],
    "tags": ["information architecture", "usability research", "wireframes", "design"],
    "title": "Candorem"
 }

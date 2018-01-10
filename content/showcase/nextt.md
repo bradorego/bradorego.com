@@ -17,20 +17,7 @@
       "mobile app",
       "mixpanel"
    ],
-   "showcaseImg": [
-     {
-       "title": "Research",
-       "src": "/img/showcase/nextt/showcase/research.gif"
-     },
-     {
-       "title": "Wireframes",
-       "src": "/img/showcase/nextt/showcase/wires.gif"
-     },
-     {
-       "title": "Screenshots",
-       "src": "/img/showcase/nextt/showcase/screens.gif"
-     }
-   ],
+   "showcaseImg": [],
    "dateRange": "2013-2014",
    "title": "Nextt"
 }

@@ -9,16 +9,7 @@
    "headline": "IoT ideation, UX research, design recommendations.",
    "image": "/img/showcase/spectrum/storystation.png",
    "publishdate": "2016-01-09T11:12:46-05:00",
-   "showcaseImg": [
-      {
-         "src": "http://via.placeholder.com/350x150",
-         "title": "test"
-      },
-      {
-         "src": "http://via.placeholder.com/350x250",
-         "title": "test2"
-      }
-   ],
+   "showcaseImg": [],
    "tags": [],
    "title": "Spectrum Brands"
 }
