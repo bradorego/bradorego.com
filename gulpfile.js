@@ -5,7 +5,7 @@ var gulp = require('gulp'),
   concat = require('gulp-concat'),
   devRoot = './static',
   jsRoot = devRoot + '/js',
-  lessRoot = devRoot + '/less',
+  lessRoot = './less',
   cssRoot = devRoot + '/css',
   prodRoot = './public',
   allImg = `${devRoot}/img/**/*.*`,
@@ -77,7 +77,7 @@ gulp.task('build', ['deploy']);
 gulp.task('deploy', ['clean', 'uglifyjs-deploy', 'uglifycss-deploy'], function () {
   exec('hugo');
   sleep.sleep(2000);
-  del.sync(prodRoot + '/less');
+  // del.sync(prodRoot + '/less');
   gulp.start('deploy-img');
   return gulp.start('minify');
 });
