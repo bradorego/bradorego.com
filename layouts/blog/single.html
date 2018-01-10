@@ -3,7 +3,7 @@
   {{ partial "new-header.html" .}}
 
   <!-- Post Content -->
-  <ribbon class="blog-body">
+  <div class="blog-body container" style="margin-top: 150px;">
     {{ partial "blog-header.html" . }}
     <div class="blog-content">
       {{ .Content }}
@@ -13,6 +13,6 @@
       </p>
       {{ partial "related-posts.html" . }}
     </div>
-  </ribbon>
+  </div>
 
 {{ partial "footer.html" .}}
