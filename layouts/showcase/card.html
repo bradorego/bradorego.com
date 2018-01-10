@@ -1,25 +1,5 @@
 
 <h2 class="divider">{{ .Title }} ({{.Params.dateRange}})</h2>
-<!-- <card class="timeline">
-  <div class="graphic timeline">
-    {{ if isset .Params "showcaseImg"}}
-    {{$img := (index (.Params.showcaseImg) 0) }}
-    <img src="{{ $img.src }}" />
-    {{ end }}
-  </div>
-  <div class="text">
-    <h2>{{ .Params.headline }}</h2>
-    <p class="tiny">{{.Description}}</p>
-    {{ if isset .Params "showcaseImg"}}
-    <toggle>
-      {{ range $index, $link := .Params.showcaseImg }}
-        <a class="tog showcase-toggle {{if eq $index 0}}selected{{end}}" data-img-src="{{$link.src}}">{{$link.title}}</a>
-      {{ end }}
-    </toggle>
-    {{ end }}
-  </div>
-</card> -->
-
 
 <div class="card timeline">
   <div class="card-body">

@@ -2,12 +2,12 @@
 
     {{ partial "new-header.html" . }}
 
-    <cards>
+    <div class="container" style="margin-top:140px;">
       {{.Title}}
       {{ range where .Data.Pages "Type" "blog" }}
         {{ .Render "archive" }}
       {{ end }}
       {{ template "_internal/pagination.html" }}
-    </cards>
+    </div>
 
 {{ partial "footer.html" . }}

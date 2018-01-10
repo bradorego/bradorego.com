@@ -5,7 +5,7 @@
   {{ partial "new-header.html" .}}
 
   <!-- Post Content -->
-  <ribbon class="blog-body">
+  <div class="container blog-body">
     {{ partial "blog-header.html" . }}
     <div class="blog-content">
       {{ .Content }}
@@ -15,6 +15,6 @@
       </p>
       {{ partial "related-posts.html" . }}
     </div>
-  </ribbon>
+  </div>
 
 {{ partial "footer.html" .}}
