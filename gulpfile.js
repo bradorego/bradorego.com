@@ -1,6 +1,5 @@
 var gulp = require('gulp'),
   less = require('gulp-less'),
-  uglify = require('gulp-uglify'),
   cleanCSS = require('gulp-clean-css'),
   del = require('del'),
   concat = require('gulp-concat'),
@@ -13,6 +12,8 @@ var gulp = require('gulp'),
   exec = require('child_process').exec,
   minifyHTML = require("gulp-minify-html"),
   sleep = require('sleep');
+  
+let uglify = require('gulp-uglify-es').default;
 
 // define tasks here
 gulp.task('default', ['less', 'concat-js', 'concat-css'], function () {
