@@ -10,14 +10,7 @@
    "image": "/img/showcase/epic/storystation.png",
    "publishdate": "2012-01-09T11:12:46-05:00",
    "showcaseImg": [
-      {
-         "src": "http://via.placeholder.com/350x150",
-         "title": "test"
-      },
-      {
-         "src": "http://via.placeholder.com/350x250",
-         "title": "test2"
-      }
+     
    ],
    "tags": ["ui liaison", "healthcare"],
    "title": "Epic Systems"
