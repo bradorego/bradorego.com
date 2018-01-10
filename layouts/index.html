@@ -2,17 +2,19 @@
 
     {{ partial "new-header.html" . }}
 
-    <cards class="showcase">
+    <div class="container showcase" style="margin-top:140px;">
       <h2 class="divider" style="color: red">Under Construction! (Updated 1/10/2018)</h2>
 
       <h2 class="divider">Current Projects:</h2>
-      <card class="currently">
-        <a href="https://getbounce.co/">Bounce</a> <a href="https://justprotect.co">JustProtect</a> <a href="http://freethoughttoday.com">Freethought Today</a> <a href="https://swag.express">SwagExpress</a>
-      </card>
+      <div class="card currently">
+        <div class="card-body">
+          <a href="https://getbounce.co/">Bounce</a> <a href="https://justprotect.co">JustProtect</a> <a href="http://freethoughttoday.com">Freethought Today</a> <a href="https://swag.express">SwagExpress</a>
+        </div>
+      </div>
       {{ range where .Site.Pages "Type" "showcase" }}
         {{ .Render "archive" }}
       {{ end }}
       {{ template "_internal/pagination.html" }}
-    </cards>
+    </div>
 
 {{ partial "footer.html" . }}

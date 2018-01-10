@@ -1,9 +1,17 @@
-<card class="blog">
-  <a href="{{ .Permalink }}" target="_self">
-    <div class="img-preview" style="background-image:url({{ .Params.image }})"></div>
-    <h2 class="post-title">{{ .Title }}</h2>
-  </a>
-  <p class="post-meta">
-    {{ partial "posted-on-in.html" . }}
-  </p>
-</card>
+<div class="card blog">
+  <div class="card-body">
+    <div class="row">
+      <div class="col-md-3 mb-3 mb-sm-3 mb-md-0">
+        <div class="img-preview" style="background-image:url({{ .Params.image }})"></div>
+      </div>
+      <div class="col-md">
+        <a href="{{ .Permalink }}" target="_self">
+          <h2 class="post-title">{{ .Title }}</h2>
+        </a>
+        <p class="post-meta">
+          {{ partial "posted-on-in.html" . }}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

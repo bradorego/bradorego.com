@@ -1,0 +1,48 @@
+///////////cards
+@card-shadow: #c8bebe;
+
+h2.divider {
+  margin-left: 15px;
+}
+
+.card {
+  padding: 10px 30px;
+  margin: 30px auto;
+  box-shadow: 0px 1px 6px @card-shadow;
+  &.currently {
+    a {
+      font-weight: 900;
+      display: inline-block;
+      margin-right: 15px;
+    }
+  }
+  &.timeline {
+    h2 {
+      margin-bottom: 50px;
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 42px;
+    }
+    .tiny {
+      font-size: 16px;
+      line-height: 32px;
+    }
+    img {
+      width: 100%
+    }
+    .btn {
+      border-width: 2px;
+      &.active,
+      &:active,
+      &:focus {
+        box-shadow: none;
+         outline: 0;
+      }
+    }
+  }
+  &.blog {
+    padding: 0px;
+  }
+}
+
+
