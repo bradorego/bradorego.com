@@ -6,11 +6,11 @@
     <div class="row">
       {{$img := (index (.Params.showcaseImg) 0) }}
       {{ if $img }}
-      <div class="col-md order-md-2 graphic timeline">
+      <div class="col-md-6 order-md-2 graphic timeline">
         <img src="{{ $img.src }}" />
       </div>
       {{ end }}
-      <div class="col-md order-md-1 text">
+      <div class="col-md{{if $img}}-6{{end}} order-md-1 text">
         <h2>{{ .Params.headline }}</h2>
         <p class="tiny">{{.Description}}</p>
         {{ if .Params.showcaseImg }}

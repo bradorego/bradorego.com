@@ -7,9 +7,16 @@
   "highlighted": "about"
 }
 
-Bradley Orego is an Experience Designer, Web Developer, Entrepreneur, and Dancer currently spending time between Brooklyn, NY and Madison, WI ([not literally!](https://www.meetways.com/halfway/Madison%2c%20WI%2c%20United%20States/Brooklyn%2c%20NY%2c%20United%20States/bar/d)). This is his personal blog, where you'll find posts on anything from company culture to experience design to homebrewing to dance.
+<div class="row">
+  <div class="col-6"><img src="/img/headshot.jpg" /></div>
+<p class="col-6 mt-0">
+  Bradley Orego is an Experience Designer, Web Developer, Entrepreneur, and Dancer currently spending time between Brooklyn, NY and Madison, WI (<a href="https://www.meetways.com/halfway/Madison%2c%20WI%2c%20United%20States/Brooklyn%2c%20NY%2c%20United%20States/bar/d">not literally!</a>). This is his personal blog, where you'll find posts on anything from company culture to experience design to homebrewing to dance.
+</p>
+</div>
 
-Brad is a graduate of the [University of Rochester](http://rochester.edu/) with a B.S. in Computer Science, a B.A. in Psychology, and minors in Spanish and Dance. He spends his days working with startups and small businesses and dancing professionally with [Kanopy Dance Company](http://kanopydance.org) and [Sokolow Theater Dance Ensemble](http://sokolowtheatredance.org/). Brad also participates in entrepreneurial events and hackathons, bikes, and [makes and blogs about beer-batter pancakes](http://beerbatterbreakfast.com). In a past life, Brad also curled at the [Madison Curling Club](http://madisoncurlingclub.com), homebrewed as a proud member of [MHTG](http://mhtg.org), and played ultimate frisbee competitively with [Madison Mastodon](https://mastodonultimate.wordpress.com/).
+Brad is a graduate of the [University of Rochester](http://rochester.edu/) with a B.S. in Computer Science, a B.A. in Psychology, and minors in Spanish and Dance. He spends his days helping companies from startup to Fortune 500 and dancing professionally with [Kanopy Dance Company](http://kanopydance.org) and [Sokolow Theater Dance Ensemble](http://sokolowtheatredance.org/). Brad also participates in entrepreneurial events and hackathons, bikes, and [makes and blogs about beer-batter pancakes](http://beerbatterbreakfast.com).
+
+In a past life, Brad also curled at the [Madison Curling Club](http://madisoncurlingclub.com), homebrewed as a proud member of [MHTG](http://mhtg.org), and played ultimate frisbee competitively with [Madison Mastodon](https://mastodonultimate.wordpress.com/).
 
 The current design of this website was inspired heavily/borrowed lovingly from [Chris Avgerinos](http://adoptchris.com/2015/). Giving credit where credit's due.
 

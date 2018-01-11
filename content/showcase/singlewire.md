@@ -20,7 +20,7 @@
        "src": "/img/showcase/singlewire/showcase/research.gif"
      },
      {
-       "title": "Personas/User Stories",
+       "title": "Personas",
        "src": "/img/showcase/singlewire/showcase/personas.gif"
      },
      {
