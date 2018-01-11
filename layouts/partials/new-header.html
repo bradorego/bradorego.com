@@ -1,17 +1,13 @@
-
-
-<header>
-  <ribbon>
-    <a href="/" target="_self">
-      <div class="title">
-        <h1>Bradley Orego</h1>
-        <h2>Product Designer. Usability Researcher. Entrepreneur. Dancer.</h2>
-      </div>
+<nav class="navbar fixed-top navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="/" target="_self">
+      <h1>Bradley Orego</h1>
+      <h2>Product Designer. Usability Researcher. Entrepreneur. Dancer.</h2>
     </a>
-    <toggle>
-      <a id="showcase" href="/" target="_self" class="tog {{if eq .Page.Type "showcase"}}selected{{end}}{{if eq .Page.URL "/"}}selected{{end}}">Showcase</a>
-      <a id="blog" href="/blog" target="_self" class="tog {{if eq .Page.Type "blog"}}selected{{end}}">Blog</a>
-      <a id="about" href ="/about" target="_self" class="tog {{if isset .Params "highlighted"}}{{if eq .Params.highlighted "about"}}selected{{end}}{{end}}">About</a>
-    </toggle>
-  </ribbon>
-</header>
+    <div class="btn-group d-flex" role="group">
+      <a role="button" href="/" target="_self" class="btn btn-outline-light w-100 {{if eq .Page.Type "showcase"}}active{{end}}{{if eq .Page.URL "/"}}active{{end}}">Showcase</a>
+      <a role="button" href="/blog" target="_self" class="btn btn-outline-light w-100 {{if eq .Page.Type "blog"}}active{{end}}">Blog</a>
+      <a role="button" href="/about" target="_self" class="btn btn-outline-light w-100 {{if .Params.highlighted}}{{if eq .Params.highlighted "about"}}active{{end}}{{end}}">About</a>
+    </div>
+  </div>
+</nav>

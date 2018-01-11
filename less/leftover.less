@@ -47,26 +47,6 @@ h6 {
 	bottom: 20px;
 	top: initial;
 }
-// Pager Styling
-.pager {
-	margin: 40px;
-  text-align: center; /// center-align view all button
-  a {
-    padding: 15px 25px;
-    border-radius: @border-radius;
-    background: @white;
-    border: 1px solid @primary;
-    font-size: 20px;
-    text-transform: uppercase;
-    font-weight: 800;
-    letter-spacing: 1px;
-  }
-  a:focus,
-  a:hover {
-    background: @primary;
-    color: @white;
-  }
-}
 
 a {
   // text-decoration: underline;
@@ -148,4 +128,28 @@ hr.dark {
 
 .hidden {
   display: none;
+}
+
+
+//////////avgerinos
+
+@primary: rgb(100, 102, 107);
+@white: white;
+@card-shadow: #c8bebe;
+@bg: #eaeaea;
+@border-radius: 8px;
+@header-padding: 150px;
+
+body {
+  background: @bg;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  color: @primary;
+  font-size: 20px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  margin-top: 120px;
+  @media (max-width: 767px) {
+    margin-top: 150px;
+  }
 }

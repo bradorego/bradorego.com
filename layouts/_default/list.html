@@ -2,7 +2,7 @@
 
     {{ partial "new-header.html" . }}
 
-    <div class="container" style="margin-top:140px;">
+    <div class="container">
       {{ range .Site.Pages }}
         {{ .Render "archive" }}
       {{ end }}

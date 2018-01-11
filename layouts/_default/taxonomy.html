@@ -2,7 +2,7 @@
 
     {{ partial "new-header.html" . }}
 
-    <div class="container" style="margin-top:140px;">
+    <div class="container">
       {{.Title}}
       {{ range where .Data.Pages "Type" "blog" }}
         {{ .Render "archive" }}
