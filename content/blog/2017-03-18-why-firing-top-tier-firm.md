@@ -1,7 +1,5 @@
 {
-   "aliases": [
-      "/2016/03/why-firing-top-tier-firm"
-   ],
+   "aliases": [],
    "categories": [
       "Meta"
    ],

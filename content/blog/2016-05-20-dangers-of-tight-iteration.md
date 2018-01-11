@@ -1,7 +1,5 @@
 {
-   "aliases": [
-      "/2016/05/the-dangers-of-tight-iteration"
-   ],
+   "aliases": [],
    "categories": [
       "User Experience"
    ],

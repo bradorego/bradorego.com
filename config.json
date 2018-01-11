@@ -13,9 +13,9 @@
     "blog": "/:title",
     "showcase": "/showcase/:title"
   },
-  "author": "Brad Orego",
+  "author": "Bradley Orego",
   "params": {
-    "Author": "Brad Orego",
+    "Author": "Bradley Orego",
     "Title": "bradorego.com",
     "Subtitle": "Musings about UX, product design, user research, dance, ultimate, curling, and beer pancakes.",
     "DateForm": "January 2, 2006",

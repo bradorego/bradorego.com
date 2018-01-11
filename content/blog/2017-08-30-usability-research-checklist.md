@@ -1,7 +1,5 @@
 {
-   "aliases": [
-      "/2017/08/usability-research-checklist"
-   ],
+   "aliases": [],
    "categories": [
       "User Experience"
    ],

@@ -1,7 +1,5 @@
 {
-   "aliases": [
-      "/2013-03-the-importance-of-flow"
-   ],
+   "aliases": [],
    "categories": ["User Experience"],
    "date": "2013-03-16T16:38:15-05:00",
    "description": "Flow, or the experience of being completely focused and immersed in an activity, is the holy grail of UX design. There are many things you can do to support it as well as things you can do to ruin it.",

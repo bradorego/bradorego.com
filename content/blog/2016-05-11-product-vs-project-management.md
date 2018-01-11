@@ -1,7 +1,5 @@
 {
-   "aliases": [
-    "/2016-05-product-vs-project-management"
-   ],
+   "aliases": [],
    "categories": [
       "User Experience"
    ],

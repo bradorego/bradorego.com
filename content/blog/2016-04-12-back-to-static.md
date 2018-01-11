@@ -1,7 +1,5 @@
 {
-   "aliases": [
-    "/2016-04-back-to-static"
-   ],
+   "aliases": [],
    "categories": ["Development"],
    "date": "2016-04-14T12:26:53-05:00",
    "description": "When an update/redesign turns into a full-scale migration that takes us a lot closer to our roots than expected.",

@@ -1,7 +1,5 @@
 {
-   "aliases": [
-      "/2016/04/dos-donts-corporate-innovation"
-   ],
+   "aliases": [],
    "categories": [
       "Meta"
    ],

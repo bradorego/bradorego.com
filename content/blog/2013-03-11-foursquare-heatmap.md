@@ -1,7 +1,5 @@
 {
-   "aliases": [
-      "/2013-11-foursquare-heatmap--remote-sensing"
-   ],
+   "aliases": [],
    "categories": ["Development"],
    "date": "2013-03-11T17:21:36-05:00",
    "description": "A bit on the techie side of things, I talk about how and why I made the Foursquare Heatmap, as well as a little interesting aside it's taught me about how technology can enable us and change/create experiences for us.",

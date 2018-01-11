@@ -1,7 +1,5 @@
 {
-   "aliases": [
-      "/2016/05/ux-considerations-for-iot"
-   ],
+   "aliases": [],
    "categories": [
       "User Experience"
    ],

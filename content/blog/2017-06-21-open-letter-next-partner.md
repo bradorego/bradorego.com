@@ -1,7 +1,5 @@
 {
-   "aliases": [
-      "/2016/06/an-open-letter-to-my-next-work-partner"
-   ],
+   "aliases": [],
    "categories": [
       "Meta"
    ],

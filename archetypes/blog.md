@@ -5,8 +5,7 @@
   "photoCredit": "",
   "description": "",
   "draft": false,
-  "publishdate": "2016-04-12T14:47:36-05:00",
-  "aliases": ["/:year-:month-:title"]
+  "publishdate": "2016-04-12T14:47:36-05:00"
 }
 
 <div class="tldnr">
