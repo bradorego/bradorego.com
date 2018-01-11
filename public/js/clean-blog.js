@@ -45,8 +45,8 @@ document.addEventListener('DOMContentLoaded', function () {
       event.preventDefault(); event.stopPropagation();
       let card = event.target.parentElement.parentElement.parentElement;
       card.getElementsByTagName('img')[0].src = event.target.dataset.imgSrc;
-      Array.from(card.getElementsByClassName('showcase-toggle')).forEach((t) => {t.removeClass('selected');}); /// unselect others
-      event.target.addClass('selected'); /// select clicked
+      Array.from(card.getElementsByClassName('showcase-toggle')).forEach((t) => {t.removeClass('active');}); /// unselect others
+      event.target.addClass('active'); /// select clicked
     };
 
     $toggles.forEach((t) => {
