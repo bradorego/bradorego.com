@@ -1,284 +1,131 @@
+::-moz-selection {
+  color: white;
+  background: #64666b;
+}
+::selection {
+  color: white;
+  background: #64666b;
+}
+img::selection {
+  color: white;
+  background: transparent;
+}
+img::-moz-selection {
+  color: white;
+  background: transparent;
+}
 body {
-  background: #eaeaea;
-  font-family: 'Roboto', sans-serif;
-  box-sizing: border-box;
-  color: #64666b;
-  font-size: 20px;
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
+  webkit-tap-highlight-color: #64666b;
 }
-cards {
-  display: block;
-  margin: 150px auto 20px;
-}
-cards card {
-  display: block;
-  position: relative;
+.blog-body {
   background: white;
-  padding: 30px;
+  overflow: hidden;
+  padding: 0;
+}
+.blog-body .blog-header {
+  width: 100%;
+  position: relative;
+}
+.blog-body .blog-header .bg-image {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 105%;
+  height: 100%;
+  background: no-repeat center center;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  filter: blur(5px);
+}
+.blog-body .blog-header .text {
+  color: white;
+  position: relative;
+  padding: 40px;
+  text-shadow: 0px 0px 3px black, 0px 0px 8px black;
+}
+.blog-body .blog-header hr.small {
+  margin: 20px 0;
+  box-shadow: 0 0 3px 0 #000;
+}
+.blog-body .blog-content {
+  padding: 40px;
+}
+.blog-body .blog-content a {
+  text-decoration: underline;
+}
+.blog-body .blog-content p {
+  margin: 30px 0px;
+}
+.blog-body .blog-content h1 {
+  margin-top: 30px;
+}
+.blog-body .blog-content img {
+  width: 100%;
+}
+.blog-body .blog-content hr {
+  border: 1px solid #cccdcf;
+}
+.blog-body .blog-content .post-meta a,
+.blog-body .blog-content .categories a {
+  text-decoration: none;
+}
+.card {
+  padding: 10px 30px;
   margin: 30px auto;
   box-shadow: 0px 1px 6px #c8bebe;
-  height: auto;
-  overflow: hidden;
 }
-cards card text {
+.card.currently a {
+  font-weight: 900;
   display: inline-block;
-  vertical-align: top;
-  position: relative;
-  height: intrinsic;
-  margin: 0px;
+  margin-right: 15px;
 }
-cards card h2 {
-  margin: 0 0 10px;
-  font-size: 1.5rem;
-}
-cards card h2 a {
-  font-size: inherit;
-  text-decoration: none;
-  border-bottom: 2px dotted #1a1b1c;
-}
-cards card h2 a:hover {
-  border-bottom: 2px dotted #64666b;
-}
-cards card tiny {
-  display: block;
-}
-cards card graphic {
-  display: inline-block;
-  width: 49%;
-  overflow: hidden;
-  padding: 0px;
-  height: auto;
-}
-cards card graphic img {
-  margin-bottom: 40px;
-}
-/* TIMELINE */
-cards.showcase h2.divider {
-  margin-left: 15px;
-}
-card.timeline {
-  padding: 30px 50px;
-}
-card.timeline .text {
-  margin: 50px;
-  width: 100%;
-  display: inline-block;
-  vertical-align: top;
-  position: relative;
-  height: intrinsic;
-  margin: 0px;
-}
-card.timeline h2 {
-  width: 90%;
+.card.timeline h2 {
+  margin-bottom: 50px;
+  font-weight: 400;
   font-size: 28px;
   line-height: 42px;
-  font-weight: 400;
-  margin: 20px 0px;
-  padding-bottom: 50px;
 }
-card.timeline .graphic {
-  width: 100%;
-  display: inline-block;
-  float: right;
-}
-card.timeline .graphic img {
-  width: 100%;
-}
-card.timeline .tiny {
+.card.timeline .tiny {
   font-size: 16px;
   line-height: 32px;
-  font-weight: 400;
-  margin: 5px 0px;
-  width: 80%;
 }
-card.timeline lines {
-  display: block;
-  position: absolute;
-  top: 64px;
-  left: 0px;
+.card.timeline img {
   width: 100%;
-  overflow: hidden;
-  z-index: 0;
 }
-ribbon {
-  display: block;
-  margin: 0 auto;
-  position: relative;
+.card.timeline .btn {
+  border-width: 2px;
 }
-header {
-  z-index: 1000;
-  transform: translateZ(0);
-  -webkit-transform: translateZ(0);
-  background: #64666b;
-  width: 100%;
-  position: fixed;
-  display: block;
-  font-size: 0px;
-  top: 0px;
-  left: 0px;
+.card.timeline .btn.active,
+.card.timeline .btn:active,
+.card.timeline .btn:focus {
+  box-shadow: none;
+}
+.card.blog {
   padding: 0px;
-  text-align: left;
 }
-header .title {
-  display: inline-block;
-  padding: 10px 0px;
-  width: 49%;
-}
-header .title h1,
-header .title h2,
-header .title a {
+.navbar h1 {
   font-size: 20px;
-  color: white;
-  margin: 5px;
 }
-header .title h2 {
+.navbar h2 {
   font-size: 14px;
 }
-header .title a {
-  font-size: 12px;
-  color: white;
-}
-toggle {
-  font-size: 0px;
-  display: block;
-  text-align: left;
-  white-space: nowrap;
-}
-toggle a.tog {
-  display: inline-table;
-  color: #64666b;
-  border: 2px solid #64666b;
-  margin: 40px 0px 0px 0px;
-  padding: 5px 20px;
-  font-size: 20px;
-  cursor: pointer;
-  text-align: center;
-  min-width: 70px;
-  font-size: 14px;
-  font-weight: 500;
-  border-left: none;
-  white-space: nowrap;
-}
-toggle a.tog:hover {
-  background: #97999e;
-  color: white;
-}
-toggle a.tog:first-child {
-  border-radius: 8px 0px 0px 8px !important;
-  border-left: 2px solid #64666b !important;
-}
-toggle a.tog:last-child {
-  border-radius: 0px 8px 8px 0px;
-}
-toggle a.tog.selected {
-  background: #64666b;
-  color: white;
-  border-color: #64666b;
-}
-toggle a.tog.selected:hover {
-  color: white;
-}
-header toggle {
-  display: inline-block;
-  width: 49%;
-  min-width: 300px;
-  margin: 20px 0px;
-  text-align: right;
-}
-header toggle a.tog.selected {
-  color: #64666b;
-  background: white;
-  border-color: white;
-}
-header toggle a.tog:first-child {
-  border-left: 2px solid white !important;
-}
-header a.tog {
-  color: white;
-  margin: 0px;
-  border-color: white !important;
-}
-/*------------------- */
-@media screen and (min-width: 320px) {
-  ribbon {
-    width: 95%;
-    height: auto;
-  }
-  cards {
-    overflow: hidden;
-  }
-  card {
-    width: 95%;
-    height: 610px;
-  }
-  header .title,
-  header toggle {
+@media (max-width: 767px) {
+  .navbar .btn-group {
     width: 100%;
   }
-  header toggle {
-    text-align: center;
-    margin: 0px auto 10px;
-  }
 }
-@media screen and (min-width: 768px) {
-  ribbon {
-    width: 700px;
-  }
-  cards {
-    width: 708px;
-    overflow: visible;
-  }
-  card {
-    width: 700px;
-    height: 520px;
-  }
-  card.timeline .text,
-  card.timeline .graphic {
-    width: 48%;
-  }
-  header .title,
-  header toggle {
-    width: 49%;
-  }
-  header toggle {
-    text-align: right;
-    margin: -10px auto 10px;
-  }
+.navbar .btn-group .btn {
+  border-width: 2px;
 }
-@media screen and (min-width: 1024px) {
-  ribbon {
-    width: 900px;
-  }
-  cards {
-    width: 900px;
-    overflow: visible;
-  }
-  card {
-    width: 900px;
-    height: 650px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  ribbon {
-    width: 1100px;
-  }
-  cards {
-    width: 1100px;
-    overflow: visible;
-  }
-  card {
-    width: 1100px;
-    height: 700px;
-  }
-}
-cards card.currently {
-  padding: 30px 50px;
-}
-cards card.currently a {
-  font-weight: 900;
-  margin-right: 10px;
-  display: inline-block;
+.navbar .btn-group .btn.active,
+.navbar .btn-group .btn:active,
+.navbar .btn-group .btn:focus {
+  box-shadow: none;
 }
 h1 {
   font-size: 2rem;
@@ -299,20 +146,12 @@ h6 {
   font-size: 0.6rem;
 }
 .img-preview {
-  width: 100px;
-  height: 100px;
   display: block;
   background: no-repeat center center;
   background-size: cover;
-  float: left;
-  margin: 0px 20px;
-}
-@media (max-width: 640px) {
-  .img-preview {
-    width: 100%;
-    height: 150px;
-    margin: 10px auto;
-  }
+  width: 100%;
+  height: 100%;
+  min-height: 100px;
 }
 .floating-button {
   position: fixed;
@@ -333,25 +172,6 @@ h6 {
 #scrollUp {
   bottom: 20px;
   top: initial;
-}
-.pager {
-  margin: 40px;
-  text-align: center;
-}
-.pager a {
-  padding: 15px 25px;
-  border-radius: 8px;
-  background: white;
-  border: 1px solid #64666b;
-  font-size: 20px;
-  text-transform: uppercase;
-  font-weight: 800;
-  letter-spacing: 1px;
-}
-.pager a:focus,
-.pager a:hover {
-  background: #64666b;
-  color: white;
 }
 a {
   color: #64666b;
@@ -418,79 +238,18 @@ hr.dark {
 .hidden {
   display: none;
 }
-::-moz-selection {
-  color: white;
-  background: #64666b;
-}
-::selection {
-  color: white;
-  background: #64666b;
-}
-img::selection {
-  color: white;
-  background: transparent;
-}
-img::-moz-selection {
-  color: white;
-  background: transparent;
-}
 body {
-  webkit-tap-highlight-color: #64666b;
+  background: #eaeaea;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  color: #64666b;
+  font-size: 20px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  margin-top: 120px;
 }
-.blog-body {
-  margin-top: 150px;
-  background: white;
-  overflow: hidden;
-}
-.blog-body .blog-header {
-  width: 100%;
-  position: relative;
-}
-.blog-body .blog-header .bg-image {
-  position: absolute;
-  top: -10px;
-  left: -10px;
-  width: 105%;
-  height: 100%;
-  background: no-repeat center center;
-  background-attachment: scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  filter: blur(5px);
-}
-.blog-body .blog-header .text {
-  color: white;
-  position: relative;
-  padding: 40px;
-  text-shadow: 0px 0px 3px black, 0px 0px 8px black;
-}
-.blog-body .blog-header hr.small {
-  margin: 20px 0;
-  box-shadow: 0 0 3px 0 #000;
-}
-.blog-body .blog-content {
-  padding: 40px;
-}
-.blog-body .blog-content a {
-  text-decoration: underline;
-}
-.blog-body .blog-content p {
-  margin: 30px 0px;
-}
-.blog-body .blog-content h1 {
-  margin-top: 30px;
-}
-.blog-body .blog-content img {
-  width: 100%;
-}
-.blog-body .blog-content hr {
-  border: 1px solid #cccdcf;
-}
-.blog-body .blog-content .post-meta a,
-.blog-body .blog-content .categories a {
-  text-decoration: none;
+@media (max-width: 767px) {
+  body {
+    margin-top: 150px;
+  }
 }
