@@ -1,23 +1,23 @@
 var gulp = require('gulp'),
-  less = require('gulp-less'),
   cleanCSS = require('gulp-clean-css'),
   del = require('del'),
   concat = require('gulp-concat'),
-  devRoot = './static',
-  jsRoot = devRoot + '/js',
-  lessRoot = './less',
-  cssRoot = devRoot + '/css',
+  DEV_ROOT = './static',
+  jsRoot = DEV_ROOT + '/js',
+  sassRoot = './scss',
+  cssRoot = DEV_ROOT + '/css',
   prodRoot = './public',
-  allImg = `${devRoot}/img/**/*.*`,
+  allImg = `${DEV_ROOT}/img/**/*.*`,
   exec = require('child_process').exec,
   minifyHTML = require("gulp-minify-html"),
   sleep = require('sleep');
   
 let uglify = require('gulp-uglify-es').default;
+let sass = require('gulp-sass');
 
 // define tasks here
-gulp.task('default', ['less', 'concat-js', 'concat-css'], function () {
-  gulp.watch(lessRoot + '/*.less', ['less']);
+gulp.task('default', ['sass', 'concat-js', 'concat-css'], function () {
+  gulp.watch(sassRoot + '/*.scss', ['sass']);
   gulp.watch([cssRoot + '/*.css', '!' + cssRoot + '/all.css'], ['concat-css']);
   gulp.watch([jsRoot + '/*.js', '!' + jsRoot + '/all.js'], ['concat-js']);
 });
@@ -29,12 +29,19 @@ gulp.task('concat-js', function () {
     .pipe(gulp.dest(jsRoot + '/'));
 });
 
-gulp.task('less', function () {
+gulp.task('sass', function () {
   // del.sync(['./dev/css/creative.css']);
-  return gulp.src(lessRoot + '/clean-blog.less')
-    .pipe(less())
+  return gulp.src(sassRoot + '/clean-blog.sass')
+    .pipe(sass())
     .pipe(gulp.dest(cssRoot + '/'));
 });
+
+gulp.task('sass', function() {
+  return gulp.src(sassRoot + '/clean-blog.scss')
+    .pipe(sass())
+    .pipe(gulp.dest(`${DEV_ROOT}/css`));
+});
+
 
 gulp.task('concat-css', function () {
   del.sync([cssRoot + '/all.css']);
@@ -77,7 +84,6 @@ gulp.task('build', ['deploy']);
 gulp.task('deploy', ['clean', 'uglifyjs-deploy', 'uglifycss-deploy'], function () {
   exec('hugo');
   sleep.sleep(2000);
-  // del.sync(prodRoot + '/less');
   gulp.start('deploy-img');
   return gulp.start('minify');
 });

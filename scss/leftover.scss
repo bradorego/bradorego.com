@@ -30,15 +30,15 @@ h6 {
   top: 20px;
   right: 20px;
   z-index: 9999;
-  border: 1px solid @primary;
-  color: @primary;
-  background: @white;
-  border-radius: @border-radius;
+  border: 1px solid $primary;
+  color: $primary;
+  background: $white;
+  border-radius: $border-radius;
   padding: 0px 12px;
   text-align: center;
   &:hover {
-    background: @primary;
-    color: @white;
+    background: $primary;
+    color: $white;
   }
 }
 
@@ -50,10 +50,10 @@ h6 {
 
 a {
   // text-decoration: underline;
-  color: @primary;
+  color: $primary;
   &:hover,
   &:focus {
-    color: @brand-primary;
+    color: $brand-primary;
     text-decoration: none;
   }
 }
@@ -68,20 +68,20 @@ footer {
   }
 	li.patreon {
     g {
-      fill: @primary;
+      fill: $primary;
     }
     a:hover,
     a:focus,
     a:active {
       g {
-        fill: @brand-primary;
+        fill: $brand-primary;
       }
     }
 	}
 }
 
 .post-meta {
-  // color: @gray;
+  // color: $gray;
   font-size: 16px;
   font-style: italic;
   margin-top: 0;
@@ -90,7 +90,7 @@ footer {
     font-size: inherit;
     &:hover,
     &:focus {
-      color: @brand-primary;
+      color: $brand-primary;
       text-decoration: none;
     }
   }
@@ -123,7 +123,7 @@ hr.medium {
 }
 
 hr.dark {
-	border-color: @primary;
+	border-color: $primary;
 }
 
 .hidden {
@@ -133,23 +133,15 @@ hr.dark {
 
 //////////avgerinos
 
-@primary: rgb(100, 102, 107);
-@white: white;
-@card-shadow: #c8bebe;
-@bg: #eaeaea;
-@border-radius: 8px;
-@header-padding: 150px;
-
 body {
-  background: @bg;
+  // background: $bg;
   font-family: 'Roboto', sans-serif;
-  box-sizing: border-box;
-  color: @primary;
+  color: $primary;
   font-size: 20px;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   margin-top: 120px;
-  @media (max-width: 767px) {
+  @media (max-width: 767.99px) {
     margin-top: 150px;
   }
 }

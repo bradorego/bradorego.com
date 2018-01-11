@@ -1,0 +1,32 @@
+// Mixins
+
+@mixin transition-all(){
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+@mixin background-cover(){
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+@mixin blur($amount){
+  -webkit-filter: blur($amount);
+  -moz-filter: blur($amount);
+  filter: blur($amount);
+}
+
+@mixin serif(){
+  font-family: 'Lora', 'Times New Roman', serif;
+}
+
+@mixin sans-serif(){
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@mixin header-text-shadow(){
+  text-shadow: 0px 0px 3px black, 0px 0px 8px black;
+}
