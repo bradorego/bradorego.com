@@ -31,16 +31,16 @@ In 2015, I was interviewed for the [Rochester Review](http://rochester.edu/pr/Re
 # Differentiators <a name="differentiators" href="#differentiators"><i class="ion-link"></i></a>
 #### What makes your product/business stand out.
 
-When cars were first invented, there wasn't much to differentiate them. In fact, the Model T was the only option. There was no design (lest we remember Ford's famous "any color they want" quote); functionality was all that mattered. It was good enough. As functionality be came easier, design started to matter. Brands and products could differentiate themselves with design, and to fit certain niches (sports car vs. minivan vs. family sedan).
+When cars were first invented, there wasn't much to differentiate them. In fact, the Model T was the only option. There was no design (lest we remember [Ford's famous "any color they want"](https://en.wikiquote.org/wiki/Henry_Ford) quote); functionality was all that mattered. It was good enough. As functionality be came easier, design started to matter. Brands and products could differentiate themselves with design, and to fit certain niches (sports car vs. minivan vs. family sedan).
 
 Software has gone through a similar evolution. Making it work was good enough 10, 20, 30 years ago. Now design is how you differentiate yourself.
 
 # Multiple Dimenisons of Design <a name="dimensions" href="#dimensions"><i class="ion-link"></i></a>
 #### It's not just how pretty it looks. That's usually the least important.
 
-Jakob Nielsen was a pioneer in the Human-Computer Interaction field (the academic side of UX design). In his seminal text, Usability Engineering (published in 1991, mind you), he identified several Usability Heuristics (which serve the basis of his Heuristic Analysis). Efficiency, learnability, error recovery; these are all factors in what makes a design great.
+Jakob Nielsen was a pioneer in the Human-Computer Interaction field (the academic side of UX design). In his seminal text, [Usability Engineering](https://www.nngroup.com/books/usability-engineering/) (published in 1993, mind you), he identified several Usability Heuristics (which serve the basis of his Heuristic Analysis). Efficiency, learnability, error recovery; these are all factors in what makes a design great.
 
-When it comes to minimalist design, there needs to be a balance. Minimalism taken to the extreme strips context and understanding from an interface. Brevity is different from simplicity. Comprehension is a requirement, and balancing this with brevity is how you get to true simplicity. If a user picks up a device or application and can't figure out what to do with it, you've gone too far.
+When it comes to minimalist design, there needs to be a balance. Minimalism taken to the extreme strips context and understanding from an interface. Brevity is different from simplicity. Comprehension is a requirement, and [balancing this with brevity](http://www.uxbooth.com/articles/a-loose-heuristic-for-mobile-design/) is how you get to true simplicity. If a user picks up a device or application and can't figure out what to do with it, you've gone too far.
 
 # Looking Forward <a name="forward" href="#forward"><i class="ion-link"></i></a>
 #### Wearables, Machine Learning, and Conversations, oh my!
