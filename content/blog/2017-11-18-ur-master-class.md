@@ -5,7 +5,7 @@
    "date": "2017-11-18T19:12:13-05:00",
    "description": "Back in 2015 I was featured in my alma mater's quarterly publication talking about User-Centered Design. I wanted to revisit that article.",
    "draft": false,
-   "image": "http://rochester.edu/pr/Review/V77N3/images/masterclass1.jpg",
+   "image": "/img/posts/rochester-review/masterclass1.jpg",
    "photoCredit": "http://rochester.edu/pr/Review/V77N3/images/masterclass1.jpg",
    "publishdate": "2017-11-18T14:47:36-05:00",
    "tags": [
