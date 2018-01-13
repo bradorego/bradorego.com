@@ -8,4 +8,5 @@
       {{ if eq .Type "blog"}}<h5>{{ .ReadingTime }} minute read</h5>{{end}}
     {{ end }}
   </div>
+  {{if .Params.photoCredit}}<div class="photo-credit"><a href="{{ .Params.photoCredit }}">Image Credit</a></div>{{ end }}
 </div>

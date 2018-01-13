@@ -27,6 +27,16 @@
       margin: 20px 0;
       box-shadow: 0 0 3px 0 #000;
     }
+    .photo-credit {
+      position: absolute;
+      bottom: 5px;
+      right: 5px;
+      a {
+        font-size: 12px;
+        color: white;
+        @include header-text-shadow;
+      }
+    }
   }
   .blog-content {
     padding: 40px;
