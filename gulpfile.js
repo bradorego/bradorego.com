@@ -31,7 +31,7 @@ gulp.task('concat-js', function () {
 
 gulp.task('sass', function () {
   // del.sync(['./dev/css/creative.css']);
-  return gulp.src(sassRoot + '/clean-blog.sass')
+  return gulp.src(sassRoot + '/clean-blog.scss')
     .pipe(sass())
     .pipe(gulp.dest(cssRoot + '/'));
 });
