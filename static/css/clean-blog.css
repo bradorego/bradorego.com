@@ -6051,6 +6051,14 @@ body {
     .blog-body .blog-header hr.small {
       margin: 20px 0;
       box-shadow: 0 0 3px 0 #000; }
+    .blog-body .blog-header .photo-credit {
+      position: absolute;
+      bottom: 5px;
+      right: 5px; }
+      .blog-body .blog-header .photo-credit a {
+        font-size: 12px;
+        color: white;
+        text-shadow: 0px 0px 3px black, 0px 0px 8px black; }
   .blog-body .blog-content {
     padding: 40px; }
     .blog-body .blog-content a {
