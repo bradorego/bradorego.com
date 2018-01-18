@@ -11,7 +11,7 @@ var gulp = require('gulp'),
   exec = require('child_process').exec,
   minifyHTML = require("gulp-minify-html"),
   sleep = require('sleep');
-  
+
 let uglify = require('gulp-uglify-es').default;
 let sass = require('gulp-sass');
 
@@ -27,13 +27,6 @@ gulp.task('concat-js', function () {
   return gulp.src([jsRoot + '/jquery.min.js', jsRoot + '/*.js'])
     .pipe(concat('all.js'))
     .pipe(gulp.dest(jsRoot + '/'));
-});
-
-gulp.task('sass', function () {
-  // del.sync(['./dev/css/creative.css']);
-  return gulp.src(sassRoot + '/clean-blog.scss')
-    .pipe(sass())
-    .pipe(gulp.dest(cssRoot + '/'));
 });
 
 gulp.task('sass', function() {
