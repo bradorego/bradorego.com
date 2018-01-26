@@ -8,8 +8,10 @@
 }
 
 <div class="row">
-  <div class="col-6"><img src="/img/headshot.jpg" /></div>
-<p class="col-6 mt-0">
+  <div class="col-12 col-sm-4 col-lg-2">
+    <img src="/img/headshot.jpg">
+  </div>
+<p class="col-12 mt-0 col-sm-8 col-lg-10">
   Bradley Orego is an Experience Designer, Web Developer, Entrepreneur, and Dancer currently spending time between Brooklyn, NY and Madison, WI (<a href="https://www.meetways.com/halfway/Madison%2c%20WI%2c%20United%20States/Brooklyn%2c%20NY%2c%20United%20States/bar/d">not literally!</a>). This is his personal blog, where you'll find posts on anything from company culture to experience design to homebrewing to dance.
 </p>
 </div>
