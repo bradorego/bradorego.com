@@ -7,15 +7,17 @@
   <!-- Post Content -->
   <div class="container blog-body showcase">
     {{ if .Params.NDA }}
-    <div class="blog-content">
-      <h2>{{.Title}}</h2>
-      {{.Description}}
-      {{ partial "nda.html" . }}
+      <div class="blog-content">
+        <h2>{{.Title}}</h2>
+        {{.Description}}
+        {{ partial "nda.html" . }}
     {{ else }}
       {{ partial "blog-header.html" . }}
       <div class="blog-content">
       {{ .Content }}
+      {{ partial "showcase-img-gallery.html" .}}
     {{ end }}
+    <div class="blog-content">
       <hr/>
       <p class="post-meta">
         {{ partial "posted-on-in.html" .}}

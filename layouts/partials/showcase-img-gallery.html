@@ -1,0 +1,11 @@
+{{ if .Params.imageGallery }}
+  <h1>Images</h1>
+    <div class="row">
+      {{ range $index, $link := .Params.imageGallery }}
+        <div class="col-md-6 col-sm-12">
+          <a href="{{$link.src}}"><img src="{{$link.src}}" alt="{{$link.title}}"></a>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+{{ end }}
