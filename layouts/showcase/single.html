@@ -8,7 +8,7 @@
   <div class="container blog-body showcase">
     {{ if .Params.NDA }}
       <div class="blog-content">
-        <h2>{{.Title}}</h2>
+        <h1>{{.Title}}</h1>
         {{.Description}}
         {{ partial "nda.html" . }}
     {{ else }}
@@ -17,7 +17,6 @@
       {{ .Content }}
       {{ partial "showcase-img-gallery.html" .}}
     {{ end }}
-    <div class="blog-content">
       <hr/>
       <p class="post-meta">
         {{ partial "posted-on-in.html" .}}
