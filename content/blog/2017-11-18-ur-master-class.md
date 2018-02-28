@@ -24,7 +24,8 @@
     <li>The study of human-centered design isn't new. The same concepts that Jakob Nielsen covered in the 1980s ring true today.</li>
   </ul>
 </div>
-<hr/>
+
+---
 
 In 2015, I was interviewed for the [Rochester Review](http://rochester.edu/pr/Review/V77N3/1001_masterclass.html), my alma mater's quarterly publication for parents and alumni. Master Class has always been one of my favorite sections of the magazine and I was honored to be selected (especially so soon after graduating). The entirety of that article can be viewed at the link above, but I wanted to take some time to revisit the article with the insight I've gained (and the advances in technology) in recent years.
 

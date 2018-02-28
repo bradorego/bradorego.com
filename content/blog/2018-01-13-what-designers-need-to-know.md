@@ -24,9 +24,8 @@
     <li>There may be certain quirks based on implementation, but overall the pattern is Database --> Server-side --> (API) --> (Middleware) --> Front-End --> Visual/UI Design</li>
   </ul>
 </div>
-<hr/>
 
-
+---
 
 Outline:
 Database (mongo, sql, etc)

@@ -17,7 +17,6 @@
    ],
    "title": "Usability Research Checklist"
 }
-
 <div class="tldnr">
   <h4>TL;DNR</h4>
   <ul>
@@ -30,7 +29,6 @@
 ---
 
 MobileIgniter asked me to put together a checklist of everything needed to properly set up and run studies in a usability lab. I wanted to share that list, as well as add some commentary for each section. You can view and download the [original slide deck](https://www.slideshare.net/mi-tim/usability-research-checklist-58988252) on SlideShare.
-
 
 # Gather Resources <a name="resources" href="#resources"><i class="ion-link"></i></a>
 #### Make sure you have everything you need to get started.
