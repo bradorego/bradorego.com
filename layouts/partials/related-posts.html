@@ -1,8 +1,7 @@
 {{ if .Params.categories }}
     {{ $name := index .Params.categories 0 }}
     <hr/>
-    All <b>{{title $name}}</b> posts:</p>
-
+    All <b>{{title $name}}</b> posts:
     {{ $name := $name | urlize }}
     {{ $categories := index .Site.Taxonomies.categories $name }}
     <ul class="categories">
@@ -10,4 +9,4 @@
       <li><a href="{{.Permalink}}" target="_self">{{.LinkTitle}}</a></li>
     {{end}}
     </ul>
-{{end}} 
+{{end}}
