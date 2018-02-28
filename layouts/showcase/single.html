@@ -6,15 +6,28 @@
 
   <!-- Post Content -->
   <div class="container blog-body">
-    {{ partial "blog-header.html" . }}
+    {{ if .Params.NDA }}
     <div class="blog-content">
-      {{ .Content }}
+      <h2>{{.Title}}</h2>
+      {{.Description}}
+      {{ partial "nda.html" . }}
       <hr/>
       <p class="post-meta">
-          {{ partial "posted-on-in.html" .}}
+        {{ partial "posted-on-in.html" .}}
       </p>
       {{ partial "related-posts.html" . }}
     </div>
+    {{ else }}
+      {{ partial "blog-header.html" . }}
+      <div class="blog-content">
+        {{ .Content }}
+        <hr/>
+        <p class="post-meta">
+            {{ partial "posted-on-in.html" .}}
+        </p>
+        {{ partial "related-posts.html" . }}
+      </div>
+    {{ end }}
   </div>
 
 {{ partial "footer.html" .}}
