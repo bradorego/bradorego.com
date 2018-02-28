@@ -11,23 +11,17 @@
       <h2>{{.Title}}</h2>
       {{.Description}}
       {{ partial "nda.html" . }}
+    {{ else }}
+      {{ partial "blog-header.html" . }}
+      <div class="blog-content">
+      {{ .Content }}
+    {{ end }}
       <hr/>
       <p class="post-meta">
         {{ partial "posted-on-in.html" .}}
       </p>
       {{ partial "related-posts.html" . }}
     </div>
-    {{ else }}
-      {{ partial "blog-header.html" . }}
-      <div class="blog-content">
-        {{ .Content }}
-        <hr/>
-        <p class="post-meta">
-            {{ partial "posted-on-in.html" .}}
-        </p>
-        {{ partial "related-posts.html" . }}
-      </div>
-    {{ end }}
   </div>
 
 {{ partial "footer.html" .}}
