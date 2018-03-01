@@ -6,7 +6,85 @@
    "headline": "Interactive multimedia, UX research/design, Javascript/Drupal development.",
    "description": "Zebradog is an award-winning interactive multimedia design firm. We built solutions for Aurora Healthcare, Northwestern University, Saudi Aramco, UW-Madison, and others in various industries.",
    "draft": false,
-   "image": "/img/showcase/zebradog/storystation.png",
+   "image": "/img/showcase/zebradog/aramco/3.jpg",
+   "imageGallery": [
+     {
+       "title": "Mid-State Technical College Website",
+       "src": "divider"
+     },
+     {
+       "title": "Mid-State Technical College Website",
+       "src": "/img/showcase/zebradog/mstc/1.jpg"
+     },
+     {
+       "title": "Mid-State Technical College Website",
+       "src": "/img/showcase/zebradog/mstc/2.jpg"
+     },
+     {
+       "title": "Mid-State Technical College Website",
+       "src": "/img/showcase/zebradog/mstc/3.jpg"
+     },
+     {
+       "title": "Mid-State Technical College Website",
+       "src": "/img/showcase/zebradog/mstc/4.jpg"
+     },
+     {
+       "title": "Mid-State Technical College Website",
+       "src": "/img/showcase/zebradog/mstc/5.jpg"
+     },
+     {
+       "title": "Mid-State Technical College Website",
+       "src": "/img/showcase/zebradog/mstc/6.jpg"
+     },
+     {
+       "title": "Mid-State Technical College Website",
+       "src": "/img/showcase/zebradog/mstc/7.jpg"
+     },
+     {
+       "title": "Northwestern University Kinect Installation",
+       "src": "divider"
+     },
+     {
+       "title": "Northwestern University Kinect Installation",
+       "src": "/img/showcase/zebradog/nwern/1.jpg"
+     },
+     {
+       "title": "Northwestern University Kinect Installation",
+       "src": "/img/showcase/zebradog/nwern/2.jpg"
+     },
+     {
+       "title": "Northwestern University Kinect Installation",
+       "src": "/img/showcase/zebradog/nwern/3.jpg"
+     },
+     {
+       "title": "Northwestern University Kinect Installation",
+       "src": "/img/showcase/zebradog/nwern/4.jpg"
+     },
+     {
+       "title": "Saudi Aramco Media Wall",
+       "src": "divider"
+     },
+     {
+       "title": "Saudi Aramco Media Wall",
+       "src": "/img/showcase/zebradog/aramco/1.jpg"
+     },
+     {
+       "title": "Saudi Aramco Media Wall",
+       "src": "/img/showcase/zebradog/aramco/2.jpg"
+     },
+     {
+       "title": "Saudi Aramco Media Wall",
+       "src": "/img/showcase/zebradog/aramco/3.jpg"
+     },
+     {
+       "title": "Saudi Aramco Media Wall",
+       "src": "/img/showcase/zebradog/aramco/4.jpg"
+     },
+     {
+       "title": "Saudi Aramco Media Wall",
+       "src": "/img/showcase/zebradog/aramco/5.jpg"
+     }
+   ],
    "publishdate": "2013-03-01T14:47:36-05:00",
    "tags": [
       "interactive multimedia",
@@ -42,14 +120,3 @@ Working with Zebradog gave me the opportunity to work with an extremely talented
 The other branch of Zebradog's Digital Team built beautiful, well-structured, and  highly usable websites for clients. Built mainly on Drupal, ZD's sites traditionally had not been responsive or mobile-friendly, which is another point I stressed while working with ZD. Mid-State Technical College serves as an example of the first mobile-first design project Zebradog completed.
 
 Videos can be found on <a href="http://vimeo.com/zebradog">Zebradog's Vimeo page</a>, and <a href="http://demo.zebradog.com">Zebradog's Demo page</a>.
-
-# Selected Images
-
-<img src="/img/showcase/zebradog/storystation.png" />
-<img src="/img/showcase/zebradog/hometownheroes.png" />
-<img src="/img/showcase/zebradog/aramco.png" />
-<img src="/img/showcase/zebradog/nw.png" />
-<img src="/img/showcase/zebradog/northwestern.png" />
-<img src="/img/showcase/zebradog/mstc-desktop.png" />
-<img src="/img/showcase/zebradog/mstc-tablet.png" />
-<img src="/img/showcase/zebradog/mstc-phone.png" />
