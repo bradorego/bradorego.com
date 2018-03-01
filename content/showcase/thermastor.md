@@ -39,6 +39,10 @@
      },
      {
        "title": "Classic II Mockups",
+       "src": "/img/showcase/thermastor/classic2/ts.jpg"
+     },
+     {
+       "title": "Classic II Mockups",
        "src": "/img/showcase/thermastor/classic2/1.jpg"
      },
      {
