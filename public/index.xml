@@ -17,8 +17,7 @@
       <pubDate>Sat, 18 Nov 2017 19:12:13 -0500</pubDate>
       
       <guid>http://bradorego.com/rochester-review-master-class-revisited/</guid>
-      <description>TL;DNR  In the early days of software, having a product that worked was good enough. Nowadays design is the differentiator. There are multiple factors to a good design: learnability, efficiency, flexibility, aesthetics. The study of human-centered design isn&amp;rsquo;t new. The same concepts that Jakob Nielsen covered in the 1980s ring true today.   
-In 2015, I was interviewed for the Rochester Review, my alma mater&amp;rsquo;s quarterly publication for parents and alumni.</description>
+      <description>TL;DNR  In the early days of software, having a product that worked was good enough. Nowadays design is the differentiator. There are multiple factors to a good design: learnability, efficiency, flexibility, aesthetics. The study of human-centered design isn&#39;t new. The same concepts that Jakob Nielsen covered in the 1980s ring true today.   In 2015, I was interviewed for the Rochester Review, my alma mater&amp;rsquo;s quarterly publication for parents and alumni.</description>
     </item>
     
     <item>
@@ -63,7 +62,7 @@ In 2015, I was interviewed for the Rochester Review, my alma mater&amp;rsquo;s q
       <pubDate>Sun, 09 Apr 2017 11:12:46 -0500</pubDate>
       
       <guid>http://bradorego.com/showcase/american-family-insurance/</guid>
-      <description> About Selected Images </description>
+      <description>About {{ .Description }} {{ partial &amp;ldquo;nda.html&amp;rdquo; .}}</description>
     </item>
     
     <item>
@@ -81,7 +80,8 @@ In 2015, I was interviewed for the Rochester Review, my alma mater&amp;rsquo;s q
       <pubDate>Fri, 09 Sep 2016 11:12:46 -0500</pubDate>
       
       <guid>http://bradorego.com/showcase/singlewire-software/</guid>
-      <description></description>
+      <description>Background SingleWire is a leader in the emergency notification space. SingleWire&amp;rsquo;s main product, InformaCast, is trusted by federal agencies, major universities, and large companies. Traditionally deployed via Cisco phones, email, and desktop software, in 2016 SingleWire was in the midst of a transition to mobile. They needed research to understand mobile use cases and to help brainstorm functionality for a mobile application.
+Method SingleWire’s new Active Tracking mobile application had to major goals: 1) to allow members of a community to receive InformaCast notifications on the go (as opposed to via phone, desktop, or email), and 2) to allow users to send a distress signal, notifying authorities that they need help.</description>
     </item>
     
     <item>
@@ -90,7 +90,8 @@ In 2015, I was interviewed for the Rochester Review, my alma mater&amp;rsquo;s q
       <pubDate>Tue, 09 Aug 2016 11:12:46 -0500</pubDate>
       
       <guid>http://bradorego.com/showcase/therma-stor/</guid>
-      <description> About Selected Images </description>
+      <description>About Therma-Stor is a high-end dehumidifier, water heater, and disaster recovery/restoration manufacturer established in 1977. Most of their products are focused on commercial applications, but recently they’ve been expanding into the high-end residential space with some of their units. With that move they were also interested in bringing their products online to offer internet-enabled options.
+With so many examples of IoT products gone wrong, and all the ways one can go wrong, the opportunity to get in on the ground level of taking a product online is extremely valuable.</description>
     </item>
     
     <item>
@@ -135,7 +136,7 @@ In 2015, I was interviewed for the Rochester Review, my alma mater&amp;rsquo;s q
       <pubDate>Sat, 09 Jan 2016 11:12:46 -0500</pubDate>
       
       <guid>http://bradorego.com/showcase/spectrum-brands/</guid>
-      <description> About Selected Images </description>
+      <description>{{ partial &amp;ldquo;nda.html&amp;rdquo; . }}</description>
     </item>
     
     <item>
@@ -153,7 +154,7 @@ In 2015, I was interviewed for the Rochester Review, my alma mater&amp;rsquo;s q
       <pubDate>Mon, 09 Jun 2014 11:12:46 -0500</pubDate>
       
       <guid>http://bradorego.com/showcase/candorem/</guid>
-      <description> About Selected Images </description>
+      <description>About Since Candorem’s inception in 2010, they’ve had the privilege of providing strategic marketing solutions for a wide range of organizations including American Family Insurance, Better Business Bureau of Wisconsin, Verlo Mattress, Process Retail Group, and Henry Vilas Zoo among others. Located in Lake Mills, WI (between Madison and Milwaukee), Candorem has won several awards in recent years, including a project I assisted research and design for, Transform Milwaukee.</description>
     </item>
     
     <item>
@@ -162,7 +163,7 @@ In 2015, I was interviewed for the Rochester Review, my alma mater&amp;rsquo;s q
       <pubDate>Sat, 01 Mar 2014 15:11:21 -0500</pubDate>
       
       <guid>http://bradorego.com/showcase/nextt/</guid>
-      <description>About Nextt is a social event planning tool designed to help get all of your friends on the same page and to get together offline in the real world. While working with Nextt, I was responsible for development of the mobile web app (which eventually became Nextt&amp;rsquo;s Android app), as well as overseeing parts of the overall User Experience and wrangling all of the data, metrics, and analytics to help guide product development.</description>
+      <description>Background Nextt was a collaborative social planning tool. Nextt&amp;rsquo;s goal was to make it easier to plan social events for 4-10 people within the next 14 days, and the service did so by allowing users to create and share event Ideas that, once the date/time, location, and attendees were finalized, transitioned into a Plan. If the Idea did not reach fruition within a preset amount of time, it would self-destruct, forcing the user to take action.</description>
     </item>
     
     <item>
@@ -254,7 +255,7 @@ Working with Zebradog gave me the opportunity to work with an extremely talented
       <pubDate>Mon, 09 Jan 2012 11:12:46 -0500</pubDate>
       
       <guid>http://bradorego.com/showcase/epic-systems/</guid>
-      <description> About Selected Images </description>
+      <description>Background After discovering the world of Human-Computer Interaction my Junior year of undergrad, I completely dove into my studies, and by the time I was finishing my Take 5 and looking at the job market, I knew I wanted to go into User Experience. Epic seemed like the perfect opportunity to both get experience of software development at scale but also to have an impact and utilize my skills. When I joined Epic in July 2011, there were 5 full-time designers and approximately 700 developers.</description>
     </item>
     
     <item>
