@@ -119,7 +119,7 @@ SingleWire is a leader in the emergency notification space. SingleWire's main pr
 
 # Method
 
-SingleWire’s new Active Tracking mobile application had to major goals: 1) to allow members of a community to receive InformaCast notifications on the go (as opposed to via phone, desktop, or email), and 2) to allow users to send a distress signal, notifying authorities that they need help. Because of this, there were several actors involved (community members, administrators, dispatchers, respondents), and in the target population (in this case, college campuses), two major groups to interview: students and secuity personnel.
+SingleWire’s new Active Tracking mobile application had to major goals: 1) to allow members of a community to receive InformaCast notifications on the go (as opposed to via phone, desktop, or email), and 2) to allow users to send a distress signal, notifying authorities that they need help. Because of this, there were several actors involved (community members, administrators, dispatchers, respondents), and in the target population (in this case, college campuses), two major groups to interview: students and security personnel.
 
 After 15 interviews were conducted (9 students, 6 staff) and a questionnaire sent out (27 respondents), personas and user stories were created to summarize findings and help guide design and product development. This context allowed us to design with real end-users in mind and have a basis to discuss the relevance of proposed features.
 

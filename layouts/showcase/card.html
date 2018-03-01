@@ -19,7 +19,7 @@
         <h2>{{ .Params.headline }}</h2>
         <p class="tiny">{{.Description}}</p>
         {{ if .Params.showcaseImg }}
-          <div class="btn-group d-flex" role="group">
+          <div class="btn-group d-flex mt-5" role="group">
             {{ range $index, $link := .Params.showcaseImg }}
               <button type="button" class="btn btn-outline-dark w-100 showcase-toggle {{if eq $index 0}}active{{end}}" data-img-src="{{$link.src}}">{{$link.title}}</button>
             {{ end }}
