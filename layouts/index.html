@@ -3,10 +3,10 @@
     {{ partial "new-header.html" . }}
 
     <div class="container showcase">
-      <h2 class="divider">Current Projects:</h2>
+      <h2 class="divider">Recent Projects:</h2>
       <div class="card currently">
         <div class="card-body">
-          <a href="https://factoryfix.com/">FactoryFix</a> <a href="https://justprotect.co">JustProtect</a> <a href="http://freethoughttoday.com">Freethought Today</a> <a href="https://swag.express">SwagExpress</a> <a href="https://melioralabs.com">MelioraLabs</a>
+          <a href="https://factoryfix.com/">FactoryFix</a> <a href="http://freethoughttoday.com">Freethought Today</a> <a href="https://melioralabs.com">MelioraLabs</a> <a href="https://swag.express">SwagExpress</a>
         </div>
       </div>
       {{ range where .Site.Pages "Type" "showcase" }}
