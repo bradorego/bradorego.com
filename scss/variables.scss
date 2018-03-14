@@ -2,14 +2,16 @@
 
 $brand-primary: #ffbe40;
 $gray-dark: lighten(black, 25%);
-$gray: lighten(black, 50%);
-$white-faded: fade(white, 80%);
-$gray-light: #eee;
+// $gray: lighten(black, 50%);
+// $white-faded: fade(white, 80%);
+// $gray-light: #eee;
 $card-shadow: #c8bebe;
+
+$primary: darken($brand-primary, 30%);
 
 /// from avgerinos (whoops)
 
-$primary: rgb(100, 102, 107);
+// $primary: rgb(100, 102, 107);
 $white: white;
 $bg: #eaeaea;
 $border-radius: 8px;

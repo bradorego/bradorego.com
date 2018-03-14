@@ -66,9 +66,12 @@ footer {
   i { /// icons
     font-size: 32px;
   }
+  a {
+    color: $gray-dark;
+  }
 	li.patreon {
     g {
-      fill: $primary;
+      fill: $gray-dark;
     }
     a:hover,
     a:focus,
@@ -123,7 +126,7 @@ hr.medium {
 }
 
 hr.dark {
-	border-color: $primary;
+	border-color: $gray-dark;
 }
 
 .hidden {
@@ -136,7 +139,7 @@ hr.dark {
 body {
   // background: $bg;
   font-family: 'Roboto', sans-serif;
-  color: $primary;
+  color: $gray-dark;
   font-size: 20px;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
