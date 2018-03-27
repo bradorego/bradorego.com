@@ -1,6 +1,6 @@
 {
    "categories": [
-      "Meta"
+      "Development"
    ],
    "date": "2018-01-13T01:59:21-05:00",
    "description": "Do designers need to code? Not exactly, but it helps to have some idea.",
