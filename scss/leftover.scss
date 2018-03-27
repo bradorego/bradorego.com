@@ -68,6 +68,11 @@ footer {
   }
   a {
     color: $gray-dark;
+    &:hover,
+    &:focus,
+    &:active {
+      color: $primary;
+    }
   }
 	li.patreon {
     g {
@@ -77,7 +82,7 @@ footer {
     a:focus,
     a:active {
       g {
-        fill: $brand-primary;
+        fill: $primary;
       }
     }
 	}
