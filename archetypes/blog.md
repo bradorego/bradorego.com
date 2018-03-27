@@ -16,7 +16,8 @@
     <li></li>
   </ul>
 </div>
-<hr/>
+
+---
 
 # Transparency <a name="transparency" href="#transparency"><i class="ion-link"></i></a>
 #### The more open, honest, and candid the team can be, the better.
