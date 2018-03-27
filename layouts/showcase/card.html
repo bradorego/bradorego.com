@@ -1,8 +1,8 @@
 {{ if .Params.NDA }}
-  <h2 class="divider">{{ .Title }} ({{.Params.dateRange}})</h2>
+  <h2 class="divider">{{ .Title }}</h2>
 {{ else }}
   <a href="{{ .Permalink }}" target="_self">
-    <h2 class="divider">{{ .Title }} ({{.Params.dateRange}})</h2>
+    <h2 class="divider">{{ .Title }}</h2>
   </a>
 {{ end }}
 
