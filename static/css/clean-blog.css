@@ -6196,12 +6196,14 @@ footer {
     font-size: 32px; }
   footer a {
     color: #404040; }
+    footer a:hover, footer a:focus, footer a:active {
+      color: #a66e00; }
   footer li.patreon g {
     fill: #404040; }
   footer li.patreon a:hover g,
   footer li.patreon a:focus g,
   footer li.patreon a:active g {
-    fill: #ffbe40; }
+    fill: #a66e00; }
 
 .post-meta {
   font-size: 16px;
