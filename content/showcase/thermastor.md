@@ -108,3 +108,9 @@ Therma-Stor is a high-end dehumidifier, water heater, and disaster recovery/rest
 With so many examples of IoT products gone wrong, and all the ways one can go wrong, the opportunity to get in on the ground level of taking a product online is extremely valuable. Therma-Stor’s years of experience with their products and their consumers served as the basis of our exploration and design, and our expertise in software guided product development. Our first use case targeted agents monitoring multiple devices across different properties, with future development to target direct-to-consumer models as well as providing better reporting and visualization tools to account managing hundreds of units (desktop dashboard wireframes included; under development).
 
 Therma-Stor’s Santa Fe Sentry application is currently available on both iOS and Android, the Classic II application is under development, and the desktop web/native desktop applications are in research stages.
+
+# Process
+
+My role on the initial Sante Fe Sentry project was to ensure the stakeholders on Therma-Stor's side had a good understanding of what their users wanted and what was feasible from a technology standpoint, and then to coordinate all engineering progress and decisions. This meant communicating daily with Therma-Stor's Electrical Engineers to ensure we knew how to connect to the device as well as with their Software Engineer, as the RESTful API was being built in parallel to the app.
+
+I was also responsible for all research and design decisions, simultaneously playing the role of Scrum Master and Design Lead. MobileIgniter (the original developer) used a loosely agile methodology with weekly releases to the customer, meaning we would re-prioritize the backlog every week after a check in with stakeholders and test users.

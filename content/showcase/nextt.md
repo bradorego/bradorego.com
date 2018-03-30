@@ -111,9 +111,13 @@ I was responsible for designing and overseeing implementation of our analytics s
 
 Alongside our design practice, I was also involved in strategic and marketing initiatives, including in-person focus groups, survey design, and email marketing. We held several focus groups to explore different problem spaces and discover which audience had the most acute problems, settling on young professionals.
 
+I used all of this information to make adjustments to Nextt's agile product development process, injecting data and research much earlier than previously possible which allowed us to make better decisions and re-prioritize.
+
 # Design
 
-In our role with Nextt, we provided UX Lead and Mobile Web Development services, which on top of writing all of the web code that eventually became the Android app (via PhoneGap), we also took over wireframing and prototyping and implemented a usability practice including focus groups, usability studies, weekly surveys, and analytics suites.
+In my role with Nextt, I provided UX Lead and Mobile Web Development services, which on top of writing all of the web code that eventually became the Android app (via PhoneGap), I also took over wireframing and prototyping and implemented a usability practice including focus groups, usability studies, weekly surveys, and analytics suites.
+
+Nextt had a part-time graphic designer to add a lot of the finesse and final touches to the designs, but the majority of app layout and user flow was my doing. I made the final call on visual design decisions before they were presented to the C-suite, working closely with the graphic designer.
 
 # Results
 
