@@ -34,6 +34,14 @@
        "src": "/img/showcase/candorem/xformmke/5.jpg"
      },
      {
+       "title": "Transform Milwaukee",
+       "src": "/img/showcase/candorem/xformmke/6.jpg"
+     },
+     {
+       "title": "Transform Milwaukee",
+       "src": "/img/showcase/candorem/xformmke/7.jpg"
+     },
+     {
        "title": "Duck Creek",
        "src": "divider"
      },
@@ -65,10 +73,14 @@
        "src": "/img/showcase/candorem/showcase/duck.gif"
      }
    ],
-   "tags": ["information architecture", "usability research", "wireframes", "design"],
+   "tags": ["information architecture", "usability research", "wireframes", "design", "survey design"],
    "title": "Candorem"
 }
 
 # About
 
 Since Candorem’s inception in 2010, they’ve had the privilege of providing strategic marketing solutions for a wide range of organizations including American Family Insurance, Better Business Bureau of Wisconsin, Verlo Mattress, Process Retail Group, and Henry Vilas Zoo among others. Located in Lake Mills, WI (between Madison and Milwaukee), Candorem has [won several awards](http://candorem.com/blog/) in recent years, including a project I assisted research and design for, Transform Milwaukee.
+
+# Responsibilities
+
+My work with Candorem spanned Usability Research and Survey Design (using UserTesting.com) through to Information Architecture and Wireframes. My role was simply to be overflow when Josh, the Founder and Lead Designer, was too busy running the business. Josh is a great mentor, though, and always involved me in strategic and planning discussions.

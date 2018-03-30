@@ -85,7 +85,8 @@
       "usability research",
       "analytics",
       "mobile app",
-      "mixpanel"
+      "mixpanel",
+      "survey design"
    ],
    "showcaseImg": [
      {
