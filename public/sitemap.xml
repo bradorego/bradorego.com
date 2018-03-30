@@ -404,14 +404,14 @@
   </url>
   
   <url>
-    <loc>http://bradorego.com/tags/meta/</loc>
-    <lastmod>2016-04-14T12:26:53-05:00</lastmod>
+    <loc>http://bradorego.com/categories/meta/</loc>
+    <lastmod>2017-11-18T19:12:13-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://bradorego.com/categories/meta/</loc>
-    <lastmod>2017-11-18T19:12:13-05:00</lastmod>
+    <loc>http://bradorego.com/tags/meta/</loc>
+    <lastmod>2016-04-14T12:26:53-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -600,6 +600,12 @@
   </url>
   
   <url>
+    <loc>http://bradorego.com/tags/survey-design/</loc>
+    <lastmod>2016-09-09T11:12:46-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://bradorego.com/tags/</loc>
     <lastmod>2017-03-18T14:40:53-05:00</lastmod>
     <priority>0</priority>
@@ -654,14 +660,14 @@
   </url>
   
   <url>
-    <loc>http://bradorego.com/tags/user-experience/</loc>
-    <lastmod>2017-05-15T11:53:22-05:00</lastmod>
+    <loc>http://bradorego.com/categories/user-experience/</loc>
+    <lastmod>2017-08-30T15:58:43-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://bradorego.com/categories/user-experience/</loc>
-    <lastmod>2017-08-30T15:58:43-05:00</lastmod>
+    <loc>http://bradorego.com/tags/user-experience/</loc>
+    <lastmod>2017-05-15T11:53:22-05:00</lastmod>
     <priority>0</priority>
   </url>
   

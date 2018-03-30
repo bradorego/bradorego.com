@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Survey Design on bradorego.com</title>
+    <link>http://bradorego.com/tags/survey-design/</link>
+    <description>Recent content in Survey Design on bradorego.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 Sep 2016 11:12:46 -0500</lastBuildDate>
+    
+	<atom:link href="http://bradorego.com/tags/survey-design/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SingleWire Software</title>
+      <link>http://bradorego.com/showcase/singlewire-software/</link>
+      <pubDate>Fri, 09 Sep 2016 11:12:46 -0500</pubDate>
+      
+      <guid>http://bradorego.com/showcase/singlewire-software/</guid>
+      <description>Background SingleWire is a leader in the emergency notification space. SingleWire&amp;rsquo;s main product, InformaCast, is trusted by federal agencies, major universities, and large companies. Traditionally deployed via Cisco phones, email, and desktop software, in 2016 SingleWire was in the midst of a transition to mobile. They needed research to understand mobile use cases and to help brainstorm functionality for a mobile application.
+Method SingleWire’s new Active Tracking mobile application had to major goals: 1) to allow members of a community to receive InformaCast notifications on the go (as opposed to via phone, desktop, or email), and 2) to allow users to send a distress signal, notifying authorities that they need help.</description>
+    </item>
+    
+    <item>
+      <title>Candorem</title>
+      <link>http://bradorego.com/showcase/candorem/</link>
+      <pubDate>Mon, 09 Jun 2014 11:12:46 -0500</pubDate>
+      
+      <guid>http://bradorego.com/showcase/candorem/</guid>
+      <description>About Since Candorem’s inception in 2010, they’ve had the privilege of providing strategic marketing solutions for a wide range of organizations including American Family Insurance, Better Business Bureau of Wisconsin, Verlo Mattress, Process Retail Group, and Henry Vilas Zoo among others. Located in Lake Mills, WI (between Madison and Milwaukee), Candorem has won several awards in recent years, including a project I assisted research and design for, Transform Milwaukee.</description>
+    </item>
+    
+    <item>
+      <title>Nextt</title>
+      <link>http://bradorego.com/showcase/nextt/</link>
+      <pubDate>Sat, 01 Mar 2014 15:11:21 -0500</pubDate>
+      
+      <guid>http://bradorego.com/showcase/nextt/</guid>
+      <description>Background Nextt was a collaborative social planning tool. Nextt&amp;rsquo;s goal was to make it easier to plan social events for 4-10 people within the next 14 days, and the service did so by allowing users to create and share event Ideas that, once the date/time, location, and attendees were finalized, transitioned into a Plan. If the Idea did not reach fruition within a preset amount of time, it would self-destruct, forcing the user to take action.</description>
+    </item>
+    
+  </channel>
+</rss>
