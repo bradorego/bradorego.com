@@ -9,42 +9,6 @@
    "image": "/img/showcase/singlewire/design/7.png",
    "imageGallery": [
      {
-       "title": "Wireframes/Mockups",
-       "src": "divider"
-     },
-     {
-       "title": "Desktop Notifier",
-       "src": "/img/showcase/singlewire/design/2.png"
-     },
-     {
-       "title": "Desktop Notifier",
-       "src": "/img/showcase/singlewire/design/3.png"
-     },
-     {
-       "title": "Active Tracking App",
-       "src": "/img/showcase/singlewire/design/4.png"
-     },
-     {
-       "title": "Active Tracking App",
-       "src": "/img/showcase/singlewire/design/5.png"
-     },
-     {
-       "title": "Dashboard",
-       "src": "/img/showcase/singlewire/design/6.png"
-     },
-     {
-       "title": "Dashboard",
-       "src": "/img/showcase/singlewire/design/7.png"
-     },
-     {
-       "title": "Dashboard",
-       "src": "/img/showcase/singlewire/design/8.png"
-     },
-     {
-       "title": "Dashboard",
-       "src": "/img/showcase/singlewire/design/9.png"
-     },
-     {
        "title": "Research",
        "src": "divider"
      },
@@ -87,6 +51,42 @@
      {
        "title": "Officer Stories",
        "src": "/img/showcase/singlewire/personas/5.jpg"
+     },
+     {
+       "title": "Wireframes/Mockups",
+       "src": "divider"
+     },
+     {
+       "title": "Desktop Notifier",
+       "src": "/img/showcase/singlewire/design/2.png"
+     },
+     {
+       "title": "Desktop Notifier",
+       "src": "/img/showcase/singlewire/design/3.png"
+     },
+     {
+       "title": "Active Tracking App",
+       "src": "/img/showcase/singlewire/design/4.png"
+     },
+     {
+       "title": "Active Tracking App",
+       "src": "/img/showcase/singlewire/design/5.png"
+     },
+     {
+       "title": "Dashboard",
+       "src": "/img/showcase/singlewire/design/6.png"
+     },
+     {
+       "title": "Dashboard",
+       "src": "/img/showcase/singlewire/design/7.png"
+     },
+     {
+       "title": "Dashboard",
+       "src": "/img/showcase/singlewire/design/8.png"
+     },
+     {
+       "title": "Dashboard",
+       "src": "/img/showcase/singlewire/design/9.png"
      }
    ],
    "publishdate": "2016-09-09T11:12:46-05:00",

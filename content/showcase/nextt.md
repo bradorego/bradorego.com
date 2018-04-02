@@ -9,6 +9,22 @@
    "image": "/img/showcase/nextt/screens/5.jpg",
    "imageGallery": [
      {
+       "title": "Guerilla Research",
+       "src": "divider"
+     },
+     {
+       "title": "Guerilla Research",
+       "src": "/img/showcase/nextt/research/1.jpg"
+     },
+     {
+       "title": "Guerilla Research",
+       "src": "/img/showcase/nextt/research/2.jpg"
+     },
+     {
+       "title": "Guerilla Research",
+       "src": "/img/showcase/nextt/research/3.jpg"
+     },
+     {
        "title": "Wireframes",
        "src": "divider"
      },
@@ -59,22 +75,6 @@
      {
        "title": "Screenshots",
        "src": "/img/showcase/nextt/screens/5.jpg"
-     },
-     {
-       "title": "Guerilla Research",
-       "src": "divider"
-     },
-     {
-       "title": "Guerilla Research",
-       "src": "/img/showcase/nextt/research/1.jpg"
-     },
-     {
-       "title": "Guerilla Research",
-       "src": "/img/showcase/nextt/research/2.jpg"
-     },
-     {
-       "title": "Guerilla Research",
-       "src": "/img/showcase/nextt/research/3.jpg"
      }
    ],
    "publishdate": "2014-03-01T14:47:36-05:00",
