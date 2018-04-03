@@ -4,7 +4,9 @@
   "noPosted": true,
   "image": "img/resume.jpg"
 }
-<a href="/OregoResume.pdf" target="_blank" download>
-  Download R&eacute;sum&eacute;
-  <img src="/img/OregoResume.png" width="100%" />
-</a>
+
+I want to hire Brad for...
+
+<a class="btn btn-block btn-dark" href="/OregoResearchResume.pdf">Research</a>
+<a class="btn btn-block btn-dark" href="/OregoDesignResume.pdf">Design</a>
+<a class="btn btn-block btn-dark" href="/OregoPMResume.pdf">Product Management</a>

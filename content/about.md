@@ -12,7 +12,7 @@
     <img src="/img/headshot.jpg">
   </div>
 <p class="col-12 mt-0 col-sm-8 col-lg-10">
-  Bradley Orego is an Experience Designer, Web Developer, Entrepreneur, and Dancer currently spending time between Brooklyn, NY and Madison, WI (<a href="https://www.meetways.com/halfway/Madison%2c%20WI%2c%20United%20States/Brooklyn%2c%20NY%2c%20United%20States/bar/d">not literally!</a>). This is his personal blog, where you'll find posts on anything from company culture to experience design to homebrewing to dance.
+  Bradley Orego is a User Experience Researcher, Product Designer, Entrepreneur, and Dancer currently located in Brooklyn, NY. This is his personal blog, where you'll find posts on anything from company culture to experience design to homebrewing to dance.
 </p>
 </div>
 
