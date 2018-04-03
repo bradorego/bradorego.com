@@ -51,11 +51,21 @@
 
 
 .navbar {
+  img {
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+  }
   h1 {
     font-size: 20px;
   }
   h2 {
     font-size: 14px;
+  }
+  .navbar-brand {
+    @media (max-width: 479px) {
+      white-space: initial;
+    }
   }
   .btn-group {
     @media (max-width: 767px) {
