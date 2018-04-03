@@ -6114,11 +6114,20 @@ body {
     position: absolute;
     bottom: 0; }
 
+.navbar img {
+  border-radius: 50%;
+  float: left;
+  margin-right: 10px; }
+
 .navbar h1 {
   font-size: 20px; }
 
 .navbar h2 {
   font-size: 14px; }
+
+@media (max-width: 479px) {
+  .navbar .navbar-brand {
+    white-space: initial; } }
 
 @media (max-width: 767px) {
   .navbar .btn-group {
