@@ -1,15 +1,11 @@
 {{ partial "header.html" .}}
-
-    {{ partial "page-header.html" .}}
-
-    <article class="main-content">
-        <div class="container">
-            <div class="row">
-            {{partial "bootstrap-div.html" . }}
-                <h3>Well, this is embarassing</h3>
-                <p>Looks like we couldn't find what you're looking for. Try the side menu for additional options.</p>
-            </div>
-        </div>
-    </article>
-
+  {{ partial "new-header.html" .}}
+  <div class="container">
+    <div class="card timeline">
+      <div class="card-body">
+        <h1>Well, this is embarassing</h1>
+        <p>Looks like we couldn't find what you're looking for. Try the top menu for additional options.</p>
+      </div>
+    </div>
+  </div>
 {{ partial "footer.html" .}}
