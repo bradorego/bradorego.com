@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://bradorego.com/performing.design/</loc>
+    <lastmod>2018-04-04T21:25:41-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://bradorego.com/rochester-review-master-class-revisited/</loc>
     <lastmod>2017-11-18T19:12:13-05:00</lastmod>
   </url>
@@ -172,13 +177,13 @@
   
   <url>
     <loc>http://bradorego.com/tags/blog/</loc>
-    <lastmod>2016-04-14T12:26:53-05:00</lastmod>
+    <lastmod>2018-04-04T21:25:41-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://bradorego.com/blog/</loc>
-    <lastmod>2017-11-18T19:12:13-05:00</lastmod>
+    <lastmod>2018-04-04T21:25:41-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -218,6 +223,12 @@
   </url>
   
   <url>
+    <loc>http://bradorego.com/tags/dance/</loc>
+    <lastmod>2018-04-04T21:25:41-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://bradorego.com/tags/dashboard/</loc>
     <lastmod>2016-09-09T11:12:46-05:00</lastmod>
     <priority>0</priority>
@@ -225,7 +236,7 @@
   
   <url>
     <loc>http://bradorego.com/tags/design/</loc>
-    <lastmod>2016-04-14T12:26:53-05:00</lastmod>
+    <lastmod>2018-04-04T21:25:41-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -404,14 +415,14 @@
   </url>
   
   <url>
-    <loc>http://bradorego.com/categories/meta/</loc>
-    <lastmod>2017-11-18T19:12:13-05:00</lastmod>
+    <loc>http://bradorego.com/tags/meta/</loc>
+    <lastmod>2016-04-14T12:26:53-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://bradorego.com/tags/meta/</loc>
-    <lastmod>2016-04-14T12:26:53-05:00</lastmod>
+    <loc>http://bradorego.com/categories/meta/</loc>
+    <lastmod>2018-04-04T21:25:41-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -549,7 +560,7 @@
   
   <url>
     <loc>http://bradorego.com/tags/research/</loc>
-    <lastmod>2016-09-09T11:12:46-05:00</lastmod>
+    <lastmod>2018-04-04T21:25:41-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -660,14 +671,14 @@
   </url>
   
   <url>
-    <loc>http://bradorego.com/categories/user-experience/</loc>
-    <lastmod>2017-08-30T15:58:43-05:00</lastmod>
+    <loc>http://bradorego.com/tags/user-experience/</loc>
+    <lastmod>2017-05-15T11:53:22-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://bradorego.com/tags/user-experience/</loc>
-    <lastmod>2017-05-15T11:53:22-05:00</lastmod>
+    <loc>http://bradorego.com/categories/user-experience/</loc>
+    <lastmod>2017-08-30T15:58:43-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -709,7 +720,7 @@
   
   <url>
     <loc>http://bradorego.com/</loc>
-    <lastmod>2017-11-18T19:12:13-05:00</lastmod>
+    <lastmod>2018-04-04T21:25:41-04:00</lastmod>
     <priority>0</priority>
   </url>
   
