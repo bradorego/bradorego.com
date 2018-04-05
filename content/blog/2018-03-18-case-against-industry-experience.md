@@ -40,21 +40,26 @@ Before we get too far down the rabbit hole, let's touch briefly on the benefits 
 * A shared knowledge of work environments/styles (e.g. agile vs. waterfall, lean UX, guerrilla UX).
 * Having "seen this before", whether that be specifically for your industry or in general.
 
-I'm not saying only hire recent grads (anything but). What I am saying, though, is that having someone that's new to your industry is going to create many opportunities.
+I'm not saying only hire recent grads (anything but). What I am saying, though, is that having someone that's new to your industry is going to create many opportunities for learning. They're going to ask questions you've never heard before, they're going to question why things are done they way they are. They're going to frustrate you. But it's a worthwhile exercise.
 
 # Fighting Bias <a name="bias" href="#bias"><i class="ion-link"></i></a>
 #### Diversity is the killer of bias.
 
-As much as you can try, nobody can fully escape their biases. Our brains have built in heuristics for how we see the world and process information which makes it impossible to be bias-free. The best way to combat bias and its negative influence on your product is to build a diverse team and encourage radical candor. (links for radical candor, diversity)
+As much as one may try, nobody can fully escape/defeat their biases. Our brains have built in heuristics for how we see the world and process information which makes it impossible to be bias-free; if we didn't, getting through the day would be virtually impossible due to the amount of information and number of decisions we need to make ***Insert data about bandwidth***. The best way to combat bias and its negative influence on your product is to build a diverse team and encourage radical candor. (links for radical candor, diversity)
 
 A diverse team (both in terms of thought and background) allows everyone to see how others think and interpret information, and a culture of openness, honesty, and radical candor lets everyone feel comfortable calling out that bias. It's important to do this without blame, though; people rarely hold biases (especially detrimental ones) on purpose. It's a side effect of their upbringing, how they've been taught, the people they've been around, etc. There's no need to make a big deal out of someone's bias, but you can point them out so everyone can move forward. (links to FB diversity SWSX)
 
 # Being a Good Learner <a name="good-learner" href="#good-learner"><i class="ion-link"></i></a>
 #### ABL. Always. Be. Learning. Encourage the beginner mindset.
 
+One of the most valuable skills a designer can have is the beginner mindset. Emotional intelligence and empathy are important for understanding the user (though empathy may be detrimental **link**), but there are two major advantages to thinking like a beginner:
+
+1) You're always going to be noticing assumptions and pointing them out.
+2) You're less likely to feel attached to anything you make.
+
 There are things you can do to create a culture of the beginner mindset. Question everything, identify assumptions, and work through them. Have a framework in place; make it formulaic and part of a process. (links for techniques)
 
-Make sure you're not personally falling into theory blindness. Young doctors are actually often better than old due to more training and a willingness to question everything. Once you give someone a theory, they cling to it, missing information they otherwise see. (links for theory blindness/expertise error)
+Make sure you're not personally falling into theory blindness. Young doctors are actually often better than old due to more recent training and a willingness to question everything. Once you give someone a theory, they cling to it, missing information they otherwise see. (links for theory blindness/expertise error)
 
 ---
 
