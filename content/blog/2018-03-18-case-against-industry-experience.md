@@ -58,7 +58,7 @@ Make sure you're not personally falling into theory blindness. Young doctors are
 
 ---
 
-Looking for help from someone with 6 years of experience in a wide variety of industries? Everything from interactive multimedia to social networking to IoT to home services. Let's talk.
+Looking for help from someone with 6 years of experience in a wide variety of industries? Everything from interactive multimedia to social networking to IoT to home services. [Let's talk](mailto:hello@bradorego.com).
 
 <figure>
 <img src="https://media.giphy.com/media/3osxYamKD88c6pXdfO/giphy.gif" />
