@@ -3,9 +3,9 @@
       "Meta"
    ],
    "date": "2018-04-04T21:25:41-04:00",
-   "description": "",
+   "description": "A new project to inform design practices with lessons from the performing arts.",
    "draft": false,
-   "image": "/img/posts/:title/header.png",
+   "image": "/img/default-bg0.jpg",
    "photoCredit": "",
    "publishdate": "2018-04-04T14:47:36-05:00",
    "tags": [
