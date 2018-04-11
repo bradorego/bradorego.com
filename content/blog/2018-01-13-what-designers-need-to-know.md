@@ -19,8 +19,8 @@
 <div class="tldnr">
   <h4>TL;DNR</h4>
   <ul>
-    <li>There's a lot of discussion around whether designers should code. Here's my take on it.</li>
-    <li>As a designer, having at least a vague idea of how the technology behind the products you're working on is beneficial.</li>
+    <li>There's a lot of discussion around whether designers should code. Here's my take on it. Short answer: No, but you should be aware of the technology.</li>
+    <li>As a designer, having at least a vague idea of how the technology behind the products you're working on is beneficial, both in terms of the design work you do and in communicating with other team members.</li>
     <li>There may be certain quirks based on implementation, but overall the pattern is Database --> Server-side --> (API) --> (Middleware) --> Front-End --> Visual/UI Design</li>
   </ul>
 </div>
