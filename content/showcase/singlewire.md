@@ -126,9 +126,13 @@ After 15 interviews were conducted (9 students, 6 staff) and a questionnaire sen
 
 # Design
 
-Traditionally, SingleWire’s technology has worked using Voice Over IP technology (and is integrated into most Cisco desktop phones), but there’s been a recent move to modernize the technology (because who has a desktop phone anymore, even in corporate settings), so a lot of SingleWire’s work is moving into the web and mobile space. We were tapped to help them think about this transition, as well as update the designs on some of their existing properties for web, mobile, and desktop.
+Traditionally, SingleWire’s technology has worked using Voice Over IP technology (and is integrated into most Cisco desktop phones), but there’s been a recent move to modernize the technology (because who has a desktop phone anymore, even in corporate settings), so a lot of SingleWire’s work is moving into the web and mobile space. I helped them think about this transition, as well as update the designs on some of their existing properties for web, mobile, and desktop.
 
-Specifically, SingleWire has a desktop notifier application for Windows and OSX to receive their broadcasts that needed an update. They also have a web dashboard which inherited a lot of legacy functionality from their VoIP phones that was no longer relevant and needed to be redesigned. Finally, SingleWire is in the process of developing an application to track users movements live during an incident to help direct respondents.
+Specifically, SingleWire's desktop notifier application for Windows and OSX needed an update. They also have a web dashboard which inherited a lot of legacy functionality from their VoIP phones that was no longer relevant and needed to be redesigned. Finally, SingleWire is in the process of developing an application to track users movements live during an incident to help direct respondents.
+
+# Findings
+
+For Active Tracking, we had two surprise learnings. First, that discretion was a major concern for students in the use of this application (specifically in social situations and if they're being followed), which wasn't initially on our roadmap. Second, that Officers and Dispatchers were interested in the ability to open a two-way chat (via voice, video, or text) with those in need to gather more information (e.g. where are they, what the issue is, for triage purposes, etc.), which altered the product's trajectory as well.
 
 # Results
 
