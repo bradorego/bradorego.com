@@ -31,7 +31,7 @@
 
 ---
 
-It seems that everyone has an opinion on whether designers should code (**include a bunch of links**). You could call this my take on the debate, but that isn't my personal perspective. To me, this is a reflection of my experience interacting with other designers and having my own background/understanding of software engineering and Computer Science. I don't think designers need to understand the intricacies of writing code or of any particular language, but **having an idea of how software as a whole is built can be extremely beneficial**.
+It seems that everyone has an [opinion](https://medium.com/@MrAlanCooper/should-designers-code-f7b745b8cd03) on [whether](https://www.uxpin.com/studio/blog/should-designers-code/) [designers](https://blog.prototypr.io/should-designers-code-f3c5eea85841) [should](https://thenextweb.com/contributors/2017/09/23/designers-code-no-seriously-though/) [code](https://www.wired.com/2017/03/john-maeda-want-survive-design-better-learn-code/). You could call this my take on the debate, but that isn't my personal perspective. To me, this is a reflection of my experience interacting with other designers and having my own background/understanding of software engineering and Computer Science. I don't think designers need to understand the intricacies of writing code or of any particular language, but **having an idea of how software as a whole is built can be extremely beneficial**.
 
 # Why Should I Care? <a name="why" href="#why"><i class="ion-link"></i></a>
 #### There are myriad benefits to understanding how software happens.
