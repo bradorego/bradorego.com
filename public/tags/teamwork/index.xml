@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Javascript on bradorego.com</title>
-    <link>http://bradorego.com/tags/javascript/</link>
-    <description>Recent content in Javascript on bradorego.com</description>
+    <title>Teamwork on bradorego.com</title>
+    <link>http://bradorego.com/tags/teamwork/</link>
+    <description>Recent content in Teamwork on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 29 Jan 2018 01:59:21 -0500</lastBuildDate>
     
-	<atom:link href="http://bradorego.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://bradorego.com/tags/teamwork/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>http://bradorego.com/what-designers-need-to-know-about-development/</guid>
       <description>TL;DNR  There&#39;s a lot of discussion around whether designers should code. Here&#39;s my take on it. Short answer: No, but you should be aware of the technology. As a designer, having at least a vague idea of how the technology behind the products you&#39;re working on is beneficial, both in terms of the design work you do and in communicating with other team members. There may be certain quirks based on implementation, but overall the pattern is Database -- Server-side -- (API) -- (Middleware) -- Front-End -- Visual/UI Design   It seems that everyone has an opinion on whether designers should code (include a bunch of links).</description>
-    </item>
-    
-    <item>
-      <title>Foursquare Heatmap &amp; Remote Sensing</title>
-      <link>http://bradorego.com/foursquare-heatmap--remote-sensing/</link>
-      <pubDate>Mon, 11 Mar 2013 17:21:36 -0500</pubDate>
-      
-      <guid>http://bradorego.com/foursquare-heatmap--remote-sensing/</guid>
-      <description>TL;DNR  Foursquare&#39;s API and Google Maps are pretty easy to work with. Creating a new product can be as easy as combining two existing technologies. New products create opportunities for new experiences.   A little over a month ago (technically during the Foursquare Hackathon, but I was working from home due to Red Eye) I spent a few hours one weekend hacking together an idea I&amp;rsquo;d come up with when working on Foursquare integration for Trinker.</description>
     </item>
     
   </channel>

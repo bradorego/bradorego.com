@@ -6,10 +6,19 @@
     <description>Recent content in Process on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Jun 2017 13:54:44 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jan 2018 01:59:21 -0500</lastBuildDate>
     
 	<atom:link href="http://bradorego.com/tags/process/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What Designers Need to Know About Development</title>
+      <link>http://bradorego.com/what-designers-need-to-know-about-development/</link>
+      <pubDate>Mon, 29 Jan 2018 01:59:21 -0500</pubDate>
+      
+      <guid>http://bradorego.com/what-designers-need-to-know-about-development/</guid>
+      <description>TL;DNR  There&#39;s a lot of discussion around whether designers should code. Here&#39;s my take on it. Short answer: No, but you should be aware of the technology. As a designer, having at least a vague idea of how the technology behind the products you&#39;re working on is beneficial, both in terms of the design work you do and in communicating with other team members. There may be certain quirks based on implementation, but overall the pattern is Database -- Server-side -- (API) -- (Middleware) -- Front-End -- Visual/UI Design   It seems that everyone has an opinion on whether designers should code (include a bunch of links).</description>
+    </item>
     
     <item>
       <title>An Open (Love) Letter To My Next Work Partner</title>

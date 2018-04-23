@@ -12,6 +12,11 @@
   </url>
   
   <url>
+    <loc>http://bradorego.com/what-designers-need-to-know-about-development/</loc>
+    <lastmod>2018-01-29T01:59:21-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://bradorego.com/rochester-review-master-class-revisited/</loc>
     <lastmod>2017-11-18T19:12:13-05:00</lastmod>
   </url>
@@ -175,6 +180,12 @@
   </url>
   
   <url>
+    <loc>http://bradorego.com/tags/back-end/</loc>
+    <lastmod>2018-01-29T01:59:21-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://bradorego.com/tags/barry-schwartz/</loc>
     <lastmod>2013-02-27T16:22:57-05:00</lastmod>
     <priority>0</priority>
@@ -265,7 +276,13 @@
   
   <url>
     <loc>http://bradorego.com/categories/development/</loc>
-    <lastmod>2016-05-02T18:29:53-05:00</lastmod>
+    <lastmod>2018-01-29T01:59:21-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://bradorego.com/tags/development/</loc>
+    <lastmod>2018-01-29T01:59:21-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -342,6 +359,12 @@
   </url>
   
   <url>
+    <loc>http://bradorego.com/tags/front-end/</loc>
+    <lastmod>2018-01-29T01:59:21-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://bradorego.com/tags/healthcare/</loc>
     <lastmod>2012-01-09T11:12:46-05:00</lastmod>
     <priority>0</priority>
@@ -409,7 +432,7 @@
   
   <url>
     <loc>http://bradorego.com/tags/javascript/</loc>
-    <lastmod>2013-03-11T17:21:36-05:00</lastmod>
+    <lastmod>2018-01-29T01:59:21-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -535,7 +558,7 @@
   
   <url>
     <loc>http://bradorego.com/tags/process/</loc>
-    <lastmod>2017-06-21T13:54:44-05:00</lastmod>
+    <lastmod>2018-01-29T01:59:21-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -648,6 +671,12 @@
   <url>
     <loc>http://bradorego.com/tags/</loc>
     <lastmod>2017-03-18T14:40:53-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://bradorego.com/tags/teamwork/</loc>
+    <lastmod>2018-01-29T01:59:21-05:00</lastmod>
     <priority>0</priority>
   </url>
   

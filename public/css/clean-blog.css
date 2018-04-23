@@ -6073,6 +6073,13 @@ body {
       width: 100%; }
     .blog-body .blog-content hr {
       border: 1px solid #404040; }
+    .blog-body .blog-content blockquote {
+      margin: -20px 0;
+      padding: 15px;
+      font-size: 16px;
+      background: #eaeaea; }
+      .blog-body .blog-content blockquote p {
+        margin: 0; }
     .blog-body .blog-content .post-meta a,
     .blog-body .blog-content .categories a {
       text-decoration: none; }
