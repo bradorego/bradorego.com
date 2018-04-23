@@ -6,7 +6,7 @@
    "description": "Should designers code? Not exactly, but it helps to have an idea of what goes into the software your team is building and how things work.",
    "draft": false,
    "image": "/img/posts/what-designers-need-to-know/header.jpeg",
-   "photoCredit": "",
+   "photoCredit": "https://www.pexels.com/photo/office-working-app-computer-97077/",
    "publishdate": "2016-01-29T14:47:36-05:00",
    "tags": [
       "development",

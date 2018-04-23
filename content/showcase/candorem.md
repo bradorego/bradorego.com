@@ -7,7 +7,7 @@
    "description": "Candorem is an award-winning strategic user-centered web & marketing design agency located between Madison and Milwaukee, Wisconsin.",
    "draft": false,
    "headline": "Information Architecture, Wireframes, UX Research, Website Design.",
-   "image": "/img/showcase/candorem/xformmke/5.jpg",
+   "image": "/img/showcase/candorem/xformmke/7.jpg",
    "imageGallery": [
      {
        "title": "Transform Milwaukee",
