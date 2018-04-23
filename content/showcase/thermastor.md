@@ -14,32 +14,32 @@
        "src": "divider"
      },
      {
-       "title": "Santa Fe Sentry Wirefarmes",
+       "title": "Santa Fe Sentry Wireframes",
+       "src": "/img/showcase/thermastor/wires/0.jpg"
+     },
+     {
+       "title": "Santa Fe Sentry Wireframes",
        "src": "/img/showcase/thermastor/wires/1.jpg"
      },
      {
-       "title": "Santa Fe Sentry Wirefarmes",
+       "title": "Santa Fe Sentry Wireframes",
        "src": "/img/showcase/thermastor/wires/2.jpg"
      },
      {
-       "title": "Santa Fe Sentry Wirefarmes",
+       "title": "Santa Fe Sentry Wireframes",
        "src": "/img/showcase/thermastor/wires/3.jpg"
      },
      {
-       "title": "Santa Fe Sentry Wirefarmes",
+       "title": "Santa Fe Sentry Wireframes",
        "src": "/img/showcase/thermastor/wires/4.jpg"
      },
      {
-       "title": "Santa Fe Sentry Wirefarmes",
+       "title": "Santa Fe Sentry Wireframes",
        "src": "/img/showcase/thermastor/wires/5.jpg"
      },
      {
        "title": "Classic II Mockups",
        "src": "divider"
-     },
-     {
-       "title": "Classic II Mockups",
-       "src": "/img/showcase/thermastor/classic2/ts.jpg"
      },
      {
        "title": "Classic II Mockups",
@@ -64,6 +64,10 @@
      {
        "title": "Classic II Mockups",
        "src": "/img/showcase/thermastor/classic2/6.jpg"
+     },
+     {
+       "title": "Classic II Mockups",
+       "src": "/img/showcase/thermastor/classic2/7.jpg"
      },
      {
        "title": "Dashboard Wireframes",
