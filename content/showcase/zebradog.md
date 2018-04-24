@@ -111,6 +111,17 @@
    "title": "Zebradog"
 }
 
+<div class="tldnr">
+  <h4>Lessons Learned</h4>
+  <ul>
+    <li>You <em>can</em> teach an old dog (pun intended) new tricks: teaching a 20-year-old organization how to be more agile has its benefits.</li>
+    <li>Interactive multimedia ("environmental graphic design") is a unique design/technology challenge, and while testing is important, it's mostly in the form of dogfooding.</li>
+    <li>Users have no idea what you're building, and there aren't any trends to rely on, so designing for discoverability is crucial.</li>
+  </ul>
+</div>
+
+---
+
 # About
 
 Zebradog is an environmental graphic design firm located in Madison, WI who specializes in creating immersive, branded experiences for their clients. Zebradog's multidisciplinary team of architects, graphic designers, and software developers blend the physical and digital realms, creating novel digital applications of technology for interactive multimedia and website design.
