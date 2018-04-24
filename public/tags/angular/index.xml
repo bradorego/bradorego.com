@@ -17,7 +17,7 @@
       <pubDate>Sun, 09 Apr 2017 11:12:46 -0500</pubDate>
       
       <guid>http://bradorego.com/showcase/american-family-insurance/</guid>
-      <description>About {{ .Description }} {{ partial &amp;ldquo;nda.html&amp;rdquo; .}}</description>
+      <description></description>
     </item>
     
   </channel>

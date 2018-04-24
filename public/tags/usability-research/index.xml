@@ -26,7 +26,7 @@
       <pubDate>Sun, 09 Apr 2017 11:12:46 -0500</pubDate>
       
       <guid>http://bradorego.com/showcase/american-family-insurance/</guid>
-      <description>About {{ .Description }} {{ partial &amp;ldquo;nda.html&amp;rdquo; .}}</description>
+      <description></description>
     </item>
     
     <item>
@@ -35,7 +35,7 @@
       <pubDate>Mon, 09 Jun 2014 11:12:46 -0500</pubDate>
       
       <guid>http://bradorego.com/showcase/candorem/</guid>
-      <description>About Since Candorem’s inception in 2010, they’ve had the privilege of providing strategic marketing solutions for a wide range of organizations including American Family Insurance, Better Business Bureau of Wisconsin, Verlo Mattress, Process Retail Group, and Henry Vilas Zoo among others. Located in Lake Mills, WI (between Madison and Milwaukee), Candorem has won several awards in recent years, including a project I assisted research and design for, Transform Milwaukee.</description>
+      <description>Lessons Learned  You can learn a ton while on lunch break by asking the right questions/giving the right instructions and sending it off for remote unmoderated testing. A properly orchestrated user-centered/iterative design process can provide value for many projects, including marketing websites. Although it was early in my career and the mentorship was useful, I much prefer full-blown applications to these types of eCommerce/marketing/brochure sites that Candorem is known for.</description>
     </item>
     
     <item>
@@ -44,7 +44,7 @@
       <pubDate>Sat, 01 Mar 2014 15:11:21 -0500</pubDate>
       
       <guid>http://bradorego.com/showcase/nextt/</guid>
-      <description>Background Nextt was a collaborative social planning tool. Nextt&amp;rsquo;s goal was to make it easier to plan social events for 4-10 people within the next 14 days, and the service did so by allowing users to create and share event Ideas that, once the date/time, location, and attendees were finalized, transitioned into a Plan. If the Idea did not reach fruition within a preset amount of time, it would self-destruct, forcing the user to take action.</description>
+      <description>Lessons Learned  Never underestimate the value of guerrilla UX research. Instead of spending hours debating something internally, put together a survey and put it on Reddit. Use the resources and data available to you. Utilizing a well-defined analytics suite to define funnels and focus on problem points and in-depth user research to discover why people are falling off at that point can have tremendous impacts on conversion/success rates. Mark&#39;s postmortem covers a lot of what we learned and expresses similar sentiments to what I had as we closed down Nextt.</description>
     </item>
     
   </channel>
