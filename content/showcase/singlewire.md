@@ -114,6 +114,18 @@
    "dateRange": "2016",
    "title": "SingleWire Software"
 }
+
+<div class="tldnr">
+  <h4>Lessons Learned</h4>
+  <ul>
+    <li>Migrating a legacy platform to a cloud-bases SaaS model provides unique challenges and opportunities for product growth/clarification.</li>
+    <li>Surveys and interviews are powerful tools for getting context and putting the product team in the proper frame of mind.</li>
+    <li>Nothing beats testing a solution in the wild. We learned a lot by running potential solutions by users and by putting it in their hands to interact with.</li>
+  </ul>
+</div>
+
+---
+
 # Background
 
 SingleWire is a leader in the emergency notification space. SingleWire's main product, InformaCast, is trusted by federal agencies, major universities, and large companies. Traditionally deployed via Cisco phones, email, and desktop software, in 2016 SingleWire was in the midst of a transition to mobile. They needed research to understand mobile use cases and to help brainstorm functionality for a mobile application.

@@ -77,6 +77,17 @@
    "title": "Candorem"
 }
 
+<div class="tldnr">
+  <h4>Lessons Learned</h4>
+  <ul>
+    <li>You can learn a ton while on lunch break by asking the right questions/giving the right instructions and sending it off for remote unmoderated testing.</li>
+    <li>A properly orchestrated user-centered/iterative design process can provide value for many projects, including marketing websites.</li>
+    <li>Although it was early in my career and the mentorship was useful, I much prefer full-blown applications to these types of eCommerce/marketing/brochure sites that Candorem is known for. </li>
+  </ul>
+</div>
+
+---
+
 # About
 
 Since Candorem’s inception in 2010, they’ve had the privilege of providing strategic marketing solutions for a wide range of organizations including American Family Insurance, Better Business Bureau of Wisconsin, Verlo Mattress, Process Retail Group, and Henry Vilas Zoo among others. Located in Lake Mills, WI (between Madison and Milwaukee), Candorem has [won several awards](http://candorem.com/blog/) in recent years, including a project I assisted research and design for, Transform Milwaukee.

@@ -116,7 +116,7 @@
   <ul>
     <li>You <em>can</em> teach an old dog (pun intended) new tricks: teaching a 20-year-old organization how to be more agile has its benefits.</li>
     <li>Interactive multimedia ("environmental graphic design") is a unique design/technology challenge, and while testing is important, it's mostly in the form of dogfooding.</li>
-    <li>Users have no idea what you're building, and there aren't any trends to rely on, so designing for discoverability is crucial.</li>
+    <li>Your users, in this setting, are passersby. They have no idea what you're building, and there aren't any trends to rely on, so designing for discoverability is crucial.</li>
   </ul>
 </div>
 

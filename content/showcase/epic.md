@@ -14,6 +14,17 @@
    "title": "Epic Systems"
 }
 
+<div class="tldnr">
+  <h4>Lessons Learned</h4>
+  <ul>
+    <li>Healthcare is a particularly challenging industry to be a designer in, as the users/customers are change/risk averse and there are many regulations to have to grapple with.</li>
+    <li>It can be incredibly difficult to enact change in large organizations, and the best approach is usually to run a small pilot program and gradually expand it.</li>
+    <li>Though it was my first job out of undergrad, I learned quickly that this wasn't an environment I wanted to be in, and that I much prefer smaller teams with bigger impact.</li>
+  </ul>
+</div>
+
+---
+
 # Background
 
 After discovering the world of Human-Computer Interaction my Junior year of undergrad, I completely dove into my studies, and by the time I was finishing my [Take 5](https://www.rochester.edu/college/CCAS/undergraduate/opportunities/takefive/) and looking at the job market, I knew I wanted to go into User Experience. Epic seemed like the perfect opportunity to both get experience of software development at scale but also to have an impact and utilize my skills. When I joined Epic in July 2011, there were 5 full-time designers and approximately 700 developers.

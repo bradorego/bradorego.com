@@ -102,6 +102,17 @@
    "title": "Nextt"
 }
 
+<div class="tldnr">
+  <h4>Lessons Learned</h4>
+  <ul>
+    <li>Never underestimate the value of guerrilla UX research. Instead of spending hours debating something internally, put together a survey and put it on Reddit. Use the resources and data available to you.</li>
+    <li>Utilizing a well-defined analytics suite to define funnels and focus on problem points and in-depth user research to discover why people are falling off at that point can have tremendous impacts on conversion/success rates.</li>
+    <li><a href="https://markjmcguire.com/2014/10/08/nextt-is-no-more-a-postmortem/"></a>Mark's postmortem</a> covers a lot of what we learned and expresses similar sentiments to what I had as we closed down Nextt.</li>
+  </ul>
+</div>
+
+---
+
 # Background
 
 Nextt was a collaborative social planning tool. Nextt's goal was to make it easier to plan social events for 4-10 people within the next 14 days, and the service did so by allowing users to create and share event Ideas that, once the date/time, location, and attendees were finalized, transitioned into a Plan. If the Idea did not reach fruition within a preset amount of time, it would self-destruct, forcing the user to take action. I joined the team in 2013 as their UX Lead, responsible for research, analytics, and UX design. Nextt raised $1.2M in VC funding and eventually shut down in October 2014.

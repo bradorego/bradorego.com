@@ -105,6 +105,17 @@
    "title": "Therma-Stor"
 }
 
+<div class="tldnr">
+  <h4>Lessons Learned</h4>
+  <ul>
+    <li>Getting in at the ground level on IoT projects is incredibly valuable, as it allowed us to guide the client and product development and avoid legacy.</li>
+    <li>IoT products have an extra layer of complexity in that you have to ensure the application, server, and device are all communicating properly and forming a cohesive experience.</li>
+    <li>There are unique challenges when researching and designing for industrial IoT applications, including assess to end users, a lot of subject matter expertise, and connectivity issues.</li>
+  </ul>
+</div>
+
+---
+
 # About
 
 Therma-Stor is a high-end dehumidifier, water heater, and disaster recovery/restoration manufacturer established in 1977. Most of their products are focused on commercial applications, but recently they’ve been expanding into the high-end residential space with some of their units. With that move they were also interested in bringing their products online to offer internet-enabled options.
