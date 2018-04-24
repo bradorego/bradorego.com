@@ -15,7 +15,3 @@
    "title": "American Family Insurance"
 }
 
-# About
-
-{{ .Description }}
-{{ partial "nda.html" .}}

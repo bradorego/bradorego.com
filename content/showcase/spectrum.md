@@ -14,5 +14,3 @@
    "tags": [],
    "title": "Spectrum Brands"
 }
-
-{{ partial "nda.html" . }}
