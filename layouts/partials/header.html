@@ -23,6 +23,18 @@
         <meta name="twitter:title" content="{{ .Title }}" />
         <meta name="twitter:description" content="{{ .Description }}" />
         <meta name="twitter:image" content="{{ .Params.image | absURL }}" />
+    {{ else }}
+        <meta property="og:title" content="Bradley Orego. UX Researcher. Product Designer. Entrepreneur. Dancer." />
+        <meta property="og:type" content="website" />
+        <meta property="og:description" content="Brad's been helping companies from startup to Fortune 500 design and build better products since 2011." />
+        <meta property="og:image" content="https://bradorego.com/img/headshot.jpg" />
+        <meta property="og:url" content="{{ .Permalink }}" />
+        <meta property="fb:app_id" content="" />
+
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Bradley Orego. UX Researcher. Product Designer. Entrepreneur. Dancer." />
+        <meta name="twitter:description" content="Brad's been helping companies from startup to Fortune 500 design and build better products since 2011." />
+        <meta name="twitter:image" content="https://bradorego.com/img/headshot.jpg" />
     {{ end }}
 
     {{ if .Site.Params.RSS }}
