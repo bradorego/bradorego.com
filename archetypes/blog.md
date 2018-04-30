@@ -4,8 +4,7 @@
   "image": "/img/posts/:title/header.png",
   "photoCredit": "",
   "description": "",
-  "draft": false,
-  "publishdate": "2016-04-12T14:47:36-05:00"
+  "draft": false
 }
 
 <div class="tldnr">
