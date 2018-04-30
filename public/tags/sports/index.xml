@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sports on bradorego.com</title>
+    <link>http://bradorego.com/tags/sports/</link>
+    <description>Recent content in Sports on bradorego.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Feb 2018 00:02:20 -0400</lastBuildDate>
+    
+	<atom:link href="http://bradorego.com/tags/sports/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Life Lessons from Curling</title>
+      <link>http://bradorego.com/life-lessons-from-curling/</link>
+      <pubDate>Tue, 27 Feb 2018 00:02:20 -0400</pubDate>
+      
+      <guid>http://bradorego.com/life-lessons-from-curling/</guid>
+      <description>TL;DNR  Curling is a game about communication and adapting on the fly. Things don&#39;t always go perfectly as planned, so you need to be able to react. Never give up on a stone. It might look grim, but you never know what might happen and how you might be able to use something. The Spirit of Curling is really what it&#39;s all about. It&#39;s not whether you win or lose.</description>
+    </item>
+    
+  </channel>
+</rss>

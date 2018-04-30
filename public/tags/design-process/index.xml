@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Design Process on bradorego.com</title>
+    <link>http://bradorego.com/tags/design-process/</link>
+    <description>Recent content in Design Process on bradorego.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 30 Apr 2018 14:58:50 -0400</lastBuildDate>
+    
+	<atom:link href="http://bradorego.com/tags/design-process/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>An Intro to Embodied Cognition</title>
+      <link>http://bradorego.com/an-intro-to-embodied-cognition/</link>
+      <pubDate>Mon, 30 Apr 2018 14:58:50 -0400</pubDate>
+      
+      <guid>http://bradorego.com/an-intro-to-embodied-cognition/</guid>
+      <description>Originally posted on performing.design
+Underneath a lot of what we cover in performing.design is embodied cognition, a fairly recent development psychology and cognitive science. Embodied Cognition seeks to explore the relationship between how we use our bodies and how we think/what our brains do. It’s about looking at a thinking organism holistically as opposed to focusing on the brain, including the motor system, perceptual system, and the body’s interaction with the current environment.</description>
+    </item>
+    
+  </channel>
+</rss>

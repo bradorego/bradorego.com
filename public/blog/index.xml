@@ -6,10 +6,20 @@
     <description>Recent content in Blogs on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Apr 2018 21:25:41 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 30 Apr 2018 14:58:50 -0400</lastBuildDate>
     
 	<atom:link href="http://bradorego.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>An Intro to Embodied Cognition</title>
+      <link>http://bradorego.com/an-intro-to-embodied-cognition/</link>
+      <pubDate>Mon, 30 Apr 2018 14:58:50 -0400</pubDate>
+      
+      <guid>http://bradorego.com/an-intro-to-embodied-cognition/</guid>
+      <description>Originally posted on performing.design
+Underneath a lot of what we cover in performing.design is embodied cognition, a fairly recent development psychology and cognitive science. Embodied Cognition seeks to explore the relationship between how we use our bodies and how we think/what our brains do. It’s about looking at a thinking organism holistically as opposed to focusing on the brain, including the motor system, perceptual system, and the body’s interaction with the current environment.</description>
+    </item>
     
     <item>
       <title>Performing.design</title>
@@ -27,6 +37,15 @@
       
       <guid>http://bradorego.com/the-case-against-industry-experience/</guid>
       <description>TL;DNR  While having experience working in a professional setting is important, there&#39;s a danger to only hiring people with experience in your specific industry. Having a fresh set of eyes on something can be incredibly valuable/important, and helps combat bias and theory blindness. Good designers are expert learners. We expect to need to understand the nuances of a new area of expertise.   For those that haven&amp;rsquo;t been keeping track, I recently (October 2017) moved from Madison, WI to Brooklyn, NY, and the difference in the tech industry between the two cities has been really interesting.</description>
+    </item>
+    
+    <item>
+      <title>Life Lessons from Curling</title>
+      <link>http://bradorego.com/life-lessons-from-curling/</link>
+      <pubDate>Tue, 27 Feb 2018 00:02:20 -0400</pubDate>
+      
+      <guid>http://bradorego.com/life-lessons-from-curling/</guid>
+      <description>TL;DNR  Curling is a game about communication and adapting on the fly. Things don&#39;t always go perfectly as planned, so you need to be able to react. Never give up on a stone. It might look grim, but you never know what might happen and how you might be able to use something. The Spirit of Curling is really what it&#39;s all about. It&#39;s not whether you win or lose.</description>
     </item>
     
     <item>
@@ -53,7 +72,7 @@
       <pubDate>Wed, 30 Aug 2017 15:58:43 -0500</pubDate>
       
       <guid>http://bradorego.com/usability-research-checklist/</guid>
-      <description>TL;DNR  A lot more goes into designing and running your own usability tests than people typically think. Being properly prepared can be the difference between great success and catastrophic failure for your user research. Don&#39;t underestimate how much time, energy, and resource setting up a proper usability study takes.   MobileIgniter asked me to put together a checklist of everything needed to properly set up and run studies in a usability lab.</description>
+      <description>TL;DNR  A lot more goes into designing and running your own usability tests than people typically think. Being properly prepared can be the difference between great success and catastrophic failure for your user research. Don&#39;t underestimate how much time, energy, and resource setting up a proper usability study takes.   Update 4/30/2018 This content used to be publicly available, but a more-in-depth version is now available for purchase via MelioraLabs.</description>
     </item>
     
     <item>

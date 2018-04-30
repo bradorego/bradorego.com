@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://bradorego.com/an-intro-to-embodied-cognition/</loc>
+    <lastmod>2018-04-30T14:58:50-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://bradorego.com/performing.design/</loc>
     <lastmod>2018-04-04T21:25:41-04:00</lastmod>
   </url>
@@ -9,6 +14,11 @@
   <url>
     <loc>http://bradorego.com/the-case-against-industry-experience/</loc>
     <lastmod>2018-03-18T07:31:58-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://bradorego.com/life-lessons-from-curling/</loc>
+    <lastmod>2018-02-27T00:02:20-04:00</lastmod>
   </url>
   
   <url>
@@ -205,7 +215,7 @@
   
   <url>
     <loc>http://bradorego.com/blog/</loc>
-    <lastmod>2018-04-04T21:25:41-04:00</lastmod>
+    <lastmod>2018-04-30T14:58:50-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -251,6 +261,12 @@
   </url>
   
   <url>
+    <loc>http://bradorego.com/tags/curling/</loc>
+    <lastmod>2018-02-27T00:02:20-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://bradorego.com/tags/dance/</loc>
     <lastmod>2018-04-04T21:25:41-04:00</lastmod>
     <priority>0</priority>
@@ -275,13 +291,25 @@
   </url>
   
   <url>
-    <loc>http://bradorego.com/categories/development/</loc>
-    <lastmod>2018-01-29T01:59:21-05:00</lastmod>
+    <loc>http://bradorego.com/tags/design-process/</loc>
+    <lastmod>2018-04-30T14:58:50-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://bradorego.com/tags/design-thinking/</loc>
+    <lastmod>2018-04-30T14:58:50-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://bradorego.com/tags/development/</loc>
+    <lastmod>2018-01-29T01:59:21-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://bradorego.com/categories/development/</loc>
     <lastmod>2018-01-29T01:59:21-05:00</lastmod>
     <priority>0</priority>
   </url>
@@ -307,6 +335,12 @@
   <url>
     <loc>http://bradorego.com/tags/drupal/</loc>
     <lastmod>2016-04-14T12:26:53-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://bradorego.com/tags/embodied-cognition/</loc>
+    <lastmod>2018-04-30T14:58:50-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -449,6 +483,12 @@
   </url>
   
   <url>
+    <loc>http://bradorego.com/tags/life-lessons/</loc>
+    <lastmod>2018-02-27T00:02:20-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://bradorego.com/tags/madbeerweek/</loc>
     <lastmod>2016-05-02T18:29:53-05:00</lastmod>
     <priority>0</priority>
@@ -467,14 +507,14 @@
   </url>
   
   <url>
-    <loc>http://bradorego.com/categories/meta/</loc>
-    <lastmod>2018-04-04T21:25:41-04:00</lastmod>
+    <loc>http://bradorego.com/tags/meta/</loc>
+    <lastmod>2016-04-14T12:26:53-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://bradorego.com/tags/meta/</loc>
-    <lastmod>2016-04-14T12:26:53-05:00</lastmod>
+    <loc>http://bradorego.com/categories/meta/</loc>
+    <lastmod>2018-04-04T21:25:41-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -499,6 +539,12 @@
   <url>
     <loc>http://bradorego.com/tags/new-site/</loc>
     <lastmod>2012-11-23T17:32:13-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://bradorego.com/tags/non-tech/</loc>
+    <lastmod>2018-02-27T00:02:20-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -657,6 +703,12 @@
   </url>
   
   <url>
+    <loc>http://bradorego.com/tags/sports/</loc>
+    <lastmod>2018-02-27T00:02:20-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://bradorego.com/tags/startup/</loc>
     <lastmod>2014-03-01T15:11:21-05:00</lastmod>
     <priority>0</priority>
@@ -730,19 +782,19 @@
   
   <url>
     <loc>http://bradorego.com/tags/user-centered-design/</loc>
-    <lastmod>2017-11-18T19:12:13-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://bradorego.com/categories/user-experience/</loc>
-    <lastmod>2017-08-30T15:58:43-05:00</lastmod>
+    <lastmod>2018-04-30T14:58:50-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://bradorego.com/tags/user-experience/</loc>
-    <lastmod>2017-05-15T11:53:22-05:00</lastmod>
+    <lastmod>2018-04-30T14:58:50-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://bradorego.com/categories/user-experience/</loc>
+    <lastmod>2018-04-30T14:58:50-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -784,7 +836,7 @@
   
   <url>
     <loc>http://bradorego.com/</loc>
-    <lastmod>2018-04-04T21:25:41-04:00</lastmod>
+    <lastmod>2018-04-30T14:58:50-04:00</lastmod>
     <priority>0</priority>
   </url>
   
