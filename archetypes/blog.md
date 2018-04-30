@@ -22,6 +22,6 @@
 #### The more open, honest, and candid the team can be, the better.
 
 <figure>
-<img src="https://media.giphy.com/media/3osxYamKD88c6pXdfO/giphy.gif" />
-<figcaption><a href="https://giphy.com/gifs/season-3-money-unicorn-3osxYamKD88c6pXdfO/">Credit</a></figcaption>
+  <img src="https://media.giphy.com/media/3osxYamKD88c6pXdfO/giphy.gif" />
+  <figcaption><a href="https://giphy.com/gifs/season-3-money-unicorn-3osxYamKD88c6pXdfO/">Source</a></figcaption>
 </figure>
