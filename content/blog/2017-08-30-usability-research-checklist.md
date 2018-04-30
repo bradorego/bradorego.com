@@ -8,7 +8,6 @@
    "draft": false,
    "image": "/img/posts/usability-research-checklist/header.jpeg",
    "photoCredit": "https://www.pexels.com/photo/orange-and-green-pen-on-graphing-notepad-131979/",
-   "publishdate": "2017-08-30T15:58:43-05:00",
    "tags": [
       "usability research",
       "usability",
@@ -28,101 +27,25 @@
 
 ---
 
-MobileIgniter asked me to put together a checklist of everything needed to properly set up and run studies in a usability lab. I wanted to share that list, as well as add some commentary for each section. You can view and download the [original slide deck](https://www.slideshare.net/mi-tim/usability-research-checklist-58988252) on SlideShare.
+# Update 4/30/2018
 
-# Gather Resources <a name="resources" href="#resources"><i class="ion-link"></i></a>
-#### Make sure you have everything you need to get started.
+This content used to be publicly available, but a more-in-depth version is now [available for purchase](http://store.melioralabs.com/Usability_Research_Checklist/p5578388_18592305.aspx) via [MelioraLabs](https://melioralabs.com). Head over there for more information or subscribe to the email list below.
 
-<figure>
-<img src="/img/posts/usability-research-checklist/urc-resources.jpg" />
-</figure>
-
-Before you even get around to figuring out what to test and how, you need to make sure you have the right facilities. Being able to record the entire testing room (primarily so you can see user's reactions outside of the software and without being too intrusive) is critical, and having a dedicated, private space (even if it's normally just a meeting room) is also important.
-
-We toyed with the idea of creating a mobile testing setup that we could bring to any room, and while it's doable, I don't recommend it.
-
-Don't forget about paperwork, too - consent forms, NDAs (if you're showing anything confidential), and video release forms (letting people know you're recording them for research purposes). You can put all of this into one form so the user isn't overwhelmed with things to sign; usability.gov actually has a [really nice template](https://www.usability.gov/how-to-and-tools/resources/templates/consent-recording-release-form-adult.html) you can adapt.
-
-# Design the Study <a name="design" href="#design"><i class="ion-link"></i></a>
-#### Figure out what to test, how, and with whom.
-
-<figure>
-<img src="/img/posts/usability-research-checklist/urc-design.jpg" />
-</figure>
-
-Once you have all the materials lined up, you need to move into figuring out what you're actually testing. There are several methodologies to choose from, but the most commonly used is what's known as the [Think Aloud method](https://www.nngroup.com/articles/thinking-aloud-the-1-usability-tool/). Equally as important is figuring out which features to test, and developing tasks to isolate those features. Trying to keep these as clear, concise, and small as possible (e.g. if you want to test your sign up flow, give users specific credentials to sign in with and leave 3rd party signup flows (Facebook, Google, etc.) for another task).
-
-One of the biggest mistakes I see teams make is leaving out the hypothesis. A test isn't a test without a hypothesis. Generate your hypotheses _after_ you define the tasks (so you don't introduce bias), and be specific (e.g. 80% of users will complete this task within 30 seconds). Defining acceptance criteria helps provide hard, objective numbers to an otherwise soft, subjective practice.
-
-Don't forget about incentives for participants, either. It'd be nice to think people will do this out of the good of their hearts, but more likely than not you'll need to compensate them somehow. How much you should pay varies on how long/complex testing sessions are and how specialized your target user is. Nielsen Norman Group has a [really good overview](https://www.nngroup.com/articles/recruiting-test-participants-for-usability-studies/).
-
-# Prepare the Study <a name="prepare" href="#prepare"><i class="ion-link"></i></a>
-#### Make sure everything is prepared so test sessions run smoothly.
-
-<figure>
-<img src="/img/posts/usability-research-checklist/urc-prepare.jpg" />
-</figure>
-
-Now that you have everything planned out, you need to actually go out and do the prep work. Print out all the materials you'll need (and some extras, just in case) ahead of time. Develop and write out instructions for the facilitators &mdash; even if you're running it yourself, this is a really good exercise in making sure you have a consistent protocol with each participant.
-
-Make sure you actually go through and give the system a dry run of what you're asking users to do. You might need to set up specific test accounts for participants as well.
-
-Make sure you have whatever incentives you're offering (check, cash, gift card) lined up, and don't forget to get any snacks/refreshments (which I highly recommend doing, especially if your session is longer than 30 minutes or anywhere near lunchtime/midday) you might be offering to participants as well.
-
-# Gather Participants <a name="participants" href="#participants"><i class="ion-link"></i></a>
-#### You need real, unbiased people to test your product.
-
-<figure>
-<img src="/img/posts/usability-research-checklist/urc-participants.jpg" />
-</figure>
-
-This might be 4th on the list, but you should really start this as soon as possible. Once you've laid out who you'll be testing you should start working on a recruitment strategy, including a participant screener. Put the screener out there as many places as you can - local forums/subreddits, Craigslist, meetups/user groups, etc. You're going to need many more people to fill out the screener than you'll need participants &mdash; you'll lose probably about half at each step (screening, scheduling, showing up).
-
-Once you have the screener set up and in place, you need to figure out how participants will sign up for a timeslot. [Calendly](https://calendly.com/) is excellent for this, as is [Doodle](http://doodle.com/) (though it requires a little more finagling). You'll also need to set up reminders for participants, and provide them any instructions (e.g. directions to the testing facility).
-
-# Run Study Sessions <a name="run" href="#run"><i class="ion-link"></i></a>
-#### Actually bring real people in to interact with the product.
-
-<figure>
-<img src="/img/posts/usability-research-checklist/urc-run.jpg" />
-</figure>
-
-Now comes the fun part. You've done all the design and prep work; you've found, screened, and scheduled your participants; now you actually have to run the study. This might seem like the easy part but it's far from it.
-
-Part of your facilitator protocol should include getting there early to make sure all the materials are set up &mdash; cameras are charged, testing device is reset to whatever starting state you've defined, paperwork and refreshments are ready. Make sure to disable all notifications on the testing device and, as much as possible, remove/hide all other functionality. You want to minimize distractions and interruptions.
-
-There's a certain art to being a testing facilitator which I can't cover in full here, but basically your goal is to answer as few questions as possible during the testing session. Let participants ask questions during briefing and debriefing, and let them know those are their times to ask. If you see them getting stuck, let them struggle. Don't intervene until they feel like they've exhausted all of their options, and if you don't think they've tried everything (i.e. suffered enough), you can politely urge them to keep trying other things until they've actually stagnated.
-
-I've seen some really interesting and novel solution attempts in user testing, but I've also come across instances where users got the system into a new error state that even the engineering team hadn't seen before. You'll know when to step in. The easiest way to ruin a usability testing session is to intervene too often/too soon.
-
-Also, DO NOT, under any circumstance, attempt to take notes while facilitating. You're recording these sessions for a reason. You can have a live note-taker as well, but people generally don't like being watched, so having someone else in the room adds pressure. If you're going to dedicate two person-hours (or half-hours) to this, you're better off having the second hour be spent watching the video later.
-
-# Analyze Results <a name="analyze" href="#analyze"><i class="ion-link"></i></a>
-#### All that feedback doesn't do much good on its own.
-
-<figure>
-<img src="/img/posts/usability-research-checklist/urc-analyze.jpg" />
-</figure>
-
-Just as a task without a hypothesis is incomplete, gathering all of this data without analyzing it doesn't serve much good, either. There are many ways to slice, summarize, group, and digest data, and the best way to do so will depend on exactly what's being tested (are you comparing two designs for efficiency? are you testing a new design for completion?), but there a few general ways to organize data.
-
-The reason we set up cameras earlier is so you can go back and get the fine-grained data necessary for analysis. Depending on the fidelity of the software you're testing (and whether or not you actually have access to it), you can set up some automated tools to capture events, but you're still going to want to go back and watch every video so you can pick out relevant quotes and overall trends. Nothing is more compelling than hearing the same sentiment come out of a dozen participant's mouths.
-
-On top of the analysis, you should offer recommendations as well. As a researcher, your job may not necessarily be to design a better solution, but pointing out areas that tripped users up and some of the common mistakes they made can help direct the design/development team. Doing so also bolsters justification for the expense of testing; I've saved companies millions of dollars by spending tens of thousands on usability testing.
-
-# Afterward <a name="after" href="#after"><i class="ion-link"></i></a>
-#### Now what?
-
-<figure>
-<img src="/img/posts/usability-research-checklist/urc-after.jpg" />
-</figure>
-
-If you have hopes of ever doing this again, you'll need to find a way to make your findings (and recommendations) presentable and actionable. Usability research for its own sake is a wonderful thing, but more likely than not there are stakeholders who allocated funds for this and they'll want some sort of return. That return comes in the analysis and presentation of what you found.
-
-The most immediate value is obviously to the product team responsible for what was tested. Work closely with them to walk through what was found and what can be done about it, and if possible, sit with them and help prioritize their next steps. There's also value in reporting findings to higher-up stakeholders, as they'll want to see the summary of what was found and what's being done about it.
-
-A fringe benefit to doing research like this is the opportunity to publicize your findings. If you're studying something that can be generalized, doing so in a whitepaper or a blog post can help the community and start to make a name for the brand as one that cares about users. If nothing else, letting your current users/customers know that you're working to make the product better should earn some brownie points.
-
----
-
-If you're looking to start your own usability testing practice, hopefully this serves as a guideline. There's no such thing as a complete list when it comes to user testing, and this list is only meant to cover what's involved in running sessions in a lab. The process looks very, very different if you're trying to do them on-site (i.e. design ethnography). And if you find you need more guidance, feel free to [reach out](mailto:me@bradorego.com?subject=Usability%20Research%20Checklist).
+<!-- Begin MailChimp Signup Form -->
+<div id="mc_embed_signup">
+  <form action="https://melioralabs.us13.list-manage.com/subscribe/post?u=47b637469fe9207559b59e168&amp;id=4c78b2dc91" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate id="upsell">
+    <div class="mc-field-group input-group">
+      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_47b637469fe9207559b59e168_4c78b2dc91" tabindex="-1" value=""></div>     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+      <input type="email" placeholder="Enter email..." aria-label="Enter email" name="EMAIL" class="required email form-control" id="mce-EMAIL">
+      <span class="input-group-btn">
+        <button class="btn btn-secondary mp-track-click" data-mp-value="cta-button" type="submit" name="subscribe" id="mc-embedded-subscribe">Join List</button>
+      </span>
+    </div>
+    <div id="mce-responses" class="clear">
+      <div class="response" id="mce-error-response" style="display:none"></div>
+      <div class="response" id="mce-success-response" style="display:none"></div>
+    </div>
+      </div>
+  </form>
+</div>
+<!--End mc_embed_signup-->
