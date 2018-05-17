@@ -16,7 +16,7 @@
 </p>
 </div>
 
-Brad is a graduate of the [University of Rochester](http://rochester.edu/) with a B.S. in Computer Science, a B.A. in Psychology, and minors in Spanish and Dance. He spends his days helping companies from startup to Fortune 500 and dancing professionally with [Kanopy Dance Company](http://kanopydance.org) and [Sokolow Theater Dance Ensemble](http://sokolowtheatredance.org/). Brad also participates in entrepreneurial events and hackathons, bikes, and [makes and blogs about beer-batter pancakes](http://beerbatterbreakfast.com). Brad is also a co-founder of [performing.design](http://performing.design) and [MelioraLabs](https://melioralabs.com).
+Brad is a graduate of the [University of Rochester](http://rochester.edu/) with a B.S. in Computer Science, a B.A. in Psychology, and minors in Spanish and Dance. He spends his days with [Prolific Interactive](https://www.prolificinteractive.com/) helping design and build better products as well as dancing professionally with [Kanopy Dance Company](http://kanopydance.org) and [Sokolow Theater Dance Ensemble](http://sokolowtheatredance.org/). Brad also participates in entrepreneurial events and hackathons, bikes, and [makes and blogs about beer-batter pancakes](http://beerbatterbreakfast.com). Brad is also a co-founder of [performing.design](http://performing.design) and founder of [MelioraLabs](https://melioralabs.com).
 
 In a past life, Brad also curled at the [Madison Curling Club](http://madisoncurlingclub.com), homebrewed as a proud member of [MHTG](http://mhtg.org), and played ultimate frisbee competitively with [Madison Mastodon](https://mastodonultimate.wordpress.com/).
 
