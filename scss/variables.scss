@@ -1,13 +1,13 @@
 // Variables
 
-$brand-primary: #ffbe40;
+$brand-primary: #F57C00; // https://www.materialui.co/colors/orange/700
 $gray-dark: lighten(black, 25%);
 // $gray: lighten(black, 50%);
 // $white-faded: fade(white, 80%);
 // $gray-light: #eee;
 $card-shadow: #c8bebe;
 
-$primary: darken($brand-primary, 30%);
+$primary: $brand-primary; //darken($brand-primary, 30%);
 
 /// from avgerinos (whoops)
 
