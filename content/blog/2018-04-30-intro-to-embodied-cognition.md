@@ -13,7 +13,8 @@
       "user-centered design",
       "design thinking",
       "design process",
-      "user experience"
+      "user experience",
+      "performing design"
    ],
    "title": "An Intro to Embodied Cognition"
 }
@@ -26,7 +27,7 @@ Underneath a lot of what we cover in performing.design is [embodied cognition](h
 
 We’ll dive deeper into the connections between EC and UCD later, but we wanted to take the time to really explore embodied cognition by itself to make sure we have those bases covered before muddying the waters. Aside from all of the pop-psy studies and research examples, the best way to understand embodied cognition (and its ramifications) is to first look at the traditional cognitive explanations and then contrast that with what we’ve learned recently.
 
-# Classic Expanations of Behavior
+# Classic Expanations of Behavior <a name="classic" href="#classic"><i class="ion-link"></i></a>
 
 The early works in cognitive science focused more on the functional aspects of our mind/brain and less so on the experiential elements (which was the realm of psychology). In his groundbreaking text [Cognitive Psychology](https://archive.org/details/CognitivePsychologyClassicEdition) (1967), Ulrich Neisser brought together the world of cognitive and information processing, covering perception, pattern recognition, attention, problem solving, and memory, and providing the field its first comprehensive textbook. Neisser had problems with the prevailing behaviorist ideals of the time and used this book as an opportunity to present an alternative explanation.
 
@@ -40,7 +41,7 @@ Traditional cognition focused on the internal process “in the narrow sense”;
   <figcaption><a href="https://www.safaribooksonline.com/library/view/understanding-context/9781449326531/ch04.html">Source</a></figcaption>
 </figure>
 
-# Enter Embodied Cognition
+# Enter Embodied Cognition <a name="embodied" href="#embodied"><i class="ion-link"></i></a>
 
 The traditional view of the environment we operate in is that it is an obstacle to be overcome and accounted for by an internal algorithm our brains operate. Research proved that to be untrue; that we have high-quality, direct perceptive access to our world, and we can use that capability to inform our decisions and processing. This opens the floodgates of cognition, enabling both the environment and the body itself to play a crucial role. As a few Standford philosophers put it:
 
@@ -62,7 +63,7 @@ In other words, our understanding of thinking is shifting from a view that empha
 
 To put it another way, embodied cognition helps explain why your physical and emotional state impacts the way you think. If your heart is racing, your brain functions differently. We’ll dive deeper into the role of body state and emotion another time.
 
-# Thanks for all the science-y mumbo jumbo, but what does it all mean?
+# Thanks for all the science-y mumbo jumbo, but what does it all mean? <a name="mumbo-jumbo" href="#mumbo-jumbo"><i class="ion-link"></i></a>
 
 In case you haven’t gathered by now, there’s often much more going on than what it seems on the surface. One of the core principles of human-centered design is that the process of creating should be iterative. As [Lindgaard and Wesselius](https://www.sciencedirect.com/science/article/pii/S2405872617300291) point out, that cyclical process requires switching between attending to/processing the whole and focusing on particular details. We are constantly creating a metaphor and then exploring it. Creating a physical/visual representation of that (i.e. sketches, wireframes, etc.) allows us to experience not just the physical relationship but the metaphorical relationship as well.
 
@@ -83,7 +84,7 @@ Kirsh also brings up several interesting points about the aforementioned role of
   <figcaption><a href="https://www.pexels.com/photo/black-claw-hammer-on-brown-wooden-plank-209235/">Source</a></figcaption>
 </figure>
 
-# How to use the body to make design better
+# How to use the body to make design better <a name="the-body" href="#the-body"><i class="ion-link"></i></a>
 
 Kirsh’s research with dancers sheds important light on one of the ways you can use embodied cognition in your design practice. In short, dancers learned movement phrases better by “marking” (performing a distorted/truncated version of the phrase) than just by thinking about the movement. So, if you’re designing something, you should physically try to interact with it and see how it feels, even if it’s just on paper. Mimic the behaviors and motions to see if it makes sense.
 
