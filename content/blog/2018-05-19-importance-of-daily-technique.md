@@ -1,6 +1,6 @@
 {
    "categories": [
-      "development"
+      "User Experience"
    ],
    "date": "2018-05-26T17:15:27-04:00",
    "description": "Why performing artists practice every day and what that means for designers.",
