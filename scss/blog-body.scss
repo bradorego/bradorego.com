@@ -68,6 +68,9 @@
         margin: 0;
       }
     }
+    h3 + blockquote {
+      margin-top: 10px;
+    }
     .post-meta,
     .categories {
       a {
