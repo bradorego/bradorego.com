@@ -72,11 +72,16 @@ gulp.task('clean', function () {
   return del.sync([prodRoot]);
 });
 
+gulp.task('clean-prod', () => {
+  del.sync([`${prodRoot}/.gitignore`, `${prodRoot}/.DS_Store`]);
+});
+
 gulp.task('build', ['deploy']);
 
 gulp.task('deploy', ['clean', 'uglifyjs-deploy', 'uglifycss-deploy'], function () {
   exec('hugo');
   sleep.sleep(2000);
   gulp.start('deploy-img');
-  return gulp.start('minify');
+  gulp.start('minify');
+  return gulp.start('clean-prod');
 });
