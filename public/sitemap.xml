@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://bradorego.com/the-importance-of-daily-technique/</loc>
+    <lastmod>2018-05-26T17:15:27-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://bradorego.com/an-intro-to-embodied-cognition/</loc>
     <lastmod>2018-04-30T14:58:50-04:00</lastmod>
   </url>
@@ -215,7 +220,7 @@
   
   <url>
     <loc>http://bradorego.com/blog/</loc>
-    <lastmod>2018-04-30T14:58:50-04:00</lastmod>
+    <lastmod>2018-05-26T17:15:27-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -268,7 +273,7 @@
   
   <url>
     <loc>http://bradorego.com/tags/dance/</loc>
-    <lastmod>2018-04-04T21:25:41-04:00</lastmod>
+    <lastmod>2018-05-26T17:15:27-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -298,13 +303,13 @@
   
   <url>
     <loc>http://bradorego.com/tags/design-thinking/</loc>
-    <lastmod>2018-04-30T14:58:50-04:00</lastmod>
+    <lastmod>2018-05-26T17:15:27-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://bradorego.com/categories/development/</loc>
-    <lastmod>2018-01-29T01:59:21-05:00</lastmod>
+    <lastmod>2018-05-26T17:15:27-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -585,6 +590,12 @@
   </url>
   
   <url>
+    <loc>http://bradorego.com/tags/performing-design/</loc>
+    <lastmod>2018-05-26T17:15:27-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://bradorego.com/tags/personal/</loc>
     <lastmod>2012-11-23T17:32:13-05:00</lastmod>
     <priority>0</priority>
@@ -599,6 +610,12 @@
   <url>
     <loc>http://bradorego.com/tags/physical-world/</loc>
     <lastmod>2012-12-22T14:21:58-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://bradorego.com/tags/practice/</loc>
+    <lastmod>2018-05-26T17:15:27-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -739,6 +756,12 @@
   </url>
   
   <url>
+    <loc>http://bradorego.com/tags/technique/</loc>
+    <lastmod>2018-05-26T17:15:27-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://bradorego.com/tags/theory-blindness/</loc>
     <lastmod>2018-03-18T07:31:58-05:00</lastmod>
     <priority>0</priority>
@@ -782,7 +805,7 @@
   
   <url>
     <loc>http://bradorego.com/tags/user-centered-design/</loc>
-    <lastmod>2018-04-30T14:58:50-04:00</lastmod>
+    <lastmod>2018-05-26T17:15:27-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -836,7 +859,7 @@
   
   <url>
     <loc>http://bradorego.com/</loc>
-    <lastmod>2018-04-30T14:58:50-04:00</lastmod>
+    <lastmod>2018-05-26T17:15:27-04:00</lastmod>
     <priority>0</priority>
   </url>
   

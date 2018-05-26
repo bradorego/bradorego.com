@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dance on bradorego.com</title>
-    <link>http://bradorego.com/tags/dance/</link>
-    <description>Recent content in Dance on bradorego.com</description>
+    <title>Performing Design on bradorego.com</title>
+    <link>http://bradorego.com/tags/performing-design/</link>
+    <description>Recent content in Performing Design on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 26 May 2018 17:15:27 -0400</lastBuildDate>
     
-	<atom:link href="http://bradorego.com/tags/dance/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://bradorego.com/tags/performing-design/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -22,12 +22,13 @@ As professional artists, we’re expected to practice our craft every single day
     </item>
     
     <item>
-      <title>Performing.design</title>
-      <link>http://bradorego.com/performing.design/</link>
-      <pubDate>Wed, 04 Apr 2018 21:25:41 -0400</pubDate>
+      <title>An Intro to Embodied Cognition</title>
+      <link>http://bradorego.com/an-intro-to-embodied-cognition/</link>
+      <pubDate>Mon, 30 Apr 2018 14:58:50 -0400</pubDate>
       
-      <guid>http://bradorego.com/performing.design/</guid>
-      <description>TL;DNR  There are an incredibly small number of people who have professional experience in both performing arts and the tech design. Applying practices, concepts, theories, and lessons from performing arts can yield some really interesting insights and experiments for the design community. Follow along at http://performing.design   I&amp;rsquo;ve been quiet lately, and that&amp;rsquo;s largely due to my recent move to NYC. Madison was great, but it was time for me to find new challenges and a new home, and NYC is the natural choice given my careers in both tech and dance.</description>
+      <guid>http://bradorego.com/an-intro-to-embodied-cognition/</guid>
+      <description>Originally posted on performing.design
+Underneath a lot of what we cover in performing.design is embodied cognition, a fairly recent development psychology and cognitive science. Embodied Cognition seeks to explore the relationship between how we use our bodies and how we think/what our brains do. It’s about looking at a thinking organism holistically as opposed to focusing on the brain, including the motor system, perceptual system, and the body’s interaction with the current environment.</description>
     </item>
     
   </channel>

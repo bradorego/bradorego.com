@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dance on bradorego.com</title>
-    <link>http://bradorego.com/tags/dance/</link>
-    <description>Recent content in Dance on bradorego.com</description>
+    <title>Technique on bradorego.com</title>
+    <link>http://bradorego.com/tags/technique/</link>
+    <description>Recent content in Technique on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 26 May 2018 17:15:27 -0400</lastBuildDate>
     
-	<atom:link href="http://bradorego.com/tags/dance/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://bradorego.com/tags/technique/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,15 +19,6 @@
       <guid>http://bradorego.com/the-importance-of-daily-technique/</guid>
       <description>Originally posted on performing.design
 As professional artists, we’re expected to practice our craft every single day. For dancers, the main way to do this is to spend time in class (for most of us, that’s every day, if not several times a day; full-time dancers are usually in class or in the studio 6–10 hours per day, 5–6 days a week). Aside from the physical exercise (which is an important element for performing artists), all of this time spent doing roughly the same thing has many benefits and side-effects.</description>
-    </item>
-    
-    <item>
-      <title>Performing.design</title>
-      <link>http://bradorego.com/performing.design/</link>
-      <pubDate>Wed, 04 Apr 2018 21:25:41 -0400</pubDate>
-      
-      <guid>http://bradorego.com/performing.design/</guid>
-      <description>TL;DNR  There are an incredibly small number of people who have professional experience in both performing arts and the tech design. Applying practices, concepts, theories, and lessons from performing arts can yield some really interesting insights and experiments for the design community. Follow along at http://performing.design   I&amp;rsquo;ve been quiet lately, and that&amp;rsquo;s largely due to my recent move to NYC. Madison was great, but it was time for me to find new challenges and a new home, and NYC is the natural choice given my careers in both tech and dance.</description>
     </item>
     
   </channel>
