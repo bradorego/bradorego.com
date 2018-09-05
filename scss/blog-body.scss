@@ -68,8 +68,13 @@
         margin: 0;
       }
     }
+    h1 + blockquote,
     h3 + blockquote {
       margin-top: 10px;
+    }
+    blockquote + h1,
+    blockquote + h3 {
+      margin-top: 40px;
     }
     .post-meta,
     .categories {
