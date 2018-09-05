@@ -52,6 +52,9 @@ document.addEventListener('DOMContentLoaded', function () {
     $toggles.forEach((t) => {
       t.addEventListener('click', toggleClickListener);
     });
+  if (window.location.hash) {
+    window.scrollBy(0,-100);
+  }
   if ($scrollUp) {
     window.addEventListener('scroll', function (e) {
       if (window.scrollY > 300) {
