@@ -10,7 +10,10 @@
    "image": "/img/showcase/amfam/storystation.png",
    "NDA": true,
    "publishdate": "2017-04-09T11:12:46-05:00",
-   "showcaseImg": [],
+   "showcaseImg": [{
+      "title": "American Family Insurance",
+      "src": "/img/showcase/amfam/logo.png"
+    }],
    "tags": ["agile", "corporate innovation", "usability research", "angular"],
    "title": "American Family Insurance"
 }
