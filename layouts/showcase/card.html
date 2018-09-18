@@ -23,11 +23,13 @@
         {{ else }}
           <a href="{{ .Permalink }}" target="_self" role="button" class="btn btn-dark mb-5">Learn More</a>
           {{ if .Params.showcaseImg }}
-            <div class="btn-group d-flex bjo-btn-bar" role="group">
-              {{ range $index, $link := .Params.showcaseImg }}
-                <button type="button" class="btn btn-outline-dark w-100 showcase-toggle {{if eq $index 0}}active{{end}}" data-img-src="{{$link.src}}">{{$link.title}}</button>
-              {{ end }}
-            </div>
+            {{ if gt (len .Params.showcaseImg) 1 }}
+              <div class="btn-group d-flex bjo-btn-bar" role="group">
+                {{ range $index, $link := .Params.showcaseImg }}
+                  <button type="button" class="btn btn-outline-dark w-100 showcase-toggle {{if eq $index 0}}active{{end}}" data-img-src="{{$link.src}}">{{$link.title}}</button>
+                {{ end }}
+              </div>
+            {{ end }}
           {{ end }}
         {{ end }}
       </div>
