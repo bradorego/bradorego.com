@@ -6,10 +6,21 @@
     <description>Recent content in Blogs on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Aug 2018 10:19:19 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 09 Oct 2018 10:19:19 -0400</lastBuildDate>
     
 	<atom:link href="http://bradorego.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A Designer&#39;s Guide to GDPR</title>
+      <link>http://bradorego.com/a-designers-guide-to-gdpr/</link>
+      <pubDate>Tue, 09 Oct 2018 10:19:19 -0400</pubDate>
+      
+      <guid>http://bradorego.com/a-designers-guide-to-gdpr/</guid>
+      <description>Originally written for and edited by Prolific Interactive
+Disclaimer: Nobody who contributed to this overview of GDPR or the accompanying checklist is a lawyer. This does not constitute as legal advice. This is by no means an exhaustive list. Please consult a legal professional for specific questions.
+Recall the Great Privacy Update of 2018: Your inbox was flooded with emails from apps and websites you didn’t even remember having an account with, and maybe for the first time in history, privacy policies became a meme.</description>
+    </item>
     
     <item>
       <title>Improvisation, Creativity, and Design</title>
@@ -207,10 +218,10 @@ I love you. Well, maybe not so much love anymore. I really like you. I really li
     
     <item>
       <title>Foursquare Heatmap &amp; Remote Sensing</title>
-      <link>http://bradorego.com/foursquare-heatmap--remote-sensing/</link>
+      <link>http://bradorego.com/foursquare-heatmap-remote-sensing/</link>
       <pubDate>Mon, 11 Mar 2013 17:21:36 -0500</pubDate>
       
-      <guid>http://bradorego.com/foursquare-heatmap--remote-sensing/</guid>
+      <guid>http://bradorego.com/foursquare-heatmap-remote-sensing/</guid>
       <description>TL;DNR  Foursquare&#39;s API and Google Maps are pretty easy to work with. Creating a new product can be as easy as combining two existing technologies. New products create opportunities for new experiences.   A little over a month ago (technically during the Foursquare Hackathon, but I was working from home due to Red Eye) I spent a few hours one weekend hacking together an idea I&amp;rsquo;d come up with when working on Foursquare integration for Trinker.</description>
     </item>
     
