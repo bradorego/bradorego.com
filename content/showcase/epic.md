@@ -9,10 +9,6 @@
    "headline": "UI Design, UX Research, UI Liaison Initiative.",
    "image": "/img/showcase/epic/header.jpeg",
    "publishdate": "2012-01-09T11:12:46-05:00",
-   "showcaseImg": [{
-      "title": "Epic Systems",
-      "src": "/img/showcase/epic/header.jpeg"
-    }],
    "tags": ["ui liaison", "healthcare"],
    "title": "Epic Systems"
 }
