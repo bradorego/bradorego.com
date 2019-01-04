@@ -30,6 +30,7 @@
       }
       .btn {
         border-width: 2px;
+        margin-top: auto;
         &.active,
         &:active,
         &:focus {
@@ -52,8 +53,12 @@
   }
 
   &.blog {
+    padding: 0;
     .card-body {
       padding: 0;
+      .text {
+        margin: 20px;
+      }
     }
   }
 }
