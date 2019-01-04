@@ -75,6 +75,10 @@ footer {
     }
   }
 	li.patreon {
+    a {
+      position: relative;
+      top: -7px;
+    }
     g {
       fill: $gray-dark;
     }

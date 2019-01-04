@@ -13,39 +13,48 @@
       margin-right: 15px;
     }
   }
-  &.timeline {
-    h2 {
-      margin-bottom: 50px;
-      font-weight: 400;
-      font-size: 28px;
-      line-height: 42px;
-    }
-    .tiny {
-      font-size: 16px;
-      line-height: 32px;
-    }
-    img {
-      width: 100%
-    }
-    .btn {
-      border-width: 2px;
-      &.active,
-      &:active,
-      &:focus {
-        box-shadow: none;
-        color: $white;
+  &.showcase {
+    .text {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      h2 {
+        margin-bottom: 50px;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 42px;
+      }
+      .description {
+        font-size: 16px;
+        line-height: 32px;
+      }
+      .btn {
+        border-width: 2px;
+        &.active,
+        &:active,
+        &:focus {
+          box-shadow: none;
+          color: $white;
+        }
       }
     }
-  }
-  &.blog {
-    padding: 0px;
+    .graphic {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      img {
+        width: 100%
+      }
+    }
   }
   .nda {
     font-size: 14px;
   }
-  .bjo-btn-bar {
-    position: absolute;
-    bottom: 0;
+
+  &.blog {
+    .card-body {
+      padding: 0;
+    }
   }
 }
 
