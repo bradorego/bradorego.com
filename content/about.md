@@ -12,11 +12,11 @@
     <img src="/img/headshot.jpg">
   </div>
 <p class="col-12 mt-0 col-sm-8 col-lg-10">
-  Bradley Orego is a User Experience Researcher, Product Designer, Entrepreneur, and Dancer currently located in Brooklyn, NY. This is his personal blog, where you'll find posts on anything from company culture to experience design to homebrewing to dance.
+  Bradley Orego is a User Researcher, Experience Designer, Entrepreneur, and Dancer currently located in Brooklyn, NY. This is his personal blog, where you'll find posts on anything from company culture to experience design to homebrewing to dance.
 </p>
 </div>
 
-Brad is a graduate of the [University of Rochester](http://rochester.edu/) with a B.S. in Computer Science, a B.A. in Psychology, and minors in Spanish and Dance. He spends his days helping companies design and build better products as well as dancing professionally with [Kanopy Dance Company](http://kanopydance.org) and [Sokolow Theater Dance Ensemble](http://sokolowtheatredance.org/). Brad also participates in entrepreneurial events and hackathons, bikes, and [makes and blogs about beer-batter pancakes](http://beerbatterbreakfast.com). Brad is a co-founder of [performing.design](http://performing.design) and founder of [MelioraLabs](https://melioralabs.com).
+Brad is a graduate of the [University of Rochester](http://rochester.edu/) with a B.S. in Computer Science, a B.A. in Psychology, and minors in Spanish and Dance. He spends his days helping companies design and build better products as well as dancing professionally with [Kanopy Dance Company](http://kanopydance.org) and [Sokolow Theater Dance Ensemble](http://sokolowtheatredance.org/). Brad also participates in entrepreneurial events and hackathons, bikes, and [makes and blogs about beer-batter pancakes](http://beerbatterbreakfast.com). Brad is one half of [performing.design](http://performing.design) and founder of [MelioraLabs](https://melioralabs.com).
 
 In a past life, Brad also curled at the [Madison Curling Club](http://madisoncurlingclub.com), homebrewed as a proud member of [MHTG](http://mhtg.org), and played ultimate frisbee competitively with [Madison Mastodon](https://twitter.com/MastodonUlti).
 
