@@ -1,12 +1,13 @@
+{{ if .Params.image }}
 <div class="card blog">
   <div class="card-body">
     <div class="row">
-      <div class="col-md-3 mb-3 mb-sm-3 mb-md-0">
+      <div class="col-md-3 pr-md-0">
         <a href="{{ .Permalink }}" target="_self">
           <div class="img-preview" style="background-image:url({{ .Params.image }})"></div>
         </a>
       </div>
-      <div class="col-md">
+      <div class="col-md text">
         <a href="{{ .Permalink }}" target="_self">
           <h2 class="post-title">{{ .Title }}</h2>
         </a>
@@ -17,3 +18,4 @@
     </div>
   </div>
 </div>
+{{ end }}
