@@ -1,10 +1,16 @@
 {
-  "tags": ["go", "goland", "templates", "themes", "development"],
-  "categories": ["development"],
-  "image": "/img/posts/:title/header.png",
-  "photoCredit": "",
-  "description": "",
-  "draft": false
+   "categories": [
+      "User Experience"
+   ],
+   "date": "2018-08-01T10:19:19-04:00",
+   "description": "How you can use improv exercises and techniques to power creativity and open up new ways of thinking in your product design process.",
+   "draft": false,
+   "image": "/img/posts/improvisation-creativity-design/header.jpg",
+   "photoCredit": "https://www.pexels.com/photo/board-game-business-challenge-chess-277052/",
+   "tags": [
+      "design"
+   ],
+   "title": ":title"
 }
 
 <div class="tldnr">
