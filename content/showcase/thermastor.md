@@ -4,9 +4,9 @@
    ],
    "date": "2016-08-09T11:12:46-05:00",
    "dateRange": "2015-2016",
-   "description": "Therma-Stor manufactures dehumifidiers, ventilation systems, and restoration equipment. They recently launched a line of internet-connected dehumidifiers.",
+   "description": "Therma-Stor manufactures dehumifidiers, ventilation systems, and restoration equipment. I helped them modernize their products, launching several lines of internet-connected dehumidifiers.",
    "draft": false,
-   "headline": "UX research, mobile app design, dashboard/reporting design.",
+   "headline": "User research, mobile app design, dashboard/reporting design.",
    "image": "/img/showcase/thermastor/desktop/1.jpg",
    "imageGallery": [
      {

@@ -90,12 +90,12 @@
    ],
    "showcaseImg": [
      {
-       "title": "Wireframes",
-       "src": "/img/showcase/nextt/showcase/wires.gif"
-     },
-     {
        "title": "Screenshots",
        "src": "/img/showcase/nextt/showcase/screens.gif"
+     },
+     {
+       "title": "Wireframes",
+       "src": "/img/showcase/nextt/showcase/wires.gif"
      }
    ],
    "dateRange": "2013-2014",
