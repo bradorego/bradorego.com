@@ -9,22 +9,16 @@ var gulp = require('gulp'),
   prodRoot = './public',
   allImg = `${DEV_ROOT}/img/**/*.*`,
   exec = require('child_process').exec,
-  minifyHTML = require("gulp-minify-html"),
-  sleep = require('sleep');
+  minifyHTML = require("gulp-minify-html");
 
 let uglify = require('gulp-uglify-es').default;
 let sass = require('gulp-sass');
 
 // define tasks here
-gulp.task('default', ['sass', 'concat-js', 'concat-css'], function () {
-  gulp.watch(sassRoot + '/*.scss', ['sass']);
-  gulp.watch([cssRoot + '/*.css', '!' + cssRoot + '/all.css'], ['concat-css']);
-  gulp.watch([jsRoot + '/*.js', '!' + jsRoot + '/all.js'], ['concat-js']);
-});
 
 gulp.task('concat-js', function () {
   del.sync([jsRoot + '/all.js']);
-  return gulp.src([jsRoot + '/jquery.min.js', jsRoot + '/*.js'])
+  return gulp.src([jsRoot + '/*.js'])
     .pipe(concat('all.js'))
     .pipe(gulp.dest(jsRoot + '/'));
 });
@@ -34,7 +28,6 @@ gulp.task('sass', function() {
     .pipe(sass())
     .pipe(gulp.dest(`${DEV_ROOT}/css`));
 });
-
 
 gulp.task('concat-css', function () {
   del.sync([cssRoot + '/all.css']);
@@ -47,7 +40,7 @@ gulp.task('minify', function() {
   return gulp.src(prodRoot + '/**/*.html')
     .pipe(minifyHTML({"empty": true}))
     .pipe(gulp.dest(prodRoot));
-});;
+});
 
 gulp.task('uglifyjs-deploy', function () {
   del.sync([prodRoot + '/js']);
@@ -69,19 +62,39 @@ gulp.task('deploy-img', function () {
 });
 
 gulp.task('clean', function () {
-  return del.sync([prodRoot]);
+  return del([prodRoot]);
 });
 
 gulp.task('clean-prod', () => {
-  del.sync([`${prodRoot}/.gitignore`, `${prodRoot}/.DS_Store`]);
+  return del([`${prodRoot}/.gitignore`, `${prodRoot}/.DS_Store`]);
 });
 
-gulp.task('build', ['deploy']);
-
-gulp.task('deploy', ['clean', 'uglifyjs-deploy', 'uglifycss-deploy'], function () {
+gulp.task('hugo', (done) => {
   exec('hugo');
-  sleep.sleep(2000);
-  gulp.start('deploy-img');
-  gulp.start('minify');
-  return gulp.start('clean-prod');
+  done();
+});
+
+gulp.task('deploy', gulp.series('clean', 'uglifyjs-deploy', 'uglifycss-deploy', 'hugo', 'deploy-img', 'minify', 'clean-prod'));
+
+gulp.task('build', gulp.series('deploy'));
+
+gulp.task('default', gulp.series('sass', 'concat-js', 'concat-css', function () {
+  gulp.watch(sassRoot + '/*.scss').on('change', gulp.series('sass'));
+  gulp.watch([cssRoot + '/*.css', '!' + cssRoot + '/all.css']).on('change', gulp.series('concat-css'));
+  gulp.watch([jsRoot + '/*.js', '!' + jsRoot + '/all.js']).on('change', gulp.series('concat-js'));
+}));
+
+
+
+var http = require('http')
+var serveStatic = require('serve-static')
+
+// Serve up public/ftp folder
+var serve = serveStatic(prodRoot)
+
+gulp.task('serve-prod', () => {
+  // Create server
+  http.createServer(function onRequest (req, res, next) {
+    serve(req, res, next)
+  }).listen(1314);
 });
