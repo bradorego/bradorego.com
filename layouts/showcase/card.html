@@ -6,18 +6,20 @@
   </a>
 {{ end }}
 
-<div class="card timeline">
+<div class="card showcase">
   <div class="card-body">
     <div class="row">
-      {{$img := (index (.Params.showcaseImg) 0) }}
+      {{/* printf "%#v" .Params  */}}
+      {{$img := .Params.image }}
+
       {{ if $img }}
-      <div class="col-md-6 order-md-2 graphic timeline">
-        <img src="{{ $img.src }}" />
+      <div class="col-md-6 order-md-2 graphic">
+        <img src="{{ $img }}" />
       </div>
       {{ end }}
       <div class="col-md{{if $img}}-6{{end}} order-md-1 text">
         <h2>{{ .Params.headline }}</h2>
-        <p class="tiny">{{.Description}}</p>
+        <p class="description">{{.Description}}</p>
         {{ if .Params.NDA }}
           {{ partial "nda.html" . }}
         {{ else }}
