@@ -1,0 +1,14 @@
+<div class="tldnr">
+  {{if eq (index .Params.categories 0) "Showcase"}}
+  <h4>Lessons Learned</h4>
+  {{else}}
+  <h4>TL;DNR</h4>
+  {{end}}
+  <ul>
+    {{ range .Params.lessonsLearned }}
+      <li> {{ . | safeHTML }}</li>
+    {{ end }}
+  </ul>
+</div>
+
+<hr>

@@ -6,17 +6,17 @@
 
   <!-- Post Content -->
   <div class="container blog-body showcase">
-    {{ if .Params.NDA }}
-      <div class="blog-content">
-        <h1>{{.Title}}</h1>
-        {{.Description}}
-        {{ partial "nda.html" . }}
-    {{ else }}
       {{ partial "blog-header.html" . }}
       <div class="blog-content">
-      {{ .Content }}
-      {{ partial "showcase-img-gallery.html" .}}
-    {{ end }}
+      {{ if .Params.lessonsLearned }}
+        {{ partial "lessonsLearned.html" . }}
+      {{ end }}
+      {{ if .Params.NDA }}
+        {{ partial "nda.html" . }}
+      {{ else }}
+        {{ .Content }}
+        {{ partial "showcase-img-gallery.html" .}}
+      {{ end }}
       {{ partial "related-posts.html" . }}
     </div>
   </div>

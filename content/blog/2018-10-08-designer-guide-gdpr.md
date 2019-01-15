@@ -12,6 +12,7 @@
       "product strategy",
       "prolific interactive"
    ],
+   "lessonsLearned": [],
    "title": "A Designer's Guide to GDPR"
 }
 

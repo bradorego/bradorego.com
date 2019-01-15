@@ -6,6 +6,9 @@
   <div class="blog-body container">
     {{ partial "blog-header.html" . }}
     <div class="blog-content">
+      {{ if .Params.lessonsLearned }}
+        {{ partial "lessonsLearned.html" . }}
+      {{ end }}
       {{ .Content }}
       <hr/>
       <p class="post-meta">

@@ -9,7 +9,7 @@
    "headline": "Principal Researcher, Design Strategist, Research Coach/Educator",
    "image": "/img/showcase/soulcycle/logo.png",
    "lessonsLearned": [
-     "test 1",
+     "<a href='google.com'>Test</a>",
      "test 2"
    ],
    "NDA": true,
