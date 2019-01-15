@@ -10,19 +10,9 @@
    "tags": [
       "design"
    ],
-   "title": ":title"
+   "title": ":title",
+   "lessonsLearned": []
 }
-
-<div class="tldnr">
-  <h4>TL;DNR</h4>
-  <ul>
-    <li></li>
-    <li></li>
-    <li></li>
-  </ul>
-</div>
-
----
 
 # Transparency <a name="transparency" href="#transparency"><i class="ion-link"></i></a>
 #### The more open, honest, and candid the team can be, the better.

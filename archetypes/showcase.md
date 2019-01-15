@@ -17,7 +17,8 @@
        "title": "test2",
        "src": "http://via.placeholder.com/350x250"
      }
-   ]
+   ],
+   "lessonsLearned": []
 }
 
 # About
