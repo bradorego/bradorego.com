@@ -75,7 +75,7 @@ One of the things I was introduced to (although we didn't implement) was the con
 
 
 <figure>
-  <img src="https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAgFAAAAJDUwOWNhM2Q4LWI3YWYtNGZjZi05OGFmLWViZGVhMmU4OTIyNw.png" />
+  <img src="https://media.licdn.com/dms/image/C5112AQGIFOiegTfhVg/article-inline_image-shrink_1000_1488/0?e=1553126400&v=beta&t=7--JlS-qKnp_xXYb7LRs85RRSfp5gQY9jkZ4g8Eu4Ss" />
   <figcaption><a href="https://www.linkedin.com/pulse/stage-gate-approach-investing-content-marketing-chuck-frey">Credit</a></figcaption>
 </figure>
 
