@@ -4,7 +4,7 @@
    ],
    "date": "2013-03-01T15:10:22-05:00",
    "headline": "Interactive multimedia, UX research/design, Javascript/Drupal development.",
-   "description": "Zebradog is an award-winning interactive multimedia design firm. We built solutions for Aurora Healthcare, Northwestern University, Saudi Aramco, UW-Madison, and others in various industries.",
+   "description": "Zebradog is an award-winning interactive multimedia design firm. We built solutions for Aurora Healthcare, Northwestern University, Saudi Aramco, UW-Madison, and others in various industries. As part of the Digital team, I helped revolutionize how ZebraDog moved products from ideation through implementation, making the process more agile, more research- and experience-driven, and optimizing graphic design by testing and iterating on wireframes before moving to high-fidelity design.",
    "draft": false,
    "image": "/img/showcase/zebradog/aramco/3.jpg",
    "imageGallery": [
@@ -114,8 +114,8 @@
 <div class="tldnr">
   <h4>Lessons Learned</h4>
   <ul>
-    <li>You <em>can</em> teach an old dog (pun intended) new tricks: teaching a 20-year-old organization how to be more agile has its benefits.</li>
-    <li>Interactive multimedia ("environmental graphic design") is a unique design/technology challenge, and while testing is important, it's mostly in the form of dogfooding.</li>
+    <li>You <em>can</em> teach an old dog (pun intended) new tricks: teaching a 20-year-old organization how to be more agile has its challenges and benefits.</li>
+    <li>Interactive multimedia ("environmental graphic design") is a unique design/technology challenge, and while testing is important, it's mostly in the form of dogfooding (yes, pun also intended).</li>
     <li>Your users, in this setting, are passersby. They have no idea what you're building, and there aren't any trends to rely on, so designing for discoverability is crucial.</li>
   </ul>
 </div>

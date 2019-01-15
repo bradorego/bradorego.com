@@ -4,7 +4,7 @@
    ],
    "date": "2016-09-09T11:12:46-05:00",
    "headline": "UX research, enterprise dashboard re-design, mobile app design.",
-   "description": "SingleWire's InformaCast is an emergency notification software platform trusted by federal agencies, major universities, and large companies.",
+   "description": "SingleWire's InformaCast is an emergency notification software platform trusted by federal agencies, major universities, and large companies. As part of their move to a web-based platform, SingleWire sought to improve product usability and launch new features. By leading the team through user-centered design processes and guiding user research, we were able to improve user satisfaction and better serve users with new products.",
    "draft": false,
    "image": "/img/showcase/singlewire/design/7.png",
    "imageGallery": [

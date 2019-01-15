@@ -4,7 +4,7 @@
    ],
    "date": "2014-06-09T11:12:46-05:00",
    "dateRange": "2014",
-   "description": "Candorem is an award-winning strategic user-centered web & marketing design agency located between Madison and Milwaukee, Wisconsin.",
+   "description": "Candorem is an award-winning strategic user-centered web & marketing design agency located between Madison and Milwaukee, Wisconsin. I provided additional UX Research and Design support to the company, including collaboration on the 2015 ADDY Award-winning Transform Milwaukee redesign.",
    "draft": false,
    "headline": "Information Architecture, Wireframes, UX Research, Website Design.",
    "image": "/img/showcase/candorem/xformmke/7.jpg",

@@ -4,7 +4,7 @@
    ],
    "date": "2012-01-09T11:12:46-05:00",
    "dateRange": "2011-2012",
-   "description": "Epic Systems is the largest EHR provider in the United States, covering over 50% of patients. I was responsible for starting their UI Liaison initiative.",
+   "description": "Epic Systems is the largest EHR provider in the United States, covering over 50% of patients. I was responsible for starting their UI Liaison initiative, increasing coverage and visiblity for the UI Design team, and assisting with usability research during their annual User Group Meeting.",
    "draft": false,
    "headline": "UI Design, UX Research, UI Liaison Initiative.",
    "image": "/img/showcase/epic/header.jpeg",
