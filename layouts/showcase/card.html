@@ -1,12 +1,8 @@
 {{/* printf "%#v" .Page  */}}
 {{ if .Params.headline }}
-  {{ if .Params.NDA }}
+  <a href="{{ .Permalink }}" target="_self">
     <h2 class="divider">{{ .Title }}</h2>
-  {{ else }}
-    <a href="{{ .Permalink }}" target="_self">
-      <h2 class="divider">{{ .Title }}</h2>
-    </a>
-  {{ end }}
+  </a>
 
   <div class="card showcase">
     <div class="card-body">
