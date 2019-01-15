@@ -22,6 +22,9 @@
       position: relative;
       padding: 40px;
       @include header-text-shadow;
+      h3 {
+        line-height: 1.5;
+      }
     }
     hr.small {
       margin: 20px 0;
