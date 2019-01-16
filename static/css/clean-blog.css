@@ -6966,7 +6966,9 @@ body {
       color: white;
       position: relative;
       padding: 40px;
-      text-shadow: 0px 0px 3px black, 0px 0px 8px black; }
+      text-shadow: 0px 0px 3px black, 0px 0px 3px black, 0px 0px 8px black; }
+      .blog-body .blog-header .text h3 {
+        line-height: 1.5; }
     .blog-body .blog-header hr.small {
       margin: 20px 0;
       box-shadow: 0 0 3px 0 #000; }
@@ -6977,7 +6979,7 @@ body {
       .blog-body .blog-header .photo-credit a {
         font-size: 12px;
         color: white;
-        text-shadow: 0px 0px 3px black, 0px 0px 8px black; }
+        text-shadow: 0px 0px 3px black, 0px 0px 3px black, 0px 0px 8px black; }
   .blog-body .blog-content {
     padding: 40px; }
     .blog-body .blog-content a {
@@ -7013,6 +7015,8 @@ body {
       font-size: 14px; }
   .blog-body.showcase .blog-content {
     padding-top: 0; }
+  .blog-body.showcase .bg-image {
+    filter: blur(10px); }
 
 .card {
   padding: 10px 30px;
