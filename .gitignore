@@ -25,6 +25,7 @@ _testmain.go
 
 
 /themes
+!/themes/startbootstrap-clean-blog/ # don't ignore the theme we need
 .DS_Store
 
 *.sublime*
