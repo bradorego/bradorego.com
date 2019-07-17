@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://bradorego.com/showcase/1010data/</loc>
+    <lastmod>2019-07-17T11:12:46-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://bradorego.com/a-designers-guide-to-gdpr/</loc>
     <lastmod>2018-10-09T10:19:19-04:00</lastmod>
   </url>
@@ -283,7 +288,7 @@
   
   <url>
     <loc>http://bradorego.com/tags/culture/</loc>
-    <lastmod>2017-06-21T13:54:44-05:00</lastmod>
+    <lastmod>2019-07-17T11:12:46-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -354,6 +359,12 @@
   </url>
   
   <url>
+    <loc>http://bradorego.com/tags/director/</loc>
+    <lastmod>2019-07-17T11:12:46-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://bradorego.com/tags/ditw/</loc>
     <lastmod>2012-12-22T14:21:58-05:00</lastmod>
     <priority>0</priority>
@@ -373,7 +384,7 @@
   
   <url>
     <loc>http://bradorego.com/tags/education/</loc>
-    <lastmod>2018-04-21T11:12:46-05:00</lastmod>
+    <lastmod>2019-07-17T11:12:46-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -767,13 +778,13 @@
   
   <url>
     <loc>http://bradorego.com/categories/showcase/</loc>
-    <lastmod>2018-04-21T11:12:46-05:00</lastmod>
+    <lastmod>2019-07-17T11:12:46-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://bradorego.com/showcase/</loc>
-    <lastmod>2018-04-21T11:12:46-05:00</lastmod>
+    <lastmod>2019-07-17T11:12:46-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -792,6 +803,12 @@
   <url>
     <loc>http://bradorego.com/tags/startup/</loc>
     <lastmod>2014-03-01T15:11:21-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://bradorego.com/tags/strategy/</loc>
+    <lastmod>2019-07-17T11:12:46-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -881,7 +898,7 @@
   
   <url>
     <loc>http://bradorego.com/tags/user-experience/</loc>
-    <lastmod>2018-04-30T14:58:50-04:00</lastmod>
+    <lastmod>2019-07-17T11:12:46-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -923,7 +940,7 @@
   
   <url>
     <loc>http://bradorego.com/</loc>
-    <lastmod>2018-10-09T10:19:19-04:00</lastmod>
+    <lastmod>2019-07-17T11:12:46-05:00</lastmod>
     <priority>0</priority>
   </url>
   

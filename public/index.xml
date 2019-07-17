@@ -6,10 +6,19 @@
     <description>Recent content on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Oct 2018 10:19:19 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jul 2019 11:12:46 -0500</lastBuildDate>
     
 	<atom:link href="http://bradorego.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>1010data</title>
+      <link>http://bradorego.com/showcase/1010data/</link>
+      <pubDate>Wed, 17 Jul 2019 11:12:46 -0500</pubDate>
+      
+      <guid>http://bradorego.com/showcase/1010data/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A Designer&#39;s Guide to GDPR</title>
@@ -348,7 +357,7 @@ I love you. Well, maybe not so much love anymore. I really like you. I really li
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://bradorego.com/about/</guid>
-      <description>Bradley Orego is a User Researcher, Experience Designer, Entrepreneur, and Dancer currently located in Brooklyn, NY. This is his personal blog, where you&#39;ll find posts on anything from company culture to experience design to homebrewing to dance.  Brad is a graduate of the University of Rochester with a B.S. in Computer Science, a B.A. in Psychology, and minors in Spanish and Dance. He spends his days helping companies design and build better products as well as dancing professionally with Kanopy Dance Company and Sokolow Theater Dance Ensemble.</description>
+      <description>What is User Experience? Many times throughout my career, I&amp;rsquo;ve been asked to define what a User Experience team/practice consists of. Moving away from &amp;ldquo;UX&amp;rdquo; as a term (as it tends to focus people too much on technology), instead preferring &amp;ldquo;human-centered&amp;rdquo; as the prefix. To me, human-centered design has very little to do with making things pretty (though aesthetics are important), and is more about an iterative, explorative process to understand what the needs and desires of your audience/users are and to deliver a simple, elegant solution to those problems.</description>
     </item>
     
     <item>
