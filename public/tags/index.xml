@@ -6,10 +6,55 @@
     <description>Recent content in Tags on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Jul 2019 11:12:46 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jul 2019 10:19:19 -0400</lastBuildDate>
     
 	<atom:link href="http://bradorego.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Human-Centered Design</title>
+      <link>http://bradorego.com/tags/human-centered-design/</link>
+      <pubDate>Sat, 27 Jul 2019 10:19:19 -0400</pubDate>
+      
+      <guid>http://bradorego.com/tags/human-centered-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leadership</title>
+      <link>http://bradorego.com/tags/leadership/</link>
+      <pubDate>Sat, 27 Jul 2019 10:19:19 -0400</pubDate>
+      
+      <guid>http://bradorego.com/tags/leadership/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Organization</title>
+      <link>http://bradorego.com/tags/organization/</link>
+      <pubDate>Sat, 27 Jul 2019 10:19:19 -0400</pubDate>
+      
+      <guid>http://bradorego.com/tags/organization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>process</title>
+      <link>http://bradorego.com/tags/process/</link>
+      <pubDate>Sat, 27 Jul 2019 10:19:19 -0400</pubDate>
+      
+      <guid>http://bradorego.com/tags/process/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>user experience</title>
+      <link>http://bradorego.com/tags/user-experience/</link>
+      <pubDate>Sat, 27 Jul 2019 10:19:19 -0400</pubDate>
+      
+      <guid>http://bradorego.com/tags/user-experience/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>culture</title>
@@ -44,15 +89,6 @@
       <pubDate>Wed, 17 Jul 2019 11:12:46 -0500</pubDate>
       
       <guid>http://bradorego.com/tags/strategy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>user experience</title>
-      <link>http://bradorego.com/tags/user-experience/</link>
-      <pubDate>Wed, 17 Jul 2019 11:12:46 -0500</pubDate>
-      
-      <guid>http://bradorego.com/tags/user-experience/</guid>
       <description></description>
     </item>
     
@@ -332,15 +368,6 @@
       <pubDate>Mon, 29 Jan 2018 01:59:21 -0500</pubDate>
       
       <guid>http://bradorego.com/tags/javascript/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>process</title>
-      <link>http://bradorego.com/tags/process/</link>
-      <pubDate>Mon, 29 Jan 2018 01:59:21 -0500</pubDate>
-      
-      <guid>http://bradorego.com/tags/process/</guid>
       <description></description>
     </item>
     

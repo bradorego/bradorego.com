@@ -3,14 +3,73 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://bradorego.com/showcase/1010data/</loc>
-    <lastmod>2019-07-17T11:12:46-05:00</lastmod>
+    <loc>http://bradorego.com/blog/</loc>
+    <lastmod>2019-07-27T10:19:19-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://bradorego.com/building-a-ux-department-from-scratch-at-a-20-year-old-big-data-company/</loc>
+    <lastmod>2019-07-27T10:19:19-04:00</lastmod>
   </url>
   
   <url>
     <loc>http://bradorego.com/categories/</loc>
-    <lastmod>2019-07-17T11:12:46-05:00</lastmod>
+    <lastmod>2019-07-27T10:19:19-04:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://bradorego.com/tags/human-centered-design/</loc>
+    <lastmod>2019-07-27T10:19:19-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://bradorego.com/tags/leadership/</loc>
+    <lastmod>2019-07-27T10:19:19-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://bradorego.com/tags/organization/</loc>
+    <lastmod>2019-07-27T10:19:19-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://bradorego.com/tags/</loc>
+    <lastmod>2019-07-27T10:19:19-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://bradorego.com/categories/user-experience/</loc>
+    <lastmod>2019-07-27T10:19:19-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://bradorego.com/</loc>
+    <lastmod>2019-07-27T10:19:19-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://bradorego.com/tags/process/</loc>
+    <lastmod>2019-07-27T10:19:19-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://bradorego.com/tags/user-experience/</loc>
+    <lastmod>2019-07-27T10:19:19-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://bradorego.com/showcase/1010data/</loc>
+    <lastmod>2019-07-17T11:12:46-05:00</lastmod>
   </url>
   
   <url>
@@ -21,18 +80,6 @@
   
   <url>
     <loc>http://bradorego.com/showcase/</loc>
-    <lastmod>2019-07-17T11:12:46-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://bradorego.com/tags/</loc>
-    <lastmod>2019-07-17T11:12:46-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://bradorego.com/</loc>
     <lastmod>2019-07-17T11:12:46-05:00</lastmod>
     <priority>0</priority>
   </url>
@@ -62,30 +109,12 @@
   </url>
   
   <url>
-    <loc>http://bradorego.com/tags/user-experience/</loc>
-    <lastmod>2019-07-17T11:12:46-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://bradorego.com/a-designers-guide-to-gdpr/</loc>
     <lastmod>2018-10-09T10:19:19-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bradorego.com/blog/</loc>
-    <lastmod>2018-10-09T10:19:19-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://bradorego.com/tags/gdpr/</loc>
-    <lastmod>2018-10-09T10:19:19-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://bradorego.com/categories/user-experience/</loc>
     <lastmod>2018-10-09T10:19:19-04:00</lastmod>
     <priority>0</priority>
   </url>
@@ -318,12 +347,6 @@
   
   <url>
     <loc>http://bradorego.com/tags/javascript/</loc>
-    <lastmod>2018-01-29T01:59:21-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://bradorego.com/tags/process/</loc>
     <lastmod>2018-01-29T01:59:21-05:00</lastmod>
     <priority>0</priority>
   </url>
