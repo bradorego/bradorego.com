@@ -6,10 +6,21 @@
     <description>Recent content on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Jul 2019 11:12:46 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jul 2019 10:19:19 -0400</lastBuildDate>
     
 	<atom:link href="http://bradorego.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Building a UX Department from scratch at a 20-year-old Big Data Company</title>
+      <link>http://bradorego.com/building-a-ux-department-from-scratch-at-a-20-year-old-big-data-company/</link>
+      <pubDate>Sat, 27 Jul 2019 10:19:19 -0400</pubDate>
+      
+      <guid>http://bradorego.com/building-a-ux-department-from-scratch-at-a-20-year-old-big-data-company/</guid>
+      <description>Originally written for 1010data&amp;rsquo;s UX Blog
+These stories usually start with some sort of “when I first heard about ___”, but in this case, that goes much further back than a) the story usually goes, and b) is really practical. 1010data has been around since 2000 and has gone through tremendous growth and change as an organization since then. Recently, we’ve embarked on a new set of changes.
+Document the process  There are two things I hear time and time again when telling friends, family, and colleagues about what I’m doing at 1010:</description>
+    </item>
     
     <item>
       <title>1010data</title>
@@ -357,7 +368,7 @@ I love you. Well, maybe not so much love anymore. I really like you. I really li
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://bradorego.com/about/</guid>
-      <description>What is User Experience? Many times throughout my career, I&amp;rsquo;ve been asked to define what a User Experience team/practice consists of. Moving away from &amp;ldquo;UX&amp;rdquo; as a term (as it tends to focus people too much on technology), instead preferring &amp;ldquo;human-centered&amp;rdquo; as the prefix. To me, human-centered design has very little to do with making things pretty (though aesthetics are important), and is more about an iterative, explorative process to understand what the needs and desires of your audience/users are and to deliver a simple, elegant solution to those problems.</description>
+      <description>What is User Experience Research/Design? Many times throughout my career, I&amp;rsquo;ve been asked to define what a User Experience team/practice consists of. Recently, I&amp;rsquo;ve been moving away from &amp;ldquo;UX&amp;rdquo; as a term (as it tends to focus people too much on technology), instead preferring &amp;ldquo;human-centered&amp;rdquo; as the prefix. To me, human-centered design has very little to do with making things pretty (though aesthetics are important), and is more about an iterative, explorative process to understand what the needs and desires of your audience/users are and to deliver a simple, elegant solution to those problems.</description>
     </item>
     
     <item>

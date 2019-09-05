@@ -115,8 +115,20 @@ figure {
 	figcaption {
 		position: absolute;
 		font-size: 12px;
-		right: 0px;
-	}
+    right: 0px;
+    &.caption {
+      position: relative;
+      display: block;
+      font-size: 14px;
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+      @media (max-width: 479px) {
+        text-align: left;
+        margin: 0;
+      }
+    }
+  }
 }
 
 

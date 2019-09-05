@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Java on bradorego.com</title>
+    <title>java on bradorego.com</title>
     <link>http://bradorego.com/tags/java/</link>
-    <description>Recent content in Java on bradorego.com</description>
+    <description>Recent content in java on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 20 Feb 2014 16:46:54 -0500</lastBuildDate>

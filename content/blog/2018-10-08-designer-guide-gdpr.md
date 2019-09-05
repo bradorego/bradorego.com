@@ -62,14 +62,14 @@ When I began investigating consent under GDPR, one of the first things I noticed
 
 <figure>
   <img src="/img/posts/designer-guide-gdpr/invision-optin.jpg" />
-  <figcaption>Bad: InVision’s DesignTalks sign up includes an auto-opt-in, which is no longer allowed under GDPR.</figcaption>
+  <figcaption class="caption">Bad: InVision’s DesignTalks sign up includes an auto-opt-in, which is no longer allowed under GDPR.</figcaption>
 </figure>
 
 What exactly are the types of consent? There isn’t a clear definition here, but you’re better off erring on the side of caution. Consenting to your T&C doesn’t necessarily include consenting to receive email. You can no longer ask for access to data you don’t absolutely need for your service to function (e.g., no asking for contacts unless you need their contacts), and you need to ask for these permissions in the context of what the user is doing (e.g., don’t bombard them with requests upon first signing up; ask for specific information when they first access that part of the app).
 
 <figure>
   <img src="/img/posts/designer-guide-gdpr/google-permissions.jpg" />
-  <figcaption>Good: Google’s Data Studio sign up process includes separate consent for each type of email they’d like to send, all of which are separate from consenting to their T&C.</figcaption>
+  <figcaption class="caption">Good: Google’s Data Studio sign up process includes separate consent for each type of email they’d like to send, all of which are separate from consenting to their T&C.</figcaption>
 </figure>
 
 ## Data Rights <a name="data" href="#data"><i class="ion-link"></i></a>
@@ -80,12 +80,12 @@ The “Right to be Forgotten” is a requirement that’s caused a lot of troubl
 
 <figure>
   <img src="/img/posts/designer-guide-gdpr/github-delete.jpg" />
-  <figcaption>Good: Github’s Delete Account option is easily found in Account Settings and makes it very clear what will happen if you delete your account.</figcaption>
+  <figcaption class="caption">Good: Github’s Delete Account option is easily found in Account Settings and makes it very clear what will happen if you delete your account.</figcaption>
 </figure>
 
 <figure>
   <img src="/img/posts/designer-guide-gdpr/validately-delete.jpg" />
-  <figcaption>Bad: Validately provides no way to downgrade or delete your account without contacting them via email.</figcaption>
+  <figcaption class="caption">Bad: Validately provides no way to downgrade or delete your account without contacting them via email.</figcaption>
 </figure>
 
 GDPR has a bias toward transparency, which includes the Right to be Informed. On top of needing to disclose what data is being collected and processed, and by whom (yourself and any external/3rd party resources), you need to maintain versions of your Terms and Conditions and Privacy Policy and track when users consent to them. Users have a right to know exactly what they consented to and when, and to be notified of any changes to those policies.
@@ -102,7 +102,7 @@ And GDPR is all about context. By providing just-in-time consent, you establish 
 
 <figure>
   <img src="/img/posts/designer-guide-gdpr/permissions.jpg" />
-  <figcaption>(Really, really) Bad: Asking for all of the permissions up front, and asking for unrelated permissions to your app’s core functionality.</figcaption>
+  <figcaption class="caption">(Really, really) Bad: Asking for all of the permissions up front, and asking for unrelated permissions to your app’s core functionality.</figcaption>
 </figure>
 
 GDPR is also about control. There’s no reason to hide the exit (or anything, really) from users. If someone wants to get off of your service/platform, they will. The harder you make it for them, the less likely they are to ever return or recommend your service. This [peak-end rule](https://en.wikipedia.org/wiki/Peak%E2%80%93end_rule) can be a powerful tool in your design arsenal and should be taken seriously.

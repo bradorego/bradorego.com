@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on bradorego.com</title>
+    <title>blog on bradorego.com</title>
     <link>http://bradorego.com/tags/blog/</link>
-    <description>Recent content in Blog on bradorego.com</description>
+    <description>Recent content in blog on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 04 Apr 2018 21:25:41 -0400</lastBuildDate>

@@ -2,6 +2,7 @@
   background: $white;
   overflow: hidden;
   padding: 0;
+  @include card-shadow();
   .blog-header {
     width: 100%;
     position: relative;
