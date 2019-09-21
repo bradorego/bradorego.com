@@ -1,4 +1,5 @@
 {{ if .Params.categories }}
+  <div data-aos="fade-up">
     {{ $name := index .Params.categories 0 }}
     <hr/>
     All <b>{{title $name}}</b> posts:
@@ -9,4 +10,5 @@
       <li><a href="{{.Permalink}}" target="_self">{{.LinkTitle}}</a></li>
     {{end}}
     </ul>
+  </div>
 {{end}}
