@@ -41,6 +41,8 @@ document.addEventListener('DOMContentLoaded', function () {
   var $wrapper = document.getElementById('wrapper'),
     $scrollUp = document.getElementById('scrollUp');
     $toggles = Array.from(document.getElementsByClassName('showcase-toggle')),
+    $body = document.querySelector('body'),
+    $dmToggle = document.getElementById('darkmode-toggle'),
     toggleClickListener = (event) => {
       event.preventDefault(); event.stopPropagation();
       let card = event.target.parentElement.parentElement.parentElement;
@@ -48,6 +50,20 @@ document.addEventListener('DOMContentLoaded', function () {
       Array.from(card.getElementsByClassName('showcase-toggle')).forEach((t) => {t.removeClass('active');}); /// unselect others
       event.target.addClass('active'); /// select clicked
     };
+  if (JSON.parse(window.localStorage.getItem('bjo-dark-mode'))) {
+    $body.toggleClass('dark-mode');
+    $dmToggle.checked = true;
+  } /// set the toggle to whatever it was last
+
+  AOS.init({
+    once: true,
+    duration: 600
+  });
+
+  $dmToggle.addEventListener('change', function (e) {
+    $body.toggleClass('dark-mode');
+    window.localStorage.setItem('bjo-dark-mode', !!this.checked); /// persist across page load/visit
+  });
 
     $toggles.forEach((t) => {
       t.addEventListener('click', toggleClickListener);
@@ -67,4 +83,5 @@ document.addEventListener('DOMContentLoaded', function () {
       window.scrollTo(0, 0);
     });
   }
+  window.setTimeout($body.removeClass('preload'), 100); /// fix animation flash
 });

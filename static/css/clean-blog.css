@@ -6941,7 +6941,7 @@ body {
   webkit-tap-highlight-color: #546E7A; }
 
 .blog-body {
-  background: white;
+  background-color: white;
   overflow: hidden;
   padding: 0;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.09), 0 6px 6px rgba(0, 0, 0, 0.13); }
@@ -7065,37 +7065,88 @@ body {
       .card.blog .card-body .text {
         margin: 20px; }
 
-.navbar img {
-  border-radius: 50%;
-  float: left;
-  margin-right: 10px; }
-
-.navbar h1 {
-  font-size: 20px; }
-
-.navbar h2 {
-  font-size: 14px; }
-
-@media (max-width: 479px) {
-  .navbar .navbar-brand {
-    white-space: initial; } }
-
-@media (max-width: 767px) {
-  .navbar .btn-group {
-    width: 100%; }
-    .navbar .btn-group .btn {
-      font-size: 14px;
-      padding: 3px 12px; } }
-
-.navbar .btn-group .btn {
-  border-width: 2px;
-  font-weight: 600; }
-  .navbar .btn-group .btn.active, .navbar .btn-group .btn:active, .navbar .btn-group .btn:focus {
-    box-shadow: none;
+.navbar {
+  color: white; }
+  .navbar img {
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px; }
+  .navbar h1, .navbar h2 {
+    font-family: "Roboto";
+    font-weight: 600; }
+  .navbar h1 {
+    font-size: 20px; }
+  .navbar h2 {
+    font-size: 14px; }
+  @media (max-width: 479px) {
+    .navbar .navbar-brand {
+      white-space: initial; } }
+  @media (max-width: 767px) {
+    .navbar .btn-group {
+      width: 100%; }
+      .navbar .btn-group .btn {
+        font-size: 14px;
+        padding: 3px 12px; } }
+  .navbar .btn-group .btn {
+    border-width: 2px;
+    font-weight: 600; }
+    .navbar .btn-group .btn.active, .navbar .btn-group .btn:active, .navbar .btn-group .btn:focus {
+      box-shadow: none;
+      color: #546E7A; }
+  .navbar .btn-group .btn-outline-light:hover {
     color: #546E7A; }
 
-.navbar .btn-group .btn-outline-light:hover {
-  color: #546E7A; }
+.navbar-toggle-wrap {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 8px;
+  margin-right: 10px; }
+
+.toggle-container {
+  display: inline-block;
+  width: 40px;
+  height: 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+  background-color: #f2f2f2;
+  transition: border-color 300ms; }
+  @media (max-width: 991px) {
+    .toggle-container {
+      width: 30px; } }
+  .toggle-container .real-checkbox {
+    position: absolute;
+    clip: rect(0, 0, 0, 0); }
+    .toggle-container .real-checkbox + .toggle-button {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border-radius: 30px;
+      transition: all 300ms; }
+      .toggle-container .real-checkbox + .toggle-button::before {
+        content: '';
+        cursor: pointer;
+        display: inline-block;
+        position: absolute;
+        top: -5px;
+        left: -5px;
+        width: 20px;
+        height: 20px;
+        background-color: white;
+        border-radius: 50%;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        transition: all 200ms ease-in-out; }
+    .toggle-container .real-checkbox:checked + .toggle-button {
+      background-color: #87a1ad; }
+      .toggle-container .real-checkbox:checked + .toggle-button::before {
+        margin-left: 30px;
+        background-color: #546E7A; }
+
+h1, h2, h3, h4, h5, h6, blockquote {
+  font-family: "Roboto Mono"; }
 
 h1 {
   font-size: 2rem; }
@@ -7180,7 +7231,8 @@ footer {
       text-decoration: none; }
 
 figure {
-  position: relative; }
+  position: relative;
+  margin: 1em 2em; }
   figure figcaption {
     position: absolute;
     font-size: 12px;
@@ -7225,3 +7277,37 @@ body {
   @media (max-width: 767.99px) {
     body {
       margin-top: 150px; } }
+
+body.dark-mode {
+  background: #212629;
+  color: #f2f2f2; }
+  body.dark-mode .card, body.dark-mode .blog-body {
+    background-color: #222; }
+  body.dark-mode footer a {
+    color: #f2f2f2; }
+  body.dark-mode footer li.patreon g {
+    fill: #f2f2f2; }
+  body.dark-mode hr.dark {
+    border-color: #f2f2f2; }
+  body.dark-mode .blog-body .blog-content blockquote {
+    background: #212629; }
+
+body {
+  transition: background-color 0.2s ease; }
+
+[data-aos^=fade][data-aos^=fade],
+body .card,
+body .blog-body,
+footer a,
+footer li.patreon g,
+blockquote,
+hr {
+  transition: color 0.2s ease, fill 0.3s ease, background-color 0.3s ease; }
+
+body.preload {
+  opacity: 0;
+  transition: none !important; }
+  body.preload * {
+    transition: none !important; }
+    body.preload *::before {
+      transition: none !important; }

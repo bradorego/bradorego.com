@@ -6,26 +6,16 @@
     <description>Recent content in Categories on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 27 Jul 2019 10:19:19 -0400</lastBuildDate>
     
 	<atom:link href="http://bradorego.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>User Experience</title>
-      <link>http://bradorego.com/categories/user-experience/</link>
-      <pubDate>Sat, 27 Jul 2019 10:19:19 -0400</pubDate>
+      <title>Development</title>
+      <link>http://bradorego.com/categories/development/</link>
+      <pubDate>Mon, 29 Jan 2018 01:59:21 -0500</pubDate>
       
-      <guid>http://bradorego.com/categories/user-experience/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Showcase</title>
-      <link>http://bradorego.com/categories/showcase/</link>
-      <pubDate>Wed, 17 Jul 2019 11:12:46 -0500</pubDate>
-      
-      <guid>http://bradorego.com/categories/showcase/</guid>
+      <guid>http://bradorego.com/categories/development/</guid>
       <description></description>
     </item>
     
@@ -39,11 +29,20 @@
     </item>
     
     <item>
-      <title>Development</title>
-      <link>http://bradorego.com/categories/development/</link>
-      <pubDate>Mon, 29 Jan 2018 01:59:21 -0500</pubDate>
+      <title>Showcase</title>
+      <link>http://bradorego.com/categories/showcase/</link>
+      <pubDate>Wed, 17 Jul 2019 11:12:46 -0500</pubDate>
       
-      <guid>http://bradorego.com/categories/development/</guid>
+      <guid>http://bradorego.com/categories/showcase/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>User Experience</title>
+      <link>http://bradorego.com/categories/user-experience/</link>
+      <pubDate>Sat, 27 Jul 2019 10:19:19 -0400</pubDate>
+      
+      <guid>http://bradorego.com/categories/user-experience/</guid>
       <description></description>
     </item>
     
