@@ -2,7 +2,7 @@
   <div class="container">
     <a class="navbar-brand" href="/" target="_self">
       <h1>Brad Orego</h1>
-      <h2>User Researcher. Experience Designer. Entrepreneur. Dancer.</h2>
+      <h2>{{.Site.Params.one_liner}}</h2>
     </a>
     <div class="btn-group d-flex" role="group">
       <a role="button" href="/" target="_self" class="btn btn-outline-light w-100 {{if eq .Page.Type "showcase"}}active{{end}}{{if eq .Page.URL "/"}}active{{end}}">Showcase</a>
