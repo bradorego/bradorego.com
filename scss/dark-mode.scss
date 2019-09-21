@@ -13,16 +13,21 @@ body.dark-mode {
   hr.dark {
     border-color: $darkmode-font;
   }
+  .blog-body .blog-content blockquote {
+    background: $darkmode-bg;
+  }
 }
 
 body {
   transition: background-color 0.2s ease;
 }
-.card,
-.blog-body,
+[data-aos^=fade][data-aos^=fade],
+body .card,
+body .blog-body,
 footer a,
 footer li.patreon g,
+blockquote,
 hr {
-  transition: color 0.3s ease, fill 0.3s ease, background-color 0.2s ease;
+  transition: color 0.2s ease, fill 0.3s ease, background-color 0.3s ease;
   // transition: all 0.2s ease;
 }
