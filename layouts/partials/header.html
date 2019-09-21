@@ -50,5 +50,11 @@
     {{ partial "ga.html" . }}
 </head>
 
-<body>
+<script type="text/javascript">
+    if (JSON.parse(window.localStorage.getItem('bjo-dark-mode'))) {
+        document.body.addClass('dark-mode');
+    }
+</script>
+
+<body class="preload">
     {{ partial "scrollUp.html" . }}

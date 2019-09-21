@@ -1,0 +1,28 @@
+body.dark-mode {
+  background: $darkmode-bg;
+  color: $darkmode-font;
+  .card, .blog-body {
+    background-color: $darkmode-white;
+  }
+  footer a {
+    color: $darkmode-font;
+  }
+  footer li.patreon g {
+    fill: $darkmode-font;
+  }
+  hr.dark {
+    border-color: $darkmode-font;
+  }
+}
+
+body {
+  transition: background-color 0.2s ease;
+}
+.card,
+.blog-body,
+footer a,
+footer li.patreon g,
+hr {
+  transition: color 0.3s ease, fill 0.3s ease, background-color 0.2s ease;
+  // transition: all 0.2s ease;
+}

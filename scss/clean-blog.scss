@@ -14,3 +14,16 @@
 
 @import "leftover";
 
+@import "dark-mode";
+
+body.preload {
+  // visibility: hidden
+  opacity: 0;;
+  transition: none !important;
+  * {
+    transition: none !important;
+    &::before {
+      transition: none !important;
+    }
+  }
+}

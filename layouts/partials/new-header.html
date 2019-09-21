@@ -4,6 +4,13 @@
       <h1>Brad Orego</h1>
       <h2>{{.Site.Params.one_liner}}</h2>
     </a>
+    <label for="darkmode-toggle" class="navbar-toggle-wrap">
+      Dark Mode
+      <div class="toggle-container">
+        <input type="checkbox" id="darkmode-toggle" class="real-checkbox">
+        <div class="toggle-button"></div>
+      </div>
+    </label>
     <div class="btn-group d-flex" role="group">
       <a role="button" href="/" target="_self" class="btn btn-outline-light w-100 {{if eq .Page.Type "showcase"}}active{{end}}{{if eq .Page.URL "/"}}active{{end}}">Showcase</a>
       <a role="button" href="/blog" target="_self" class="btn btn-outline-light w-100 {{if eq .Page.Type "blog"}}active{{end}}">Blog</a>
