@@ -19,15 +19,21 @@ body.dark-mode {
 }
 
 body {
-  transition: background-color 0.2s ease;
+  transition: background-color $darkmode-transition-duration ease;
 }
-[data-aos^=fade][data-aos^=fade],
+// [data-aos^=fade][data-aos^=fade],
+h2.divider,
 body .card,
 body .blog-body,
 footer a,
 footer li.patreon g,
 blockquote,
 hr {
-  transition: color 0.2s ease, fill 0.3s ease, background-color 0.3s ease;
-  // transition: all 0.2s ease;
+  transition-duration: $darkmode-transition-duration;
+  transition-property: color, fill, background-color;
+  transition-timing-function: ease;
+}
+
+[data-aos^=fade][data-aos^=fade].blog-body { /// fixing aos's issue
+  transition-property: color, fill, background-color, opacity, transform;
 }

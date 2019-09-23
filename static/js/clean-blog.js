@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   AOS.init({
     once: true,
-    duration: 600
+    duration: 500
   });
 
   $dmToggle.addEventListener('change', function (e) {
