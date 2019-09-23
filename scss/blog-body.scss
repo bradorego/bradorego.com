@@ -93,6 +93,11 @@
     .nda {
       font-size: 14px;
     }
+    div[class^='col'] {
+      figure {
+        margin: 0;
+      }
+    }
   } //.blog-content
 
   &.showcase {

@@ -54,26 +54,33 @@ Bearing that flag and using it as a guide, the first thing I did when joining 10
 Aside from getting face time with a variety of stakeholders at the company and giving them an overview of my vision for User Experience at 1010, I had three main questions for my interviewees:
 
 * In your role and in your department, what’s the nature of your interaction with end users and customers?
-
 * How can User Experience Research & Design help you accomplish your goals?
-
 * How can you and your team help User Experience Research & Design accomplish ours?
 
 When I was going through my vision of UX@1010, I found myself drawing two diagrams on whiteboards repeatedly, which I eventually codified and put on Confluence:
 
-<figure>
-  <img src="/img/posts/building-ux-department-from-scratch/30-60-90-day.png" />
-  <figcaption class="caption">30-60-90+ Day Plan</figcaption>
-</figure>
-
-The first is essentially “what am I doing here”. My responsibilities and activities fall into 3 buckets: leading and building a User Experience Team, conducting high-impact Research directly on some of our key products, and scaling human-centered design across the company.
-
-<figure>
-  <img src="/img/posts/building-ux-department-from-scratch/ux-org-chart.png" />
-  <figcaption class="caption">UX Department Structure</figcaption>
-</figure>
-
-The second is how I envision structuring the organization, and how individuals can progress through their careers. The original draft didn’t account for a hybrid role, but I can see the value in giving junior team members experience in both practices and letting them choose. I’ll also call out the inclusion of Operations as its own track. My commitment to and engagement with the [ResearchOps Community](https://twitter.com/teamreops) has had a profound impact on how I see Operations and its role in building a successful, productive team.
+<div class="row">
+  <div class="col-lg-6">
+    <figure>
+      <img src="/img/posts/building-ux-department-from-scratch/30-60-90-day.png" />
+      <figcaption class="caption">30-60-90+ Day Plan</figcaption>
+    </figure>
+  </div>
+  <div class="col-lg-6">
+    The first is essentially “what am I doing here”. My responsibilities and activities fall into 3 buckets: leading and building a User Experience Team, conducting high-impact Research directly on some of our key products, and scaling human-centered design across the company.
+  </div>
+</div>
+<div class="row">
+  <div class="col-lg-6">
+    <figure>
+      <img src="/img/posts/building-ux-department-from-scratch/ux-org-chart.png" />
+      <figcaption class="caption">UX Department Structure</figcaption>
+    </figure>
+  </div>
+  <div class="col-lg-6">
+    The second is how I envision structuring the organization, and how individuals can progress through their careers. The original draft didn’t account for a hybrid role, but I can see the value in giving junior team members experience in both practices and letting them choose. I’ll also call out the inclusion of Operations as its own track. My commitment to and engagement with the <a href="https://researchops.community">ResearchOps Community</a> has had a profound impact on how I see Operations and its role in building a successful, productive team.
+  </div>
+</div>
 
 # You have a structure, now what? <a name="structure" href="#structure"><i class="ion-link"></i></a>
 
@@ -92,18 +99,26 @@ I prioritized the titles that we currently had and were working to fill at the d
 
 > Clear, concrete position definitions and expectations made it easy to self-assess strengths versus weaknesses and identify growth opportunities.
 
-<figure>
-  <img src="/img/posts/building-ux-department-from-scratch/gap-analysis.png" />
-  <figcaption class="caption">One draft of 1010UX’s gap analysis. Lots of holes, lots of things I’m supposed to be covering.</figcaption>
-</figure>
-
-# Filling the gaps <a name="gaps" href="#gaps"><i class="ion-link"></i></a>
-
-On top of identifying what was expected of every position at every level (which is still an ongoing process, mind you), we also started working on coverage. By speaking with all of the existing design talent at 1010 (only some of which is allocated to UX) and some of senior stakeholders/leadership, I put together a [gap analysis](https://en.wikipedia.org/wiki/Gap_analysis), identifying which parts of the business had little (or no) Research or Design coverage. This helps provide visibility as to who is allocated to what and where our primary needs are, driving both allocation of current resources and prioritizing hiring activity for the department.
-
-This activity alone lead to the consolidation of some of our existing design talent under UX and helped kick off our hiring processes to bring in additional resources. We’re currently in the middle of making 1010data’s first direct UX Design and User Research hires, and I’m in the process of arguing for additional resourcing for *Design/Research Operations*, which is something that is crucial to productivity as teams scale, and something so many companies miss.
-
-I’ve also worked to continue the conversations I’d had when I first joined the company and did my initial battery of stakeholder interviews (the summary of which, by the way, made it all the way to the board of directors). A lot of those conversations centered around a lack of **access to end users**, lack of **process to communicate feedback** to the appropriate parties, and a general feeling of being **siloed and isolated**. By keeping lines of communication open and reaching out to collaborate with Customer Success, Sales, Marketing as well as Product and Engineering, we’ve begun to **position UX as a central piece of the entire organization** and as an ally to various parts of the business.
+<div class="row mt-5">
+  <div class="col-lg-6">
+    <h1 id="gaps" class="mt-0">Filling the gaps <a name="gaps" href="#gaps"><i class="ion-link"></i></a></h1>
+    <p>
+      On top of identifying what was expected of every position at every level (which is still an ongoing process, mind you), we also started working on coverage. By speaking with all of the existing design talent at 1010 (only some of which is allocated to UX) and some of senior stakeholders/leadership, I put together a <a href="https://en.wikipedia.org/wiki/Gap_analysis">gap analysis</a>, identifying which parts of the business had little (or no) Research or Design coverage. This helps provide visibility as to who is allocated to what and where our primary needs are, driving both allocation of current resources and prioritizing hiring activity for the department.
+    </p>
+    <p>
+      This activity alone lead to the consolidation of some of our existing design talent under UX and helped kick off our hiring processes to bring in additional resources. We’re currently in the middle of making 1010data’s first direct UX Design and User Research hires, and I’m in the process of arguing for additional resourcing for <em>Design/Research Operations</em>, which is something that is crucial to productivity as teams scale, and something so many companies miss.
+    </p>
+    <p>
+      I’ve also worked to continue the conversations I’d had when I first joined the company and did my initial battery of stakeholder interviews (the summary of which, by the way, made it all the way to the board of directors). A lot of those conversations centered around a lack of <strong>access to end users</strong>, lack of <strong>process to communicate feedback</strong> to the appropriate parties, and a general feeling of being <strong>siloed and isolated</strong>. By keeping lines of communication open and reaching out to collaborate with Customer Success, Sales, Marketing as well as Product and Engineering, we’ve begun to <strong>position UX as a central piece of the entire organization</strong> and as an ally to various parts of the business.
+    </p>
+  </div>
+  <div class="col-lg-6">
+    <figure>
+      <img src="/img/posts/building-ux-department-from-scratch/gap-analysis.png" />
+      <figcaption class="caption">One draft of 1010UX’s gap analysis. Lots of holes, lots of things I’m supposed to be covering.</figcaption>
+    </figure>
+  </div>
+</div>
 
 # Where the rubber meets the road <a name="road" href="#road"><i class="ion-link"></i></a>
 
@@ -140,7 +155,7 @@ We’ve covered a lot of ground in this post already, but there’s so much more
 
 We have a lot more work to do and a lot more to cover. Subscribe to this publication to follow along our journey. The plan is to post every other week as we go, and you’ll hear from all different members of the team. Our next post will cover the **history of design at 1010data**, which we’ll follow with posts about **migrating from Sketch to Figma** and about the **development of Disco, our design system**.
 
-And, as always, don’t hesitate to reach out directly to me ([brad.orego@1010data.com](mailto:brad.orego@1010data.com?Subject=I read the 1010UX blog and I want to chat)) if you have any questions, comments, suggestions, or just want to talk shop! We’re always looking to collaborate and share ideas.
+And, as always, don’t hesitate to reach out directly to me ([hello@bradorego.com](mailto:hello@bradorego.com?Subject=I read the 1010UX blog and I want to chat)) if you have any questions, comments, suggestions, or just want to talk shop! We’re always looking to collaborate and share ideas.
 
 ---
 
