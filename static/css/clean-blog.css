@@ -7282,7 +7282,7 @@ body.dark-mode {
   background: #212629;
   color: #f2f2f2; }
   body.dark-mode .card, body.dark-mode .blog-body {
-    background-color: #222; }
+    background-color: #111; }
   body.dark-mode footer a {
     color: #f2f2f2; }
   body.dark-mode footer li.patreon g {
@@ -7293,16 +7293,21 @@ body.dark-mode {
     background: #212629; }
 
 body {
-  transition: background-color 0.2s ease; }
+  transition: background-color 0.5s ease; }
 
-[data-aos^=fade][data-aos^=fade],
+h2.divider,
 body .card,
 body .blog-body,
 footer a,
 footer li.patreon g,
 blockquote,
 hr {
-  transition: color 0.2s ease, fill 0.3s ease, background-color 0.3s ease; }
+  transition-duration: 0.5s;
+  transition-property: color, fill, background-color;
+  transition-timing-function: ease; }
+
+[data-aos^=fade][data-aos^=fade].blog-body {
+  transition-property: color, fill, background-color, opacity, transform; }
 
 body.preload {
   opacity: 0;
