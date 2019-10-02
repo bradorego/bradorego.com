@@ -34,6 +34,7 @@ hr {
   transition-timing-function: ease;
 }
 
-[data-aos^=fade][data-aos^=fade].blog-body { /// fixing aos's issue
+[data-aos^=fade][data-aos^=fade].blog-body,
+[data-aos^=fade][data-aos^=fade].card { /// fixing aos's issue
   transition-property: color, fill, background-color, opacity, transform;
 }
