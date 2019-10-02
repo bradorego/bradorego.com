@@ -7,7 +7,11 @@
    "draft": false,
    "image": "/img/posts/research-playbooks-what-why/header.jpg",
    "tags": [
-      "design"
+      "user research",
+      "research operations",
+      "operations",
+      "playbook",
+      "reops"
    ],
    "title": "Research Playbooks: What Are They and Why You Should Have One",
    "lessonsLearned": [
@@ -16,11 +20,6 @@
       "While each organization is free to go through the process of getting started from scratch with their own Playbook, we're also working on creating an open-sourced, community-approved Playbook in an effort to standardize practices across the industry."
    ]
 }
-
-<figure>
-  <img src="https://media.giphy.com/media/3osxYamKD88c6pXdfO/giphy.gif" />
-  <figcaption><a href="https://giphy.com/gifs/season-3-money-unicorn-3osxYamKD88c6pXdfO/">Source</a></figcaption>
-</figure>
 
 Depending on your context and your background, the notion (or even terminology) of a playbook may be completely foreign or completely mundane, however there's a huge potential upside in developing a Research Playbook for your organization. This post will go into detail as to **what playbooks are**, **why you should have one**, and **how to get started**. There's also a <a href="#cta" target="_self">call-to-action</a> at the end to **help produce an open-source playbook** to set a standard across the industry.
 
@@ -44,7 +43,7 @@ I'm unclear who was the first to use the term "playbook" to refer to a set of gu
 
 As it turns out, we have similar situational goals and strategic considerations in User Research. Is your focus _early stage generative research_, or is _highly tactical, evaluative research_? Luckily, we don't necessarily have to work against another team actively trying to prevent our work, but we should be **aware of the capabilities of our teammates**, of leadership, of the project sponsors, etc., and we should **pick the best possible plan of attack** (or, play) based on all of those factors. Creating a playbook will help your team by codifying what the options are and providing some **insight as to what situations call for which plays**.
 
-# Okay, but what actually is it? <a name="transparency" href="#transparency"><i class="ion-link"></i></a>
+# Okay, but what actually is it? <a name="actually" href="#actually"><i class="ion-link"></i></a>
 #### Plays, Guides, Templates. The building blocks of consistency in research methodology.
 
 There are many forms a playbook can take, but at its basis, it'll have at least one thing: plays. **Plays** are essentially sets of instructions of how to conduct a variety of human-centered research methods. It's up to you to decide exactly what goes into the play (how much detail you go into, how prescriptive you are, etc.), but it should at least include:
@@ -79,7 +78,7 @@ Again, the above outline isn't a be-all, end-all, and it leaves a lot of details
 # A call to arms <a name="cta" href="#cta"><i class="ion-link"></i></a>
 #### Let's build an open-sourced standard/template Research Playbook
 
-Over the past year, the [ReOps Community](https://researchops.community) has grown and matured significantly, and along with it, my interest in and passion for Research Operations. For a long time, I thought of this as something I was in the minority when it comes to caring about it, and I attributed it to my background/training as an engineer, constantly searching for efficiency and optimization. As it turns out, there's an **entire discipline devoted to operations** (popularized first by (Software) Development Operations, and then more recently by Design Operations), and while a lot of these duties have traditionally fallen to individuals in management roles, more _mature organizations are building out standalone Ops teams_.
+Over the past year, the [ReOps Community](https://researchops.community) has grown and matured significantly, and along with it, my interest in and passion for Research Operations. For a long time, I thought of this as something I was in the minority when it comes to caring about it, and I attributed it to my background/training as an engineer, constantly searching for efficiency and optimization. As it turns out, there's an **entire discipline devoted to operations** (popularized first by (Software) Development Operations, and then more recently by Design Operations), and while a lot of these duties have traditionally fallen to individuals in management roles, _mature organizations are building out standalone Ops teams_.
 
 In my quest to improve rigor in the User Research world, I've come to realize that **consistency can be an impediment**. As an undergraduate studying research psychology and working in Andrew Elliot's [Approach-Avoidance Motivation Group](http://www.sas.rochester.edu/psy/research/apav/index.html), one of the most important elements of any study was **developing a protocol**. Each method has its own standard set of instructions and guidelines, and each individual study applied those guidelines to create a protocol. The protocol helped us **minimize bias** and to ensure that, across facilitators, we were **maintaining consistency**. Only recently did it occur to me that we can apply the same approach and philosophy to our work as professional User/Design Researchers.
 
