@@ -6,10 +6,19 @@
     <description>Recent content on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 27 Jul 2019 10:19:19 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 16 Sep 2019 10:19:19 -0400</lastBuildDate>
     
 	<atom:link href="http://bradorego.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Research Playbooks: What Are They and Why You Should Have One</title>
+      <link>http://bradorego.com/research-playbooks-what-are-they-and-why-you-should-have-one/</link>
+      <pubDate>Mon, 16 Sep 2019 10:19:19 -0400</pubDate>
+      
+      <guid>http://bradorego.com/research-playbooks-what-are-they-and-why-you-should-have-one/</guid>
+      <description>Depending on your context and your background, the notion (or even terminology) of a playbook may be completely foreign or completely mundane, however there&amp;rsquo;s a huge potential upside in developing a Research Playbook for your organization. This post will go into detail as to what playbooks are, why you should have one, and how to get started. There&amp;rsquo;s also a call-to-action at the end to help produce an open-source playbook to set a standard across the industry.</description>
+    </item>
     
     <item>
       <title>Building a UX Department from scratch at a 20-year-old Big Data Company</title>

@@ -1,4 +1,12 @@
-<!DOCTYPE html><html><head><title>Places Autocomplete</title><meta name=viewport content="initial-scale=1.0, user-scalable=no"><meta charset=utf-8><script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=places"></script><style>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Places Autocomplete</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=places"></script>
+
+    <style>
       html, body {
         height: 100%;
         margin: 0;
@@ -24,7 +32,9 @@
         padding: 10px;
         font-size: 16px;
       }
-    </style><script>
+    </style>
+
+    <script>
 function initialize() {
   var mapOptions = {
     center: new google.maps.LatLng(43.0748, -89.3856),
@@ -88,4 +98,12 @@ function initialize() {
 
 google.maps.event.addDomListener(window, 'load', initialize);
 
-    </script></head><body><div id=panel><input id=searchTextField type=search></div><div id=map-canvas></div></body></html>
+    </script>
+  </head>
+  <body>
+    <div id="panel">
+      <input id="searchTextField" type="search" />
+    </div>
+    <div id="map-canvas"></div>
+  </body>
+</html>

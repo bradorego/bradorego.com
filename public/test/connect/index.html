@@ -1,1 +1,65 @@
-<!DOCTYPE html><html><head><meta name=viewport content="width=device-width, initial-scale=1"><title>Setup your device</title><link rel=stylesheet type=text/css href=style.css><link rel="shortcut icon" href=logo_N_blue.ico></head><body><h1>Neo Smart Blinds</h1><div id=initial-div><h2>Let's connect your Neo Controller to the Wifi.</h2><p><ol><li>Plug-in your device.</li><li>Make sure it is blinking blue. If it isn't, press and hold the 'S' button until it does.</li><li>Disconnect from your WiFi and Connect to the new WiFi hotspot it creates. It will appear as <i>Neo-Smart-Blinds-XXXX</i> on your network list.</li><li>Press Next.</li></ol></p><p><button id=initial-button type=button>Next</button></p></div><div id=device-id-div style="display: none"><h3>Device ID:</h3><input type=text id=device-id size=25 value disabled> <button type=button class=input-helper id=copy-button>Copy</button></div><div id=scan-div style="display: none"><h3>Scan for visible WiFi networks</h3><button id=scan-button type=button>Scan</button></div><div id=networks-div></div><div id=connect-div style="display: none"><p>Don't see your network? Move your controller closer to your router, then re-scan.</p><form id=connect-form><input type=password id=password size=25 placeholder=password> <button type=button class=input-helper id=show-button>Show</button> <button type=submit id=connect-button>Connect</button></form></div><script src=rsa-utils/jsbn_1.js></script><script src=rsa-utils/jsbn_2.js></script><script src=rsa-utils/prng4.js></script><script src=rsa-utils/rng.js></script><script src=rsa-utils/rsa.js></script><script src=script.js></script></body></html>
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>Setup your device</title>
+  <link rel='stylesheet' type='text/css' href='style.css'>
+  <link rel="shortcut icon" href="logo_N_blue.ico">
+</head>
+
+<body>
+  <h1>Neo Smart Blinds</h1>
+  
+  <div id='initial-div'>
+  <h2>Let's connect your Neo Controller to the Wifi.</h2>
+    <p>
+      <ol>
+        <li>Plug-in your device.</li>
+        <li>Make sure it is blinking blue. If it isn't, press and hold the 'S' button until it does.</li>
+        <li>Disconnect from your WiFi and Connect to the new WiFi hotspot it creates. It will appear as <i>Neo-Smart-Blinds-XXXX</i> on your network list.</li>
+        <li>Press Next.</li>
+      </ol>
+    <p>
+    <button id='initial-button' type='button'>Next</button>
+  </div>
+  
+  <div id='device-id-div' style='display: none'>
+    <h3>Device ID:</h3>
+    <input type=text id='device-id' size='25' value='' disabled/>
+    <button type='button' class='input-helper' id='copy-button'>Copy</button>
+  </div>
+  
+  <div id='scan-div' style='display: none'>
+    <h3>Scan for visible WiFi networks</h3>
+    <button id='scan-button' type='button'>Scan</button>
+  </div>
+
+  <div id='networks-div'>
+  </div>
+  
+  <div id='connect-div' style='display: none'>
+    <p>Don't see your network? Move your controller closer to your router, then re-scan.</p>
+    <form id='connect-form'>
+      <input type='password' id='password' size='25' placeholder='password'/>
+      <button type='button' class='input-helper' id='show-button'>Show</button>
+      <button type='submit' id='connect-button'>Connect</button>
+    </form>
+  </div>
+
+  <script src='rsa-utils/jsbn_1.js'></script>
+  <script src='rsa-utils/jsbn_2.js'></script>
+  <script src='rsa-utils/prng4.js'></script>
+  <script src='rsa-utils/rng.js'></script>
+  <script src='rsa-utils/rsa.js'></script>
+  <script src='script.js'></script>
+
+</body>
+
+
+</html>
+
+
+
+

@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://bradorego.com/research-playbooks-what-are-they-and-why-you-should-have-one/</loc>
+    <lastmod>2019-09-16T10:19:19-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://bradorego.com/building-a-ux-department-from-scratch-at-a-20-year-old-big-data-company/</loc>
     <lastmod>2019-07-27T10:19:19-04:00</lastmod>
   </url>
@@ -246,7 +251,7 @@
   
   <url>
     <loc>http://bradorego.com/blog/</loc>
-    <lastmod>2019-07-27T10:19:19-04:00</lastmod>
+    <lastmod>2019-09-16T10:19:19-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -658,6 +663,12 @@
   </url>
   
   <url>
+    <loc>http://bradorego.com/tags/operations/</loc>
+    <lastmod>2019-09-16T10:19:19-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://bradorego.com/tags/opportunity-cost/</loc>
     <lastmod>2013-02-27T16:22:57-05:00</lastmod>
     <priority>0</priority>
@@ -696,6 +707,12 @@
   <url>
     <loc>http://bradorego.com/tags/physical-world/</loc>
     <lastmod>2012-12-22T14:21:58-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://bradorego.com/tags/playbook/</loc>
+    <lastmod>2019-09-16T10:19:19-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -772,8 +789,20 @@
   </url>
   
   <url>
+    <loc>http://bradorego.com/tags/reops/</loc>
+    <lastmod>2019-09-16T10:19:19-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://bradorego.com/tags/research/</loc>
     <lastmod>2018-04-21T11:12:46-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://bradorego.com/tags/research-operations/</loc>
+    <lastmod>2019-09-16T10:19:19-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -915,7 +944,7 @@
   
   <url>
     <loc>http://bradorego.com/categories/user-experience/</loc>
-    <lastmod>2019-07-27T10:19:19-04:00</lastmod>
+    <lastmod>2019-09-16T10:19:19-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -927,7 +956,7 @@
   
   <url>
     <loc>http://bradorego.com/tags/user-research/</loc>
-    <lastmod>2016-08-09T11:12:46-05:00</lastmod>
+    <lastmod>2019-09-16T10:19:19-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -963,7 +992,7 @@
   
   <url>
     <loc>http://bradorego.com/</loc>
-    <lastmod>2019-07-27T10:19:19-04:00</lastmod>
+    <lastmod>2019-09-16T10:19:19-04:00</lastmod>
     <priority>0</priority>
   </url>
   
