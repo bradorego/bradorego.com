@@ -16,8 +16,8 @@ $white: white;
 $bg: #f2f2f2;
 $border-radius: 8px;
 
-$darkmode-bg: #212629;
-$darkmode-white: #111;
+$darkmode-bg: #111;
+$darkmode-white: darken($brand-primary, 30%);
 $darkmode-font: #b2b2b2;
 $darkmode-transition-duration: 0.5s;
 
