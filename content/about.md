@@ -31,7 +31,9 @@ The current design of this website was inspired heavily/borrowed lovingly from [
 
 ---
 
-If you're <a href="http://www.sean-johnson.com/why-you-should-burn-your-resume/">unfortunate enough</a> to be looking for a r&eacute;sum&eacute;, you can find a (probably outdated) version <a href="/OregoDirectorResume.pdf" target="_self">here</a>.
+If you're <a href="http://www.sean-johnson.com/why-you-should-burn-your-resume/">unfortunate enough</a> to be looking for a r&eacute;sum&eacute;, you can find a (probably outdated) version <a href="/OregoDirectorResume.pdf">here</a>.
+
+You can also find a (probably outdated) portfolio sample <a href="https://docs.google.com/presentation/d/1SDT_f9vjKQbo270VA7kdEB9bnp6ZnhwJB2mlFm-eqHM/edit">here</a> as well.
 
 ---
 
