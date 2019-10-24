@@ -27,3 +27,14 @@ body.preload {
     }
   }
 }
+
+.card.construction {
+  background: $darkmode-bg;
+  color: $darkmode-font;
+}
+.dark-mode {
+  .card.construction {
+    background: $bg;
+    color: $gray-dark;
+  }
+}
