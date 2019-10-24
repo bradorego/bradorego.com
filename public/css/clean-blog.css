@@ -6996,7 +6996,7 @@ body {
     .blog-body .blog-content img {
       width: 100%; }
     .blog-body .blog-content hr {
-      border: 1px solid #404040; }
+      border: 1px solid #16161D; }
     .blog-body .blog-content blockquote {
       margin: -20px 0;
       padding: 15px;
@@ -7208,14 +7208,14 @@ footer {
   footer i {
     font-size: 32px; }
   footer a {
-    color: #404040; }
+    color: #16161D; }
     footer a:hover, footer a:focus, footer a:active {
       color: #546E7A; }
   footer li.patreon a {
     position: relative;
     top: -7px; }
   footer li.patreon g {
-    fill: #404040; }
+    fill: #16161D; }
   footer li.patreon a:hover g,
   footer li.patreon a:focus g,
   footer li.patreon a:active g {
@@ -7264,14 +7264,14 @@ hr.medium {
   border-color: white; }
 
 hr.dark {
-  border-color: #404040; }
+  border-color: #16161D; }
 
 .hidden {
   display: none; }
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: #404040;
+  color: #16161D;
   font-size: 20px;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -7281,10 +7281,10 @@ body {
       margin-top: 150px; } }
 
 body.dark-mode {
-  background: #212629;
+  background: #16161D;
   color: #b2b2b2; }
   body.dark-mode .card, body.dark-mode .blog-body {
-    background-color: #111; }
+    background-color: #161c1f; }
   body.dark-mode footer a {
     color: #b2b2b2; }
   body.dark-mode footer li.patreon g {
@@ -7292,7 +7292,7 @@ body.dark-mode {
   body.dark-mode hr.dark {
     border-color: #b2b2b2; }
   body.dark-mode .blog-body .blog-content blockquote {
-    background: #212629; }
+    background: #16161D; }
 
 body {
   transition: background-color 0.5s ease; }
@@ -7308,7 +7308,8 @@ hr {
   transition-property: color, fill, background-color;
   transition-timing-function: ease; }
 
-[data-aos^=fade][data-aos^=fade].blog-body {
+[data-aos^=fade][data-aos^=fade].blog-body,
+[data-aos^=fade][data-aos^=fade].card {
   transition-property: color, fill, background-color, opacity, transform; }
 
 body.preload {
@@ -7318,3 +7319,11 @@ body.preload {
     transition: none !important; }
     body.preload *::before {
       transition: none !important; }
+
+.card.construction {
+  background: #16161D;
+  color: #b2b2b2; }
+
+.dark-mode .card.construction {
+  background: #f2f2f2;
+  color: #16161D; }
