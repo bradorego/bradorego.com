@@ -1,4 +1,7 @@
 {
+  "aliases": [
+     "/improv"
+   ],
    "categories": [
       "User Experience"
    ],

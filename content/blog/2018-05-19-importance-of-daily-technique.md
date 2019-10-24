@@ -1,4 +1,7 @@
 {
+  "aliases": [
+     "/technique"
+   ],
    "categories": [
       "User Experience"
    ],

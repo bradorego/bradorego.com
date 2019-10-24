@@ -1,4 +1,7 @@
 {
+   "aliases": [
+     "/soulcycle"
+   ],
    "categories": [
       "Showcase"
    ],
@@ -11,7 +14,7 @@
    "lessonsLearned": [
      "Championing Research in an organization where it's fairly new can be an uphill battle, but it can also reap dividends.",
      "You need to make sure to meet them where they are:  prove the value through small wins, show the potential through higher-level presentations. Hallway/<a href='https://www.slideshare.net/BradOrego/guerrilla-ux-practical-and-affordable-research'>Guerilla UX Research</a> will be one of your most compelling tools here.",
-     "Always be aware of what the highest impact research may be and fight for that. For SoulCycle, that's focusing on the studio experince instead of the digital."
+     "Always be aware of what the highest impact research may be and fight for that. For SoulCycle, that's focusing on the studio experience instead of the digital."
    ],
    "NDA": true,
    "publishdate": "2018-04-21T11:12:46-05:00",

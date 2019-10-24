@@ -1,4 +1,7 @@
 {
+   "aliases": [
+     "/scratch"
+   ],
    "categories": [
       "User Experience"
    ],

@@ -1,4 +1,7 @@
 {
+   "aliases": [
+     "/performing-design"
+   ],
    "categories": [
       "Meta"
    ],

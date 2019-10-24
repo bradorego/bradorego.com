@@ -1,4 +1,7 @@
 {
+   "aliases": [
+     "/playbook"
+   ],
    "categories": [
       "User Experience"
    ],

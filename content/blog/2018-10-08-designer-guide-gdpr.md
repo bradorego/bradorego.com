@@ -1,4 +1,7 @@
 {
+  "aliases": [
+     "/gdpr"
+   ],
    "categories": [
       "User Experience"
    ],
