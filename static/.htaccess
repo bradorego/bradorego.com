@@ -1,4 +1,4 @@
 ErrorDocument 404 /404.html
 ErrorDocument 403 /403.html
-Redirect 301 /OregoPortfolioPreview.pdf https://docs.google.com/presentation/d/1SDT_f9vjKQbo270VA7kdEB9bnp6ZnhwJB2mlFm-eqHM/edit#slide=id.p
-Redirect 30 /portfolio https://docs.google.com/presentation/d/1SDT_f9vjKQbo270VA7kdEB9bnp6ZnhwJB2mlFm-eqHM/edit#slide=id.p
+Redirect 302 /OregoPortfolioPreview.pdf https://docs.google.com/presentation/d/1SDT_f9vjKQbo270VA7kdEB9bnp6ZnhwJB2mlFm-eqHM/edit#slide=id.p
+Redirect 302 /portfolio https://docs.google.com/presentation/d/1SDT_f9vjKQbo270VA7kdEB9bnp6ZnhwJB2mlFm-eqHM/edit#slide=id.p
