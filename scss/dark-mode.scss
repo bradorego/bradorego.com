@@ -13,8 +13,13 @@ body.dark-mode {
   hr.dark {
     border-color: $darkmode-font;
   }
-  .blog-body .blog-content blockquote {
-    background: $darkmode-bg;
+  .blog-body .blog-content {
+    blockquote {
+      background: $darkmode-bg;
+    }
+    hr {
+      border: 1px solid $darkmode-font;
+    }
   }
 }
 
