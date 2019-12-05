@@ -5,7 +5,7 @@
    "date": "2016-05-02T18:29:53-05:00",
    "description": "How I reverse engineered a beer app and reached feature parity in ~8 hours with Ionic.",
    "draft": false,
-   "image": "/img/showcase/better-mcbw/header.jpg",
+   "image": "/img/posts/better-mcbw/header.jpg",
    "publishdate": "2016-05-02T18:29:53-05:00",
    "tags": [
       "ionic",
@@ -44,7 +44,7 @@ So, realizing that my complaints weren't getting anyone anywhere (not to mention
 
 After doing a little bit of googling, I came across this <a href="https://medium.com/@rotxed/how-to-debug-http-s-traffic-on-android-7fbe5d2a34#.mhbido9ys">incredibly helpful article</a> explaining step-by-step exactly what I wanted to do. Next thing I know, I had a proxy running on my laptop, my phone's internet traffic streaming through that proxy, and I had access to every HTTP request the phone (and thus, the app) made. It was almost too easy.
 
-<img src="/img/showcase/better-mcbw/mitmproxy.png">
+<img src="/img/posts/better-mcbw/mitmproxy.png">
 
 ### The Horror
 
@@ -123,7 +123,7 @@ Which brought us down to 80KB. Still not great, but much better than 700KB. Okay
 
 This isn't going to be a lecture about how powerful social sharing plugins are in viral/organic growth. I'm less concerned about that and more concerned about the end-user experience. Considering I already had my own Firebase database, enabling this was actually trivial. Create a route outside the context of the app (otherwise users would get redirected to login) that took in the user's ID (from the URL) and pulled out the list of their saved events. Simple, straightforward, elegant. Add in a few social share buttons for convenience and the app practically markets itself.
 
-<img src="/img/showcase/better-mcbw/sharing.png">
+<img src="/img/posts/better-mcbw/sharing.png">
 
 ### Dividers
 
@@ -146,7 +146,7 @@ Couple this with `$ionInfiniteScroll` and we have lazy-loading events 20 at a ti
 
 ### Searching, Sorting, Maps
 
-<img src="/img/showcase/better-mcbw/map.png">
+<img src="/img/posts/better-mcbw/map.png">
 
 That's great and all, but what if I'm looking for a specific event? What if I'm in a particular part of town and I want to know what my other options are nearby? Sorting and Filtering were actually somewhat of a happy accident between what Angular offers and how I'd structured the rest of the app. When the user logs in, I fetch the list of events once and cache it. From there, pretty much everything they see is some permutation of that.
 
@@ -162,7 +162,7 @@ This is a terrible example of staying lean (as opposed to most of the other deve
 
 After wrestling with MailGun for awhile, <a href="https://sendgrid.com/">SendGrid</a> won out in terms of simplicity. I had test emails out within minutes, and all I had to do then was write a little server code to compile the list, do some basic HTML formatting, and that's one more feature to add to the list. I thought I was just doing this for myself, but I was instantly validated by this exchange:
 
-<img src="/img/showcase/better-mcbw/lauren.png" />
+<img src="/img/posts/better-mcbw/lauren.png" />
 
 # The Fuuuuuuuuuture <a name="future" href="#future"><i class="ion-link"></i></a>
 
