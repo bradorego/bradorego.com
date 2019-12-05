@@ -7293,6 +7293,8 @@ body.dark-mode {
     border-color: #b2b2b2; }
   body.dark-mode .blog-body .blog-content blockquote {
     background: #16161D; }
+  body.dark-mode .blog-body .blog-content hr {
+    border: 1px solid #b2b2b2; }
 
 body {
   transition: background-color 0.5s ease; }
