@@ -5,7 +5,7 @@
    "date": "2016-01-09T11:12:46-05:00",
    "dateRange": "2015",
    "description": "Spectrum Brands is the Fortune 1000 company behind iconic brands such as Rayovac, Black+Decker, and Russell Hobbs. MobileIgniter guided IoT ideation and user research on several product prototypes, with our main focus being innovative ways to make some of their existing products \"smart\". A series of research studies I designed, conducted, and presented helped Spectrum decide to halt development on one product line, saving upwards of $10M.",
-   "draft": false,
+   "draft": true,
    "headline": "IoT ideation, UX research, design recommendations.",
    "image": "/img/showcase/spectrum/logo.png",
    "NDA": true,

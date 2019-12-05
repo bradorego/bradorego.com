@@ -5,7 +5,7 @@
    "date": "2016-08-09T11:12:46-05:00",
    "dateRange": "2015-2016",
    "description": "Therma-Stor manufactures dehumifidiers, ventilation systems, and restoration equipment. I helped them modernize their products, launching several lines of internet-connected dehumidifiers. Through iterative design, user testing, and analytics, we were able to improve onboarding, reduce support calls, and adapt to new feature requests once products hit the market.",
-   "draft": false,
+   "draft": true,
    "headline": "User research, mobile app design, dashboard/reporting design.",
    "image": "/img/showcase/thermastor/desktop/1.jpg",
    "imageGallery": [

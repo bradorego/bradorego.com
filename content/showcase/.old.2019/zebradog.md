@@ -5,7 +5,7 @@
    "date": "2013-03-01T15:10:22-05:00",
    "headline": "Interactive multimedia, UX research/design, Javascript/Drupal development.",
    "description": "Zebradog is an award-winning interactive multimedia design firm. We built solutions for Aurora Healthcare, Northwestern University, Saudi Aramco, UW-Madison, and others in various industries. As part of the Digital team, I helped revolutionize how ZebraDog moved products from ideation through implementation, making the process more agile, more research- and experience-driven, and optimizing graphic design by testing and iterating on wireframes before moving to high-fidelity design.",
-   "draft": false,
+   "draft": true,
    "image": "/img/showcase/zebradog/aramco/3.jpg",
    "imageGallery": [
      {

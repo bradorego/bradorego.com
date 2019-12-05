@@ -5,7 +5,7 @@
    "date": "2014-03-01T15:11:21-05:00",
    "headline": "UX research, analytics, mobile web development.",
    "description": "Nextt was a collaborate social planning tool targeting groups of 4-10 people making plans within the next 2 weeks. By shaping a user-centered design process and injecting per-sprint research, I increased onboarding completion, conversion rates, and helped guide product strategy.",
-   "draft": false,
+   "draft": true,
    "image": "/img/showcase/nextt/screens/5.jpg",
    "imageGallery": [
      {
