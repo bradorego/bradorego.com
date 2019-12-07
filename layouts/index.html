@@ -9,12 +9,14 @@
           <a href="https://researchops.community">ResearchOps</a> <a href="http://performing.design">Performing.Design</a> <a href="https://melioralabs.com">MelioraLabs</a>
         </div>
       </div>
-      <div class="card construction">
-        <p class="mt-3">October 27, 2019: Showcase is currently under construction. Please check back after November 5, 2019 for new content and a new layout.<p>
+      <div class="card currently construction">
+        <p class="my-0">I am currently actively seeking opportunities in Senior+ (Lead, Staff, Principal, etc.) User Research or in UX Leadership (Manager, Director, VP, etc.). Specifically, I'm looking for opportunities where a company is looking to start/scale a Research practice or are looking to formalize and organize their existing Research/UX team.<p>
+      </div>
 
-        <p>In the meantime, you can catch a sneak peek at some new content by checking out my new <a href="https://docs.google.com/presentation/d/1SDT_f9vjKQbo270VA7kdEB9bnp6ZnhwJB2mlFm-eqHM/edit">Portfolio Preview</a>.</p>
-
-        <p>Thanks for your patience!</p>
+      <div class="d-grid showcase-grid">
+        {{ range where .Site.Pages "Type" "showcase" }}
+          {{ .Render "archive" }}
+        {{ end }}
       </div>
     </div>
 
