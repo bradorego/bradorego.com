@@ -1,0 +1,21 @@
+.floating-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 9999;
+  border: 1px solid $primary;
+  color: $primary;
+  background: $white;
+  border-radius: $border-radius;
+  padding: 0px 12px;
+  text-align: center;
+  &:hover {
+    background: $primary;
+    color: $white;
+  }
+}
+
+#scrollUp {
+	bottom: 20px;
+	top: initial;
+}

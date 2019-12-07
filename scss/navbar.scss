@@ -1,0 +1,45 @@
+.navbar {
+  color: $white;
+  img {
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+  }
+  h1, h2 {
+    font-family: "Roboto";
+    font-weight: 600;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 14px;
+  }
+  .navbar-brand {
+    @media (max-width: 479px) {
+      white-space: initial;
+    }
+  }
+  .btn-group {
+    @media (max-width: 767px) {
+      width: 100%;
+      .btn {
+        font-size: 14px;
+        padding: 3px 12px;
+      }
+    }
+    .btn {
+      border-width: 2px;
+      font-weight: 600;
+      &.active,
+      &:active,
+      &:focus {
+        box-shadow: none;
+        color: $primary;
+      }
+    }
+    .btn-outline-light:hover {
+      color: $primary;
+    }
+  }
+}

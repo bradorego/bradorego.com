@@ -1,0 +1,33 @@
+footer {
+  margin-top: 20px;
+  ul {
+    margin-bottom: 0;
+  }
+  i { /// icons
+    font-size: 32px;
+  }
+  a {
+    color: $gray-dark;
+    &:hover,
+    &:focus,
+    &:active {
+      color: $primary;
+    }
+  }
+	li.patreon {
+    a {
+      position: relative;
+      top: -7px;
+    }
+    g {
+      fill: $gray-dark;
+    }
+    a:hover,
+    a:focus,
+    a:active {
+      g {
+        fill: $primary;
+      }
+    }
+	}
+}

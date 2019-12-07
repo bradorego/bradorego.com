@@ -10,11 +10,51 @@
 
 // Global Components
 
-@import "bootstrapify";
+@import "card";
+@import "navbar";
+@import "toggle";
+@import "fab";
+@import "footer";
+@import "hr";
+@import "typography";
+@import "post-meta";
 
-@import "leftover";
+@import "grid";
 
 @import "dark-mode";
+
+.img-preview {
+  display: block;
+  background: no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  min-height: 100px;
+}
+
+.hidden {
+  display: none;
+}
+
+pre {
+  color: inherit;
+}
+
+//////////avgerinos
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: $gray-dark;
+  font-size: 20px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  margin-top: 120px;
+  @media (max-width: 767.99px) {
+    margin-top: 150px;
+  }
+}
+
+
 
 body.preload {
   // visibility: hidden
@@ -28,6 +68,7 @@ body.preload {
   }
 }
 
+///// temp /////
 .card.construction {
   background: $darkmode-bg;
   color: $darkmode-font;

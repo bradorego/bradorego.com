@@ -1,0 +1,56 @@
+///////////cards
+
+.card {
+  padding: 0;
+  margin: 30px auto;
+  @include card-shadow();
+  border: none;
+  border-radius: 0px;
+  position: relative;
+  &.currently {
+    padding: 30px;
+    a {
+      font-weight: 900;
+      display: inline-block;
+      margin-right: 15px;
+    }
+  }
+  &.showcase {
+    .text {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      h2 {
+        margin-bottom: 50px;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 42px;
+      }
+      .description {
+        font-size: 16px;
+        line-height: 32px;
+      }
+    }
+    .graphic {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      img {
+        width: 100%
+      }
+    }
+  }
+  .card-body {
+    padding: 0;
+  }
+  .nda {
+    font-size: 14px;
+  }
+
+  &.blog {
+    .text {
+      margin: 20px;
+    }
+  }
+}
