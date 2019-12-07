@@ -1,41 +1,25 @@
 {{/* printf "%#v" .Page  */}}
 {{ if .Params.headline }}
   <div data-aos="fade-up">
-    <a href="{{ .Permalink }}" target="_self">
-      <h2 class="divider">{{ .Title }}</h2>
-    </a>
-
-    <div class="card showcase">
+    <a href="{{ .Permalink }}" target="_self" class="card showcase">
       <div class="card-body">
-        <div class="row">
-          {{/* printf "%#v" .Params  */}}
-          {{$img := .Params.image }}
-
-          {{ if $img }}
-          <div class="col-md-6 order-md-2 graphic">
-            <img src="{{ $img }}" />
-          </div>
-          {{ end }}
-          <div class="col-md{{if $img}}-6{{end}} order-md-1 text">
-            <h2>{{ .Params.headline }}</h2>
-            <p class="description">{{.Description}}</p>
-            {{ if .Params.NDA }}
-              {{ partial "nda.html" . }}
-            {{ else }}
-              <a href="{{ .Permalink }}" target="_self" role="button" class="btn btn-dark mb-5">Learn More</a>
-              {{ if .Params.showcaseImg }}
-                {{ if gt (len .Params.showcaseImg) 1 }}
-                  <div class="btn-group" role="group">
-                    {{ range $index, $link := .Params.showcaseImg }}
-                      <button type="button" class="btn btn-outline-dark w-100 showcase-toggle {{if eq $index 0}}active{{end}}" data-img-src="{{$link.src}}">{{$link.title}}</button>
-                    {{ end }}
-                  </div>
-                {{ end }}
-              {{ end }}
-            {{ end }}
-          </div>
+        {{/* printf "%#v" .Params  */}}
+        {{$img := .Params.image }}
+        {{ if $img }}
+        <div class="graphic">
+          <img src="{{ $img }}" />
         </div>
+        {{ end }}
+        <div class="text">
+          <h2>{{ .Params.headline }}</h2>
+          <p class="description">{{.Description}}</p>
+          <button href="{{ .Permalink }}" target="_self" role="button" class="btn btn-dark">Learn More</button>
+        </div>
+        {{ if .Params.tags }}
+          <br />
+          {{ range .Params.tags }}[{{ lower . }}]{{ end }}
+        {{ end }}
       </div>
-    </div>
+    </a>
   </div>
 {{ end }}
