@@ -6,19 +6,16 @@
         {{/* printf "%#v" .Params  */}}
         {{$img := .Params.image }}
         {{ if $img }}
-        <div class="graphic">
-          <img src="{{ $img }}" />
+        <div class="graphic" style="background-image: url({{ $img }})">
+
         </div>
         {{ end }}
         <div class="text">
-          <h2>{{ .Params.headline }}</h2>
-          <p class="description">{{.Description}}</p>
+          <h2>{{.Title}}</h2>
+          {{ partial "showcase-tags.html" . }}
+          <p class="description">{{.Params.headline}}</p>
           <button href="{{ .Permalink }}" target="_self" role="button" class="btn btn-dark">Learn More</button>
         </div>
-        {{ if .Params.tags }}
-          <br />
-          {{ range .Params.tags }}[{{ lower . }}]{{ end }}
-        {{ end }}
       </div>
     </a>
   </div>
