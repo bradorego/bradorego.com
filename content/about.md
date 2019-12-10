@@ -19,11 +19,11 @@ Research is a crucial part of the process. By leveraging research at every stage
     <img src="/img/headshot.jpg">
   </div>
 <p class="col-12 mt-0 col-sm-8 col-lg-10">
-  Bradley Orego is a User Experience Leader, User Researcher, Experience Designer, and Dancer currently located in Brooklyn, NY. This is his personal blog, where you'll find posts on anything from company culture to experience design to homebrewing to dance.
+  Bradley Orego is a User Experience Leader, User Researcher, Experience Designer, and Dancer with over a decade of experience currently located in Brooklyn, NY. This is his personal blog, where you'll find posts on anything from company culture to experience design to homebrewing to dance.
 </p>
 </div>
 
-Brad is a graduate of the [University of Rochester](http://rochester.edu/) with a B.S. in Computer Science, a B.A. in Psychology, and minors in Spanish and Dance. He spends his days as the head of UX at [1010data](https://1010data.com) as well as dancing professionally with [Kanopy Dance Company](http://kanopydance.org) and [Sokolow Theater Dance Ensemble](http://sokolowtheatredance.org/). Brad also participates in entrepreneurial events and hackathons, bikes, and [makes and blogs about beer-batter pancakes](http://beerbatterbreakfast.com). Brad is one half of [performing.design](http://performing.design), founder of [MelioraLabs](https://melioralabs.com), and currently on the board of directors for the [global ResearchOps community](https://medium.com/researchops-community).
+Brad is a graduate of the [University of Rochester](http://rochester.edu/) with a B.S. in Computer Science, a B.A. in Psychology, and minors in Spanish and Dance. He is currently seeking full-time opportunities as a Senior/Lead/Principal Researcher or Manager/Director/VP of User Experience. Brad dances professionally with [Sokolow Theater Dance Ensemble](http://sokolowtheatredance.org/) and [Kanopy Dance Company](http://kanopydance.org). Brad also participates in entrepreneurial events and hackathons, bikes, and [makes and blogs about beer-batter pancakes](http://beerbatterbreakfast.com). Brad is one half of [performing.design](http://performing.design), founder of [MelioraLabs](https://melioralabs.com), and currently on the board of directors for the [global ResearchOps community](https://medium.com/researchops-community).
 
 In a past life, Brad also curled at the [Madison Curling Club](http://madisoncurlingclub.com), homebrewed as a proud member of [MHTG](http://mhtg.org), and played ultimate frisbee competitively with [Madison Mastodon](https://twitter.com/MastodonUlti).
 
@@ -37,4 +37,4 @@ You can also find a (probably outdated) portfolio sample <a href="https://docs.g
 
 ---
 
-<small>Dance photography on bradorego.com courtesy of <a href="http://www.shawnharper.net/">Shawn Harper</a>, <a href="http://matznerphotography.com/">Matzner Photography</a>, and <a href="http://kanopydance.org">Kanopy Dance</a>.</small>
+<small>Dance photography on bradorego.com courtesy of <a href="http://www.shawnharper.net/">Shawn Harper</a>, <a href="http://matznerphotography.com/">Matzner Photography</a>, <a href="http://kanopydance.org">Kanopy Dance</a>, <a href="http://www.meemsimages.com/">Meems Images</a>, and <a href="http://sokolowtheatredance.org">Sokolow Theater Dance Ensemble</a>.</small>
