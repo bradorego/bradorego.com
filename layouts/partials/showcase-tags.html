@@ -1,0 +1,17 @@
+<div class="tags">
+  {{ if .Params.qualitative}}
+    <span>💓&nbsp;Qualitative</span>
+  {{ else }}
+    <span>📈&nbsp;Quantitative</span>
+  {{ end }}
+  {{ if .Params.generative}}
+    <span>💡&nbsp;Generative</span>
+  {{ else }}
+    <span>🔍&nbsp;Evaluative</span>
+  {{ end }}
+  {{ if .Params.attitudinal}}
+    <span>🧠&nbsp;Attitudinal</span>
+  {{ else }}
+    <span>🕺&nbsp;Behavioral</span>
+  {{ end }}
+</div>
