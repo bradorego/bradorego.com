@@ -21,7 +21,12 @@ body.dark-mode {
       border: 1px solid $darkmode-font;
     }
   }
+
+  hr {
+    border-color: $darkmode-font;
+  }
 }
+
 
 body {
   transition: background-color $darkmode-transition-duration ease;

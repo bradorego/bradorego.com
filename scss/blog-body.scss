@@ -7,19 +7,17 @@
     width: 100%;
     position: relative;
     .bg-image {
-      position: absolute;
-      top: -10px;
-      left: -10px;
-      width: 105%;
-      height: 100%;
-      background: no-repeat center center;
-      background-attachment: scroll;
-      @include background-cover;
-      @include blur(5px);
+      @include background-image;
+      height: 300px;
+      @media screen and (max-width: 767px) {
+        height: 200px;
+      }
       // NOTE: Background images are set within the HTML using inline CSS!
     }
+    h1 {
+      font-size: 2.5rem;
+    }
     .text {
-      color: $white;
       position: relative;
       padding: 40px;
       @include header-text-shadow;
@@ -37,7 +35,6 @@
       right: 5px;
       a {
         font-size: 12px;
-        color: white;
         @include header-text-shadow;
       }
     }
@@ -103,9 +100,6 @@
   &.showcase {
     .blog-content {
       padding-top: 0;
-    }
-    .bg-image {
-      filter: blur(10px);
     }
   }
 }
