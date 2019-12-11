@@ -8,14 +8,15 @@
   <div class="container blog-body showcase" data-aos="fade-up">
       {{ partial "blog-header.html" . }}
       <div class="blog-content">
-      {{ if .Params.lessonsLearned }}
-        {{ partial "lessonsLearned.html" . }}
-      {{ end }}
       {{ if .Params.NDA }}
         {{ partial "nda.html" . }}
       {{ else }}
         {{ .Content }}
         {{ partial "showcase-img-gallery.html" .}}
+      {{ end }}
+      <hr />
+      {{ if .Params.lessonsLearned }}
+        {{ partial "lessonsLearned.html" . }}
       {{ end }}
       {{ partial "related-posts.html" . }}
     </div>
