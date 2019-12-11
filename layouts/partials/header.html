@@ -49,7 +49,7 @@
     <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
     {{ partial "fullStory.html" . }}
     {{ partial "heap.html" . }}
-    {{ partial "ga.html" . }}
+    {{ if isset .Site.Params "Ganalytics" }}{{ partial "ga.html" . }}{{ end }}
 </head>
 
 <script type="text/javascript">
