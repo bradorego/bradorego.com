@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
       event.target.addClass('active'); /// select clicked
     };
   if (JSON.parse(window.localStorage.getItem('bjo-dark-mode'))) {
-    $body.toggleClass('dark-mode');
+    $body.addClass('dark-mode');
     $dmToggle.checked = true;
   } /// set the toggle to whatever it was last
 

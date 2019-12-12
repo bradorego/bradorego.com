@@ -60,23 +60,5 @@ Part of the inspiration behind this post is my recent participation in one of Im
       <description>TL;DNR  Static generators (e.g. Hugo) are pretty cool. Ease of use/production directly relates to content creation. It&#39;s okay to borrow aesthetics/technologies/designs from others.   As you might be able to tell, my last blog post is from 2014. It was about time to get back on the blog horse but also give the site a little facelift. I&amp;rsquo;d migrated blog platforms in the past, but never really took the time to think about how my own personal site was hosted.</description>
     </item>
     
-    <item>
-      <title>Candorem</title>
-      <link>http://bradorego.com/showcase/candorem/</link>
-      <pubDate>Mon, 09 Jun 2014 11:12:46 -0500</pubDate>
-      
-      <guid>http://bradorego.com/showcase/candorem/</guid>
-      <description>Lessons Learned  You can learn a ton while on lunch break by asking the right questions/giving the right instructions and sending it off for remote unmoderated testing. A properly orchestrated user-centered/iterative design process can provide value for many projects, including marketing websites. Although it was early in my career and the mentorship was useful, I much prefer full-blown applications to these types of eCommerce/marketing/brochure sites that Candorem is known for.</description>
-    </item>
-    
-    <item>
-      <title>Zebradog</title>
-      <link>http://bradorego.com/showcase/zebradog/</link>
-      <pubDate>Fri, 01 Mar 2013 15:10:22 -0500</pubDate>
-      
-      <guid>http://bradorego.com/showcase/zebradog/</guid>
-      <description>Lessons Learned  You can teach an old dog (pun intended) new tricks: teaching a 20-year-old organization how to be more agile has its challenges and benefits. Interactive multimedia (&#34;environmental graphic design&#34;) is a unique design/technology challenge, and while testing is important, it&#39;s mostly in the form of dogfooding (yes, pun also intended). Your users, in this setting, are passersby. They have no idea what you&#39;re building, and there aren&#39;t any trends to rely on, so designing for discoverability is crucial.</description>
-    </item>
-    
   </channel>
 </rss>

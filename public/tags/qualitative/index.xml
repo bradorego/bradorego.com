@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Qualitative on bradorego.com</title>
+    <link>http://bradorego.com/tags/qualitative/</link>
+    <description>Recent content in Qualitative on bradorego.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 17 Jul 2019 11:12:46 -0500</lastBuildDate>
+    
+	<atom:link href="http://bradorego.com/tags/qualitative/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DSCVR First Impression Usability Test</title>
+      <link>http://bradorego.com/showcase/dscvr-first-impression-usability-test/</link>
+      <pubDate>Wed, 17 Jul 2019 11:12:46 -0500</pubDate>
+      
+      <guid>http://bradorego.com/showcase/dscvr-first-impression-usability-test/</guid>
+      <description>Dec 12 Update: Here are a few slides from a recent presentation I gave about my work with SoulCycle. I will be adding more details and a fuller case study soon  </description>
+    </item>
+    
+    <item>
+      <title>DSCVR Go-to-Market Strategy</title>
+      <link>http://bradorego.com/showcase/dscvr-go-to-market-strategy/</link>
+      <pubDate>Wed, 17 Jul 2019 11:12:46 -0500</pubDate>
+      
+      <guid>http://bradorego.com/showcase/dscvr-go-to-market-strategy/</guid>
+      <description>Dec 12 Update: Here are a few slides from a recent presentation I gave about my work with SoulCycle. I will be adding more details and a fuller case study soon  </description>
+    </item>
+    
+    <item>
+      <title>SoulCycle Studio Ethnography</title>
+      <link>http://bradorego.com/showcase/soulcycle-studio-ethnography/</link>
+      <pubDate>Wed, 17 Jul 2019 11:12:46 -0500</pubDate>
+      
+      <guid>http://bradorego.com/showcase/soulcycle-studio-ethnography/</guid>
+      <description>Dec 12 Update: Here are a few slides from a recent presentation I gave about my work with SoulCycle. I will be adding more details and a fuller case study soon  </description>
+    </item>
+    
+  </channel>
+</rss>

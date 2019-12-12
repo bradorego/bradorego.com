@@ -20,14 +20,5 @@
       <description>Depending on your context and your background, the notion (or even terminology) of a playbook may be completely foreign or completely mundane, however there&amp;rsquo;s a huge potential upside in developing a Research Playbook for your organization. This post will go into detail as to what playbooks are, why you should have one, and how to get started. There&amp;rsquo;s also a call-to-action at the end to help produce an open-source playbook to set a standard across the industry.</description>
     </item>
     
-    <item>
-      <title>Therma-Stor</title>
-      <link>http://bradorego.com/showcase/therma-stor/</link>
-      <pubDate>Tue, 09 Aug 2016 11:12:46 -0500</pubDate>
-      
-      <guid>http://bradorego.com/showcase/therma-stor/</guid>
-      <description>Lessons Learned  Getting in at the ground level on IoT projects is incredibly valuable, as it allowed us to guide the client and product development and avoid legacy. IoT products have an extra layer of complexity in that you have to ensure the application, server, and device are all communicating properly and forming a cohesive experience. There are unique challenges when researching and designing for industrial IoT applications, including assess to end users, a lot of subject matter expertise, and connectivity issues.</description>
-    </item>
-    
   </channel>
 </rss>

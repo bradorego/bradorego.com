@@ -6,19 +6,10 @@
     <description>Recent content in Ionic on bradorego.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Aug 2016 11:12:46 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 02 May 2016 18:29:53 -0500</lastBuildDate>
     
 	<atom:link href="http://bradorego.com/tags/ionic/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Therma-Stor</title>
-      <link>http://bradorego.com/showcase/therma-stor/</link>
-      <pubDate>Tue, 09 Aug 2016 11:12:46 -0500</pubDate>
-      
-      <guid>http://bradorego.com/showcase/therma-stor/</guid>
-      <description>Lessons Learned  Getting in at the ground level on IoT projects is incredibly valuable, as it allowed us to guide the client and product development and avoid legacy. IoT products have an extra layer of complexity in that you have to ensure the application, server, and device are all communicating properly and forming a cohesive experience. There are unique challenges when researching and designing for industrial IoT applications, including assess to end users, a lot of subject matter expertise, and connectivity issues.</description>
-    </item>
     
     <item>
       <title>Better MCBW</title>

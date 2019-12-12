@@ -13,7 +13,22 @@
   </url>
   
   <url>
-    <loc>http://bradorego.com/showcase/1010data/</loc>
+    <loc>http://bradorego.com/showcase/arturo-pilot-diary-study/</loc>
+    <lastmod>2019-07-17T11:12:46-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://bradorego.com/showcase/dscvr-first-impression-usability-test/</loc>
+    <lastmod>2019-07-17T11:12:46-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://bradorego.com/showcase/dscvr-go-to-market-strategy/</loc>
+    <lastmod>2019-07-17T11:12:46-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://bradorego.com/showcase/soulcycle-studio-ethnography/</loc>
     <lastmod>2019-07-17T11:12:46-05:00</lastmod>
   </url>
   
@@ -35,11 +50,6 @@
   <url>
     <loc>http://bradorego.com/an-intro-to-embodied-cognition/</loc>
     <lastmod>2018-04-30T14:58:50-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://bradorego.com/showcase/soulcycle/</loc>
-    <lastmod>2018-04-21T11:12:46-05:00</lastmod>
   </url>
   
   <url>
@@ -88,23 +98,8 @@
   </url>
   
   <url>
-    <loc>http://bradorego.com/showcase/american-family-insurance/</loc>
-    <lastmod>2017-04-09T11:12:46-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://bradorego.com/why-were-firing-a-top-tier-product-development-firm/</loc>
     <lastmod>2017-03-18T14:40:53-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://bradorego.com/showcase/singlewire-software/</loc>
-    <lastmod>2016-09-09T11:12:46-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://bradorego.com/showcase/therma-stor/</loc>
-    <lastmod>2016-08-09T11:12:46-05:00</lastmod>
   </url>
   
   <url>
@@ -128,23 +123,8 @@
   </url>
   
   <url>
-    <loc>http://bradorego.com/showcase/spectrum-brands/</loc>
-    <lastmod>2016-01-09T11:12:46-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://bradorego.com/transparency-of-online/</loc>
     <lastmod>2014-07-15T17:37:34-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://bradorego.com/showcase/candorem/</loc>
-    <lastmod>2014-06-09T11:12:46-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://bradorego.com/showcase/nextt/</loc>
-    <lastmod>2014-03-01T15:11:21-05:00</lastmod>
   </url>
   
   <url>
@@ -168,11 +148,6 @@
   </url>
   
   <url>
-    <loc>http://bradorego.com/showcase/zebradog/</loc>
-    <lastmod>2013-03-01T15:10:22-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://bradorego.com/note-taking/</loc>
     <lastmod>2013-02-27T16:22:57-05:00</lastmod>
   </url>
@@ -193,11 +168,6 @@
   </url>
   
   <url>
-    <loc>http://bradorego.com/showcase/epic-systems/</loc>
-    <lastmod>2012-01-09T11:12:46-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://bradorego.com/about/</loc>
   </url>
   
@@ -208,20 +178,14 @@
   </url>
   
   <url>
-    <loc>http://bradorego.com/tags/agile/</loc>
-    <lastmod>2017-04-09T11:12:46-05:00</lastmod>
+    <loc>http://bradorego.com/tags/arturo/</loc>
+    <lastmod>2019-07-17T11:12:46-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://bradorego.com/tags/analytics/</loc>
-    <lastmod>2014-03-01T15:11:21-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://bradorego.com/tags/angular/</loc>
-    <lastmod>2017-04-09T11:12:46-05:00</lastmod>
+    <loc>http://bradorego.com/tags/attitudinal/</loc>
+    <lastmod>2019-07-17T11:12:46-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -234,6 +198,12 @@
   <url>
     <loc>http://bradorego.com/tags/barry-schwartz/</loc>
     <lastmod>2013-02-27T16:22:57-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://bradorego.com/tags/behavioral/</loc>
+    <lastmod>2019-07-17T11:12:46-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -298,7 +268,7 @@
   
   <url>
     <loc>http://bradorego.com/tags/culture/</loc>
-    <lastmod>2019-07-17T11:12:46-05:00</lastmod>
+    <lastmod>2017-06-21T13:54:44-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -315,12 +285,6 @@
   </url>
   
   <url>
-    <loc>http://bradorego.com/tags/dashboard/</loc>
-    <lastmod>2016-09-09T11:12:46-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://bradorego.com/tags/design/</loc>
     <lastmod>2018-10-09T10:19:19-04:00</lastmod>
     <priority>0</priority>
@@ -329,12 +293,6 @@
   <url>
     <loc>http://bradorego.com/tags/design-process/</loc>
     <lastmod>2018-08-01T10:19:19-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://bradorego.com/tags/design-strategy/</loc>
-    <lastmod>2018-04-21T11:12:46-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -363,14 +321,14 @@
   </url>
   
   <url>
-    <loc>http://bradorego.com/tags/direct-mapping/</loc>
-    <lastmod>2012-12-22T14:21:58-05:00</lastmod>
+    <loc>http://bradorego.com/tags/diary-study/</loc>
+    <lastmod>2019-07-17T11:12:46-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://bradorego.com/tags/director/</loc>
-    <lastmod>2019-07-17T11:12:46-05:00</lastmod>
+    <loc>http://bradorego.com/tags/direct-mapping/</loc>
+    <lastmod>2012-12-22T14:21:58-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -393,20 +351,20 @@
   </url>
   
   <url>
-    <loc>http://bradorego.com/tags/education/</loc>
-    <lastmod>2019-07-17T11:12:46-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://bradorego.com/tags/embodied-cognition/</loc>
     <lastmod>2018-04-30T14:58:50-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://bradorego.com/tags/entrepreneurship/</loc>
-    <lastmod>2014-03-01T15:11:21-05:00</lastmod>
+    <loc>http://bradorego.com/tags/ethnography/</loc>
+    <lastmod>2019-07-17T11:12:46-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://bradorego.com/tags/evaluative/</loc>
+    <lastmod>2019-07-17T11:12:46-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -465,8 +423,8 @@
   </url>
   
   <url>
-    <loc>http://bradorego.com/tags/healthcare/</loc>
-    <lastmod>2012-01-09T11:12:46-05:00</lastmod>
+    <loc>http://bradorego.com/tags/generative/</loc>
+    <lastmod>2019-07-17T11:12:46-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -513,18 +471,6 @@
   </url>
   
   <url>
-    <loc>http://bradorego.com/tags/information-architecture/</loc>
-    <lastmod>2014-06-09T11:12:46-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://bradorego.com/tags/interactive-multimedia/</loc>
-    <lastmod>2013-03-01T15:10:22-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://bradorego.com/tags/internet-of-things/</loc>
     <lastmod>2017-05-15T11:53:22-05:00</lastmod>
     <priority>0</priority>
@@ -532,7 +478,7 @@
   
   <url>
     <loc>http://bradorego.com/tags/ionic/</loc>
-    <lastmod>2016-08-09T11:12:46-05:00</lastmod>
+    <lastmod>2016-05-02T18:29:53-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -545,18 +491,6 @@
   <url>
     <loc>http://bradorego.com/tags/javascript/</loc>
     <lastmod>2018-01-29T01:59:21-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://bradorego.com/tags/kinect/</loc>
-    <lastmod>2013-03-01T15:10:22-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://bradorego.com/tags/kiosk/</loc>
-    <lastmod>2013-03-01T15:10:22-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -599,24 +533,6 @@
   <url>
     <loc>http://bradorego.com/tags/meta/</loc>
     <lastmod>2016-04-14T12:26:53-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://bradorego.com/tags/mixpanel/</loc>
-    <lastmod>2014-03-01T15:11:21-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://bradorego.com/tags/mobile/</loc>
-    <lastmod>2018-04-21T11:12:46-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://bradorego.com/tags/mobile-app/</loc>
-    <lastmod>2016-09-09T11:12:46-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -771,6 +687,18 @@
   </url>
   
   <url>
+    <loc>http://bradorego.com/tags/qualitative/</loc>
+    <lastmod>2019-07-17T11:12:46-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://bradorego.com/tags/quantitative/</loc>
+    <lastmod>2019-07-17T11:12:46-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://bradorego.com/tags/rails/</loc>
     <lastmod>2014-02-20T16:46:54-05:00</lastmod>
     <priority>0</priority>
@@ -796,7 +724,7 @@
   
   <url>
     <loc>http://bradorego.com/tags/research/</loc>
-    <lastmod>2018-04-21T11:12:46-05:00</lastmod>
+    <lastmod>2018-04-04T21:25:41-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -823,12 +751,6 @@
   </url>
   
   <url>
-    <loc>http://bradorego.com/tags/saas/</loc>
-    <lastmod>2016-09-09T11:12:46-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://bradorego.com/categories/showcase/</loc>
     <lastmod>2019-07-17T11:12:46-05:00</lastmod>
     <priority>0</priority>
@@ -836,6 +758,12 @@
   
   <url>
     <loc>http://bradorego.com/showcase/</loc>
+    <lastmod>2019-07-17T11:12:46-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://bradorego.com/tags/soul-cycle/</loc>
     <lastmod>2019-07-17T11:12:46-05:00</lastmod>
     <priority>0</priority>
   </url>
@@ -849,24 +777,6 @@
   <url>
     <loc>http://bradorego.com/tags/sports/</loc>
     <lastmod>2018-02-27T00:02:20-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://bradorego.com/tags/startup/</loc>
-    <lastmod>2014-03-01T15:11:21-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://bradorego.com/tags/strategy/</loc>
-    <lastmod>2019-07-17T11:12:46-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://bradorego.com/tags/survey-design/</loc>
-    <lastmod>2016-09-09T11:12:46-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -915,12 +825,6 @@
   <url>
     <loc>http://bradorego.com/tags/ubiquitous-computing/</loc>
     <lastmod>2014-07-15T17:37:34-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://bradorego.com/tags/ui-liaison/</loc>
-    <lastmod>2012-01-09T11:12:46-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -975,18 +879,6 @@
   <url>
     <loc>http://bradorego.com/tags/vision/</loc>
     <lastmod>2016-05-11T10:04:17-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://bradorego.com/tags/website/</loc>
-    <lastmod>2013-03-01T15:10:22-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://bradorego.com/tags/wireframes/</loc>
-    <lastmod>2014-06-09T11:12:46-05:00</lastmod>
     <priority>0</priority>
   </url>
   

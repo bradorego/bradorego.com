@@ -12,93 +12,39 @@
     
     
     <item>
-      <title>1010data</title>
-      <link>http://bradorego.com/showcase/1010data/</link>
+      <title>Arturo Pilot Diary Study</title>
+      <link>http://bradorego.com/showcase/arturo-pilot-diary-study/</link>
       <pubDate>Wed, 17 Jul 2019 11:12:46 -0500</pubDate>
       
-      <guid>http://bradorego.com/showcase/1010data/</guid>
-      <description></description>
+      <guid>http://bradorego.com/showcase/arturo-pilot-diary-study/</guid>
+      <description>Dec 12 Update: Here are a few slides from a recent presentation I gave about my work with SoulCycle. I will be adding more details and a fuller case study soon  </description>
     </item>
     
     <item>
-      <title>SoulCycle</title>
-      <link>http://bradorego.com/showcase/soulcycle/</link>
-      <pubDate>Sat, 21 Apr 2018 11:12:46 -0500</pubDate>
+      <title>DSCVR First Impression Usability Test</title>
+      <link>http://bradorego.com/showcase/dscvr-first-impression-usability-test/</link>
+      <pubDate>Wed, 17 Jul 2019 11:12:46 -0500</pubDate>
       
-      <guid>http://bradorego.com/showcase/soulcycle/</guid>
-      <description></description>
+      <guid>http://bradorego.com/showcase/dscvr-first-impression-usability-test/</guid>
+      <description>Dec 12 Update: Here are a few slides from a recent presentation I gave about my work with SoulCycle. I will be adding more details and a fuller case study soon  </description>
     </item>
     
     <item>
-      <title>American Family Insurance</title>
-      <link>http://bradorego.com/showcase/american-family-insurance/</link>
-      <pubDate>Sun, 09 Apr 2017 11:12:46 -0500</pubDate>
+      <title>DSCVR Go-to-Market Strategy</title>
+      <link>http://bradorego.com/showcase/dscvr-go-to-market-strategy/</link>
+      <pubDate>Wed, 17 Jul 2019 11:12:46 -0500</pubDate>
       
-      <guid>http://bradorego.com/showcase/american-family-insurance/</guid>
-      <description></description>
+      <guid>http://bradorego.com/showcase/dscvr-go-to-market-strategy/</guid>
+      <description>Dec 12 Update: Here are a few slides from a recent presentation I gave about my work with SoulCycle. I will be adding more details and a fuller case study soon  </description>
     </item>
     
     <item>
-      <title>SingleWire Software</title>
-      <link>http://bradorego.com/showcase/singlewire-software/</link>
-      <pubDate>Fri, 09 Sep 2016 11:12:46 -0500</pubDate>
+      <title>SoulCycle Studio Ethnography</title>
+      <link>http://bradorego.com/showcase/soulcycle-studio-ethnography/</link>
+      <pubDate>Wed, 17 Jul 2019 11:12:46 -0500</pubDate>
       
-      <guid>http://bradorego.com/showcase/singlewire-software/</guid>
-      <description>Lessons Learned  Migrating a legacy platform to a cloud-bases SaaS model provides unique challenges and opportunities for product growth/clarification. Surveys and interviews are powerful tools for getting context and putting the product team in the proper frame of mind. Nothing beats testing a solution in the wild. We learned a lot by running potential solutions by users and by putting it in their hands to interact with.   Background SingleWire is a leader in the emergency notification space.</description>
-    </item>
-    
-    <item>
-      <title>Therma-Stor</title>
-      <link>http://bradorego.com/showcase/therma-stor/</link>
-      <pubDate>Tue, 09 Aug 2016 11:12:46 -0500</pubDate>
-      
-      <guid>http://bradorego.com/showcase/therma-stor/</guid>
-      <description>Lessons Learned  Getting in at the ground level on IoT projects is incredibly valuable, as it allowed us to guide the client and product development and avoid legacy. IoT products have an extra layer of complexity in that you have to ensure the application, server, and device are all communicating properly and forming a cohesive experience. There are unique challenges when researching and designing for industrial IoT applications, including assess to end users, a lot of subject matter expertise, and connectivity issues.</description>
-    </item>
-    
-    <item>
-      <title>Spectrum Brands</title>
-      <link>http://bradorego.com/showcase/spectrum-brands/</link>
-      <pubDate>Sat, 09 Jan 2016 11:12:46 -0500</pubDate>
-      
-      <guid>http://bradorego.com/showcase/spectrum-brands/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Candorem</title>
-      <link>http://bradorego.com/showcase/candorem/</link>
-      <pubDate>Mon, 09 Jun 2014 11:12:46 -0500</pubDate>
-      
-      <guid>http://bradorego.com/showcase/candorem/</guid>
-      <description>Lessons Learned  You can learn a ton while on lunch break by asking the right questions/giving the right instructions and sending it off for remote unmoderated testing. A properly orchestrated user-centered/iterative design process can provide value for many projects, including marketing websites. Although it was early in my career and the mentorship was useful, I much prefer full-blown applications to these types of eCommerce/marketing/brochure sites that Candorem is known for.</description>
-    </item>
-    
-    <item>
-      <title>Nextt</title>
-      <link>http://bradorego.com/showcase/nextt/</link>
-      <pubDate>Sat, 01 Mar 2014 15:11:21 -0500</pubDate>
-      
-      <guid>http://bradorego.com/showcase/nextt/</guid>
-      <description>Lessons Learned  Never underestimate the value of guerrilla UX research. Instead of spending hours debating something internally, put together a survey and put it on Reddit. Use the resources and data available to you. Utilizing a well-defined analytics suite to define funnels and focus on problem points and in-depth user research to discover why people are falling off at that point can have tremendous impacts on conversion/success rates. Mark&#39;s postmortem covers a lot of what we learned and expresses similar sentiments to what I had as we closed down Nextt.</description>
-    </item>
-    
-    <item>
-      <title>Zebradog</title>
-      <link>http://bradorego.com/showcase/zebradog/</link>
-      <pubDate>Fri, 01 Mar 2013 15:10:22 -0500</pubDate>
-      
-      <guid>http://bradorego.com/showcase/zebradog/</guid>
-      <description>Lessons Learned  You can teach an old dog (pun intended) new tricks: teaching a 20-year-old organization how to be more agile has its challenges and benefits. Interactive multimedia (&#34;environmental graphic design&#34;) is a unique design/technology challenge, and while testing is important, it&#39;s mostly in the form of dogfooding (yes, pun also intended). Your users, in this setting, are passersby. They have no idea what you&#39;re building, and there aren&#39;t any trends to rely on, so designing for discoverability is crucial.</description>
-    </item>
-    
-    <item>
-      <title>Epic Systems</title>
-      <link>http://bradorego.com/showcase/epic-systems/</link>
-      <pubDate>Mon, 09 Jan 2012 11:12:46 -0500</pubDate>
-      
-      <guid>http://bradorego.com/showcase/epic-systems/</guid>
-      <description>Lessons Learned  Healthcare is a particularly challenging industry to be a designer in, as the users/customers are change/risk averse and there are many regulations to have to grapple with. It can be incredibly difficult to enact change in large organizations, and the best approach is usually to run a small pilot program and gradually expand it. Though it was my first job out of undergrad, I learned quickly that this wasn&#39;t an environment I wanted to be in, and that I much prefer smaller teams with bigger impact.</description>
+      <guid>http://bradorego.com/showcase/soulcycle-studio-ethnography/</guid>
+      <description>Dec 12 Update: Here are a few slides from a recent presentation I gave about my work with SoulCycle. I will be adding more details and a fuller case study soon  </description>
     </item>
     
   </channel>

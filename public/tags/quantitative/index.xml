@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quantitative on bradorego.com</title>
+    <link>http://bradorego.com/tags/quantitative/</link>
+    <description>Recent content in Quantitative on bradorego.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 17 Jul 2019 11:12:46 -0500</lastBuildDate>
+    
+	<atom:link href="http://bradorego.com/tags/quantitative/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Arturo Pilot Diary Study</title>
+      <link>http://bradorego.com/showcase/arturo-pilot-diary-study/</link>
+      <pubDate>Wed, 17 Jul 2019 11:12:46 -0500</pubDate>
+      
+      <guid>http://bradorego.com/showcase/arturo-pilot-diary-study/</guid>
+      <description>Dec 12 Update: Here are a few slides from a recent presentation I gave about my work with SoulCycle. I will be adding more details and a fuller case study soon  </description>
+    </item>
+    
+  </channel>
+</rss>
