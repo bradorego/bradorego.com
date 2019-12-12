@@ -19,10 +19,16 @@
    "NDA": false,
    "publishdate": "2019-07-16T11:12:46-05:00",
    "tags": ["qualitative", "generative", "attitudinal"],
-   "title": "1010data"
+   "title": "DSCVR Go-to-Market Strategy"
 }
 
-# About
+
+# Context <a name="context" href="#context"><i class="ion-link"></i></a>
+
+# Research Design <a name="research-design" href="#research-design"><i class="ion-link"></i></a>
 
 
-# Selected Images
+# Key Insights <a name="key-insights" href="#key-insights"><i class="ion-link"></i></a>
+
+
+# Impact & Outcomes <a name="impact-outcomes" href="#impact-outcomes"><i class="ion-link"></i></a>
