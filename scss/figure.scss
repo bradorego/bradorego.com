@@ -1,6 +1,6 @@
 figure {
   position: relative;
-  margin: 1em 2em;
+  margin: 0;
 	figcaption {
 		position: absolute;
 		font-size: 12px;
@@ -12,10 +12,8 @@ figure {
       width: 80%;
       margin: 0 auto;
       text-align: center;
-      @media (max-width: 479px) {
-        text-align: left;
-        margin: 0;
-      }
+    }
+  }
     }
   }
 }
