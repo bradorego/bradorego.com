@@ -14,6 +14,26 @@ figure {
       text-align: center;
     }
   }
+  img {
+    &.bg-white {
+      background: $white;
+    }
+    &.bg-black {
+      background: $darkmode-white;
+    }
+  }
+  &.fl-right {
+    @media (min-width: $grid-responsive-md-break) { /// from ionic
+      float: right;
+      width: 50%;
+      margin-left: 2rem;
+    }
+  }
+  &.fl-left {
+    @media (min-width: $grid-responsive-md-break) { /// from ionic
+      float: left;
+      width: 50%;
+      margin-right: 2rem;
     }
   }
 }

@@ -40,7 +40,7 @@ footer li.patreon g,
 blockquote,
 hr {
   transition-duration: $darkmode-transition-duration;
-  transition-property: color, fill, background-color;
+  transition-property: color, fill, background-color, border-color;
   transition-timing-function: ease;
 }
 
