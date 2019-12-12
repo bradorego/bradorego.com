@@ -6,17 +6,22 @@
       "Showcase"
    ],
    "date": "2019-07-17T11:12:46-05:00",
-   "dateRange": "2019-Present",
-   "description": "1010data has been a leader in big data analytics since 2000. In 2019, I joined 1010 as their first Director of User Experience in order to design, implement, and lead a department focused on human-centered research and design. By working cross-functionally, generating consensus, and implementing new rituals, practices, methods, and tools, I empowered my team to deliver best-in-class user experiences by leveraging data to guide our process.",
-   "draft": true,
-   "headline": "Building a UX Department from scratch at a 20-year-old company",
-   "image": "/img/showcase/1010data/logo.jpg",
+   "dateRange": "2018-2019",
+   "description": "SoulCycle revolutionized the indoor cycling experience, and in 2014, reached out to Prolific Interactive to help imagine and actualize an iOS app to match and build upon that experience. I joined Prolific in 2018 and inherited the role of UX Researcher on this project, which gave me the opportunity to own research for the entire (Digital) Product team. On top of supporting several work streams, I supported product strategy, developed a research practice, and educated Soul's stakeholders, ultimately guiding their transition to hire their first in-house Researcher in 2019.",
+   "draft": false,
+   "headline": "Principal Researcher, Design Strategist, Research Coach/Educator",
+   "image": "/img/showcase/sc-studio-ethnography/header.png",
    "lessonsLearned": [
+     "Championing Research in an organization where it's fairly new can be an uphill battle, but it can also reap dividends.",
+     "You need to make sure to meet them where they are:  prove the value through small wins, show the potential through higher-level presentations. Hallway/<a href='https://www.slideshare.net/BradOrego/guerrilla-ux-practical-and-affordable-research'>Guerilla UX Research</a> will be one of your most compelling tools here.",
+     "Always be aware of what the highest impact research may be and fight for that. For SoulCycle, that's focusing on the studio experience instead of the digital."
    ],
-   "NDA": true,
+   "qualitative": true,
+   "generative": true,
+   "attitudinal": false,
    "publishdate": "2019-07-16T11:12:46-05:00",
-   "tags": ["user experience", "director", "strategy", "education", "culture"],
-   "title": "1010data"
+   "tags": ["ethnography","qualitative","generative","behavioral","soul cycle"],
+   "title": "SoulCycle Studio Ethnography"
 }
 
 # About
