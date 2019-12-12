@@ -104,7 +104,7 @@ I prioritized the titles that we currently had and were working to fill at the d
 
 <div class="row mt-5">
   <div class="col-lg-6">
-    <h1 id="gaps" class="mt-0">Filling the gaps <a name="gaps" href="#gaps"><i class="ion-link"></i></a></h1>
+    <h1 id="gaps">Filling the gaps <a name="gaps" href="#gaps"><i class="ion-link"></i></a></h1>
     <p>
       On top of identifying what was expected of every position at every level (which is still an ongoing process, mind you), we also started working on coverage. By speaking with all of the existing design talent at 1010 (only some of which is allocated to UX) and some of senior stakeholders/leadership, I put together a <a href="https://en.wikipedia.org/wiki/Gap_analysis">gap analysis</a>, identifying which parts of the business had little (or no) Research or Design coverage. This helps provide visibility as to who is allocated to what and where our primary needs are, driving both allocation of current resources and prioritizing hiring activity for the department.
     </p>
