@@ -10,7 +10,7 @@
   grid-column-gap: 40px;
   grid-auto-rows: auto;
 
-  @media screen and (max-width: 767px) {
+  @media (max-width: $grid-responsive-md-break) { /// from ionic
     grid-template-columns: 1fr;
   }
 
@@ -18,7 +18,7 @@
     .graphic {
       @include background-image();
       height: 200px;
-      @media screen and (max-width:767px) {
+      @media (max-width: $grid-responsive-md-break) { /// from ionic
         height: 100px;
       }
     }

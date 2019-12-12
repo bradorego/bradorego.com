@@ -21,7 +21,7 @@
     }
   }
   .btn-group {
-    @media (max-width: 767px) {
+    @media (max-width: $grid-responsive-md-break) { /// from ionic
       width: 100%;
       .btn {
         font-size: 14px;

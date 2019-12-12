@@ -18,6 +18,7 @@
 @import "hr";
 @import "typography";
 @import "post-meta";
+@import "figure";
 
 @import "grid";
 
@@ -49,7 +50,7 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   margin-top: 120px;
-  @media (max-width: 767.99px) {
+  @media (max-width: $grid-responsive-md-break) { /// from ionic
     margin-top: 150px;
   }
 }
