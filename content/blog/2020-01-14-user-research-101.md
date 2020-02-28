@@ -83,9 +83,9 @@ Another step that is far too often overlooked (especially by more junior team me
 6. Original requester says something along the lines of "Why did you do that? This isn't what I asked for".
 7. 🤬
 
-The key breakdown in the above scenario is all the way at the beginning. The next time somebody asks you for research, the first thing you should do is ask Why. Using the "[Five Whys]()" is a good way to get at the root cause of what's being asked for, and will clarify the needs both for you and for your team. This type of alignment up front will help avoid wasting a lot of time down the road.
+The key breakdown in the above scenario is all the way at the beginning. The next time somebody asks you for research, the first thing you should do is ask Why. Using the "[Five Whys](https://en.wikipedia.org/wiki/Five_whys)" is a good way to get at the root cause of what's being asked for, and will clarify the needs both for you and for your team. This type of alignment up front will help avoid wasting a lot of time down the road.
 
-Two other questions I tend to ask that are really powerful and insightful are around the business needs and around the decision-making process. Essentially, you want to make sure everyone is on the same page of what you'll do based on the results of your research. You can more or less build a [decision tree]() that will guide decisions based on the results of your research. This has an added benefit of making the value and impact of research much clearer and more concrete, which is particularly beneficial when it comes time to talk about resourcing and/or promotions.
+Two other questions I tend to ask that are really powerful and insightful are around the business needs and around the decision-making process. Essentially, you want to make sure everyone is on the same page of what you'll do based on the results of your research. You can more or less build a [decision tree](https://en.wikipedia.org/wiki/Decision_tree) that will guide decisions based on the results of your research. This has an added benefit of making the value and impact of research much clearer and more concrete, which is particularly beneficial when it comes time to talk about resourcing and/or promotions.
 
 ///////////////////////////////////////////////////////
 /////////// image decision tree ///////
@@ -111,12 +111,16 @@ Desired Outcomes is a combination of the conversations you had in Step 1 to clar
 
 The other key factor is what your constraints are, and they can come in virtually infinite forms. Constriants can be resources (financial or human capital), political, temporal, capacity, capability, historical, access...the list goes on. What you need to be mindful of is how to maneuver within whatever constraints you are facing, as it's virtually unheard of you'll be able to use the exact method with the exact population and the exact timeframe you want. Research in industry is all about doing the best you can with what you have.
 
-Another factor that is often undervalued when it comes to strategy and can be a complete dealbreaker is who you're talking to. Population and participant selection are essential to study design. The questions you ask and the method you use almost don't matter if you're talking to the wrong people. Ensure the people you're using as participants are appropriate for the end goals.
+Another factor that is often undervalued when it comes to strategy and can be a complete dealbreaker is who you're talking to. Population and participant selection are essential to study design. The questions you ask and the method you use almost don't matter if you're talking to the wrong people. Ensure the people you're using as participants are appropriate for the end goals. Also, being mindful of [sampling bias](https://en.wikipedia.org/wiki/Sampling_bias) is crucial in your planning and analysis.
 
 # Step 3: Plan & Execute <a name="plan" href="#plan"><i class="ion-link"></i></a>
 #### Gather all of the resources and materials you need and do the actual research.
 
-3) Plan and execute. Find and get access to those people. Figure out what you'll ask them to do. Do it. Be wary of bias and noise and all of the other bullshit.
+What's really interesting and funny about writing this guide is that here, at Step 3, is where most people think "Research" starts. That is, actually planning and executing the research itself. There's a whole lot of nuance that I'm going to gloss over here (considering this essay is already well over 2,000 words), but it should be obvious that part of the process of Research is to actually prepare for and conduct the research activity itself.
+
+The things to highlight there are the pure logistics of getting people and resources together in order to run a participant through a session. This is typically the low-hanging fruit of Research Operation, which is why you see a lot of [Research Coordinator](https://www.google.com/search?q=user+research+coordinator+jobs) positions popping up. Coordination involves recruiting and scheduling participants, ensuring they have everything they need to attend (including reminders, directions, appropriate equipment and facilities (if remote), access to the testing stimuli, etc.), procuring the resources required on your end (your time, a space to meet, recording methods, testing stimuli, etc.), and otherwise doing what you need to do to ensure the session itself runs as smoothly and seamlessly as possible.
+
+Of every piece of this puzzle, I'll spend the least time writing about execution. This is what most people focus on when talking about Research, which I would argue is the easiest part to pull off. If you need further reading on the topic, feel free to [take a look here](http://letmegooglethatforyou.com/?q=how+to+do+user+research).
 
 # Step 4: Analyze Results <a name="analyze" href="#analyze"><i class="ion-link"></i></a>
 #### Extract the key insights, major trends, and impacts to your decision tree.
