@@ -54,7 +54,17 @@ Planning and executing research itself is usually the easiest part of being a Re
 # Step 0: Understand the Context <a name="context" href="#context"><i class="ion-link"></i></a>
 #### What space are you playing/working in, and what are the unique challenges and opportunities?
 
-0) understand the context, including the industry, the company's position, the stakeholders, and your products position
+The reason this is a Step 0 is twofold. Firstly, it's absolutely essential to running an effective research practice. You need to know who the stakeholders are, what your product/service/company's unique positioning is, what the pressures are, who your allies are, etc. This will greatly impact your strategic decisions (step 2), as a large portion of what determines your methodology are your constraints. There are a variety of ways to do this, but the most effective way is to just talk to your colleagues.
+
+One of the most influential things I've started doing when I join a new team, a new organization, or start a new project, is what I refer to as a "Listening & Learning Tour" (terminology which I've borrowed lovingly from my alma mater's 11th President, [Sarah Mangelsdorf](https://www.rochester.edu/newscenter/off-and-running-sarah-mangelsdorf-sets-her-own-presidential-tone/)). In a nutshell, I set up meetings with as many people as I possibly can across every discipline/area of expertise I can and at every level of the organization. I walk into the meeting with essentially 3 agenda items:
+
+1. Introduction to me and to User Research
+2. Tell me about the work you do, and how can Research help support your goals.
+3. How might you be able to help the Research team accomplish our goals?
+
+The benefits to this approach are vast and deep. It's an informal chat, so people are generally disarmed. You also get to use the "Hi I'm new here help me understand" cover. It's also an excellent opportunity to begin developing rapport and identifying who your powerful allies may be. It has an added benefit of educating and evangelizing Research to the team as well, which helps your team understand what it is you do and how to engage with you. The real purpose, however, is to gather whatever intel you can about the environment you're stepping into. This is part of why it's so important to talk to many disciplines and many levels: you want to triangulate as much as possible, and getting a diverse set of opinions and perspectives is crucial to this.
+
+The second reason it's #0 is that, as you may've guessed by now, this isn't something you need to do every single time. It's more of a foundational step than a practical step in the research process. If you already know who the key players are, what your market position is, and who you can leverage to accomplish your goals, there's no sense in rehashing that, and you can move forward with Step 1.
 
 # Step 1: Align on Goals <a name="goals" href="#goals"><i class="ion-link"></i></a>
 #### Make sure everyone is on the same page as to what you're trying to accomplish and how research can help.
