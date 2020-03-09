@@ -1,23 +1,23 @@
 <figure {{ with .Get "class" }}class="{{.}}"{{ end }}>
-    {{ with .Get "link"}}<a href="{{.}}">{{ end }}
-        <img src="{{ .Get "src" }}" {{ if or (.Get "alt") (.Get "caption") }}alt="{{ with .Get "alt"}}{{.}}{{else}}{{ .Get "caption" }}{{ end }}"{{ end }} />
-    {{ if .Get "link"}}</a>{{ end }}
-    {{ if or (or (.Get "title") (.Get "caption")) (.Get "attr")}}
-    <figcaption class="caption">{{ if isset .Params "title" }}
-        <h4>{{ .Get "title" }}</h4>{{ end }}
-        {{ if or (.Get "caption") (.Get "attr")}}
-        {{ .Get "caption" }}
-        {{ with .Get "attrlink"}}<a href="{{.}}"> {{ end }}
-            {{ .Get "attr" }}
-        {{ if .Get "attrlink"}}</a> {{ end }}
-        {{ end }}
+  <a href="{{ .Get "src" }}">
+    <img src="{{ .Get "src" }}" {{ if or (.Get "alt") (.Get "caption") }}alt="{{ with .Get "alt"}}{{.}}{{else}}{{ .Get "caption" }}{{ end }}"{{ end }} />
+  </a>
+  {{ if (.Get "caption") }}
+    <figcaption class="caption">
+      {{ .Get "caption" }}
     </figcaption>
-    {{ end }}
+  {{ end }}
+  {{ if .Get "attrLink" }}
+    {{ with .Get "attrLink" }}<a href="{{.}}" class="imgAttr">Source</a> {{ end }}
+  {{ end }}
 </figure>
 
 
 
-<!-- <figure>
-    <img src="/img/posts/building-ux-department-from-scratch/gap-analysis.png" />
-    <figcaption class="caption">One draft of 1010UX’s gap analysis. Lots of holes, lots of things I’m supposed to be covering.</figcaption>
-  </figure> -->
+{{/*
+  {{< img
+    src="/img/posts/user-research-101/decision-tree.jpeg"
+    attrLink="https://dev.to/nexttech/classification-and-regression-analysis-with-decision-trees-jgp"
+    caption="What a fun (and completely unrelated) decision tree!"
+  >}}
+*/}}
