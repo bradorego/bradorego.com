@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://bradorego.com/user-research-101/</loc>
+    <lastmod>2020-01-14T10:19:19-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://bradorego.com/research-playbooks-what-are-they-and-why-you-should-have-one/</loc>
     <lastmod>2019-09-16T10:19:19-04:00</lastmod>
   </url>
@@ -221,7 +226,13 @@
   
   <url>
     <loc>http://bradorego.com/blog/</loc>
-    <lastmod>2019-09-16T10:19:19-04:00</lastmod>
+    <lastmod>2020-01-14T10:19:19-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://bradorego.com/tags/business-outcomes/</loc>
+    <lastmod>2020-01-14T10:19:19-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -455,6 +466,12 @@
   <url>
     <loc>http://bradorego.com/tags/hybrid-app/</loc>
     <lastmod>2014-02-20T16:46:54-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://bradorego.com/tags/impact/</loc>
+    <lastmod>2020-01-14T10:19:19-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -729,8 +746,14 @@
   </url>
   
   <url>
+    <loc>http://bradorego.com/tags/research-methods/</loc>
+    <lastmod>2020-01-14T10:19:19-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://bradorego.com/tags/research-operations/</loc>
-    <lastmod>2019-09-16T10:19:19-04:00</lastmod>
+    <lastmod>2020-01-14T10:19:19-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -848,7 +871,7 @@
   
   <url>
     <loc>http://bradorego.com/categories/user-experience/</loc>
-    <lastmod>2019-09-16T10:19:19-04:00</lastmod>
+    <lastmod>2020-01-14T10:19:19-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -860,7 +883,7 @@
   
   <url>
     <loc>http://bradorego.com/tags/user-research/</loc>
-    <lastmod>2019-09-16T10:19:19-04:00</lastmod>
+    <lastmod>2020-01-14T10:19:19-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -884,7 +907,7 @@
   
   <url>
     <loc>http://bradorego.com/</loc>
-    <lastmod>2019-09-16T10:19:19-04:00</lastmod>
+    <lastmod>2020-01-14T10:19:19-04:00</lastmod>
     <priority>0</priority>
   </url>
   

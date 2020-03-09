@@ -7059,7 +7059,7 @@ body {
   @media (max-width: 479px) {
     .navbar .navbar-brand {
       white-space: initial; } }
-  @media (max-width: 767px) {
+  @media (max-width: 767.99px) {
     .navbar .btn-group {
       width: 100%; }
       .navbar .btn-group .btn {
@@ -7219,31 +7219,29 @@ a {
 figure {
   position: relative;
   margin: 0; }
-  figure figcaption {
+  figure figcaption, figure a.imgAttr {
     position: absolute;
     font-size: 12px;
     right: 0px; }
-    figure figcaption.caption {
+    figure figcaption.caption, figure a.imgAttr.caption {
       position: relative;
       display: block;
       font-size: 14px;
       width: 80%;
       margin: 0 auto;
       text-align: center; }
-      @media (max-width: 767px) {
-        figure figcaption.caption {
-          text-align: left;
-          margin: 0; } }
+  figure a.imgAttr {
+    bottom: 0px; }
   figure img.bg-white {
     background: white; }
   figure img.bg-black {
     background: #161c1f; }
-  @media screen and (min-width: 768px) {
+  @media (min-width: 767.99px) {
     figure.fl-right {
       float: right;
       width: 50%;
       margin-left: 2rem; } }
-  @media screen and (min-width: 768px) {
+  @media (min-width: 767.99px) {
     figure.fl-left {
       float: left;
       width: 50%;
@@ -7258,7 +7256,7 @@ figure {
   grid-row-gap: 40px;
   grid-column-gap: 40px;
   grid-auto-rows: auto; }
-  @media screen and (max-width: 767px) {
+  @media (max-width: 767.99px) {
     .showcase-grid {
       grid-template-columns: 1fr; } }
   .showcase-grid .card-body .graphic {
@@ -7268,7 +7266,7 @@ figure {
     width: 100%;
     height: 100%;
     height: 200px; }
-    @media screen and (max-width: 767px) {
+    @media (max-width: 767.99px) {
       .showcase-grid .card-body .graphic {
         height: 100px; } }
 
@@ -7329,7 +7327,7 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   margin-top: 120px; }
-  @media (max-width: 767px) {
+  @media (max-width: 767.99px) {
     body {
       margin-top: 150px; } }
 

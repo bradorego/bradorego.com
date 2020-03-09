@@ -1,4 +1,41 @@
-<!DOCTYPE html><html lang=en-us><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width, initial-scale=1"><meta name=description content="Musings about UX leadership, product design, user research, dance, ultimate, curling, and beer pancakes."><meta name=author content="Brad Orego"><base target=_blank><title>Foursquare Heatmap &amp; Remote Sensing</title><meta property=og:title content="Foursquare Heatmap &amp; Remote Sensing"><meta property=og:type content=website><meta property=og:description content="A bit on the techie side of things, I talk about how and why I made the Foursquare Heatmap, as well as a little interesting aside it&#39;s taught me about how technology can enable us and change/create experiences for us."><meta property=og:image content=http://bradorego.com/img/posts/foursquare-heatmap/header.png><meta property=og:url content="http://bradorego.com/foursquare-heatmap-remote-sensing/"><meta property=fb:app_id content><meta name=twitter:card content=summary><meta name=twitter:title content="Foursquare Heatmap &amp; Remote Sensing"><meta name=twitter:description content="A bit on the techie side of things, I talk about how and why I made the Foursquare Heatmap, as well as a little interesting aside it&#39;s taught me about how technology can enable us and change/create experiences for us."><meta name=twitter:image content=http://bradorego.com/img/posts/foursquare-heatmap/header.png><link href=/index.xml rel=alternate type=application/rss+xml title=bradorego.com><link href=/index.xml rel=feed type=application/rss+xml title=bradorego.com><link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel=stylesheet><link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel=stylesheet><link href=https://unpkg.com/aos@2.3.1/dist/aos.css rel=stylesheet><link href=/css/all.css rel=stylesheet><link href=https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css rel=stylesheet><script>
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Musings about UX leadership, product design, user research, dance, ultimate, curling, and beer pancakes.">
+    <meta name="author" content="Brad Orego">
+    <base target="_blank">
+
+    <title>Foursquare Heatmap &amp; Remote Sensing</title>
+    
+        <meta property="og:title" content="Foursquare Heatmap &amp; Remote Sensing" />
+        <meta property="og:type" content="website" />
+        <meta property="og:description" content="A bit on the techie side of things, I talk about how and why I made the Foursquare Heatmap, as well as a little interesting aside it&#39;s taught me about how technology can enable us and change/create experiences for us." />
+        <meta property="og:image" content="http://bradorego.com/img/posts/foursquare-heatmap/header.png" />
+        <meta property="og:url" content="http://bradorego.com/foursquare-heatmap-remote-sensing/" />
+        <meta property="fb:app_id" content="" />
+
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Foursquare Heatmap &amp; Remote Sensing" />
+        <meta name="twitter:description" content="A bit on the techie side of things, I talk about how and why I made the Foursquare Heatmap, as well as a little interesting aside it&#39;s taught me about how technology can enable us and change/create experiences for us." />
+        <meta name="twitter:image" content="http://bradorego.com/img/posts/foursquare-heatmap/header.png" />
+    
+
+    
+        <link href="/index.xml" rel="alternate" type="application/rss+xml" title="bradorego.com" />
+        <link href="/index.xml" rel="feed" type="application/rss+xml" title="bradorego.com" />
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="/css/all.css" rel="stylesheet">
+    
+    <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+    <script>
 window['_fs_debug'] = false;
 window['_fs_host'] = 'fullstory.com';
 window['_fs_org'] = '9XC8T';
@@ -17,13 +54,213 @@ if (!window.location.href.includes("localhost") && !document.cookie.includes("bj
         ';path=/;expires='+new Date(0).toUTCString();i=d.indexOf('.');if(i<0)break;d=d.slice(i+1)}}};
     })(window,document,window['_fs_namespace'],'script','user');
 }
-</script><script type=text/javascript>
+</script>
+
+    
+<script type="text/javascript">
   window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(r?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","resetIdentity","removeEventProperty","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};
     heap.load("1180696206");
-</script></head><script type=text/javascript>
+</script>
+
+    
+</head>
+
+<script type="text/javascript">
     document.addEventListener('DOMContentLoaded', function () {
         if (JSON.parse(window.localStorage.getItem('bjo-dark-mode'))) {
             document.body.addClass('dark-mode');
         }
     });
-</script><body class=preload><div id=scrollUp class="floating-button ion-arrow-up-b ion-24 hidden"></div><nav class="navbar fixed-top navbar-dark bg-dark"><div class=container><a class=navbar-brand href="/" target=_self><h1>Brad Orego</h1><h2>UX Leader. User Researcher. Entrepreneur. Dancer.</h2></a> <label for=darkmode-toggle class=navbar-toggle-wrap>Dark Mode<div class=toggle-container><input type=checkbox id=darkmode-toggle class=real-checkbox><div class=toggle-button></div></div></label><div class="btn-group d-flex" role=group><a role=button href="/" target=_self class="btn btn-outline-light w-100">Showcase</a> <a role=button href=/blog target=_self class="btn btn-outline-light w-100 active">Blog</a> <a role=button href=/about target=_self class="btn btn-outline-light w-100">About</a></div></div></nav><div class="blog-body container" data-aos=fade-up><div class=blog-header><img src=/img/posts/foursquare-heatmap/header.png><div class=text><h1>Foursquare Heatmap &amp; Remote Sensing</h1><hr class=small><h3 class=subheading>A bit on the techie side of things, I talk about how and why I made the Foursquare Heatmap, as well as a little interesting aside it&#39;s taught me about how technology can enable us and change/create experiences for us.</h3><h5>4 minute read</h5></div></div><div class=blog-content><hr><div class=tldnr><h3>TL;DNR</h3><ul><li>Foursquare's API and Google Maps are pretty easy to work with.</li><li>Creating a new product can be as easy as combining two existing technologies.</li><li>New products create opportunities for new experiences.</li></ul></div><hr><p>A little over a month ago (technically during the <a href=https://www.hackerleague.org/hackathons/foursquare-hackathon-2013>Foursquare Hackathon</a>, but I was working from home due to <a href=http://midwestultimate.com/red-eye>Red Eye</a>) I spent a few hours one weekend hacking together an idea I&rsquo;d come up with when working on Foursquare integration for <a href=http://gettrinker.com>Trinker</a>. What I discovered while playing with the <a href=https://developer.foursquare.com/overview/venues>Venues API</a> is that with one query, you can get all of the information about a bunch of different venues (I think it tops out at 30). Part of that information is, of course, the location (latitude, longitude, address), and another interesting data point: the <code>hereNow</code> value.</p><p>What that means is that with a single query to the Foursquare API, I essentially have a list of locations and how many people are checked in at that location right now. Interesting, I thought. So then I thought, why don&rsquo;t I take this information and create an overlay in Google Maps? A heat map, if you will? Well, the idea sat around for a month or two, and when I caught wind of the Foursquare Hackathon thanks to <a href=http://snowshoestamp.com>Snowshoe</a>, I decided it was time to dust that one off.</p><h1 id=the-technical-details-a-name-tech-href-tech-i-class-ion-link-i-a>The technical details <a name=tech href=#tech><i class=ion-link></i></a></h1><p>The app is written entirely in Javascript (there&rsquo;s no server-side code behind this - no database), and uses Foursquare&rsquo;s API and Google&rsquo;s Maps API. I first try to capture the user&rsquo;s geolocation data (<a href=https://developer.mozilla.org/en-US/docs/Using_geolocation>navigator.geolocation</a>) so I can display a map that&rsquo;s immediately relevant to them. If that fails (or they deny), I default to NYC (as it almost always has data to show). Users can also enter an address or location which I then run through Google&rsquo;s <a href="https://developers.google.com/maps/documentation/geocoding/">Geocoder API</a> and pull out the lat/lng which go on to the 4sq/gMaps functions. Once I have a lat/lng, I make an AJAX call to Foursquare with credentials (<code>client_id</code>, <code>client_secret</code>, <code>version #</code>) and the data to make the query (<code>radius</code>, <code>lat</code>/<code>lng</code>, <code>category</code>, etc). The return from that gives me the <a href="https://developer.foursquare.com/docs/explore#req=venues/search%3Fll%3D40.7,-74">venues list</a> (<code>data.response.venues</code>), which I save off into a local variable for later (<code>venueList</code>). Once I have all the data, I initialize a <a href=https://developers.google.com/maps/documentation/javascript/reference#Map><code>google.maps.Map</code> object</a> (with some <a href=https://developers.google.com/maps/documentation/javascript/reference#MapOptions>options</a>), and then iterate through each of the venues, drawing a <a href=https://developers.google.com/maps/documentation/javascript/reference#Circle>circle</a> with radius and color based on the <code>hereNow</code> value of that venue. Once the circle is drawn to the map (which is kind of weird - you actually create a new circle with a reference to the map object), I add a <a href=https://developers.google.com/maps/documentation/javascript/events>click listener</a> to display the venue information, and then I add them to the table below which I then run through <a href="http://tablesorter.com/docs/">tablesorter</a>. When you click on one of the table rows, I grab the lat/lng from that row and search through the list of venues (<code>venueList</code>) to find the one that matches and open up an <a href=https://developers.google.com/maps/documentation/javascript/reference#InfoWindow>info window</a> to display its content. Voila.</p><p>Whew, okay. That was a mouthful. For the non-tech folk, basically all I&rsquo;m doing is getting the latitude and longitude of your current location (or what you type in), querying Foursquare, pulling out the info, and putting circles onto Google Maps based on how many people are at the locations, which you can then click on to get more info. You can also sort the table below, and click on any row to see that location on the map.</p><h1 id=but-why-brad-a-name-why-href-why-i-class-ion-link-i-a>But why, Brad? <a name=why href=#why><i class=ion-link></i></a></h1><p>Because it&rsquo;s cool. That&rsquo;s actually the first motivation. I had the idea and I wanted to see if I could pull it off. It turns out I could, and it only took me a few hours to get the base prototype working. I thought it&rsquo;d be interesting to literally see where people are. That is, in essence, what this is. I&rsquo;ve created an interactive information visualization of where people are, according to Foursquare. And it&rsquo;s really cool. I&rsquo;ve also made a few <a href="http://www.youtube.com/playlist?list=PLq3M6ODce1N6IZoXoisCw5WHjEQs7SAWl&amp;feature=view_all">time lapse videos</a> to show how cool it can be.</p><p>I&rsquo;ve also noticed something else, though, since making this. Every now and then, I get curious to see what the map looks like. I&rsquo;m curious to see what people are doing in places I&rsquo;m not. I now have a tool that lets me see this, and the fact that there are real people out there making these things happen is a pretty interesting experience. When I have friends on vacation, or travelling to different cities, I jokingly tell them I&rsquo;ll be watching them.</p><p>There&rsquo;s also a practical use to this technology, which is part of the motivation behind building it - I can see where people are/aren&rsquo;t in my immediate vicinity. If I&rsquo;m planning to go out to the bars, or out to a restaurant, and I see there are a lot of people in a certain area, maybe I&rsquo;ll want to avoid there (or to go there).</p><p>At the very least, it&rsquo;s fun to play with!</p><h1 id=timelapse-a-name-timelapse-href-timelapse-i-class-ion-link-i-a>Timelapse <a name=timelapse href=#timelapse><i class=ion-link></i></a></h1><p>You can see a few timelapse videos of various cities/locations below:</p><iframe width=100% height=315 src="https://www.youtube.com/embed/videoseries?list=PLq3M6ODce1N6IZoXoisCw5WHjEQs7SAWl" frameborder=0 allowfullscreen></iframe><hr><p class=post-meta>Posted on March 11, 2013 in <a href=/categories/development target=_self>Development</a><br>Tags: <a href=/tags/foursquare target=_self>[foursquare]</a> <a href=/tags/heatmap target=_self>[heatmap]</a> <a href=/tags/remote-sensing target=_self>[remote sensing]</a> <a href=/tags/javascript target=_self>[javascript]</a></p><div data-aos=fade-up><hr>All <b>Development</b> posts:<ul class=categories><li><a href="http://bradorego.com/what-designers-need-to-know-about-development/" target=_self>What Designers Need to Know About Development</a></li><li><a href="http://bradorego.com/better-mcbw/" target=_self>Better MCBW</a></li><li><a href="http://bradorego.com/back-to-static/" target=_self>Back to Static</a></li><li><a href="http://bradorego.com/progressive-enhancement-with-phonegap/" target=_self>Progressive Enhancement with Phonegap</a></li><li><a href="http://bradorego.com/foursquare-heatmap-remote-sensing/" target=_self>Foursquare Heatmap &amp; Remote Sensing</a></li><li><a href="http://bradorego.com/new-site/" target=_self>New Site!</a></li></ul></div></div></div><footer><div class=container><hr class="medium dark"><ul class="list-inline text-center"><li class=list-inline-item><a href=mailto:hello@bradorego.com><i class="ion-android-mail ion-32"></i></a></li><li class=list-inline-item><a href=https://twitter.com/bradorego><i class="ion-social-twitter ion-32"></i></a></li><li class=list-inline-item><a href=https://github.com/bradorego><i class="ion-social-github ion-32"></i></a></li><li class=list-inline-item><a href=https://instagram.com/bradorego><i class="ion-social-instagram ion-32"></i></a></li><li class=list-inline-item><a href=https://linkedin.com/in/bradorego><i class="ion-social-linkedin ion-32"></i></a></li><li class="patreon list-inline-item"><a href=https://www.patreon.com/bradorego><svg version=1.0 xmlns=http://www.w3.org/2000/svg width=24pt height=18pt viewbox="0 0 160 166"><g transform="translate(0,160) scale(0.1,-0.1)" fill=#404040 stroke=none><path d="M0 800 l0 -800 145 0 145 0 0 800 0 800 -145 0 -145 0 0 -800z"></path><path d="M911 1580 c-204 -54 -374 -225 -427 -431 -22 -84 -22 -227 1 -304 48 -168 167 -312 317 -384 105 -50 182 -65 301 -58 116 7 198 35 296 101 165 113 261 294 261 491 -1 398 -367 685 -749 585z"></path></g></svg></a></li></ul><div class=text-center><a href=http://rochestermade.com title="Rochester Made"><img alt="Rochester Made" id=rochesterMade src=https://rochestermade.com/media/images/rochester-made-dark-on-light.png title="Rochester Made"></a></div></div></footer><script src=https://unpkg.com/aos@2.3.1/dist/aos.js></script><script src=/js/all.js></script></body></html>
+</script>
+
+<body class="preload">
+    <div id="scrollUp" class="floating-button ion-arrow-up-b ion-24 hidden"></div>
+
+
+
+  <nav class="navbar fixed-top navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="/" target="_self">
+      <h1>Brad Orego</h1>
+      <h2>UX Leader. User Researcher. Entrepreneur. Dancer.</h2>
+    </a>
+    <label for="darkmode-toggle" class="navbar-toggle-wrap">
+      Dark Mode
+      <div class="toggle-container">
+        <input type="checkbox" id="darkmode-toggle" class="real-checkbox">
+        <div class="toggle-button"></div>
+      </div>
+    </label>
+    <div class="btn-group d-flex" role="group">
+      <a role="button" href="/" target="_self" class="btn btn-outline-light w-100 ">Showcase</a>
+      <a role="button" href="/blog" target="_self" class="btn btn-outline-light w-100 active">Blog</a>
+      <a role="button" href="/about" target="_self" class="btn btn-outline-light w-100 ">About</a>
+    </div>
+  </div>
+</nav>
+
+
+  
+  <div class="blog-body container" data-aos="fade-up">
+    <div class="blog-header">
+  <img src="/img/posts/foursquare-heatmap/header.png">
+  <div class="text">
+    <h1>Foursquare Heatmap &amp; Remote Sensing</h1>
+    
+      <hr class="small" />
+      <h3 class="subheading">A bit on the techie side of things, I talk about how and why I made the Foursquare Heatmap, as well as a little interesting aside it&#39;s taught me about how technology can enable us and change/create experiences for us.</h3>
+      <h5>4 minute read</h5>
+    
+  </div>
+  
+</div>
+
+    <div class="blog-content">
+      
+      <hr/>
+      
+
+<div class="tldnr">
+  <h3>TL;DNR</h3>
+  <ul>
+    <li>Foursquare's API and Google Maps are pretty easy to work with.</li>
+    <li>Creating a new product can be as easy as combining two existing technologies.</li>
+    <li>New products create opportunities for new experiences.</li>
+  </ul>
+</div>
+
+<hr />
+
+<p>A little over a month ago (technically during the <a href="https://www.hackerleague.org/hackathons/foursquare-hackathon-2013">Foursquare Hackathon</a>, but I was working from home due to <a href="http://midwestultimate.com/red-eye">Red Eye</a>) I spent a few hours one weekend hacking together an idea I&rsquo;d come up with when working on Foursquare integration for <a href="http://gettrinker.com">Trinker</a>. What I discovered while playing with the <a href="https://developer.foursquare.com/overview/venues">Venues API</a> is that with one query, you can get all of the information about a bunch of different venues (I think it tops out at 30). Part of that information is, of course, the location (latitude, longitude, address), and another interesting data point: the <code>hereNow</code> value.</p>
+
+<p>What that means is that with a single query to the Foursquare API, I essentially have a list of locations and how many people are checked in at that location right now. Interesting, I thought. So then I thought, why don&rsquo;t I take this information and create an overlay in Google Maps? A heat map, if you will? Well, the idea sat around for a month or two, and when I caught wind of the Foursquare Hackathon thanks to <a href="http://snowshoestamp.com">Snowshoe</a>, I decided it was time to dust that one off.</p>
+
+<h1 id="the-technical-details-a-name-tech-href-tech-i-class-ion-link-i-a">The technical details <a name="tech" href="#tech"><i class="ion-link"></i></a></h1>
+
+<p>The app is written entirely in Javascript (there&rsquo;s no server-side code behind this - no database), and uses Foursquare&rsquo;s API and Google&rsquo;s Maps API. I first try to capture the user&rsquo;s geolocation data (<a href="https://developer.mozilla.org/en-US/docs/Using_geolocation">navigator.geolocation</a>) so I can display a map that&rsquo;s immediately relevant to them. If that fails (or they deny), I default to NYC (as it almost always has data to show). Users can also enter an address or location which I then run through Google&rsquo;s <a href="https://developers.google.com/maps/documentation/geocoding/">Geocoder API</a> and pull out the lat/lng which go on to the 4sq/gMaps functions. Once I have a lat/lng, I make an AJAX call to Foursquare with credentials (<code>client_id</code>, <code>client_secret</code>, <code>version #</code>) and the data to make the query (<code>radius</code>, <code>lat</code>/<code>lng</code>, <code>category</code>, etc). The return from that gives me the <a href="https://developer.foursquare.com/docs/explore#req=venues/search%3Fll%3D40.7,-74">venues list</a> (<code>data.response.venues</code>), which I save off into a local variable for later (<code>venueList</code>). Once I have all the data, I initialize a <a href="https://developers.google.com/maps/documentation/javascript/reference#Map"><code>google.maps.Map</code> object</a> (with some <a href="https://developers.google.com/maps/documentation/javascript/reference#MapOptions">options</a>), and then iterate through each of the venues, drawing a <a href="https://developers.google.com/maps/documentation/javascript/reference#Circle">circle</a> with radius and color based on the <code>hereNow</code> value of that venue. Once the circle is drawn to the map (which is kind of weird - you actually create a new circle with a reference to the map object), I add a <a href="https://developers.google.com/maps/documentation/javascript/events">click listener</a> to display the venue information, and then I add them to the table below which I then run through <a href="http://tablesorter.com/docs/">tablesorter</a>. When you click on one of the table rows, I grab the lat/lng from that row and search through the list of venues (<code>venueList</code>) to find the one that matches and open up an <a href="https://developers.google.com/maps/documentation/javascript/reference#InfoWindow">info window</a> to display its content. Voila.</p>
+
+<p>Whew, okay. That was a mouthful. For the non-tech folk, basically all I&rsquo;m doing is getting the latitude and longitude of your current location (or what you type in), querying Foursquare, pulling out the info, and putting circles onto Google Maps based on how many people are at the locations, which you can then click on to get more info. You can also sort the table below, and click on any row to see that location on the map.</p>
+
+<h1 id="but-why-brad-a-name-why-href-why-i-class-ion-link-i-a">But why, Brad? <a name="why" href="#why"><i class="ion-link"></i></a></h1>
+
+<p>Because it&rsquo;s cool. That&rsquo;s actually the first motivation. I had the idea and I wanted to see if I could pull it off. It turns out I could, and it only took me a few hours to get the base prototype working. I thought it&rsquo;d be interesting to literally see where people are. That is, in essence, what this is. I&rsquo;ve created an interactive information visualization of where people are, according to Foursquare. And it&rsquo;s really cool. I&rsquo;ve also made a few <a href="http://www.youtube.com/playlist?list=PLq3M6ODce1N6IZoXoisCw5WHjEQs7SAWl&amp;feature=view_all">time lapse videos</a> to show how cool it can be.</p>
+
+<p>I&rsquo;ve also noticed something else, though, since making this. Every now and then, I get curious to see what the map looks like. I&rsquo;m curious to see what people are doing in places I&rsquo;m not. I now have a tool that lets me see this, and the fact that there are real people out there making these things happen is a pretty interesting experience. When I have friends on vacation, or travelling to different cities, I jokingly tell them I&rsquo;ll be watching them.</p>
+
+<p>There&rsquo;s also a practical use to this technology, which is part of the motivation behind building it - I can see where people are/aren&rsquo;t in my immediate vicinity. If I&rsquo;m planning to go out to the bars, or out to a restaurant, and I see there are a lot of people in a certain area, maybe I&rsquo;ll want to avoid there (or to go there).</p>
+
+<p>At the very least, it&rsquo;s fun to play with!</p>
+
+<h1 id="timelapse-a-name-timelapse-href-timelapse-i-class-ion-link-i-a">Timelapse <a name="timelapse" href="#timelapse"><i class="ion-link"></i></a></h1>
+
+<p>You can see a few timelapse videos of various cities/locations below:</p>
+
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/videoseries?list=PLq3M6ODce1N6IZoXoisCw5WHjEQs7SAWl" frameborder="0" allowfullscreen></iframe>
+
+      <hr/>
+      <p class="post-meta">
+           Posted    on March 11, 2013  
+
+  in <a href="/categories/development" target="_self">Development</a> 
+
+
+
+  <br />
+  Tags: <a href="/tags/foursquare" target="_self">[foursquare]</a> <a href="/tags/heatmap" target="_self">[heatmap]</a> <a href="/tags/remote-sensing" target="_self">[remote sensing]</a> <a href="/tags/javascript" target="_self">[javascript]</a> 
+
+
+
+      </p>
+      
+  <div data-aos="fade-up">
+    
+    <hr/>
+    All <b>Development</b> posts:
+    
+    
+    <ul class="categories">
+    
+      <li><a href="http://bradorego.com/what-designers-need-to-know-about-development/" target="_self">What Designers Need to Know About Development</a></li>
+    
+      <li><a href="http://bradorego.com/better-mcbw/" target="_self">Better MCBW</a></li>
+    
+      <li><a href="http://bradorego.com/back-to-static/" target="_self">Back to Static</a></li>
+    
+      <li><a href="http://bradorego.com/progressive-enhancement-with-phonegap/" target="_self">Progressive Enhancement with Phonegap</a></li>
+    
+      <li><a href="http://bradorego.com/foursquare-heatmap-remote-sensing/" target="_self">Foursquare Heatmap &amp; Remote Sensing</a></li>
+    
+      <li><a href="http://bradorego.com/new-site/" target="_self">New Site!</a></li>
+    
+    </ul>
+  </div>
+
+
+    </div>
+  </div>
+
+        
+        <footer>
+          <div class="container">
+            <hr class="medium dark">
+              <ul class="list-inline text-center">
+                <li class="list-inline-item">
+                  <a href="mailto:hello@bradorego.com">
+                    <i class="ion-android-mail ion-32"></i>
+                  </a>
+                </li>
+                
+                <li class="list-inline-item">
+                  <a href="https://twitter.com/bradorego">
+                    <i class="ion-social-twitter ion-32"></i>
+                  </a>
+                </li>
+                
+                <li class="list-inline-item">
+                  <a href="https://github.com/bradorego">
+                    <i class="ion-social-github ion-32"></i>
+                  </a>
+                </li>
+                
+                <li class="list-inline-item">
+                  <a href="https://instagram.com/bradorego">
+                    <i class="ion-social-instagram ion-32"></i>
+                  </a>
+                </li>
+                
+                <li class="list-inline-item">
+                  <a href="https://linkedin.com/in/bradorego">
+                    <i class="ion-social-linkedin ion-32"></i>
+                  </a>
+                </li>
+                
+                <li class="patreon list-inline-item">
+                  <a href="https://www.patreon.com/bradorego">
+                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="24pt" height="18pt" viewBox="0 0 160 166">
+                    <g transform="translate(0,160) scale(0.1,-0.1)"
+                    fill="#404040" stroke="none">
+                    <path d="M0 800 l0 -800 145 0 145 0 0 800 0 800 -145 0 -145 0 0 -800z"/>
+                    <path d="M911 1580 c-204 -54 -374 -225 -427 -431 -22 -84 -22 -227 1 -304 48
+                    -168 167 -312 317 -384 105 -50 182 -65 301 -58 116 7 198 35 296 101 165 113
+                    261 294 261 491 -1 398 -367 685 -749 585z"/>
+                    </g>
+                    </svg>
+
+                  </a>
+              </ul>
+              <div class="text-center">
+                <a href="http://rochestermade.com" title="Rochester Made">
+                  <img alt="Rochester Made" id="rochesterMade" src="https://rochestermade.com/media/images/rochester-made-dark-on-light.png" title="Rochester Made">
+                </a>
+              </div>
+            </div>
+        </footer>
+      </div> 
+    </div> 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="/js/all.js"></script>
+
+</body>
+
+</html>
+

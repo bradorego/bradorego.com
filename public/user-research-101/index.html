@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Musings about UX leadership, product design, user research, dance, ultimate, curling, and beer pancakes.">
+    <meta name="author" content="Brad Orego">
+    <base target="_blank">
+
+    <title>User Research 101</title>
+    
+        <meta property="og:title" content="User Research 101" />
+        <meta property="og:type" content="website" />
+        <meta property="og:description" content="Everything you need to know about doing user research, from a ~10,000ft view. A 7-step guide explaining the underpinnings of what makes a good research practice that will deliver insights and drive results." />
+        <meta property="og:image" content="http://bradorego.com/img/posts/user-research-101/header.jpg" />
+        <meta property="og:url" content="http://bradorego.com/user-research-101/" />
+        <meta property="fb:app_id" content="" />
+
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="User Research 101" />
+        <meta name="twitter:description" content="Everything you need to know about doing user research, from a ~10,000ft view. A 7-step guide explaining the underpinnings of what makes a good research practice that will deliver insights and drive results." />
+        <meta name="twitter:image" content="http://bradorego.com/img/posts/user-research-101/header.jpg" />
+    
+
+    
+        <link href="/index.xml" rel="alternate" type="application/rss+xml" title="bradorego.com" />
+        <link href="/index.xml" rel="feed" type="application/rss+xml" title="bradorego.com" />
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="/css/all.css" rel="stylesheet">
+    
+    <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+    <script>
+window['_fs_debug'] = false;
+window['_fs_host'] = 'fullstory.com';
+window['_fs_org'] = '9XC8T';
+window['_fs_namespace'] = 'FS';
+if (!window.location.href.includes("localhost") && !document.cookie.includes("bjo_no_fullstory")) { 
+    (function(m,n,e,t,l,o,g,y){
+        if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
+        g=m[e]=function(a,b){g.q?g.q.push([a,b]):g._api(a,b);};g.q=[];
+        o=n.createElement(t);o.async=1;o.src='https://'+_fs_host+'/s/fs.js';
+        y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
+        g.identify=function(i,v){g(l,{uid:i});if(v)g(l,v)};g.setUserVars=function(v){g(l,v)};
+        y="rec";g.shutdown=function(i,v){g(y,!1)};g.restart=function(i,v){g(y,!0)};
+        g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
+        g.clearUserCookie=function(c,d,i){if(!c || document.cookie.match('fs_uid=[`;`]*`[`;`]*`[`;`]*`')){
+        d=n.domain;while(1){n.cookie='fs_uid=;domain='+d+
+        ';path=/;expires='+new Date(0).toUTCString();i=d.indexOf('.');if(i<0)break;d=d.slice(i+1)}}};
+    })(window,document,window['_fs_namespace'],'script','user');
+}
+</script>
+
+    
+<script type="text/javascript">
+  window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(r?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","resetIdentity","removeEventProperty","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};
+    heap.load("1180696206");
+</script>
+
+    
+</head>
+
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function () {
+        if (JSON.parse(window.localStorage.getItem('bjo-dark-mode'))) {
+            document.body.addClass('dark-mode');
+        }
+    });
+</script>
+
+<body class="preload">
+    <div id="scrollUp" class="floating-button ion-arrow-up-b ion-24 hidden"></div>
+
+
+
+  <nav class="navbar fixed-top navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="/" target="_self">
+      <h1>Brad Orego</h1>
+      <h2>UX Leader. User Researcher. Entrepreneur. Dancer.</h2>
+    </a>
+    <label for="darkmode-toggle" class="navbar-toggle-wrap">
+      Dark Mode
+      <div class="toggle-container">
+        <input type="checkbox" id="darkmode-toggle" class="real-checkbox">
+        <div class="toggle-button"></div>
+      </div>
+    </label>
+    <div class="btn-group d-flex" role="group">
+      <a role="button" href="/" target="_self" class="btn btn-outline-light w-100 ">Showcase</a>
+      <a role="button" href="/blog" target="_self" class="btn btn-outline-light w-100 active">Blog</a>
+      <a role="button" href="/about" target="_self" class="btn btn-outline-light w-100 ">About</a>
+    </div>
+  </div>
+</nav>
+
+
+  
+  <div class="blog-body container" data-aos="fade-up">
+    <div class="blog-header">
+  <img src="/img/posts/user-research-101/header.jpg">
+  <div class="text">
+    <h1>User Research 101</h1>
+    
+      <hr class="small" />
+      <h3 class="subheading">Everything you need to know about doing user research, from a ~10,000ft view. A 7-step guide explaining the underpinnings of what makes a good research practice that will deliver insights and drive results.</h3>
+      <h5>19 minute read</h5>
+    
+  </div>
+  <div class="photo-credit"><a href="https://uxdesign.cc/the-researchers-journey-leveling-up-as-a-user-researcher-a85cd35b53f5">Image Credit</a></div>
+</div>
+
+    <div class="blog-content">
+      
+        <div class="tldnr" data-aos="fade-up">
+  
+    <h4>TL;DNR</h4>
+  
+  <ul>
+    
+      <li> After a decade in the industry with the academic underpinnings of research psychology, I've discovered the basic framework of successful research activities in the tech sector (and, I would guess, in other sectors as well).</li>
+    
+      <li> The more you can standardize and systematize your processes, the more efficient and consistent activities will be. This is especially true of research: by going through the checklist and making sure you have all 7 elements covered, you can deliver higher quality results.</li>
+    
+      <li> This framework is a good way for more-junior team members to start to think through the full spectrum of strategic user research. There's no one-size-fits-all answer, but this should give you the basis to have conversations with your team.</li>
+    
+  </ul>
+</div>
+
+      
+      <hr/>
+      
+
+<p>My life changed fundamentally in the Fall of 2008. I was entering my 3rd year at the <a href="https://rochester.edu">University of Rochester</a> where I was double-majoring in Computer Science and Psychology. Up until that point, these were two things I studied in parallel, and had yet to discover the niche they intersect in. That is, until <a href="https://carmster.com/">Carman Neustaedter</a>, then working as a Research Scientist at Kodak in Rochester, taught a class as an adjunct called &ldquo;Introduction to Human-Computer Interaction&rdquo;. Since then, I&rsquo;ve been applying my training and knowledge in Research Psychology to the domain of technology. After designing and running hundreds of studies, working with dozens of companies and mentees, and chatting with my talented and passionate colleagues in <a href="https://researchops.community">ResearchOps</a>, I&rsquo;ve discovered an underlying framework to impactful user research.</p>
+
+<h1 id="7-steps-to-effective-user-research-a-name-7steps-href-7steps-i-class-ion-link-i-a">7 Steps to Effective User Research <a name="7steps" href="#7steps"><i class="ion-link"></i></a></h1>
+
+<h4 id="cover-all-of-your-bases-for-impactful-outcomes-and-great-glory">Cover all of your bases for impactful outcomes and great glory.</h4>
+
+<p>We&rsquo;ll dive into each of these elements in detail later, but I wanted to first present the 7 (technically 8, though I say 7 because the <a href="#context" target="_self">0th Step</a> is only necessary when stepping into a new vertical, role, or company) facets of the framework together as a unit and give a little context of how I got here.</p>
+
+<p>The framework, in all of its imperfect glory, follows:</p>
+
+<figure >
+  <a href="/img/posts/user-research-101/diagram2.png">
+    <img src="/img/posts/user-research-101/diagram2.png" alt="Hey, I&#39;m a researcher, not a designer 😉" />
+  </a>
+  
+    <figcaption class="caption">
+      Hey, I&#39;m a researcher, not a designer 😉
+    </figcaption>
+  
+  
+</figure>
+
+
+
+
+
+
+<ol start="0">
+   <li><a href="#context" target="_self">Understand the Context</a></li>
+   <li><a href="#goals" target="_self">Align on Goals</a></li>
+   <li><a href="#strategy" target="_self">Determine Strategy</a></li>
+   <li><a href="#plan" target="_self">Plan and Execute</a></li>
+   <li><a href="#analyze" target="_self">Analyze Results</a></li>
+   <li><a href="#document" target="_self">Document Findings</a></li>
+   <li><a href="#share" target="_self">Share It</a></li>
+   <li><a href="#iterate" target="_self">Reflect and Iterate</a></li>
+</ol>
+
+<p>As to how I got here, it&rsquo;s been part of my personal evolution as a practitioner. I&rsquo;m certainly not the most qualified individual when it comes to raw research methodology, statistical strength, etc., but coming out of an Honors program in Psychology, I had a certain degree of confidence in my experimental design and analysis. The parts I&rsquo;ve really had to learn the hard way are everything that aren&rsquo;t #3 and #4, which are much more related to the business end of research. The process of selecting goals, determining methods, and documenting and sharing results is strikingly different in the realm of academia, and there are unique challenges to research in that context as well as in the industry.</p>
+
+<p>Planning and executing research itself is usually the easiest part of being a Researcher in the industry. It&rsquo;s the part we&rsquo;re good at. All of the other elements are where I&rsquo;ve fallen short in the past, and where I see teams falling short still, which is why I wanted to highlight the non-hardcore-research things that go into doing impactful research. If you want a deep dive into how to select research methodologies, there&rsquo;s a ton of materials out there. I&rsquo;d start with <a href="https://www.nngroup.com/articles/which-ux-research-methods/">Nielsen Norman Group&rsquo;s primer on the topic</a>.</p>
+
+<h1 id="step-0-understand-the-context-a-name-context-href-context-i-class-ion-link-i-a">Step 0: Understand the Context <a name="context" href="#context"><i class="ion-link"></i></a></h1>
+
+<h4 id="what-space-are-you-playing-working-in-and-what-are-the-unique-challenges-and-opportunities">What space are you playing/working in, and what are the unique challenges and opportunities?</h4>
+
+<p>The reason this is a Step 0 is twofold. Firstly, it&rsquo;s absolutely essential to running an effective research practice. You need to know who the stakeholders are, what your product/service/company&rsquo;s unique positioning is, what the pressures are, who your allies are, etc. This will greatly impact your strategic decisions (<a href=" #strategy" target="_self">Step 2</a>), as a large portion of what determines your methodology are your constraints. There are a variety of ways to do this, but the most effective way is to just talk to your colleagues.</p>
+
+<p>One of the most influential things I&rsquo;ve started doing when I join a new team, a new organization, or start a new project, is what I refer to as a &ldquo;Listening &amp; Learning Tour&rdquo; (terminology which I&rsquo;ve borrowed lovingly from my alma mater&rsquo;s 11th President, <a href="https://www.rochester.edu/newscenter/off-and-running-sarah-mangelsdorf-sets-her-own-presidential-tone/">Sarah Mangelsdorf</a>). In a nutshell, I set up meetings with as many people as I possibly can across every discipline/area of expertise I can and at every level of the organization. I walk into the meeting with essentially 3 agenda items:</p>
+
+<blockquote>
+<ol>
+<li>Introduction to me and to User Research.</li>
+<li>Tell me about the work you do, and how can Research help support your goals.</li>
+<li>How might you be able to help the Research team accomplish our goals?</li>
+</ol>
+</blockquote>
+
+<p>The benefits to this approach are vast and deep. It&rsquo;s an informal chat, so people are generally disarmed. You also get to use the &ldquo;Hi I&rsquo;m new here help me understand&rdquo; cover. It&rsquo;s also an excellent opportunity to begin developing rapport and identifying who your powerful allies may be. It has an added benefit of educating and evangelizing Research to the team as well, which helps your team understand what it is you do and how to engage with you. The real purpose, however, is to gather whatever intel you can about the environment you&rsquo;re stepping into. This is part of why it&rsquo;s so important to talk to many disciplines and many levels: you want to triangulate as much as possible, and getting a diverse set of opinions and perspectives is crucial to this.</p>
+
+<p>The second reason it&rsquo;s #0 on the list is that, as you may&rsquo;ve guessed by now, this isn&rsquo;t something you need to do every single time. It&rsquo;s more of a foundational step than a practical step in the research process. If you already know who the key players are, what your market position is, and who you can leverage to accomplish your goals, there&rsquo;s no sense in rehashing that, and you can move forward with <a href="#goals" target="_self">Step 1</a>. Skipping this step, however, can be catastrophic, and is a mistake I&rsquo;ve made far too many times myself.</p>
+
+<h1 id="step-1-align-on-goals-a-name-goals-href-goals-i-class-ion-link-i-a">Step 1: Align on Goals <a name="goals" href="#goals"><i class="ion-link"></i></a></h1>
+
+<h4 id="make-sure-everyone-is-on-the-same-page-as-to-what-you-re-trying-to-accomplish-and-how-research-can-help">Make sure everyone is on the same page as to what you&rsquo;re trying to accomplish and how research can help.</h4>
+
+<p>Another step that is far too often overlooked (especially by more junior team members) is to ensure there&rsquo;s alignment with the team and key stakeholders before moving forward with any research activities. Typically, this is how things work:</p>
+
+<blockquote>
+<ol>
+<li>Somebody (usually a PM) decides they want some research to help them make a decision.</li>
+<li>They ask the researcher to go to some research.</li>
+<li>Researcher gets real excited and immediately gets to work.</li>
+<li>Researcher designs a study, recruits participants, executes the study, analyzes results, and prepares for a presentation.</li>
+<li>Researcher shares their findings with the team, and is met with blank stares.</li>
+<li>Original requester says something along the lines of &ldquo;Why did you do that? This isn&rsquo;t what I asked for&rdquo;.</li>
+<li>🤬</li>
+</ol>
+</blockquote>
+
+<p>The key breakdown in the above scenario is all the way at the beginning. The next time somebody asks you for research, the first thing you should do is ask Why. Using the &ldquo;<a href="https://en.wikipedia.org/wiki/Five_whys">Five Whys</a>&rdquo; is a good way to get at the root cause of what&rsquo;s being asked for, and will clarify the needs both for you and for your team. This type of alignment up front will help avoid wasting a lot of time down the road.</p>
+
+<p>Two other questions I tend to ask that are really powerful and insightful are around the business needs and around the decision-making process. Essentially, you want to make sure everyone is on the same page of what you&rsquo;ll do based on the results of your research. You can more or less build a <a href="https://en.wikipedia.org/wiki/Decision_tree">decision tree</a> that will guide decisions based on the results of your research. This has an added benefit of making the value and impact of research much clearer and more concrete, which is particularly beneficial when it comes time to talk about resourcing and/or promotions.</p>
+
+<figure >
+  <a href="/img/posts/user-research-101/decision-tree.jpeg">
+    <img src="/img/posts/user-research-101/decision-tree.jpeg" alt="What a fun (and completely unrelated) decision tree!" />
+  </a>
+  
+    <figcaption class="caption">
+      What a fun (and completely unrelated) decision tree!
+    </figcaption>
+  
+  
+    <a href="https://dev.to/nexttech/classification-and-regression-analysis-with-decision-trees-jgp" class="imgAttr">Source</a> 
+  
+</figure>
+
+
+
+
+
+
+<p>In terms of business goals (or the &ldquo;bottom line&rdquo;), I have an entire blog post (pending!) about how to ensure your activities are aligning with KPIs for your organization. You should read all of that if you want details, but the 15-second version is that you should make sure the decisions that will be made based on your research impact one of 4 key business levers: Acquisition, Retention, Cost to Serve, or Outreach. It&rsquo;s not necessarily up to you to decide which of those are important (that&rsquo;s more a Product decision), but doing research that doesn&rsquo;t ladder back up to that is an easy way to let your impact slip and devalue research activities.</p>
+
+<h1 id="step-2-determine-research-strategy-a-name-strategy-href-strategy-i-class-ion-link-i-a">Step 2: Determine Research Strategy <a name="strategy" href="#strategy"><i class="ion-link"></i></a></h1>
+
+<h4 id="let-your-context-goals-and-constraints-guide-which-methods-to-use">Let your context, goals, and constraints guide which methods to use.</h4>
+
+<p>Once you have a clear picture of what the intended outcomes are, you can move forward with picking out a strategy. Strategy is one of the hardest parts of being a researcher, and usually the skill that develops last in one&rsquo;s development as a practitioner, so don&rsquo;t worry if this seems nebulous.</p>
+
+<p>In a nutshell, your research strategy is how you&rsquo;ll actually do the research. This includes methodology, research questions, your script, and your target population. A variety of factors go into determining your strategy, but there are really only two key factors:</p>
+
+<ol>
+<li>Desired Outcomes</li>
+<li>Constraints</li>
+</ol>
+
+<p>Desired Outcomes is a combination of the conversations you had in <a href="#goals" target="_self">Step 1</a> to clarify what&rsquo;s being asked and what the team will do with the results as well as your knowledge and expertise as a Researcher. You need to be cognizant of what types of feedback you need to gather to answer the questions you have. Is this attitudinal or behavioral research? Should you look for quantitative or qualitative feedback? Is the goal evaluative or generative insights? All research activities will vary on these dimensions, among others.</p>
+
+<figure >
+  <a href="/img/posts/user-research-101/constraints.jpg">
+    <img src="/img/posts/user-research-101/constraints.jpg" alt="You have no idea how proud I am to sneak a 15-year-old meme into this post." />
+  </a>
+  
+    <figcaption class="caption">
+      You have no idea how proud I am to sneak a 15-year-old meme into this post.
+    </figcaption>
+  
+  
+</figure>
+
+
+
+
+
+
+<p>The other key factor is what your constraints are, and they can come in virtually infinite forms. Constriants can be resources (financial or human capital), political, temporal, capacity, capability, historical, access&hellip;the list goes on. What you need to be mindful of is how to maneuver within whatever constraints you are facing, as it&rsquo;s virtually unheard of you&rsquo;ll be able to use the exact method with the exact population and the exact timeframe you want. Research in industry is all about doing the best you can with what you have.</p>
+
+<p>Another factor that is often undervalued when it comes to strategy and can be a complete dealbreaker is who you&rsquo;re talking to. Population and participant selection are essential to study design. The questions you ask and the method you use almost don&rsquo;t matter if you&rsquo;re talking to the wrong people. Ensure the people you&rsquo;re using as participants are appropriate for the end goals. Also, being mindful of <a href="https://en.wikipedia.org/wiki/Sampling_bias">sampling bias</a> is crucial in your planning and analysis.</p>
+
+<h1 id="step-3-plan-execute-a-name-plan-href-plan-i-class-ion-link-i-a">Step 3: Plan &amp; Execute <a name="plan" href="#plan"><i class="ion-link"></i></a></h1>
+
+<h4 id="gather-all-of-the-resources-and-materials-you-need-and-do-the-actual-research">Gather all of the resources and materials you need and do the actual research.</h4>
+
+<p>What&rsquo;s really interesting and funny about writing this guide is that here, at Step 3, is where most people think &ldquo;Research&rdquo; starts. That is, actually planning and executing the research itself. There&rsquo;s a whole lot of nuance that I&rsquo;m going to gloss over here (considering this essay is already well over 2,000 words), but it should be obvious that part of the process of Research is to actually prepare for and conduct the research activity itself.</p>
+
+<p>The things to highlight there are the pure logistics of getting people and resources together in order to run a participant through a session. This is typically the low-hanging fruit of Research Operation, which is why you see a lot of <a href="https://www.google.com/search?q=user+research+coordinator+jobs">Research Coordinator</a> positions popping up. Coordination involves recruiting and scheduling participants, ensuring they have everything they need to attend (including reminders, directions, appropriate equipment and facilities (if remote), access to the testing stimuli, etc.), procuring the resources required on your end (your time, a space to meet, recording methods, testing stimuli, etc.), and otherwise doing what you need to do to ensure the session itself runs as smoothly and seamlessly as possible.</p>
+
+<p>Of every piece of this puzzle, I&rsquo;ll spend the least time writing about execution. This is what most people focus on when talking about Research, which I would argue is the easiest part to pull off. If you need further reading on the topic, feel free to <a href="http://letmegooglethatforyou.com/?q=how+to+do+user+research">take a look here</a>. Execution is typically the first thing someone starting a career in Research learns, both because it&rsquo;s a foundational skillset but also because it&rsquo;s easiest to teach and perform. Analysis and Strategy come with experience, and usually in that order.</p>
+
+<p>Check out the cover image for this post for a wonderful diagram of the process developed by <a href="https://www.linkedin.com/in/davehora/">Dave Hora</a> and the ResearchOps Community.</p>
+
+<h1 id="step-4-analyze-results-a-name-analyze-href-analyze-i-class-ion-link-i-a">Step 4: Analyze Results <a name="analyze" href="#analyze"><i class="ion-link"></i></a></h1>
+
+<h4 id="extract-the-key-insights-major-trends-and-impacts-to-your-decision-tree">Extract the key insights, major trends, and impacts to your decision tree.</h4>
+
+<p>Generally speaking, this is where the rubber meets the road. Performing research is important, as you need raw materials that are harvested into insights, however if your recordings and observations are the ore, analysis is the smelting process, and arguably, the most important part. After all, you need to be able to weave a narrative and tie things together in order to deliver the value of research (which, at the end of the day, is influencing decision-making). Every time I run and present the findings of a study, I offer everyone access to the raw material, and of the hundreds I&rsquo;ve run, I know of maybe a dozen instances where any individual looked at my notes, much less video or audio recordings. Team members and stakeholders are more interested in the take-home message versus the gory details, so analysis (along with <a href="#share" target="_self">Step 6</a>) are key to a complete research process.</p>
+
+<p>There are a variety of <a href="https://www.userinterviews.com/ux-research-field-guide-chapter/research-analysis">frameworks and methodologies</a> for analyzing the results of your research, so deciding which to use and how to do so is also important. Deciding whether to use, say, <a href="https://www.graphpad.com/support/faq/what-is-the-difference-between-ordinal-interval-and-ratio-variables-why-should-i-care/">discrete or continuous coding</a>, or what exactly <a href="https://medium.com/@tsharon/the-atomic-unit-of-a-research-insight-7bf13ec8fabe">qualifies as an individual insight</a> is both an ongoing challenge and something I can&rsquo;t really dictate for you: you&rsquo;ll have to make your own decisions based on your materials, expertise, and personnel. All that matters is you have a systematic process for extracting insights and identifying themes. <a href="https://www.interaction-design.org/literature/article/affinity-diagrams-learn-how-to-cluster-and-bundle-ideas-and-facts">Affinity Diagramming</a> can help expose the major themes in your observations.</p>
+
+<figure >
+  <a href="/img/posts/user-research-101/thematic-analysis.jpg">
+    <img src="/img/posts/user-research-101/thematic-analysis.jpg" alt="NNGroup has a really good article on analyzing results. Check out the source to this diagram for more info!" />
+  </a>
+  
+    <figcaption class="caption">
+      NNGroup has a really good article on analyzing results. Check out the source to this diagram for more info!
+    </figcaption>
+  
+  
+    <a href="https://www.nngroup.com/articles/thematic-analysis/" class="imgAttr">Source</a> 
+  
+</figure>
+
+
+
+
+
+
+<p>At a high level, this is all analysis is: drawing out the key insights of what you saw and heard. You should aim for a small set (5?) of key insights that encapsulate the most important things you saw and heard. You should certainly document and share other insights, but you should ask yourself what, if nobody gets anything else out of you doing this, is the thing (or three) you want people to know the most. Your Key Insights should also be driven by the Goals and the Research Questions identified earlier in the process. If your stakeholders are most interested in retention, you should be sharing insights related to retention.</p>
+
+<p>These Key Insights will serve as the basis for your shareout in <a href="#share" target="_self">Step 6</a>. But, ideally, before you share anything, you take the time to document all of the findings. You might think sharing things as quickly as possible is more important, but as we&rsquo;ll see next, documentation matters.</p>
+
+<h1 id="step-5-document-findings-a-name-document-href-document-i-class-ion-link-i-a">Step 5: Document Findings <a name="document" href="#document"><i class="ion-link"></i></a></h1>
+
+<h4 id="if-it-s-not-written-down-did-it-even-happen">If it&rsquo;s not written down, did it even happen?</h4>
+
+<p>Oftentimes, due to project deadlines or general excitement, researchers will jump straight to sharing the results. After all, the main purpose of research is to discover and share insights, right? What is often the most overlooked part of the process can arguably be one of the most important, as well. Clearly, you need to deliver insights, however there are a handful of benefits of ensuring you properly document everything before moving on to preparing to present your findings.</p>
+
+<p>First of all, by taking the time to document all of your findings, you&rsquo;re much more likely to catch additional insights or connections that you wouldn&rsquo;t&rsquo;ve otherwise noticed, enriching your analysis and what you present to the broader team. This is especially true as more people get involved in the research process. If you&rsquo;re distributing the work of conducting research or doing analysis, documentation is a really good way to ensure at least one person (whoever is doing the gardening, in this case) gets eyes on every single insight.</p>
+
+<figure >
+  <a href="https://i.giphy.com/media/3og0IKMmOZE88Ankty/source.gif">
+    <img src="https://i.giphy.com/media/3og0IKMmOZE88Ankty/source.gif" alt="Get it? Gardening? 🌱" />
+  </a>
+  
+    <figcaption class="caption">
+      Get it? Gardening? 🌱
+    </figcaption>
+  
+  
+    <a href="https://giphy.com/gifs/foxhomeent-johnny-depp-fast-3og0IKMmOZE88Ankty" class="imgAttr">Source</a> 
+  
+</figure>
+
+
+
+
+
+
+<p>Secondly, by documenting before you share (which is usually viewed as the end of a research cycle), you help set expectations of how long it takes to completely a cycle. This will help you down the road: the more your team and stakeholders learn and appreciate how much work goes into research and how long it takes. The Research Process isn&rsquo;t over when you conduct the research or even complete your analysis. There&rsquo;s always aftermath that usually gets swept under the rug or completely forgotten about. This can lead to waste, notably unnecessarily repeating research activities.</p>
+
+<p>Part of the original impetus for <a href="https://medium.com/@tsharon/democratizing-ux-670b95fbc07f">WeWork&rsquo;s Polaris Documentation System</a> is what Tomer Sharon calls &ldquo;bad research memory&rdquo;. If you aren&rsquo;t documenting what you&rsquo;ve learned and how you&rsquo;ve learned it, you&rsquo;re relying on the collective memory of your team. Memory is infamously fallible at best, and at worst, turnover on your team means institutional knowledge will literally walk out the door. By documenting your findings thoroughly, you help build a knowledge base of who you&rsquo;re serving and you help decrease the amount of redundant research conducted, ultimately saving time and resources.</p>
+
+<p>This is arguably the most important reason you need to document your findings apart from whatever you prepare as presentation materials. Another added bonus of doing this is it gives a place for all of your non-key insights to live. You&rsquo;ll probably discover some really interesting things that could benefit other teams or other projects but aren&rsquo;t relevant for your current goals. Instead of those fading into obscurity, documentation helps keep things relevant.</p>
+
+<h1 id="step-6-share-it-a-name-share-href-share-i-class-ion-link-i-a">Step 6: Share It! <a name="share" href="#share"><i class="ion-link"></i></a></h1>
+
+<h4 id="tell-everyone-you-possibly-can-in-as-many-media-and-modalities-you-possibly-can-evangelism-is-crucial">Tell everyone you possibly can in as many media and modalities you possibly can. Evangelism is crucial.</h4>
+
+<p>If analysis is the most important part, sharing your findings has to come close after that. If a tree falls in a forest and nobody hears it, did it fall? If you did research and learned some things but don&rsquo;t tell anyone, does it matter if you did anything at all? While Tomer is <a href="https://medium.com/@tsharon/the-three-most-popular-questions-about-atomic-research-56a5414d3d17">against research reports</a>, there&rsquo;s still a time, a place, and a format where reports can be valuable. What&rsquo;s more important than whether or not you prepre a report or presentation is to think about all of the different ways you can share your insights.</p>
+
+<p>This is another thing that will vary based on your organization. Think about where people go to find knowledge, where they share knowledge, and where are the places they &ldquo;hang out&rdquo;. I&rsquo;ve done everything from whitepaper-style formal written reports to interactive insights databases to one-page flyers hung in bathrooms and lounges; it really depends on the culture of your organization. That being said, I think there are a few fairly standard low-hanging fruit of ways to share the results of your research:</p>
+
+<ol>
+<li>A slide deck used to present findings live.</li>
+<li>A living repository of customer insights that can be explored, queried, etc.</li>
+<li>Intermediate updates and reports shared live via your chat tool of choice (e.g. Slack).</li>
+<li>Monthly/quarterly summaries of work done and insights uncovered (typically email).</li>
+</ol>
+
+<p>This strikes a nice balance of capturing some of the main ways people communicate, reaching out in some less-traditional means, and not bogging you or your team down in a lot of overhead work. Molly Fargotstein has a great presentation about <a href="https://www.dropbox.com/sh/9rnkdvypdihyfw9/AAAr1C5UZ7jgoP_5lEbmeSUsa">marketing for your Research team</a> from her time working with Mailchimp.</p>
+
+<p>One of my favorite ways to share research with a team (and one of my secret weapons) is something I borrowed lovingly from Google Ventures known as a <a href="https://library.gv.com/ux-watch-parties-543d22b1478d">viewing party</a>. This is one of the most effective ways to get your team engaged in research, to raise research literacy, and to build empathy for your end users. It&rsquo;s an incredibly efficient use of time for your team members as well, and provides a highly curated, social experience.</p>
+
+<blockquote>
+<p>&ldquo;Throw a viewing party. If team members can’t attend sessions live, schedule a viewing party to watch a recording of at least one session of your choice. Lure them with lunch, special treats, or highly coveted <code>I’m a customer champion</code> badges. While watching the session together, point out key moments, observations, and specific interviewing techniques you want them to notice.&rdquo;</p>
+</blockquote>
+
+<p>You can read the original article for details on how to execute, but there are a few key advantages to this technique. For one, it&rsquo;s a limited time investment from your teammates, and instead of seeing just one user, they get a cross-section of a number of opinions. Secondly, as mentioned, it&rsquo;s a social experience, so not only are you doing this together and spending time with your team, it&rsquo;s also very obvious who&rsquo;s skipping out on it. Lastly, as mentioned, it&rsquo;s a curated experience, meaning both that it&rsquo;s a good bang-for-your-buck time investment but also the discussion in between each video clip provides an opportunity for your team to learn how to observe research and gather insights (which is an invaluable asset).</p>
+
+<p>Sharing (however you decide to do so) is often seen as the &ldquo;end&rdquo; of a research cycle. If you&rsquo;re interested in how efficient your team is being (and, trust me, as an <a href="https://researchops.community">Ops</a> person, I have many thoughts on this), this is when you can measure the delivery of a research project, and you can now safely shift your focus to other more-pressing work. However, there is technically one last step in my process.</p>
+
+<h1 id="step-7-reflect-and-iterate-a-name-iterate-href-iterate-i-class-ion-link-i-a">Step 7: Reflect and Iterate <a name="iterate" href="#iterate"><i class="ion-link"></i></a></h1>
+
+<h4 id="take-time-to-have-a-retrospective-on-the-study-you-just-conducted-and-see-what-you-can-do-better-next-time">Take time to have a retrospective on the study you just conducted and see what you can do better next time.</h4>
+
+<p>As should be with any process, the last step is to look back at the work you just completed and to reflect upon it. This doesn&rsquo;t necessarily have to happen after every individual study (especially if you&rsquo;re particularly tight on time or have a high volume of research happening across your team), however the value of this type of <a href="https://www.atlassian.com/team-playbook/plays/retrospective">retrospective</a> work is incredibly high. It&rsquo;s important to get as many different opinions and as many team members involved as you can, including your peers in other disciplines.</p>
+
+<p>How exactly you structure this and what questions you ask is up to you, and will depend upon the specifics of your context (team, organization, etc). I tend to focus on 3 main things: Mechanics, Impact, and Context Updates. Mechanics relate to execution of the research activities itself, and whether there was anything that went particularly well or poorly. Impact focuses on the influence on the overall project/company and whether you&rsquo;re driving the change you want to. And Context Updates are simply circling all the way back to <a href="#context" target="_self">Step 0</a>: have we learned anything significant about our archetypes, about the industry sector we work in, about our product, etc. that we need to update and propagate throughout the organization?</p>
+
+<p>The reason I emphasize having this as part of the process (if not a regularly scheduled occurrence) is that it&rsquo;s far too easy to hand-wave it away or keep putting it off in the interest of doing new work. However, doing so both stunts the growth of your team/research practice and leaves valuable insights on the table which could have an outsized impact on your organization.</p>
+
+<h1 id="conclusion-a-name-conclusion-href-conclusion-i-class-ion-link-i-a">Conclusion <a name="conclusion" href="#conclusion"><i class="ion-link"></i></a></h1>
+
+<h4 id="now-that-you-have-a-framework-make-it-your-own">Now that you have a framework, make it your own.</h4>
+
+<p>My end goal in writing this framework/guide isn&rsquo;t to be prescriptive, or to say this is the only way it can be done. Ultimately, you&rsquo;ll need to customize the process for your individual preferences, your team&rsquo;s needs, and your organization&rsquo;s goals. I think I really had two main objectives: 1) to give me the opportunity to work through my thoughts on this, and 2) to stop repeating myself, as I often get questions about what Research is and how to do it.</p>
+
+<p>This guide should nicely go hand-in-hand with my <a href="https://bradorego.com/research-playbooks-what-are-they-and-why-you-should-have-one/">Research Playbook</a> post (and the associated playbook sample linked in that article) for anyone getting started either in their career as a Researcher or in building a team. Most of my work the past few years has focused on building and scaling Research practices and upskilling individuals, so I&rsquo;m hoping others can learn from my mistakes and missteps.</p>
+
+      <hr/>
+      <p class="post-meta">
+           Posted    on January 14, 2020  
+
+  in <a href="/categories/user-experience" target="_self">User Experience</a> 
+
+
+
+  <br />
+  Tags: <a href="/tags/user-research" target="_self">[user research]</a> <a href="/tags/business-outcomes" target="_self">[business outcomes]</a> <a href="/tags/impact" target="_self">[impact]</a> <a href="/tags/research-methods" target="_self">[research methods]</a> <a href="/tags/research-operations" target="_self">[research operations]</a> 
+
+
+
+      </p>
+      
+  <div data-aos="fade-up">
+    
+    <hr/>
+    All <b>User Experience</b> posts:
+    
+    
+    <ul class="categories">
+    
+      <li><a href="http://bradorego.com/user-research-101/" target="_self">User Research 101</a></li>
+    
+      <li><a href="http://bradorego.com/research-playbooks-what-are-they-and-why-you-should-have-one/" target="_self">Research Playbooks: What Are They and Why You Should Have One</a></li>
+    
+      <li><a href="http://bradorego.com/building-a-ux-department-from-scratch-at-a-20-year-old-big-data-company/" target="_self">Building a UX Department from scratch at a 20-year-old Big Data Company</a></li>
+    
+      <li><a href="http://bradorego.com/a-designers-guide-to-gdpr/" target="_self">A Designer&#39;s Guide to GDPR</a></li>
+    
+      <li><a href="http://bradorego.com/improvisation-creativity-and-design/" target="_self">Improvisation, Creativity, and Design</a></li>
+    
+      <li><a href="http://bradorego.com/the-importance-of-daily-technique/" target="_self">The Importance of (Daily) Technique</a></li>
+    
+      <li><a href="http://bradorego.com/an-intro-to-embodied-cognition/" target="_self">An Intro to Embodied Cognition</a></li>
+    
+      <li><a href="http://bradorego.com/usability-research-checklist/" target="_self">Usability Research Checklist</a></li>
+    
+      <li><a href="http://bradorego.com/ux-considerations-for-iot/" target="_self">UX Considerations For IoT</a></li>
+    
+      <li><a href="http://bradorego.com/the-dangers-of-tight-iteration/" target="_self">The Dangers of Tight Iteration</a></li>
+    
+      <li><a href="http://bradorego.com/product-vs-project-management/" target="_self">Product vs Project Management</a></li>
+    
+      <li><a href="http://bradorego.com/transparency-of-online/" target="_self">Transparency of &#34;Online&#34;</a></li>
+    
+      <li><a href="http://bradorego.com/an-open-letter-to-okcupid/" target="_self">An Open Letter to OkCupid</a></li>
+    
+      <li><a href="http://bradorego.com/the-importance-of-flow/" target="_self">The Importance of Flow</a></li>
+    
+      <li><a href="http://bradorego.com/note-taking/" target="_self">Note-taking</a></li>
+    
+      <li><a href="http://bradorego.com/the-importance-of-content/" target="_self">The Importance of Content</a></li>
+    
+      <li><a href="http://bradorego.com/ditw-stovetop/" target="_self">DITW: Stovetop</a></li>
+    
+    </ul>
+  </div>
+
+
+    </div>
+  </div>
+
+        
+        <footer>
+          <div class="container">
+            <hr class="medium dark">
+              <ul class="list-inline text-center">
+                <li class="list-inline-item">
+                  <a href="mailto:hello@bradorego.com">
+                    <i class="ion-android-mail ion-32"></i>
+                  </a>
+                </li>
+                
+                <li class="list-inline-item">
+                  <a href="https://twitter.com/bradorego">
+                    <i class="ion-social-twitter ion-32"></i>
+                  </a>
+                </li>
+                
+                <li class="list-inline-item">
+                  <a href="https://github.com/bradorego">
+                    <i class="ion-social-github ion-32"></i>
+                  </a>
+                </li>
+                
+                <li class="list-inline-item">
+                  <a href="https://instagram.com/bradorego">
+                    <i class="ion-social-instagram ion-32"></i>
+                  </a>
+                </li>
+                
+                <li class="list-inline-item">
+                  <a href="https://linkedin.com/in/bradorego">
+                    <i class="ion-social-linkedin ion-32"></i>
+                  </a>
+                </li>
+                
+                <li class="patreon list-inline-item">
+                  <a href="https://www.patreon.com/bradorego">
+                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="24pt" height="18pt" viewBox="0 0 160 166">
+                    <g transform="translate(0,160) scale(0.1,-0.1)"
+                    fill="#404040" stroke="none">
+                    <path d="M0 800 l0 -800 145 0 145 0 0 800 0 800 -145 0 -145 0 0 -800z"/>
+                    <path d="M911 1580 c-204 -54 -374 -225 -427 -431 -22 -84 -22 -227 1 -304 48
+                    -168 167 -312 317 -384 105 -50 182 -65 301 -58 116 7 198 35 296 101 165 113
+                    261 294 261 491 -1 398 -367 685 -749 585z"/>
+                    </g>
+                    </svg>
+
+                  </a>
+              </ul>
+              <div class="text-center">
+                <a href="http://rochestermade.com" title="Rochester Made">
+                  <img alt="Rochester Made" id="rochesterMade" src="https://rochestermade.com/media/images/rochester-made-dark-on-light.png" title="Rochester Made">
+                </a>
+              </div>
+            </div>
+        </footer>
+      </div> 
+    </div> 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="/js/all.js"></script>
+
+</body>
+
+</html>
+
