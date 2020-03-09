@@ -7,6 +7,7 @@
    "description": "A view on corporate innovation from the startup world.",
    "draft": false,
    "image": "/img/posts/dos-donts-corporate-innovation/header.jpg",
+   "photoCredit": "https://www.pexels.com/photo/architectural-design-architecture-blue-sky-buildings-373584/",
    "publishdate": "2017-04-29T14:47:36-05:00",
    "tags": [
       "corporate innovation",
