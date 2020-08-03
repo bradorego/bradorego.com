@@ -38,18 +38,9 @@ Element.prototype.toggleClass = function (name) {
   }
 };
 document.addEventListener('DOMContentLoaded', function () {
-  var $wrapper = document.getElementById('wrapper'),
-    $scrollUp = document.getElementById('scrollUp');
-    $toggles = Array.from(document.getElementsByClassName('showcase-toggle')),
+  let $scrollUp = document.getElementById('scrollUp');
     $body = document.querySelector('body'),
-    $dmToggle = document.getElementById('darkmode-toggle'),
-    toggleClickListener = (event) => {
-      event.preventDefault(); event.stopPropagation();
-      let card = event.target.parentElement.parentElement.parentElement;
-      card.getElementsByTagName('img')[0].src = event.target.dataset.imgSrc;
-      Array.from(card.getElementsByClassName('showcase-toggle')).forEach((t) => {t.removeClass('active');}); /// unselect others
-      event.target.addClass('active'); /// select clicked
-    };
+    $dmToggle = document.getElementById('darkmode-toggle');
   if (JSON.parse(window.localStorage.getItem('bjo-dark-mode'))) {
     $body.addClass('dark-mode');
     $dmToggle.checked = true;
@@ -65,9 +56,6 @@ document.addEventListener('DOMContentLoaded', function () {
     window.localStorage.setItem('bjo-dark-mode', !!this.checked); /// persist across page load/visit
   });
 
-    $toggles.forEach((t) => {
-      t.addEventListener('click', toggleClickListener);
-    });
   if (window.location.hash) {
     window.scrollBy(0,-100);
   }
