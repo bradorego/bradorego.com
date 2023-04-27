@@ -29,8 +29,6 @@ Brad is a graduate of the [University of Rochester](http://rochester.edu/) with 
 
 In a past life, Brad also curled at the [Madison Curling Club](http://madisoncurlingclub.com), homebrewed as a member of [MHTG](http://mhtg.org), and played ultimate frisbee competitively with [Madison Mastodon](https://twitter.com/MastodonUlti) and as a founding member of [Madison Mousetrap](https://twitter.com/mousetrapulti).
 
-The current design of this website was inspired heavily/borrowed lovingly from [Chris Avgerinos](http://adoptchris.com/2015/). Giving credit where credit's due.
-
 ---
 
 If you're [unfortunate enough](http://www.sean-johnson.com/why-you-should-burn-your-resume/) to be looking for a r&eacute;sum&eacute;, you can find a (probably outdated) version [here](/OregoResume2023-1.pdf).
