@@ -51,11 +51,6 @@ document.addEventListener('DOMContentLoaded', function () {
     duration: 500
   });
 
-  $dmToggle.addEventListener('change', function (e) {
-    $body.toggleClass('dark-mode');
-    window.localStorage.setItem('bjo-dark-mode', !!this.checked); /// persist across page load/visit
-  });
-
   if (window.location.hash) {
     window.scrollBy(0,-100);
   }
