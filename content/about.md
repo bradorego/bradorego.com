@@ -33,7 +33,7 @@ The current design of this website was inspired heavily/borrowed lovingly from [
 
 ---
 
-If you're [unfortunate enough](http://www.sean-johnson.com/why-you-should-burn-your-resume/) to be looking for a r&eacute;sum&eacute;, you can find a (probably outdated) version [here](/OregoDirectorResume.pdf).
+If you're [unfortunate enough](http://www.sean-johnson.com/why-you-should-burn-your-resume/) to be looking for a r&eacute;sum&eacute;, you can find a (probably outdated) version [here](/OregoResume2023-1.pdf).
 
 ---
 
