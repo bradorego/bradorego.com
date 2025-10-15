@@ -1,0 +1,390 @@
+<html>
+	<head>
+		<title>Foursquare Heat Map - bradorego.com</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" href="ext/tablesorter/themes/blue/style.css" />
+		<style type="text/css">
+			body {
+				font-family: Verdana, sans-serif;
+			}
+		#map {
+			width: 95%;
+			margin: 20px auto;
+			height: 500px;
+		}
+		#loading {
+			background: rgba(255, 255, 255, 0.7);
+			width: 100%;
+			height: 300px;
+			padding-top: 200px;
+			position: absolute;
+			top: 0px;
+			z-index: 5;
+			text-align: center;
+			font-size: 48px;
+			font-family: Verdana, sans-serif;
+		}
+		#results {
+		}
+		input[type="search"] {
+			font-size: 18px;
+			width: 75%;
+		}
+		input[type="button"] {
+			font-size: 18px;
+		}
+		#categories	 {
+			width: 75%;
+		}
+		label {
+			margin-right: 40px;
+			white-space: nowrap;
+		}
+		table.tablesorter thead tr th,
+		table.tablesorter tfoot tr th,
+		table.tablesorter{
+			font-size: 14px;
+		}
+		@media only screen and (max-width:480px) {
+			.cat {
+				display: none;
+			}
+			label {
+				display: block;
+				margin: 0;
+				padding: 10px;
+			}
+		}
+		@media only screen and (max-width:768px) {
+			.latlng{
+				display: none;
+			}
+		}
+		</style>
+	</head>
+	<body>
+		<h1>Welcome to the Foursquare Heat Map</h1>
+		<h3>Please accept the location request or enter an address manually</h3>
+		<input type="search" placeholder="Enter address/location" label="Address/Location" id="search"/>
+		<h4>Category:</h4>
+		<div id="categories">
+			<label>
+				<input type="radio" name="category" value="" checked="checked" /> All
+			</label>
+			<label>
+				<input type="radio" name="category" value="4d4b7104d754a06370d81259" /> Arts & Entertainment
+			</label>
+			<label>
+				<input type="radio" name="category" value="4d4b7105d754a06372d81259" /> College & University
+			</label>
+			<label>
+				<input type="radio" name="category" value="4d4b7105d754a06374d81259" /> Food
+			</label>
+			<label>
+				<input type="radio" name="category" value="4d4b7105d754a06376d81259" /> Nightlife
+			</label>
+			<label>
+				<input type="radio" name="category" value="4d4b7105d754a06377d81259" /> Outdoors & Recreation
+			</label>
+			<label>
+				<input type="radio" name="category" value="4d4b7105d754a06375d81259" /> Professional & Other Places
+			</label>
+			<label>
+				<input type="radio" name="category" value="4e67e38e036454776db1fb3a" /> Residences
+			</label>
+			<label>
+				<input type="radio" name="category" value="4d4b7105d754a06378d81259" /> Shops & Services
+			</label>
+			<label>
+				<input type="radio" name="category" value="4d4b7105d754a06379d81259" /> Travel & Transport
+			</label>
+		</div>
+		<h4>Radius:</h4>
+		<select id="distance">
+			<option value="1609">1mi</option>
+			<option value="4828" selected="selected">3mi</option>
+			<option value="8046">5mi</option>
+			<option value="16093">10mi</option>
+			<option value="40233">25mi</option>
+			<option value="80467">50mi</option>
+		</select>
+		<div id="map"></div>
+		<div id="results">
+			<table class="tablesorter">
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th class='cat'>Category</th>
+						<th>Address</th>
+						<th class="latlng">Lat, Lng</th>
+						<th>Currently Here</th>
+					</tr>
+					<tbody>
+
+					</tbody>
+				</thead>
+			</table>
+		</div>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+	<script type="text/javascript" src="ext/tablesorter/jquery.tablesorter.min.js"></script>
+<script type="text/javascript">
+	var map,
+		venueList = [],
+		infoWindow = new google.maps.InfoWindow(),
+		radius = 4828, //3mi in m
+		currentPosition = {},
+		$loading = $('#loading'),
+		zoom = 14,
+		$table,
+		category,
+		mapdiv = document.getElementById('map');
+
+	function locationPageSuccess(position) {
+		"use strict";
+		var lat = position.coords.latitude,
+				lng = position.coords.longitude;
+		currentPosition.lat = lat;
+		currentPosition.lng = lng;
+		foursquareQuery(lat, lng, radius);
+	}
+
+	function manualLocation(addr) {
+		if (typeof(addr) !== "string" || !addr) {
+			addr = "New York, NY";
+		}
+		if (!addr.replace(/\s/g, '').length) { //empty string. do nothing
+			return;
+		}
+		var geo = new google.maps.Geocoder();
+		geo.geocode({address: addr}, function (result) {
+			var lat = result[0].geometry.location.lat(),
+				lng = result[0].geometry.location.lng();
+			currentPosition.lat = lat;
+			currentPosition.lng = lng;
+			foursquareQuery(lat, lng, radius);
+		});
+	}
+
+	function foursquareQuery(lat, lng) {
+		"use strict";
+		var $results = $('#results');
+		$loading.fadeIn(250);
+		$.ajax({
+			url: "https://api.foursquare.com/v2/venues/search",
+			dataType: "json",
+			data: {
+				client_id: "1CYOYAH5ALKTQZTX1R0AJJJGCNOIR5G03XH0LLJL4PSRKMT3",
+				client_secret: "EXCSTQD1C4HKXJXFW0E0OIDY5FBEB2JKK1PCGES1ZIMLMGNY",
+				intent: "browse",
+				radius: radius,
+				ll: lat + "," + lng,
+				categoryId: category,
+				v: "20130105"
+			},
+			success: function (data) {
+				var $tbody = $('tbody');
+				$table = $('table');
+				$tbody.children().remove();
+				initGMap(data.response.venues, lat, lng);
+				$.each(data.response.venues, function (index, venue) {
+					//console.log("Name:" + venue.name + "\nAddress:" + venue.location.address + "\nLat/Lng:" + venue.location.lat + ", " + venue.location.lng + "\nHereNow:" + venue.hereNow.count);
+					//$results.append("<div>" +
+					//		 venueInfoOutput(venue) +
+					//	"</div>");
+					//$results.append("<br>");
+					$tbody.append(venueInfoOutputTable(venue));
+				});
+				$table.trigger('update');
+			},
+			error: function (xhr) {
+				alert(xhr.responseText);
+			}
+		});
+	}
+
+	function initGMap(venues, lat, lng) {
+		var center = new google.maps.LatLng(lat, lng),
+			myOptions = {
+				zoom: zoom, /* zoom level of the map */
+				center: center,
+				draggable: true,
+				mapTypeId: google.maps.MapTypeId.ROADMAP,
+				mapTypeControl: true,
+				panControl: true,
+				streetViewControl: false,
+				zoomControl: true,
+				scaleControl: false,
+				keyboardShortcuts: false,
+				scrollwheel: true,
+				mapTypeControlOptions: {
+					mapTypeIDs: [google.maps.MapTypeId.ROADMAP, '_map_style']
+				}
+			};
+		venueList = venues;
+		map = new google.maps.Map(mapdiv, myOptions); /* show the map in the element with the given div */
+		$(mapdiv).append("<div id='loading'>Loading...</div>");
+		//$.each(venues, function (index, venue) {
+		for (var i = 0; i < venues.length; i++) {
+			var latlng = new google.maps.LatLng(venues[i].location.lat, venues[i].location.lng),
+				populationOptions = {
+					strokeColor: "#ff00ff",
+					strokeOpacity: 0.8,
+					strokeWeight: 2,
+					fillColor: "#ff00ff",
+					fillOpacity: 0.35,
+					map: map,
+					center: latlng,
+					radius: venues[i].hereNow.count * 10,
+					clickable: true
+				},
+				venueCircle;
+				if (venues[i].hereNow.count > 25) {
+					populationOptions.strokeColor = "#ff0000";
+					populationOptions.fillColor = "#ff0000";
+					populationOptions.fillOpacity = 0.8;
+				} else if (venues[i].hereNow.count > 10) {
+					populationOptions.strokeColor = "#ff00aa";
+					populationOptions.fillColor = "#ff00aa";
+					populationOptions.fillOpacity = 0.65;
+				} else if (venues[i].hereNow.count > 5) {
+					populationOptions.strokeColor = "#aa00ff";
+					populationOptions.fillColor = "#aa00ff";
+					populationOptions.fillOpacity = 0.5;
+				}
+				venueCircle = new google.maps.Circle(populationOptions)
+				//console.log(venues[i].name, "HN:"+venues[i].hereNow.count, "R:"+venueCircle.radius);
+			google.maps.event.addListener(venueCircle, 'click', showInfo);
+		}//});
+		map.setCenter(center);
+		$loading = $('#loading');
+		$loading.fadeOut(500);
+	}
+
+	function showInfo(event) {
+		var i = 0,
+			circleLat,
+			circleLng,
+			venueLat,
+			venueLng,
+			contentString;
+		for (i = 0; i < venueList.length; i++) {
+			circleLat = this.center.lat().toFixed(3);
+			circleLng = this.center.lng().toFixed(3);
+			venueLat = venueList[i].location.lat.toFixed(3);
+			venueLng = venueList[i].location.lng.toFixed(3);
+			if ((circleLat === venueLat) && (circleLng === venueLng)) { //match! Show window!
+				//console.log("match!");
+				contentString = venueInfoOutput(venueList[i]);
+				infoWindow.setContent(contentString);
+				infoWindow.setPosition(event.latLng);
+				infoWindow.open(map);
+			}
+		}
+	}
+
+	function venueInfoOutput(venue) {
+		var cat = venue.categories[0].pluralName ? venue.categories[0].pluralName : venue.categories[0].name;
+		return "Name: " + venue.name + "<br>Category:" + cat + "<BR>Address: " + venue.location.address + "<BR>Lat/Lng: " + venue.location.lat + ", " + venue.location.lng + "<BR>HereNow: " + venue.hereNow.count + "<br><a target='_blank' href='" + venue.canonicalUrl + "'>Open 4sq Page</a>";
+	}
+	function venueInfoOutputTable(venue) {
+		var cat = venue.categories[0].pluralName ? venue.categories[0].pluralName : venue.categories[0].name;
+		return "<tr><td>" + venue.name + "</td><td class='cat'>" + cat + "</td><td>" + venue.location.address + "</td><td  class='latlng'>" + venue.location.lat + ", " + venue.location.lng + "</td><td>" + venue.hereNow.count + "</td><td><a target='_blank' href='" + venue.canonicalUrl + "'>Open 4sq Page</a></td></tr>";
+	}
+
+	function var_dump(obj) {
+		var str = "",
+				i;
+		for (i in obj) {
+			str += i + ":" + obj[i] + "\n";
+		}
+		return str;
+	}
+
+
+	$(function () {
+		"use strict";
+		var $search = $('#search'),
+			$distance = $('#distance'),
+			$category = $('input[type="radio"]'),
+			$table = $('table'),
+			params = decodeURIComponent(window.location.search.replace(/\+/g,"%20")),
+			pArray,
+			loc,
+			index,
+			addr,
+			value,
+			key;
+		params = params.substr(1); //remove ?
+		$table.tablesorter();
+		if (params.indexOf("z=") !== -1 || params.indexOf("zoom=") !== -1) { //change default zoom level
+			pArray = params.split("&");
+			$.each(pArray, function () {
+				value = this.split("=");
+				key = value[0];
+				value = value[1];
+				if (key === "zoom" || key === "z") {
+					zoom = parseInt(value, 10);
+				}
+			});
+		}
+		if (params.indexOf("loc=") !== -1 || params.indexOf("q=") !== -1) { //oh boy a location!
+			pArray = params.split("&");
+			$.each(pArray, function () {
+				value = this.split("=");
+				key = value[0];
+				value = value[1];
+				if (key === "loc" || key === "q") {
+					addr = value;
+				} else if (key === "r" || key === "radius") {
+					radius = value;
+				}
+			});
+			$search.val(addr);
+			manualLocation(addr);
+		} else if (navigator.geolocation) { //fire up geolocation
+			setTimeout(function () {
+				navigator.geolocation.getCurrentPosition(locationPageSuccess, manualLocation, {enableHighAccuracy: true});
+			}, 500);
+		} else { //or just ask
+			manualLocation();
+		}
+		window.setInterval(function () {
+			foursquareQuery(currentPosition.lat, currentPosition.lng);
+		}, 300000); //refresh map every 5 mins
+		$category.click(function () {
+			category = $('input[type="radio"]:checked').val();
+			foursquareQuery(currentPosition.lat, currentPosition.lng);
+		});
+		$distance.change(function () {
+			radius = $distance.val();
+			foursquareQuery(currentPosition.lat, currentPosition.lng);
+		});
+		$search.change(function () {
+			if ($search.val()) {
+				manualLocation($search.val());
+			}
+		});
+		$('body').on('click', 'tr', function () {
+			var latlng = $(this).find('.latlng').text().split(","),
+				lat = parseFloat(latlng[0]).toFixed(3),
+				lng = parseFloat(latlng[1]).toFixed(3),
+				i = 0,
+				venueLat,
+				venueLng;
+			for (i = 0; i < venueList.length; i++) {
+				venueLat = venueList[i].location.lat.toFixed(3);
+				venueLng = venueList[i].location.lng.toFixed(3);
+				if ((lat === venueLat) && (lng === venueLng)) { //match! Show window!
+					//console.log("match!");
+					var contentString = venueInfoOutput(venueList[i]);
+					infoWindow.setContent(contentString);
+					infoWindow.setPosition(new google.maps.LatLng(lat, lng));
+					infoWindow.open(map);
+				}
+			}
+		});
+	});
+	</script>
+	</body>
+</html>

@@ -1,0 +1,95 @@
+<html>
+	<head>
+		<title>Base64 - bradorego.com</title>
+		<meta name="description" content="A Javascript image to base64 converted made by Brad Orego" />
+		<meta name="keywords" content="Base64, Image conversion, Javascript, Brad Orego" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<style>
+			body {
+				background: rgba(230,230,230,1);
+			}
+			input {
+			    position: absolute;
+			    visibility: hidden;
+			    opacity: 0;
+			}
+			span {
+			    text-align: center;
+			    font-size: 16px;
+			    padding: 10px;
+			    display: block;
+			}
+			label {
+			    display: inline-block;
+				margin: 4px;
+				background-color: #38a3e3;
+				font-weight: bold;
+				color: white;
+				letter-spacing: 1px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="dropZone">
+			<label>
+				<input id="pic" type="file" accept="image/*" />
+				<span>Add a Photo</span>
+			</label>
+			 OR Drag & Drop an image file ANYWHERE!
+			<div id="b64"></div>
+			<img id="res" src="" />
+		</div>
+		<script type="text/javascript">
+			document.addEventListener("DOMContentLoaded", function (e) {
+				if (window.File && window.FileReader && window.FileList && window.Blob && window.getSelection) {
+				  // Great success! All the File APIs are supported.
+				} else {
+					alert('The File APIs are not fully supported in this browser.');
+				}
+				var v = document.getElementById('pic').value,
+				    $pic = document.getElementById('pic'),
+				    $res = document.getElementById('res'),
+				    $b64 = document.getElementById('b64'),
+				    $dropZone = document.body,
+				    sel = window.getSelection(),
+				    range = document.createRange(),
+				    reader = new FileReader();
+				reader.onload = function(evt) {
+					var data = evt.target.result;
+					data = data.replace('data:base64', 'data:image/jpeg;base64');
+			    	$res.setAttribute('src', data);
+	                $b64.innerHTML = data;
+	                range.selectNodeContents($b64);
+	                sel.removeAllRanges();
+	                sel.addRange(range);
+		        };
+		        $dropZone.addEventListener('dragenter', function (e) {
+					e.stopPropagation();
+					e.preventDefault();
+				});
+				$dropZone.addEventListener('dragover', function (e) {
+					e.stopPropagation();
+					e.preventDefault();
+				});
+				$dropZone.addEventListener('dragleave', function (e) {
+					e.stopPropagation();
+					e.preventDefault();
+				});
+				$dropZone.addEventListener('drop', function (e) {
+					e.stopPropagation();
+					e.preventDefault();
+					if (e.dataTransfer.files.length > 1) {
+						alert("I said _AN_ image file. Not multiple :P");
+						return false;
+					}
+					reader.readAsDataURL(e.dataTransfer.files[0]);
+				}, false);
+				$pic.addEventListener('change', function (e) {
+				    if (e.target.files.length > 0) {
+				        reader.readAsDataURL(e.target.files[0]);
+				    }
+				});
+			});
+		</script>
+	</body>
+</html>
