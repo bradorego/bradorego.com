@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&display=swap');
 
 :root {
   /* Colors */
@@ -197,4 +198,47 @@ img {
 .construction li a {
   display: inline;
   padding: 0;
+}
+
+/* Accessibility Overrides */
+html[data-a11y-dyslexic="true"] {
+  --font-sans: 'OpenDyslexic', 'Lexend', 'Comic Sans MS', sans-serif;
+  --font-mono: 'OpenDyslexicMono', 'Lexend', 'Comic Sans MS', monospace;
+  font-size: 1.25rem;
+  line-height: 1.8;
+  letter-spacing: 0.05em;
+  word-spacing: 0.1em;
+}
+
+html[data-a11y-contrast="true"] {
+  --color-bg: #000000;
+  --color-bg-offset: #111111;
+  --color-text: #ffffff;
+  --color-text-muted: #e0e0e0;
+  --color-primary: #ffff00; /* High contrast yellow instead of orange */
+  --color-primary-hover: #ffcc00;
+  --color-border: #ffffff;
+}
+
+html[data-a11y-contrast="true"] .btn-outline {
+  border-width: 2px;
+}
+
+html[data-a11y-contrast="true"] .card {
+  border-width: 2px;
+}
+
+html[data-a11y-motion="true"] {
+  --transition-normal: 0s;
+  scroll-behavior: auto;
+}
+
+html[data-a11y-motion="true"] * {
+  transition: none !important;
+  animation: none !important;
+}
+
+/* Utilities */
+.hidden {
+  display: none !important;
 }

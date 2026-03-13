@@ -37,6 +37,14 @@ const {
     
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+    <script is:inline>
+      try {
+        const a11ySettings = JSON.parse(localStorage.getItem('a11y') || '{}');
+        if (a11ySettings.dyslexic) document.documentElement.setAttribute('data-a11y-dyslexic', 'true');
+        if (a11ySettings.contrast) document.documentElement.setAttribute('data-a11y-contrast', 'true');
+        if (a11ySettings.motion) document.documentElement.setAttribute('data-a11y-motion', 'true');
+      } catch (e) {}
+    </script>
   </head>
   <body>
     <nav class="navbar">
@@ -82,6 +90,73 @@ const {
         </div>
       </div>
     </footer>
+    
+    <div class="a11y-panel-container">
+      <button id="a11y-toggle" class="btn btn-primary a11y-btn" aria-label="Accessibility Options" title="Accessibility Options" style="display: flex; align-items: center; justify-content: center;">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="28" height="28">
+          <circle cx="12" cy="4" r="2"/>
+          <path d="M21 9h-6v13h-2v-6h-2v6H9V9H3V7h18v2z"/>
+        </svg>
+      </button>
+      <div id="a11y-menu" class="a11y-menu hidden">
+        <h4>Accessibility</h4>
+        <label class="a11y-toggle-row">
+          <span>Dyslexia-friendly</span>
+          <input type="checkbox" id="toggle-dyslexic" />
+        </label>
+        <label class="a11y-toggle-row">
+          <span>High Contrast</span>
+          <input type="checkbox" id="toggle-contrast" />
+        </label>
+        <label class="a11y-toggle-row">
+          <span>Reduce Motion</span>
+          <input type="checkbox" id="toggle-motion" />
+        </label>
+      </div>
+    </div>
+
+    <script>
+      const btn = document.getElementById('a11y-toggle');
+      const menu = document.getElementById('a11y-menu');
+      
+      btn?.addEventListener('click', () => {
+        menu?.classList.toggle('hidden');
+      });
+
+      let settings = {};
+      try {
+        settings = JSON.parse(localStorage.getItem('a11y') || '{}');
+      } catch (e) {}
+      
+      ['dyslexic', 'contrast', 'motion'].forEach(key => {
+        const input = document.getElementById(`toggle-${key}`);
+        if (input) {
+          input.checked = !!settings[key];
+          input.addEventListener('change', (e) => {
+            const isChecked = e.target.checked;
+            settings[key] = isChecked;
+            localStorage.setItem('a11y', JSON.stringify(settings));
+            if (isChecked) {
+              document.documentElement.setAttribute(`data-a11y-${key}`, 'true');
+            } else {
+              document.documentElement.removeAttribute(`data-a11y-${key}`);
+            }
+          });
+        }
+      });
+    </script>
+    <script>
+      // Automatically open external links in a new tab
+      document.addEventListener('DOMContentLoaded', () => {
+        const links = document.querySelectorAll('a[href^="http"], a[href^="//"]');
+        links.forEach(link => {
+          if (link.hostname !== window.location.hostname) {
+            link.setAttribute('target', '_blank');
+            link.setAttribute('rel', 'noopener noreferrer');
+          }
+        });
+      });
+    </script>
   </body>
 </html>
 
@@ -193,5 +268,62 @@ const {
 
   .rochester-made a:hover img {
     opacity: 1;
+  }
+
+  /* Accessibility Panel Styles */
+  .a11y-panel-container {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 1000;
+  }
+
+  .a11y-btn {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    padding: 0;
+    font-size: 1.5rem;
+    box-shadow: var(--shadow-md);
+  }
+
+  .a11y-menu {
+    position: absolute;
+    bottom: 4.5rem;
+    right: 0;
+    width: 250px;
+    background: var(--color-bg-offset);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    padding: 1rem;
+    box-shadow: 0 10px 25px -5px rgb(0 0 0 / 0.5);
+    transition: opacity var(--transition-normal), transform var(--transition-normal);
+  }
+
+  .a11y-menu.hidden {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(10px);
+  }
+
+  .a11y-menu h4 {
+    margin-bottom: 1rem;
+    font-size: 1.125rem;
+  }
+
+  .a11y-toggle-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.75rem;
+    cursor: pointer;
+    font-size: 0.875rem;
+    color: var(--color-text);
+  }
+
+  .a11y-toggle-row input {
+    cursor: pointer;
+    width: 1.25rem;
+    height: 1.25rem;
   }
 </style>

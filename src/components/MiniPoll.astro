@@ -1,0 +1,246 @@
+---
+export interface Props {
+  id: string;
+  question: string;
+  options: {
+    id: string;
+    label: string;
+    percentage: number; // Simulated percentage
+  }[];
+}
+
+const { id, question, options } = Astro.props;
+---
+
+<div class="poll-container card" id={`poll-${id}`} data-poll-id={id}>
+  <div class="card-body">
+    <h3 class="poll-question">{question}</h3>
+    
+    <div class="poll-options">
+      {options.map((option) => (
+        <button 
+          class="poll-option btn btn-outline" 
+          data-option-id={option.id}
+          data-percentage={option.percentage}
+        >
+          <span class="option-label">{option.label}</span>
+          <div class="option-results-bar" style="width: 0%"></div>
+          <span class="option-percentage hidden">{option.percentage}%</span>
+        </button>
+      ))}
+    </div>
+    <p class="poll-thanks hidden" style="margin-top: 1rem; color: var(--color-text-muted); text-align: center; font-size: 0.875rem;">
+      Thanks for helping me research! 📊
+    </p>
+  </div>
+</div>
+
+<script>
+  import { supabase, hasSupabase } from '../lib/supabase';
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const polls = document.querySelectorAll('.poll-container');
+    
+    polls.forEach(async (poll) => {
+      const pollId = poll.getAttribute('data-poll-id');
+      if (!pollId) return;
+
+      const optionsContainer = poll.querySelector('.poll-options');
+      const optionBtns = poll.querySelectorAll('.poll-option');
+      const thanksMsg = poll.querySelector('.poll-thanks');
+      
+      const hasVoted = localStorage.getItem(`poll_voted_${pollId}`);
+
+      // Fetch live data directly from Supabase
+      let liveTotals: Record<string, number> = {};
+      let liveTotalVotes = 0;
+      let isMock = !hasSupabase;
+
+      if (hasSupabase) {
+        try {
+          // Fetch raw votes
+          const { data, error } = await supabase!
+            .from('poll_votes')
+            .select('option_id')
+            .eq('poll_id', pollId);
+
+          if (!error && data) {
+            isMock = false;
+            // Calculate totals manually
+            data.forEach((vote: any) => {
+              liveTotals[vote.option_id] = (liveTotals[vote.option_id] || 0) + 1;
+              liveTotalVotes++;
+            });
+          }
+        } catch (e) {
+          console.error("Failed to fetch live poll data", e);
+        }
+      }
+
+      // Helper to calculate and apply percentages
+      const applyPercentages = (extraVoteId: string | null = null) => {
+        let currentTotalVotes = liveTotalVotes;
+        let currentTotals = { ...liveTotals };
+
+        if (!isMock && extraVoteId && !hasVoted) {
+          currentTotals[extraVoteId] = (currentTotals[extraVoteId] || 0) + 1;
+          currentTotalVotes++;
+        }
+
+        optionBtns.forEach(btn => {
+          const optId = btn.getAttribute('data-option-id');
+          if (!optId) return;
+          
+          let percentage = 0;
+          if (isMock) {
+            // Fallback to the hardcoded prop percentage
+            percentage = parseInt(btn.getAttribute('data-percentage') || '0', 10);
+          } else {
+            // Calculate real percentage
+            const count = currentTotals[optId] || 0;
+            percentage = currentTotalVotes > 0 ? Math.round((count / currentTotalVotes) * 100) : 0;
+            // Update the DOM attributes so showResults uses the dynamic ones
+            btn.setAttribute('data-percentage', percentage.toString());
+            const pctLabel = btn.querySelector('.option-percentage');
+            if (pctLabel) pctLabel.textContent = `${percentage}%`;
+          }
+        });
+      };
+
+      // Function to reveal results state
+      const showResults = (selectedId: string | null) => {
+        applyPercentages(selectedId);
+        
+        if (optionsContainer) optionsContainer.classList.add('results-shown');
+        if (thanksMsg) thanksMsg.classList.remove('hidden');
+
+        optionBtns.forEach(btn => {
+          (btn as HTMLButtonElement).disabled = true; // Disable further clicks
+          const isSelected = btn.getAttribute('data-option-id') === selectedId;
+          const percentage = btn.getAttribute('data-percentage');
+          const bar = btn.querySelector('.option-results-bar') as HTMLElement;
+          const pctLabel = btn.querySelector('.option-percentage');
+          
+          if (isSelected) {
+            btn.classList.add('selected');
+          }
+          
+          if (bar) {
+            setTimeout(() => {
+              bar.style.width = `${percentage}%`;
+            }, 50);
+          }
+          
+          if (pctLabel) {
+            pctLabel.classList.remove('hidden');
+          }
+        });
+      };
+
+      if (hasVoted) {
+        // If already voted, apply real percentages and show
+        showResults(hasVoted);
+      } else {
+        // Just apply percentages quietly in background so they are ready
+        applyPercentages();
+        
+        optionBtns.forEach(btn => {
+          btn.addEventListener('click', async (e) => {
+            const selectedId = (e.currentTarget as HTMLElement).getAttribute('data-option-id');
+            localStorage.setItem(`poll_voted_${pollId}`, selectedId || 'true');
+            
+            // Optimistically show results
+            showResults(selectedId);
+            
+            // Submit vote directly to Supabase
+            if (hasSupabase && selectedId) {
+              try {
+                const { error } = await supabase!
+                  .from('poll_votes')
+                  .insert([
+                    { poll_id: pollId, option_id: selectedId }
+                  ]);
+                
+                if (error) console.error("Supabase insert error:", error);
+              } catch (err) {
+                console.error("Failed to submit vote", err);
+              }
+            }
+          });
+        });
+      }
+    });
+  });
+</script>
+
+<style>
+  .poll-question {
+    margin-bottom: 1.5rem;
+    color: var(--color-primary);
+  }
+  .poll-options {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  .poll-option {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    text-align: left;
+    overflow: hidden;
+    white-space: normal;
+    background: transparent;
+    z-index: 1; /* Keep text above the bar */
+  }
+  
+  .poll-option .option-label,
+  .poll-option .option-percentage {
+    position: relative;
+    z-index: 3;
+    pointer-events: none; /* Let clicks pass through to button */
+  }
+  
+  .poll-option .option-percentage {
+    font-weight: 600;
+  }
+
+  .option-results-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: var(--color-bg-offset);
+    z-index: 2;
+    transition: width 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94); /* Smooth easing */
+  }
+
+  /* When hovered before voting */
+  .poll-options:not(.results-shown) .poll-option:hover {
+    background-color: var(--color-bg-offset);
+  }
+
+  /* When results are shown */
+  .poll-options.results-shown .poll-option {
+    cursor: default;
+    border-color: var(--color-border);
+  }
+  
+  .poll-options.results-shown .poll-option:hover {
+    background-color: transparent; /* Remove hover state */
+  }
+  
+  .poll-options.results-shown .poll-option.selected {
+    border-color: var(--color-primary);
+  }
+  
+  .poll-options.results-shown .poll-option.selected .option-results-bar {
+    background-color: rgba(var(--color-primary-rgb), 0.2);
+  }
+  
+  .hidden {
+    display: none !important;
+  }
+</style>

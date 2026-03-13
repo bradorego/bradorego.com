@@ -1,33 +1,69 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import MiniPoll from '../components/MiniPoll.astro';
 ---
 
 <Layout title="Home">
   <div class="container">
-    <div class="card construction">
+    <div class="card interactive-hero" id="hero-module">
       <div class="card-body">
-        <p>
-          <u>March 2026:</u> Hey look! New website! Thanks, Gemini/Antigravity! That being said, everything below still applies:
-        </p>
-        <ul>
-          <li>I've updated the list of writing and speaking below and still take <a href="/coaching">1:1 coaching clients</a>.</li>
-          <li>I now have a <a href="https://bradorego.substack.com/">Substack</a>. You should subscribe.</li>
-          <li>I still don't have a traditional, public-facing portfolio, but can assemble one for presentation on request.</li>
-          <li>If you're unfortunate enough to (still) be looking for a resumé, you can find a (probably outdated) one <a href="/resume">here</a>.</li>
-        </ul>
-        <p>
-          Keep an eye out for some interesting offerings coming from me soon, including AI libraries and group coaching/mastermind sessions. Intrigued? Follow the <a href="https://bradorego.substack.com/">substack</a>.
-        </p>
+        <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem;">
+          <img src="/img/headshot.jpeg" alt="Brad Orego" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover; box-shadow: var(--shadow-sm);" />
+          <h1 style="margin-bottom: 0; font-size: 2.25rem;">Hi, I'm Brad. How can I help you today?</h1>
+        </div>
+        <div class="hero-options" id="hero-options">
+          <button class="btn btn-outline hero-btn" data-target="coaching-content">I'm looking for a coach</button>
+          <button class="btn btn-outline hero-btn" data-target="hire-content">I want to hire a Researcher</button>
+          <button class="btn btn-outline hero-btn" data-target="reading-content">I'm just here to read</button>
+        </div>
+
+        <div id="coaching-content" class="hero-content hidden">
+          <h3 style="color: var(--color-primary); margin-bottom: 1rem;">Coaching & Mentorship</h3>
+          <p>I take 1:1 coaching clients to help you unblock your career, discover new avenues of growth, and empower a path toward understanding yourself. All coaching clients are invited to a shared Slack space to share wins, ask questions, share resources, and support each other.</p>
+          <div style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+            <a href="/coaching" class="btn btn-primary">Learn more about coaching</a>
+            <button class="btn btn-outline hero-back-btn">Start over</button>
+          </div>
+        </div>
+
+        <div id="hire-content" class="hero-content hidden">
+          <h3 style="color: var(--color-primary); margin-bottom: 1rem;">Hire Me</h3>
+          <p>I've built and scaled multiple UX and Research functions. Keep an eye out for some interesting offerings coming from me soon, including AI libraries and group coaching/mastermind sessions.</p>
+          <ul style="margin-top: 1rem; padding-left: 1.5rem; margin-bottom: 1.5rem;">
+            <li style="margin-bottom: 0.5rem;">I don't have a traditional public portfolio, but can assemble one on request.</li>
+            <li style="margin-bottom: 0.5rem;">You can find a generic <a href="/resume">resumé</a> here (personalized resumes available upon request).</li>
+            <li><a href="mailto:hello@bradorego.com">Contact me</a></li>
+          </ul>
+          <button class="btn btn-outline hero-back-btn">Start over</button>
+        </div>
+
+        <div id="reading-content" class="hero-content hidden">
+          <h3 style="color: var(--color-primary); margin-bottom: 1rem;">Read & Learn</h3>
+          <p>I write about UX, Leadership, and ResearchOps. Check out my writing below, or learn more about my speaking engagements via <a id="writing-to-coaching">coaching</a>.</p>
+          <ul style="margin-top: 1rem; padding-left: 1.5rem; margin-bottom: 1.5rem;">
+            <li style="margin-bottom: 0.5rem;">Subscribe to my <a href="https://bradorego.substack.com/">Substack</a>.</li>
+            <li>Browse the <a href="/blog">Blog Archives</a>.</li>
+          </ul>
+          <button class="btn btn-outline hero-back-btn">Start over</button>
+        </div>
       </div>
     </div>
 
-    <a href="/coaching" class="btn btn-primary btn-block btn-lg" style="margin-bottom: 2rem;">
-      I want to learn more about coaching
-    </a>
-
-    <div class="card">
+    <div class="card hidden" id="secondary-content" style="animation: fadeIn var(--transition-normal); margin-top: 2rem;">
       <div class="card-body">
-        <h3>Blog Posts</h3>
+        <div id="typing-indicator" class="typing-indicator">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+
+        <div id="secondary-revealed" class="hidden" style="animation: fadeIn var(--transition-normal);">
+          <p style="color: var(--color-text-muted); margin-bottom: 2rem; text-align: center; font-size: 1.125rem;">
+            <em>...Oh, and here's some other stuff you can check out!</em>
+          </p>
+
+          <div id="writings-section" class="secondary-section hidden">
+            <h3>Selected Writings</h3>
         <ul class="link-list">
           <li><a href="https://greatquestion.co/ux-research/ai-knowledge-management">From Repository to Reality: How AI Activates Insights</a></li>
           <li><a href="https://greatquestion.co/ux-research/ai-analysis-synthesis">AI for UXR Analysis & Synthesis: Taming the Messy Middle</a></li>
@@ -52,8 +88,10 @@ import Layout from '../layouts/Layout.astro';
           <li><a href="https://medium.com/auth0-design/why-were-building-an-ops-first-research-practice-bfe42dc8c957">Why we're building an Ops-First Research Practice</a></li>
           <li>or see older posts <a href="/blog">here.</a></li>
         </ul>
+          </div>
 
-        <h3 style="margin-top: 2.5rem;">Speaking Engagements</h3>
+          <div id="speaking-section" class="secondary-section hidden">
+            <h3 style="margin-top: 2.5rem;">Speaking Engagements</h3>
         <ul class="link-list">
           <li><a href="https://www.rallyuxr.com/event/myths-hot-takes-ai-in-research">Myths and Hot Takes: AI in Research</a></li>
           <li><a href="https://www.youtube.com/watch?v=H4vUITBEF4A&t=2695s">Research is (Partially) Broken | UXRConf 2025</a></li>
@@ -69,16 +107,196 @@ import Layout from '../layouts/Layout.astro';
           <li><a href="https://researchops.podbean.com/e/episode-3-brad-orego-director-on-the-board-of-the-researchops-community/">Episode 3: Brad Orego, Director on the board of the ResearchOps Community</a></li>
           <li><a href="https://www.theuxcoach.com/2019/04/30/why-dont-we-practice-design-every-day.html">Why don't we practice design every day? (UX Coach Podcast)</a></li>
         </ul>
+          </div>
 
-        <p style="margin-top: 2.5rem; color: var(--color-text-muted);">Interested? <a href="mailto:hello@bradorego.com?subject=I might want to hire you" style="color: var(--color-primary); font-weight: 600;">Let's chat 😉</a></p>
+          <div id="case-studies-section" class="secondary-section hidden">
+            <h3 style="margin-top: 2.5rem;">Case Studies</h3>
+            <p><em>Check back soon for in-depth write-ups of past projects!</em></p>
+          </div>
+
+          <p style="margin-top: 3.5rem; color: var(--color-text-muted); text-align: center;">Interested? <a href="mailto:hello@bradorego.com?subject=I might want to hire you" style="color: var(--color-primary); font-weight: 600;">Let's chat 😉</a></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mini Polls Section -->
+    <div style="margin-top: 4rem; margin-bottom: 2rem;">
+      <h2 style="text-align: center; margin-bottom: 2rem;">Help Me Research! 🔬</h2>
+      
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+        <MiniPoll 
+          id="hardest-part"
+          question="What's the hardest part of UX Research today?"
+          options={[
+            { id: 'recruiting', label: 'Recruiting the right users', percentage: 34 },
+            { id: 'buyin', label: 'Getting stakeholder buy-in', percentage: 42 },
+            { id: 'synthesis', label: 'Analysis & Synthesis time', percentage: 15 },
+            { id: 'impact', label: 'Measuring actual impact', percentage: 9 }
+          ]}
+        />
+        
+        <MiniPoll 
+          id="ai-tools"
+          question="How do you feel about AI in user research?"
+          options={[
+            { id: 'love', label: 'Love it, use it daily', percentage: 28 },
+            { id: 'curious', label: 'Curious but cautious', percentage: 52 },
+            { id: 'skeptical', label: 'Highly skeptical', percentage: 17 },
+            { id: 'nope', label: 'Nope, no way', percentage: 3 }
+          ]}
+        />
       </div>
     </div>
   </div>
 </Layout>
 
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const optionsPanel = document.getElementById('hero-options');
+    const contentPanels = document.querySelectorAll('.hero-content');
+    const heroBtns = document.querySelectorAll('.hero-btn');
+    const backBtns = document.querySelectorAll('.hero-back-btn');
+
+    // Phase 3 elements
+    const secondaryContent = document.getElementById('secondary-content');
+    const typingIndicator = document.getElementById('typing-indicator');
+    const secondaryRevealed = document.getElementById('secondary-revealed');
+    const secondarySections = document.querySelectorAll('.secondary-section');
+
+    let typingTimeout;
+
+    heroBtns.forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        const targetId = e.currentTarget.getAttribute('data-target');
+
+        // Hide options
+        optionsPanel.classList.add('hidden');
+
+        // Show target content
+        contentPanels.forEach(panel => {
+          if (panel.id === targetId) {
+            panel.classList.remove('hidden');
+          } else {
+            panel.classList.add('hidden');
+          }
+        });
+
+        // Show secondary content container
+        if (secondaryContent) {
+          clearTimeout(typingTimeout);
+
+          secondaryContent.classList.remove('hidden');
+          typingIndicator.classList.remove('hidden');
+          secondaryRevealed.classList.add('hidden');
+
+          // Hide all contextual blocks and header
+          secondarySections.forEach(s => s.classList.add('hidden'));
+
+          // Delay for 4s
+          typingTimeout = setTimeout(() => {
+            typingIndicator.classList.add('hidden');
+            secondaryRevealed.classList.remove('hidden');
+
+            // Map hero selection to secondary content
+            if (targetId === 'coaching-content') {
+              document.getElementById('speaking-section').classList.remove('hidden');
+            } else if (targetId === 'hire-content') {
+              document.getElementById('case-studies-section').classList.remove('hidden');
+            } else if (targetId === 'reading-content') {
+              document.getElementById('writings-section').classList.remove('hidden');
+            }
+          }, 4000);
+        }
+      });
+    });
+
+    backBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        // Hide all contents
+        contentPanels.forEach(panel => {
+          panel.classList.add('hidden');
+        });
+
+        // Hide secondary content
+        if (secondaryContent) {
+          clearTimeout(typingTimeout);
+          secondaryContent.classList.add('hidden');
+        }
+
+        // Show options
+        optionsPanel.classList.remove('hidden');
+      });
+    });
+
+    const writingToCoachingBtn = document.getElementById('writing-to-coaching');
+    if (writingToCoachingBtn) {
+      writingToCoachingBtn.addEventListener('click', () => {
+        const coachingBtn = document.querySelector('.hero-btn[data-target="coaching-content"]');
+        if (coachingBtn) {
+          coachingBtn.click();
+        }
+      });
+    }
+  });
+</script>
+
 <style>
   .btn-lg {
     padding: 1rem 2rem;
     font-size: 1.125rem;
+  }
+
+  .interactive-hero {
+    transition: all var(--transition-normal);
+  }
+  .hero-options {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  @media (min-width: 768px) {
+    .hero-options {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  }
+  .hero-btn {
+    flex: 1;
+    min-width: 250px;
+    font-size: 1.125rem;
+    padding: 1.5rem;
+    height: auto;
+    white-space: normal;
+  }
+  .hero-content {
+    animation: fadeIn var(--transition-normal);
+    margin-top: 1.5rem;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .typing-indicator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 2rem 1rem;
+  }
+  .typing-indicator .dot {
+    width: 10px;
+    height: 10px;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    animation: typing 1.4s infinite ease-in-out both;
+  }
+  .typing-indicator .dot:nth-child(1) { animation-delay: -0.32s; }
+  .typing-indicator .dot:nth-child(2) { animation-delay: -0.16s; }
+  @keyframes typing {
+    0%, 80%, 100% { transform: scale(0); }
+    40% { transform: scale(1); }
   }
 </style>
