@@ -1,0 +1,156 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+
+const allBlogPosts = await getCollection('blog');
+const sortedPosts = allBlogPosts.sort((a, b) => {
+  const dateA = new Date(a.data.publishdate || a.data.date || 0);
+  const dateB = new Date(b.data.publishdate || b.data.date || 0);
+  return dateB.valueOf() - dateA.valueOf();
+});
+---
+<Layout title="Blog Archive">
+  <div class="container" style="max-width: 1140px; padding: 2rem 1.5rem 4rem;">
+    <a href="/" class="btn btn-outline" style="margin-bottom: 2rem;">&larr; Back Home</a>
+
+    <h1 style="margin-bottom: 2rem;">Blog Archive</h1>
+
+    <div class="post-list">
+      {sortedPosts.map((post) => (
+        <div class="card blog-card">
+          {post.data.image && (
+            <div class="blog-image">
+              <a href={`/blog/${post.id}`}><img src={post.data.image} alt={post.data.title} /></a>
+            </div>
+          )}
+          <div class="card-body blog-content">
+            <h2 style="margin-bottom: 0.5rem;"><a href={`/blog/${post.id}`}>{post.data.title}</a></h2>
+
+            <div class="blog-meta">
+              <em>
+                Posted on {post.data.date ? new Date(post.data.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) : ''}
+                {post.data.categories && post.data.categories.length > 0 && (
+                  <span> in {post.data.categories.map((category: string, index: number) => (
+                    <><a href={`/categories/${category.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}>{category}</a>{index < post.data.categories.length - 1 ? ', ' : ''}</>
+                  ))}</span>
+                )}
+              </em>
+            </div>
+
+            {post.data.tags && post.data.tags.length > 0 && (
+              <div class="blog-tags" style="margin-top: 0.25rem;">
+                <em>
+                  <strong style="font-weight: 500;">Tags:</strong>
+                  {post.data.tags.map((tag: string) => (
+                    <span style="margin-right: 0.25rem;">
+                      [<a href={`/tags/${tag.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}>{tag}</a>]
+                    </span>
+                  ))}
+                </em>
+              </div>
+            )}
+
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .blog-card {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    overflow: hidden;
+    margin-bottom: 2rem;
+  }
+
+  @media (min-width: 768px) {
+    .blog-card {
+      flex-direction: row;
+      align-items: stretch;
+    }
+  }
+
+  .blog-image {
+    width: 100%;
+    background: var(--color-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  @media (min-width: 768px) {
+    .blog-image {
+      width: 33%;
+      border-bottom: none;
+      border-right: 1px solid var(--color-border);
+      position: relative;
+    }
+  }
+
+  .blog-image a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .blog-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-height: 250px;
+  }
+
+  @media (min-width: 768px) {
+    .blog-image img {
+      max-height: none;
+      position: absolute;
+      top: 0; left: 0;
+    }
+  }
+
+  .blog-content {
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .blog-content h2 {
+    font-family: var(--font-mono);
+    font-weight: 700;
+  }
+
+  .blog-content h2 a {
+    color: var(--color-text);
+    text-decoration: none;
+  }
+
+  .blog-content h2 a:hover {
+    color: var(--color-primary);
+    text-decoration: none;
+  }
+
+  .blog-meta {
+    color: var(--color-text-muted);
+    font-size: 0.95rem;
+  }
+
+  .blog-tags {
+    color: var(--color-text-muted);
+    font-size: 0.95rem;
+  }
+
+  .blog-meta a, .blog-tags a {
+    color: var(--color-text-muted);
+    transition: color 0.2s ease;
+  }
+
+  .blog-meta a:hover, .blog-tags a:hover {
+    color: var(--color-primary);
+  }
+</style>

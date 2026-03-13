@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>FB Like Bomb</title>
+    <meta name="description" content="Like all of the photos in your friends' album that aren't currently liked.">
+    <meta name="author" content="Brad Orego">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="FB Like Bomb">
+    <meta property="og:description" content="Like all of the photos in your friends' album that aren't currently liked.">
+    <script>
+        window.fbAsyncInit = function() {
+          // init the FB JS SDK
+          FB.init({
+            appId      : '145297608974624', // App ID from the App Dashboard
+            status     : true, // check the login status upon init?
+            cookie     : true, // set sessions cookies to allow your server to access the session?
+            xfbml      : true  // parse XFBML tags on this page?
+          });
+
+          // Additional initialization code such as adding Event Listeners goes here
+
+        };
+
+        // Load the SDK's source Asynchronously
+        // Note that the debug version is being actively developed and might
+        // contain some type checks that are overly strict.
+        // Please report such bugs using the bugs tool.
+        (function(d, debug){
+           var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+           if (d.getElementById(id)) {return;}
+           js = d.createElement('script'); js.id = id; js.async = true;
+           js.src = "//connect.facebook.net/en_US/all" + (debug ? "/debug" : "") + ".js";
+           ref.parentNode.insertBefore(js, ref);
+         }(document, /*debug*/ false));
+
+        ///// like code: http://stackoverflow.com/questions/8921870/liking-a-photo-using-fb-api-and-jquery
+        like = function(postId) {
+            FB.api('/'+postId+'/likes', 'post', function(result) {
+                if (!result) {
+                    alert('Error: No Response');
+                } else if (result.error) {
+                    alert('Error: '+result.error.message+'');
+                } else {
+                    if (result==true) {
+                        $('#likeButton-'+postId).hide();
+                        $('#unlikeButton-'+postId).show();
+                    }
+                }
+            });
+        }
+    </script>
+    <style type="text/css">
+        #loading {
+            position: absolute;
+            top: 0.5em;
+            right: 5%;
+            width: 90%;
+            height: 7em;
+            padding-top: 5em;
+            text-align: center;
+            background: rgba(0,0,0,0.5);
+            color: white;
+            font-size: 2em;
+            display: none;
+        }
+        #btn {
+            width: 10em;
+            height: 5em;
+            font-size: 5em;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="fb-root"></div>
+    <button id="btn">Like Bomb!</button>
+    <div id="results"></div>
+    <div id="loading">Loading...</div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    var photosToLike = [],
+        timer,
+        currentPhoto,
+        maxPhotos,
+        userID,
+        i = 0,
+        isLiked = false;
+
+    $(function(){
+        var $FBbtn = $('#btn'),
+            $loading = $('#loading'),
+            $results = $('#results');
+        $FBbtn.click(function () {
+            FB.login(function (response) {
+                if (response.authResponse) {
+                    userID = response.authResponse.userID;
+                    FB.api('/me/friends', function(response) {
+                        $results.children().remove();
+                        for (var i = 0; i < response.data.length; i++) {
+                            var friend = response.data[i];
+                            $results.append('<li><button class="friends" id="'+ friend.id +'">' + friend.name + '</button></li>');
+                        }
+                    });
+                } else {
+                    alert("How are we supposed to Like-Bomb if you don't authorize with FB?!");
+                }
+            }, {
+                scope: 'friends_photos,user_photos,friends_videos,publish_stream'
+            }); //login
+        });//fbbtn click
+        $('body').on('click', '.friends', function(e) {
+            var friendID = $(this).attr('id');
+            FB.api('/' + friendID + '/albums?fields=id,name&limit=200', function(response) {
+                $results.children().remove();
+                for (var i=0; i<response.data.length; i++) {
+                    var album = response.data[i];
+                    $results.append('<li><button class="albums" id="'+ album.id +'">'+album.name+'</button></li>');
+                }
+                if (response.data.length === 0) {
+                    $results.append("<h1>No albums available :(</h1>");
+                }
+            });
+        });
+
+        $('body').on('click', '.albums', function(e){
+            if ($loading.hasClass('loading')) {
+                return false;
+            }
+            $loading.show().addClass('loading');
+            var albumID = $(this).attr('id');
+            FB.api('/' + albumID + '/photos?limit=200', function (photos) {
+                if (photos && photos.data && photos.data.length) {
+                    photosToLike = photos;
+                    currentPhoto = 0;
+                    maxPhotos = photosToLike.data.length;
+                    timer = setInterval(function (e) {
+                        $loading.text("Liking Photo #" + currentPhoto + " out of " + maxPhotos);
+                        if (currentPhoto < maxPhotos) {
+                            var photo = photosToLike.data[currentPhoto];
+                            if (typeof(photo.likes) === "undefined") {
+                                like(photo.id);
+                            } else {
+                                isLiked = false;
+                                photo.likes.data.forEach(function(val, index){
+                                    if (val.id === userID) {
+                                        isLiked = true;
+                                    }
+                                });
+                                if (!isLiked) {
+                                    like(photo.id);
+                                }
+                                /// do nothing
+                            }
+                            currentPhoto++;
+                        } else {
+                            clearInterval(timer);
+                            $loading.hide().removeClass('loading');
+                        }
+                    }, 3000);
+                }
+            });
+        });
+    }); //jquery
+    </script>
+</body>
+</html>

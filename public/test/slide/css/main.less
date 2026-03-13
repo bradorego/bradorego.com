@@ -1,0 +1,405 @@
+///////////////////////////////////
+/// colors
+///////////////////////////////////
+@header_blue: rgba(56, 163, 227, 1);
+@dark_grey_text: rgba(95, 95, 95, 1);
+@medium_grey_text: rgba(135, 135, 135, 1);
+@body_bg: rgba(245, 245, 245, 1);
+@events_bg: rgba(230, 230, 230, 1);
+@in_green: green;
+@out_red: red;
+@maybe_grey: grey;
+
+//////////////////////////////////////
+/// font sizes, spacing, etc
+//////////////////////////////////////
+@events_border: 1px solid @medium_grey_text;
+@events_padding: 15px;
+@events_body_margin_left: 55px;
+@default_radius: 4px;
+@profile_pic_large: 48px;
+@profile_pic_medium: 34px;
+@profile_pic_small: 24px;
+
+//////////////////////////////////
+/// main CSS
+//////////////////////////////////
+html, body, .page {
+	height: 100%;
+}
+
+.hidden {
+	display: none !important;
+}
+body {
+	background: @body_bg;
+	font-family: Helvetica, Arial, sans-serif;
+	color: @dark_grey_text;
+	&.active {
+		overflow: hidden;
+	}
+} // end body
+header {
+	height: 30px;
+	background: @header_blue;
+	padding-top: 10px;
+	position: relative;
+	text-align: center;
+		button {
+			height: 40px;
+			background: transparent;
+			border: none;
+		} // end button
+} // end header
+
+.slideout{
+	background: @body_bg; 
+	width: 85%;
+	z-index: 5;
+	-webkit-transition-duration: .25s;
+	&.left {
+		left: -100%;
+		border-right: 2px solid @medium_grey_text;
+		&.active {
+		    -webkit-transform: translate3d(117%, 0, 0);
+		    transform: translate3d(117%, 0, 0);
+		}
+	}
+	&.right {
+		right: -100%;
+		border-left: 2px solid @medium_grey_text;
+		&.active {
+		    -webkit-transform: translate3d(-117%, 0, 0);
+		    transform: translate3d(-117%, 0, 0);
+		}
+	}
+} // end .slideout
+
+#actionButtons, 
+#statusToggles, 
+#status, 
+#itsOn, 
+#friendsInviteFriends {
+	label {
+		display: inline-block; 
+	    width:70px;
+	    margin:4px;
+	    background-color:@header_blue;
+	    font-weight: bold;
+	    color: white;
+	    letter-spacing: 1px;
+	    span {
+	    	text-align:center;
+		    font-size: 16px;
+		    padding:10px 0px;
+		    display:block;
+	    }
+	    input {
+	    	display: none;
+	    }
+	    input:checked + span {
+	    	background-color: @dark_grey_text;
+	    }
+	} // end label
+} // end #actionButtons, #statusToggle, #status, #itsOn, #friendsInviteFriends, 
+
+
+
+
+
+
+
+/////////////////////////////////////////
+/// plan CSS
+/////////////////////////////////////////
+.slideout, .page {
+	position: absolute;
+	display: block;
+	height: 100%;
+	top: 0;
+}
+.page {
+	left: 0;
+	width: 100%;	
+	-webkit-transition-duration: .25s;
+	&.left {
+	    -webkit-transform: translate3d(84.5%, 0, 0);
+	    transform: translate3d(0, 0, 0);
+	}
+	&.right {
+		-webkit-transform: translate3d(-84.5%, 0, 0);
+	    transform: translate3d(0, 0, 0);
+	}
+	header {
+		#left {
+			left: 0px;
+		}
+		#right {
+			right: 0px;
+		}
+		button {
+			position: absolute;
+			top: 0px;
+		}
+	} // end header
+} // end .page
+#planView {
+	#info {
+		font-size: 18px;
+		text-align: center;
+		padding-bottom: 8px;
+		border-bottom: @events_border;
+		#backgroundImage {
+			position: relative;
+			box-shadow: 0px -30px 40px -15px black inset;
+			span {
+				position: absolute;
+				font-size: 1.5em;
+				color: white;
+				bottom: 5px;
+				left: 5px;
+			}
+			img {
+				width: 100%;
+				position: relative;
+				z-index: -1;
+			}
+		} // end #backgroundImage 
+		#actionButtons {
+			label {
+				width: 29%;
+			}
+			input#actionIn:checked + span {
+		    	background-color:@in_green;
+		    }
+		    input#actionOut:checked + span {
+		    	background-color:@out_red;
+		    }
+		} // end #actionButtons 
+	} // end #info 
+	#events {
+		color: @medium_grey_text;
+		background: @events_bg;
+		article {
+			padding: @events_padding;
+			border-bottom: @events_border;
+			.profile_pic {
+				width: @profile_pic_large;
+				border-radius: @default_radius;
+				float: left;
+			}
+			.body {
+				margin-left: @events_body_margin_left;
+				img {
+					margin: 5px auto;
+					width: 100%;
+				}
+			}
+			&::after {
+				display: block;
+				clear: both;
+				content: ' ';
+			}
+			i {
+				float: right;
+				&.like-icon {
+					background: url('');
+				}
+				&.its-on-icon {
+					background: url('');
+				}
+				&.check-in-icon {
+					background: url('');
+				}
+				&.nudge-icon {
+					background: url('');
+				}
+			} // end i 
+			&.people_invited {
+				ul {
+					margin: 0; padding: 0;
+					li {
+						list-style: none;
+						display: inline;
+						text-align: center;
+						float: left;
+						margin: 5px;
+						img {
+							width: @profile_pic_large;
+							border-radius: @default_radius;
+						}
+					}
+				}
+			} // end &.people invited
+		} // end article
+	} // end #events
+	footer {
+		background: @medium_grey_text;
+		text-align: center;
+		button {
+			height: 30px;
+			background: transparent;
+			color: white;
+			border: none;
+		}
+		textarea {
+			width: 95%;
+			margin: 5px auto 10px;
+			font-size: 16px;
+			padding: 10px;
+		}
+	} // end footer 
+	
+	.slideout {
+		&.right { /// plan details/invited friends list
+			
+			header {
+				background: @dark_grey_text;
+				button {
+					margin: -10px 10px 0px;
+					width: 100px;
+					position: relative;
+					color: white;
+					&.active::after {
+						content: ' ';
+						position: absolute;
+						display: block;
+						border: 10px solid transparent;
+						border-bottom-color: @body_bg;
+						bottom: 0;
+						left: 40px;
+					}
+				}
+			} // end header
+			#invitedWrap {
+				#statusToggles {
+					border-bottom: @events_border;
+					text-align: center;
+					label {
+						background-color: transparent;
+						color: rgba(200, 200, 200, 1);
+						span {
+							background-color: transparent;
+						}
+					    input#toggleIn:checked + span {
+					    	color: @in_green;
+					    }
+					    input#toggleOut:checked + span {
+					    	color: @out_red;
+					    }
+					    input#toggleMaybe:checked + span {
+					    	color: @maybe_grey;
+					    }
+					}
+				}
+				#list {
+					ul {
+						height: 75%;
+						overflow-y: scroll;
+						margin: 0; padding: 0;
+						box-shadow: inset 0px -40px 35px -20px #F5F5F5;
+						li {
+							border-bottom: @events_border;
+							list-style: none;
+							padding: 10px;
+							position: relative;
+							z-index: -1;
+							&:last-of-type {
+								margin-bottom: 40px;
+							}
+							img {
+								width: @profile_pic_medium;
+								border-radius: @default_radius;
+								margin: 0px 10px 0px 30px;
+							}
+							span {
+								position: absolute;
+								top: 33%;
+							}
+							i {
+								position: absolute;
+								top: 33%;
+							}
+						}
+					} // end ul
+				} //end #list
+				footer {
+					position: absolute;
+					bottom: 0;
+					width: 100%;
+					background: @header_blue;
+					button {
+						width: 100%;
+					}
+				}
+			} // end #invitedWrap
+			#detailsWrap {
+				height: 90%;
+				overflow-y: scroll;
+				box-shadow: inset 0px -40px 35px -20px #F5F5F5;
+				#titleMap {
+					height: 150px;
+					overflow: hidden;
+					padding: 0px;
+					span {
+						color: black;
+						font-size: 24px;
+						font-weight: bold;
+						padding: 5px;
+					}
+					img {
+						width: 100%;
+					}
+				} // end #titleMap
+				section {
+					border-bottom: @events_border;
+					padding: 10px 10px 10px 30px;
+					font-weight: bold;
+					position: relative;
+					/// z-index: -1; /// so the shadow is above them
+					&:last-of-type {
+						margin-bottom: 40px;
+					}
+					&#itsOn,
+					&#friendsInviteFriends {
+						padding: 10px;
+						&::after {
+							content: ' ';
+							display: block;
+							clear: both;
+						}
+						&>div {
+							float: right;
+							display: inline;
+						}
+						&>span {
+							position: absolute;
+							top: 23px;
+						}
+					} // end #itsOn, #friendsInviteFriends
+					label {
+					    input#statusIn:checked + span,
+					    input#itsOnYes:checked + span,
+					    input#friendsInviteFriendsYes:checked + span {
+					    	background-color: @in_green;
+					    }
+					    input#statusOut:checked + span,
+					    input#itsOnNo:checked + span,
+					    input#friendsInviteFriendsNo:checked + span {
+					    	background-color: @out_red;
+					    }
+					    input#statusMaybe:checked + span {
+					    	background-color: @maybe_grey;
+					    }
+					} // end label
+					&#status {
+						padding: 10px;
+						label {
+							width: 30%;
+						}
+					}
+				} // end section
+			} // end #detailsWrap
+		} // end .right
+	} // end .slideout
+} // end #planView

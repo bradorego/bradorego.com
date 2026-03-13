@@ -1,31 +1,26 @@
-# Compiled Object files, Static and Dynamic libs (Shared Objects)
-*.o
-*.a
-*.so
+# build output
+dist/
+# generated types
+.astro/
 
-# Folders
-_obj
-_test
-node_modules
+# dependencies
+node_modules/
 
-# Architecture specific extensions/prefixes
-*.[568vq]
-[568vq].out
-
-*.cgo1.go
-*.cgo2.c
-_cgo_defun.c
-_cgo_gotypes.go
-_cgo_export.*
-
-_testmain.go
-
-*.exe
-*.test
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
 
-/themes
-!/themes/startbootstrap-clean-blog/ # don't ignore the theme we need
+# environment variables
+.env
+.env.production
+
+# macOS-specific files
 .DS_Store
+
+# jetbrains setting folder
+.idea/
 
 *.sublime*
