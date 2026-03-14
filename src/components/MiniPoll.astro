@@ -13,7 +13,7 @@ const { id, question, options } = Astro.props;
 ---
 
 <div class="poll-container card" id={`poll-${id}`} data-poll-id={id}>
-  <div class="card-body">
+  <div class="card-body p-4">
     <h3 class="poll-question">{question}</h3>
     
     <div class="poll-options">

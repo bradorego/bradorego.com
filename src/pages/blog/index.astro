@@ -23,7 +23,7 @@ const sortedPosts = allBlogPosts.sort((a, b) => {
               <a href={`/blog/${post.id}`}><img src={post.data.image} alt={post.data.title} /></a>
             </div>
           )}
-          <div class="card-body blog-content">
+          <div class="card-body blog-content p-4">
             <h2 style="margin-bottom: 0.5rem;"><a href={`/blog/${post.id}`}>{post.data.title}</a></h2>
 
             <div class="blog-meta">

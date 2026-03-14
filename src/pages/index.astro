@@ -1,14 +1,17 @@
 ---
+import { getCollection } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
 import MiniPoll from '../components/MiniPoll.astro';
 import selectedWritings from '../data/selected-writings.json';
 import speakingEngagements from '../data/speaking-engagements.json';
+
+const caseStudies = await getCollection('casestudies');
 ---
 
 <Layout title="Home">
   <div class="container">
-    <div class="card interactive-hero" id="hero-module">
-      <div class="card-body">
+    <div class="card p-4 interactive-hero" id="hero-module">
+      <div class="card-body p-4">
         <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem;">
           <img src="/img/headshot.jpeg" alt="Brad Orego" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover; box-shadow: var(--shadow-sm);" />
           <h1 style="margin-bottom: 0; font-size: 2.25rem;">Hi, I'm Brad. How can I help you today?</h1>
@@ -51,8 +54,8 @@ import speakingEngagements from '../data/speaking-engagements.json';
       </div>
     </div>
 
-    <div class="card hidden" id="secondary-content" style="animation: fadeIn var(--transition-normal); margin-top: 2rem;">
-      <div class="card-body">
+    <div class="card p-4 hidden" id="secondary-content" style="animation: fadeIn var(--transition-normal); margin-top: 2rem;">
+      <div class="card-body p-4">
         <div id="typing-indicator" class="typing-indicator">
           <span class="dot"></span>
           <span class="dot"></span>
@@ -84,8 +87,23 @@ import speakingEngagements from '../data/speaking-engagements.json';
           </div>
 
           <div id="case-studies-section" class="secondary-section hidden">
-            <h3 style="margin-top: 2.5rem;">Case Studies</h3>
-            <p><em>Check back soon for in-depth write-ups of past projects!</em></p>
+            <h3 style="margin-top: 2.5rem; margin-bottom: 1.5rem;">Case Studies</h3>
+            <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem;">
+              {caseStudies.map(cs => (
+                <div class="card" style="display: flex; flex-direction: column; height: 100%;">
+                  {cs.data.image && (
+                    <a href={`/case-studies/${cs.id}`} style="display: block;">
+                      <img src={cs.data.image} alt={cs.data.title} style="width: 100%; height: 160px; object-fit: cover; border-top-left-radius: var(--radius-md); border-top-right-radius: var(--radius-md); display: block;" />
+                    </a>
+                  )}
+                  <div class="card-body p-4" style="flex: 1; display: flex; flex-direction: column;">
+                    <h4 style="margin-bottom: 0.5rem; font-size: 1.125rem;"><a href={`/case-studies/${cs.id}`} style="text-decoration: none; color: var(--color-text); transition: color var(--transition-short);">{cs.data.title}</a></h4>
+                    <p style="font-size: 0.875rem; color: var(--color-text-muted); margin-bottom: 1.5rem; flex: 1;">{cs.data.description}</p>
+                    <a href={`/case-studies/${cs.id}`} class="btn btn-outline" style="align-self: flex-start; padding: 0.5rem 1rem; font-size: 0.875rem;">View Case Study</a>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
 
           <p style="margin-top: 3.5rem; color: var(--color-text-muted); text-align: center;">Interested? <a href="mailto:hello@bradorego.com?subject=I might want to hire you" style="color: var(--color-primary); font-weight: 600;">Let's chat 😉</a></p>
@@ -166,7 +184,7 @@ import speakingEngagements from '../data/speaking-engagements.json';
           // Hide all contextual blocks and header
           secondarySections.forEach(s => s.classList.add('hidden'));
 
-          // Delay for 4s
+          // Delay for 3s
           typingTimeout = setTimeout(() => {
             typingIndicator.classList.add('hidden');
             secondaryRevealed.classList.remove('hidden');
@@ -179,7 +197,7 @@ import speakingEngagements from '../data/speaking-engagements.json';
             } else if (targetId === 'reading-content') {
               document.getElementById('writings-section').classList.remove('hidden');
             }
-          }, 4000);
+          }, 3000);
         }
       });
     });
