@@ -220,6 +220,8 @@ const { id, question, options } = Astro.props;
   /* When hovered before voting */
   .poll-options:not(.results-shown) .poll-option:hover {
     background-color: var(--color-bg-offset);
+    color: var(--color-text); /* Fix contrast issue */
+    border-color: var(--color-primary);
   }
 
   /* When results are shown */
@@ -229,11 +231,13 @@ const { id, question, options } = Astro.props;
   }
   
   .poll-options.results-shown .poll-option:hover {
-    background-color: transparent; /* Remove hover state */
+    background-color: transparent !important; /* Force remove hover background */
+    color: var(--color-text) !important; /* Force keep text readable */
   }
   
   .poll-options.results-shown .poll-option.selected {
     border-color: var(--color-primary);
+    color: var(--color-text) !important;
   }
   
   .poll-options.results-shown .poll-option.selected .option-results-bar {
