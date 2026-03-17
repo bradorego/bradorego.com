@@ -97,6 +97,25 @@ img {
   padding: 0 1.5rem;
 }
 
+/* Scroll Progress Bar */
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 4px;
+  background: linear-gradient(to right, var(--color-primary), var(--color-primary-hover));
+  z-index: 9999;
+  transition: width 0.1s ease-out;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
 /* Buttons */
 .btn {
   display: inline-flex;

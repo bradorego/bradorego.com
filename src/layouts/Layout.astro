@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import { ClientRouter } from 'astro:transitions';
 
 export interface Props {
   title: string;
@@ -37,6 +38,7 @@ const {
     
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+    <ClientRouter />
     <script is:inline>
       try {
         const a11ySettings = JSON.parse(localStorage.getItem('a11y') || '{}');
@@ -47,25 +49,25 @@ const {
     </script>
   </head>
   <body>
-    <nav class="navbar">
+    <div id="scroll-progress" class="scroll-progress"></div>
+    <nav class="navbar" transition:persist>
       <div class="container nav-container">
         <a class="brand" href="/">
           <h1>Brad Orego <span class="pronouns">(they/them)</span></h1>
           <h2>UX Leader. User Researcher. Coach. Dancer.</h2>
         </a>
         <div class="nav-actions">
-          <a href="/#hire" class="btn btn-outline nav-btn">Case Studies</a>
           <a href="/coaching" class="btn btn-outline nav-btn">Coaching</a>
           <a href="https://cal.com/bradorego" class="btn btn-outline nav-btn">Meetings</a>
         </div>
       </div>
     </nav>
     
-    <main class="main-content">
+    <main class="main-content" transition:animate="slide">
       <slot />
     </main>
 
-    <footer class="footer">
+    <footer class="footer" transition:persist>
       <div class="container text-center">
         <div class="social-links">
           <a href="mailto:hello@bradorego.com" aria-label="Email">
@@ -145,10 +147,46 @@ const {
           });
         }
       });
+
+      // Prevent redundant transitions to the same page
+      document.addEventListener('astro:before-preparation', (event) => {
+        const from = new URL(event.from.href);
+        const to = new URL(event.to.href);
+        
+        const fromPath = from.pathname.replace(/\/$/, '') || '/';
+        const toPath = to.pathname.replace(/\/$/, '') || '/';
+        
+        if (fromPath === toPath && from.search === to.search) {
+          event.preventDefault();
+        }
+      });
+    </script>
+    <script>
+      /**
+       * Scroll Progress Bar Logic
+       * This needs to work across ViewTransitions/ClientRouter navigations.
+       */
+      const updateScrollProgress = () => {
+        const progressBar = document.getElementById('scroll-progress');
+        if (!progressBar) return;
+        
+        const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        const scrolled = height > 0 ? (winScroll / height) * 100 : 0;
+        progressBar.style.width = scrolled + "%";
+      };
+
+      // Initial load
+      window.addEventListener('scroll', updateScrollProgress);
+      
+      // Handle page transitions
+      document.addEventListener('astro:page-load', () => {
+        updateScrollProgress();
+      });
     </script>
     <script>
       // Automatically open external links in a new tab
-      document.addEventListener('DOMContentLoaded', () => {
+      document.addEventListener('astro:page-load', () => {
         const links = document.querySelectorAll('a[href^="http"], a[href^="//"]');
         links.forEach(link => {
           if (link.hostname !== window.location.hostname) {

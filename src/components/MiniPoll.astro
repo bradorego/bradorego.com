@@ -38,7 +38,7 @@ const { id, question, options } = Astro.props;
 <script>
   import { supabase, hasSupabase } from '../lib/supabase';
 
-  document.addEventListener('DOMContentLoaded', () => {
+  document.addEventListener('astro:page-load', () => {
     const polls = document.querySelectorAll('.poll-container');
     
     polls.forEach(async (poll) => {
